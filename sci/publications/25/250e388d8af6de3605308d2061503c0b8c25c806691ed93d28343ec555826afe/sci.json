@@ -1,0 +1,186 @@
+{
+  "title": "A physical model shows that published hyperpolarized xenon-129 MRI task responses exceed what local blood flow can cause, and that current xenon methods need about 1 cm voxels",
+  "abstract": "A physical model shows that the large brain responses reported with inhaled hyperpolarized xenon-129 MRI cannot come from local blood-flow changes, and that current xenon methods need voxels of about 1 cm to detect brain activity. This matters because these studies and a patent application present xenon MRI as a functional brain method with about 100 times the signal change of BOLD functional MRI. Hyperpolarized xenon is gas whose nuclear spins are aligned by laser light; after one breath it dissolves in blood, enters the brain, and gives a non-renewable MRI signal that increases with cerebral blood flow (CBF). We modelled xenon uptake, transport and spin relaxation, used a brain template with maps of visual and motor cortex, took human xenon signal-to-noise ratio (SNR) from the literature, and simulated the published processing. Model values are medians with 5-95 % ranges over parameter draws; simulations use nominal values. In fully active grey matter, +50 % CBF raises the xenon signal by 50 % (47-53 %). In the published 12.5 mm projection pixels, it gives about 10 % (at most 12 %) at the best motor pixel and 39 % (at most 48 %) at the best visual pixel. The published mean 'percent signal enhancement' was 123 +/- 60 %, against 1.3 % for BOLD, from one task and one rest breath-hold. With no activation, the largest single-pixel ratio among pixels with SNR above 2 was 123 % (64-209 %) in our simulation, and 71-237 % across masks and delay sets. When changes are divided by the mean brain signal, noise gives 49 % (29-79 %), but 1-2 s differences in bolus arrival between breath-holds change the fitted perfusion slope by 7-120 %. A reported 50-100 % whole-cerebrum rise during a 1-back task needs a global change, not local activity. Per unit volume, the published xenon perfusion maps had 65-280 times less SNR than the arterial spin labelling (ASL) images that they were compared with. To detect a strong visual response at z = 5 (a strict statistical threshold) in a best-placed 5 mm voxel, BOLD needs 2.5 min, ASL 13 min, xenon at a physical ceiling with ideal receive coils 18 min, and current xenon practice about 23 h of breath-holds. Main limits: xenon T1 in human grey matter and the regional blood-flow noise per breath-hold are not measured, the published definition of percent enhancement is not stated, and the template anatomy and SNR anchor favour xenon.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "hyperpolarized xenon-129",
+    "functional MRI",
+    "cerebral blood flow",
+    "perfusion imaging",
+    "arterial spin labelling",
+    "BOLD",
+    "signal-to-noise ratio",
+    "detection limit",
+    "tracer kinetics",
+    "claim test",
+    "non-invasive brain imaging"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_claims.png",
+      "caption": "Signal change for task versus rest, log scale. Blue: physical model (this work), with CBF-driven changes in fully active grey matter, in the best published projection pixels, and over the whole brain for a local task or a global CBF change. Orange: published claims (2017 whole-cerebrum rise during a 1-back task; 2020 mean percent enhancement of 123 +/- 60 % from the patent application). Green: what the published one-task-one-rest processing gives with noise only (median and 5-95 % of 1000 simulations) under three definitions of percent enhancement, and with 1 s random bolus-timing jitter (its lower 5 % limit is below zero and is cut by the log axis). Grey: 3 T BOLD. The dashed line is the largest change that a doubled CBF can cause."
+    },
+    {
+      "path": "files/figures/fig2_resolution.png",
+      "caption": "Smallest cubic voxel side that detects a strong visual (left) or hand-motor (right) response at z = 5, against breath-holds per condition. HP-Xe: current practice, best gas dose with current coils, and a first-principles physical ceiling. BOLD and PCASL at 3 T get the same wall-clock time (3 min per breath-hold). Lines are medians of 2000 parameter draws; bands are 5-95 % (shown for current and ceiling HP-Xe); triangles mean no detection in a 40 mm voxel in most draws. BOLD values of 1 mm are the grid floor. The dashed line is the 3.9 mm vascular blur of 3 T gradient-echo BOLD."
+    },
+    {
+      "path": "files/figures/fig3_time_to_detect.png",
+      "caption": "Total scan time to detect a strong visual response at z = 5 in a best-placed 10 mm (left) or 5 mm (right) voxel. Median and 5-95 % of 2000 parameter draws. For HP-Xe, circles assume one breath-hold every 3 min and open squares one every 10 min (polarizer output); breath-holds are whole numbers, at least one per condition."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.3390/diagnostics10090630",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Tested claims: time-of-flight functional maps with percent enhancement up to two orders of magnitude above BOLD, and perfusion SNR about double ASL."
+    },
+    {
+      "target": "https://patents.google.com/patent/US20220039733A1/en",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Gives the tested mean percent signal enhancement (123.1 +/- 59.6 % against BOLD 1.3 +/- 0.3 %) and the pixel-by-pixel definition of the activation image."
+    },
+    {
+      "target": "https://patents.google.com/patent/US12178890B2/en",
+      "reason": "Related granted patent on detecting brain functional activity with hyperpolarized 129Xe MR."
+    },
+    {
+      "target": "https://archive.ismrm.org/2020/0556.html",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Tested claim: Xe CSSR fMRI percent enhancement up to two orders of magnitude greater than BOLD; its delay set is used in the timing test."
+    },
+    {
+      "target": "https://cds.ismrm.org/protected/17MProceedings/PDFfiles/4745.html",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Tested claim: whole-cerebrum xenon signal 50-100 % greater in 1-back task scans acquired after baseline."
+    },
+    {
+      "target": "doi:10.1002/mrm.29200",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Review of HP 129Xe brain imaging; its statement that HP-Xe SNR is comparable to pCASL ignores voxel volume."
+    },
+    {
+      "target": "doi:10.1016/j.jmro.2024.100166",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SNR anchor (8.7-17.7 for 8 x 8 x 50 mm voxels) and breath-hold repeatability (6-29 %)."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34254356/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Initial depolarization pulse reduces breath-hold signal variability by 2.26 times."
+    },
+    {
+      "target": "https://archive.ismrm.org/2019/3319.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Within-subject repeatability of HP 129Xe brain image SNR."
+    },
+    {
+      "target": "doi:10.1148/radiol.2017162881",
+      "reason": "Human brain perfusion imaging with inhaled HP 129Xe."
+    },
+    {
+      "target": "doi:10.1002/mrm.28646",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Grey matter/blood partition coefficient 0.88 and tracer-kinetic framework."
+    },
+    {
+      "target": "doi:10.1002/mrm.28932",
+      "reason": "Multi-slice HP 129Xe human brain imaging; SNR per volume comparison."
+    },
+    {
+      "target": "doi:10.1002/mrm.29602",
+      "reason": "Brain tissue uptake imaging of HP 129Xe."
+    },
+    {
+      "target": "doi:10.1002/mrm.25417",
+      "relations": [
+        "uses"
+      ],
+      "reason": "129Xe relaxation rate in oxygenated blood (0.13 per s)."
+    },
+    {
+      "target": "doi:10.1002/mrm.10726",
+      "reason": "Uptake model of HP 129Xe in the human brain."
+    },
+    {
+      "target": "doi:10.1002/mrm.1910360303",
+      "reason": "Earlier estimate of 129Xe tissue delivery in humans."
+    },
+    {
+      "target": "doi:10.1002/jmri.1880070512",
+      "reason": "Earlier pharmacokinetic estimate of HP xenon signal for cerebral MRI."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0021607",
+      "reason": "Rat HP xenon brain response to sensory stimulation."
+    },
+    {
+      "target": "doi:10.1002/jmri.1880070424",
+      "reason": "Xenon itself changes regional CBF (PET), a confound for task contrasts."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.068",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ASL reference used by the tested SNR claim (single-pair pulsed ASL, 4.1 x 4.1 x 5 mm, TR 3 s)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2005.01.007",
+      "reason": "Physiological noise model for fMRI at 1.5, 3 and 7 T."
+    },
+    {
+      "target": "doi:10.1002/mrm.20712",
+      "reason": "BOLD point spread at 3 T."
+    },
+    {
+      "target": "https://www.bic.mni.mcgill.ca/~vfonov/icbm/2009/mni_icbm152_nlin_sym_09a_nifti.zip",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MNI ICBM152 2009a tissue probability maps."
+    },
+    {
+      "target": "https://www.nitrc.org/frs/download.php/12096/Juelich.tgz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Juelich cytoarchitectonic atlas (V1, V2, BA4, BA3)."
+    },
+    {
+      "target": "sci:sha256:3e44c6b7859b1a78a22d1c55c556ff4cbcb8112d086bc5b0c58fab014bb97f1f",
+      "reason": "Related SCI feasibility study of transcranial functional ultrasound with the same z = 5 detection convention and fMRI comparators."
+    },
+    {
+      "target": "sci:sha256:4609278b404454b9fc903c2cfafa0ba1581101357e0a03632339db8a6d72ede3",
+      "reason": "Related SCI study of contrast-agent limits for functional brain imaging."
+    }
+  ]
+}
