@@ -1,0 +1,153 @@
+{
+  "title": "Under-scalp electrodes barely sharpen EEG maps of cortex while electrodes in or below the bone do, in layered head models checked on 61 recordings of known intracerebral sources",
+  "abstract": "Electrodes placed under the scalp, on the skull, show cortical activity almost as blurred as scalp electrodes; electrodes must go into or below the bone, and be closely spaced, to give much sharper maps. This matters because minimally invasive EEG implants under the scalp and very dense scalp caps are now in use, and both are often expected to improve spatial detail. We calculated the potential of cortical current sources in layered spherical head models (brain, cerebrospinal fluid, skull, scalp) at five electrode depths, and how finely an electrode array can separate independent cortical patches when electrode noise is present (optimal linear estimate; checked against an exact matrix calculation within 17 percent). We tested the model with a public data set (Localize-MI) in which known currents were injected inside the brains of 7 patients while 256 scalp electrodes recorded (61 recordings). The model correlated with the measured scalp maps at a median of 0.91 and fitted the distance dependence of spontaneous EEG, which set the single-trial noise level. A 10 nAm dipole 1.5 mm below the brain surface gives a half-maximum radius of 29 mm on the scalp, 23 mm under the scalp, 6 mm inside the bone and 3 mm on the dura. For single trials, arrays under the scalp resolve cortical patches only 1.04 to 1.20 times smaller than scalp arrays of equal 5 mm spacing (12 head-model variants); arrays inside or below the bone resolve patches 2.3 to 5.0 times smaller (about 5 mm), but dural arrays with 10 mm or wider spacing leave most of the cortex between electrodes unseen. A scalp cap with 8.6 mm spacing instead of 15.7 mm makes the resolvable patch 1.12 to 1.26 times smaller. The measured maps also hold a reproducible fine structure that a smooth head model does not produce: interpolation from the other electrodes misses 20 percent of the map amplitude, mostly at a few electrodes, and the structure is mostly specific to the stimulated electrode shaft, with a small position-like part per electrode. If an error of 8 to 16 percent per electrode remains in averaged scalp EEG, halving it helps about as much as 3.3 times more channels. Limits: spherical geometry, a radial source sheet, assumed implant noise, no muscle artefacts, and one patient data set with skull openings.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "keywords": [
+    "EEG",
+    "subscalp EEG",
+    "epidural electrodes",
+    "electrode density",
+    "spatial resolution",
+    "volume conduction",
+    "head model",
+    "high-density EEG",
+    "electrode position error",
+    "Localize-MI",
+    "minimally invasive brain-computer interface",
+    "skull",
+    "spherical splines",
+    "degrees of freedom"
+  ],
+  "display": [
+    {
+      "path": "files/figs/fig1_placement_model.png",
+      "caption": "Layered-sphere model. (A) Potential of one 10 nAm radial cortical dipole versus distance at five electrode depths, normalized to the peak (peak values in the legend). (B) Resolvable cortical patch versus electrode spacing for single trials at the noise level fitted to Localize-MI (R = 0.04). (C) The same for 100-trial averages without systematic electrode error (R = 0.4), with scalp curves for 8 and 16 percent systematic electrode error. Thin dashed segments: arrays whose electrodes cover less than half of the surface within their half-maximum footprint. Vertical lines: 15.7 mm (256-channel net in the data) and 8.6 mm (1024-channel cap)."
+    },
+    {
+      "path": "files/figs/fig2_localize_mi.png",
+      "caption": "Checks with Localize-MI (7 patients, 61 recordings). (A) Semivariance of spontaneous EEG (3-45 Hz) versus electrode distance, median and interquartile band over recordings, with the fitted layered model plus an independent per-electrode component (0.87 µV rms, origin unknown). (B) Error of predicting held-out electrodes by spherical-spline interpolation from N electrodes, relative to the map rms: measured stimulation maps versus smooth model maps with the measured noise; dotted: trial-to-trial noise. (C) Agreement of the layered-sphere prediction with each measured map versus depth of the stimulated contacts."
+    },
+    {
+      "path": "files/figs/fig3_robustness.png",
+      "caption": "(A) Resolvable patch at 5 mm spacing versus activity-to-noise ratio R for the five depths; scalp with 8 and 16 percent systematic electrode error dash-dotted and dotted; grey bands: single-trial and 100-trial scalp ranges. (B) Gain over scalp (scalp patch divided by patch) at 5 mm spacing for single trials in 12 head-model variants."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41597-020-0467-x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Localize-MI data descriptor: known intracerebral current sources with 256-channel scalp EEG, used to test the head model and to measure the electrode error floor."
+    },
+    {
+      "target": "doi:10.12751/g-node.1cc1ae",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Localize-MI data release (G-Node GIN), CC BY-NC-SA 4.0; streamed, not redistributed."
+    },
+    {
+      "target": "sci:sha256:81e5e9913a402bb1473a4deeb8068d0fb012a8f3c7834b451094d020e70e61c4",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Earlier SCI audit of the same pulse averages found repeatable residuals of one-map descriptions; we measure their size and show they are specific to the stimulated shaft."
+    },
+    {
+      "target": "sci:sha256:b282fbc7de4fe7514f56ed6b2736b1ab92db1b8ad11222569c0f23fd7f745a34",
+      "reason": "Related SCI use of Localize-MI for tissue-response calibration; different question."
+    },
+    {
+      "target": "sci:sha256:51d445ffd7617ffbbd5d134c375b44e326afb70bf5d38afc2bd2d2187b774e75",
+      "reason": "Related SCI limit study of scalp EEG noise at high frequencies."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/7/2/026004",
+      "reason": "Prior noise-free comparison of scalp, epidural and subdural electrode spacing."
+    },
+    {
+      "target": "doi:10.1109/TBME.2006.873744",
+      "reason": "Prior sphere-model study of electrode density, noise and skull resistivity at the scalp."
+    },
+    {
+      "target": "doi:10.3758/BF03209412",
+      "reason": "Prior estimate of the spatial Nyquist rate of scalp EEG."
+    },
+    {
+      "target": "doi:10.1016/S1388-2457(03)00045-2",
+      "reason": "Measured scalp spatial spectra with 3 mm spacing."
+    },
+    {
+      "target": "doi:10.1109/JPROC.2016.2615179",
+      "reason": "Argument that higher scalp electrode density gives more information."
+    },
+    {
+      "target": "doi:10.1038/s41598-017-16377-3",
+      "reason": "Empirical test of super-Nyquist scalp EEG density."
+    },
+    {
+      "target": "doi:10.1038/s41598-024-57167-y",
+      "reason": "Ultra-high-density (8.6 mm) EEG claim of fine cortical mapping."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2506.03423",
+      "reason": "Under-scalp arrays in sheep; states that optimal spacing is unknown."
+    },
+    {
+      "target": "doi:10.1212/WNL.0000000000209428",
+      "reason": "Full-head subscalp EEG in patients: feasibility and safety numbers."
+    },
+    {
+      "target": "doi:10.1016/0013-4694(89)90180-6",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Spherical-spline interpolation used in the held-out electrode test."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4415154",
+      "reason": "Physiological range of cortical current dipole density."
+    },
+    {
+      "target": "doi:10.1002/hbm.21114",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Compact and spongy skull conductivities for the three-layer skull variant."
+    },
+    {
+      "target": "doi:10.1016/j.jneumeth.2019.108378",
+      "reason": "Size of EEG electrode position errors and their effect on forward models (relative difference 0.18 to 0.11)."
+    },
+    {
+      "target": "doi:10.3389/fnins.2014.00042",
+      "reason": "Effect of electrode position error on beamformer source reconstruction."
+    },
+    {
+      "target": "doi:10.1007/s10548-012-0274-6",
+      "reason": "Effects of forward model errors on EEG source localization."
+    },
+    {
+      "target": "doi:10.1016/j.clinph.2015.03.014",
+      "reason": "Subgaleal versus subdural high-gamma recordings in patients."
+    },
+    {
+      "target": "doi:10.1016/j.jneumeth.2015.08.015",
+      "reason": "Saturation of source localization accuracy with sensor density and coverage."
+    }
+  ]
+}
