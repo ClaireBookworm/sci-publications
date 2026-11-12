@@ -1,0 +1,153 @@
+{
+  "title": "Approved contrast doses limit microbubble functional ultrasound of human cortex to 0.5–1 mm voxels per session even with perfect bubble counting, in a Poisson model checked on mouse ULM data",
+  "abstract": "Contrast-based functional ultrasound cannot map human cortical activity at the microscopic scale of its vessel images: the number of microbubbles that the drug labels permit sets a floor of about 0.5-1 mm on the side of a voxel that can show a typical blood-flow response in one session, even if every bubble is counted. This matters because transcranial functional ultrasound localization microscopy (fULM; imaging that finds single injected microbubbles and maps vessels at about 25 um) is planned as a noninvasive high-resolution alternative to fMRI. We treat each bubble that enters a voxel as one count of a Poisson process. The US labels fix the largest bubble exposure (concentration x time) of one session: for Definity, about 3700 bubble passages per mm^3 of cortex. For a 30% flow increase, detection index 3 and 0.6 mL/g/min blood flow, an ideal counter needs a voxel side of 0.50 mm per session at the label maximum (0.62 mm, 5-95% range 0.48-0.81, when the real concentration is 0.3-1 times the label value) and about 2 mm in one 2-s trial. A (25 um)^3 parenchymal voxel needs about 10^6 trials, and one capillary needs about 2 h of stimulus, 45 times more than one dose permits. If only 10% or 1% of bubbles are detected, the session voxel grows to 1.3 or 2.9 mm. Scenarios with localizer saturation (a localizer separates only a few bubbles per point-spread volume) give 6.5 mm in-plane voxels per session for a 2-D probe through the temporal window, and no single-trial detection. Contrast-free power Doppler is statistically better than even the ideal counter if its blood-to-noise ratio per resolution cell is above -3.5 to +9 dB. In public mouse ULM acquisitions (ULMShare; 10 at 15.6 MHz), voxel counts were near Poisson below 1 s (Fano factor 0.93-1.3), and a Poisson power formula predicted semi-synthetic detection rates within 0.04. Detected counts did not follow injected dose (slope 0.10), but this comparison is confounded and does not measure a saturation density. Limits: detection efficiency, saturation density and visible blood fraction are not measured in humans, so the realistic-array numbers are scenarios; clutter, motion and skull heating are not modelled and can only make times longer.",
+  "keywords": [
+    "functional ultrasound",
+    "ultrasound localization microscopy",
+    "microbubbles",
+    "contrast agents",
+    "shot noise",
+    "Poisson statistics",
+    "transcranial imaging",
+    "noninvasive brain imaging",
+    "fundamental limits",
+    "spatial resolution",
+    "temporal resolution",
+    "power Doppler",
+    "ULMShare",
+    "human cortex"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "(A) Smallest detectable flow change against voxel volume over one session at the label-maximum Definity dose: ideal bubble counter, three saturated-localizer scenarios and contrast power Doppler, with an approximate 7 T fMRI reference. (B) Smallest voxel volume against trial window for a 30% flow change at the highest label infusion rate."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.20383/103.01550",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public mouse transcranial ULM microbubble tracks (12 acquisitions) used to measure count statistics, dose saturation and speed variance."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2606.07851",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ULMShare data descriptor: acquisition protocols, doses and processing of the tracks we analysed."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00697-x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human transcranial ULM: PSF sizes, dose and the reported bubble rate used for an order-of-magnitude check."
+    },
+    {
+      "target": "doi:10.1038/s41592-022-01549-5",
+      "reason": "Rat fULM that motivates the human question; reports sparse signals in small vessels."
+    },
+    {
+      "target": "doi:10.1038/s41598-018-38349-x",
+      "reason": "Earlier analysis of how microvascular flow sets ULM acquisition time."
+    },
+    {
+      "target": "doi:10.1109/TMI.2026.3659777",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Poisson model of bubble arrivals in 3D fULM (published version of bioRxiv 10.1101/2025.04.16.649234); finds that amplitude helps where localization saturates."
+    },
+    {
+      "target": "doi:10.1101/2025.08.18.670859",
+      "reason": "Track-based fULM in awake mice; related method for raising count-limited sensitivity."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00824-8",
+      "reason": "Benchmark of ULM localization algorithms; context for the localization density limit."
+    },
+    {
+      "target": "doi:10.1109/TBME.2026.3680008",
+      "reason": "Contrast-free transcranial fUS in adults; the comparator method."
+    },
+    {
+      "target": "doi:10.1038/nmeth.1641",
+      "reason": "Functional ultrasound imaging of the brain."
+    },
+    {
+      "target": "doi:10.1121/1.2109427",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Shelled-bubble model used for the spread of single-bubble echo strength."
+    },
+    {
+      "target": "doi:10.1161/01.STR.5.5.630",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Grubb relation between blood volume and flow."
+    },
+    {
+      "target": "doi:10.1002/mrm.1240",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Physiological-noise model used for the approximate 7 T BOLD reference."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2007.09.024",
+      "reason": "Human cortical microvascular morphometry, context for vessel spacing assumptions."
+    },
+    {
+      "target": "sci:sha256:00c1272e960317dc773abce0cc39fff2669154c84e25f86e96a8b189e61a711b",
+      "reason": "Companion physics-limit study of another noninvasive brain-measurement method (acoustoelectric imaging)."
+    },
+    {
+      "target": "doi:10.1038/s41467-024-47154-2",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Same-animal demonstration that conventional localization saturates with infusion rate in rat brain, and that deep-learning localization raises the plateau; grounds our saturation scenarios."
+    },
+    {
+      "target": "doi:10.1109/OJUFFC.2023.3235766",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Simulation showing that the largest localizable microbubble concentration scales with inverse PSF volume, the form of our capacity scenario."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2019.2916603",
+      "reason": "Poisson model of ULM acquisition time; prior counting-statistics work that our human bound extends."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2020.2980063",
+      "reason": "Zero-inflated Poisson model of per-voxel ULM counts."
+    },
+    {
+      "target": "doi:10.1126/sciadv.adt9778",
+      "reason": "Transcranial 3D ULM in vivo (sheep)."
+    },
+    {
+      "target": "doi:10.1126/scitranslmed.adj3143",
+      "reason": "Contrast-free functional ultrasound of human brain activity through an acoustically transparent cranial window."
+    }
+  ]
+}
