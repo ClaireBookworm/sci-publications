@@ -1,0 +1,148 @@
+{
+  "title": "Small scalp field errors can give large electrode errors in a skull model",
+  "abstract": "Electroencephalography (EEG) measures voltage at electrodes on the scalp. We tested errors from a simple electrical skull model. A complete scalp field test can miss errors at a finite electrode array. We calculated fields in concentric tissue layers. We used a public 64-electrode layout and published conductivity data. The main source pattern had 0.3484% error over the complete scalp. Its mean-referenced electrode voltage was zero within numerical precision. A small added source gave 151.8% relative electrode error. The absolute error was 0.1518% of the largest output for a unit source. We give a sharp error bound with an explicit source penalty. We checked 252 assigned heads and two skull reductions. A separate interface solver agreed within 7.2e-14 relative error. These results apply to fixed spherical heads and specified sources. They do not give error rates for people.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "math.NA"
+    }
+  ],
+  "keywords": [
+    "EEG",
+    "skull conductivity",
+    "volume conduction",
+    "finite electrodes",
+    "source cancellation",
+    "spherical harmonics",
+    "model error",
+    "source norm",
+    "reproducible benchmark"
+  ],
+  "display": [
+    {
+      "path": "files/results/results.png",
+      "caption": "Modal skull errors, sharp bounds with an explicit source penalty, near-silent source sequences, and 252 assigned heads. All electrode outputs are mean referenced. The source penalty is not a noise level."
+    },
+    {
+      "path": "files/results/witness.png",
+      "caption": "A smooth radial source pattern, reference scalp field and reduction error. Electrode directions are black points. Each panel has its own scale; the source is silent only after the sensor reference."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:012557da992a00c6dece4acfdebbcb5beaa63c551cc00efd097b272d08a77d8b",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Uses planar and spherical resistance-matched skull reductions as baselines. Extends evaluation to finite electrode arrays and multiple-source cancellation. No code or numerical results copied."
+    },
+    {
+      "target": "sci:sha256:40fc3aea263de837af017c721972cf9218721182a581c507df0f0af0f6994579",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Uses the complete-scalp modal norm guarantee as a reference and tests its limits after finite electrode sampling. Does not challenge its scoped mathematical claim."
+    },
+    {
+      "target": "sci:sha256:824384dead85c81a992d0cd82017b9bef31e9fb9e5428b269033a580ed4bbe09",
+      "reason": "Related effective skull tensor work; distinguishes periodic material homogenization from finite-head sensor errors."
+    },
+    {
+      "target": "sci:sha256:87cfdbf6817f3331cbe88f4aa598632cd50d74bb6b198e36c4db437a89fb2ef6",
+      "reason": "Related EEG calibration work with explicit source and field-norm limits. No code or recordings reused."
+    },
+    {
+      "target": "doi:10.1109/10.121646",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Established stable anisotropic concentric EEG field solution."
+    },
+    {
+      "target": "doi:10.1103/PhysRevE.86.011917",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Established anisotropic spherical shell equations and layered skull approximations; no new field equation is claimed."
+    },
+    {
+      "target": "doi:10.1007/s10439-007-9343-5",
+      "reason": "Prior evidence that layered and homogeneous anisotropic skulls can produce different fields."
+    },
+    {
+      "target": "doi:10.1002/hbm.21114",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Table I supplies conventional compact, spongy, brain and scalp conductivities for the central reference model."
+    },
+    {
+      "target": "doi:10.1002/hbm.25272",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Table 1 provides a conventional fluid conductivity of 1.79 S/m, attributed there to Baumann et al."
+    },
+    {
+      "target": "doi:10.1002/hbm.20851",
+      "reason": "Prior anatomical EEG and MEG evidence of signal cancellation from distributed and extended neural sources."
+    },
+    {
+      "target": "doi:10.1137/1.9780898719697",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Standard SVD, generalized singular value, nullspace and regularization framework. The present matrix norm rule is an application of established linear algebra."
+    },
+    {
+      "target": "doi:10.1023/A:1014590923185",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Original skull-layer measurements behind public catalog rows; original current, temperature and frequency limits constrain interpretation."
+    },
+    {
+      "target": "doi:10.1007/s10548-019-00710-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Conductivity review and attribution for its public numeric catalog. Uncorrected aggregate means are not used."
+    },
+    {
+      "target": "doi:10.1007/s10548-020-00807-z",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Correction to the conductivity review; informs exclusion of uncorrected aggregate conductivity summaries."
+    },
+    {
+      "target": "https://raw.githubusercontent.com/Head-Conductivity/Human-Head-Conductivity/b0a5c6a251c6b4a279dbd77a853825bb1272632a/Conductivity.ipynb",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Pinned public data source for 22 numeric layer records. Six complete row groupings enter assigned parameter sets. Notebook prose, code and images are not redistributed."
+    },
+    {
+      "target": "https://raw.githubusercontent.com/mne-tools/mne-python/v1.10.2/mne/channels/data/montages/biosemi64.txt",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public nominal 64-electrode coordinate dataset. Fiducials are excluded and the MNE source notice is retained."
+    },
+    {
+      "target": "https://github.com/mne-tools/mne-python/blob/v1.13.2/mne/bem.py",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Independently maintained exact isotropic multi-sphere coefficients validate the new field implementation."
+    }
+  ]
+}
