@@ -1,0 +1,141 @@
+{
+ "title": "In CT models of 78 orbits, ultrasound through the closed eyelid and orbital roof resolves orbitofrontal blood-volume changes only in about 3-4 mm voxels under eye limits, coarser than 3T fMRI",
+ "abstract": "Functional ultrasound can reach the orbitofrontal cortex through the closed eyelid and the thin bone above the eye (the orbital roof), but in a model built from 39 head CT scans it detects a typical blood-volume response there only in voxels of about 3-4 mm side in one minute: coarser than 3 tesla functional MRI (fMRI) and much coarser than 7 tesla fMRI. This matters because the orbitofrontal cortex is hard to measure (skull bone blocks ultrasound and light, and sinus air removes much of the fMRI signal there), and because it shows that the eye socket is a usable but marginal window to cortex, not a high-resolution one. We used 39 normal public head CTs (CQ500; 78 orbits), traced 111 million straight rays from the skin over each orbit to brain targets, and kept rays that cross no air, at most one bone layer and no possible lens position. Bone transmission came from an elastic plate model with shear waves, and sensitivity from a published power-Doppler noise model under the US eye limits (50 mW/cm2, mechanical index 0.23, and thermal index max(soft tissue, cranial bone) <= 1). The orbital roof is 1.52 mm thick per orbit (median; 10-90 percent of orbits 0.96-2.24 mm), close to caliper data. Usable rays meet it at about 38 degrees after 49 mm of tissue, half through the vitreous. The cranial-bone thermal index limits the face intensity to about 12 mW/cm2 over the 13 cm2 driven aperture, and the best frequency is about 1.5-1.8 MHz. For cortex within 10 mm above the roof (13 cm3 per orbit), base inputs give a median-orbit voxel of 2.9 mm (orbits 2.0-4.8 mm); 32 percent of targets beat a 3T fMRI model (2.28 mm) and 7.5 percent beat 7T (1.24 mm). Over 200 Monte Carlo draws the median-orbit voxel is 3.7 mm (90 percent interval 1.8-7.6 mm); where both methods detect, it beats paired 3T fMRI in 19 percent of draws, 3T fMRI with orbitofrontal signal loss in 21 percent, and 7T in none. One 30 mm probe with one frequency gives 3.3 mm, and the small window sets a floor near 2.1 mm. Roof thickness predicts the voxel per orbit (Spearman 0.86), and shear-wave and longitudinal loss in the roof decide most of the uncertainty. Main limits: straight rays, no choroid or vessel clutter, no eye motion, CT-based thickness. An independent review corrected the eye-safety limit and the orbit mask of the first version. A cadaver measurement of roof transmission at 1-3 MHz and 30-50 degrees would settle the decisive inputs.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.IV"
+  }
+ ],
+ "keywords": [
+  "functional ultrasound",
+  "transorbital ultrasound",
+  "orbitofrontal cortex",
+  "orbital roof",
+  "power Doppler",
+  "ophthalmic safety limits",
+  "head CT",
+  "CQ500",
+  "elastic plate transmission",
+  "shear waves in bone",
+  "fMRI susceptibility artefact",
+  "link budget",
+  "noninvasive neuroimaging",
+  "acoustic window"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_headline.png",
+   "caption": "A: transorbital route, schematic with the median measured geometry (no CT pixels). B: one-way transmission of compact-bone plates at 1.6 MHz against incidence angle. C: smallest detectable voxel per orbit for orbitofrontal cortex within 10 mm of the roof (10 % blood-volume change, 60 s per condition, z = 5, eye limits with the cranial-bone thermal index over the driven aperture), with 3T and 7T fMRI models. D: orbital roof thickness per orbit from CT (strict orbit mask), with a cadaver mean."
+  },
+  {
+   "path": "files/figures/fig2_uncertainty.png",
+   "caption": "A: median-orbit voxel over 200 Monte Carlo draws, with paired 3T, 3T-with-orbitofrontal-signal-loss and 7T fMRI models (values above 8 mm are shown at 8 mm; fMRI draws that cannot detect within 60 s are omitted). B: rank correlation of each input with the median-orbit voxel. C: one change from the base inputs at a time."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:4f435c31f20d51df739b9a86d5d9f558ecc6d4c5a5ea2da3ef0f666590fe3f5e",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its power-Doppler speckle and thermal-noise model, its parameter ranges, its bone loss law and its fMRI comparator, and we check our plate model against its temporal-window case."
+  },
+  {
+   "target": "sci:sha256:bc95d39822a231b41bda71ba7d6d0875c9ff33951093160b4704f66c23bd8985",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its CQ500 loader (resampling with gantry tilt) and its list of normal CQ500 scans with thin series."
+  },
+  {
+   "target": "sci:sha256:31423221f2ef815a7501aff9b072c10f2e110d8989c19c35bcd7d43c3c752bb9",
+   "reason": "Contrast-based against contrast-free transcranial functional ultrasound; context for choosing red-cell Doppler."
+  },
+  {
+   "target": "sci:sha256:b6e1b4fdb1dbec39c69cd21ce556081a0c681c686c524127349fe6888bba15f1",
+   "reason": "Microbubble functional ultrasound limits in human cortex; context."
+  },
+  {
+   "target": "sci:sha256:0f788f833b444bdf2d8553a201493eb0e69cf1e65d5163ee23765e6812258321",
+   "reason": "Reporter-based transcranial ultrasound through bone windows; a further use of the orbital window."
+  },
+  {
+   "target": "sci:sha256:766182abbe7ab5000a01b56e41130215c900acb2c3ac0b7d12e4f3c1594493de",
+   "reason": "Another route around the skull (venous-sinus arrays); it does not reach the orbitofrontal cortex."
+  },
+  {
+   "target": "https://sci.azaho.org/publication/?id=ee3980b5-abc1-4e09-b3ef-8d8897db3fe9",
+   "reason": "A sphenoid-sinus magnetometer that reaches orbitofrontal sources; an alternative non-hemodynamic route to the same region."
+  },
+  {
+   "target": "doi:10.1016/S0140-6736(18)31645-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CQ500 head CT data (CC BY-NC-SA 4.0); only derived numbers are published."
+  },
+  {
+   "target": "doi:10.1007/s10143-023-02150-w",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Cadaver orbital-roof thickness at a puncture site (mean 1.7 mm, range 0.2-3.4 mm); our CT values agree."
+  },
+  {
+   "target": "doi:10.1109/TUFFC.2020.3039743",
+   "reason": "Skull fragment attenuation data behind the bone loss law."
+  },
+  {
+   "target": "doi:10.1118/1.3668316",
+   "reason": "Cortical bone attenuation used for the compact-bone loss factor."
+  },
+  {
+   "target": "doi:10.1016/j.ultrasmedbio.2006.03.015",
+   "reason": "Shear-wave speed and shear transmission in skull bone."
+  },
+  {
+   "target": "doi:10.1016/S1053-8119(03)00073-9",
+   "reason": "fMRI signal loss in the orbitofrontal cortex and its partial recovery."
+  },
+  {
+   "target": "doi:10.1007/s10334-006-0067-6",
+   "reason": "Orbitofrontal fMRI dropout from susceptibility gradients in the readout direction."
+  },
+  {
+   "target": "doi:10.1016/j.ultrasmedbio.2016.09.021",
+   "reason": "Lens heating at the ophthalmic intensity limit in porcine eyes."
+  },
+  {
+   "target": "doi:10.1161/01.STR.17.5.916",
+   "reason": "Transorbital Doppler of the intracranial carotid at 2 MHz through the eyelid: the orbit is an established Doppler window to large arteries; we extend it to cortex."
+  },
+  {
+   "target": "doi:10.1097/00001665-199909000-00004",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Caliper orbital-roof thickness 1.37 +/- 1.08 mm in 51 skulls; our CT values agree."
+  },
+  {
+   "target": "doi:10.1006/nimg.1997.0289",
+   "reason": "Location of fMRI susceptibility signal loss, largest in medial orbitofrontal cortex."
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/7793386/",
+   "reason": "Transorbital colour Doppler of the carotid siphon and basal arteries (Hu et al. 1995)."
+  },
+  {
+   "target": "https://www.fda.gov/media/71100/download",
+   "reason": "FDA guidance: ophthalmic Track 3 limits (ISPTA.3 50 mW/cm2, MI 0.23, TI = max(TIS_as, TIC) <= 1)."
+  }
+ ]
+}
