@@ -1,0 +1,146 @@
+{
+  "title": "Scalp acoustoelectric recording of human cortex through a 6 mm ultrasound focus at diagnostic intensity needs about 100,000 trials or more unless neural coupling is ten times that of saline",
+  "abstract": "Scalp electrodes cannot record human cortical activity through a 6 mm ultrasound focus in a practical time at the diagnostic ultrasound intensity limit, unless neural tissue couples pressure and current about ten times more strongly than saline. This matters because several groups develop acoustoelectric recording as a non-invasive method with millimetre and millisecond resolution, but no one had calculated the full signal budget for real neural sources. In acoustoelectric recording, focused ultrasound changes the electrical resistivity of tissue at the focus (constant K, about 4e-10 per pascal in saline), so that local currents appear at the ultrasound frequency. We used a new cell-level theory, cable models of 31 reconstructed human pyramidal neurons, a 3D finite-volume check, a four-shell head model at 0.5 MHz, and published values for safety limits, tissue properties and cortical current strength. At ultrasound frequencies the lead field (the sensitivity pattern of the electrodes) goes through dendritic membranes. Thus, for activity wider than the focus, the modulated current inside neurons cancels the modulated return current outside them: the ionic signal falls to less than 0.2 percent of the conventional prediction. What remains is a term from the pressure dependence of membrane capacitance, and its size has not been measured. For a strong response (0.5 nA m per mm2), a 0.5 MHz focus with a 5.6 mm pressure width, 720 mW/cm2 continuous ultrasound, a coupling coefficient equal to K and the best scalp electrode, the signal is 0.22 nV and the noise is 2.95 nV per root hertz. Detection needs 440,000 trials at 10 ms resolution (100,000 with an ideal electrode array), or 2.4 hours per focal spot for a steady response. One thousand trials are sufficient only at 16 mm resolution (12 mm with an ideal array), or with a coefficient 10 to 21 times K. A published in vivo mouse recording implies a coefficient of roughly 5 to 20 times K. If this applies to human tissue, 1,000 trials are sufficient at 5 to 7 mm. Electrodes within 3 to 5 mm of the focus need 60 to 4,300 trials with K. The main limitations are the unmeasured coefficient, a spherical head model, and mouse values read from figures.",
+  "keywords": [
+    "acoustoelectric imaging",
+    "ultrasound current source density imaging",
+    "non-invasive neuroimaging",
+    "transcranial ultrasound",
+    "EEG",
+    "lead field",
+    "reciprocity",
+    "cable theory",
+    "membrane capacitance",
+    "signal-to-noise ratio",
+    "fundamental limits",
+    "spatial resolution",
+    "ultrasound safety",
+    "human pyramidal neurons",
+    "NeuroMorpho",
+    "feasibility analysis"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "Trials needed at 10 ms resolution (A) and recording time for a steady-state response (B) versus lateral resolution (pressure-amplitude FWHM of the focus), scalp electrodes, 720 mW/cm2 unless stated. Shaded: 95% Monte Carlo range with the saline constant. Black points: electrodes 3-10 mm from the focus."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s44172-026-00598-4",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "We read absolute line amplitudes from its published figures; its sideband-to-evoked-potential ratio implies a coupling coefficient roughly 5-20 times the saline acoustoelectric constant at the stated 1 MPa, and our budget tests its non-invasive outlook."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/abb63a",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Head-phantom tABI work with wire-injected currents; we show physiological macroscopic current densities are 5-150 times below the assumed strongest neural currents and that wire-injected sources do not represent neural sources."
+    },
+    {
+      "target": "doi:10.1109/ULTSYM.2017.8092671",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reports noise-equivalent current densities of 1.3-1.8 mA/cm2 at 1 MPa for a transcranial array, 40-300 times above human macroscopic cortical current densities."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ad169c",
+      "reason": "Prior feasibility simulation of acousto-electrophysiological neuroimaging by source vibration (pV signals); we add the resistivity and membrane-capacitance mechanisms and a full noise budget."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/57/19/5929",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured acoustoelectric constant K in saline and rabbit heart (0.034 and 0.041 %/MPa), used as the nominal coefficient."
+    },
+    {
+      "target": "doi:10.1016/S0041-624X(00)00029-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Order-of-magnitude K (1e-9 per Pa) used as the upper end of the K range."
+    },
+    {
+      "target": "doi:10.1109/TBME.2008.919115",
+      "reason": "Standard acoustoelectric forward model (ultrasound current source density imaging) that we extend to neural sources."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Current dipole moment density of human cortex (0.16-0.77 nA m/mm2) and the cross-species maximum (1-2 nA m/mm2) set the source strength."
+    },
+    {
+      "target": "doi:10.1038/s41586-021-03813-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source of the Allen Cell Types human pyramidal neuron reconstructions used in the cable models."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.2055-07.2007",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NeuroMorpho.Org repository through which the reconstructions were downloaded."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/41/11/003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Cole-Cole tissue dielectric models (via IT'IS V4.1) for conductivities at 0.5 MHz."
+    },
+    {
+      "target": "doi:10.1085/jgp.40.6.849",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Static pressure effect on squid axon membrane capacity gives a rough upper limit on the membrane-capacitance coefficient."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ab6fc3",
+      "reason": "Transcranial acoustoelectric imaging of injected DBS currents in human skulls; shows what injected mA currents can give."
+    },
+    {
+      "target": "doi:10.34133/cbsystems.0206",
+      "reason": "Simulation and phantom claims of non-invasive intracranial source decoding by acoustoelectric brain imaging."
+    },
+    {
+      "target": "doi:10.1016/j.bpj.2012.07.010",
+      "reason": "Pressure and voltage dependence of membrane capacitance near lipid transitions, relevant to the unknown membrane coefficient."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0077115",
+      "reason": "Measured small capacitance changes of lipid bilayers under ultrasonic radiation force; a weak prior for the membrane coefficient."
+    },
+    {
+      "target": "doi:10.1103/PhysRevX.4.011004",
+      "reason": "Bilayer-sonophore model predicting large nonlinear membrane capacitance oscillations under ultrasound; an alternative prior for the membrane coefficient."
+    },
+    {
+      "target": "https://sci.azaho.org/publication/?id=ed4968ae-49ea-4177-88ab-cd2d993e8db8",
+      "reason": "Focused ultrasound itself evoked non-target-specific thalamic responses in macaques, a confound that any acoustoelectric recording paradigm must control."
+    }
+  ]
+}
