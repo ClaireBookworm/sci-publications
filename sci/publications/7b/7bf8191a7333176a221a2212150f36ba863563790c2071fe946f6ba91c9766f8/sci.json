@@ -1,0 +1,132 @@
+{
+  "title": "In simulated adult heads with the published processing, scalp signal is much larger than brain signal in the cortical voxels of 1 MHz photoacoustic images through the skull",
+  "abstract": "In models of the adult head, the scalp gives much more signal than the brain in cortical voxels of photoacoustic images through the skull. This is important because a study from 2026 reported the first photoacoustic maps of human motor cortex through the intact skull. Photoacoustic tomography records the ultrasound that blood sends out when it absorbs a short laser pulse. We modelled the light, the sound in scalp, porous skull and brain, the receiver array and the published image processing. We used 21 random two-dimensional (2D) heads and one three-dimensional (3D) head at 1064 nm. The wave solver agreed with exact solutions. We calibrated its skull loss against the insertion loss of 89 measured skull fragments. In the voxels that respond most to a cortical blood change, the scalp signal was 56 times the brain signal (median; 95% confidence interval 41-66). Other voxel rules gave 3.9 to 64 times. Without skull, the ratio was below about 1. The 3D head gave 43 times with the same rules. When the skull was present for light but transparent to sound, brain signal was larger (ratio 0.7). Thus the bone acoustics cause the effect: echoes from the skull surfaces, bone loss and scattering in the porous bone. For typical adults, the image puts the skin echo at the depth of the cortex. The skull made the response to one cortical blood change 81 to 110 times smaller. Thus the published skull-less response (2.2%) predicts about 0.02-0.03% through the skull. This is about 12 to 17 times less than the published 0.33%. A blood change of about 2% in the scalp above the cortex gives 0.33% by itself. Three explanations remain. The model can overstate the scalp signal. The cortical change can be larger in healthy adults. Or part of the response is scalp signal. The separate finger and lip maps in the published data support a partly cortical origin. Main limits: mostly 2D heads, a skull without shear waves, and no calibration of skull backscatter. A scalp-only control experiment can decide the origin of the published maps.",
+  "keywords": [
+    "photoacoustic tomography",
+    "transcranial imaging",
+    "functional brain imaging",
+    "noninvasive neuroimaging",
+    "skull reverberation",
+    "scalp contamination",
+    "brain specificity",
+    "k-space pseudospectral simulation",
+    "Monte Carlo light transport",
+    "skull insertion loss",
+    "trabecular scattering",
+    "hemicraniectomy",
+    "time reversal",
+    "fundamental limits",
+    "1064 nm"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "Intact skull, 1 MHz, 1064 nm, published processing: (a) one simulated head, all sources vs brain sources only (dB); (b) image amplitude by origin vs apparent depth; (c) cortical response with and without skull; (d) ROI change for a 1% blood change in cortex, local scalp and all scalp."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.48550/arXiv.2610.17504",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "We model the published T-fPACT hardware and processing. The physics predicts that scalp signal dominates the voxels reported as cortical activation and that a scalp blood change of a few percent can give the reported response, so a scalp-only control is needed before the response size is attributed to cortex. Their finger/lip separation supports a partly cortical origin. We do not dispute the measured data."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00735-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Skull-less fPACT response (about 2% at 1064 nm) and 2.25 MHz array parameters used as the no-skull reference."
+    },
+    {
+      "target": "sci:sha256:3e44c6b7859b1a78a22d1c55c556ff4cbcb8112d086bc5b0c58fab014bb97f1f",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Its refit of 89 skull-fragment insertion losses (Webb et al. 2021) is our calibration target for skull loss; we extend the transcranial-limit series from ultrasound to photoacoustics."
+    },
+    {
+      "target": "sci:sha256:4609278b404454b9fc903c2cfafa0ba1581101357e0a03632339db8a6d72ede3",
+      "reason": "Companion limit study for contrast-enhanced transcranial functional ultrasound."
+    },
+    {
+      "target": "sci:sha256:00c1272e960317dc773abce0cc39fff2669154c84e25f86e96a8b189e61a711b",
+      "reason": "Companion limit study for transcranial acoustoelectric imaging."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2206.00248",
+      "reason": "First intact-side fPACT attempt in one hemicraniectomy patient."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2306.14471",
+      "reason": "3072-element 1 MHz hemispherical array design."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2306.03020",
+      "reason": "Skull insertion loss and sensor requirements for transcranial photoacoustics."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2404.05937",
+      "reason": "De-aberration through ex vivo adult skulls."
+    },
+    {
+      "target": "doi:10.1016/j.pacs.2026.100859",
+      "reason": "Elastic numerical head phantoms with synthesized scalp and cortical vasculature for virtual transcranial PACT studies."
+    },
+    {
+      "target": "doi:10.1117/1.3360308",
+      "relations": [
+        "uses"
+      ],
+      "reason": "k-space first-order scheme that our solvers implement."
+    },
+    {
+      "target": "doi:10.1121/1.3377056",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Fractional-Laplacian power-law absorption model."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2020.3039743",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured insertion loss of 89 skull fragments at 0.5, 1 and 2.25 MHz."
+    },
+    {
+      "target": "doi:10.1118/1.3668316",
+      "reason": "Scattering dominates skull attenuation; consistent with our calibration."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/58/11/R37",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Tissue optical properties and melanin absorption spectrum."
+    },
+    {
+      "target": "doi:10.1016/j.pacs.2026.100833",
+      "reason": "Reports that scalp signals are orders of magnitude stronger than intracranial ones and that scalp reverberations overlap intracranial arrivals; suppresses them by Radon-domain full-waveform inversion in simulations and skull phantoms. We quantify the effect for the published functional pipeline."
+    },
+    {
+      "target": "doi:10.1016/j.pacs.2025.100745",
+      "reason": "Review of photoacoustic artefacts, including reflection artefacts at twice the absorber-interface distance."
+    }
+  ]
+}
