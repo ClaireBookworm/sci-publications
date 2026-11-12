@@ -1,0 +1,145 @@
+{
+  "title": "In a 2D head model, skull-reflected scalp signal outweighs cortex 20–55-fold in deep voxels of transcranial photoacoustic images, so small scalp blood changes could mimic reported brain responses",
+  "abstract": "In a physical model of the adult head, most of the photoacoustic signal that a standard reconstruction places 1-2 cm below the scalp comes from scalp blood vessels, not from the cortex. This matters because a 2026 preprint (Luo et al., arXiv:2610.17504) reports the first task-evoked photoacoustic brain images through the intact adult skull, and its interpretation needs these deep voxels to report cortical blood changes. We modelled light with a photon Monte Carlo method and sound with a 2D wave simulation through a 3-layer skull, and reconstructed images as the preprint did (water sound speed, magnitude images, 3-mm smoothing). The outer skull surface reflects sound from scalp vessels; the reconstruction places these mirror images, their spread and weaker scalp-layer echoes (\"ghosts\") where cortex appears. At the voxels where activated cortex is strongest, scalp-derived amplitude is 20-55 times the cortical amplitude. A 1 % scalp blood rise therefore changes the detected region by +0.83 % at 1064 nm, and it also shades the light that reaches the cortex (-0.95 %). Because the cortical change has a random phase relative to the ghost background, the 3-mm smoothing cancels most of it: a generous activation gives 0.001-0.054 % at 1064 nm across skull and vessel variants; without this cancellation the upper bound is 0.03-0.33 %. The preprint reports +0.35 % at 1064 nm and -0.33 % at 755 nm. With no cortical change, a scalp change of +0.15 % blood volume and +0.8 points of venous oxygen saturation reproduces both values; this two-number fit matches by construction and needs a scalp hyperaemia, whereas the one published task measurement found scalp vasoconstriction. The model does not explain the preprint's task and side specificity or its isolated deep maximum, and we did not simulate its scalp-signal regression, which could remove a scalp-origin response. We give tests: the task response of the scalp shell (scalp origin predicts about +0.2 % at 1064 nm, cortical origin almost none), a scalp-ischaemia head-cuff calibration, and same-hemisphere left- and right-hand tasks. Limits: 2D model, fluid skull, smooth layers, literature physiology, no raw data. Terms: photoacoustic imaging maps light absorption from the ultrasound that absorbing blood emits; a ghost is an image of a scalp source at a wrong depth.",
+  "keywords": [
+    "photoacoustic computed tomography",
+    "transcranial imaging",
+    "functional brain imaging",
+    "extracerebral contamination",
+    "scalp hemodynamics",
+    "skull reverberation",
+    "acoustic ghosts",
+    "fluence shadow",
+    "Monte Carlo light transport",
+    "k-space pseudospectral simulation",
+    "noninvasive neuroimaging",
+    "method validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "(A) 1064 nm, 2D head model: rms image amplitude vs apparent depth for scalp sources (all; ghosts only) and activated cortex (small pial vessels; with a 1.8-mm pial vein). (B) Detected deep-region change from cortex alone (bars; triangles: bound without interference cancellation), from a 0.5 % scalp rise, and as reported. (C) Expected t-values."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.48550/arXiv.2610.17504",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "The preprint we test: transcranial functional photoacoustic imaging through intact adult skulls. We use its system parameters, noise, phantom ratio and reported responses, and model how much of its deep-voxel task signal can come from the scalp."
+    },
+    {
+      "target": "sci:sha256:3e44c6b7859b1a78a22d1c55c556ff4cbcb8112d086bc5b0c58fab014bb97f1f",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We use its skull insertion-loss fit (2.70 Np/cm/MHz^1.24) to set skull attenuation."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2206.00248",
+      "reason": "Skull-less fractional responses (about 1.5 % at 1064 nm) used as a calibration of the cortical model."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00735-8",
+      "reason": "Functional PACT in hemicraniectomy patients."
+    },
+    {
+      "target": "doi:10.1016/j.pacs.2026.100859",
+      "reason": "3D head phantoms showing scalp-correlated artefacts in transcranial PACT (static images)."
+    },
+    {
+      "target": "doi:10.1016/j.pacs.2026.100833",
+      "reason": "Suppression of scalp reverberation in transcranial PACT."
+    },
+    {
+      "target": "doi:10.1038/s42005-026-02545-3",
+      "reason": "Transcranial PACT de-aberration through an adult skull."
+    },
+    {
+      "target": "doi:10.1364/boe.420084",
+      "reason": "Acoustic effect of the human skull on transcranial photoacoustic imaging."
+    },
+    {
+      "target": "doi:10.1088/1361-6560/ab6b46",
+      "reason": "Elastic-wave transcranial PACT reconstruction."
+    },
+    {
+      "target": "doi:10.1364/boe.9.004613",
+      "reason": "Reflection artefacts in photoacoustic imaging."
+    },
+    {
+      "target": "doi:10.1109/tmi.2018.2829662",
+      "reason": "Reflection artefacts in photoacoustic imaging."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2012.02.074",
+      "reason": "Measured task-evoked scalp blood changes (venous volume decreases)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2011.05.012",
+      "reason": "Task-evoked skin blood flow increases."
+    },
+    {
+      "target": "doi:10.1097/ALN.0b013e31824c00d7",
+      "reason": "Pneumatic head cuff for scalp ischaemia in volunteers; basis of the proposed calibration control."
+    },
+    {
+      "target": "doi:10.1007/s10103-013-1446-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Whole-blood absorption spectra at 755 and 1065 nm."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/58/11/R37",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Melanin absorption and tissue scattering forms."
+    },
+    {
+      "target": "doi:10.1117/1.3360308",
+      "relations": [
+        "uses"
+      ],
+      "reason": "k-Wave model followed by our 2D wave solver."
+    },
+    {
+      "target": "doi:10.1121/1.3377056",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Power-law absorption operators."
+    },
+    {
+      "target": "doi:10.1103/PhysRevE.71.016706",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Universal back-projection reconstruction."
+    },
+    {
+      "target": "doi:10.1016/0169-2607(95)01640-F",
+      "reason": "MCML; van de Hulst validation case."
+    },
+    {
+      "target": "doi:10.1121/1.381852",
+      "reason": "Acoustic properties of the human skull."
+    }
+  ]
+}
