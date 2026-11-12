@@ -1,0 +1,87 @@
+{
+  "title": "The drive pressure a reporter needs, not its brightness, sets the smallest voxel for reading gas-vesicle activity reporters through the adult skull",
+  "abstract": "Plans to read human brain activity without surgery, by putting an ultrasound-visible reporter into neurons and listening through the skull, are limited by the sound pressure the reporter needs in order to work, not by how much signal it gives. This matters because several groups and a funded company aim to do this, and the result says what to engineer and what to measure first. Gas vesicles are gas-filled protein shells, 100-500 nm wide, that cells can build from a gene cluster. They scatter ultrasound strongly only when the pressure buckles the shell (about 70-100 kPa), and they break above a collapse pressure. Published vesicle imaging uses 12.5-27.5 MHz; the skull forces transcranial work below about 2 MHz. A vesicle is far below its 136 MHz resonance, so its backscatter falls as the fourth power of frequency: 52 dB from 20 to 1 MHz. Brightness is nevertheless not the lasting limit, because it saturates above a gas volume fraction of about 2e-4 of tissue, near 100 vesicles per neuron. What binds is that skull transmission falls steeply with frequency, so there is a highest frequency at which the buckling pressure can still be delivered, and therefore a smallest voxel that no brightness, averaging time or receiver improvement can beat. At the diagnostic mechanical-index ceiling of 1.9 that floor is 0.66 mm at the temporal window, 1.44 mm at parietal bone and 2.49 mm at frontal bone, for a two-cycle pulse. The decisive quantity is which safety cap applies to a brain deliberately filled with gas bodies: the floor scales as the cap to the power -0.36 to -0.53, and because the reachable pressure exceeds the buckling onset by only 4.2 to 7.2 times, no frequency works at all below a mechanical index of 0.26 to 0.45 by site. Clinical contrast imaging runs at 0.1-0.8, and the transcranial safety consensus excludes subjects carrying contrast agents. Monte Carlo over sixteen inputs gives parietal voxels of 1.63 mm at a cap of 1.9 and 2.15 mm at 0.8. If the collapse threshold near 1 MHz falls to its quasi-static value of 64 kPa, below the buckling onset, the method fails at any plausible expression level. That threshold has never been measured below 10 MHz, and measuring it is a cheap bench experiment that decides the approach.",
+  "keywords": [
+    "gas vesicles",
+    "acoustic reporter genes",
+    "transcranial ultrasound",
+    "molecular ultrasound imaging",
+    "noninvasive brain imaging",
+    "mechanical index",
+    "ultrasound safety",
+    "fundamental limits",
+    "spatial resolution",
+    "acoustic polarizability",
+    "shell buckling",
+    "skull attenuation",
+    "amplitude modulation imaging",
+    "brain-computer interface",
+    "ultrasound contrast agents"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "Left: ultrasound pressure reachable inside the head at the safety limit, for three skull sites, with the extrapolated vesicle collapse threshold in grey and the buckling onset dashed. Right: the smallest resolvable voxel against the mechanical-index cap. Dots mark the cap below which no frequency delivers the buckling pressure. Shaded: the range used for contrast agents."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:3e44c6b7859b1a78a22d1c55c556ff4cbcb8112d086bc5b0c58fab014bb97f1f",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We reuse its skull insertion-loss fit and the 2000 bootstrap replicates derived from 89 human skull fragments, its intact-skull transmission anchors, and its voxel-size comparators for blood-based transcranial functional ultrasound and for 3T and 7T functional MRI."
+    },
+    {
+      "target": "sci:sha256:00c1272e960317dc773abce0cc39fff2669154c84e25f86e96a8b189e61a711b",
+      "reason": "A companion physics-limit study of a different noninvasive method, transcranial acoustoelectric imaging. It sets the same style of best-case bound, and its finding that skull heating rather than the output-display limit sets the allowed power is reproduced here."
+    },
+    {
+      "target": "doi:10.1016/j.ultrasmedbio.2016.12.020",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Cherin et al. 2017 supply the gas-vesicle geometry, the 136 MHz shell resonance, the buckling and collapse thresholds at 12.5 to 27.5 MHz and the backscattering cross-sections that calibrate the reporter model; our closed form reproduces their Rayleigh-Plesset value to 1.0 dB, though their finite-element value differs from it by 13.7 dB."
+    },
+    {
+      "target": "doi:10.1063/5.0214306",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Nayak et al. 2024 supply the optical-density to gas-volume-fraction calibration, the drive pressures used in practice for gas-vesicle imaging, and the collapse pressure near 18 MHz."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2020.3039743",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Webb et al. 2021 are the source of the human skull-fragment attenuation measurements that the reused insertion-loss fit was built from."
+    },
+    {
+      "target": "doi:10.1063/1.4976105",
+      "reason": "Maresca et al. 2017 report nonlinear gas-vesicle scattering measured from 10 to 25 MHz. This is the lowest frequency at which vesicle buckling has been characterised, and it is why the extrapolation below 10 MHz in this work is unconstrained by measurement."
+    },
+    {
+      "target": "doi:10.1038/s44384-025-00008-7",
+      "reason": "Smith et al. 2025 localise single cells by collapsing gas vesicles, reaching 0.30 mm against a 0.56 mm axial limit. We discuss why this destruction-based super-resolution does not lift the voxel floor for dense functional mapping, since it reports once per vesicle population and needs isolated emitters."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2311.05359",
+      "reason": "The ITRUSST consensus on biophysical safety for transcranial ultrasound. It keeps a mechanical cap of 1.9, is more restrictive thermally, and excludes subjects carrying ultrasound contrast agents from its non-significant-risk envelope, which is why the safety cap for a brain carrying engineered gas bodies is an open question."
+    }
+  ]
+}
