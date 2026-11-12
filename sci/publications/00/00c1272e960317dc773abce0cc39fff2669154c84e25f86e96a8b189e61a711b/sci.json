@@ -1,0 +1,152 @@
+{
+  "title": "In a spherical head model at the thermal-noise and ultrasound safety limits, scalp acoustoelectric imaging needs minutes to days per 4-mm voxel to detect evoked cortical currents",
+  "abstract": "Scalp acoustoelectric brain imaging needs minutes to days of averaging for each 4-mm voxel to detect evoked cortical currents, even with ideal electrodes at the thermal-noise limit and within ultrasound safety limits. This is important because groups develop this method as a noninvasive way to map brain currents with millimeter and millisecond resolution. In the method, focused ultrasound changes the electrical resistivity of tissue by a small fraction (the acoustoelectric constant, about 0.04% per MPa), and scalp electrodes record a megahertz voltage from the neural current in the focus. We calculated the best possible signal-to-noise ratio (SNR) with a four-shell spherical head, the optimal combination of all scalp electrodes, thermal (Johnson) noise, and the mechanical-index, FDA-intensity and ITRUSST thermal-index limits. We checked the formulas against a full focused-field calculation and an independent head-model solution. The signal depends on the current dipole moment density q, which is the dipole moment per area of active cortex. At 0.5 MHz, a cortical patch gives the signal of a point current of about 30 microamperes for each nA m/mm2 of q. Thus published phantom detection thresholds (360 to 580 microamperes) are 7 to 235 times above real activity (q from 0.1 to 2). If only the extracellular fluid is modulated (an upper bound), SNR = 3 needs about 10 min when q = 1 and 32 h when q = 0.1, and a map of 100 voxels needs 1.4 days to 4 months. Heating of the skull, where the converging beam is about 1 cm wide, sets the intensity. Neural currents form closed loops, so the modulation inside cells can cancel part of the signal; if 70% cancels, the times are 11 to 22 times longer. A published live-heart measurement agrees with the upper-bound model within a factor of 3. Cortex whose normal is more than about 15 degrees outside the beam aperture gives only edge signals. An implanted contact 5 mm from the voxel makes the times 100 to 180 times shorter. Thus noninvasive acoustoelectric imaging cannot map typical brain activity, but recording near implanted contacts is practical. Main limits: a spherical head; acoustoelectric constants from saline and heart only; and one phantom study with injected currents that, taken at face value, implies times up to 80 times shorter, but does not report all acquisition parameters.",
+  "keywords": [
+    "acoustoelectric imaging",
+    "transcranial ultrasound",
+    "noninvasive brain imaging",
+    "current dipole moment density",
+    "thermal noise",
+    "signal-to-noise ratio",
+    "ultrasound safety",
+    "thermal index",
+    "lead field",
+    "reciprocity",
+    "EEG",
+    "fundamental limits",
+    "intracellular current",
+    "orientation selectivity"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "Insonation time for SNR = 3 in one 4.3-mm voxel versus cortical dipole moment density at 0.5 MHz with safety-limited intensity, for five read-outs. eta = 1 is the extracellular-only upper bound; eta = 0.3 is a partial-cancellation scenario. Blue band: 5-95% uncertainty of the ideal scalp-array time at equal intensity."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1088/1741-2552/abb63a",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Its comparison of a 0.4-0.5 mA noise-equivalent point current with evoked current densities in mA/cm2 is not dimensionally valid; with I_eq = k A_beam q the gap to physiological sources is 7-235x."
+    },
+    {
+      "target": "doi:10.1109/TBME.2024.3514553",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "We use its 580 uA noise-equivalent current, 0.6 MHz, I_SPTA 263 mW/cm2; the cited evoked and seizure current densities exceed the measured maximum dipole density, and its thermal index uses the transducer aperture."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2009.1073",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Live-heart AE measurement of a physiological current (0.71 uV, 540 kHz, 2 MPa) used to check the model for a physiological current: it agrees with the eta = 1 model within a factor of about 3 (eta 0.15-1)."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/57/19/5929",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Acoustoelectric interaction constant K (0.034-0.041 %/MPa) for saline and heart tissue."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured maximum current dipole moment density (1-2 nA m/mm2) used as the physiological ceiling."
+    },
+    {
+      "target": "doi:10.1038/s44172-026-00598-4",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Our model predicts that AE recording with intracranial contacts near the source is physically practical, consistent with this in vivo mouse result."
+    },
+    {
+      "target": "doi:10.1109/TBME.2021.3087177",
+      "reason": "In vivo rat tABI of SSVEP; detection in the PRF band needs a demodulation path that the linear AE equation does not give."
+    },
+    {
+      "target": "doi:10.1109/TIM.2022.3209789",
+      "reason": "In vivo transcranial rat tABI of activated sources; same remark on PRF-band detection."
+    },
+    {
+      "target": "doi:10.1016/j.brs.2025.10.007",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mechanical index, thermal-index exposure-time table, and the definition of D_eq at the skull used as safety limits."
+    },
+    {
+      "target": "doi:10.1088/1361-6420/ad4669",
+      "reason": "Thermal-noise feasibility analysis of acousto-electric conductivity tomography; we treat the neural-current case."
+    },
+    {
+      "target": "doi:10.1002/mrm.1910390317",
+      "reason": "Ultimate intrinsic SNR concept, here applied to scalp read-out of an AE source."
+    },
+    {
+      "target": "doi:10.1002/mrm.23198",
+      "reason": "Ideal current patterns for ultimate SNR."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/8/4/046011",
+      "reason": "Reciprocity-based electrode optimization in transcranial electrical stimulation; same optimization as our S_E."
+    },
+    {
+      "target": "doi:10.3389/fpsyt.2016.00087",
+      "reason": "Reciprocity principle for electrode optimization."
+    },
+    {
+      "target": "doi:10.1103/RevModPhys.65.413",
+      "reason": "MEG/EEG source magnitudes and the forward problem."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/41/11/003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Tissue conductivity dispersion used for 0.5 MHz head-model conductivities."
+    },
+    {
+      "target": "doi:10.1118/1.3668316",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Skull insertion loss near 1 MHz."
+    },
+    {
+      "target": "doi:10.3389/fphys.2023.1241640",
+      "reason": "AE brain imaging through skull and tissue (Tianjin line of work)."
+    },
+    {
+      "target": "doi:10.1063/1.1702037",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Closed-form sphere potential used to check the head model."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2512.14094",
+      "reason": "Synthetic-aperture AE imaging; parallel insonation does not change the per-voxel energy bound."
+    }
+  ]
+}
