@@ -1,0 +1,154 @@
+{
+ "title": "In Localize-MI EEG of known brain sources, fixed electrode errors leave 21% of scalp maps unexplained; calibration across sites halves this, and remaining detail fits head models for shallow sources",
+ "abstract": "In 256-channel EEG recordings of known current sources inside the human brain, about one fifth of every scalp voltage map cannot be predicted from neighbouring electrodes, and this error is fixed to each electrode, not caused by fine detail of the brain signal. This matters for users of the public Localize-MI dataset, who test source localization or estimate conductivity with it, and for designers of dense EEG arrays, because such errors, not the number of electrodes, limit the spatial detail that EEG can deliver. We used 33 sessions at 21 sites 16-52 mm below the scalp in 4 of the 7 Localize-MI patients (0.5 ms current pulses between adjacent contacts of depth electrodes; 16 mm electrode spacing; the other 3 patients could not be downloaded). We predicted held-out electrodes from the others with spherical splines and compared the relative residual (unpredicted part over the map, both RMS) with boundary-element and exact sphere models of the known dipoles. The leave-one-out residual was 0.21 (site median; 95 % bootstrap 0.20-0.26); model maps gave 0.05 (0.02-0.07); noise gave 0.006. The large residuals recurred at the same electrodes for all sources of a patient. Per-electrode offsets fitted on the other sites of a patient reduced it to 0.11, and offsets fitted only on other depth electrodes to 0.18. Simulated independent position errors of 8 mm RMS gave similar values (0.17, 0.09, 0.14); local conductivity defects near the skull bolts would act in the same way. After correction, electrode subsets with 27-50 mm spacing missed no more detail than sphere models with brain:skull conductivity 1:10 to 1:40 for sources less than 30 mm deep (0.06 at 27 mm), but more for deeper sources (0.05 vs 0.01-0.02). The data cannot measure detail below about 21 mm spacing. In sphere models of all 37 sites (model results, standard theory), point sources 16-21 mm deep need 28, 19, 14 and 10 mm spacing at signal-to-noise ratio 10, 30, 100 and 1000; typical evoked responses here have 4-37. Independent position errors of 1 mm RMS keep the needed spacing at 18 mm or more. Limits: epilepsy patients with skull bolts; kilohertz pulses, not brain activity; 4 independent shallow sites; the cause of the floor (position or local conductivity) stays open.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.SP"
+  }
+ ],
+ "keywords": [
+  "EEG",
+  "electrode density",
+  "spatial sampling",
+  "ultra-high-density EEG",
+  "volume conduction",
+  "intracerebral stimulation",
+  "Localize-MI",
+  "electrode position error",
+  "head model",
+  "skull conductivity",
+  "spherical harmonics",
+  "boundary element method",
+  "spatial resolution"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig3_spacing.png",
+   "caption": "MODEL results (exact sphere models of the 37 stimulation sites of all 7 patients). Left: spacing beyond which added electrodes add no detectable spatial detail, against signal-to-noise ratio (SNR, map RMS over white noise per electrode), for point sources at three depth ranges; lines: brain:skull 1:20, median over sites; bands: range of the medians for 1:10 to 1:80. Dotted lines: spacing of common arrays. Grey band: SNR of usual evoked responses in these recordings (4-37). Right: sources 16-21 mm deep at SNR 100 and 1000 when electrodes have independent tangential position errors."
+  },
+  {
+   "path": "files/figures/fig2_detail.png",
+   "caption": "Left: relative residual at held-out electrodes predicted from electrode subsets with the given median spacing (median and IQR over 33 sessions, all electrodes). Orange: digitized positions. Green: after a per-electrode offset correction fitted only on sites of other depth electrodes. Blue: fitted on all other sites. Dashed: boundary-element maps of the known dipoles at the same electrodes, passed through the same correction, brain:skull 1:10 to 1:80 (the dip at 19 mm is because the leave-one-out and subset tests use different held-out electrodes). Right: missed detail above the error floor, measured (lines) and in sphere models with brain:skull 1:10 to 1:40 passed through the same correction (bands), by source depth."
+  },
+  {
+   "path": "files/figures/fig1_maps.png",
+   "caption": "One session (source 20 mm below the scalp, 1 mA). From left: measured map; boundary-element map of the known dipole; part of each electrode not predicted by its neighbours with digitized positions; the same after the cross-validated position correction. x: skull entry of the stimulated depth electrode."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1038/s41597-020-0467-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Localize-MI dataset paper: 256-channel EEG during intracerebral stimulation; all maps, positions and surfaces come from it."
+  },
+  {
+   "target": "doi:10.12751/g-node.1cc1ae",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Published snapshot of the Localize-MI data (G-Node GIN)."
+  },
+  {
+   "target": "https://gin.g-node.org/ezemikulan/Localize-MI",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Repository from which the epoch files and metadata were read (master branch, accessed 2026-11-12)."
+  },
+  {
+   "target": "doi:10.3758/BF03209412",
+   "reason": "Model estimate of 20-30 mm spatial Nyquist spacing; our sphere-model spacing agrees."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2021.118747",
+   "reason": "Model estimate of about 110 useful EEG samples; our sphere-model spacing agrees."
+  },
+  {
+   "target": "doi:10.1109/TBME.2004.828036",
+   "reason": "Earlier sphere-model study of electrode density, noise and skull resistivity with similar conclusions."
+  },
+  {
+   "target": "doi:10.1109/TBME.2006.873744",
+   "reason": "Follow-up sphere-model study of electrode density, noise and skull resistivity."
+  },
+  {
+   "target": "doi:10.3389/fnins.2014.00042",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Simulations showing that EEG electrode position errors of several millimetres degrade source reconstruction; our in vivo floor agrees."
+  },
+  {
+   "target": "doi:10.1063/1.2398883",
+   "reason": "In vivo brain-to-skull conductivity ratio from intracranial stimulation with scalp EEG."
+  },
+  {
+   "target": "https://arxiv.org/abs/2203.05191",
+   "reason": "In vivo conductivity estimates from intracerebral stimulation that vary with the stimulation site."
+  },
+  {
+   "target": "doi:10.1007/s10548-009-0104-7",
+   "reason": "Model estimate of 3 mm optimal spacing (realistic finite-element model); our sphere models do not test anatomical detail."
+  },
+  {
+   "target": "doi:10.1109/JPROC.2016.2615179",
+   "reason": "Information-theoretic argument for ultra-high-density EEG; we add the in vivo position-error floor."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.12.041",
+   "reason": "Dense-array EEG study claiming more information at high density."
+  },
+  {
+   "target": "doi:10.1038/s41598-017-16377-3",
+   "reason": "Very high density EEG study."
+  },
+  {
+   "target": "doi:10.1038/s41598-024-57167-y",
+   "reason": "Ultra-high-density EEG at 8.6 mm spacing."
+  },
+  {
+   "target": "doi:10.1016/S1388-2457(03)00045-2",
+   "reason": "Spatial spectra of scalp EEG from dense linear arrays."
+  },
+  {
+   "target": "doi:10.1016/0013-4694(89)90180-6",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Spherical spline interpolation used for all leave-out tests."
+  },
+  {
+   "target": "doi:10.1063/1.1702037",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Closed form used to check the sphere series code."
+  },
+  {
+   "target": "doi:10.3389/fnins.2013.00267",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MNE-Python, used for the boundary-element forward models."
+  },
+  {
+   "target": "doi:10.1007/s10548-019-00710-2",
+   "reason": "Review of measured head-tissue conductivities (brain:skull ratio range)."
+  },
+  {
+   "target": "doi:10.1016/j.clinph.2004.08.017",
+   "reason": "Earlier in vivo brain:skull conductivity ratio from simultaneous intra- and extracranial recordings."
+  }
+ ]
+}
