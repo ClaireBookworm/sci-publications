@@ -1,0 +1,138 @@
+{
+  "title": "Scalp acoustoelectric imaging needs about 40 minutes to 9 hours of neural activity per 1.6 mm focus to detect typical human cortical currents at FDA intensity, within about tenfold",
+  "abstract": "Through the scalp, acoustoelectric imaging can at best detect typical human cortical currents in a few chosen voxels; it cannot map cortex in a practical time while the ultrasound stays inside diagnostic safety limits. This matters because groups propose transcranial acoustoelectric brain imaging as a noninvasive method with millimetre resolution. In this method, focused ultrasound changes tissue resistivity by a small fraction K·p (p is the pressure; K, the interaction constant, is 0.03–0.1 % per MPa in published work). Electrodes then record the brain's own current in the focus as a signal near the ultrasound frequency. We derived the signal from reciprocity and the noise from the thermal (Johnson) noise of the head. The signal-to-noise ratio (SNR) depends on the acoustic energy delivered during neural activity, not on the peak pressure. An electrode-free upper limit exists; scalp electrodes reach only 4e-7 to 1e-5 of it, because the skull separates them from the brain. We used a four-shell spherical head, typical evoked current (dipole moment density 0.25 nAm/mm²), a 1 MHz focus (1.6 mm by 11 mm), 0.72 W/cm² and K = 0.1 %/MPa. The best 475-electrode scalp array then needs about 40 minutes of neural activity for SNR 3 in a sulcal-wall voxel and about 9 hours at a gyral crown. With the ultrasound gated to a 0.1 s response per trial, this is 2,400 to 32,000 trials per voxel. Tissue conductivities at the 1 MHz carrier shorten these times 1.3–12 times; the measured K of tissue (0.04 %/MPa) lengthens them about 6 times. Epidural or subdural electrodes reduce the time to 3–30 s for cortex less than about 10 mm deep. Radio-frequency atomic magnetometers at 0.2 fT/√Hz would need about 1–2 minutes for sulcal-wall sources, but only with laboratory-grade sensors and strong suppression of the transducer's own field. Published papers cite evoked current densities up to 0.5 mA/cm²; physiological values are 0.006–0.08 mA/cm². In a 2026 mouse study, the published summary values imply sidebands 0.18 times the evoked potential; bulk acoustoelectric mixing allows 0.0005–0.002 for realistic foci and at most 0.07 in the most extreme geometry. The main limits are the spherical head, the unknown K and carrier-frequency conductivities of living tissue, and the use of summary statistics for the mouse comparison.",
+  "keywords": [
+    "acoustoelectric imaging",
+    "transcranial acoustoelectric brain imaging",
+    "noninvasive neural recording",
+    "focused ultrasound",
+    "thermal noise limit",
+    "reciprocity",
+    "lead field",
+    "fluctuation-dissipation theorem",
+    "EEG",
+    "ECoG",
+    "epidural electrodes",
+    "radio-frequency magnetometer",
+    "current dipole moment density",
+    "ultrasound safety",
+    "signal-to-noise ratio",
+    "spherical head model",
+    "tissue conductivity at 1 MHz",
+    "feasibility analysis"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "Neural-activity time needed for SNR 3 in one voxel versus focus depth, for typical evoked activity (0.25 nAm/mm²), 1 MHz focus, 0.72 W/cm², K = 0.1 %/MPa and EEG-type conductivities (sheet approximation). Scalp arrays need about 1 hour or more; epidural, ECoG and RF-magnetometer readouts need seconds to minutes near the surface. Gray line: electrode-free thermal limit."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s44172-026-00598-4",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Their published summary values imply AE sidebands about 0.18 times the VEP; bulk acoustoelectric mixing in a model of their set-up allows 0.0005-0.002 for realistic foci and at most 0.07 in the most extreme geometry. We also quantify the proposed pathway toward noninvasive recording."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/abb63a",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Cited evoked (0.01-0.5 mA/cm2) and seizure (1-10 mA/cm2) current densities exceed physiological primary current densities (0.006-0.08 mA/cm2); we also use its K value of about 0.1 %/MPa as the baseline."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured current dipole moment densities (human 0.16-0.77 nAm/mm2, cross-species maximum 1-2 nAm/mm2) set the physiological source strength."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/57/19/5929",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured acoustoelectric interaction constant in saline and heart tissue (0.034 and 0.041 %/MPa), the low end of our K range."
+    },
+    {
+      "target": "doi:10.1038/s42005-023-01198-w",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Largest reported AE field-coupling factor, taken as the upper end of our K range (0.4 %/MPa)."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/41/11/003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Parametric tissue dielectric data used for the 1 MHz conductivity sensitivity runs."
+    },
+    {
+      "target": "doi:10.1088/1361-6420/ad4669",
+      "reason": "Prior Johnson-noise feasibility analysis of acousto-electric impedance tomography with injected currents; our work treats endogenous neural currents."
+    },
+    {
+      "target": "doi:10.1002/mrm.1910390317",
+      "reason": "Ultimate intrinsic SNR in MRI, the analogue of our electrode-free thermal limit for acoustoelectric recording."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/32/1/004",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Sarvas formula for the magnetic field of a dipole outside a spherical conductor (magnetic readout)."
+    },
+    {
+      "target": "doi:10.1063/1.332990",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Thermal magnetic noise of a conducting half-space, used as the body-noise floor for RF magnetometers."
+    },
+    {
+      "target": "doi:10.3389/conf.fnins.2010.06.00131",
+      "reason": "Earlier proposal of ultrasound-modulated magnetic detection (sonomagnetometry) with SQUIDs."
+    },
+    {
+      "target": "doi:10.1109/ULTSYM.2017.8092671",
+      "reason": "Transcranial AE array study reporting bench noise-equivalent current density through skull."
+    },
+    {
+      "target": "doi:10.1109/TBME.2024.3514553",
+      "reason": "Neuronavigation-guided tABI in a human-skull head model with injected currents."
+    },
+    {
+      "target": "doi:10.1109/TBME.2021.3087177",
+      "reason": "In vivo rat SSVEP acoustoelectric imaging; the same linearity and magnitude test applies."
+    },
+    {
+      "target": "doi:10.1109/TNSRE.2022.3196828",
+      "reason": "In vivo transcranial AE imaging of steady-state visual responses in rats."
+    },
+    {
+      "target": "doi:10.1109/TIM.2022.3209789",
+      "reason": "In vivo transcranial measurement of activated sources with AE brain imaging in rats."
+    },
+    {
+      "target": "doi:10.3389/fnins.2022.807376",
+      "reason": "Systematic review of acoustoelectric current source imaging; reports no quantitative noise budget for human brain imaging."
+    }
+  ]
+}
