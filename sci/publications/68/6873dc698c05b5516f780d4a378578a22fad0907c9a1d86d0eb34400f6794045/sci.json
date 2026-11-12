@@ -1,0 +1,115 @@
+{
+  "title": "Scalp-electrode acoustoelectric imaging needs hours to weeks of maximal cortical activity per 4-mm voxel under a 2 K heating limit in a human head model; implanted contacts need seconds to minutes",
+  "abstract": "Transcranial acoustoelectric brain imaging (tABI) cannot detect normal human cortical currents through scalp electrodes in a practical time when the ultrasound stays inside heating limits. This matters because several groups develop tABI as a non-invasive method with millimetre and millisecond resolution and state that it is within range of strong neural currents. In tABI, focused ultrasound changes tissue resistivity by a fraction K times the pressure, and electrodes record the neural current of the focus as sidebands of the ultrasound frequency. With the reciprocity theorem we show that the tABI signal equals K times the pressure times the ordinary EEG voltage of the tissue inside the focus, times a laminar factor of at most 1. Because the signal is linear in pressure and the noise is white, no ultrasound waveform can shorten the detection time at a fixed time-averaged intensity. We calculated the signal for the adult head with the New York Head lead field (231 scalp electrodes, 74,382 cortical sites), a validated layered-head solver, a steady-state skull-heating model, the first measured K for brain (0.022 %/MPa) and the measured maximum dipole-moment density of cortex (about 1 nAm/mm2). For a voxel 4.3 mm wide, the best design inside the critical angle of skull bone is 0.435 MHz with F-number 0.87. A 2 K temperature rise then allows a focal intensity of only 21 to 260 mW/cm2 (median 74) for cortex 16 mm deep, and the signal is about 0.045 nV. With nominal values and maximal activity, the median gyral-crown site needs 15 h per voxel with all 231 electrodes; over the whole cortex, with the beam tilted at most 20 degrees, the median is 20 days, and with a stricter tilt model two thirds of the cortex cannot be reached. Only when K, the laminar factor, electrode noise, skull window, site, lead-field model and beam angle all take their best values does the time fall to about 1 min. Implanted contacts have 30 to 100 times larger lead fields: a subdural ECoG contact needs 30 s and a depth contact 2 mm away needs 100 s. Published phantom thresholds are 360 to 11,000 times above the physiological signal on the scalp, and the cited seizure current densities (1 to 10 mA/cm2) are 10 to 250 times above the measured maximum. Limits: planar models for implanted electrodes and heating, model-dependent beam-tilt loss, no in vivo K, laminar factor or scalp-electrode noise near 0.4 MHz, and sustained activity assumed.",
+  "keywords": [
+    "acoustoelectric imaging",
+    "transcranial ultrasound",
+    "EEG",
+    "reciprocity theorem",
+    "lead field",
+    "feasibility limit",
+    "skull heating",
+    "signal-to-noise ratio",
+    "New York Head",
+    "noninvasive brain imaging",
+    "ECoG",
+    "stereo-EEG"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "Time of sustained activity to detect one 4.3-mm-wide voxel (d' = 3, 0.435 MHz, F-number 0.87, cortex 16 mm deep, beam normal to cortex, 2 K heating limit) against dipole-moment density of active cortex. Lines: nominal values. Blue band: scalp array, all-optimistic to pessimistic. Grey bands: typical evoked activity and measured ceiling; hatched: values cited in tABI papers."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured ceiling of cortical dipole-moment density (1-2 nAm/mm2) used as the physiological source bound."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.12.019",
+      "relations": [
+        "uses"
+      ],
+      "reason": "New York Head finite-element lead field (231 electrodes, 74,382 cortical sites) used for scalp lead fields."
+    },
+    {
+      "target": "doi:10.1109/TBME.2026.3682610",
+      "relations": [
+        "uses"
+      ],
+      "reason": "First measured acoustoelectric interaction constant for brain tissue (0.022 %/MPa), used as the nominal K."
+    },
+    {
+      "target": "doi:10.1088/0031-9155/57/19/5929",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Acoustoelectric interaction constant in saline and heart tissue."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/abb63a",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "We show that its phantom detection thresholds and cited current densities do not transfer to physiological human cortex with scalp electrodes."
+    },
+    {
+      "target": "doi:10.1109/TBME.2024.3514553",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "We reproduce its phantom sensitivity and show that physiological scalp signals are 360-11,000 times below its noise level."
+    },
+    {
+      "target": "doi:10.1038/s44172-026-00598-4",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Consistent with our model for implanted electrodes at 1 MPa CW; we show that waveform optimisation cannot raise SNR at fixed intensity and that its exposure is ~400 times above the human cortical heating limit."
+    },
+    {
+      "target": "doi:10.1109/TIM.2022.3209789",
+      "reason": "In vivo transcranial acoustoelectric imaging in rats."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2026.122179",
+      "reason": "Transcranial acoustoelectric imaging system with skull aberration correction (ex vivo skull)."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ad169c",
+      "reason": "Simulation of the vibration mechanism of acousto-electrophysiological neuroimaging; complementary to our acoustoelectric budget."
+    },
+    {
+      "target": "doi:10.48550/arXiv.1908.04215",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Finds an infeasible SNR for acousto-electric tomography with injected currents."
+    },
+    {
+      "target": "doi:10.1016/j.brs.2025.10.007",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Thermal safety criterion (temperature rise <= 2 K) for transcranial ultrasound."
+    }
+  ]
+}
