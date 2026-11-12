@@ -1,0 +1,163 @@
+{
+ "title": "In CT-based models of adult heads, eyelid light probes did not see more orbitofrontal grey matter than forehead probes overall, and ultrasound through the orbital roof was close to 3T fMRI",
+ "abstract": "Light probes on the closed eyelid were not shown to see more of the orbitofrontal cortex than probes on the forehead, and ultrasound sent through the eye socket imaged it only about as well as 3T functional MRI. This matters because the orbitofrontal cortex (OFC) is important for reward and psychiatric research but is hard to measure: functional MRI loses signal there, and the eye socket looks like a natural opening to it. We built tissue models of the eye sockets from public head CT scans (CQ500) and calculated near-infrared light transport (Monte Carlo, 830 nm) and ultrasound transmission (an elastic-plate model of the bony roof of the eye socket with a Doppler noise model, within FDA eye-exposure limits). Here OFC means grey matter within 10 mm of that roof, and 'share' means the fraction of the detected light path that lies in OFC. In 18 heads, the pre-specified eyelid-to-forehead light channel had 0.35 times (95% CI 0.23-0.54) the OFC share of a forehead channel just above the brow. Over all pairs 30-40 mm apart, the eyelid/forehead ratio was 0.97 (0.85-1.32). Eyelid pairs possibly reached the middle OFC slightly better (about 1.2 times; 95% CI 0.94-1.47), no pair reached its posterior third, and pairs with both optodes on the eyelid saw almost no OFC. The light comparison depends on how sinus air cells are modelled (with absorbing air cells the pre-specified ratio rose to 1.2 in 3 heads; with reflecting walls it was 0.72 in 2 heads). Per watt, eyelid light sources put 0.18 times as much light into OFC as forehead sources, but more selectively. For ultrasound in 75 orbits, the roof was 1.0 mm of compact-bone equivalent and the sound met it at about 50 degrees. The smallest voxel that detected a 10% blood-volume change in 60 s was 3.1 mm (10-90% over orbits 2.2-4.3), against 2.9 mm for 3T and 1.5 mm for 7T functional MRI with OFC signal loss. Ultrasound was better than 3T in 39% of the OFC of a typical orbit (21-44% over assumed 3T signal losses) and better than 7T in 5%. An independent review found an error in the roof thickness and a missing focusing limit; both are corrected. Main limitation: these are model results; the in vivo attenuation of the thin roof, eye movement and the geometric OFC definition are untested.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.optics"
+  }
+ ],
+ "keywords": [
+  "orbitofrontal cortex",
+  "fNIRS",
+  "functional ultrasound",
+  "transorbital",
+  "eyelid",
+  "orbital roof",
+  "Monte Carlo light transport",
+  "MCX",
+  "CQ500",
+  "head CT",
+  "ophthalmic ultrasound limits",
+  "Lamb waves",
+  "elastic plate transmission",
+  "fMRI signal dropout",
+  "light delivery",
+  "photobiomodulation"
+ ],
+ "display": [
+  {
+   "path": "files/figures/headline_figure.png",
+   "caption": "A: CT tissue model of one right orbit with eyelid (blue) and forehead (orange) optodes, OFC thirds, and one ultrasound path. B: share of detected light path in OFC versus separation (median and IQR over heads). C: smallest ultrasound voxel per orbit versus roof thickness, with 3T and 7T fMRI in OFC. D: share of OFC where ultrasound beats fMRI."
+  },
+  {
+   "path": "files/figures/S1_share_vs_separation.png",
+   "caption": "Share of detected light path in OFC (all thirds, and behind the eye-centre plane) versus source-detector separation, by pair class; median over heads and pairs."
+  },
+  {
+   "path": "files/figures/S4_sensitivity_maps.png",
+   "caption": "Light sensitivity (product of source and detector fluence, maximum over x) for two eyelid-forehead pairs and the forehead pair R1 in one right orbit (CT271); orange: OFC outline, grey: bone."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bc95d39822a231b41bda71ba7d6d0875c9ff33951093160b4704f66c23bd8985",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its CQ500 thin-slice case list, CT reader, cranial-cavity segmentation and the chunked MCX-CL energy check, adapted to the orbit."
+  },
+  {
+   "target": "sci:sha256:4f435c31f20d51df739b9a86d5d9f558ecc6d4c5a5ea2da3ef0f666590fe3f5e",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its power-Doppler speckle and thermal-noise model, skull-fragment attenuation fit, parameter ranges and fMRI comparator, adding an elastic-plate roof model, ophthalmic limits and an aperture F-number limit."
+  },
+  {
+   "target": "https://sci.azaho.org/publication/?id=d4b0ac52-4a03-45cd-a4c1-17e61289d23c",
+   "reason": "Electrophysiological access to orbitofrontal cortex from the forehead."
+  },
+  {
+   "target": "https://sci.azaho.org/publication/?id=ee3980b5-abc1-4e09-b3ef-8d8897db3fe9",
+   "reason": "Magnetic access to orbitofrontal cortex through the sphenoid sinus, an alternative route."
+  },
+  {
+   "target": "doi:10.1016/S0140-6736(18)31645-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the CQ500 head CT scans."
+  },
+  {
+   "target": "doi:10.1364/OE.17.020178",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MCX Monte Carlo method."
+  },
+  {
+   "target": "doi:10.1117/1.JBO.23.1.010504",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MCX-CL, the OpenCL version used on the Apple GPU."
+  },
+  {
+   "target": "doi:10.1016/S1053-8119(03)00021-1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Head-tissue optical properties at 830 nm."
+  },
+  {
+   "target": "doi:10.1088/0031-9155/40/6/001",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Optical properties of sclera, choroid and retinal pigment epithelium."
+  },
+  {
+   "target": "doi:10.1088/0031-9155/58/11/R37",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Optical properties of fat and muscle."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2006.07.029",
+   "reason": "BOLD-sensitivity loss in orbitofrontal cortex and its recovery; basis of the fMRI signal-loss ranges."
+  },
+  {
+   "target": "doi:10.1117/1.NPh.6.2.025011",
+   "reason": "Example of forehead fNIRS channels labelled as lateral OFC."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0026377",
+   "reason": "Monte Carlo sensitivity of prefrontal fNIRS in individual heads."
+  },
+  {
+   "target": "doi:10.1117/1.NPh.6.1.015004",
+   "reason": "Monte Carlo of near-infrared light delivery to prefrontal targets from intranasal and transcranial sources."
+  },
+  {
+   "target": "doi:10.1038/s41598-022-23366-8",
+   "reason": "Functional ultrasound of the retina through the eye."
+  },
+  {
+   "target": "doi:10.1097/HP.0b013e318289a611",
+   "reason": "ICNIRP limits used to scale retinal and lens exposure."
+  },
+  {
+   "target": "sci:sha256:0e9c10bdc65ba6fe9e2a59ae7b556915f9b798b5df1ad7f6bfc90a9fb9093f91",
+   "reason": "Adjacent SCI work on functional FDG-PET kinetics, noted in the candidate-question table."
+  },
+  {
+   "target": "https://patents.google.com/patent/US10960224B2",
+   "reason": "Trans-orbital infrared light therapy aimed at the orbitofrontal cortex through the eyelid and upper eye socket (WO2018132415A1); our one-way delivery analysis is relevant to it."
+  },
+  {
+   "target": "https://patents.google.com/patent/US10874874B2",
+   "reason": "Transorbital NIR light-therapy device."
+  },
+  {
+   "target": "https://www.ajnr.org/content/16/3/591",
+   "reason": "Transorbital colour Doppler of the carotid siphon and arteries at the base of the brain (Hu et al. 1995): sound passes the orbit to large vessels."
+  },
+  {
+   "target": "https://s3.ap-south-1.amazonaws.com/qure.headct.study/CQ500-CT-1.zip",
+   "relations": [
+    "uses"
+   ],
+   "reason": "URL pattern of the public CQ500 case archives that we read (case numbers in files/results/orbit_screen.csv)."
+  }
+ ]
+}
