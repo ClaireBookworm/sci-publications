@@ -1,0 +1,138 @@
+{
+  "title": "Counting model with rat-data checks: at label doses, contrast-based functional ultrasound in 2–5 mm adult cortical voxels is bubble-limited; contrast-free Doppler wins above about −20 dB SNR",
+  "abstract": "At the doses that product labels allow, too few microbubbles flow through a 2-5 mm piece of adult cortex for contrast agents to make transcranial functional ultrasound fast; contrast-free Doppler is the faster mode whenever its per-frame blood signal-to-noise ratio (SNR) is above about -20 dB. This matters because groups that want wearable, noninvasive functional ultrasound for adults must choose between contrast-free power Doppler (echo power of moving blood), contrast-enhanced power Doppler and functional ultrasound localization microscopy (fULM, which counts tracked single bubbles). We wrote a variance model with speckle, thermal noise, bubble shot noise (random number and brightness of bubbles in a voxel), track-count statistics, localization density and a label-dose budget, and tested its parts on public rat data (3D ULM tracks; 2D contrast IQ data, 107 blocks at 15 MHz). In the rat data, contrast Doppler noise was 17-1000 times larger than speckle predicts, track counts were close to Poisson after regional detrending (dispersion 1.02-1.24), and contrast power had 0.6-2 times the variance of track counts in the same voxels, rising with window length. With human literature values (2 MHz, 4.5 cm deep, expected z = 3, Monte Carlo median and 10-90 %): the largest 3 % of SonoVue-like bubbles give 80 % of the echo; localization density caps fULM at about 0.01 tracks per s per mm3, about 600 times fewer than in rat fULM; a 20 % flow change needs 160 min per condition (40-650) in a 2-mm voxel and 15 min in a 5-mm voxel. At the label maximum, one session can detect at best a 28 % change in a 2-mm voxel with fULM for SonoVue, 36 % for Definity and 14 % for Optison. Contrast-free Doppler is faster than both contrast modes above -18.8 dB (-21.1 to -16.8 dB) per frame for a 3-mm voxel, -22.0 dB with a band-limited estimator; over localization densities of 0.01-1 bubble per cell the threshold stays between -24 and -16 dB. Main limitation: the per-frame cortical blood SNR through the temporal window has not been measured, and published data cannot place it on either side of the threshold; we give a protocol to measure it.",
+  "keywords": [
+    "functional ultrasound",
+    "transcranial ultrasound",
+    "ultrasound localization microscopy",
+    "microbubbles",
+    "contrast-enhanced ultrasound",
+    "power Doppler",
+    "shot noise",
+    "speckle",
+    "temporal bone window",
+    "noninvasive neuroimaging",
+    "sensitivity limit",
+    "SonoVue",
+    "wearable brain imaging"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "(a) Imaging time per condition to an expected z of 3 against cortical voxel size at 2 MHz, 4.5 cm behind the temporal window: contrast-enhanced Doppler and fULM (SonoVue) and contrast-free Doppler at -25, -15 and -5 dB per frame. (b) Contrast-free SNR above which contrast-free Doppler is faster, against localization density, for a 3-mm voxel. Bands: 10-90 % Monte Carlo ranges."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.5281/zenodo.10204813",
+      "relations": [
+        "uses"
+      ],
+      "reason": "3D rat ULM track data used to measure track-count dispersion, residence-time spread and the scaling of track rate with voxel size."
+    },
+    {
+      "target": "doi:10.5281/zenodo.4343435",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PALA in vivo rat-brain bolus IQ data used to test the shot-noise model of contrast power Doppler against track counts."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00824-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PALA benchmark paper; source of the IQ dataset and processing parameters."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00697-x",
+      "reason": "Transcranial ULM in patients: frequency, dose, safety indices and detection rate used as anchors."
+    },
+    {
+      "target": "doi:10.1038/s41592-022-01549-5",
+      "reason": "Rat fULM experiment used as a consistency check of the track-rate model."
+    },
+    {
+      "target": "doi:10.1038/s41598-018-38349-x",
+      "reason": "Measured tracked-bubble concentration in rat brain used for the consistency check."
+    },
+    {
+      "target": "doi:10.1109/TMI.2026.3659777",
+      "reason": "Direct rat comparison of contrast power Doppler and fULM sensitivity; our 2D data disagree on the ranking."
+    },
+    {
+      "target": "doi:10.1109/TBME.2026.3680008",
+      "reason": "First contrast-free transcranial functional ultrasound in adults; context for the contrast-free mode."
+    },
+    {
+      "target": "doi:10.1109/TMI.2023.3269022",
+      "reason": "Coded-excitation SNR gain used to set the contrast-free SNR range."
+    },
+    {
+      "target": "doi:10.1126/sciadv.adt9778",
+      "reason": "Large-animal transcranial 3D ULM at 1.56 MHz; context for low-frequency ULM."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.09.037",
+      "reason": "Microbubble-enhanced transcranial functional ultrasound in rats; contrast gain."
+    },
+    {
+      "target": "doi:10.1126/scitranslmed.adj3143",
+      "reason": "Human functional ultrasound through an acoustically transparent prosthesis; human signal changes."
+    },
+    {
+      "target": "doi:10.1097/00004424-200011000-00003",
+      "reason": "SonoVue size distribution and echogenicity by size; check of the bubble scattering model."
+    },
+    {
+      "target": "doi:10.1177/0271678X19874643",
+      "reason": "Human grey-matter cerebral blood flow used in the model."
+    },
+    {
+      "target": "doi:10.1002/nbm.2905",
+      "reason": "Human arterial and total cerebral blood volume and their task changes."
+    },
+    {
+      "target": "doi:10.1016/j.ultrasmedbio.2008.02.012",
+      "reason": "Ex vivo temporal-bone attenuation at 1 and 2 MHz."
+    },
+    {
+      "target": "doi:10.1016/j.ultrasmedbio.2026.05.022",
+      "reason": "Thermal-index scanning-time limits for adult transcranial ultrasound."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/aebb68",
+      "reason": "Considered as an alternative question (acoustoelectric recording limits); already answered there."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2019.2916603",
+      "reason": "Poisson model of ULM acquisition time; closest prior counting model, which we extend to functional contrasts in adults."
+    },
+    {
+      "target": "doi:10.1109/TMI.2026.3704144",
+      "reason": "Shows fULM is less sensitive than red-blood-cell fUS in mice; supports the direction of our result."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2019.116467",
+      "reason": "Shows microbubble-enhanced fUS fluctuates more than gas-vesicle contrast; consistent with bubble shot noise."
+    },
+    {
+      "target": "doi:10.1038/s41467-024-47154-2",
+      "reason": "Deep-learning localization at high density; sets the upper range of localization density n_max."
+    }
+  ]
+}
