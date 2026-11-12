@@ -1,0 +1,158 @@
+{
+ "title": "In light models of 15 heads from CT, an eyelid-to-forehead near-infrared channel did not sample clearly more orbitofrontal cortex than a forehead channel of equal length",
+ "abstract": "At equal optode separation, near-infrared optodes on the upper eyelid did not give a clear gain in sensitivity to the orbitofrontal cortex (OFC) over a standard forehead channel. This matters because the OFC is central to reward research, functional MRI loses signal there, forehead near-infrared spectroscopy (fNIRS) is often said to measure it, and patents claim that light from the eyelid reaches it. We made light models of 15 adult heads from public head CT and simulated 830 nm light with a Monte Carlo code. The share of a region is the mean path of detected photons in it, divided by their mean path in tissue. A forehead pair 30 mm apart had a median OFC share of 0.55% and a frontopolar-cortex (FP) share of 5.6%. A pair from the upper eyelid to the forehead, also 30 mm, had an OFC share of 0.63% (per-head ratio 1.24, 95% CI 0.70-1.59) and less FP (2.4%), so its OFC/FP ratio was higher in 15/15 heads. Against a vertical pair of the same length that starts at the brow, the eyelid optode gave only 1.16 times (30 mm) and 1.20 times (40 mm) the OFC share. The absolute shares depend on where the OFC border is drawn (0.25-1.05% for the forehead pair). The nearest OFC was 20.9 mm from the eyelid optode and 11.5 mm from the forehead. Light sources on the upper eyelid put no more power into the OFC than a forehead source (0.126% and 0.179% against 0.183%). In an exploratory analysis of photons that arrive 2-3 ns after a light pulse, two eyelid optodes sampled more OFC (3.9%) than FP (3.1%), but a horizontal pair at brow level did as well (3.6% OFC, 1.6% FP). Early light is 340,000 times the late light for the eyelid pair and 1,700 times for the brow pair; with a detector time response that has a slow tail (1% of its area, 0.3 ns), the eyelid pair lost its advantage. Scalp and muscle blood signals were larger than the OFC signal in all pairs. A 1 mm radius source on a closed lid, aimed at the eye, had to stay below 1.8 mW in the worst of 27 eyes (median 4.8 mW) to keep lens and cornea under the ICNIRP infrared limit. The higher OFC/FP ratio held in all 14 robustness tests (other tissue properties, OFC boundaries, scattering model, random seed, model size); the OFC share ratio itself ranged 0.83-1.50. Limits: tissue classes from CT, literature optical properties, ideal optodes; no physiological noise, blinks or eye movements. Forehead fNIRS channels above the brow measure mainly frontopolar cortex, and the eyelid gives little or no extra optical access to the OFC.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.optics"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "orbitofrontal cortex",
+  "near-infrared spectroscopy",
+  "fNIRS",
+  "eyelid",
+  "periorbital optodes",
+  "time-domain NIRS",
+  "late photons",
+  "Monte Carlo photon transport",
+  "MCX",
+  "frontopolar cortex",
+  "orbital roof",
+  "head CT",
+  "CQ500",
+  "eye safety",
+  "ICNIRP",
+  "anatomical window",
+  "brain sensitivity",
+  "design rule"
+ ],
+ "display": [
+  {
+   "path": "files/figures/headline_figure.png",
+   "caption": "A: schematic sagittal section drawn to scale from median optode positions (U lid over the eye, S0 upper lid below the brow, B brow, F10-F30 forehead). B: share of the tissue light path in orbitofrontal (blue) and frontopolar (orange) cortex for each optode pair, one dot per head. C: the same for photons arriving 2-3 ns after the pulse. D: distance from each site to the nearest orbitofrontal grey matter, one dot per eye."
+  },
+  {
+   "path": "files/figures/fig2_gates.png",
+   "caption": "Share of the tissue light path in orbitofrontal (blue) and frontopolar (orange) cortex against photon arrival time, for the two-eyelid pair LL, the brow-level pair BH30 and two forehead pairs (FS 10 mm, FH30 30 mm); median and interquartile range over the heads."
+  },
+  {
+   "path": "files/figures/fig4_safety.png",
+   "caption": "Largest power of a 1 mm radius source at 830 nm that keeps the 99th-percentile fluence rate in the cornea and lens below the ICNIRP 2013 limit for near-infrared light (10 mW/cm2), for each source site; one dot per eye, open circles for eyes that were open in the scan, bars are medians of closed eyes. The source over the eye is aimed at the eye centre (worst case); the dashed line is the laser skin limit."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bc95d39822a231b41bda71ba7d6d0875c9ff33951093160b4704f66c23bd8985",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its CT loading code, its 830 nm tissue properties and its validation of MCX-CL on this machine; our study applies the same approach to the eyelid and orbit."
+  },
+  {
+   "target": "doi:10.1016/S0140-6736(18)31645-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the CQ500 head CT scans."
+  },
+  {
+   "target": "doi:10.1364/OE.17.020178",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MCX Monte Carlo method."
+  },
+  {
+   "target": "doi:10.1117/1.JBO.23.1.010504",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MCX-CL OpenCL implementation used for all light transport."
+  },
+  {
+   "target": "doi:10.1016/S1053-8119(03)00021-1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Baseline 830 nm optical properties of scalp, skull, CSF and brain."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0066319",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Alternative optical-property set tested as a variant."
+  },
+  {
+   "target": "doi:10.1088/0031-9155/58/11/R37",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Optical properties of fat and muscle-like tissue."
+  },
+  {
+   "target": "doi:10.1088/0031-9155/40/6/001",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Optical properties of retina, pigment epithelium, choroid and sclera used for the eye wall."
+  },
+  {
+   "target": "doi:10.1097/HP.0b013e318289a611",
+   "relations": [
+    "uses"
+   ],
+   "reason": "IR-A cornea/lens and retinal exposure limits used for the eye-safety estimate."
+  },
+  {
+   "target": "doi:10.1103/PhysRevLett.95.078101",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Null source-detector separation: we use this effect to explain why late photons of short eyelid and brow pairs sample the nearest deep cortex (OFC)."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0026377",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reported that prefrontal fNIRS sensitivity depends on anatomy and questioned access to OFC under the frontal sinus; our forehead channels sample mainly frontopolar cortex."
+  },
+  {
+   "target": "doi:10.1016/S1053-8119(03)00073-9",
+   "reason": "Functional MRI signal loss at the orbitofrontal cortex (motivation)."
+  },
+  {
+   "target": "doi:10.1016/S0006-3495(03)74750-X",
+   "reason": "Dura mater is a poorly transparent fibrous layer; used to bound the dura variants."
+  },
+  {
+   "target": "doi:10.1103/PhysRevLett.100.138101",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Null-distance time-domain NIRS gives depth selectivity from late photons; we use the same effect for short eyelid and brow pairs."
+  },
+  {
+   "target": "sci:sha256:d2414241c2758fc8cd011ba271167907171f172e367f41616bd94dd4f689ab0b",
+   "reason": "Related SCI work: layered head models of how much cortical light reaches the scalp."
+  },
+  {
+   "target": "doi:10.1364/BOE.3.002121",
+   "reason": "Model study of the frontal sinus and forehead NIRS; context for forehead channels."
+  },
+  {
+   "target": "doi:10.1038/s41598-018-21716-z",
+   "reason": "fOLD toolbox: atlas-based sensitivity of 10-10 forehead positions to frontal regions; context for the forehead reference channels."
+  }
+ ]
+}
