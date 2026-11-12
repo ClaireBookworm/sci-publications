@@ -1,0 +1,147 @@
+{
+  "title": "For a 10% blood-volume change in 1 minute, speckle and bone loss limit functional ultrasound through adult parietal bone to about 2.6-3.5 mm voxels, coarser than 3T fMRI in 59-81% of model draws",
+  "abstract": "Functional ultrasound through the intact adult parietal or frontal skull resolves coarser voxels than 3T functional MRI (fMRI) in most model draws; a thin temporal-bone window usually does better than 3T, but not 7T. This matters because groups and companies now try to put functional ultrasound through the skull: the result shows which sites can work, what to measure first, and how to design the probe. Power Doppler, the usual signal, is the echo power of moving blood. The echo is a random interference pattern (speckle), so noise decreases only with new, independent patterns. Independent patterns per second per mm3 of cortex increase as the fourth power of frequency, while bone loss increases exponentially with frequency (fit to 89 published skull fragments). Each bone thus has an optimum frequency, where blood signal-to-noise is about 1.2 per frame: about 1.9 MHz for 2.5 mm temporal bone, 1.1 MHz for parietal and 0.8 MHz for frontal bone. Over 3000 parameter draws, each paired with its own fMRI values and with physiological noise for both methods, the smallest voxel that detects a 10% blood-volume change (z = 5, 60 s per condition) had a median of 3.5 mm parietal (90% range 1.8-7.5; 1.5 times the 3T voxel), 5.2 mm frontal and 1.7 mm temporal, against 2.3 mm for 3T and 1.2 mm for 7T. Parietal ultrasound beat 3T in 24% of draws (19% where both methods detect). Only 36% of draws reproduce a published deep transcranial detection; in those, parietal reaches 2.6 mm and beats 3T in 41%. The result depends most on in vivo bone attenuation and fMRI quality. Microbubble contrast and localization microscopy are worse at clinical doses: a few large bubbles carry the echo, so contrast matches red-cell Doppler through parietal bone only at about 4 million bubbles per mL of blood. Simulation agreed with the noise model (variance ratio 0.82-1.16). In public rat raw data the measured variance was 1.4-2.5 times the Gaussian speckle prediction, never below it, and gave the decorrelation bandwidth (12.7 Hz per MHz). In public human data per-pixel noise was 4-10 times the speckle floor. An independent review corrected the first version. The measurement that decides the parietal case is in vivo bone loss at 1-2 MHz.",
+  "keywords": [
+    "functional ultrasound",
+    "transcranial ultrasound",
+    "power Doppler",
+    "speckle",
+    "skull attenuation",
+    "fundamental limits",
+    "noninvasive neuroimaging",
+    "microbubbles",
+    "ultrasound localization microscopy",
+    "fMRI comparison",
+    "thermal index",
+    "Cramer-Rao bound"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "A: Independent power-Doppler samples per s per mm3 of cortex against frequency (base parameters). Without bone the rate increases as f^4 (speckle limit); bone loss gives an optimum near 1.9, 1.1 and 0.8 MHz for temporal, parietal and frontal bone. B: Smallest voxel that detects a 10% blood-volume change in 60 s (z = 5) over 3000 draws, with paired 3T (band 10-90%) and 7T fMRI."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1109/TUFFC.2020.3039743",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We fit a frequency- and thickness-dependent insertion-loss model to its table of 89 skull fragments at 0.5, 1 and 2.25 MHz."
+    },
+    {
+      "target": "doi:10.1016/j.ultras.2021.106591",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Intact-skull pressure transmission and thickness by region at 500 kHz calibrate the upper range of bone attenuation."
+    },
+    {
+      "target": "doi:10.1118/1.3668316",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Cortical-bone attenuation near 1 MHz sets the lower range of bone attenuation."
+    },
+    {
+      "target": "doi:10.5281/zenodo.7883227",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Raw in vivo rat-brain IQ data (blocks 1-25) test the Gaussian speckle statistics and give the decorrelation bandwidth."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00824-8",
+      "reason": "Paper that describes the PALA rat dataset."
+    },
+    {
+      "target": "doi:10.5281/zenodo.14511961",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human craniectomy power-Doppler frames show real per-pixel noise relative to the speckle floor."
+    },
+    {
+      "target": "doi:10.34133/research.0709",
+      "reason": "Acquisition parameters of the human dataset and human response sizes."
+    },
+    {
+      "target": "doi:10.1109/TBME.2026.3680008",
+      "reason": "Contrast-free transcranial fUS in 13 adults; used as an empirical constraint on the link budget."
+    },
+    {
+      "target": "doi:10.1109/IUS51837.2023.10306684",
+      "reason": "Frequency and coded excitation of the first contrast-free transcranial fUS study."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2610.33093",
+      "reason": "Independent 2 MHz temporal-window link budget with a similar pessimistic conclusion; no frequency optimisation."
+    },
+    {
+      "target": "doi:10.1109/TUFFC.2013.2592",
+      "reason": "Theory of fUS sensitivity versus number of samples; our speckle-looks argument builds on it."
+    },
+    {
+      "target": "doi:10.1126/scitranslmed.adj3143",
+      "reason": "Human task fUS through a cranial window; response size and a consistency check of the physiological-noise term."
+    },
+    {
+      "target": "doi:10.1038/s41598-017-06474-8",
+      "reason": "Intraoperative human fUS response size (20% blood-volume change)."
+    },
+    {
+      "target": "doi:10.1126/sciadv.adu9133",
+      "reason": "Human fUS through a sonolucent implant."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.09.037",
+      "reason": "Microbubble-enhanced transcranial fUS in rats at high dose; consistent with our regime argument for contrast."
+    },
+    {
+      "target": "doi:10.1038/s41551-021-00697-x",
+      "reason": "Transcranial ultrasound localization microscopy in patients."
+    },
+    {
+      "target": "doi:10.1038/s41592-022-01549-5",
+      "reason": "Functional ultrasound localization microscopy in rats."
+    },
+    {
+      "target": "doi:10.1109/TMI.2026.3659777",
+      "reason": "Poisson model of bubble arrivals for 3-D functional localization microscopy in rats; we extend it to human transcranial use and add polydispersity."
+    },
+    {
+      "target": "doi:10.1038/s41598-018-38349-x",
+      "reason": "Resolution versus acquisition-time trade-off of localization microscopy."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2005.01.007",
+      "reason": "Physiological noise model for the fMRI comparator."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2006.09.032",
+      "reason": "fMRI tSNR ceiling used to set the comparator range."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/aebb68",
+      "reason": "Recent detection-limit study of acoustoelectric recording; considered as an alternative question."
+    },
+    {
+      "target": "doi:10.1002/hbm.70624",
+      "reason": "Recent sensitivity-limit study of spin-lock neuronal current MRI; considered as an alternative question."
+    }
+  ]
+}
