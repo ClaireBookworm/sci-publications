@@ -1,0 +1,321 @@
+{
+  "title": "In a literature-based mass and flux budget, normal transmitter release changes the MRS glutamate signal by amounts about 10 to 160 times smaller than event-related fMRS studies report",
+  "abstract": "Normal release of the transmitter glutamate in the human brain is far too small to explain the fast changes of 11-22% in the glutamate signal that event-related functional magnetic resonance spectroscopy (fMRS) studies report. This matters because event-related fMRS (MRS repeated during a task, with spectra sorted by short trial events) is used as the main non-invasive, transmitter-specific measure of fast brain activity.\n\nWe made a mass and flux budget from published values: synapse density, vesicles per synapse, molecules per vesicle, the 13C-MRS glutamate-glutamine cycle rate, firing rates, release probability, and energy and metabolic fluxes. We assumed the most favourable mechanism: released transmitter moves from fully MRS-invisible vesicles to fully visible pools. Over 200,000 Monte Carlo draws, normal activity changes the signal by 0.10% of voxel glutamate within 3 s (95% range 0.018-0.51%). If release accumulates over a block or run of 36-300 s, the 97.5th percentile is 4.7-5.5%. A seizure-like hard ceiling (every synapse at maximal release, plus the largest metabolic fluxes) gives 1.9% within 3 s.\n\nAll 7 reported event-related glutamate or Glx (glutamate plus glutamine) values (11.5-21.5%; 4 studies and a pooled mean) are larger than the physiological estimate in at least 99.9% of draws. At the longest window each design allows, the median factor is 10-34; it is 165 for the one design with interleaved trial types, which also exceeds the hard ceiling by a factor of 6. Designs against separate rest blocks or runs reach the hard ceiling at long windows, but mainly through metabolism, not release. A significant 12.7% GABA decrease exceeds the physiological estimate in 99.6% of draws; a 6.8% decrease is not excluded. Block-design glutamate rises (1.8-5.3%) fit a metabolic origin.\n\nThe empirical standard error of the interleaved design is 6.7 times the value that spectral fitting precision predicts. At the physiological effect, power is 5%, about half of significant results have the wrong sign, and significant results overstate the effect 100-270 times. This work extends a published one-vesicle estimate with time-resolved release capacity, accumulation, uncertainty and design statistics. Main limit: the budget does not exclude a fast visibility change that release does not cause.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "keywords": [
+    "functional magnetic resonance spectroscopy",
+    "fMRS",
+    "glutamate",
+    "GABA",
+    "event-related design",
+    "neurotransmitter release",
+    "MRS visibility",
+    "glutamate-glutamine cycle",
+    "mass balance",
+    "statistical power",
+    "type M error",
+    "significance filter",
+    "non-invasive neurochemistry"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_budget_vs_claims.png",
+      "caption": "A, B: largest change of the MRS-visible glutamate and GABA signal against the time window, for one condition against rest (orange: hard ceiling, maximal release at every synapse plus metabolic flux; blue: physiological estimate; medians and 95% bands of 200,000 Monte Carlo draws). Filled symbols: reported event-related changes at the within-trial window; open symbols: the same changes at the contrast window, where release can accumulate over a block or run. Diamonds: block designs. Absolute values are shown. C: reported change divided by each bound (median; line to the 2.5th percentile), with summed increase and decrease bounds for contrasts between two active conditions."
+    },
+    {
+      "path": "files/figures/fig2_design_and_signal_budget.png",
+      "caption": "A: smallest significant group effect (two-sided p = 0.05, 12 subjects, 8 mL voxel) against acquisitions per condition per subject, with precision from published Cramer-Rao bounds and with an extra variance term calibrated on the reported statistics of Lally et al. 2014 (black point: that design and its reported 11.5% effect). B: glutamate signals and errors: physiological release-linked change and hard ceiling in 3 s, BOLD line-shape bias with and without correction (Wilson et al. 2026), group standard error, and reported values."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.neuroimage.2023.120194",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source of the tabulated event-related fMRS claims (Table 1) and of the statement that the signal origin is controversial."
+    },
+    {
+      "target": "doi:10.1111/sjop.12411",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Pooled event-related glutamate change of 13.4% and the visibility-shift hypothesis, which our budget tests."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2022.119813",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Mean-field model with a 30% vesicular pool and about 1 mM/min release; we answer its objections to one-vesicle estimates with a time-resolved capacity and a spike-based estimate, and show that its capacity gives about 0.6% in 3 s."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.06.015",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported 12-13% event-related glutamate changes compared with the budget."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2013.07.049",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "Full text used for the event timing (spectra 950-1150 ms after onset), design and test statistics that calibrate the noise model; its 11.5% glutamate change is compared with the budget."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2009.09.007",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported 18% glutamate change during 5-s pain compared with the budget."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.10.042",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported 15.7-21.5% Glx and 12.7-15.1% GABA+ event-related changes compared with the budget."
+    },
+    {
+      "target": "doi:10.7554/eLife.70071",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "GABA/glutamate precision ratio used for the noise model; its 6.8% GABA decrease is compared with the budget."
+    },
+    {
+      "target": "doi:10.1016/S0306-4522(02)00792-3",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported 40% event-related lactate decrease compared with a metabolic flux bound."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2017.04.030",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Glutamate Cramer-Rao bound at 7 T used to calibrate per-acquisition precision."
+    },
+    {
+      "target": "doi:10.1002/nbm.70389",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Glutamate Cramer-Rao bound at 3 T used to calibrate per-acquisition precision; block result compared."
+    },
+    {
+      "target": "doi:10.1002/nbm.70392",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BOLD line-shape bias with and without correction, used in the signal budget."
+    },
+    {
+      "target": "doi:10.1073/pnas.96.14.8235",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human glutamate-glutamine cycle rate and glucose oxidation rate."
+    },
+    {
+      "target": "doi:10.1002/nbm.1772",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Range of human 13C MRS cycling rates."
+    },
+    {
+      "target": "doi:10.1073/pnas.0501703102",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GABA share of neurotransmitter cycling."
+    },
+    {
+      "target": "doi:10.1073/pnas.95.1.316",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Coupling of glutamate cycling to glucose oxidation."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhab120",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human cortical synapse density and excitatory fraction."
+    },
+    {
+      "target": "doi:10.7554/eLife.48373",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human vesicle pool sizes."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.17-15-05858.1997",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Docked and total vesicles per synapse."
+    },
+    {
+      "target": "doi:10.1007/s00429-014-0850-5",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Rat layer 4 vesicle pools."
+    },
+    {
+      "target": "doi:10.1021/jacs.9b09414",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Upper estimate of glutamate molecules per vesicle."
+    },
+    {
+      "target": "doi:10.1016/0006-8993(86)90181-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Glutamate content of synaptic vesicles."
+    },
+    {
+      "target": "doi:10.1016/s0301-0082(00)00067-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Glutamate uptake and release capacity."
+    },
+    {
+      "target": "doi:10.1097/00004647-200110000-00001",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ATP cost per vesicle released."
+    },
+    {
+      "target": "doi:10.1038/jcbfm.2012.35",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Updated, lower ATP cost per vesicle."
+    },
+    {
+      "target": "doi:10.1177/1745691614551642",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Type S and type M error framework."
+    },
+    {
+      "target": "doi:10.1038/sj.jcbfm.9600401",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Block-design glutamate and lactate changes and the metabolic explanation."
+    },
+    {
+      "target": "doi:10.1038/jcbfm.2014.233",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Block-design glutamate and lactate changes at 7 T."
+    },
+    {
+      "target": "doi:10.1007/s11064-012-0848-4",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Metabolic origin of activity-dependent glutamate changes; our long-window ceilings are reached mainly through metabolic terms."
+    },
+    {
+      "target": "doi:10.1177/0269881117747579",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Argues that synthesis cannot make fast large fMRS changes; we extend the argument to release."
+    },
+    {
+      "target": "doi:10.1016/0301-0082(94)90058-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Estimate that part of brain glutamate is MRS-invisible."
+    },
+    {
+      "target": "doi:10.1126/sciadv.adl2034",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Shows the DIANA signal is an artifact; used to exclude DIANA as a candidate question."
+    },
+    {
+      "target": "doi:10.1126/sciadv.adl0999",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Failed DIANA replication; used to exclude DIANA as a candidate question."
+    },
+    {
+      "target": "sci:sha256:b3e0f97d43d9a2223abfe667e15c8222bb51ecf34175d69fb1e43fb743bdc943",
+      "reason": "Related SCI work that uses the same budget approach for functional sodium MRI."
+    },
+    {
+      "target": "doi:10.1016/S1053-8119(03)00280-5",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported large event-related total creatine change, compared with the creatine turnover bound."
+    },
+    {
+      "target": "doi:10.1177/0271678X18795426",
+      "relations": [
+        "supports",
+        "uses"
+      ],
+      "reason": "Published one-vesicle-per-synapse estimate (about 0.15%) that this work extends; its 5.3% block-design glutamate rise is compared with the budget."
+    },
+    {
+      "target": "doi:10.1177/0271678X221139550",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Restates the one-vesicle estimate and the metabolic interpretation of fMRS glutamate changes."
+    },
+    {
+      "target": "doi:10.1002/nbm.5240",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Short-T2 glutamate component and absence of a block-design visibility shift; basis of the proposed echo-time test."
+    },
+    {
+      "target": "doi:10.1152/physrev.2000.80.3.1107",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Creatine turnover rate for the total-creatine bound."
+    },
+    {
+      "target": "doi:10.1016/j.neubiorev.2022.104940",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Pre-registered meta-analysis: small-to-moderate Glu/Glx effects and no significant overall GABA effect in fMRS; consistent with our GABA results."
+    }
+  ]
+}
