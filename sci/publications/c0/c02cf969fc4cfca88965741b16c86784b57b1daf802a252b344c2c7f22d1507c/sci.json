@@ -1,0 +1,149 @@
+{
+  "title": "Thermal noise of the head limits transcranial acoustoelectric recording of human cortex: at 2 mm resolution and safe intensity, strong activity needs hours of averaging per voxel",
+  "abstract": "Transcranial acoustoelectric recording cannot measure normal human cortical activity at millimetre resolution in a practical time if the ultrasound stays inside safety limits. This is important because groups develop this method as a non-invasive alternative to implanted electrodes. In this method, focused ultrasound changes the tissue resistivity by a small fraction (0.03 to 0.1 % per MPa). Scalp electrodes then record the neural electric field of the focus at the ultrasound frequency. We derived a limit on the signal-to-noise ratio (SNR) for any scalp electrode array and for any ideal magnetometer. The only noise in this limit is the thermal noise of the head. The limit depends on the time-averaged ultrasound intensity and on a lead-field gain, which we calculated in a four-shell head model. We measured electric fields in brain tissue in 3,612 SEEG contact pairs from 36 patients. With a generous correction for spatial averaging, strong transients reached 0.15 to 0.37 V/m and seizure peaks reached 1.2 V/m. Some current densities that acoustoelectric papers use as references are 24 to 240 times higher. We used a 1 MHz focus (2.2 mm resolution) and 0.72 W/cm2. Then a strong source (0.1 nA m/mm2) needs 8 hours of exposure per voxel for SNR 1. The physiological maximum (1 nA m/mm2) needs 290 s. An evoked response in 1-ms steps needs 1e5 to 1e8 trials per voxel. With 8.7 mm voxels, which are not finer than MEG, the times decrease by approximately 100 times. A higher constant and ten times the intensity give a speed-up of 54 times. Ideal magnetic readout adds up to 16 times for shallow tangential sources. Single-trial imaging needs approximately 2.6e7 times. Our predicted scalp signals agree in size with a recent independent forward model. In a public mouse recording, the signal near the carrier was 91 times the nominal acoustoelectric value and 2 to 5 times a generous value. Thus, mouse data cannot calibrate human feasibility without independent pressure and lead-field measurements. The same SEEG fields give neural magnetic fields below spin-lock MRI thresholds, except in the seizures of one patient. Limits: spherical head, uniform source layers, one mouse recording, and an uncertain constant for brain tissue.",
+  "keywords": [
+    "acoustoelectric imaging",
+    "transcranial ultrasound",
+    "non-invasive neural recording",
+    "thermal noise",
+    "Johnson noise",
+    "lead field",
+    "fundamental limits",
+    "signal-to-noise ratio",
+    "ultrasound safety",
+    "SEEG",
+    "brain electric field",
+    "dipole moment density",
+    "magnetic readout",
+    "spin-lock MRI",
+    "re-analysis",
+    "public data"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "display": [
+    {
+      "path": "files/headline_figure.png",
+      "caption": "A: Ultrasound exposure per voxel for SNR 1 against lateral resolution (pressure-amplitude FWHM), for four cortical source strengths (scalp-array thermal-noise bound, 0.72 W/cm2, gyral crown). B: In-layer field estimates from 36 SEEG patients (bars 5-95th percentile over pairs, dot median, dotted to 99th) against the benchmarks that acoustoelectric papers use (E = J/sigma)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.6084/m9.figshare.28732301.v1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We re-analysed the public in vivo mouse acoustoelectric recording and its acoustic isolation control."
+    },
+    {
+      "target": "doi:10.18112/openneuro.ds004100.v1.1.3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We measured electric fields in human brain tissue from SEEG bipolar pairs in 36 patients of the HUP iEEG dataset."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/aebb68",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Our thermal-noise bound and predicted scalp voltages (13-130 pV RMS) agree with their forward-model detection limits (3.6-17 pV at the scalp)."
+    },
+    {
+      "target": "doi:10.1038/s44172-026-00598-4",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "In the public example the LFP-locked term near the carrier is 91 times the nominal bulk acoustoelectric value and 2-5 times a generous value, so it cannot calibrate scalp recording; our bound shows the non-invasive human pathway is far from practical."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/abb63a",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "The seizure and upper evoked current densities used to judge phantom thresholds are 24-240 and about 40 times above SEEG-derived in-layer fields."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ae7764"
+    },
+    {
+      "target": "doi:10.1088/0031-9155/57/19/5929",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured acoustoelectric interaction constant K used in the bound."
+    },
+    {
+      "target": "doi:10.1109/tbme.2026.3682610",
+      "reason": "Reported K for brain tissue, used only as a sensitivity case."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Physiological maximum of the current dipole moment density (about 1 nA m/mm2)."
+    },
+    {
+      "target": "doi:10.1002/hbm.70624",
+      "relations": [
+        "supports"
+      ],
+      "reason": "SEEG-derived in-cortex magnetic fields are below their spin-lock phantom thresholds, consistent with their null result at 3 T."
+    },
+    {
+      "target": "doi:10.1148/radiol.2016150368",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Between seizures, SEEG fields near 130 Hz imply in-cortex magnetic fields of about 0.005 nT, far below what resonant rotary saturation needs."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ad169c"
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ab6fc3"
+    },
+    {
+      "target": "doi:10.1109/tnsre.2022.3196828"
+    },
+    {
+      "target": "doi:10.1088/1361-6420/ad4669"
+    },
+    {
+      "target": "doi:10.1088/1741-2560/8/4/046011"
+    },
+    {
+      "target": "doi:10.1088/0031-9155/41/11/002",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Order of magnitude of tissue conductivities near 1 MHz."
+    },
+    {
+      "target": "doi:10.1016/j.brs.2025.10.007",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Transcranial ultrasound safety criteria."
+    },
+    {
+      "target": "doi:10.1002/mrm.27654"
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2008.05.010"
+    }
+  ]
+}
