@@ -1,0 +1,175 @@
+{
+  "title": "Adult head models: an insulating sheet tight on the skull raises sub-scalp signals 7 times over bare contacts; a 0.2 mm fluid film removes most of this gain unless contacts sit in sealed holes",
+  "abstract": "In a layered model of the adult head, an electrode on the bare outer skull under a wide insulating sheet records about 7 times the signal of a bare electrode under the scalp, and the bare electrode records almost the same signal as scalp EEG. This matters because sub-scalp EEG implants for epilepsy monitoring and brain-computer interfaces are in human use, and their designers must choose contact depth and array construction without human data on signal and spatial resolution at each depth. We calculated the electric sensitivity (lead field) of contacts on the scalp, under the scalp on the periosteum (the membrane on the bone), on bare bone, in sealed blind holes (pegs) into the skull, on the dura (epidural) and under the dura, with an exact layered solver, an axisymmetric finite-volume solver that uses the reciprocity theorem, and 300 parameter sets drawn from literature ranges of tissue thickness and conductivity. For a 1 cm radius cortical source (median, 5-95%), a bare sub-scalp contact gives 1.09 (1.05-1.15) times the scalp signal, and a contact on bare bone under a wide insulating sheet gives 7.2 (4.2-11.5) times the bare sub-scalp signal (10 times for a point source, 16-29 times with bipolar pairs). Its ratio to an epidural contact is 0.65 for this source but 0.23 for a point source. The sheet must be tight on the bone: a conductive film between bone and sheet lowers the gain to 5.9 times (0.1 mm tissue), 3.1 times (0.2 mm fluid) and 2.0 times (0.5 mm fluid), while contacts in sealed holes to the inner table keep 6.5 times with a 0.2 mm fluid film. The width of the lead field on the cortex at half maximum is 60 mm (scalp), 51 mm (bare sub-scalp), 18 mm (backed bone), 11 mm (hole to inner table) and 6.5 mm (epidural). On bone a 10 mm radius backing gives 90% of the effect; on periosteum 20-30 mm is needed. Open 0.1-0.2 mm gaps around pegs lose 31-42% of the signal. The model agrees with sheep depth recordings, human scalp-subdural N20 ratios, the 10 cm2 rule for scalp-visible spikes, and two earlier human models after a soft-tissue correction, but no measurement has yet tested the backing and film predictions; we propose a direct test. Limits: flat layers without folding or sutures, assumed cortical signal statistics for resolution and detection-time estimates, and idealized films and seals.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "sub-scalp EEG",
+    "subgaleal electrode",
+    "peg electrode",
+    "epidural ECoG",
+    "volume conduction",
+    "lead field",
+    "reciprocity",
+    "skull conductivity",
+    "insulating backing",
+    "fibrous capsule",
+    "brain-computer interface",
+    "electrode pitch",
+    "minimally invasive recording"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_design_rules.png",
+      "caption": "Design rules. A, B: signal from a 1 cm radius cortical patch and width of the contact's sensitivity on the cortex (FWHM) versus the radius of an insulating backing, for a contact on the periosteum and on bare bone (axisymmetric reciprocity model, baseline adult head). C: gain over a bare sub-scalp contact when a conductive film (fibrous tissue 0.3 S/m or fluid 1.5 S/m) lies between bone and backing, for contacts on the bone surface and in sealed holes (300 parameter sets; median and 5-95%). D: signal loss from a tissue-filled gap between a skull peg and the bone."
+    },
+    {
+      "path": "files/figures/fig1_ladder.png",
+      "caption": "Electrode depth ladder over 300 parameter sets of a layered adult head model (dots: medians; bars: 5-95%). Left: monopolar signal from a 1 cm radius patch relative to an epidural contact in the same parameter set (this ratio is lower for smaller sources and for bipolar pairs). Middle: lead-field width at half maximum (FWHM). Right: time for one contact to detect a doubling of high-gamma power in 1 cm2 against a known baseline (implant-grade amplifier). Orange: contact under a wide, tight insulating sheet."
+    },
+    {
+      "path": "files/figures/fig3_depth_scan.png",
+      "caption": "Signal from a 1 cm radius patch (A) and sensitivity width (B) versus contact depth through scalp and skull, without and with a tight insulating sheet on the bone top (baseline adult head, planar model). The outer and inner tables of the skull cause most of the change; the conductive diploe between them spreads current sideways."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.48550/arXiv.2506.03452",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Sheep sub-scalp depth series (VEP amplitudes at periosteum, bone, peg, ECoG) used as validation data; we extend the question to human anatomy, spatial resolution, backing, films and sealing."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2506.03423",
+      "reason": "Sheep sub-scalp sensorimotor BCI study that motivates the question of spatial resolution and pitch."
+    },
+    {
+      "target": "doi:10.1039/d1sd00020a",
+      "reason": "Subgaleal device with an insulating silicone membrane that extends the sensing range; our backing result quantifies this effect for human anatomy."
+    },
+    {
+      "target": "doi:10.1101/2021.08.25.21262594",
+      "reason": "Preprint of the subgaleal membrane device (finite-element model, phantom and cadaver)."
+    },
+    {
+      "target": "doi:10.3389/fnins.2020.00763",
+      "reason": "Earlier demonstration that an insulating boundary raises recorded potentials (about 4 times in vivo)."
+    },
+    {
+      "target": "doi:10.1007/s12021-015-9265-6",
+      "reason": "Earlier modelling of insulating-boundary effects on extracellular potentials."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.08.009",
+      "reason": "Earlier finite-element modelling of how insulating subdural grids and skull holes change scalp potentials."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/7/2/026004",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Slutzky 2010 subdural, epidural and scalp falloff widths; reproduced with their layers as a model check."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/11/1/016006",
+      "reason": "Earlier epidural versus subdural modelling (Bundy 2014)."
+    },
+    {
+      "target": "doi:10.1155/2010/397272",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Wendel 2010 subdermal versus scalp half-sensitivity volumes; reproduced with their metric when the soft tissue is 15-20 mm thick."
+    },
+    {
+      "target": "doi:10.1007/s10548-019-00710-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Meta-analysis of head tissue conductivities used for parameter distributions."
+    },
+    {
+      "target": "doi:10.1016/j.nicl.2015.11.018",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Simultaneous scalp and subdural N20 amplitudes used for validation."
+    },
+    {
+      "target": "doi:10.1111/j.1528-1167.2005.11404.x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Cortical area needed for scalp-visible spikes used for validation."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human cortical dipole moment density range."
+    },
+    {
+      "target": "doi:10.1038/s41598-020-80548-y",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Skull layer thicknesses."
+    },
+    {
+      "target": "doi:10.1186/1746-160X-1-13",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Diploe thickness distribution."
+    },
+    {
+      "target": "doi:10.1016/s0013-4694(97)00035-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Regional scalp thickness."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0037529",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Subarachnoid CSF thickness."
+    },
+    {
+      "target": "doi:10.1016/j.clinph.2013.02.112",
+      "reason": "Earlier human subdural-to-subgaleal transmission study that notes insulating effects of grids."
+    },
+    {
+      "target": "doi:10.1371/journal.pcbi.1000609",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ECoG power-law spectrum used to set high-gamma power levels."
+    },
+    {
+      "target": "doi:10.1109/TBCAS.2018.2880148",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Implant amplifier noise level."
+    },
+    {
+      "target": "doi:10.1016/0013-4694(79)90278-5",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Breach rhythm amplitude over skull defects, used as a validation range."
+    }
+  ]
+}
