@@ -1,0 +1,168 @@
+{
+ "title": "One-slab third-harmonic MPI of the human head does not detect blood volume that is uniform along the head axis; in 20 head models, magnitude images also show many focal increases as decreases",
+ "abstract": "A human brain scanner for functional magnetic particle imaging (fMPI) that makes one image slab from the third harmonic does not detect blood-volume changes that are uniform along the head axis, and if its images are formed from magnitudes it shows many focal increases as decreases. This matters because the builders project that this scanner type can be about ten times more sensitive than functional MRI, and its images will be read as blood-volume maps. fMPI measures the iron of an injected iron-oxide tracer in the blood, so it measures cerebral blood volume (CBV). In the published human scanner, the drive field moves the field-free line (the line of zero field that makes the signal) along the head axis, but the scanner does not scan that axis. It is known that harmonic signals contain no uniform component along the drive axis. We applied a model of the scanner (published gradients, drive, 27 projections and smoothing; Langevin particles; axial kernel to ±120 mm) to 20 BrainWeb head models with blood maps, and compared it with the same scanner without its negative axial side lobes. A uniform 20% increase of all intracranial blood kept 1% of its signal (median V1 voxel; range over heads -5% to 5%). The baseline image was near zero and negative in 55% of V1 voxels, so it is not a blood-volume map. With signed (phase-sensitive) reconstruction, a 20% CBV increase in primary visual cortex (V1) kept 85% of its signal at the best voxel and 67% at the median V1 voxel; hand-sized cortical changes kept 64% at the best voxel; a change 10 mm from the slab centre gave a negative signal of 47% of the peak. The human papers do not state whether magnitudes are used (the rat study shows magnitude images). With the magnitude of the image, the activation peak kept 80% but 37% of V1 voxels showed a decrease; with magnitude projections, 42% did (73% with the published per-projection baseline subtraction). Field-dependent relaxation (3-6 µs) raised the uniform signal to 4-14%. These effects add to known limits: the head nerve-stimulation threshold at 25 kHz (4.7-5.1 mT) is below the 5.8 mT test drive, and with the measured noise the best V1 voxel gave a contrast-to-noise ratio of 1.8 per 5 s image, against 2.9 for 3 T BOLD fMRI. A phantom test can check the main prediction: a uniform tube 30 mm wide and 100 mm or more long should give about 1% of the signal of an 8 mm long disc without relaxation and less than 20% with slow relaxation; more than 30% would refute the model.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "magnetic particle imaging",
+  "functional MPI",
+  "field-free line",
+  "third harmonic",
+  "DC loss",
+  "slab sensitivity",
+  "magnitude reconstruction",
+  "cerebral blood volume",
+  "BrainWeb",
+  "Synomag-D",
+  "ferumoxytol",
+  "peripheral nerve stimulation",
+  "noninvasive neuroimaging",
+  "method validation"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_physics.png",
+   "caption": "Physics of the one-slab third-harmonic image (25 nm Langevin particles, 5.8 mT drive at 26.3 kHz, 1.13 T/m in plane, 0.85 T/m along the head axis). (a) Signed sensitivity along the head axis on the field-free line: positive centre, negative side lobes with zero net area; the in-plane profile is positive. (b) Net area within plus or minus Z, relative to the same weight without side lobes: on the line it reaches zero within about 20 mm; integrated over the image plane it falls only as 1/Z (0.14 at 40 mm, 0.05 at 100 mm). (c) Predicted centre signal of uniform tracer cylinders versus length (3D model): largest at 8-10 mm; for 100 mm or longer about 0 to 3% without relaxation (depending on diameter and receive-coil weighting), 4-8% and 15-19% with field-dependent relaxation of 3 and 6 microseconds."
+  },
+  {
+   "path": "files/figures/fig2_head.png",
+   "caption": "One BrainWeb head (subject 04). (a) Grey matter and V1 mask in the slab of the best V1 voxel. (b) Blood-iron image of the same scanner without side lobes. (c) The same slab imaged with the side lobes: signed, dominated by axial edges and vessels, near zero on average. (d, e) Image of a +20% V1 blood-volume change without and with side lobes (signed reconstruction). (f) Activation signal at the best in-plane voxel versus slab position: with side lobes the change becomes negative (about half the peak) when the slab is 10 mm from the activation."
+  },
+  {
+   "path": "files/figures/fig3_heads.png",
+   "caption": "Twenty heads. (a) V1 signal kept relative to the same scanner without side lobes (signed images), median and 10th-percentile V1 voxel, for 11 model cases (drive, core size, relaxation, smoothing, larger V1 mask with occipital pole, blood fractions). (b) Signal kept for a +20% change of all intracranial blood at the median V1 voxel: about 1%, within plus or minus 5% (up to 14% with 6 microsecond relaxation). (c) Reconstruction from 27 projections: signed data keep 68% at the median V1 voxel with 4% of voxels negative; the magnitude of the image keeps 40% with 37% of V1 voxels showing a decrease; magnitude projections keep 9% with 42% negative, and 73% negative with the published per-projection baseline subtraction."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:fc3f9b64ab35a3fb94e1fe3182d65ad295a665b11e00d3b1c603446f99847f94",
+   "relations": [
+    "uses",
+    "supports",
+    "challenges"
+   ],
+   "reason": "Parallel study of human fMPI sensitivity with the same BrainWeb heads; we use its physiological framing. Our results support its conclusion that current human fMPI hardware is less sensitive than 3 T BOLD, and challenge one model input: its positive, centre-peaked through-plane PSF (from the magnitude of the third harmonic). The signed through-plane weight has zero net area, so global changes nearly vanish, focal changes lose 15-75% depending on voxel, and magnitude data show many focal increases as decreases."
+  },
+  {
+   "target": "doi:10.1088/1361-6560/ad9db0",
+   "relations": [
+    "reviews"
+   ],
+   "reason": "Human-scale fMPI scanner whose geometry, noise and CNR projections we test."
+  },
+  {
+   "target": "doi:10.18416/IJMPI.2024.2403016",
+   "relations": [
+    "reviews"
+   ],
+   "reason": "Human fMPI scanner abstract: 6 mm, 150 ng at SNR 1, 5 s images."
+  },
+  {
+   "target": "doi:10.18416/ijmpi.2017.1703008",
+   "relations": [
+    "reviews"
+   ],
+   "reason": "Design analysis that projected human fMPI CNR far above fMRI."
+  },
+  {
+   "target": "doi:10.1088/1361-6560/acecd1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Rat fMPI: through-plane side lobes with opposing polarity, gain noise 1.7%, hypercapnia validation."
+  },
+  {
+   "target": "doi:10.18416/IJMPI.2022.2203023",
+   "reason": "SLICE projection-space model for side-lobe interference in the rodent scanner."
+  },
+  {
+   "target": "doi:10.18416/ijmpi.2025.2503029",
+   "reason": "Monkey hypercapnia fMPI on the human-scale scanner."
+  },
+  {
+   "target": "doi:10.1109/TMI.2013.2257177",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DC loss of partial fields of view in x-space MPI and its recovery by overlap."
+  },
+  {
+   "target": "doi:10.1109/JTEHM.2025.3570611",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Measured PNS thresholds of a head solenoid at 25 kHz."
+  },
+  {
+   "target": "doi:10.1007/s11307-018-1276-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ferumoxytol MPI signal per iron about 4 times below ferucarbotran."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2012.05.010",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human ferumoxytol CBV fMRI: CNR 2-2.9 times BOLD and resting CBV noise bound."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.06.066",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human ferumoxytol resting-state fMRI: noise rise after contrast."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2018.07.011",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human V1 CBV change with ferumoxytol at 7 T."
+  },
+  {
+   "target": "doi:10.7554/eLife.62071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Spontaneous versus evoked blood volume in awake mice."
+  },
+  {
+   "target": "https://brainweb.bic.mni.mcgill.ca/brainweb/anatomic_normal_20.html",
+   "relations": [
+    "uses"
+   ],
+   "reason": "BrainWeb 20 normal anatomical models (crisp labels)."
+  },
+  {
+   "target": "https://www.nitrc.org/frs/download.php/9902/HarvardOxford.tgz",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Harvard-Oxford cortical atlas used for the V1 mask."
+  },
+  {
+   "target": "doi:10.1186/1471-2342-9-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MPI system-function theory: harmonic weights with zero integral (Chebyshev form)."
+  },
+  {
+   "target": "https://arxiv.org/abs/2503.13802",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MH3D paper: a constant background is eliminated in the higher harmonics of single-axis-drive scanners."
+  }
+ ]
+}
