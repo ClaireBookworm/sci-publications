@@ -1,0 +1,135 @@
+{
+  "title": "In 9 adults, visual-cortex FDG uptake rose too early in 10-min checkerboard blocks for a phosphorylation-only change at literature turnover rates; a fast, transport-like component is needed",
+  "abstract": "In public functional PET data with the glucose tracer FDG (OpenNeuro ds003382: 10 adults, constant infusion, 1-min frames), the extra FDG in visual cortex rose in the first minutes of 10-min checkerboard blocks earlier than a change of glucose phosphorylation alone permits at published turnover rates; a component that acts at once, such as a change of FDG transport across the blood-brain barrier, is needed. This matters because recent studies read FDG signals at 1-s to 36-s resolution as glucose metabolism. PET counts all tracer in a voxel, so phosphorylation (rate constant k3) reaches the signal only through the turnover of free FDG (time constant 1/(k2+k3), 3-7 min), while transport (K1, k2) and blood volume act at once. Two earlier SCI studies showed this in theory and, in another data set, rejected sustained phosphorylation and transport alone but not a phosphorylation increase that falls by 70 % within 3 min. Here, the excess at 4 min was 0.54 [95 % CI 0.44-0.70] of its 10-min value (n = 9; shape-free fit; reference-region baseline), against 0.22-0.26 predicted for sustained phosphorylation (turnover 0.14-0.3/min) and 0.49 for transport. At these turnover rates, sustained phosphorylation was rejected in all 8 variants of baseline, rate constants, PET start time and onset shifts of up to 60 s (per-subject sign-flip p = 0.004-0.008); transport was never rejected. A phosphorylation increase that keeps at least 30 % of its initial size was also excluded, including a 70 % decay within 3 min; a 90 % decay is at the edge of the data, and complete decay within 1 min fits only with a k3 rise of 1300-3400 %. The excess needs a transport rise of 61-79 % (more than blood flow alone gives) or a mixture with phosphorylation; blood volume alone would need +380 %. The share of the steady uptake change carried by phosphorylation is not determined (best 0-0.7 by variant), and the response after the block depends on the baseline model. A Monte Carlo over physiology gives a median phosphorylation share of 2.4-3.4 % of the signal at the end of a 36-s block; the fPET excess explains 17-41 % of the variance of the true glucose-use change at 36-s blocks and 85 % at 20-min blocks, depending on the transport prior. Noise was 2.5 % per 1-min frame in a 7-mL region (1.9 mSv). Limits: one data set and task, region level, population plasma curve, literature rate constants, block onset coincides with eye opening, onset timing uncertain by up to 48 s.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "functional PET",
+    "FDG",
+    "fPET",
+    "tracer kinetics",
+    "glucose metabolism",
+    "blood-brain barrier transport",
+    "hexokinase",
+    "temporal resolution",
+    "cerebral blood volume",
+    "PET/MR",
+    "BOLD adaptation",
+    "visual cortex",
+    "OpenNeuro ds003382",
+    "metabolic connectivity",
+    "two-tissue compartment model"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig_data.png",
+      "caption": "A: Excess FDG activity in visual cortex (V1, 7 mL) after the onset of a 10-min checkerboard block, from a shape-free fit (black, mean and SE of 9 subjects; grey, single subjects), with the shapes predicted for a transport change (orange) and a sustained phosphorylation change (green), both scaled to the 10-min value. B: Ratio of the excess at 4 min to that at 10 min. Grey band: data 95 % bootstrap interval (main timing); green: prediction for a sustained phosphorylation change against the free-FDG turnover k2+k3 (literature grey-matter range shaded); orange: transport prediction. Only turnover rates far above the literature range approach the data."
+    },
+    {
+      "path": "files/figures/fig_montecarlo.png",
+      "caption": "Theory, Monte Carlo over 4000 physiological parameter sets with transport changes independent of the glucose-use change. A: share of the PET-visible task excess at block end caused by the blood-volume, transport and phosphorylation changes, against block length (median and 5-95 % band). B: PET-visible excess divided by the true extra phosphorylated FDG; R² is the variance of the true CMRglc change explained by the PET excess. With transport coupled to the glucose-use change (mc_coupled.json) the phosphorylation share stays small and R² rises to 0.41 at 36 s."
+    },
+    {
+      "path": "files/figures/fig_transfer.png",
+      "caption": "Theory: change of the apparent FDG influx for a 10 % change of blood volume, transport (K1) or phosphorylation (k3) against the frequency of the change, for two literature rate-constant sets. Dashed line: corner of the phosphorylation low-pass filter. Grey band: 0.01-0.2 Hz, the band used for fPET metabolic connectivity."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:0e9c10bdc65ba6fe9e2a59ae7b556915f9b798b5df1ad7f6bfc90a9fb9093f91",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Earlier SCI study with the same kinetic transfer functions and a 64-s test in ds003397; our theory part repeats and agrees with it."
+    },
+    {
+      "target": "sci:sha256:ef2aa0af9b7b9c0068e45b55f25cb60301af000e8bd530ead4dd6b0f9e2bdac5",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Earlier SCI study that rejected sustained phosphorylation and transport alone for 10.7-min blocks in ds003397 but not adapting phosphorylation or mixtures; our early-rise test excludes moderately adapting phosphorylation in a second data set."
+    },
+    {
+      "target": "doi:10.18112/openneuro.ds003382.v1.5.0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Monash vis-fPET-fMRI data set (CC0): dynamic PET, BOLD runs, plasma samples."
+    },
+    {
+      "target": "doi:10.1038/s41597-021-01042-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Data descriptor: task timing, infusion protocol, reconstruction."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.06.025",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Villien et al. 2014: slow response of the FDG signal to a phosphorylation change."
+    },
+    {
+      "target": "doi:10.1007/s00259-023-06542-4",
+      "reason": "Hahn et al. 2024: 3-s fPET task responses and the rate constants used here."
+    },
+    {
+      "target": "doi:10.1177/0271678X261455750",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Hahn et al. 2026 review: simulations attribute rapid FDG increases to blood-brain-barrier transport (abstract only read)."
+    },
+    {
+      "target": "doi:10.1177/0271678X261431043",
+      "reason": "Reed et al. 2026: metabolic connectivity from 1-s and 3-s fPET frames at 0.01-0.2 Hz."
+    },
+    {
+      "target": "doi:10.3390/diagnostics13193121",
+      "reason": "Madsen et al. 2023: compartment-model fPET with task changes in K1 and k2."
+    },
+    {
+      "target": "doi:10.1162/IMAG.a.110",
+      "reason": "Baseline mischaracterization in fPET analysis."
+    },
+    {
+      "target": "doi:10.1002/ana.410060502",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Phelps et al. 1979: grey-matter FDG rate constants."
+    },
+    {
+      "target": "doi:10.1152/ajpendo.1980.238.1.E69",
+      "reason": "Huang et al. 1980: FDG model and rate constants."
+    },
+    {
+      "target": "doi:10.1161/01.STR.5.5.630",
+      "reason": "Grubb et al. 1974: blood volume - blood flow relation used in the Monte Carlo."
+    },
+    {
+      "target": "doi:10.1126/science.3260686",
+      "reason": "Fox et al. 1988: size of visual-cortex glucose-use increase."
+    },
+    {
+      "target": "doi:10.1016/s0079-6123(08)62337-7",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Kuwabara et al. 1992: FDG K1 rose during functional activation (density of perfused capillaries)."
+    }
+  ]
+}
