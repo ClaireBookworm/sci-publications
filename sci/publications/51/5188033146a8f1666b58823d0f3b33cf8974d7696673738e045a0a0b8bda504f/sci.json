@@ -1,0 +1,223 @@
+{
+ "title": "Published functional MR elastography effect sizes lie inside the range that voxel selection alone produces, and if they are real they need a 10 to 32 percent change in cortex",
+ "abstract": "Functional MR elastography reports that activated human visual cortex becomes 2 to 6 percent stiffer during a visual task, several times more than the usual functional MRI signal in the same data. This study simulates that measurement and its statistics, and finds that the reported numbers lie inside the range the analysis itself produces when nothing changes at all, while a real response of that size would need a 10 to 32 percent change in the tissue. Shear stiffness is the resistance of tissue to a sideways shearing motion; elastography measures it by sending a 60 Hz vibration through the head and watching the waves with MRI. Solving the shear-wave equation in a 98 mm volume and running the published reconstruction gives a contrast transfer factor, the measured fractional change divided by the true one, of 0.18 to 0.27 for a change inside one 2.6 mm cortical ribbon and 0.40 to 0.57 when the patch covers several folds, in agreement with published measurements of cortical recovery. The factor is set by the thin dimension of the region and by the smoothing kernel, not by the 28.6 mm wavelength: halving the wavelength changes it by under 2 percent, so a higher drive frequency does not help. Both published analyses select voxels by thresholding the data they then quantify. With no true effect the surviving voxels show a median change of 2.02 times the per-voxel noise of one elastogram if the threshold is per subject, or 0.55 times if it is a 16-subject group contrast; the papers do not say which. The reported 2.0 and 5.8 percent are exactly that floor for a per-voxel noise of 1.0 and 2.9 percent, or 3.6 and 10.5 percent, and the simulated noise of this protocol is 2.5 to 14 percent. The published mouse values are likewise bracketed by their own stated noise and threshold. Selection in both studies is one-sided in opposite directions, so neither design can tell a selected sign from a real one. A stimulus-locked change of image signal-to-noise also biases the inversion, with a gain bounded by 2 in general and 0.85 for this pipeline, so a 0.9 percent BOLD change can fake at most 0.33 percent: too small. What selection does not explain is that the human effect grows with stimulus contrast. The study gives the cheap controls that would settle which reading is right, and what a pre-specified region could detect.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.IV"
+  }
+ ],
+ "keywords": [
+  "magnetic resonance elastography",
+  "functional MRE",
+  "brain stiffness",
+  "shear waves",
+  "direct inversion",
+  "contrast transfer",
+  "partial volume",
+  "circular analysis",
+  "voxel selection",
+  "selection bias",
+  "noise bias",
+  "intracranial pressure",
+  "cerebral blood volume",
+  "noninvasive brain measurement",
+  "physics limits",
+  "simulation",
+  "BOLD"
+ ],
+ "display": [
+  {
+   "path": "files/fig1_transfer_and_requirement.png",
+   "caption": "Left: the contrast transfer factor D, the measured fractional stiffness change divided by the true one, against the volume of the region whose modulus changes. A change inside one 2.6 mm cortical ribbon is shown at D = 0.18 to 0.27 whatever the patch area, because the thin dimension sets the result; a folded patch covering several ribbons reaches 0.57. Right: dividing published functional MRE responses by D gives the true change each one needs, against what a focal activation can produce from the measured pressure and blood-volume sensitivities (green band) and against two measured whole-brain challenges (dashed lines)."
+  },
+  {
+   "path": "files/fig2_artefact_channels.png",
+   "caption": "Two ways a stiffness change can appear without one. a: per-voxel noise of one 12 s elastogram, and the systematic underestimate of the modulus, against displacement signal-to-noise. b: the gain by which a stimulus-locked signal-to-noise change appears as a stiffness change; it is below 2 for any noise spectrum, below 0.85 for this pipeline, and 0.37 or less at a usable signal-to-noise, so a 0.9 percent BOLD change can fake at most 0.33 percent. c: the effect size produced by thresholding the same elastograms at p below 0.001 when there is no true effect, against the published human effect sizes."
+  },
+  {
+   "path": "files/fig3_design.png",
+   "caption": "What functional MR elastography could measure with a region fixed in advance. a: the smallest true local stiffness change detectable at 95 percent confidence with 16 subjects, 384 s each, in a 20 cm3 region, for the published protocol and three sharper ones. b: the contrast transfer factor for a cortical ribbon under several protocols; smaller voxels raise it from 0.26 to about 0.7, while a higher vibration frequency at a fixed voxel does not. Panel a shows that the finer voxels nevertheless lose at equal scan time, because their per-voxel noise rises faster than the transfer factor."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1162/imag_a_00172",
+   "relations": [
+    "challenges",
+    "uses"
+   ],
+   "reason": "The human functional MRE protocol and effect sizes analysed here: 60 Hz, 3.5 mm voxels, 7x7x5 quartic smoothing, direct inversion, 32 elastograms of 12 s, threshold p below 0.001 uncorrected with the percent change computed inside the surviving voxels, 2.0 to 5.8 percent. This study reproduces that pipeline, measures its contrast transfer factor, and computes the effect size its thresholding produces with no true effect."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2020.116592",
+   "relations": [
+    "challenges",
+    "uses"
+   ],
+   "reason": "The earlier human functional MRE report (7.57 percent in |G*|), the source of the block design, the statement that the declared 7x7x5 quartic kernel has a net size of 5x5x3, and the partial-volume rebuttal that this study shows does not hold for the amplitude of a change."
+  },
+  {
+   "target": "doi:10.1126/sciadv.aav3816",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Mouse functional MRE at 1 kHz reporting 5.0 to 8.4 percent storage-modulus changes with stimuli switched as fast as 100 ms. Its own quoted per-pixel noise of 0.52 to 0.72 kPa and its one-sided |z| > 1 threshold give a selection floor of 3.7 to 12.7 percent, which brackets all three reported values."
+  },
+  {
+   "target": "doi:10.31219/osf.io/kp4r2",
+   "relations": [
+    "supports"
+   ],
+   "reason": "An unpublished reanalysis of the mouse study showing that its activations do not survive a |z| > 1.96 threshold and that its |z| > 1 threshold corresponds to p = 0.32. It reaches the same conclusion as this study's selection analysis by a different route."
+  },
+  {
+   "target": "doi:10.1088/1361-6560/aa8380",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Asks the same mechanism question, 'Are rapid changes in brain elasticity possible?', and answers yes with a microchannel-flow model. An earlier draft of this work wrongly stated that no such analysis existed. The model predicts a softening for unconfined vasodilation, which agrees with the composite calculation here and disagrees with the sign the human studies report."
+  },
+  {
+   "target": "doi:10.1016/0301-5629(94)00136-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Names and defines contrast-transfer efficiency, the ratio of measured to true elasticity contrast, which is the quantity this study measures for a functional MRE protocol."
+  },
+  {
+   "target": "doi:10.1016/0301-5629(95)02079-9",
+   "relations": [
+    "uses"
+   ],
+   "reason": "The analytic companion to the contrast-transfer-efficiency concept."
+  },
+  {
+   "target": "doi:10.1002/mrm.29226",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Measures ROI recovery coefficients of 0.16 to 0.86 for cortical regions at 60 Hz and 3 mm with ground truth, from the same group whose protocol is simulated here, and reports an inversion width of about 1 cm. The transfer factors in this study sit inside that published range."
+  },
+  {
+   "target": "doi:10.1088/1361-6560/ac5fde",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reports recovered-versus-true slopes of 0.49 to 0.78 for a 2.60 mm cortical ribbon at 2.0 mm voxels, the closest published measurement to this study's folded-cortex transfer factors."
+  },
+  {
+   "target": "doi:10.1016/j.actbio.2021.10.038",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reports that a 9 mm stiff lesion needs a true contrast of +35 or +57 percent to show +10 percent, i.e. transfer factors of 0.29 and 0.18, by two inversion methods."
+  },
+  {
+   "target": "doi:10.3389/fnins.2021.722366",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Already argues that MRE-measured cortical stiffness changes are diluted by partial volume, with a factor of about 3 for 2 mm voxels; this study measures the factor for the 3.5 mm functional protocol and for a within-subject difference."
+  },
+  {
+   "target": "doi:10.1002/mrm.28898",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Quantifies the softening of cortical surface voxels caused by partial volume with cerebrospinal fluid in brain MRE, the bias that makes the isolated-ribbon transfer factor here an optimistic estimate."
+  },
+  {
+   "target": "doi:10.1002/mrm.28627",
+   "relations": [
+    "uses"
+   ],
+   "reason": "The MRE guidelines: the width of the processing kernel sets the resolution, regions of interest should be eroded by its half-width, and objects thinner than a wavelength show waveguide bias. This study turns those statements into a number for the functional protocol."
+  },
+  {
+   "target": "doi:10.1002/mrm.28247",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Analyses noise and discretisation bias of finite-difference MRE inversions, the known effect whose stimulus-locked differential form this study bounds."
+  },
+  {
+   "target": "doi:10.1002/mrm.26738",
+   "relations": [
+    "uses"
+   ],
+   "reason": "The only in-vivo calibration of brain stiffness against pressure: 0.009 kPa/mmHg at 60 Hz on a 1.55 kPa intercept in swine over 0 to 55 mmHg. Used here as the low pressure sensitivity."
+  },
+  {
+   "target": "doi:10.1038/s41598-018-36191-9",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Valsalva raises shear wave speed by 10.8 percent at an intracranial pressure rise of about 5.7 mmHg, which gives the high pressure sensitivity used here, about 3.8 percent in modulus per mmHg."
+  },
+  {
+   "target": "doi:10.3389/fbioe.2021.666456",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Real-time MRE during Valsalva: |G*| rises by 6.7 and 7.4 percent, a measured whole-brain anchor for how far brain stiffness can move."
+  },
+  {
+   "target": "doi:10.1177/0271678X18799241",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Hypercapnia raises |G*| by 3.3 percent with cerebral blood flow up 36 percent, and the stiffness change does not correlate with the flow change. Used as a global anchor and as a consistency check on the pressure channel."
+  },
+  {
+   "target": "doi:10.1177/0271678X19850936",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Cardiac systole softens the brain by 6.6 percent in MRE, with arterial blood only about 2 percent of brain volume: a measured bound on how much a small vascular compartment can move the modulus."
+  },
+  {
+   "target": "doi:10.3389/fbioe.2023.1140734",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Reports the opposite sign for the same cardiac-cycle effect, +7.5 percent by ultrasound, which is part of the sign inconsistency this study examines."
+  },
+  {
+   "target": "doi:10.1038/nn.2303",
+   "relations": [
+    "uses"
+   ],
+   "reason": "States the general problem of selecting voxels with the same data used to quantify the effect, which this study makes quantitative for two functional MRE protocols."
+  },
+  {
+   "target": "sci:sha256:74b9a34a0a0c246b6bc92ad384556a09b5f4f071c539c826f54b943e02b0f93c",
+   "relations": [
+    "supports"
+   ],
+   "reason": "The same style of argument for a different modality: published fast optical brain signals need cortical scattering changes above an in-vivo bound. This study does the equivalent for mechanical contrast."
+  },
+  {
+   "target": "sci:sha256:3e44c6b7859b1a78a22d1c55c556ff4cbcb8112d086bc5b0c58fab014bb97f1f",
+   "relations": [
+    "supports"
+   ],
+   "reason": "A physics-limit study of functional ultrasound in the same catalogue; none of the catalogue's limit analyses of noninvasive brain measurement covers elastography."
+  },
+  {
+   "target": "sci:sha256:c102390344d739e2709de4ae440c5442fb7870b2ffcfb4c4451c75703a172883",
+   "relations": [
+    "supports"
+   ],
+   "reason": "A limit analysis of molecular ultrasound reporters that identifies one physical parameter as the binding constraint, and whose candidate-selection and prior-prediction format this study follows."
+  }
+ ]
+}
