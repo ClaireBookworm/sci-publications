@@ -1,0 +1,195 @@
+{
+  "title": "In a head model scaled with human ECoG, stent channels in the superior sagittal sinus record leg and supplementary motor cortex but get less than 1% of their high-gamma signal from the hand area",
+  "abstract": "Stent-electrode channels in the superior sagittal sinus, the large vein above the brain where Stentrode arrays are implanted, record the leg area and the supplementary motor area (SMA), but they get less than 1% of their high-gamma signal from the hand area. This matters because endovascular and sub-scalp brain-computer interfaces are in human trials, and their designers must choose electrode sites without human data on what each site records. We built a finite-difference volume-conductor model of one adult head (1 mm voxels) with the sinus, its dural wall, a 3 mm fluid gap to the cortex, the falx and the dura. We computed lead fields (the voltage per unit cortical dipole) for 514 electrodes on the sinus wall and, over the sensorimotor cortex, on the scalp, on the skull (sub-scalp), on and under the dura, and on the brain. We scaled the model of high-gamma (70-200 Hz) activity with public subdural ECoG data. A 16-electrode stent over the leg area takes about 60% of its channel power from the leg areas and at most about 0.5% from the hand area. For attempted movement of both ankles the model gives a 36% high-gamma amplitude change (19-45% over the unknown reference electrode, 24-46% over calibration channels); a published Stentrode patient showed 54%. For the 23-55% change reported for attempted hand movement in a second patient, hand-area power would have to rise about 80- to 900-fold (and 22 to 150 times more than calibrated even if that activity were fully coherent), but a rise of leg-area power by about 0.9 times its resting level is sufficient, so this signal very likely comes from cortex near the midline. For a 1 cm2 patch with 1 nAm/mm2, the best sinus electrode records 233 uV from the leg area and 36 uV from the hand area (subdural electrodes: 472 and 638 uV; sub-scalp: 16 and 21 uV). With 0.5 uV noise, a stent detects a doubling of high-gamma power in one 1 cm2 patch over 17 cm2 of medial cortex and 10 mm subdural grids over 89 cm2; sub-scalp grids reach a 10% change only over 1 cm2 at 0.25 uV and 21 cm2 at 0.1 uV. An electrode in a 2 mm cortical vein records like an electrode on the brain surface. Dura conductivity from 0.05 to 1.5 S/m and sinus-cortex gaps from 1.5 to 5 mm do not change these conclusions. Limits: one head at 1 mm resolution, high gamma modelled as random dipoles, absolute predictions uncertain by a factor of about 2, two patients with ALS and unknown stent positions, stent metal not modelled.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "keywords": [
+    "endovascular brain-computer interface",
+    "Stentrode",
+    "superior sagittal sinus",
+    "sub-scalp EEG",
+    "electrocorticography",
+    "volume conductor model",
+    "lead field",
+    "high gamma",
+    "spatial resolution",
+    "dura conductivity",
+    "cortical veins",
+    "supplementary motor area",
+    "finite difference",
+    "reciprocity"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_highgamma_vs_measured.png",
+      "caption": "Predicted high-gamma (70-200 Hz) amplitude change during movement at the best electrode of each type and for a 16-electrode stent (dots: central case; bars: range over active-region size, model variants and, for the stent, reference electrode, calibration channel and position), with the ECoG calibration value and the measured Stentrode values of Kacker et al. 2025 (diamonds and square; P1 both ankles, P2 right hand from 8 months and at 3 months). Right: resting high-gamma amplitude from the brain against instrument noise."
+    },
+    {
+      "path": "files/figures/fig1_sensitivity_maps.png",
+      "caption": "Head model at the stent level (a) and relative sensitivity to independent cortical sources for a sinus-wall electrode and for subdural, epidural, sub-scalp and scalp electrodes over the hand knob (b-f), top view and medial view of the left hemisphere. A50: smallest cortical area that gives half of the recorded power (distant reference)."
+    },
+    {
+      "path": "files/figures/fig3_array_resolution.png",
+      "caption": "Single-patch detection of high gamma: for each 1 cm2 cortical patch, the largest power change that the best channel combination shows when the patch power doubles, for a 16-electrode stent, all sinus-wall electrodes, and 10 mm sub-scalp, epidural, subdural and scalp grids (0.5 uV noise; 1 uV for scalp). Right: cortical area with at least 10% and 30% change, and the 10% area for 0.1 uV noise."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1088/1741-2552/adbd78",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Measured Stentrode high-gamma modulation (two patients) used to test the model predictions; device geometry and referencing."
+    },
+    {
+      "target": "doi:10.1038/s41562-019-0678-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public ECoG library (motor_basic data) used to calibrate high-gamma amplitude and movement modulation."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.3886-06.2007",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Original publication of the motor_basic ECoG data."
+    },
+    {
+      "target": "https://purl.stanford.edu/zk881ps0522",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Download location of the ECoG library."
+    },
+    {
+      "target": "https://github.com/simnibs/example-dataset/releases",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SimNIBS 4 example head (ernie) segmentation and surfaces used for the head model (CC BY-NC 4.0, not redistributed)."
+    },
+    {
+      "target": "doi:10.1109/EMBC.2015.7318340",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Required citation for the SimNIBS example dataset."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2020.117044",
+      "relations": [
+        "uses"
+      ],
+      "reason": "charm segmentation method of the head model."
+    },
+    {
+      "target": "doi:10.1101/2025.09.19.25335875",
+      "reason": "Stentrode users: overlap with primary motor cortex predicts signal strength."
+    },
+    {
+      "target": "doi:10.1101/2025.09.19.25335897",
+      "reason": "Stentrode signal properties and stability in five participants."
+    },
+    {
+      "target": "doi:10.1002/aisy.202500487",
+      "reason": "Endovascular recording from cortical and deep veins in pigs."
+    },
+    {
+      "target": "doi:10.48550/arXiv.2506.03452",
+      "reason": "Sheep comparison of sub-scalp and endovascular electrodes with a spherical model; states that sub-scalp spatial resolution was not investigated."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ade9f1",
+      "reason": "Sub-scalp EEG for sensorimotor BCI in sheep."
+    },
+    {
+      "target": "doi:10.1038/s41598-018-26457-7",
+      "reason": "Sheep comparison of endovascular, subdural and epidural signal quality."
+    },
+    {
+      "target": "doi:10.1109/EMBC.2018.8512385",
+      "reason": "Electrode orientation on the stent does not change the recorded bandwidth (sheep)."
+    },
+    {
+      "target": "doi:10.1155/2010/397272",
+      "reason": "Subdermal versus scalp bipolar EEG lead sensitivity in realistic head models (compared in section 4.1)."
+    },
+    {
+      "target": "doi:10.1136/jnis-2023-021434",
+      "reason": "Systematic review of superior cortical venous anatomy for endovascular devices."
+    },
+    {
+      "target": "doi:10.1002/epi4.70163",
+      "reason": "SEEG-based choice of a venous sinus for endovascular EEG with an assumed detection radius."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.12.041",
+      "reason": "Blood vessels in high-resolution EEG volume conductor models (sagittal sinus not included)."
+    },
+    {
+      "target": "doi:10.1109/BCI57258.2023.10078540",
+      "reason": "Earlier simulation of stimulation current from superior sagittal sinus stent electrodes."
+    },
+    {
+      "target": "doi:10.1001/jamaneurol.2022.4847",
+      "reason": "SWITCH safety study of the Stentrode."
+    },
+    {
+      "target": "doi:10.1038/nbt.3428",
+      "reason": "Original stent-electrode array study."
+    },
+    {
+      "target": "doi:10.1136/neurintsurg-2020-016862",
+      "reason": "First-in-human Stentrode motor neuroprosthesis."
+    },
+    {
+      "target": "doi:10.1080/03091902.2018.1435745",
+      "reason": "Review of spinal dura (Nagel et al.) that reports the measured feline cerebral dura resistivity of Oates (2000) and the model value of Sin and Coburn."
+    },
+    {
+      "target": "doi:10.1007/s10548-019-00710-2",
+      "reason": "Compilation of reported head-tissue conductivities."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.02.003",
+      "reason": "Cortical dipole moment density used for the coherent patches."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/7/2/026004",
+      "reason": "Spatial resolution and spacing of surface electrode arrays."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.2917-18.2019",
+      "reason": "Locality of the ECoG signal."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.08.009",
+      "reason": "Extent of cortical generators visible on the scalp."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2020.02.043",
+      "reason": "Whole-body representation in the hand-knob area (alternative explanation of hand signals)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2020.117443",
+      "reason": "Mouth MEG, prior work for candidate 4."
+    },
+    {
+      "target": "sci:sha256:766182abbe7ab5000a01b56e41130215c900acb2c3ac0b7d12e4f3c1594493de",
+      "reason": "Related SCI study of functional ultrasound from a venous-sinus array; same access route, different physics."
+    }
+  ]
+}
