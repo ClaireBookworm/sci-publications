@@ -1,0 +1,219 @@
+{
+ "title": "In 4,280 CRISPRi-tested human elements, validated enhancers were conserved in mammals more often if their target gene was dosage sensitive; DNase breadth predicted conservation more than function",
+ "abstract": "Human enhancers that CRISPR interference (CRISPRi) screens showed to control a gene were conserved across mammals more often when that gene is sensitive to a change in its dose. This matters because the dispute about how much non-coding DNA is functional depends on whether activity measured in cells predicts natural selection. We used 4,280 enhancer-like elements that public CRISPRi screens tested in five human cell types: 545 decreased the expression of a gene and 3,735 did not. Constraint was the percentage of bases with a 240-mammal phyloP score of 2.27 or more (phyloP measures evolution slower than neutral), with exons removed. Validated enhancers had 6.6% constrained bases, CRISPRi-negative elements 5.8%, and random windows near the elements 2.4%. After adjustment for chromatin, distance, length, GC and screen, the difference was 1.2 points, and 1.8 points when DHS breadth was also adjusted. The number of 733 DNase-seq samples in which an element is open explained much more of the variance in constraint than CRISPRi function (R-squared increase 0.029 vs 0.001). Among validated enhancers, constraint increased with s_het, an estimate of the fitness cost of losing one copy of the target gene (Spearman 0.28 over 538 elements, p = 2e-11; 0.31 over 347 genes). At least 70% (95% CI 56-81%) of enhancers of genes with s_het above 0.1 had more constraint than random windows near them, against at least 39% (22-55%) for s_het of 0.01 or less. The target gene s_het still predicted constraint when the s_het of the nearest gene was in the model. Elements near a dosage-sensitive gene that they did not regulate also showed part of this trend; after distance matching, the extra slope for regulating elements fell to 55-83% of its first value (p = 0.02 to 0.10). The measured effect size added little, so the data cannot separate linear and quadratic fitness models or count unconstrained enhancers. Natural deletions in 63,046 gnomAD genomes covered validated enhancers 27% less often than CRISPRi-negative elements (p = 0.02; not significant far from promoters); this did not depend on s_het. The 1-kb human population score Gnocchi did not separate the groups. Limits: 88% of validated enhancers were tested in K562 cells; CRISPRi silences about 1 kb; s_het is a gene-level estimate. Prediction: at equal expression effect, deletion of enhancers of high-s_het genes will give larger organismal phenotypes than deletion of enhancers of low-s_het genes.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "enhancer",
+  "CRISPRi",
+  "evolutionary constraint",
+  "phyloP",
+  "Zoonomia",
+  "dosage sensitivity",
+  "s_het",
+  "gnomAD",
+  "structural variants",
+  "selected-effect function",
+  "ENCODE"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig2_dosage_sensitivity.png",
+   "caption": "A: Percentage of bases constrained in 240 mammals (phyloP >= 2.27, exons removed) for CRISPRi-tested element-gene pairs closer than 100 kb, by quintile of the tested gene dosage sensitivity (s_het). Blue: the element decreased the gene expression (456 pairs). Orange: the element did not change the gene (1,428 pairs). Bars are 95% bootstrap intervals over 2-Mb loci. Constraint rises with s_het for regulating pairs; for non-regulating pairs it rises over the first four quintiles and falls in the top one (interaction p = 0.02 to 0.03 for pairs < 100 kb, with or without DHS breadth). B: Likelihood profile of the exponent k in the selection index s_het x e^k (e = CRISPRi effect size) for 538 validated enhancers. The profile assumes independent elements; the locus bootstrap interval for k is 0 to 1.9, so effect size adds little beyond s_het."
+  },
+  {
+   "path": "files/figures/fig1_constraint_by_group.png",
+   "caption": "A: Mammalian constraint of random local windows, CRISPRi-negative and CRISPRi-positive enhancer-like elements (95% bootstrap intervals over 2-Mb loci). B: gnomAD observed/expected variant ratio (Gnocchi, 1-kb windows); no group difference. C: Constraint against the number of 733 DNase-seq samples in which the element is open; breadth explains much more of the constraint than the CRISPRi result."
+  },
+  {
+   "path": "files/figures/fig3_deletions.png",
+   "caption": "A: Natural deletions (gnomAD-SV v4.1, 50 bp to 50 kb, no exon) that cover at least half of the element, per element. Validated enhancers are covered 27% less often than CRISPRi-negative elements after adjustment for local deletion rate (p = 0.02; p = 0.13 for elements more than 10 kb from a TSS). B: Percentage of those deletions that are singletons in 63,046 genomes."
+  }
+ ],
+ "citations": [
+  {
+   "target": "https://www.nature.com/articles/s41586-026-10781-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE-rE2G CRISPR benchmark (Gschwind et al.): source of the CRISPRi element-gene pairs, effects, power and chromatin features."
+  },
+  {
+   "target": "https://github.com/EngreitzLab/CRISPR_comparison",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download location of the combined CRISPR benchmark files."
+  },
+  {
+   "target": "doi:10.1101/2023.11.09.563812",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Preprint of the ENCODE-rE2G benchmark."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 240-mammal alignment and phyloP constraint."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP >= 2.27 threshold for constrained bases."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Gnocchi gnomAD 1-kb constraint map; also prior evidence that constrained regulatory elements regulate constrained genes."
+  },
+  {
+   "target": "doi:10.1038/s41588-024-01820-9",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GeneBayes s_het estimates of gene dosage sensitivity."
+  },
+  {
+   "target": "doi:10.5281/zenodo.10403680",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download of s_het estimates."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD LOEUF gene constraint (v4.1 release used)."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2287-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD-SV structural variants (v4.1 release used)."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2559-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DHS Index (733 biosamples) for activity breadth."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v44 annotation for exon masking and TSS."
+  },
+  {
+   "target": "doi:10.1038/s41588-019-0538-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CRISPRi-FlowFISH data in the benchmark (Fulco et al. 2019)."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.11.029",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Single-cell CRISPRi screen in the benchmark (Gasperini et al. 2019)."
+  },
+  {
+   "target": "doi:10.1038/s41586-021-03446-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CRISPRi data compiled in the benchmark (Nasser et al. 2021)."
+  },
+  {
+   "target": "doi:10.1038/s41592-020-0837-5",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Targeted Perturb-seq data in the benchmark (Schraivogel et al. 2020)."
+  },
+  {
+   "target": "doi:10.1038/nature11247",
+   "reason": "ENCODE claim of widespread biochemical function."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "Critique of the ENCODE function claim (selected-effect function)."
+  },
+  {
+   "target": "doi:10.1073/pnas.1318948111",
+   "reason": "Definitions of function in the human genome."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Estimate of the constrained fraction of the human genome."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01529-1",
+   "reason": "Systematic differences in eQTL discovery at constrained genes."
+  },
+  {
+   "target": "doi:10.1038/nature25461",
+   "reason": "Enhancer redundancy in mouse knock-outs."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.02.038",
+   "reason": "Ultraconserved enhancer knock-outs with phenotypes."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7306682",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Dukler, Huang & Siepel 2020 (MBE): target-gene dosage sensitivity follows constraint in cis-regulatory elements; we confirm it with CRISPRi-validated links."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9314448",
+   "reason": "Ultraselection in the human genome (Dukler et al. 2022)."
+  },
+  {
+   "target": "doi:10.1101/2025.05.05.651929",
+   "reason": "CRISPRi screens detect more constrained genes than eQTLs."
+  },
+  {
+   "target": "doi:10.1016/j.ajhg.2020.01.012",
+   "reason": "Enhancer-domain buffering of dosage-sensitive genes; our CRISPRi data neither support nor exclude weaker individual enhancers for high-s_het genes."
+  },
+  {
+   "target": "doi:10.1101/gr.275263.121",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Radke et al. 2021: deletions are depleted at DHS and enhancer sites, more so for sites active in many cell types; anticipates our breadth and deletion results."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5737616",
+   "reason": "Fish, Chen & Capra 2017: enhancers with conserved activity are more pleiotropic and have higher-pLI targets."
+  },
+  {
+   "target": "doi:10.1101/gr.279001.124",
+   "reason": "Kliesmete et al. 2024: pleiotropic elements have more conserved accessibility but not more conserved sequence (human-macaque)."
+  }
+ ]
+}
