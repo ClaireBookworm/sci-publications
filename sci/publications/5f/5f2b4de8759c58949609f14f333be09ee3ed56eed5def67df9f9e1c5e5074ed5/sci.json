@@ -1,0 +1,166 @@
+{
+  "title": "In 23.7 Mb of neutral human DNA the 241-mammal phyloP score exceeded its own nominal error rate by 2 to 40 times, and that error rate varied up to 25 times with sequence composition",
+  "abstract": "A score that is used to decide which letters of the human genome evolve slowly fires far more often in DNA with no function than the p-value it reports, and how much more depends on the letters around the site and on where in the genome the site sits. This matters because one threshold on that score decides which non-coding DNA is called functional, which DNA is reported as fast-evolving, and how non-coding variants are ranked. We read phyloP from a 241-mammal alignment at every base of 312 million bases of human DNA, sampled on an even grid across the autosomes, and used the 23.7 million bases of ancient transposon copies (ancestral repeats) inside that sample as DNA with no function. The published score is two-sided, so a value of 2.27 claims a one-tail rate of 0.27%; the measured rate is 1.59%, 5.9 times higher, and the gap grows with the threshold, from 1.9 times at phyloP 1 to 40 times at phyloP 4. The rate also varies 11.4 times between 3-base contexts (7.0 times if CpG contexts are excluded) and 24.8 times when context is crossed with regional GC; for bases called accelerated the ranges are 20.0 and 32.2 times. Across five definitions of neutral DNA the rate spans 0.33% to 3.20%, tracking the width of the neutral score distribution, so most of that spread is statistical power rather than calibration. The accelerated-call rate rises 1.53 times from the lowest to the highest quartile of recombination rate after direct standardisation on context and regional GC, replicates at 1.35 times on an independent 447-way score, and survives masking every potential ancestral CpG; the neutral distribution both shifts and widens with recombination, so we report the association without naming a mechanism. Estimates of how much non-coding DNA is conserved change by at most 10% under composition matching, but they change sign across neutral proxies. For CpG-rich elements the matched null is barely estimable: 98.9% of CpG-island bases sit at a local CpG density that holds 0.14% of neutral bases, and the apparent excess of accelerated bases there moves from +0.3 to +1.6 percentage points as the support cut-off is varied. We publish exact neutral error rates and matched thresholds for 128 strata.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "phyloP",
+    "conservation score",
+    "calibration",
+    "false-positive rate",
+    "p-value",
+    "CpG hypermutability",
+    "GC-biased gene conversion",
+    "recombination rate",
+    "Zoonomia",
+    "ancestral repeats",
+    "accelerated regions",
+    "CpG islands",
+    "ENCODE cCRE",
+    "functional fraction",
+    "block bootstrap",
+    "variant interpretation",
+    "junk DNA"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_drivers.png",
+      "caption": "The neutral null is wider than the score assumes, and its width is not constant. (A) Percentage of neutral bases called conserved or accelerated against the threshold, with the one-tail rate the two-sided p-value claims; labels give the ratio. (B) Both tails against the quartile of the recombination rate smoothed over 50 kb, raw and after direct standardisation on 3-mer context crossed with 50 kb GC decile. (C) Conserved-call and accelerated-call rates for five neutral proxies against the standard deviation of their neutral score distribution."
+    },
+    {
+      "path": "files/figures/fig1_miscalibration.png",
+      "caption": "A single phyloP threshold does not have a single error rate. (A) Distribution of phyloP in neutral DNA (ancestral repeats, 23.7 million bases) at CpG sites and other sites. (B, C) Percentage of neutral bases called conserved (phyloP at least 2.27) and accelerated (at most -2.27), for each of the 32 reverse-complement 3-mer contexts; CpG contexts in orange. (D) Accelerated-call rate for each 3-mer crossed with regional GC content in 1 kb. All rates are exact counts."
+    },
+    {
+      "path": "files/figures/fig3_consequences.png",
+      "caption": "Composition matching leaves constrained fractions intact but cannot settle the acceleration signal. (A, B) Excess bases called accelerated and conserved in each class against five nested neutral expectations; whiskers give the range over three neutral proxies. (C) Distribution of local CpG density for CpG islands and for ancestral repeats, showing that no neutral DNA has the composition of a CpG island. (D) Percentage of conserved calls that change identity when each stratum uses the threshold that equalises its neutral error rate, with the neutral set as the benchmark."
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary per-base phyloP score from the Zoonomia 241-mammal Cactus alignment, and the 241-species tree used in the simulation."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP447way/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Independent 447-way phyloP score used for replication, and its published neutral model file, which states SUBST_MOD SSREV and ORDER 0, that is, a model with no sequence-context term."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/recombRate/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "deCODE sex-averaged recombination map, used for the regional gradient."
+    },
+    {
+      "target": "doi:10.1101/gr.097857.109",
+      "relations": [
+        "supports"
+      ],
+      "reason": "The phyloP method, whose CONACC two-sided p-value convention we verify from the data and whose realised per-base error rate we measure. Its authors already attributed an excess of apparently fast-evolving sites to hypermutable CpGs and listed context and regional rate variation as unmodelled."
+    },
+    {
+      "target": "doi:10.1126/science.abn2937",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Source of the 241-mammal phyloP scores and of the 5 percent FDR threshold 2.27. We show that at this threshold the neutral false-positive rate is about six times the rate the score's own p-value reports, that the factor grows with the threshold, and that the rate varies up to 25-fold with sequence composition."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1000071",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows that recombination inflates substitution rates in neutral human non-coding sequence through biased gene conversion, against the same deCODE map. Our recombination gradient in the score's error rate is the score-level counterpart; we cite it as the established cause we cannot separate from other recombination-linked processes."
+    },
+    {
+      "target": "doi:10.1038/s41467-025-57179-w",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Reports strongly negative mean phyloP at CpG fourfold-degenerate sites on the same 241-mammal track and attributes it to CpG hypermutability, consistent with our neutral-DNA measurement."
+    },
+    {
+      "target": "doi:10.1093/molbev/msr279",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Masks potential ancestral CpG sites when testing accelerated regions. We adopt the same masking and show that it lowers the neutral accelerated-call rate from 2.53 to 1.91 percent without removing the recombination gradient."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1000960",
+      "relations": [
+        "supports"
+      ],
+      "reason": "GC-biased evolution near human accelerated regions, the literature our regional result must be read against."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1003684",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Model-based analysis of GC-biased gene conversion, and the source of the practice of GC-matched control regions that our nested nulls generalise."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "relations": [
+        "uses"
+      ],
+      "reason": "phastCons and the PHAST phylo-HMM framework that supplies the neutral models used by the phyloP tracks, and the source of the ancestral-repeat false-positive figures our per-base measurement should be compared against."
+    },
+    {
+      "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE Registry of candidate cis-regulatory elements V4, used to define regulatory classes."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "RepeatMasker, GENCODE basic v44 and CpG island tables used for neutral proxies and annotation."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/hg38.2bit",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Reference sequence used for 3-mer context, GC content and CpG density."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "supports"
+      ],
+      "reason": "That work shows that matching controls on mappability and transposon type removes most of an apparent human-specific constraint signal. Our result is the cross-species counterpart: the choice of matched null, not the annotation, decides the answer, and for CpG-rich elements no matched null exists."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "relations": [
+        "supports"
+      ],
+      "reason": "That work thresholds the same Zoonomia phyloP score at 2.27 to measure constraint at CRISPRi-tested enhancers. Our finding that conserved-call excesses move by less than 8 percent under composition matching supports the robustness of such comparisons; our calibration table gives the per-stratum error rate of that threshold."
+    }
+  ]
+}
