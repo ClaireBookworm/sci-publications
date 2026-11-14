@@ -1,0 +1,231 @@
+{
+ "title": "Human regulatory elements without mammalian conservation show a rare-variant excess of only 2-7% of that at conserved DNA once controls match mappability and transposon type (76,215 genomes)",
+ "abstract": "ENCODE candidate regulatory elements (cCREs) that contain no base conserved across 241 mammals carry only a very small excess of rare variants in 76,215 human genomes: about 2% of the excess at conserved non-coding DNA (sampling upper limit 4%; with the bias seen in negative-control flanks, up to about 7%). This matters because a well-known claim says that biochemically active but non-conserved DNA is under human-specific selection and adds about 4% of the genome to the functional fraction. Purifying selection keeps harmful alleles rare, so it increases the fraction of singletons (variants seen once). We measured this singleton excess for non-CpG single-nucleotide variants from gnomAD v4.1 in 2.12 million autosomal cCREs against matched variants outside cCREs, and divided it by the excess at non-coding bases conserved across mammals (Zoonomia phyloP >= 2.27): the conserved-equivalent fraction. With all sites and simple controls, the 519,501 cCREs with no conserved base (122 Mb) gave 14%, close to the 11.5% reported in 2013. Two technical factors explained most of this. Restriction to fully mappable sites (413 million variants) reduced it to 0.5-4.9%, and controls from transposon copies of the same class and age in the same 1-Mb block reduced it to 1.5-1.9% (95% interval 0.1-3.7%; rare alleles -0.3% to 1.7%; African-ancestry genomes about 0%). A depletion test calibrated by the Roulette per-site mutation-rate model (chromosomes 20-22) was consistent with this: these cCREs had the expected number of variants (observed/expected 0.9995, 95% interval 0.994-1.006), while conserved bases had 6.5% fewer. The largest residual signal was in young transposon copies (about 10% of these variants; 9-21% depending on the statistic), where mapping problems remain possible. Non-conserved bases inside partly conserved cCREs kept a small signal (9-15%). All non-conserved cCRE bases together correspond to about 35-37 Mb of conserved-equivalent sequence (about 50-55 Mb after correction for the lower mutation rate of conserved bases), against 129 Mb reported in 2013. Conserved bases mutate more slowly (rate matching removed 31% of their excess), and CpG sites in cCREs show large false excesses. The main limitation is systematic error: negative-control flanks deviate by up to about 7% of the reference effect, more than the sampling error; the primary controls were chosen after an independent review. Code and a conservation tier for every autosomal cCRE are included.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "functional fraction",
+  "ENCODE cCRE",
+  "purifying selection",
+  "gnomAD",
+  "site frequency spectrum",
+  "singletons",
+  "transposable elements",
+  "mutation rate",
+  "Roulette",
+  "Zoonomia phyloP",
+  "Gnocchi",
+  "CTCF",
+  "CpG methylation",
+  "lineage-specific constraint"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig2_forest.png",
+   "caption": "Conserved-equivalent fraction of the human singleton excess (non-CpG SNVs at fully mappable sites, gnomAD v4.1) for ENCODE cCREs by conservation tier and class. Tier 0 = no base with Zoonomia phyloP >= 2.27. Blue: controls from the same 1-Mb block (mutation class, GC, transposon yes/no). Orange: same block, also matched for transposon class and age. Green: transposon subfamily, per-base phyloP and region covariates. 95% block-bootstrap intervals. Dashed line: the 11.5% estimate of Ward & Kellis 2013."
+  },
+  {
+   "path": "files/figures/fig4_mutation_rate.png",
+   "caption": "Mutation-rate calibration on chromosomes 20-22. Left: observed / expected gnomAD SNVs at all possible non-CpG substitutions, expected from the Roulette mutation-rate model and matched non-cCRE controls; conserved bases are depleted by about 6.5%, tier-0 cCREs not at all. Right: singleton excess with and without Roulette-rate matching; matching reduces the reference excess at conserved bases, and motif cores (mainly CTCF) show deficits that selection cannot explain."
+  },
+  {
+   "path": "files/figures/fig1_phylop_gradient.png",
+   "caption": "Singleton excess against controls from the same 1-Mb block, by Zoonomia phyloP of the base, inside and outside cCREs (fully mappable non-CpG sites), for all genomes and for African-ancestry genomes. The excess follows conservation in the same way inside and outside cCREs; its slope inside the non-conserved range shows that per-base phyloP also tracks properties other than selection."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1126/science.1225057",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Claim of abundant lineage-specific purifying selection on non-conserved ENCODE elements that we re-test."
+  },
+  {
+   "target": "doi:10.1126/science.1233366",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Source of the 11.5% (129 Mb) conserved-equivalent estimate we compare with."
+  },
+  {
+   "target": "https://arxiv.org/abs/1212.3076",
+   "reason": "Earlier critique of the Ward & Kellis estimate."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Gnocchi 1-kb constraint z-scores audited with the allele-frequency spectrum."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD resource; MAPS-type singleton statistics."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs, LCR and segmental-duplication intervals."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP and the 2.27 threshold."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "reason": "Base-pair mammalian constraint and its overlap with ENCODE annotation."
+  },
+  {
+   "target": "doi:10.1126/science.abn7930",
+   "reason": "Evolution of human cCREs across mammals."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE registry of candidate cis-regulatory elements (V4 used)."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE Registry V4 cCRE file."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01562-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Roulette per-site mutation-rate model (v5.2, TFBS-corrected) for chromosomes 20-22."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1006489",
+   "reason": "Mutation-rate dependence of allele frequencies at large sample sizes."
+  },
+  {
+   "target": "doi:10.1038/nature19057",
+   "reason": "MAPS singleton statistic."
+  },
+  {
+   "target": "doi:10.1038/ng.3196",
+   "reason": "fitCons estimates of fitness consequences by chromatin class."
+  },
+  {
+   "target": "doi:10.1038/s41467-021-22262-5",
+   "reason": "Constrained but non-conserved human regions."
+  },
+  {
+   "target": "doi:10.1093/gbe/evv228",
+   "reason": "Population-genetic inference of recent regulatory constraint."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2287-8",
+   "reason": "Non-coding structural-variant constraint (alternative approach considered)."
+  },
+  {
+   "target": "doi:10.1093/gbe/evx121",
+   "reason": "Mutational-load bound on the functional fraction (alternative approach considered)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkad1059",
+   "relations": [
+    "uses"
+   ],
+   "reason": "JASPAR 2024 motif matrices."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence, RepeatMasker, GENCODE V46, CpG islands, simple repeats, segmental duplications, recombination map, phyloP bigWig."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability used for the mappable-site filter."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k100.Umap.MultiTrackMappability.bw",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 multi-track mappability bigWig (hg38)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Estimate of constrained fraction with turnover; same direction as our result."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "Critique of the ENCODE functional-fraction claim."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-31872-6",
+   "reason": "Extreme purifying selection against point mutations in the human genome."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1008827",
+   "reason": "Turnover of constrained sites; conservation thresholds miss selected sites."
+  },
+  {
+   "target": "doi:10.1101/gr.134890.111",
+   "reason": "Population signals of selection in DNase sites."
+  },
+  {
+   "target": "doi:10.1038/ng.2658",
+   "reason": "INSIGHT selection on transcription-factor binding sites."
+  },
+  {
+   "target": "doi:10.1038/nature14183",
+   "reason": "Higher mutation at transcription-factor binding sites (Okazaki fragment processing)."
+  },
+  {
+   "target": "doi:10.1038/nature17661",
+   "reason": "Impaired repair at bound transcription-factor sites."
+  },
+  {
+   "target": "doi:10.1038/nature17437",
+   "reason": "Nucleotide excision repair and transcription-factor binding."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1006207",
+   "reason": "Mutational processes at CTCF and other bound sites."
+  },
+  {
+   "target": "doi:10.1038/ng.3335",
+   "reason": "CTCF/cohesin binding sites as mutation hotspots in cancer."
+  },
+  {
+   "target": "doi:10.7554/eLife.71513",
+   "reason": "Mutation saturation and frequency spectra at CpG sites."
+  },
+  {
+   "target": "doi:10.1093/molbev/msx219",
+   "reason": "Transposon age and regulatory exaptation."
+  }
+ ]
+}
