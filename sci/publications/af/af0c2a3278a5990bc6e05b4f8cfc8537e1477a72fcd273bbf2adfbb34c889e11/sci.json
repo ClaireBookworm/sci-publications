@@ -1,0 +1,204 @@
+{
+  "title": "In 76,215 human genomes, 437,000 predicted conserved RNA structures in non-coding DNA show no detectable pairing-specific constraint: paired and unpaired conserved bases are equally depleted",
+  "abstract": "In human genetic variation, the predicted base pairs of about 437,000 conserved RNA structures in non-coding DNA show no detectable sign that natural selection keeps them: at bases conserved in mammals, paired bases are no more depleted of variants than unpaired bases, and alleles that break a pair are not rarer than alleles that keep it. This matters because genome-wide screens for conserved RNA structures are used as evidence that much of the non-coding genome works as folded RNA. We counted gnomAD v4.1 alleles (76,215 genomes) at 24.4 million bases of 437,337 CRSs (structures predicted by CMfinder; Seemann et al. 2017), 1.3 million bases of 33,056 EvoFold structures, 313 tRNA genes and 396 miRNA precursors, at sites with the same base in human, chimpanzee and gorilla, against a 5-base context model from 15 million flanking bases. For alleles with frequency 1e-4 or more, CRS bases conserved in mammals (phyloP >= 2.27) were 18% depleted, and the ratio of observed/expected at paired to unpaired bases was 0.995 (95% CI 0.977 to 1.014); it was 0.953 (0.919 to 0.990) in EvoFold and 0.55 (0.37 to 0.86) in miRNA precursors. In a G-C pair the transition C->U keeps a pair (G-U wobble) while G->A and all transversions break it; in an A-U pair A->G keeps it. The pairing depletion, the fraction of pair-breaking alleles missing relative to pair-keeping alleles (against unpaired bases), was 47% (14 to 66) in tRNA stems, 0.9% (-1.7 to 3.8) in CRSs and -3.7% (-20 to 11) in EvoFold; without the unpaired baseline it was 36% (13 to 52) in tRNAs and 0.0% (-2.0 to 2.0) in CRSs. If selected pairs lose half of their pair-breaking alleles, at most 7.5% of CRS pairs can be under such selection; if selection is as weak as at conserved CRS bases, about 21%. With the pre-registered primary outcome (any allele), which was near saturation in tRNAs, CRSs on the transcribed strand of genes showed a small pairing depletion (2.2%, 0.9 to 3.5) absent on the other strand; its cause is unknown. A false signal at G-U pairs came from derived human reference bases; an ancestral filter removed most of it. Limits: the tRNA control rests mainly on one contrast, and the test sees only selection strong enough to change allele frequencies in humans.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "RNA secondary structure",
+    "conserved RNA structures",
+    "CRS",
+    "EvoFold",
+    "CMfinder",
+    "gnomAD",
+    "purifying selection",
+    "base pairing",
+    "G-U wobble",
+    "compensatory evolution",
+    "tRNA",
+    "miRNA",
+    "derived allele bias",
+    "functional fraction",
+    "population genetics",
+    "transition transversion"
+  ],
+  "display": [
+    {
+      "path": "files/results/figures/fig1_pairing_test.png",
+      "caption": "Pairing depletion (fraction of pair-breaking alleles missing relative to pair-keeping alleles; 95% bootstrap CI) for tRNA and miRNA controls, CRSs and EvoFold structures, for the two pre-registered outcomes (B: any allele; C: allele frequency >= 1e-4). A: logic of the test. D: per-role statistic in tRNAs and CRSs. Sites: human = chimpanzee = gorilla base, non-CpG, mappable, non-coding."
+    },
+    {
+      "path": "files/results/figures/fig2_robustness.png",
+      "caption": "CRS pairing depletion (allele frequency >= 1e-4) by strand class and alignment variability of the paired columns (A), and by the false discovery rate of the CRS screen (B). No stratum differs from zero."
+    },
+    {
+      "path": "files/results/figures/fig3_variation_and_bound.png",
+      "caption": "A: ratio of observed/expected alleles (frequency >= 1e-4) at paired to unpaired bases within mammalian conservation strata, for CRS, EvoFold, miRNA and tRNA sets. B: upper bound on the fraction of pairs under pairing selection as a function of the surviving share x of pair-breaking alleles in selected pairs."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1101/gr.208652.116",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "Source of the 516,000 conserved RNA structure (CRS) regions and alignments; we test whether their predicted base pairs are under selection in humans."
+    },
+    {
+      "target": "https://rth.dk/resources/crs/vert/v2.1/pages/supplement.php",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRS v2.1 data files (Supplemental Data 1 and 2, hg38 patch 2020-07-28)."
+    },
+    {
+      "target": "doi:10.1371/journal.pcbi.0020033",
+      "relations": [
+        "uses"
+      ],
+      "reason": "EvoFold structure predictions (UCSC hg19 table evofold)."
+    },
+    {
+      "target": "doi:10.1093/nar/gkt596",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Claim that conserved RNA structures cover 13.6% of the human genome; we test the same kind of predictions with human variation."
+    },
+    {
+      "target": "doi:10.1038/nmeth.4066",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Covariation analysis that found no support for proposed lncRNA structures; our population test agrees with independent data."
+    },
+    {
+      "target": "doi:10.1186/1471-2164-9-520",
+      "relations": [
+        "supports"
+      ],
+      "reason": "EvoFold stems carry fewer SNPs than loops; our within-stratum comparison reproduces this for EvoFold but finds no such difference for CRSs."
+    },
+    {
+      "target": "doi:10.1073/pnas.92.20.9047",
+      "reason": "Earlier single-locus population test of selection on pre-mRNA pairing (Drosophila Adh)."
+    },
+    {
+      "target": "doi:10.1093/bioinformatics/btaa080"
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06045-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v3/v4 genomes (76,215 genomes)."
+    },
+    {
+      "target": "https://gnomad.broadinstitute.org/downloads",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/genomes/genomes.bb",
+      "relations": [
+        "uses"
+      ],
+      "reason": "UCSC bigBed copy of gnomAD v4.1 genomes used for fast region access; checked identical to the official VCF in 20 random windows."
+    },
+    {
+      "target": "doi:10.1093/nar/gkv1309",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GtRNAdb high-confidence human tRNA genes and structures (positive control)."
+    },
+    {
+      "target": "doi:10.1093/nar/gkab1101",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MirGeneDB human miRNA precursors (second positive control)."
+    },
+    {
+      "target": "doi:10.1186/1748-7188-6-26",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ViennaRNA RNAfold for miRNA precursor folds."
+    },
+    {
+      "target": "doi:10.1073/pnas.1801240115",
+      "reason": "tRNA genes have elevated mutation rates; explains why the any-allele outcome is saturated in tRNAs."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal phyloP for strata and neutral flanks."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/cactus241way.phyloP.bw",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1093/nar/gkac1071",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE v47 annotation."
+    },
+    {
+      "target": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "hg38 genome, RepeatMasker, segmental duplications, simple repeats, Umap mappability, liftOver chains to panTro6 and gorGor6."
+    },
+    {
+      "target": "doi:10.1038/nature12946",
+      "reason": "Earlier evidence that structure-changing variants are depleted in human mRNAs."
+    },
+    {
+      "target": "doi:10.1186/s12915-016-0283-0",
+      "reason": "Earlier population-genetic study of predicted lncRNA structures."
+    },
+    {
+      "target": "doi:10.1038/s41586-024-08048-x",
+      "reason": "gnomAD constraint scored for variants that disrupt Watson-Crick pairs in mitochondrial tRNA and rRNA."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "supports"
+      ],
+      "reason": "SCI study: non-conserved ENCODE elements show little human constraint; together the two studies limit functional claims for non-conserved non-coding DNA."
+    },
+    {
+      "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+      "relations": [
+        "supports"
+      ],
+      "reason": "SCI study: lncRNA splice sites show no depletion of rare variants; a related test of RNA-level function."
+    }
+  ]
+}
