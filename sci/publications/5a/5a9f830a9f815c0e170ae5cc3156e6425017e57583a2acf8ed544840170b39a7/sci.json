@@ -1,0 +1,278 @@
+{
+ "title": "Base composition explains the slower evolution of the 3′UTR-derived part of 2,290 human processed pseudogenes; primate divergence excludes extra 3′UTR constraint above about 2%",
+ "abstract": "The 3′UTR-derived part of human processed pseudogenes has fewer variants and substitutions than the coding-derived part. Its lower mutation rate explains this difference. This matters because a 2018 study used it as the main genome-wide evidence that pseudogenes are microRNA sponges (competing endogenous RNAs, ceRNAs) under selection. A processed pseudogene is a DNA copy of a messenger RNA that was inserted back into the genome. We mapped 6,792 autosomal processed pseudogenes to their parent mRNAs. We analysed the 2,290 with at least 50 usable sites in each part. The coding-derived part has more GC (46.8% vs 39.6%) and 1.9 times as many CpG sites, which mutate fast. We re-tested the 2018 statistic on its 20-species alignment (1,881 pseudogenes, anthropoid primates). Raw divergence was 5.9% lower in the 3′UTR part (ratio 0.941; Wilcoxon P = 6e-36). We then removed sites that were CpG in the parent mRNA and compared with a composition-matched expectation from flanking DNA. The ratio became 0.998 (95% interval 0.985-1.012; Wilcoxon P = 0.31), and it stayed between 0.998 and 1.006 under all alignment filters in primates. Substitutions on the human lineage and variants in 76,215 genomes (gnomAD v4.1) agreed (corrected ratios 0.999-1.017). The same methods detect selection in the parent mRNAs: their coding sequence has 21% fewer variants and 69% fewer substitutions than expected. Expressed pseudogenes (GTEx TPM 1 or more) showed no detectable 3′UTR constraint. At microRNA sites inherited from the parent, pseudogenes had no variant deficit (ratio 1.000, 0.979-1.021), whereas parent sites had 5.0%. Assumptions and limits: flanking DNA is neutral; gnomAD cannot detect constraint on whole 3′UTRs; weak selection at intact microRNA sites is not excluded. Short-read filters exclude young pseudogenes that are nearly identical to their parents, such as PTENP1, and two chromosomes are missing from the 20-species test. Thus, genome-wide conservation does not support pseudogene ceRNA function. We did not test single pseudogenes.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "processed pseudogenes",
+  "ceRNA",
+  "microRNA sponge",
+  "microRNA response elements",
+  "3prime UTR",
+  "purifying selection",
+  "gnomAD",
+  "Roulette mutation rate",
+  "CpG hypermutability",
+  "base composition",
+  "human lineage substitutions",
+  "phyloP",
+  "negative result",
+  "re-analysis"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig3_20way_retest.png",
+   "caption": "Re-test of the 2018 evidence on its own alignment (UCSC 20-way; 1,881 pseudogenes, anthropoid primates, strict parent-alignment filter). Ratio of the 3prime-UTR-derived to the CDS-derived part: raw (open) and against a composition-matched expectation (filled), with all sites and with parent-CpG sites removed; human-lineage (orange) and gnomAD (green) readouts with CpG-prone sites removed. Lines: 95% bootstrap intervals; Wilcoxon P: per-pseudogene test of the 2018 design."
+  },
+  {
+   "path": "files/figures/fig1_utr3_vs_cds_ratios.png",
+   "caption": "Ratio of the 3prime-UTR-derived to the CDS-derived part of 2,290 human processed pseudogenes (left) and of their parent mRNAs (right; positive control), before (open) and after (filled) a neutral mutation model, for gnomAD variants and human-lineage substitutions. The parent mRNAs show strong coding constraint; the pseudogenes do not differ between parts after the model."
+  },
+  {
+   "path": "files/figures/fig2_composition_and_mutation_types.png",
+   "caption": "Why the raw difference occurs: the CDS-derived part is GC-richer and has 1.9 times as many CpG sites as the 3prime-UTR-derived part and flanking DNA (left). Raw share of possible variants seen in gnomAD (middle) and observed/expected after the mutation model (right), by mutation type."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1093/molbev/msy183",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "We re-test its main genome-wide result (pseudo-3prime UTRs less diverged than pseudo-CDS) on the same 20-way alignment and with population data; CpG-related composition explains it."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "relations": [
+    "supports"
+   ],
+   "reason": "It shows that phyloP error rates depend on sequence context in neutral DNA; our phyloP contrast between pseudogene parts also changes sign after composition matching."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "reason": "Related SCI test of claimed function of non-coding DNA with gnomAD v4.1, Roulette and mappability filters."
+  },
+  {
+   "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+   "reason": "Related SCI test of claimed function (lncRNA splice sites) with gnomAD v4.1 depletion."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs, read by tabix range requests."
+  },
+  {
+   "target": "https://genetics.bwh.harvard.edu/downloads/Vova/Roulette/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Roulette v5.2 per-site mutation rates."
+  },
+  {
+   "target": "https://ftp.ensembl.org/pub/release-115/gtf/homo_sapiens/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ensembl 115 gene annotation (processed pseudogenes, MANE Select)."
+  },
+  {
+   "target": "https://ftp.ensembl.org/pub/current_fasta/ancestral_alleles/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "EPO human-chimpanzee ancestral sequence."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence, RepeatMasker, simple repeats, segmental duplications, liftOver chain, phyloP 20-way and 100-way."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/gbdb/hg38/hoffmanMappability/k100.Umap.MultiTrackMappability.bw",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability."
+  },
+  {
+   "target": "https://www.targetscan.org/vert_80/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TargetScan 8.0 conserved sites and miRNA family seeds."
+  },
+  {
+   "target": "https://gtexportal.org/home/downloads/adult-gtex/bulk_tissue_expression",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v8 gene median TPM."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01562-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Roulette mutation-rate model."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD genome data and depletion-based constraint."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7"
+  },
+  {
+   "target": "doi:10.1101/gr.076554.108",
+   "relations": [
+    "uses"
+   ],
+   "reason": "EPO alignments for the ancestral sequence."
+  },
+  {
+   "target": "doi:10.1101/gr.097857.109",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP."
+  },
+  {
+   "target": "doi:10.1093/bioinformatics/bty191",
+   "relations": [
+    "uses"
+   ],
+   "reason": "minimap2 (mappy) alignment of parent mRNAs to pseudogenes."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap mappability."
+  },
+  {
+   "target": "doi:10.1038/s41586-022-04558-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MANE Select transcripts as parents."
+  },
+  {
+   "target": "doi:10.1126/science.aav1741",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TargetScan 8.0."
+  },
+  {
+   "target": "doi:10.7554/eLife.05005"
+  },
+  {
+   "target": "doi:10.1126/science.aaz1776",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v8 expression."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2011.07.014",
+   "reason": "ceRNA hypothesis."
+  },
+  {
+   "target": "doi:10.1038/nature09144",
+   "reason": "PTENP1 as ceRNA."
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2014.03.045",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Stoichiometric argument against widespread ceRNA effects; our evolutionary result agrees."
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2016.09.027"
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2014.09.018"
+  },
+  {
+   "target": "doi:10.1038/nrg.2016.20"
+  },
+  {
+   "target": "doi:10.1186/gb-2012-13-9-r51"
+  },
+  {
+   "target": "doi:10.1093/nar/gkg745",
+   "reason": "Pseudogenes as neutral references for substitution patterns."
+  },
+  {
+   "target": "doi:10.1007/BF01733904"
+  },
+  {
+   "target": "doi:10.1073/pnas.0405501101",
+   "reason": "CpG hypermutability in neutral mammalian DNA."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2024.10.021",
+   "reason": "Candidate C2 considered and rejected: CRISPRi vs Cas13 lncRNA screens already compared."
+  },
+  {
+   "target": "doi:10.1038/s41592-024-02190-0",
+   "reason": "Candidate C2 considered and rejected."
+  },
+  {
+   "target": "doi:10.1101/gr.1152803",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Shows that neutral exonic DNA evolves faster because of CpG content; our result applies this mechanism to pseudogene parts."
+  },
+  {
+   "target": "doi:10.1093/oxfordjournals.molbev.a003975",
+   "reason": "Pseudogene substitution rates depend on GC content."
+  },
+  {
+   "target": "doi:10.1186/1471-2164-10-435",
+   "reason": "Earlier test of selection on transcribed pseudogenes with flanking DNA as neutral reference."
+  },
+  {
+   "target": "doi:10.1038/ng1910",
+   "reason": "Population-genetic evidence for selection at conserved miRNA sites."
+  },
+  {
+   "target": "doi:10.1038/s41467-023-44456-9",
+   "reason": "gnomAD-based selection at 3prime UTR sites including miRNA sites; a stronger positive-control method."
+  },
+  {
+   "target": "doi:10.1101/gr.1933104",
+   "relations": [
+    "uses"
+   ],
+   "reason": "multiz/TBA alignments (UCSC 20-way)."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/multiz20way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC hg38 20-way MAF files, the alignment of the 2018 study."
+  }
+ ]
+}
