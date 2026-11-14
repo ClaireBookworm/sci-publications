@@ -1,0 +1,231 @@
+{
+ "title": "In 63,046 human genomes, 1-10 kb deletions of 512-2,047 conserved non-coding bases are about as rare as coding deletions in weakly constrained genes; non-conserved regulatory DNA matters less",
+ "abstract": "In 63,046 human genomes, natural deletions of 1-10 kb that remove 512-2,047 non-coding bases conserved across mammals are about as rare as deletions of coding sequence in weakly constrained genes, while deletions that remove the same amount of non-conserved regulatory DNA are less rare, by a factor of about 2.5 to 50 that the data cannot fix. This matters because the dispute about how much of the genome is functional depends on whether biochemically active but non-conserved DNA matters for fitness; a deletion removes whole elements, so it tests function independently of conservation and of point mutations. We used 456,518 high-quality deletions (50 bp to 100 kb) from gnomAD v4.1 structural variants. Purifying selection keeps harmful deletions rare, so it increases the fraction of singletons (deletions seen in one person). In four size bands we compared deletions of the same size, caller, 1-Mb region, repeat and GC content, gene distance, aligned fraction, weakly conserved content and breakpoint repeat type, and we fitted several functional forms. Removing 512-2,047 conserved bases (Zoonomia phyloP >= 2.27) raised the singleton probability by 8.3 and 4.1 percentage points in 1-3.2 kb and 3.2-10 kb deletions, similar to coding deletions of genes with s_het < 0.01 (6.9 and 4.0) and below those of dosage-sensitive genes (11.1 and 9.2). Conserved bases outside ENCODE candidate cis-regulatory elements (cCREs) had effects at least as large as those inside. Non-conserved cCRE DNA had no consistent effect below about 500 bases and a smaller effect above (equal-amount ratio to conserved DNA 0.02-0.42; summary ratios 0.03-0.65 by band and form). Element-free DNA between 622 CRISPRi-validated enhancers and their genes was not rarer than such DNA at tested non-regulating pairs (50-249 bp deletions: +0.0 points, 95% CI -2.9 to 3.0), and element-free intronic DNA of dosage-sensitive genes was not rarer than other element-free DNA (-0.3, CI -1.2 to 0.6); these tests do not cover spacer deletions of 1 kb or more. lncRNA exons had no consistent effect beyond their conserved bases. The conserved dose response confirms, on a four-times larger callset, a graded relation reported for gnomAD-SV v2. Two independent reviews showed that our first summary (7%) depended on the model, so we report ranges. Limits: allele frequency is an indirect measure of selection, short-read SV calls have size-specific artifacts, and 10-100 kb deletions gave model-dependent results.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "functional fraction",
+  "structural variants",
+  "deletions",
+  "gnomAD-SV",
+  "purifying selection",
+  "singletons",
+  "phyloP",
+  "Zoonomia",
+  "ENCODE cCRE",
+  "enhancer redundancy",
+  "spacer DNA",
+  "lncRNA",
+  "CRISPRi enhancers",
+  "s_het"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_two_class_dose.png",
+   "caption": "Excess singleton probability of non-coding deletions by the number of bases removed, for mammal-conserved bases (blue) and non-conserved cCRE bases (orange), fitted jointly in each size band (95% CI). Dashed and dotted lines: effect of deleting coding sequence of genes with s_het >= 0.01 and < 0.01 in the same band."
+  },
+  {
+   "path": "files/figures/fig2_specification.png",
+   "caption": "A: ratio of the non-conserved cCRE effect to the conserved effect by band, for log2 and linear forms, with random-effects summaries (95% CI). B: equal amounts removed in 1.0-10 kb deletions (binned model): conserved 512-2,047 bases against non-conserved cCRE 512-2,047 and >= 2,048 bases, for three outcome and filter settings."
+  },
+  {
+   "path": "files/figures/fig3_spacer_lncrna.png",
+   "caption": "Element-free spacer deletions (between validated enhancers and their genes, at tested non-regulating pairs, their difference, and in introns) and lncRNA exon bases (log2 model), by size band and random-effects summary (95% CI)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "https://storage.googleapis.com/gcp-public-data--gnomad/release/4.1/genome_sv/gnomad.v4.1.sv.sites.bed.gz",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of all deletions and allele counts (gnomAD v4.1 SV sites, 63,046 genomes)."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/news/2023-11-v4-structural-variants",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Description of the gnomAD v4 SV callset."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2287-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD-SV methods; earlier report of a graded relation between conservation of deleted non-coding DNA and singleton excess, which we confirm on a larger callset."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP and the FDR 5% threshold (2.27) for conserved bases."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/cactus241way.phyloP.bw",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP bigWig used."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "reason": "Zoonomia constraint and functional-fraction estimates that our deletion results support."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cCRE registry."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "cCRE registry V4 file used."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE gene annotation (v46 basic)."
+  },
+  {
+   "target": "doi:10.1038/s41588-024-01820-9",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GeneBayes s_het estimates used to grade coding deletions and host genes."
+  },
+  {
+   "target": "https://zenodo.org/records/10403680",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GeneBayes s_het table."
+  },
+  {
+   "target": "doi:10.1101/2023.11.09.563812",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE-rE2G CRISPRi enhancer-gene benchmark used for validated and non-regulating pairs."
+  },
+  {
+   "target": "https://github.com/EngreitzLab/CRISPR_comparison",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Benchmark files."
+  },
+  {
+   "target": "doi:10.1038/nature15394",
+   "reason": "Earlier SV population study (1000 Genomes) showing deletion depletion at conserved DNA."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2371-0",
+   "reason": "Earlier SV population study (CCDG)."
+  },
+  {
+   "target": "https://genome.cshlp.org/content/31/6/935",
+   "reason": "Radke et al. 2021: selection on non-coding deletions of pleiotropic regulatory sites; closest prior work."
+  },
+  {
+   "target": "doi:10.1038/nature11247",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Our deletion data do not support function for most biochemically active, non-conserved DNA."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Critique of the ENCODE functional definition; our results agree."
+  },
+  {
+   "target": "doi:10.1073/pnas.1318948111",
+   "reason": "Discussion of approaches to define function."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Conservation-based estimate of the functional fraction (8.2%)."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "reason": "Gnocchi SNV constraint map; point-mutation counterpart."
+  },
+  {
+   "target": "doi:10.1038/nature25461",
+   "reason": "Enhancer redundancy in mice; one possible explanation of effects seen only when much regulatory DNA is removed."
+  },
+  {
+   "target": "doi:10.1038/nature03022",
+   "reason": "Megabase gene-desert deletions in mice without phenotype."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2017.12.017",
+   "reason": "Ultraconserved element knockouts."
+  },
+  {
+   "target": "doi:10.1038/ng1884",
+   "reason": "Ultraconserved elements depleted among copy-number variants."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2015.04.004",
+   "reason": "Pathogenic structural variants that disrupt regulatory domains."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "supports"
+   ],
+   "reason": "SNV-based estimate (2-7%) for non-conserved cCREs; our deletion data agree in direction but cannot size the effect so precisely."
+  },
+  {
+   "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Small cross-mammal length constraint on enhancer-gene DNA; we find no population signal for spacer deletions."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "CRISPRi-validated enhancers and conservation; same benchmark data."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "TE-derived regulatory copies show little extra SNV selection."
+  },
+  {
+   "target": "sci:sha256:04a7a4b121955cd1fd3b4b966e78a5a88f8d41b65af5f66f836e5ba9c100f213",
+   "reason": "TE copies and rare alleles; related SNV analysis."
+  },
+  {
+   "target": "sci:sha256:b8a269286c2fe3457f42c4cb28d20b2264e629906edda7f5f57eb8fac34d1690",
+   "reason": "TE copies and rare alleles; related SNV analysis."
+  },
+  {
+   "target": "sci:sha256:6f21710dfe405df3e983d215607b36720ed3df30140c6a22e370bfe8b7724a26",
+   "reason": "TE families: conservation of accessible copies."
+  }
+ ]
+}
