@@ -1,0 +1,212 @@
+{
+  "title": "In a published Cas13d screen of 5,496 human lncRNAs, single-cell-line essentiality calls largely match the rate of the screen's own negative controls; about 200 of 788 survive",
+  "abstract": "A 2026 paper reports that 788 human long non-coding RNAs (lncRNAs) are needed for cell growth, 648 of them in only one of five cell lines. We show that most calls of that kind occur at the rate seen for lncRNAs the same paper designates as negative controls, because those have no transcript for the enzyme to cut. Only calls repeated in two or more cell lines clearly exceed that rate. This matters because such screens are the main experimental argument that the lncRNA part of the genome carries function, and the count decides which loci laboratories study next.\n\nThe screen reports gene-level P values at a nominal 0.05 over about 4,000 tests per cell line with no correction. Expected false calls are computed from the controls at each gene's own guide count. LncRNAs called in exactly one line number 626 against 521 expected (false-discovery proportion 0.83, 95% interval 0.74-0.93); calls in two or more lines number 138 against 42 expected (0.32, 0.21-0.44). Over all 764 called lncRNAs the gene-level proportion is 0.74 (0.65-0.84), leaving about 198 supported lncRNAs (126-271); simpler models of the controls give 122 to 191, so the defensible range is about 120 to 270. Benjamini-Hochberg correction leaves 131 lncRNAs at q<0.25 and 33 at q<0.05. Single-line calls are not enriched among the calls of an independent CasRx screen (odds ratio 1.2, P=0.62) while repeated calls are (4.8, P=1e-4).\n\nWe report a confounder we did not find discussed: the library gives 4 to 9 guides per lncRNA, the call rate rises from 0.07% to 11.3% across that range, apparent sequence conservation rises with it, and it accounts for what looks like dependence between cell lines.\n\nThe claim that essential lncRNAs are evolutionarily older rests on an unadjusted Fisher test; the odds ratio for 180-million-year-old against human-specific lncRNAs falls from 1.92 to 1.29 after adjusting for expression and to 1.19 after adding guide count.\n\nThe 2024 version was retracted for guide off-targets. We confirm the fix: of 38,316 lncRNA-targeting guides, 8 match any protein-coding transcript within 2 mismatches and none match an essential gene. The calls that survive are enriched for loci that also make a small RNA: 9% of all expressed lncRNAs against 64% of those called in both screens, with abundance-adjusted odds ratios of 2.6 to 5.5. Their extra conservation is confined to splice sites and disappears when host loci are removed. We also report a test that failed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.MN"
+    }
+  ],
+  "keywords": [
+    "lncRNA",
+    "non-coding DNA",
+    "junk DNA",
+    "Cas13d",
+    "CRISPR screen",
+    "false discovery rate",
+    "negative controls",
+    "multiple testing",
+    "snoRNA host gene",
+    "SNHG",
+    "microRNA host gene",
+    "GAS5",
+    "phyloP",
+    "Zoonomia",
+    "replication",
+    "reanalysis",
+    "guide number",
+    "screen calibration",
+    "placebo test",
+    "essentiality"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_calibration.png",
+      "caption": "Only repeated calls clearly exceed the screen's own negative-control rate. a, Per cell line, the share of expressed lncRNAs called essential at the published threshold (blue; number of calls inside each bar) against the share of lncRNAs with no transcript to cut, which the paper itself designates as negative controls (orange, 95% bootstrap intervals). b, Number of lncRNAs called in exactly 1, 2, 3, 4 or 5 cell lines, observed against the number expected from those controls at each gene's own guide count (orange, with bootstrap intervals); note the logarithmic scale. Single-line calls (626 against 521 expected) are mostly accounted for by the controls; repeated calls are not. c, The published claim that older lncRNAs are more often essential, as an unadjusted odds ratio (orange), after adjustment for expression (blue), and after adding the number of guides per gene (green)."
+    },
+    {
+      "path": "files/figures/fig2_smallrna.png",
+      "caption": "Where the surviving signal sits, and a confounder. a, Share of lncRNA loci that host a small RNA by how well the call replicates, with the expression-matched odds ratio and the same odds ratio after adjustment for abundance and expression breadth. b, Excess conserved bases (phyloP >= 2.27 across 241 mammals) for the q < 0.05 set against expression-matched non-hits, with and without small-RNA host loci; only splice sites show an excess, and it needs the hosts. c, The call rate rises steeply with the number of guides the library assigns to a lncRNA, in the expressed set and equally in the negative controls, so it is a property of the library rather than of expression."
+    },
+    {
+      "path": "files/figures/fig3_replication.png",
+      "caption": "Replication between screens. a, Expression-matched odds ratios for replication. Calls made in two or more cell lines of the Cas13d screen are enriched among calls of the independent CasRx screen; calls made in exactly one line are not, and agreement between RNA knock-down and CRISPRi in the same cell line is absent. b, The 14 entries called in both RNA-targeting screens (12 distinct loci), with the number of cell lines in which each was called; an asterisk marks a locus that hosts a small RNA."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.xgen.2026.101253",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "The published, corrected Cas13d lncRNA screen. We use its supplementary tables and challenge its count of 788 essential lncRNAs and its evolutionary-age claim."
+    },
+    {
+      "target": "doi:10.6084/m9.figshare.30370171",
+      "relations": [
+        "uses"
+      ],
+      "reason": "The author-posted copy of the corrected supplementary tables that we analysed; its counts match the published paper exactly."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2024.10.021",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "The retracted 2024 version, cited for provenance and for the stated reason for retraction."
+    },
+    {
+      "target": "doi:10.1038/s41592-024-02190-0",
+      "relations": [
+        "uses",
+        "supports"
+      ],
+      "reason": "The CasRx lncRNA screen. We use its tables for the replication test and its hg38 lncRNA catalogue. It already named small-RNA host genes among core essential lncRNAs, which our analysis quantifies."
+    },
+    {
+      "target": "doi:10.1038/s41592-026-03226-3",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Published Comment on confounders of lncRNA screens by the group that identified the off-target problem. We support its concern and add the threshold and guide-number confounders."
+    },
+    {
+      "target": "doi:10.1101/2025.11.27.690751",
+      "relations": [
+        "supports"
+      ],
+      "reason": "The preprint critique of the retracted version, which first audited non-expressed hits. We confirm the off-target fix and address a different cause."
+    },
+    {
+      "target": "doi:10.1093/narcan/zcag019",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows by genomic-versus-cDNA rescue that the fitness phenotype of SNHG1, SNHG12 and SNHG30 is due to their intronic snoRNAs. Our prediction for other SNHG genes generalises this result."
+    },
+    {
+      "target": "doi:10.1016/j.molcel.2025.03.006",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows that the essentiality of CRNDE maps to a snoRNA-like ultraconserved element; we therefore removed CRNDE from our list of non-host candidates."
+    },
+    {
+      "target": "doi:10.1016/j.tig.2023.09.001",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Argues that non-coding snoRNA host genes have functions independent of the encoded snoRNAs, the opposite reading of our enrichment result."
+    },
+    {
+      "target": "doi:10.1038/s44318-024-00172-8",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Rescues an SNHG7 knock-down phenotype with the spliced lncRNA alone, excluding its snoRNAs; a counter-example to a payload-only interpretation."
+    },
+    {
+      "target": "doi:10.15252/msb.20145216",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Origin of non-expressed genes as a reference non-essential control set, and source of the CEGv2 and NEGv1 control gene lists."
+    },
+    {
+      "target": "doi:10.1186/s13059-021-02540-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Establishes non-expressed genes as the standard per-cell-line negative control in DepMap dependency pipelines."
+    },
+    {
+      "target": "doi:10.1038/ncomms15178",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows that non-targeting guides give anti-conservative P values and that gene-targeting controls are preferable, the same logic we apply to this screen."
+    },
+    {
+      "target": "doi:10.1038/s41467-023-36316-3",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows for Cas13d specifically that non-targeting guides inflate false positives and that guides against non-essential targets are the better control."
+    },
+    {
+      "target": "doi:10.1126/science.aah7111",
+      "relations": [
+        "uses"
+      ],
+      "reason": "The CRISPRi lncRNA screen whose re-analysed gene-level results we compare with the Cas13d calls."
+    },
+    {
+      "target": "doi:10.1038/s41586-019-1341-x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "The lncRNA catalogue and evolutionary age classes used by the screen and by this re-analysis."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06798-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal alignment and phyloP constraint scores."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/cactus241way.phyloP.bw",
+      "relations": [
+        "uses"
+      ],
+      "reason": "The phyloP track used for every conservation measure."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg19/database/wgRna.txt.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Curated snoRNA, scaRNA and microRNA coordinates lifted to hg38; GENCODE v36 omits many intronic snoRNAs, including all ten inside GAS5."
+    },
+    {
+      "target": "doi:10.1093/nar/gkaa1087",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE v36 annotation of exons, coding sequence and gene types."
+    },
+    {
+      "target": "doi:10.1186/s13059-014-0554-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MAGeCK robust rank aggregation, the gene-level statistic whose P values we recalibrate."
+    },
+    {
+      "target": "doi:10.7554/eLife.77357",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Uses SNHG genes and MIR17HG as positive controls in DepMap co-essentiality analysis, prior evidence that small-RNA host genes dominate lncRNA dependency lists."
+    }
+  ]
+}
