@@ -1,0 +1,258 @@
+{
+  "title": "Mammal-conserved human DNA far from mapped accessible chromatin is under strong selection in 76,215 genomes mainly within 1 kb of exons, and new chromatin catalogues add little of it",
+  "abstract": "Human non-coding DNA that 241 mammals conserve but that no chromatin map marks as accessible is under natural selection in present-day humans; within 1 kb of an exon this selection is as strong as in conserved DNA inside accessible chromatin, but further away it is about 0.4 times as strong. This matters because maps of accessible chromatin are the main guide to regulatory DNA, and a common view is that conserved DNA outside them is regulatory DNA active in cell types not yet sampled.\n\nWe marked 78.3 million autosomal non-coding bases as constrained (phyloP of 2.27 or more in the Zoonomia alignment; phyloP is a per-base conservation score). Accessible chromatin is DNA that nucleosomes do not cover. Of the constrained bases, 47.3% are in DNase I hypersensitive sites (DHSs) of 733 biosamples, 13.1% more in ENCODE v4 or single-cell CATlas elements (222 adult and fetal cell types), 18.8% within 200 bases of these, and 20.9% further away ('dark'). DNA that the two other catalogues add more than 200 bases from any DHS is 2.0-2.5% constrained, close to DNA in no DHS (2.0%); fetal neural samples are an exception.\n\nIn 76,215 genomes (gnomAD v4.1) we used a selection index: the depletion of alleles at frequency 1e-3 to 0.05 relative to alleles below 1e-4 at the same bases, which a uniformly lower mutation rate does not change. Outside transposons and segmental duplications, the index is 0.29 (95% CI 0.19-0.39) for dark constrained intronic bases within 1 kb of an exon, the same as in DHSs (0.29), but 0.08 (0.04-0.12) for dark constrained bases further away, against 0.22 in DHSs; the contrast holds at equal phyloP and against neutral bases in the same windows. Dark bases in exons of non-canonical isoforms (nonsense-mediated decay, retained intron) give 0.52. Deep dark selection is detectable mainly in elements of 20 or more bases. Near exons, dark constrained bases are 1.7-2.2 times as often in RNA-binding-protein sites (eCLIP). VISTA elements whose constrained bases were at most 10% accessible were active enhancers in mouse embryos in 4 of 39 cases, against 59% when more than 75% were accessible.\n\nLimits: the index has a non-selective dependence on phyloP, so absolute values are less certain than comparisons at equal phyloP; up to a third or more of dark constrained bases can be phyloP false positives; the 200-base flank is a choice; eCLIP covers two cell lines. We give 32,186 dark elements and testable predictions.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "evolutionary constraint",
+    "chromatin accessibility",
+    "DNase I hypersensitive sites",
+    "sampling theory",
+    "Chao2",
+    "purifying selection",
+    "gnomAD",
+    "allele frequency spectrum",
+    "Zoonomia",
+    "phyloP",
+    "CATlas",
+    "VISTA enhancers",
+    "eCLIP",
+    "splicing regulation",
+    "poison exons",
+    "unannotated constrained elements"
+  ],
+  "display": [
+    {
+      "path": "files/results/figures/fig1_sampling.png",
+      "caption": "A: share of constrained bases (phyloP 2.27 or more) in accessible DNA, by the number of the 733 biosamples in which the DNA is in a DHS. Diamonds: DNA that ENCODE v4 cCREs and CATlas add outside the DHS index, within 200 bp of a DHS (orange) or more than 200 bp from any DHS (red). Dashed line: genome average. Dotted line: DNA in no DHS. B: share of bases inside a DHS as biosamples are added (solid: exact rarefaction; dashed: Chao 2014 extrapolation; triangles: Chao2 lower-bound estimate)."
+    },
+    {
+      "path": "files/results/figures/fig3_gnomad.png",
+      "caption": "gnomAD v4.1 (76,215 genomes), non-CpG bases outside transposons, segmental duplications and simple repeats; 95% bootstrap intervals over windows. A: depletion of alleles by frequency class; depletion that grows with frequency is the signature of purifying selection. B: selection index of constrained bases in exons of non-canonical isoforms, in introns by distance to the nearest exon of any isoform, and in intergenic DNA, for DHS, flank and dark DNA; grey band: held-out neutral bases. C: selection index by phyloP class."
+    },
+    {
+      "path": "files/results/figures/fig4_tests.png",
+      "caption": "A: VISTA in vivo enhancer rate in mouse embryos against the share of an element's constrained bases that is accessible (elements with 50 or more constrained bases; Wilson 95% intervals). B: eCLIP peak rate of constrained intronic bases divided by that of unconstrained intronic bases, by distance to the nearest exon."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal phyloP and the 2.27 constraint threshold; UNICORN definition that we extend to introns and test."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2559-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DHS index and 733-biosample presence matrix used for sampling theory; its saturation estimate (no more than 28% of the genome) matches our 28.8%."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2021.10.024",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CATlas single-cell cCREs (222 adult and fetal cell types) for the out-of-sample test."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2493-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE cCRE registry; we use the v4 agnostic set ENCFF420VPZ."
+    },
+    {
+      "target": "https://www.encodeproject.org/files/ENCFF420VPZ/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE v4 agnostic cCRE file."
+    },
+    {
+      "target": "https://gnomad.broadinstitute.org/downloads",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v4.1 genome sites VCFs (76,215 genomes), read by remote tabix."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06045-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Genome-wide gnomAD constraint framework that our depletion test follows."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2308-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mutation-model and MAPS logic for depletion and frequency spectra."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2077-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE eCLIP binding sites of RNA-binding proteins."
+    },
+    {
+      "target": "doi:10.1093/nar/gkl822",
+      "relations": [
+        "uses"
+      ],
+      "reason": "VISTA in vivo enhancer outcomes."
+    },
+    {
+      "target": "https://gitlab.com/egsb-mfgl/vista-data",
+      "relations": [
+        "uses"
+      ],
+      "reason": "VISTA locus table with hg38 coordinates (locus.tsv.gz)."
+    },
+    {
+      "target": "doi:10.2307/2531532",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Chao2 lower bound for unseen species."
+    },
+    {
+      "target": "doi:10.1890/13-0133.1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Rarefaction and extrapolation for incidence data."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2018.01.029",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human TF list for gene enrichment."
+    },
+    {
+      "target": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE v47 annotation."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "hg38 sequence, RepeatMasker, segmental duplications, phyloP bigWig."
+    },
+    {
+      "target": "doi:10.1038/s41467-020-19962-9",
+      "relations": [
+        "supports"
+      ],
+      "reason": "CNEP showed constrained bases without predictive annotation keep a skewed frequency spectrum; we confirm with 76,215 genomes and a mutation-rate-robust index."
+    },
+    {
+      "target": "doi:10.1126/science.abn2937",
+      "reason": "Zoonomia base-pair constraint and human variation."
+    },
+    {
+      "target": "doi:10.1126/science.aba7612",
+      "reason": "Fetal chromatin accessibility atlas (reprocessed in CATlas)."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004525",
+      "reason": "Estimate of the constrained fraction with turnover."
+    },
+    {
+      "target": "doi:10.1073/pnas.1318948111",
+      "reason": "Biochemical, evolutionary and genetic definitions of function."
+    },
+    {
+      "target": "doi:10.1038/nature11247",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "ENCODE 2012 equated biochemical activity with function; we show conserved, selected DNA that no accessibility catalogue reaches, and that its strongly selected part lies near exons."
+    },
+    {
+      "target": "doi:10.1093/gbe/evt028",
+      "reason": "Selected-effect versus causal-role definitions of function."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "supports"
+      ],
+      "reason": "The converse result: regulatory elements without mammalian conservation carry little extra selection in humans. Together, selection follows conservation more than accessibility."
+    },
+    {
+      "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We follow its remote-tabix gnomAD v4.1 access and its use of depletion by allele frequency as the signature of selection."
+    },
+    {
+      "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+      "reason": "Deletions of conserved non-coding DNA are rare in 63,046 genomes; consistent with selection on conserved non-coding DNA."
+    },
+    {
+      "target": "doi:10.1038/s41586-025-09909-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE registry of cCREs, version 4 (Moore et al.)."
+    },
+    {
+      "target": "doi:10.1038/nature11232",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Earlier saturation analysis of DHS discovery."
+    },
+    {
+      "target": "doi:10.1038/ng.2007.55",
+      "reason": "About half of ultraconserved elements are E11.5 enhancers; context for the VISTA test."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2017.12.017",
+      "reason": "Deletion of ultraconserved enhancers in mice."
+    },
+    {
+      "target": "doi:10.1038/nature05676",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Ultraconserved poison exons in splicing-regulator genes; fits the exon-proximal selected dark elements (ARGLU1, TIAL1)."
+    },
+    {
+      "target": "doi:10.1101/gad.1525507",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Ultraconserved elements and alternative splicing with nonsense-mediated decay in splicing regulators."
+    },
+    {
+      "target": "doi:10.1038/s41467-022-31872-6",
+      "reason": "Strong selection estimated from gnomAD rare variation (ExtRaINSIGHT)."
+    },
+    {
+      "target": "doi:10.7554/eLife.71513",
+      "reason": "CpG saturation in large samples; used to interpret the absence of CpG depletion in dark DNA."
+    }
+  ]
+}
