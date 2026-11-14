@@ -1,0 +1,208 @@
+{
+ "title": "Canonical splice sites of human lncRNA genes, including 22,213 added from long-read data, show no depletion of rare variants in 76,215 genomes (chromosomes 1, 10, 11 and part of 12)",
+ "abstract": "In 76,215 human genomes, the splice sites of long non-coding RNA (lncRNA) genes carry as many rare variants as expected, unlike the splice sites of protein-coding genes. This matters because GENCODE release 47 almost doubled the annotated lncRNA genes with models from long-read sequencing, and it is not known how many of these spliced transcripts have a function. A splice site needs its canonical bases (GT at the intron start, AG at the end) only if the spliced RNA, or splicing itself, is useful; selection then removes mutations there, so fewer variants occur than the mutation rate predicts (depletion). We counted single-nucleotide variants (gnomAD v4.1) at the GT/AG bases of 38,650 lncRNA splice sites (5,722 genes) on chromosomes 1, 10, 11 and part of 12, against a strand-specific sequence-context model calibrated on intron bases 41-120 bp from the same junctions. Depletion was 54.3% (95% CI 51.5 to 56.9) at protein-coding splice sites, 22.6% (18.1 to 27.1) at untranslated-region (UTR) introns, and -0.2% (-2.3 to 1.7) at lncRNA sites; for rare variants (frequency below 1e-4), -0.9% (-3.1 to 1.3). Sites first annotated in release 47 (22,213) and older manually annotated sites did not differ (0.4% and 0.9%). No group had a clear rare-variant depletion, including junctions used in 1,000 or more GTEx samples (0.7%) and sites conserved in 241 mammals (7.9%, -1.0 to 17.4). Statistically, at most 2.5% of lncRNA sites can be under selection as strong as at coding splice sites and 6.9% as strong as at UTR introns; with a 4-point allowance for systematic error (single canonical bases differ by about 4 points) the limits are about 10% and 28%. Exploratory: at well-used junctions (15% of sites), variants with frequency 1e-3 to 1e-2 were depleted 31% (5 to 55), against 1% elsewhere, and the depletion grew with frequency, also for alleles common only in African-ancestry genomes: the pattern of weak purifying selection. Variants with frequency 1e-2 or more were depleted at all junction groups (18-39%), which a bias in junction discovery can partly explain. Limits: 4 of 22 autosomes were analysed because the shared network failed; the test sees only selection on splicing in heterozygotes, not other functions of lncRNA loci.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "lncRNA",
+  "splicing",
+  "splice sites",
+  "purifying selection",
+  "gnomAD",
+  "GENCODE v47",
+  "long-read annotation",
+  "transcriptional noise",
+  "variant depletion",
+  "population genetics",
+  "functional fraction",
+  "selected-effect function"
+ ],
+ "display": [
+  {
+   "path": "files/results/figures/fig1_depletion_by_class.png",
+   "caption": "Depletion of variant alleles (1 - observed/expected) at canonical GT/AG splice bases in 76,215 gnomAD genomes, chromosomes 1, 10, 11 and part of 12. A: all alleles; B: rare alleles (AF < 1e-4). Protein-coding splice sites lose about half of the expected alleles; lncRNA splice sites, old or new, lose none. Lines: 95% bootstrap intervals over genes, with context-model error."
+  },
+  {
+   "path": "files/results/figures/fig3_lncRNA_strata.png",
+   "caption": "A: rare-allele depletion at lncRNA splice sites by GTEx junction use, gene expression, mammalian conservation and transposable-element origin; none approaches coding or UTR-intron levels (dashed lines). B: depletion by allele frequency. lncRNA junctions used in 1,000 or more GTEx samples show depletion that grows with frequency from 1e-3 (weak selection); junctions new in GENCODE v47 show depletion only at AF >= 1e-2."
+  },
+  {
+   "path": "files/results/figures/fig4_position_profile.png",
+   "caption": "Depletion along the splice region (non-CpG bases). Coding exon ends and intron bases 3-6 are constrained; lncRNA bases are not constrained at any position."
+  }
+ ],
+ "citations": [
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs (76,215 genomes) and v4.1 gene constraint metrics (LOEUF)."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD genome data set and the observed/expected framework for non-coding constraint."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "LOEUF loss-of-function constraint used to calibrate coding splice-site depletion."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9314448/",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Dukler et al. 2022 (ExtRaINSIGHT, gnomAD v3) estimated a very small strongly selected fraction for lncRNA exons; our site-level test of lncRNA canonical splice sites, including the GENCODE v47 long-read junctions, agrees and refines it."
+  },
+  {
+   "target": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_47/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v47 annotation (with v46 and v50) defines the splice sites and their classes."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE reference annotation."
+  },
+  {
+   "target": "doi:10.1101/2024.10.29.620654",
+   "reason": "The CLS preprint reports that the new long-read lncRNA annotations display evolutionary constraints (phyloP); in 76,215 human genomes their canonical splice sites show no depletion of rare variants (0.4%, -2.0 to 3.0). The measures differ (mammalian conservation versus present-day selection)."
+  },
+  {
+   "target": "doi:10.1261/rna.046342.114",
+   "reason": "Used splice-site conservation to argue that most lncRNAs are well conserved; present-day human variation shows no rare-variant depletion at lncRNA splice sites, and only a non-significant 7.9% at mammal-conserved ones."
+  },
+  {
+   "target": "doi:10.1093/molbev/msu249",
+   "reason": "Reported that lincRNA constraint concentrates at exon ends; gnomAD shows no depletion at lncRNA exon-end bases, although the method detects only about 6% even at UTR exon ends."
+  },
+  {
+   "target": "doi:10.1261/rna.047324.114",
+   "reason": "Reported selection on splicing enhancers in multiexonic lncRNA exons; we find no present-day depletion at exon ends or splice sites."
+  },
+  {
+   "target": "doi:10.1186/gb-2013-14-5-r49",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reported that lncRNA mutations are effectively neutral in humans; we find the same for lncRNA splice sites with much larger data."
+  },
+  {
+   "target": "doi:10.1146/annurev-genom-112921-123710",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Proposes that most lncRNA transcript models reflect noise; consistent with absent selection at their splice sites."
+  },
+  {
+   "target": "doi:10.1016/j.cels.2017.12.005",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Universal alternative splicing of non-coding exons; consistent with unconstrained lncRNA splicing."
+  },
+  {
+   "target": "doi:10.7554/eLife.93629",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Drift limits splicing accuracy; low-abundance isoforms are mostly errors."
+  },
+  {
+   "target": "doi:10.1101/2025.07.16.665169",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reports less precise splice-site selection in lncRNAs."
+  },
+  {
+   "target": "doi:10.1038/nature20149",
+   "reason": "lncRNA loci can act through promoters, transcription and splicing in cis; our test covers only the splicing part."
+  },
+  {
+   "target": "doi:10.1186/s12915-016-0283-0",
+   "reason": "Earlier population-genetic evidence for weak purifying selection on human lncRNAs."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP scores."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/cactus241way.phyloP.bw",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP file used."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability mask."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 2bit sequence, genomicSuperDups and RepeatMasker tables."
+  },
+  {
+   "target": "doi:10.1126/science.aaz1776",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx; v10 junction read counts and gene median TPM."
+  },
+  {
+   "target": "https://storage.googleapis.com/adult-gtex/bulk-gex/v10/rna-seq/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v10 junction and expression files."
+  },
+  {
+   "target": "doi:10.1038/nature19057",
+   "reason": "Variant-depletion statistics for selection (MAPS) that motivate the frequency-class analysis."
+  },
+  {
+   "target": "doi:10.7554/eLife.100574",
+   "reason": "Candidate question C2 was set aside because this study already tested the mutational-hazard hypothesis."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Another SCI study found little human selection on biochemically active but non-conserved regulatory DNA; our result extends this to lncRNA splice sites."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Related SCI study: transposable-element copies with regulatory marks show no extra purifying selection."
+  }
+ ]
+}
