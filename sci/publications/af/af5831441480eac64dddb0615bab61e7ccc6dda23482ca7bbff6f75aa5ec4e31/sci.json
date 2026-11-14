@@ -1,0 +1,170 @@
+{
+  "title": "In 38 transposable-element subfamilies, copies with ENCODE regulatory marks had no detectable extra purifying selection in 76,215 human genomes; their 6% variant deficit is regional",
+  "abstract": "Copies of transposable elements (TEs) that carry ENCODE regulatory marks did not lose more human variation than unmarked copies of the same TE subfamily, after we took the surrounding DNA into account. This matters because low human variation in TE-derived regulatory DNA is often used as evidence of function: purifying selection removes harmful mutations, so functional DNA should carry fewer variants.\n\nWe compared 22,796 marked (active) and 20,705 unmarked (inactive) copies from 38 TE subfamilies. A subfamily is a group of copies that descend from one ancestral element. We counted single-nucleotide variants in 76,215 gnomAD v4.1 genomes at the same positions of the shared consensus sequence. We excluded CpG and unmappable sites; a filter for gnomAD coverage gave the same results.\n\nActive copies had 5.6% fewer variant sites than inactive copies (rate ratio 0.944, 95% CI 0.940-0.948). DNA 0-150 bp, 1 kb and 5 kb away from the copies had the same deficit (0.942-0.944). Relative to its flanks, an active copy had no extra deficit (1.001, 95% CI 0.996-1.005). As a positive control, TE bases conserved across 241 mammals had 14% fewer variants (0.863). Thus constraint of that strength can affect at most about 3% (relative to flanks) or 7% (relative to DNA 5 kb away) of the analysable bases of active copies. Positions where active copies keep the consensus base more often had no extra deficit when compared with positions of the same base (1.002, 95% CI 0.983-1.021). Nor did pre-specified transcription-factor motif positions (1.000, 0.994-1.005). TE classes deviated by about 5% in both directions, which sets the limit of the position test. When we repeated a published flank comparison (Du et al. 2024) with gnomAD, TE-derived enhancer-like cCREs did not have fewer common variants than same-length flanks (1.006, 0.965-1.053); TE-derived CTCF-only cCREs had a small deficit in the same direction (0.957, 0.906-1.015).\n\nLimits: the youngest TE families, in which most copies carry marks, are not included; population data cannot detect weak selection; the bounds cover the analysable two thirds of the bases and are averages over copies.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "transposable elements",
+    "non-coding DNA",
+    "junk DNA",
+    "purifying selection",
+    "gnomAD",
+    "ENCODE cCRE",
+    "regulatory elements",
+    "population genetics",
+    "difference-in-differences",
+    "mutation rate heterogeneity",
+    "background selection",
+    "exaptation",
+    "replication"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_regional_deficit.png",
+      "caption": "(A) Variant rate in active divided by inactive TE copies, at the copy (matched consensus positions), 0-150 bp beside it, and 1 kb and 5 kb away, for three allele-frequency thresholds. The deficit is the same at all distances. (B) Positive controls (mammal-conserved versus non-conserved TE bases) compared with the tests for extra depletion in active copies; the tests are near 1. Bars: 95% bootstrap intervals over copies."
+    },
+    {
+      "path": "files/figures/fig2_position_test.png",
+      "caption": "(A) Base-standardised difference-in-differences at positions kept more often in active copies (blue) and in inactive copies (orange). Pooled over 38 subfamilies there is no deficit; TE classes deviate by about 5% in both directions, and in LTRs a deficit at activity positions comes with a mirror excess at inactivity positions. (B) Each subfamily; none passes a 5% false-discovery rate."
+    },
+    {
+      "path": "files/figures/fig3_flank_design.png",
+      "caption": "(A) Direct replication of Du et al. 2024: density of common variants (AF > 1%) in random ENCODE V4 cCREs divided by that in same-length flanks, for TE-derived and non-TE cCREs, with all bases and with mappable, non-CpG, coverage-filtered bases. (B) Analogue in the 38 subfamilies: TE copy versus its 150-bp flanks, for active and inactive copies."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41467-024-51921-6",
+      "reason": "We repeated its cCRE-versus-flank comparison of common variants with gnomAD v4.1 and registry V4 (no coding filter). TE-derived dELS showed no deficit; TE-derived CTCF-only cCREs showed a small deficit in the same direction. Flank comparisons cannot separate selection from regional effects, which our within-family design shows to dominate."
+    },
+    {
+      "target": "doi:10.1126/science.1225057",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Inferred lineage-specific constraint from lower diversity in non-conserved active elements; we show that lower diversity around active TE copies is regional."
+    },
+    {
+      "target": "doi:10.1093/molbev/msx219",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Proposed that TE exaptation into regulatory regions is rare; our upper bound on constrained bases in marked TE copies agrees."
+    },
+    {
+      "target": "doi:10.1101/2024.03.11.584453",
+      "reason": "Closest prior work: relates a cCRE score of TE copies to age, conservation and Tajima's D."
+    },
+    {
+      "target": "https://arxiv.org/abs/1212.3076",
+      "reason": "Earlier statistical critique of Ward & Kellis 2012."
+    },
+    {
+      "target": "doi:10.7554/eLife.76065",
+      "reason": "Background selection shapes broad-scale human diversity; one regional explanation of the deficit."
+    },
+    {
+      "target": "doi:10.1126/science.aba7408",
+      "reason": "Regional germline mutation processes; another regional explanation, consistent with the base dependence of the deficit."
+    },
+    {
+      "target": "https://gnomad.broadinstitute.org/downloads#v4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v4.1 genome sites VCF (76,215 genomes, remote tabix) and the all-sites allele-number table."
+    },
+    {
+      "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE cCRE registry V4: activity label and replication sample."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2493-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE cCRE registry and definitions of cCRE classes."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2559-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DHS index with biosample counts: strict inactive label and accessibility breadth."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "RepeatMasker alignments and annotation (hg38.fa.align.gz, hg38.fa.out.gz) and hg38.2bit."
+    },
+    {
+      "target": "doi:10.1126/science.abn2937",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal phyloP: positive control and non-conserved site set."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia constraint threshold (phyloP 2.27, 5% FDR)."
+    },
+    {
+      "target": "doi:10.1093/nar/gky677",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Umap k100 mappability."
+    },
+    {
+      "target": "doi:10.1093/nar/gkad1059",
+      "relations": [
+        "uses"
+      ],
+      "reason": "JASPAR 2024 motifs for the a priori motif positions."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06045-0",
+      "reason": "Genome-wide constraint map (Gnocchi); related approach without a within-family control."
+    },
+    {
+      "target": "doi:10.1038/nature14183",
+      "reason": "Elevated mutation at protein-bound sites, a bias that can hide selection at TF motifs."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06798-8",
+      "reason": "Primate constraint map; related work on lineage-specific constraint."
+    },
+    {
+      "target": "doi:10.1126/science.abn7930",
+      "reason": "Mammalian evolution of human cCREs and TF binding sites."
+    },
+    {
+      "target": "doi:10.1093/gbe/evx121",
+      "reason": "Mutational-load bound on the functional fraction of the human genome (alternative approach considered)."
+    },
+    {
+      "target": "https://genome.cshlp.org/content/31/6/935",
+      "reason": "Radke et al. 2021, purifying selection on noncoding deletions (alternative approach considered)."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2308-7",
+      "reason": "gnomAD framework for observed versus expected variation."
+    }
+  ]
+}
