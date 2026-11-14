@@ -1,0 +1,158 @@
+{
+  "title": "Active transposable-element copies carry slightly more rare human alleles than inactive copies of the same subfamily; mutation rate, mappability and common-variant bias do not explain it",
+  "abstract": "Copies of transposable elements (TEs, mobile DNA that makes up about half of the human genome) that are biochemically active carry slightly more rare variants than inactive copies of the same TE subfamily. This is the signature of weak purifying selection, the removal of harmful changes, and it is evidence from living humans that some active DNA that other mammals do not conserve has a function. We used 155 million single-nucleotide variants from the 76,215 genomes of gnomAD v4.1 and the ENCODE4 registry of candidate cis-regulatory elements (cCREs: regions with open chromatin, regulatory histone marks or transcription-factor binding). We compared TE bases inside cCREs with bases of inactive copies of the same subfamily, matched for consensus position, copy age, substitution type, regional GC content and recombination rate. In active bases that mammals do not conserve, the fraction of variants with allele frequency (AF) below 0.1% was higher by 0.097 percentage points (95% CI 0.069-0.124; 27.3 million variants; chromosome jackknife), 6.7% of the missense-versus-synonymous effect. The excess stayed in well-mappable copies (>=20% diverged: 0.082; 24-mer-unique bases: 0.096), after matching local cCRE density and exon distance (0.071), and when we ignored all variants with AF>=1%, which ENCODE donors rarely carry (0.034, 5.5% of the missense effect on that outcome). A placebo split of inactive copies gave -0.004 (CI -0.024 to 0.017). Primate-specific copies, absent from mouse and dog, also showed it (0.089 without near-identical copies). The excess was in enhancer-like and TF-bound cCREs and increased with DNase signal; we did not detect it in DNase-only or CTCF-only cCREs (enhancer-like minus DNase-only: 0.124, z=6.6). It belongs to active copies and their neighbourhood: with local matching, the cCRE segment did not differ significantly from its own flank. At this sample size the singleton statistic also responds to mutation rate through recurrent mutation (a known effect); the AF<0.1% outcome responds 14 times less, and de novo mutations (353,300) and a two-outcome model indicate that mutation-rate differences explain at most a small part of the excess. Limits: the effect is an average over many copies (only AluY is significant alone); near-identical young copies give a larger excess that may be technical; amounts of functional DNA derived from it are illustrative only.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "transposable elements",
+    "purifying selection",
+    "gnomAD",
+    "ENCODE cCRE",
+    "allele frequency spectrum",
+    "de novo mutations",
+    "recurrent mutation",
+    "lineage-specific constraint",
+    "enhancers",
+    "Alu"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_main_forest.png",
+      "caption": "Excess of rare alleles in active vs inactive DNA (gnomAD v4.1, non-CpG SNVs; 95% CI from a chromosome jackknife with t(21)). A: singleton fraction, which also responds to mutation rate. B: fraction with allele frequency below 0.1% (primary outcome). Orange rows add matching layers; blue rows are the main, subset and robustness tests (local cCRE density, 24-mer mappability, copy divergence, primate-specific copies, segment vs flank); green is non-TE DNA; the last row is a placebo split of inactive copies. Reference effects are in the panel titles."
+    },
+    {
+      "path": "files/figures/fig2_mutation_checks.png",
+      "caption": "Mutation-rate checks. A: change of each allele-frequency outcome for a 10% higher mutation rate (orange, from the 6 substitution types) and for missense vs synonymous variants (blue). The singleton outcome responds as much to mutation rate as to selection; AF<0.1% and AF<1% do not. B: de novo mutation rate ratio (orange, mutation only; 353,300 trio SNVs) and gnomAD variant-site density ratio (blue, mutation plus selection), group 1 over group 0."
+    },
+    {
+      "path": "files/figures/fig3_ccre_class.png",
+      "caption": "Excess of variants with allele frequency below 0.1% by ENCODE cCRE class, for primate-specific TE copies (blue) and non-TE DNA (green), bases not conserved in mammals, 95% CI. Enhancer-like and TF-bound TE elements carry the excess; it is not detected in DNase-only (CA) and CTCF-only elements (the CIs include about half of the main effect)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1126/science.1225057",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Ward & Kellis 2012 claimed lineage-specific purifying selection in non-conserved ENCODE elements; our within-subfamily TE test with gnomAD v4.1 finds a weak excess of rare alleles in the same direction."
+    },
+    {
+      "target": "https://arxiv.org/abs/1212.3076",
+      "reason": "Critique of the Ward & Kellis estimate of the constrained fraction."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06045-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD genome data and the Gnocchi constraint framework."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2308-7",
+      "reason": "gnomAD MAPS statistic; we show that its singleton basis responds to mutation rate at v4 sample sizes."
+    },
+    {
+      "target": "doi:10.1038/s41586-025-09909-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE4 cCRE registry used to define biochemically active DNA."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal alignment and phyloP conservation."
+    },
+    {
+      "target": "doi:10.1126/science.abn2937",
+      "reason": "Zoonomia base-pair constraint and its relation to human variation."
+    },
+    {
+      "target": "doi:10.1126/science.abn7930",
+      "reason": "Mammalian evolution of human cCREs; constrained and primate-specific elements."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004525",
+      "reason": "Estimate of 8.2% constrained genome and turnover of functional sequence."
+    },
+    {
+      "target": "doi:10.1038/ng.3196",
+      "reason": "fitCons: fraction of nucleotides under selection from polymorphism and divergence."
+    },
+    {
+      "target": "doi:10.1038/s41588-018-0300-z",
+      "reason": "FitCons2 cell-type-specific fitness consequences."
+    },
+    {
+      "target": "doi:10.1093/molbev/msx219",
+      "reason": "TE exaptation into regulatory regions is rare and age-dependent."
+    },
+    {
+      "target": "doi:10.1101/gr.218149.116",
+      "reason": "TEs as a source of primate regulatory novelty."
+    },
+    {
+      "target": "doi:10.1126/science.aad5497",
+      "reason": "Example of co-option of primate-specific ERV (MER41) enhancers."
+    },
+    {
+      "target": "doi:10.1038/nature11247",
+      "reason": "ENCODE 2012 claim of widespread biochemical function."
+    },
+    {
+      "target": "doi:10.1093/nar/gkw865",
+      "relations": [
+        "uses"
+      ],
+      "reason": "denovo-db de novo mutations from whole-genome trio studies."
+    },
+    {
+      "target": "doi:10.1126/science.aau1043",
+      "relations": [
+        "uses"
+      ],
+      "reason": "deCODE recombination map used as a regional covariate."
+    },
+    {
+      "target": "doi:10.1038/s41467-024-51921-6",
+      "reason": "Du et al. 2024: TE-derived ENCODE4 cCREs and their common-variant density relative to flanks."
+    },
+    {
+      "target": "doi:10.1038/nature19057",
+      "reason": "Lek et al. 2016: dependence of the singleton fraction on mutability (MAPS calibration)."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1006489",
+      "reason": "Harpak et al. 2016: mutation-rate variation shapes allele-frequency distributions."
+    },
+    {
+      "target": "doi:10.1093/genetics/iyad049",
+      "reason": "Wakeley et al. 2023: recurrent mutation in the ancestry of rare variants."
+    },
+    {
+      "target": "doi:10.1093/gbe/evv228",
+      "reason": "Schrider & Kern 2015: human-specific constraint in non-conserved regions."
+    },
+    {
+      "target": "doi:10.1038/s41467-022-31872-6",
+      "reason": "Dukler et al. 2022: gnomAD rare-variant (AF<0.1%) inference of strong selection."
+    },
+    {
+      "target": "doi:10.1038/nature14183",
+      "reason": "Reijns et al. 2015: protein binding can raise local mutation rates."
+    }
+  ]
+}
