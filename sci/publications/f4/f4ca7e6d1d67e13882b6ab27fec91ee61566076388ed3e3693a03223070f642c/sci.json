@@ -1,0 +1,217 @@
+{
+ "title": "DNA between 622 CRISPRi-validated human enhancers and their target genes changed length 9-15% less than matched control DNA in 11 non-primate mammals, with no dosage dependence",
+ "abstract": "Across mammals, the DNA between a human enhancer and the gene that it controls changed in length only slightly less than matched control DNA, and this small difference did not depend on how sensitive the gene is to its dose. This matters because a function that depends on the total length of DNA, and not on its sequence, would add functional DNA that sequence- and indel-based conservation estimates do not count. We used 622 enhancer-gene pairs that CRISPR interference (CRISPRi: silencing of an element in its native place) showed to be functional, mostly in K562 cells, and 10,097 tested pairs without an effect. For each pair we measured the human interval from enhancer to promoter (the link) and two same-length flanks, and read their lengths in 15 mammals from UCSC chain alignments. Typical intervals changed length by 18% in 11 non-primate placentals and by 2.6% in 3 primates. We compared the link-minus-flank change of validated pairs with that of negative pairs of the same geometry (difference in differences), with adjustment for conserved, exonic and gene-body DNA. In non-primates the link changed 0.855 times as much as expected (95% CI 0.715-0.993, p = 0.039); without adjustment 0.91 (0.77-1.05). Against the outer flank alone the ratio was 0.86 (p = 0.006), against the opposite flank 0.93 (p = 0.54). All 14 placental species gave ratios of 0.70-0.93; primates gave 0.75 (0.54-0.97). So a reduction of about 9-15% is likely, and more than about 30% is excluded. A stabilizing-selection model, in which an enhancer's contribution falls with distance to the power alpha and fitness falls with the square of the expression change scaled by s_het (the fitness cost of losing one gene copy), predicted a ratio of 0.52 for non-primates (population size 10^4, alpha = 0.87 as in contact-based enhancer models) and a steep gradient with s_het. The data need the model's selection strength to be at least 5 times weaker, and the observed gradient was -0.012 +/- 0.014 per 10-fold s_het against a predicted -0.06 to -0.09. Synteny of the link did not differ from controls. Two independent reviews changed the primary analysis; the pre-specified test gave 0.90 (0.77-1.03). Limits: the enhancers may not be active in other mammals; the flanks are imperfect controls; the significance depends on covariate adjustment. A cross-species CRISPRi experiment can tell whether expression or fitness is insensitive to these distance changes.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "enhancer",
+  "enhancer-promoter distance",
+  "spacer DNA",
+  "CRISPRi",
+  "comparative genomics",
+  "chain alignment",
+  "stabilizing selection",
+  "s_het",
+  "dosage sensitivity",
+  "activity-by-contact",
+  "synteny",
+  "genome evolution",
+  "selected-effect function"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_design_and_estimates.png",
+   "caption": "A: design. Each CRISPRi-tested enhancer-gene pair gives three human intervals of the same length: enhancer to TSS (link), an outer flank and an opposite flank. B: length change of the link relative to controls for validated pairs (ratio with 95% CI) in eight analysis variants, for 11 non-primate placentals and 3 primates, with the prediction of the stabilizing-selection model (orange). The diamond is the revised primary analysis (geometry-matched difference in differences against negative pairs)."
+  },
+  {
+   "path": "files/figures/fig2_theory_vs_observed.png",
+   "caption": "Observed covariate-adjusted matched difference-in-differences ratio (blue line, 95% CI band) against the predictions of a stabilizing-selection model (orange) with effective population size N and distance elasticity alpha, for primates and non-primate placentals; right: observed gradient of the adjusted matched difference in differences with s_het against the model gradient on the same scale."
+  },
+  {
+   "path": "files/figures/fig3_per_species_and_raw.png",
+   "caption": "Left: adjusted (filled, 95% CI) and unadjusted (open) matched difference-in-differences ratio (link vs both flanks) in each of 15 species. Right: raw cumulative distributions of the absolute log2 length change of validated pairs in 11 non-primate placentals; the outer flank changed more and the opposite flank less than the link."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1101/2023.11.09.563812",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the CRISPR enhancer-gene benchmark (Gschwind et al.)."
+  },
+  {
+   "target": "https://www.nature.com/articles/s41586-026-10781-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Published version of the ENCODE-rE2G enhancer-gene benchmark."
+  },
+  {
+   "target": "https://github.com/EngreitzLab/CRISPR_comparison",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Repository with the benchmark files used here."
+  },
+  {
+   "target": "doi:10.1038/s41588-024-01820-9",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GeneBayes s_het estimates (Zeng et al. 2024)."
+  },
+  {
+   "target": "doi:10.5281/zenodo.10403680",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zenodo record of the s_het table (copy included, CC BY 4.0)."
+  },
+  {
+   "target": "doi:10.1073/pnas.1932072100",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Chain alignments (Kent et al. 2003) used to measure interval lengths in other mammals."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/liftOver/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC hg38 liftOver chain files for 15 assemblies."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons conserved elements (covariate and positive control)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v44 annotation."
+  },
+  {
+   "target": "doi:10.1073/pnas.0501865102",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Sella and Hirsh stationary distribution used for the stabilizing-selection model."
+  },
+  {
+   "target": "doi:10.1038/s41588-019-0538-0",
+   "reason": "Activity-by-contact model; source of the contact power-law exponent compared with our elasticity bound."
+  },
+  {
+   "target": "doi:10.1038/s41586-022-04570-y",
+   "reason": "Experimental evidence that enhancer-promoter distance changes transcription nonlinearly."
+  },
+  {
+   "target": "doi:10.1016/j.devcel.2016.10.015",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Shows that a topological domain reduces the effect of distance on enhancer action, one explanation of our result."
+  },
+  {
+   "target": "doi:10.1038/s41588-019-0462-3",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Large rearrangements changed few genes in Drosophila, consistent with weak distance constraint."
+  },
+  {
+   "target": "doi:10.1093/gbe/evy196",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Claimed strong constraint on inter-CNE distance with random-sequence controls; with same-locus controls and validated links we do not find a comparable effect."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4008492",
+   "reason": "Polychronopoulos et al. 2014, earlier report on CNE spacing and transposon density."
+  },
+  {
+   "target": "doi:10.1101/gr.275901.121",
+   "reason": "Promoter-enhancer contacts stay in synteny more often than simulated contacts; with an end-alignability-free outcome we find no synteny difference for validated links."
+  },
+  {
+   "target": "doi:10.1093/molbev/msw151",
+   "reason": "Intron length co-evolution across mammals, a related sequence-independent length function."
+  },
+  {
+   "target": "doi:10.1186/1471-2105-12-S9-S16",
+   "reason": "Intron length conservation in developmental genes."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Sequence-based estimate of the constrained fraction of the human genome."
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.0020005",
+   "reason": "Neutral indel model and indel-purified sequence."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "The junk DNA and function debate."
+  },
+  {
+   "target": "doi:10.1073/pnas.1318948111",
+   "reason": "The junk DNA and function debate."
+  },
+  {
+   "target": "doi:10.1038/s41594-024-01235-4",
+   "reason": "Candidate C4: random DNA has default regulatory activity."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "SCI study on the same CRISPRi benchmark: sequence constraint of validated enhancers scales with s_het; here length constraint does not."
+  },
+  {
+   "target": "sci:sha256:04a7a4b121955cd1fd3b4b966e78a5a88f8d41b65af5f66f836e5ba9c100f213",
+   "reason": "SCI study of selection on active transposable-element copies (another approach to non-coding function)."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "SCI study of regulatory transposable-element copies in gnomAD."
+  },
+  {
+   "target": "doi:10.1073/pnas.1808631116",
+   "reason": "Deletions are depleted at active chromatin and domain boundaries across primates (Fudenberg and Pollard 2019)."
+  },
+  {
+   "target": "doi:10.1186/gb-2004-5-4-r25",
+   "reason": "Regulatory content of intergenic DNA shapes intergenic length (Nelson, Hersh and Carroll 2004)."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2015.01.006",
+   "reason": "Fast enhancer turnover across 20 mammals, the main alternative explanation for weak constraint in distant species."
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2024.11.008",
+   "reason": "Enhancer cooperativity can compensate for distance (Thomas et al. 2025), one explanation of our result."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC assembly gap tables and chrom.sizes of the 15 other assemblies."
+  }
+ ]
+}
