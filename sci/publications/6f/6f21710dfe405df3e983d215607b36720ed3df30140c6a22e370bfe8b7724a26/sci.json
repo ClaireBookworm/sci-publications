@@ -1,0 +1,237 @@
+{
+ "title": "In 361 human TE families, accessible copies were only slightly more conserved than inaccessible copies, most in old families, and their A/T-site excess fell as recombination rose",
+ "abstract": "Inside the same transposable-element (TE) family, copies that are open chromatin in human cells are only slightly more conserved than closed copies; the difference grows with family age and is large in about a dozen ancient families. This matters because about a quarter of human candidate regulatory elements come from TEs, and conservation is the usual evidence that their activity is a function kept by natural selection.\n\nWe compared 346,488 accessible copies (a DNase I hypersensitive site summit in at least one of 733 biosamples) and 433,957 inaccessible copies of 361 TE consensus sequences, at the same consensus position and only where the human base is still the consensus base. Conservation was phyloP (a per-base score of slower-than-neutral evolution) across 239 primates and across 240 mammals. After matching for regional GC content, recombination rate, distance to genes and copy length, the median excess was +0.021 (primate) and +0.011 (mammal) phyloP per site, about 1-3% of the score of a highly conserved site. Effects of this size also occur as artefacts in a human-specific negative control, so they are descriptive. The excess was largest in old families and very large in twelve ancient amniote and mammal families (AmnSINE1, OldhAT1, Plat_L3, MamRep434, Tigger19a/b, MamRTE1 and others), which hold 1.75% of the accessible copies analysed. The excess depended on base, GC context and recombination. At G/C sites it was about +0.06 at all recombination rates. At A/T sites it fell from +0.029 (primate) and +0.012 (mammal) in the lowest fifth of recombination rates to -0.015 and -0.021 in the highest fifth, and it was negative only in GC-rich regions. Purifying selection cannot make sites evolve faster; GC-biased gene conversion, a higher local mutation rate, positive selection or turnover can. GC-biased gene conversion fits best but is not proven. Picking 'activity-determining' positions is affected (64% were G/C in old families). In the human lineage, accessible copies gained G/C 21% more often than expected within 50 bp of the DHS summit, which suggests that accessibility calls partly follow recent G/C gains; far from the summit a GC-biased pattern remained only in the oldest families. Lower bounds on the share of accessible copies with excess conservation were 7% (all sites) and 1-2% (A/T sites). Limits: phyloP cannot detect human-specific selection, and effects below about 0.04 phyloP per site are within the range of alignment artefacts.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "transposable elements",
+  "junk DNA",
+  "non-coding DNA",
+  "exaptation",
+  "GC-biased gene conversion",
+  "phyloP",
+  "evolutionary constraint",
+  "DNase I hypersensitive sites",
+  "chromatin accessibility",
+  "Zoonomia",
+  "primate constraint",
+  "recombination",
+  "AmnSINE1",
+  "regulatory elements",
+  "ascertainment bias",
+  "ENCODE"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_recombination_strata.png",
+   "caption": "Excess conservation of accessible over inaccessible copies of the same TE unit (median over 361 units) inside recombination-rate fifths, at all, G/C and A/T consensus positions. The strata control recombination only. The A/T-site excess falls below zero as recombination rises; the G/C-site excess does not. (A) primate phyloP; (B) mammal phyloP."
+  },
+  {
+   "path": "files/figures/fig2_matched_by_age.png",
+   "caption": "(A, B) Regionally matched excess conservation of accessible TE copies by family divergence (random-effects pooled, 95% CI), at all, G/C and A/T positions. (C) Scale reference: non-repeat DHS summits minus non-repeat background by DHS breadth (not matched; different y-axis)."
+  },
+  {
+   "path": "files/figures/fig3_spectrum_and_ancient_units.png",
+   "caption": "(A) Human-lineage substitutions in accessible copies vs inaccessible copies at the same consensus position, by distance from the DHS summit (all units): the G/C gain is strongest near the summit. (B) Units with >= 30% divergence: excess at G/C vs A/T positions (mammal phyloP); orange units have significant A/T excess in both tracks."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "Related SCI study of CRISPRi-tested enhancers and mammalian constraint. Our non-repeat benchmark agrees that narrow DHSs carry background-level conservation at A/T sites, and suggests stratifying constrained-base fractions by base and recombination."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2559-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DHS Index (733 biosamples): activity labels and summits."
+  },
+  {
+   "target": "doi:10.5281/zenodo.3838751",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DHS Index data files."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06798-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Primate phyloP (447-way, primate subtree)."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-way alignment and phyloP."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia phyloP and the 2.27 constrained-base threshold."
+  },
+  {
+   "target": "https://www.repeatmasker.org/genomes/hg38/rmsk4.0.5_rb20140131/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "RepeatMasker alignments of hg38 copies to consensus sequences."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v44 annotation."
+  },
+  {
+   "target": "doi:10.1126/science.aau1043",
+   "relations": [
+    "uses"
+   ],
+   "reason": "deCODE recombination map."
+  },
+  {
+   "target": "doi:10.1126/science.1072047",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Segmental duplications (exclusion)."
+  },
+  {
+   "target": "doi:10.1101/gr.097857.109",
+   "reason": "phyloP method."
+  },
+  {
+   "target": "doi:10.1038/s41467-024-51921-6",
+   "reason": "TE-derived ENCODE cCREs; category-level comparison."
+  },
+  {
+   "target": "doi:10.1093/molbev/msx219",
+   "relations": [
+    "supports"
+   ],
+   "reason": "TE exaptation into regulatory regions is rare; our within-family results agree."
+  },
+  {
+   "target": "doi:10.1101/2024.03.11.584453",
+   "reason": "Category-level conservation of TEs overlapping regulatory elements."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-13555-x",
+   "reason": "Active vs inactive copies within TE subfamilies (epigenomic landscape)."
+  },
+  {
+   "target": "doi:10.1073/pnas.1912008117",
+   "reason": "TE subfamilies in T lymphocyte enhancers; within-subfamily comparison."
+  },
+  {
+   "target": "doi:10.1126/science.abn7930",
+   "reason": "Mammalian evolution of human cCREs and TF binding sites, including TE-derived elements."
+  },
+  {
+   "target": "doi:10.1101/gr.276863.122",
+   "reason": "LTR18A: motif-level conservation inside one LTR subfamily."
+  },
+  {
+   "target": "doi:10.1093/molbev/msh070",
+   "reason": "Recombination drives GC-content evolution in the human genome."
+  },
+  {
+   "target": "doi:10.1093/molbev/msi136",
+   "reason": "Biased gene conversion in human Alu repeats."
+  },
+  {
+   "target": "doi:10.1073/pnas.0611223104",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Exapted ancient mobile-element fragments; our families with large excess agree."
+  },
+  {
+   "target": "doi:10.1101/gr.5255506",
+   "reason": "AmnSINE1 functional copies (positive control)."
+  },
+  {
+   "target": "doi:10.1073/pnas.0709398105",
+   "reason": "AmnSINE1-derived enhancers."
+  },
+  {
+   "target": "doi:10.1126/science.aad5497",
+   "reason": "MER41 co-option example."
+  },
+  {
+   "target": "doi:10.1146/annurev-genom-082908-150001",
+   "reason": "GC-biased gene conversion in mammals."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1000071",
+   "reason": "Recombination and substitution patterns in the human genome."
+  },
+  {
+   "target": "doi:10.1098/rstb.2010.0007",
+   "reason": "Biased gene conversion as a confounder of selection inference."
+  },
+  {
+   "target": "doi:10.1093/molbev/msr279",
+   "reason": "gBGC imitates selection in fast-evolving human regions."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1003684",
+   "reason": "Model-based detection of gBGC tracts."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3001588",
+   "reason": "Sequence conservation need not imply purifying selection."
+  },
+  {
+   "target": "doi:10.1038/nature11089",
+   "reason": "PRDM9 directs recombination away from functional elements."
+  },
+  {
+   "target": "doi:10.7554/eLife.28383",
+   "reason": "Human PRDM9 binding map."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1003984",
+   "reason": "Recombination targets promoters in PRDM9-deficient dogs."
+  },
+  {
+   "target": "doi:10.1038/nature14183",
+   "reason": "Elevated mutation at TF-bound sites (alternative explanation)."
+  },
+  {
+   "target": "doi:10.1126/science.1256442",
+   "reason": "Meiotic DSB maps in humans."
+  },
+  {
+   "target": "doi:10.1101/gr.275263.121",
+   "reason": "Selection on noncoding deletions of regulatory loci."
+  },
+  {
+   "target": "doi:10.1038/nature11247",
+   "reason": "ENCODE functional-genome claim."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "Critique of activity-based definitions of function."
+  },
+  {
+   "target": "doi:10.1101/2025.11.27.690751",
+   "reason": "Considered for candidate C3 (Cas13d lncRNA screen off-targets)."
+  }
+ ]
+}
