@@ -1,0 +1,255 @@
+{
+ "title": "In 8 human autosomes, point mutations that make moderate transcription-factor motif matches in non-functional DNA show no more selection than shuffled-motif controls; lost existing matches show some",
+ "abstract": "Point mutations that create new moderate transcription-factor (TF) motif matches in non-functional human DNA are not rarer, and not less often observed, in 76,215 genomes than mutations that create matches to shuffled motifs. This matters because random DNA has regulatory activity by default, so a large genome must either tolerate new spurious TF sites or keep its non-functional DNA quiet by selection. We used gnomAD v4.1 single-nucleotide variants (SNVs) on 8 complete autosomes (about 20% of the genome; 74 million observed SNVs and, in a 50% sample of positions, 599 million possible SNVs) in DNA that is more than 200 bp from ENCODE candidate regulatory elements, not conserved in mammals, and not in exons or repeats. A moderate gain creates a match to one of 26 JASPAR motifs at p < 1e-4; the null is the same motifs with shuffled columns. Two tests measure purifying selection: an excess of singletons (alleles seen once) and a depletion of possible SNVs that are never observed. Real minus shuffled moderate gains gave +0.04 percentage points (pp; 95% interval -0.23 to +0.30) in the singleton test and -0.018 pp (-0.078 to +0.043) in the depletion test, with no signal near genes or next to dosage-sensitive genes. For comparison, new cryptic splice sites in the same DNA gave a singleton excess of +2.99 pp, and mammal-conserved sites +0.83 pp and a depletion of -0.202 pp. In SuRE reporter data the motif calls shifted activity in the expected direction. Strong gains (p < 1e-6) were not resolved. Mutations that remove existing real motif matches showed selection in both tests (+0.20 pp, +0.05 to +0.35; -0.062 pp, -0.092 to -0.031; robust to Roulette mutation rates), but this signal is not significant per motif and is enriched in Alu copies. Main limitations: 8 of 22 autosomes, motif matches as a proxy for binding, a null whose spread limits precision, and tests that detect only selection of about 1e-3 or stronger.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "transcription factor binding site",
+  "spurious binding",
+  "purifying selection",
+  "gnomAD",
+  "site frequency spectrum",
+  "mutational depletion",
+  "JASPAR",
+  "shuffled motif null",
+  "SuRE reporter assay",
+  "cryptic splice site",
+  "ENCODE cCRE",
+  "drift barrier",
+  "fitness map",
+  "Roulette mutation rate"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_selection_on_gains.png",
+   "caption": "SNVs in non-functional human DNA (8 autosomes), observed minus expected under a 7-mer x region model fitted without motif-change SNVs (percentage points; selection to the right). Blue: real motifs (26-motif unions) with 95% block-bootstrap interval; orange: the 4 shuffled-motif unions; green: conserved-site reference and new cryptic splice sites (positive control). A: singleton excess. B: depletion of possible SNVs (expected minus observed)."
+  },
+  {
+   "path": "files/figures/fig2_by_distance_and_dosage.png",
+   "caption": "Real minus shuffled motifs (percentage points, selection upwards) for level-1 gains and losses, by distance to the nearest protein-coding TSS, by s_het of that gene, and outside transposons. 95% intervals include the spread between the 4 shuffle sets."
+  },
+  {
+   "path": "files/figures/fig3_sure_validation.png",
+   "caption": "SuRE reporter assay (K562, HepG2): change of activity (log2 ALT/REF minus all SNVs) for SNVs that gain or lose real motif matches (blue, 95% CI) and shuffled-motif matches (orange)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We adapted its gnomAD streaming code (vcfx.c, run_gnomad_stream.sh) and used its per-chromosome VCF record counts to verify that our streams were complete; its result (little selection at non-conserved cCREs) is the loss-side context of our gain test."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "Constraint of validated enhancers depends on target-gene dosage sensitivity; we test whether selection on new TF sites depends on s_het in the same way."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Related SCI test of selection on transposon copies with regulatory marks."
+  },
+  {
+   "target": "sci:sha256:b8a269286c2fe3457f42c4cb28d20b2264e629906edda7f5f57eb8fac34d1690",
+   "reason": "Related SCI transposon study."
+  },
+  {
+   "target": "sci:sha256:04a7a4b121955cd1fd3b4b966e78a5a88f8d41b65af5f66f836e5ba9c100f213",
+   "reason": "Related SCI transposon study."
+  },
+  {
+   "target": "sci:sha256:6f21710dfe405df3e983d215607b36720ed3df30140c6a22e370bfe8b7724a26",
+   "reason": "Related SCI transposon study."
+  },
+  {
+   "target": "doi:10.1038/s41594-024-01235-4",
+   "reason": "Luthra et al. 2024: regulatory activity is the default state of DNA; the hypothesis we test."
+  },
+  {
+   "target": "doi:10.1038/s41586-024-07128-2",
+   "reason": "Camellato et al. 2024: synthetic reversed sequences and default genomic states."
+  },
+  {
+   "target": "doi:10.1016/j.cub.2013.03.023",
+   "reason": "Eddy 2013: random-genome null for biochemical activity."
+  },
+  {
+   "target": "doi:10.1093/molbev/msg096",
+   "reason": "Hahn, Stajich & Wray 2003: selection against spurious TF sites in microbes."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0000745",
+   "reason": "Froula & Francino 2007: selection against spurious promoter motifs in bacteria."
+  },
+  {
+   "target": "doi:10.1038/s41598-020-74793-4",
+   "reason": "Carrasco Pro et al. 2020: genome-wide TF-site gain and loss of all SNVs."
+  },
+  {
+   "target": "doi:10.1016/j.ajhg.2025.02.009",
+   "reason": "Tubbs et al. 2025: selection on CTCF binding loss and gain inside CTCF sites."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.12.015",
+   "reason": "Jaganathan et al. 2019: SpliceAI; cryptic splice gains are selected (our positive control)."
+  },
+  {
+   "target": "doi:10.1126/science.1126431",
+   "reason": "De Gobbi et al. 2006: disease caused by a new TF site and promoter in non-genic DNA."
+  },
+  {
+   "target": "doi:10.1038/s41588-019-0455-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "van Arensbergen et al. 2019: SuRE data used to validate motif calls."
+  },
+  {
+   "target": "https://osf.io/w5bzq/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SuRE SNP table (osf.io/download/vxfk3)."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs and LCR intervals."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "reason": "Chen et al. 2024: gnomAD genomic constraint."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE Registry V4 cCREs."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "reason": "ENCODE Project Consortium 2020: registry of cCREs."
+  },
+  {
+   "target": "doi:10.1093/nar/gkad1059",
+   "relations": [
+    "uses"
+   ],
+   "reason": "JASPAR 2024 motifs."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP (as given in gnomAD)."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "reason": "Sullivan et al. 2023: phyloP >= 2.27 as conserved-site threshold."
+  },
+  {
+   "target": "doi:10.1038/s41588-024-01820-9",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GeneBayes s_het."
+  },
+  {
+   "target": "https://zenodo.org/records/10403680",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GeneBayes s_het file."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01562-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Roulette basepair mutation-rate model (chromosomes 20-22)."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap mappability."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1072",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE annotation."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence, RepeatMasker, CpG islands, phastCons elements, segmental duplications."
+  },
+  {
+   "target": "doi:10.1038/s41588-021-01009-4",
+   "reason": "Sahu et al. 2022: MPRA of random and genomic sequences."
+  },
+  {
+   "target": "doi:10.1073/pnas.0805909105",
+   "reason": "Mustonen et al. 2008: fitness model of TF binding-site evolution."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1005639",
+   "reason": "Tugrul et al. 2015: dynamics of TF binding-site evolution."
+  },
+  {
+   "target": "doi:10.1126/science.1089370",
+   "reason": "Lynch & Conery 2003: drift barrier and genome complexity."
+  },
+  {
+   "target": "doi:10.1038/nature21373",
+   "reason": "Neri et al. 2017: gene-body methylation suppresses spurious transcription initiation."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-10717-9",
+   "reason": "Whiffin et al. 2020: selection on upstream start-codon gains."
+  },
+  {
+   "target": "doi:10.1093/nar/gkr342",
+   "reason": "Mu et al. 2011: motif-strengthening SNPs in bound sites are under weaker constraint than motif-weakening ones (1000 Genomes)."
+  },
+  {
+   "target": "doi:10.1038/s41588-022-01102-2",
+   "reason": "Chen et al. 2022 (Sei): variants predicted to increase regulatory activity are depleted among common variants."
+  },
+  {
+   "target": "doi:10.1103/PhysRevX.6.041009",
+   "reason": "Qian & Kussell 2016: genome-wide motif statistics shaped by selection against binding."
+  },
+  {
+   "target": "doi:10.1038/s41467-018-04026-w",
+   "reason": "Yona et al. 2018: random sequences rapidly evolve into promoters."
+  },
+  {
+   "target": "doi:10.1038/nature14183",
+   "reason": "Reijns et al. 2015: higher mutation rates at TF-bound sites."
+  },
+  {
+   "target": "doi:10.1186/s12864-016-2728-9",
+   "reason": "Vorontsov et al. 2016: motif gains and losses among somatic cancer mutations."
+  }
+ ]
+}
