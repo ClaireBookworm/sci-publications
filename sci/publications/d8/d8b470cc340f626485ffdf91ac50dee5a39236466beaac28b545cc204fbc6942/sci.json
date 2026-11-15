@@ -1,0 +1,117 @@
+{
+  "title": "Chicken open chromatin at synteny-projected positions of 10,162 sequence-divergent mouse heart enhancers exceeds a local chance baseline in 8%, about half of it where bridging species still align",
+  "abstract": "A 2025 study reported that thousands of mouse heart enhancers without sequence conservation keep their activity at the matching position in the chicken genome; we found that about 60% of the chromatin signal behind this claim is what chance predicts, and that about half of the rest comes from enhancers that other species still let us align. This matters because the study argues that \"up to 80% of conserved CREs might have gone undetected\" by alignment, which would mean that conservation-based estimates of how much non-coding DNA keeps a function are too low.\n\nAn enhancer is a non-coding DNA element that increases the transcription of a gene. Phan et al. (Nature Genetics 2025) projected mouse embryonic heart enhancers to chicken with a synteny method (interspecies point projection, IPP), called 10,162 of them 'indirectly conserved' (IC: placed by position between aligned anchors, not by alignment), and called a projection 'functionally conserved' when it lay at a chicken heart open-chromatin (ATAC-seq) peak. We re-called chicken peaks from their public data, reproduced their rates within 1.3 points, and applied the same rule to control points 3-20 kb from each projected point. Controls were near a peak in 13.9% of cases, so 63% (95% CI 60-67%) of IC calls are expected by chance; the authors' own released chicken elements give 64%. Beyond chance, 8.0% of IC enhancers (CI 7.0-9.1%) have open chromatin at the projected point, against 18.7% of directly sequence-conserved enhancers. IC enhancers projected within a few tens of base pairs of anchors (score above 0.979; 2,237) give 18.5%. The other 7,925 give 5.0% (CI 4.0-6.1%), no more than non-conserved enhancers of similar score (3.8%), and -2.7% to +3.2% under two nulls that keep the distance to alignment anchors. For promoters, positional conservation is strong (47.1% beyond chance).\n\nLimits: the paper's peak calls were not released, so we used two calibrated re-calls and their released element list; we tested open chromatin, not enhancer activity; one tissue and one species pair.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "enhancer evolution",
+    "positional conservation",
+    "synteny",
+    "interspecies point projection",
+    "chromatin accessibility",
+    "ATAC-seq",
+    "null model",
+    "co-localization statistics",
+    "mouse",
+    "chicken",
+    "embryonic heart",
+    "functional conservation"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_chance_corrected.png",
+      "caption": "A: share of points within 500 bp of a chicken heart ATAC peak at the IPP-projected point and at displaced points, for directly conserved (DC), chain-aligned and positional-only indirectly conserved (IC), and non-conserved (NC) mouse heart enhancers. B: '+' share of each class split into the part expected from local chromatin density (grey) and the part beyond chance; triangles: published shares. C: mean chicken heart ATAC signal around all projected points of each group."
+    },
+    {
+      "path": "files/figures/fig2_strata_nulls.png",
+      "caption": "Beyond-chance share of enhancers by IPP projection score (A), by distance of the projected point to the nearest chicken alignment anchor (B), and under five nulls or target sets (C). Chain-aligned IC behaves like DC under every null; positional-only IC is close to NC."
+    },
+    {
+      "path": "files/figures/fig3_features_tissue.png",
+      "caption": "Beyond-chance share of enhancers by quartile of mouse heart ATAC signal (A) and of mouse vertebrate phyloP (B), and for chicken heart-only, shared and limb-only peaks (C). The real IC signal tracks enhancer strength; for all classes it lies mostly at sites open in both heart and limb."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41588-025-02202-5",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "We reuse the IPP projections (Source Data Fig. 2) and the chicken CREs of Supplementary Table 1, and test the claim that indirectly conserved enhancer projections show functional conservation similar to directly conserved ones; about 60% of the chromatin overlap is expected from local chromatin density."
+    },
+    {
+      "target": "doi:10.1038/s41588-022-01089-w",
+      "reason": "Original application of interspecies point projection (IPP)."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE263753",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Chicken heart and limb, and mouse heart ATAC-seq bigWigs."
+    },
+    {
+      "target": "https://github.com/tobiaszehnder/IPP",
+      "relations": [
+        "uses"
+      ],
+      "reason": "IPP definitions (distance_FC default 500 bp, class thresholds)."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/mm39/phyloP35way/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mouse vertebrate conservation of each enhancer."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/galGal6/phastCons77way/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Chicken conservation at projected points."
+    },
+    {
+      "target": "doi:10.1214/10-AOAS363",
+      "reason": "Local (block) resampling for genomic co-localization inference; our nulls follow this standard idea."
+    },
+    {
+      "target": "doi:10.1093/bioinformatics/bty835",
+      "reason": "Review of co-localization statistics and the need for local or matched backgrounds."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2015.01.006",
+      "reason": "Enhancer turnover across mammals; strong enhancers are more often conserved."
+    },
+    {
+      "target": "doi:10.1093/gbe/evaf212",
+      "reason": "Prior cross-species test of selection on biochemically defined TF sites (alternative question considered)."
+    },
+    {
+      "target": "doi:10.7554/eLife.100574",
+      "reason": "Prior large test of the mutational-hazard hypothesis (alternative question considered)."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Human regulatory elements without mammalian conservation show little selection; our result likewise finds little conserved activity in non-alignable enhancer DNA."
+    },
+    {
+      "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+      "reason": "Related SCI study of where conserved non-coding DNA lies relative to accessible chromatin."
+    }
+  ]
+}
