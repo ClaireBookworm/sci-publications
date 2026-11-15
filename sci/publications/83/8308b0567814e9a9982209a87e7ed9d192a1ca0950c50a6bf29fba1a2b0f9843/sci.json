@@ -1,0 +1,260 @@
+{
+  "title": "Human regulatory elements without mammal-conserved bases are 1.4-1.6 times enriched for causal eQTL variants in 440,983 credible sets, a third to a half of the fold for conserved elements",
+  "abstract": "Human regulatory DNA that mammals do not conserve contains common variants that change gene expression, but per variant less often than conserved regulatory DNA; for disease risk the relative pattern is similar but the excess is not significant. This matters because the dispute about how much of the genome is junk depends on whether biochemically active but non-conserved DNA has any effect; earlier work found almost no purifying selection on it.\n\nWe used fine-mapped credible sets (small groups of variants that contain the causal variant of one association signal with 95% probability) from 279 expression-QTL (eQTL) datasets of the eQTL Catalogue (440,983 sets) and 1,229 FinnGen R12 disease endpoints (17,554 sets). We grouped ENCODE V4 candidate regulatory elements (cCREs) by their bases with Zoonomia 241-mammal phyloP of 2.27 or more: none (tier 0; 541,215 cCREs) or 5% or more (tier 2; 431,751).\n\nInside credible sets, a variant in a tier-0 cCRE was 1.60 (95% CI 1.46-1.77; GTEx), 1.54 (1.42-1.66; 64 other bulk datasets) and 1.37 (1.12-1.65; single-cell) times as likely to be the causal eQTL as a variant in other non-coding DNA; for tier 2 the factors were 4.41, 3.13 and 2.47. For FinnGen diseases the factors were 1.30 (0.94-1.70) and 3.75. The tier-0/tier-2 fold ratio was similar for GTEx eQTLs and diseases (0.36 vs 0.35; difference 0.02, -0.11 to 0.13). The non-conserved share of the excess (0.17-0.25 for eQTLs; simulations suggest some overstatement) is roughly 5-15 times its published share of purifying selection (0.015-0.019), but the two are measured differently. Per base, tier-0 cCREs held 1.32 times the causal eQTL probability of tier-2 cCREs but 0.52 times the disease probability; this difference came almost entirely from where signals sit (eQTL loci contain more tier-0 DNA, most for genes tolerant to loss of function), not from which variant inside a locus is causal (GTEx within-set ratio 0.915 vs 0.916). Promoter-proximal, broadly open tier-0 cCREs were about as enriched as tier-2 cCREs of the same kind; the 78% that are distal and open in at most 20 of 733 DNase samples showed a small or no excess, with low power.\n\nLimits: common, mostly European variants; adult tissues and blood cells only; the estimator attenuates folds in simulations; the selection comparison uses a separate study.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "candidate cis-regulatory elements",
+    "evolutionary conservation",
+    "Zoonomia phyloP",
+    "eQTL fine-mapping",
+    "SuSiE",
+    "credible sets",
+    "eQTL Catalogue",
+    "GTEx",
+    "FinnGen",
+    "causal-role function",
+    "selected-effect function",
+    "regulatory turnover",
+    "DNase breadth",
+    "functional enrichment",
+    "transposable elements",
+    "ENCODE"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_enrichment_and_ratio.png",
+      "caption": "(A) Fold change in the prior probability that a variant is the causal one, by DNA category, inside SuSiE credible sets of GTEx eQTLs, 64 other bulk eQTL datasets and FinnGen R12 diseases, relative to other non-coding DNA (likelihood estimator, 95% bootstrap CI). Tier 0: cCREs with no base of phyloP >= 2.27 in 241 mammals; tier 2: cCREs with >= 5% such bases. (B) Non-conserved share R = (fold tier 0 - 1)/(fold tier 2 - 1) for expression and disease data, next to the published share of purifying selection for tier-0 cCREs."
+    },
+    {
+      "path": "files/figures/fig2_decomposition_expression_vs_disease.png",
+      "caption": "(A) In 1-Mb bins shared with FinnGen (2,145 for GTEx, 2,097 for other bulk), the tier-0 / tier-2 ratio of per-base causal probability differs between eQTLs and diseases almost entirely through the credible-set footprint (where signals sit); in GTEx the within-set enrichment (which variant is causal) does not differ detectably. (B) The footprint ratio of eQTL loci rises with the loss-of-function tolerance (gnomAD LOEUF) of the eGene; disease loci are lower than all eQTL groups."
+    },
+    {
+      "path": "files/figures/fig3_breadth_position.png",
+      "caption": "Within-credible-set eQTL excess over other non-coding DNA (%) for tier-0 and tier-2 cCREs by DNase breadth (number of 733 biosamples in which the cCRE is open) and position (proximal = PLS or pELS). Promoter-proximal, broadly open tier-0 cCREs are about as enriched as tier-2 cCREs (R 0.93 and 1.09). The 78% of tier-0 cCREs that are distal and open in at most 20 samples show no excess in GTEx and a small one in other bulk data; conserved cCREs are also weak in this stratum, so power is low."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Same cCRE conservation tiers (phyloP >= 2.27); its estimate of purifying selection on tier-0 cCREs (1.5-1.9% of conserved DNA) is the comparison for our non-conserved share of expression and disease effects."
+    },
+    {
+      "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+      "reason": "Constrained DNA outside accessible chromatin is mainly near exons; consistent with our finding that conserved bases outside cCREs carry no eQTL excess."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "relations": [
+        "supports"
+      ],
+      "reason": "DNase breadth predicted conservation of CRISPRi-tested enhancers more than function; we find breadth explains much of the conservation gap in eQTL enrichment."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "reason": "phyloP false-positive rate in neutral DNA; affects tier assignment."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "reason": "No selection on new transcription-factor motif matches in non-functional DNA; related evidence that non-conserved regulatory variation is near neutral."
+    },
+    {
+      "target": "sci:sha256:6f21710dfe405df3e983d215607b36720ed3df30140c6a22e370bfe8b7724a26",
+      "reason": "Accessible transposon copies are only slightly more conserved; tier-0 cCREs are mostly transposon sequence."
+    },
+    {
+      "target": "doi:10.1038/s41588-021-00924-w",
+      "relations": [
+        "uses"
+      ],
+      "reason": "eQTL Catalogue: uniformly processed eQTL datasets and SuSiE credible sets (release 7)."
+    },
+    {
+      "target": "https://www.ebi.ac.uk/eqtl/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "eQTL Catalogue release 7 data access."
+    },
+    {
+      "target": "doi:10.1126/science.aaz1776",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GTEx v8 data, reprocessed by the eQTL Catalogue."
+    },
+    {
+      "target": "doi:10.1038/s41586-022-05473-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FinnGen; R12 SuSiE fine-mapping results."
+    },
+    {
+      "target": "https://storage.googleapis.com/finngen-public-data-r12/finemap/summary/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FinnGen R12 public SuSiE credible sets."
+    },
+    {
+      "target": "doi:10.1111/rssb.12388",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SuSiE fine-mapping method that produced the credible sets."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2493-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE candidate cis-regulatory element registry."
+    },
+    {
+      "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE Registry V4 cCREs."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal alignment and phyloP scores."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2559-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DHS Index of 733 biosamples used for DNase breadth."
+    },
+    {
+      "target": "doi:10.1093/nar/gkaa1087",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE gene annotation (v39 used)."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2308-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v2.1.1 LOEUF gene constraint."
+    },
+    {
+      "target": "doi:10.1186/s13059-022-02634-w",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Evolutionarily volatile promoters are enriched for molecular QTLs but not trait associations; we find the same direction for all cCRE classes with fine-mapped variants."
+    },
+    {
+      "target": "doi:10.1038/s41467-024-47391-5",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Species-specific liver enhancers overlap more eQTLs (odds ratio 1.2) and evolve neutrally; our decomposition attributes higher per-base eQTL content of non-conserved DNA to locus footprint, not per-variant effect."
+    },
+    {
+      "target": "doi:10.1016/j.ajhg.2019.02.008",
+      "reason": "Disease heritability concentrates in regulatory elements with ancient sequence age and conserved function; consistent with our disease results."
+    },
+    {
+      "target": "doi:10.1038/s41588-023-01529-1",
+      "reason": "Systematic differences between eQTL and GWAS discoveries driven by gene-level selection; consistent with our finding that the eQTL-disease difference lies in locus footprint."
+    },
+    {
+      "target": "doi:10.1038/nature11247",
+      "reason": "ENCODE 2012 claim of widespread biochemical function."
+    },
+    {
+      "target": "doi:10.1093/gbe/evt028",
+      "reason": "Critique of the ENCODE functional claim; selected-effect function."
+    },
+    {
+      "target": "doi:10.1073/pnas.1318948111",
+      "reason": "Defining functional DNA elements: biochemical, evolutionary and genetic approaches."
+    },
+    {
+      "target": "doi:10.1073/pnas.1221376110",
+      "reason": "Is junk DNA bunk? Causal-role versus selected-effect function."
+    },
+    {
+      "target": "doi:10.1126/science.1225057",
+      "reason": "Claim of human-specific selection on non-conserved regulatory DNA, tested by the selection study we compare with."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2015.01.006",
+      "reason": "Rapid turnover of enhancers across mammals."
+    },
+    {
+      "target": "doi:10.1038/s41559-017-0377-2",
+      "reason": "Recently evolved enhancers have weak effects; regulatory landscapes buffer expression."
+    },
+    {
+      "target": "doi:10.1016/j.ajhg.2014.03.004",
+      "reason": "fgwas: annotation enrichment of association signals with Bayes factors, the idea behind our likelihood estimator."
+    },
+    {
+      "target": "doi:10.1214/16-AOAS952",
+      "reason": "TORUS: annotation-informed QTL enrichment estimation."
+    },
+    {
+      "target": "doi:10.1038/s41594-024-01235-4",
+      "reason": "Regulatory activity is the default state of DNA (candidate C4 prior work)."
+    },
+    {
+      "target": "doi:10.1038/s41586-024-07128-2",
+      "reason": "Synthetic reversed sequences reveal default genomic states (candidate C4 prior work)."
+    },
+    {
+      "target": "doi:10.1101/gr.269589.120",
+      "reason": "G-quadruplex selection study (candidate C2 prior work)."
+    },
+    {
+      "target": "doi:10.1038/s41467-020-14404-y",
+      "reason": "UTR G-quadruplex constraint (candidate C2 prior work)."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06798-8",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Fine-mapped GTEx eQTLs are less enriched than complex-trait variants in elements constrained across mammals; our decomposition shows this difference lies in which loci carry signals."
+    },
+    {
+      "target": "doi:10.1093/gbe/evac159",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Younger enhancer segments are less constrained but more eQTL-enriched."
+    },
+    {
+      "target": "doi:10.1126/science.abn7930",
+      "reason": "Zoonomia conservation classes of human cCREs; heritability enriched in conserved cCREs."
+    },
+    {
+      "target": "doi:10.1126/science.abn2937",
+      "reason": "Zoonomia constraint and SNP-heritability (candidate C5 prior work)."
+    }
+  ]
+}
