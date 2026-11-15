@@ -1,0 +1,265 @@
+{
+ "title": "In 94 UK Biobank traits, regulatory elements without mammal conservation hold few extra causal variants, and their size relative to conserved DNA depends on which conserved DNA is the yardstick",
+ "abstract": "Human regulatory DNA that has no base conserved across mammals holds few extra variants that cause differences in complex traits: per variant it is 1.7 times as likely as non-conserved DNA outside regulatory elements to hold a high-confidence causal variant, less than any class of conserved non-coding DNA (3 to 40 times). This matters because biochemical activity in such DNA is often taken as evidence of function.\n\nWe used public fine-mapping results (SuSiE and FINEMAP) for 94 UK Biobank traits and for gene expression (eQTLs) in 49 GTEx tissues. The primary causal set had a posterior inclusion probability (PIP) of at least 0.9 in both methods (1,190 non-coding SNVs for traits, 11,040 for eQTLs; background PIP < 0.01). Classes were Zoonomia 241-mammal conserved bases (phyloP >= 2.27), split by phyloP and by overlap with ENCODE V4 candidate regulatory elements (cCREs), and cCREs grouped by the conservation tier of a previous SCI study (tier 0: no conserved base among assessable bases). A binomial model gave odds ratios (OR) adjusted for repeat type, allele frequency, distance to a transcription start site and gene context, with a 1-Mb block bootstrap.\n\nTier-0 cCREs had trait OR 1.66 (95% CI 1.19-2.14). Conserved bases had OR 40 (inside cCREs, phyloP >= 4), 12.5 (inside, phyloP 2.27-4), 11.9 (outside, phyloP >= 4) and 3.0 (outside, phyloP 2.27-4). Trait enrichment rose 3-4 times per step in conservation level and about 3 times (2.1-4.7) from outside to inside cCREs at equal conservation, while the singleton selection signal of the previous study changes by at most 1.5 times over the same contrasts. So the conserved-equivalent fraction (CEF: excess of a class divided by the excess of a conserved yardstick) of tier-0 cCREs for traits ranged from 1.7% to 34% with the yardstick. The selection CEF (1.5-1.9%) matches only the most conserved yardsticks and differs 8- to 11-fold with the selection study's own yardstick. For eQTLs, conserved DNA was much less enriched, as Kuderna et al. (2024) showed with the same data.\n\nSo non-conserved regulatory DNA adds few causal trait variants, in line with its weak selection, but no single conserved-equivalent amount describes it. Limits: the yardstick dependence was found by independent review; results depend on the PIP threshold; traits are mostly blood measures; only common and low-frequency SNVs.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "functional fraction",
+  "fine-mapping",
+  "eQTL",
+  "GWAS",
+  "ENCODE cCRE",
+  "evolutionary conservation",
+  "Zoonomia phyloP",
+  "UK Biobank",
+  "GTEx",
+  "purifying selection",
+  "conserved-equivalent fraction",
+  "gene constraint",
+  "conserved non-coding DNA",
+  "transposable elements",
+  "regulatory variation",
+  "causal variants"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_enrichment_and_cef.png",
+   "caption": "(A) Odds ratios of being a fine-mapped causal non-coding SNV, against non-cCRE non-conserved DNA, for conserved bases inside and outside ENCODE cCREs and three cCRE conservation tiers; eQTL variants (GTEx, 49 tissues) and trait variants (UK Biobank, 94 traits); filled: both PIPs >= 0.9, open: mean PIP >= 0.5. (B, C) Conserved-equivalent fraction of tier-0 and tier-1 cCREs for three conserved yardsticks, with the selection estimates of sci:eb65b2ab. Bars: 95% 1-Mb block-bootstrap intervals."
+  },
+  {
+   "path": "files/figures/fig4_yardsticks.png",
+   "caption": "(A) Causal-variant odds ratios of conserved non-coding bases split by cCRE membership and phyloP. (B) Trait conserved-equivalent fraction of tier-0 cCREs against each of these yardsticks (1.7% to 34%); green band: selection estimate (1.5-1.9%)."
+  },
+  {
+   "path": "files/figures/fig2_tier0_cef_subsets.png",
+   "caption": "Conserved-equivalent fraction of tier-0 cCREs (yardstick: conserved bases inside cCREs) in each subset: GTEx tissue groups (blue), UK Biobank trait groups (orange), both PIP rules, and gnomAD selection (green)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "We use its conservation tier of every ENCODE V4 cCRE and compare our trait and eQTL estimates with its selection estimates (conserved-equivalent fractions). Trait estimates agree with its tier-0 and tier-1 results only for some conserved yardsticks; we also use its inside/outside selection ratios and its phyloP gradient."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "CRISPRi-validated enhancers were conserved more often if the target gene is dosage sensitive; our LOEUF analysis of eQTLs shows a related pattern with natural variants."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Transposon copies with regulatory marks showed no extra selection; tier-0 cCRE bases in transposons carry few causal trait variants here."
+  },
+  {
+   "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+   "reason": "Related test of lineage-specific constraint in non-coding DNA."
+  },
+  {
+   "target": "doi:10.1101/2021.09.03.21262975",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the UK Biobank 94-trait fine-mapping release (Kanai et al.)."
+  },
+  {
+   "target": "doi:10.1038/s41588-020-00735-5",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UK Biobank fine-mapping (Weissbrod et al.)."
+  },
+  {
+   "target": "doi:10.1038/s41467-021-23134-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the GTEx v8 49-tissue eQTL fine-mapping release (Wang et al.)."
+  },
+  {
+   "target": "https://www.finucanelab.org/data",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download page of both fine-mapping releases."
+  },
+  {
+   "target": "doi:10.1126/science.aaz1776",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v8."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cCRE registry."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE V4 cCREs (GRCh38)."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP >= 2.27 threshold; constrained bases in fine-mapping and heritability."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP bigWig."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP447way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Primate phyloP bigWig (annotation only)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/rmsk.txt.gz",
+   "relations": [
+    "uses"
+   ],
+   "reason": "RepeatMasker annotation."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v44 annotation."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "LOEUF gene constraint."
+  },
+  {
+   "target": "https://storage.googleapis.com/gcp-public-data--gnomad/release/4.1/constraint/gnomad.v4.1.constraint_metrics.tsv",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 gene constraint table."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "reason": "gnomAD v4 genomes and non-coding constraint."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06798-8",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Kuderna et al. 2024 (Fig. 4) showed with the same fine-mapping releases that eQTLs are much less enriched than trait variants in deeply constrained elements, and that unconstrained DHS elements are not enriched for heritability; our eQTL-trait contrast replicates this."
+  },
+  {
+   "target": "doi:10.1126/science.abn7930",
+   "reason": "Mammalian evolution of human cCREs."
+  },
+  {
+   "target": "doi:10.1186/s13059-025-03750-z",
+   "reason": "eQTL-trait contrast for G-quadruplexes."
+  },
+  {
+   "target": "doi:10.1038/ng.3404",
+   "reason": "Heritability enrichment of conserved regions."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "Selection on mammal-conserved DNA far from accessible chromatin; related to our finding that conserved bases outside cCREs hold few causal variants."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01529-1",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Showed systematic differences between eQTLs and GWAS hits through selection; our results agree and add the conservation axis."
+  },
+  {
+   "target": "doi:10.64898/2026.06.17.732994",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reported opposite trends of brain eQTLs and neuropsychiatric fine-mapped SNPs across a predicted regulatory-age score; qualitative precedent."
+  },
+  {
+   "target": "doi:10.1016/j.ajhg.2019.02.008",
+   "reason": "Heritability enrichment is concentrated in old, function-conserved regulatory elements."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-11957-5",
+   "reason": "Heritability by transposon class."
+  },
+  {
+   "target": "doi:10.1038/nature11247",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Biochemical activity as a definition of function."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Critique of the biochemical definition of function."
+  },
+  {
+   "target": "doi:10.1073/pnas.1318948111",
+   "reason": "Definitions of functional DNA."
+  },
+  {
+   "target": "doi:10.1126/science.1225057",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Claimed selection on non-conserved regulatory DNA."
+  },
+  {
+   "target": "doi:10.1093/gbe/evx121",
+   "reason": "Mutational-load limit on the functional fraction."
+  },
+  {
+   "target": "doi:10.1093/gbe/evaa040",
+   "reason": "Reply on the mutational-load limit."
+  },
+  {
+   "target": "doi:10.1038/s41594-024-01235-4",
+   "reason": "Regulatory activity as a default state of DNA."
+  },
+  {
+   "target": "doi:10.1101/2025.09.17.676453",
+   "reason": "Plant CNS atlas considered as a candidate."
+  }
+ ]
+}
