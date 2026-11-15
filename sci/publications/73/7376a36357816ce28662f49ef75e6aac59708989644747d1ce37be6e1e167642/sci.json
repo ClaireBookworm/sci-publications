@@ -1,0 +1,200 @@
+{
+ "title": "Across 18,000 testable ribosome-translated ORFs in human UTRs and lncRNAs, 76,215 genomes show on average at most 6% of the amino-acid selection of canonical proteins of up to 150 amino acids",
+ "abstract": "On average, the peptides of short open reading frames (ORFs) that ribosomes translate in human 'non-coding' RNAs show very little sign that natural selection keeps their amino-acid sequence: at most about 6% of the selection in canonical proteins of up to 150 amino acids. This matters because thousands of these ORFs are now proposed as hidden protein-coding genes (microproteins), are added to the reference gene catalogue, and can be read as protein-changing in clinical work.\n\nWe tested the 28,531 ORFs of the GENCODE/TransCODE Ribo-seq catalogue (Ribo-seq: sequencing of RNA that ribosomes protect) in 5' leaders, 3' trailers, lncRNAs and processed transcripts with variants from 76,215 genomes (gnomAD v4.1); 18,053 ORFs had testable sites. Missense changes alter an amino acid; synonymous changes do not. Both alternate in the same codons, so their ratio cancels regional effects. Controls: the same ORFs read in the two shifted frames, and untranslated ATG ORFs in the same kinds of transcripts.\n\nMissense observed/expected relative to synonymous was 0.80 (95% interval 0.78-0.82) in canonical proteins of up to 150 amino acids and 0.99-1.00 in untranslated ORFs. In Ribo-seq ORFs it was 0.986 (0.978-0.994), but frame +1 gave 0.983. The frame-specific depletion was 0.004 (-0.006 to 0.016) against 0.255: 1.7% of canonical selection, upper limit 6% (about 1,100 ORF-equivalents) and 11% relative to proteins of 100 amino acids or fewer; without the codons next to the start and stop codons it was 0.001 (-0.011 to 0.012). uORFs, lncRNA ORFs and ORFs with mass-spectrometry peptides were near zero; their start and stop codons were not more depleted than those of other upstream or lncRNA ATG ORFs, which can themselves be regulatory. Small signals in ORFs of 50 amino acids or fewer and in 581 ORFs with codon-like conservation in 241 mammals come in part from the codons next to the start and stop codons; without these codons they are not significant.\n\nLimitations: the test detects selection of the strength of typical canonical proteins; canonical proteins of 50 amino acids or fewer and 46 annotated microprotein genes also gave no clear signal, so weak selection on real microproteins is not excluded, and single ORFs cannot be tested (about 2-15% power). We give per-ORF results and predictions for editing screens, larger cohorts and rare-disease studies.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "noncanonical ORFs",
+  "Ribo-seq ORFs",
+  "microproteins",
+  "peptideins",
+  "uORFs",
+  "lncRNA translation",
+  "purifying selection",
+  "gnomAD",
+  "missense constraint",
+  "MAPS",
+  "shifted reading frame control",
+  "phyloP",
+  "Zoonomia",
+  "GENCODE",
+  "TransCODE",
+  "junk DNA",
+  "variant interpretation",
+  "Kozak context"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_peptide_selection_by_class.png",
+   "caption": "Missense depletion (left) and singleton excess (right) relative to synonymous sites in 76,215 genomes, in the annotated reading frame (blue) and two shifted frames (controls). Canonical proteins show strong frame-specific selection; Ribo-seq ORFs of every type are at the level of untranslated ATG ORFs. 95% gene-bootstrap intervals; non-CpG-transition sites."
+  },
+  {
+   "path": "files/figures/fig2_fraction_cds_like_by_evidence.png",
+   "caption": "Frame-specific amino-acid-level selection of Ribo-seq ORFs as a fraction of canonical proteins of up to 150 amino acids (0 = none, 1 = as in canonical proteins), by evidence class. No detectable association with peptide evidence. Phylo coding-like ORFs show some signal, but untranslated ATG ORFs chosen by the same rule (green) are not different."
+  },
+  {
+   "path": "files/figures/fig4_periodicity_vs_population.png",
+   "caption": "Missense depletion and singleton excess against mammalian codon periodicity of phyloP (positions 1-2 minus 3). Canonical CDS (blue) rise with periodicity; Ribo-seq ORFs (orange) stay close to untranslated ATG ORFs (green)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1093/nar/gkag234",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phase 2 Ribo-seq ORF catalogue (28,359 ORFs) tested here."
+  },
+  {
+   "target": "doi:10.1038/s41587-022-01369-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phase 1 Ribo-seq ORF catalogue (7,264 ORFs)."
+  },
+  {
+   "target": "doi:10.1038/s41586-026-10459-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Peptide-support tiers and 'peptideins'; we find no detectable amino-acid-level selection in peptide-supported ORFs (small groups). ORBL measures ORF presence, not amino-acid constraint."
+  },
+  {
+   "target": "https://ftp.ebi.ac.uk/pub/databases/gencode/riboseq_orfs/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download location of the Phase 1 and Phase 2 files."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites (76,215 genomes), read by remote tabix."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP used for codon-position conservation."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phyloP bigWig file."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE annotation (v45) for CDS and splice masks and controls."
+  },
+  {
+   "target": "doi:10.1038/s41586-022-04558-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MANE Select transcripts used as canonical-protein positive control and for 5' leaders."
+  },
+  {
+   "target": "doi:10.1038/nature19057",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MAPS (mutability-adjusted proportion of singletons) idea."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "reason": "Observed/expected constraint framework of gnomAD."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "reason": "gnomAD genome constraint; same genome sample."
+  },
+  {
+   "target": "doi:10.1186/s12864-023-09311-7",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Called 3,326 high-confidence small ORFs from per-ORF missense O/E plus conservation; in our data per-ORF missense O/E without a synonymous comparison shows an excess that is not frame-specific."
+  },
+  {
+   "target": "doi:10.1186/s12864-025-11444-w",
+   "reason": "Per-ORF missense O/E for GENCODE sORFs in gnomAD 4; we add a within-ORF missense/synonymous contrast with frame and untranslated controls."
+  },
+  {
+   "target": "doi:10.1101/2025.09.16.676541",
+   "reason": "Reports coding constraint for thousands of ncORFs; our population data find little amino-acid-level selection."
+  },
+  {
+   "target": "doi:10.1038/s41559-018-0506-6",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Found many translated ORFs without selective constraint; our larger data agree."
+  },
+  {
+   "target": "doi:10.1016/j.cels.2023.04.002",
+   "relations": [
+    "supports"
+   ],
+   "reason": "In yeast most of the translatome is evolutionarily transient; our human population data agree."
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2023.01.023",
+   "reason": "Most catalogue microproteins are evolutionarily young."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-34094-y",
+   "reason": "Selection on translated lncRNA ORFs in Drosophila; a counterpoint."
+  },
+  {
+   "target": "doi:10.1126/science.aay0262",
+   "reason": "CRISPR screens claiming pervasive functional translation of noncanonical ORFs."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2019.05.010",
+   "reason": "Translation of lncRNA ORFs in human heart."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-10717-9",
+   "reason": "Population constraint on uORF-creating and uORF-disrupting variants in 5' UTRs."
+  },
+  {
+   "target": "doi:10.1038/s41467-021-21812-1",
+   "reason": "gnomAD constraint on uORF translation; our untranslated 5'-leader ATG ORFs are themselves such uORFs."
+  },
+  {
+   "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+   "relations": [
+    "supports"
+   ],
+   "reason": "lncRNA splice sites show no population constraint; consistent with our null for lncRNA ORF peptides."
+  },
+  {
+   "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Most single-line lncRNA essentiality calls are at the false-positive rate; consistent with weak evidence for lncRNA function."
+  },
+  {
+   "target": "sci:sha256:af0c2a3278a5990bc6e05b4f8cfc8537e1477a72fcd273bbf2adfbb34c889e11",
+   "reason": "Analogous within-element contrast (paired vs unpaired bases) in the same gnomAD genomes."
+  }
+ ]
+}
