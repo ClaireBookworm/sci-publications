@@ -1,0 +1,241 @@
+{
+ "title": "In 805 published claims that name the cell line, the long non-coding RNA said to sponge a microRNA supplies a median 0.003% of its binding sites, hundreds of times below thresholds measured in cells",
+ "abstract": "Almost no published claim that a long non-coding RNA (lncRNA) acts as a 'sponge' for a microRNA (miRNA) passes a count of binding sites: in the cell lines that the papers name, the claimed lncRNA supplies a median of 0.003% of the sites that compete for the miRNA, hundreds of times below the thresholds measured in cells. This matters because sponging is the function that papers most often give to lncRNAs, a large class of non-coding genes, and more than 5,000 papers use it to explain disease.\n\nWe extracted 5,496 lncRNA-miRNA sponge claims from the titles of 5,361 PubMed papers and scored 5,078. The sponge fraction f is the number of sites that the lncRNA adds (RNA-seq abundance in 1,019 cancer cell lines, CCLE, times its 6-8 nucleotide seed matches) divided by all such sites in expressed 3' untranslated regions of the same cell. Experiments that added known numbers of sites changed other targets only at f of about 3% to 30%; we also use 0.9% as a generous bound. In 805 claims with cell lines named in the abstract, the median f was 3.0x10^-5; no claim reached 12%, 5 reached 2.8% and 20 reached 0.9%. In the typical cell line of the cancer type (3,623 claims) none reached 12%. The claimed miRNAs were usually abundant, but in 40% of named-line claims the lncRNA had less than 1 transcript per million. Cytosolic RNA-seq of 12 ENCODE lines gave the same picture. The main exception is MALAT1, the most-claimed lncRNA: total versus poly(A)-selected RNA suggests that poly(A) RNA-seq under-counts it 4- to 50-fold, and with the largest correction 12 named-line claims (mostly MALAT1) reach 12%. Abundant snoRNA host genes (SNHG5, GAS5) and NEAT1 come within 2-8-fold of 0.9%, and non-polyadenylated housekeeping RNAs (RMRP, RPPH1) can exceed the thresholds. Claimed sites are not enriched for the 3' pairing that would allow miRNA degradation at low copy number (0.26% vs 0.26% of control sites).\n\nLimits: claims come from titles (error about 1-3%); many papers name no cell line; correction factors come from two cell lines; cell-to-cell variation is not modelled. The direction of the result follows from earlier quantitative work; the new value is the claim-level test of the whole literature. We give a score for every claim, a reusable site-pool table for 2,064 miRNA families in 1,019 cell lines, and experiments that can falsify the conclusion.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.MN"
+  }
+ ],
+ "keywords": [
+  "long non-coding RNA",
+  "microRNA sponge",
+  "competing endogenous RNA",
+  "ceRNA",
+  "stoichiometry",
+  "non-coding genome",
+  "miRNA target-site abundance",
+  "CCLE",
+  "FANTOM6",
+  "TargetScan",
+  "literature audit",
+  "text mining",
+  "research integrity",
+  "lncRNA function"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_sponge_fraction_ecdf.png",
+   "caption": "Sponge fraction f (sites added by the claimed lncRNA / all 3' UTR sites for the miRNA in the cell) for published claims, in the cell lines named in the abstract (blue), the median CCLE line of the cancer type (orange) and the best of 1,019 lines (green). Grey dashed: share from the largest single mRNA. Vertical lines: thresholds of 12% (Denzler et al. 2016), 2.8% (Bosson et al. 2014) and 0.9% (with maximal cooperativity). Not corrected for poly(A) selection."
+  },
+  {
+   "path": "files/figures/fig2_sites_vs_pool.png",
+   "caption": "Sites added per cell by the claimed lncRNA against the miRNA's target-site pool for 805 claims in named cell lines (5x10^5 mRNA per cell assumed for the axes only). Diagonals: f = 12%, 2.8%, 0.9%. Orange: 3,000 added sites per cell (Bosson et al. 2014)."
+  },
+  {
+   "path": "files/figures/fig3_per_lncRNA.png",
+   "caption": "The 20 most-claimed lncRNAs. Blue: each claim's f in the median CCLE line of its cancer type. Orange: best claim in a cell line named in an abstract. Green: best cytoplasmic f in 12 ENCODE cytosolic poly(A)+ RNA-seq libraries. Values are not corrected for poly(A) selection. Vertical lines: 0.9%, 2.8% and 12%."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1016/j.molcel.2014.03.045",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Measured derepression threshold (1.5x10^5 added sites per hepatocyte for miR-122) and the TA_app definition of the target-site pool."
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2014.09.018",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Smallest number of added sites (about 3,000 per cell) that changed a sensitive miRNA family; used as the most generous absolute threshold."
+  },
+  {
+   "target": "doi:10.1016/j.molcel.2016.09.027",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "Derepression thresholds of 12-30% of TA_app, effects of cooperative and bulged sites, and the conclusion that single transcripts rarely reach the threshold; our claim-level test agrees."
+  },
+  {
+   "target": "doi:10.1101/gr.254219.119",
+   "relations": [
+    "uses"
+   ],
+   "reason": "FANTOM6 antisense knockdowns of lncRNAs with CAGE readout; DESeq2 tables reused for the knockdown test."
+  },
+  {
+   "target": "doi:10.1038/s41586-019-1186-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CCLE RNA-seq and miRNA profiles of about 1,000 cell lines."
+  },
+  {
+   "target": "doi:10.7554/eLife.05005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TargetScan site definitions, representative 3' UTRs and site counts (release 8.0)."
+  },
+  {
+   "target": "doi:10.1126/science.aav1741",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TargetScan 8.0 miRNA family table."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v47 transcript sequences and 3' UTR coordinates."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac888",
+   "relations": [
+    "uses"
+   ],
+   "reason": "HGNC symbols, aliases and previous symbols to resolve lncRNA names."
+  },
+  {
+   "target": "doi:10.1093/nar/gky1141",
+   "relations": [
+    "uses"
+   ],
+   "reason": "miRBase accessions to resolve old miRNA names to arms."
+  },
+  {
+   "target": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "PubMed E-utilities for the claim corpus (query in files/data/pubmed_query.txt)."
+  },
+  {
+   "target": "https://www.targetscan.org/vert_80/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TargetScan 8.0 downloads."
+  },
+  {
+   "target": "https://fantom.gsc.riken.jp/6/datafiles/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "FANTOM6 data files."
+  },
+  {
+   "target": "https://data.broadinstitute.org/ccle/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CCLE legacy data files."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cytosolic poly(A)+ and total RNA-seq gene quantifications used for the cytoplasmic sponge fraction."
+  },
+  {
+   "target": "https://www.encodeproject.org/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE portal; file accessions in code/13_encode_cytosol.py."
+  },
+  {
+   "target": "doi:10.1038/nrg3853",
+   "reason": "Review of target-site competition and the abundance a ceRNA needs."
+  },
+  {
+   "target": "doi:10.1080/10409238.2018.1447542",
+   "reason": "Review of ceRNA crosstalk modelling."
+  },
+  {
+   "target": "doi:10.1146/annurev-genom-112921-123710",
+   "reason": "Critical review of genome-wide lncRNA function claims."
+  },
+  {
+   "target": "doi:10.1186/s13059-015-0586-4",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Single-molecule counts show that many lncRNAs have about one copy per cell, consistent with our abundance estimates."
+  },
+  {
+   "target": "doi:10.1186/s13059-014-0409-z",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Almost no circular RNAs have more miRNA sites than chance; a related systematic check of sponge potential."
+  },
+  {
+   "target": "doi:10.1186/1758-907X-4-4",
+   "reason": "Limited evidence for conserved miRNA targeting of lncRNAs."
+  },
+  {
+   "target": "doi:10.1007/s10142-022-00930-z",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Detailed critique of one published sponge axis (SNHG1/miR-195-5p/YAP1)."
+  },
+  {
+   "target": "doi:10.1002/wrna.1841",
+   "reason": "Stoichiometry of one lncRNA (OIP5-AS1) with its RNA partners."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2011.07.014",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "The ceRNA hypothesis; our counts show that nearly all published lncRNA instances of it are far below the abundance it needs."
+  },
+  {
+   "target": "doi:10.1038/nrg.2016.20",
+   "reason": "Review of evidence and controversy on endogenous miRNA sponges."
+  },
+  {
+   "target": "doi:10.1038/nature09144",
+   "reason": "Early pseudogene/mRNA ceRNA claim (PTENP1)."
+  },
+  {
+   "target": "doi:10.1038/nature11993",
+   "reason": "A natural circular RNA sponge with about 70 sites (CDR1as), an example of the abundance and site numbers a sponge needs."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.05.022",
+   "reason": "Target-directed miRNA degradation by a lncRNA (Cyrano), a mechanism that can act at low copy number and is outside our model."
+  },
+  {
+   "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Independent test of lncRNA function claims: no rare-variant depletion at lncRNA splice sites; consistent with our finding that a common lncRNA function claim fails a quantitative test."
+  },
+  {
+   "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Independent reanalysis showing that most single-line lncRNA essentiality calls match the negative-control rate."
+  },
+  {
+   "target": "sci:sha256:89adaf7c64ba7e01cbded2de804d8f4f04f75fc0b96c60e00d0cc7e709c395ef",
+   "reason": "Cell-line misidentification in public data; 60 sponge-claim abstracts name known HeLa-contaminated lines."
+  }
+ ]
+}
