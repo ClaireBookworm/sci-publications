@@ -1,0 +1,239 @@
+{
+ "title": "In human chromosomes 13-22, neutral repeat DNA with matched primate scores shows most of the gnomAD variant deficit in primate-specific constrained DHS cores, so it cannot confirm their function",
+ "abstract": "Human populations carry fewer and rarer variants in DNA that a 2024 study called constrained only in primates, but neutral DNA with the same primate conservation scores shows most of the same deficit, so this evidence cannot confirm a primate-specific function. This matters because such calls add a lineage-specific layer to the functional fraction of the human genome, and the primate score is used to rank non-coding variants. Kuderna et al. (Nature 2024) reported 111,318 DNase I hypersensitive sites (DHSs, open-chromatin regions) and 267,410 footprints constrained in primates but not in other mammals, supported by gnomAD-based constraint and reporter assays. On human chromosomes 13-22 (552 Mb of non-coding DNA; gnomAD v4.1, 76,215 genomes; non-CpG variants) we used ancestral repeats (old transposon copies, the usual neutral reference) with matched primate scores as the control. Per base, the score has little power: a base unchanged in 233 primates gets at most P = 0.011, and only 15-27% of mammal-conserved bases reach the cut-off. Among bases without mammal signal, primate calls occur at 0.99 (95% CI 0.98-1.00) times the neutral rate in unannotated DNA and 1.15 (1.13-1.17) times in ENCODE regulatory elements. Primate-specific DHS cores have 6.6% fewer variant sites and 0.76 percentage points more singletons (variants seen once) than DHS cores not called constrained, more than mammal-constrained cores (2.7%, 0.35). Neutral 40-bp windows with the same shift in primate score reproduce 80-133% of this deficit and 72-92% (intervals 39-141%) of the singleton excess across three matching designs. As a positive control, the same correction removes the signal of mammal-constrained cores, so the comparison cannot measure constraint in either direction. In neutral windows the variant deficit rises from -2.4% to 10-13% with the primate score, because the score selects DNA with a low mutation rate that humans share. At single bases, naive tests make primate-specific bases look 0.63 times as constrained as mammal-conserved bases; after subtracting the neutral-repeat signal the ratio is 0.07-0.26 in unannotated DNA (intervals include 0) and 0.15-0.41 in regulatory elements. Limitations: 10 of 22 autosomes; the element test of the paper is approximated by mean window scores; the Gnocchi scores and reporter assays of the paper were not tested.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "primate-specific constraint",
+  "phyloP",
+  "neutral calibration",
+  "ancestral repeats",
+  "gnomAD",
+  "singletons",
+  "DNase I hypersensitive sites",
+  "lineage-specific function",
+  "mutation rate",
+  "functional fraction",
+  "Kuderna 2024",
+  "variant interpretation",
+  "negative control",
+  "Zoonomia"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_calibration.png",
+   "caption": "Per-base primate-only calls occur at the neutral rate. A: distribution of the 233-primate phyloP score in bases without mammal signal; the score cannot exceed 1.951 (P = 0.011). B: observed / neutral-expected call rate (ancestral repeats, matched on trinucleotide and GC) for primate-specific calls and mammal calls; chromosomes 13-22."
+  },
+  {
+   "path": "files/figures/fig2_population.png",
+   "caption": "Human-variant signal (gnomAD v4.1, non-CpG) at primate-specific bases is the same in neutral ancestral repeats as in unannotated DNA and cCREs. A: singleton excess; B: variant-site deficit, against matched control bases; 95% block bootstrap."
+  },
+  {
+   "path": "files/figures/fig3_elements.png",
+   "caption": "Primate-specific DHS cores of Kuderna et al. 2024. A: in neutral 40-bp ancestral-repeat windows the variant-site deficit rises with the mean primate score. B: score distributions of P, M and U (not called constrained) cores. C, D: P vs U signal, the part reproduced by neutral windows with the same score profile, the residual, M vs U, and the same correction applied to M cores (positive control), for three matching designs."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1038/s41586-023-06798-8",
+   "relations": [
+    "challenges",
+    "uses"
+   ],
+   "reason": "The claim tested: primate-specific constrained DHSs and footprints, and their gnomAD validation. We use its Supplementary Data 3 and 4 and its primate phyloP score."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP447way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38.phyloP447wayLRT.bw: 233-primate LRT phyloP score (read by HTTP range requests)."
+  },
+  {
+   "target": "doi:10.1126/science.abn7829",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Primate assemblies and tree behind the 233-primate alignment."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "241-mammal phyloP (Zoonomia) used for mammal conservation."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "cactus241way.phyloP.bw."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs, chr13-22 (streamed)."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2559-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DHS index; all constrained DHS summits match index summits; unlisted index DHSs are the comparison set."
+  },
+  {
+   "target": "https://zenodo.org/records/3838751",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DHS_Index_and_Vocabulary_hg38_WM20190703.txt.gz."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE V4 cCRE registry."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "cCRE coordinates."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01562-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Roulette per-allele mutation rates (chr20-22)."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence, RepeatMasker, TRF, segmental duplications, CpG islands, GENCODE basic V46."
+  },
+  {
+   "target": "doi:10.1101/gr.097857.109",
+   "reason": "phyloP method."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "reason": "gnomAD genomic constraint (Gnocchi)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Estimate of constrained human DNA with lineage-specific turnover."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "reason": "Constrained fractions across clades."
+  },
+  {
+   "target": "doi:10.1038/s41594-024-01235-4",
+   "reason": "Random DNA has regulatory activity by default."
+  },
+  {
+   "target": "doi:10.1038/s41588-021-01009-4",
+   "reason": "Random-sequence reporter assays in human cells."
+  },
+  {
+   "target": "doi:10.7554/eLife.100574",
+   "reason": "Effective population size does not explain genome size in animals."
+  },
+  {
+   "target": "doi:10.1093/evlett/qrad027",
+   "reason": "Germline mutation rates across eukaryotes."
+  },
+  {
+   "target": "doi:10.1093/gbe/evx121",
+   "reason": "Load-based upper limit on the functional fraction."
+  },
+  {
+   "target": "doi:10.1038/nrg3098",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Mutation-rate variation is shared between divergence and diversity."
+  },
+  {
+   "target": "doi:10.1093/gbe/evr044",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Mutation rate correlates with human diversity and divergence."
+  },
+  {
+   "target": "doi:10.1016/j.ajhg.2026.08.011",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Mutation-rate heterogeneity biases variant-effect predictors."
+  },
+  {
+   "target": "doi:10.1038/nature19057",
+   "reason": "Mutability-adjusted proportion of singletons."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "We reuse its gnomAD streaming filter (MIT). Its small signal at non-conserved cCREs agrees with our primate-specific result."
+  },
+  {
+   "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its Roulette extractor (MIT)."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "relations": [
+    "supports"
+   ],
+   "reason": "It shows miscalibration of 241-mammal phyloP in neutral DNA; we show a stronger problem for the primate score."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Related: no extra selection at transposon copies with regulatory marks."
+  },
+  {
+   "target": "sci:sha256:b8a269286c2fe3457f42c4cb28d20b2264e629906edda7f5f57eb8fac34d1690",
+   "reason": "Related: rare-allele excess at active transposon copies."
+  },
+  {
+   "target": "sci:sha256:04a7a4b121955cd1fd3b4b966e78a5a88f8d41b65af5f66f836e5ba9c100f213",
+   "reason": "Related: regional component of the transposon rare-allele excess."
+  },
+  {
+   "target": "sci:sha256:6f21710dfe405df3e983d215607b36720ed3df30140c6a22e370bfe8b7724a26",
+   "reason": "Related: conservation of accessible transposon copies."
+  }
+ ]
+}
