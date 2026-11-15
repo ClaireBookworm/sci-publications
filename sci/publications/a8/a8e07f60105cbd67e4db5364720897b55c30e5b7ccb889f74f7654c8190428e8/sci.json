@@ -1,0 +1,275 @@
+{
+ "title": "In 299,670 human de novo mutations, conserved non-coding bases mutate 3-10% less than low-score control bases, and their calibrated gnomAD deficit is 3-6%, against 25-48% at conserved coding bases",
+ "abstract": "Human non-coding DNA bases that conservation scores call constrained get 3-10% fewer new germline mutations than the control bases they are usually compared with, and after this is taken into account only a small shortage of human variants (3-6%) remains at them, against 25-48% at conserved protein-coding bases. This matters because a shortage of variants in large human samples is a main type of evidence that non-coding DNA has a function, and part of it is a mutation-rate signal. We used 299,670 de novo mutations (new mutations in a child that are not in the parents) from four public studies of 4,874 children, after removal of duplicate children and of likely inherited calls. We compared bases with a high phyloP conservation score with control bases of the same three-base sequence, GC content and 1-Mb region, and did the same for gnomAD v4.1 variant density (76,215 genomes) in identical strata. At non-CpG sites, bases conserved only in primates had 0.929 (95% CI 0.904-0.954) times the de novo rate of the usual control bases (primate score below 1.0), and bases conserved in mammals had 0.898 (0.873-0.923); against controls without bases that changed in primates the ratios were 0.973 and 0.971. The lower rate explains about two-thirds of the usual gnomAD deficit, and 35-45% against the cleaner controls. After calibration in low score bins assumed to be free of selection, the deficit left for selection was 3.3% (1.0-5.3) and 4.5% (2.2-6.6) of variant density, and 33% (28-38) at mammal-conserved coding bases (positive control); results were similar for singletons, older alleles and the cleaner controls, and smaller (1-2%, intervals include 0) against controls with scores of 1.0-1.3. The four studies agreed for these tests but not in one low-score bin. The rate falls as the score rises, at C/G bases mainly up to a score of 1.0. This confirms with unselected mutations a hypothesis that Barroso and Ragsdale (2026) based on mutation-rate maps. The 233-primate score cannot reach 1.3 at any A or T base. Limitations: de novo counts are small for single element sets, so the test of the primate-constrained DHS cores of Kuderna et al. 2024 is inconclusive; the calibration exponent differs between frequency classes for reasons we did not establish.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "de novo mutations",
+  "mutation rate",
+  "phyloP",
+  "conservation",
+  "gnomAD",
+  "constraint",
+  "purifying selection",
+  "primate-specific constraint",
+  "Zoonomia",
+  "mutation rate heterogeneity",
+  "negative control",
+  "variant interpretation"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_dnm_vs_gnomad.png",
+   "caption": "De novo mutation (DNM) rate ratios (blue) and gnomAD variant-density ratios for all alleles (orange) and alleles seen two or more times (green) at primate-specific (A) and mammal-conserved (B) bases against control A bases, by DNA class; non-CpG sites, all autosomes, identical strata; 95% block-bootstrap intervals."
+  },
+  {
+   "path": "files/figures/fig2_score_gradients.png",
+   "caption": "DNM rate and gnomAD variant density by primate phyloP bin at C/G bases (A) and A/T bases (B), and by mammal bin (C), relative to the bin with score < 0; non-coding, non-CpG."
+  },
+  {
+   "path": "files/figures/fig3_residuals.png",
+   "caption": "gnomAD deficit left after the DNM rate (1 - gnomAD ratio / DNM ratio^beta, beta calibrated per frequency class in score bins without selection) for non-coding primate-specific and mammal-conserved bases against controls A and B, and for mammal-conserved coding bases."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "We reuse its gnomAD extractor (vcfx.c), compare with its gnomAD density ratios and DHS-core results, and measure directly with de novo mutations the low mutation rate that it inferred for high primate scores."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Origin of the vcfx.c gnomAD extractor that we reuse."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Its excess of phyloP calls in neutral DNA fits our finding that conservation scores select bases by germline mutation rate."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "A depletion-based study of mammal-conserved DNA; our results suggest a de novo-calibrated null for such tests."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Related gnomAD constraint study of transposon copies in the same catalog."
+  },
+  {
+   "target": "doi:10.1038/nature24018",
+   "relations": [
+    "uses"
+   ],
+   "reason": "deCODE de novo mutations (Jonsson et al. 2017)."
+  },
+  {
+   "target": "doi:10.1038/nn.4524",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MSSNG de novo mutations (Yuen et al. 2017)."
+  },
+  {
+   "target": "doi:10.1038/ng.3292",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GoNL de novo mutations (Francioli et al. 2015)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkw865",
+   "relations": [
+    "uses"
+   ],
+   "reason": "denovo-db v1.6.1, source of the deCODE, MSSNG and GoNL calls."
+  },
+  {
+   "target": "doi:10.1073/pnas.1902766117",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TOPMed de novo mutations (Kessler et al. 2020)."
+  },
+  {
+   "target": "https://sites.google.com/view/oconnorgroup/datasoftware",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Kessler et al. 2020 data release page."
+  },
+  {
+   "target": "https://denovo-db.gs.washington.edu/denovo-db/Download.jsp",
+   "relations": [
+    "uses"
+   ],
+   "reason": "denovo-db download page."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06798-8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Primate phyloP score and constrained DHS summits (Kuderna et al. 2024)."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "241-mammal phyloP score (Zoonomia)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/phyloP447way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC primate LRT phyloP track."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC 241-way phyloP track."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Gnocchi 1-kb constraint windows (Chen et al. 2024)."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01562-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Roulette mutation-rate model (Seplyarskiy et al. 2023)."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE V4 candidate cis-regulatory elements."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2559-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DHS index (Meuleman et al. 2020)."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence and UCSC annotation tables."
+  },
+  {
+   "target": "doi:10.1038/ng1710",
+   "reason": "Earlier polymorphism-based test that conserved non-coding sequences are not cold spots."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-17162-z",
+   "reason": "De novo mutation rates in exons and introns."
+  },
+  {
+   "target": "doi:10.1038/nrg3098",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Shared cryptic mutation-rate variation between diversity and divergence."
+  },
+  {
+   "target": "doi:10.1016/j.ajhg.2026.08.011",
+   "reason": "Mutation-rate heterogeneity biases variant-effect predictors."
+  },
+  {
+   "target": "doi:10.1126/science.aau1043",
+   "reason": "deCODE 2019 de novo set (not used: download blocked)."
+  },
+  {
+   "target": "doi:10.1093/gbe/evaa040",
+   "reason": "Candidate E (load theory) literature."
+  },
+  {
+   "target": "doi:10.64898/2026.10.08.757506",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Closest prior work: predicted mutation-rate maps show lower rates in conserved non-coding elements and higher rates in coding genes; our de novo mutations confirm both directly."
+  },
+  {
+   "target": "doi:10.1101/2025.09.21.677619",
+   "reason": "Conservation-type scores correlate with Roulette mutation rates."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.1000027",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Cryptic site-level mutation-rate variation shared by diversity and divergence."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2012.11.019",
+   "reason": "Small DNM study: hypermutable sites in conserved sequence."
+  },
+  {
+   "target": "doi:10.1038/nature25983",
+   "reason": "Small DNM check of a trinucleotide model at conserved non-coding elements."
+  },
+  {
+   "target": "doi:10.1093/molbev/msac169",
+   "reason": "Gene-level mutation rate and constraint."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-31872-6",
+   "reason": "Strong selection in human non-coding classes from gnomAD."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "reason": "Depletion of human variants at mammal-constrained bases (Zoonomia)."
+  },
+  {
+   "target": "doi:10.64898/2026.01.28.701168",
+   "reason": "Constraint metrics vary across the non-coding genome."
+  },
+  {
+   "target": "doi:10.1038/ng.3404",
+   "reason": "Candidate B (heritability enrichment) literature."
+  }
+ ]
+}
