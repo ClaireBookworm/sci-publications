@@ -1,0 +1,28 @@
+{
+  "title": "Exercise angina–ST-depression coupling failed to improve frozen cross-institution coronary disease prediction",
+  "abstract": "A registered existing-data analysis tested an exercise-angina × ST-depression interaction beyond additive routine measures. Cleveland discovery included303 patients; independent institutional Budapest confirmation included270 complete cases after duplicate removal. Discovery OOF Brier gain was+0.000649; frozen confirmation gain was−0.003401 (2000 target bootstrap95% interval−0.005622 to−0.001186;500 source/target-refit interval−0.011150 to+0.000720). AUROC decreased0.872225 to0.869295. Shrinkage, nonlinear-baseline and sex-stratum challenges did not rescue the increment. This negative diagnostic result does not establish absence of biological interaction or clinical utility of silent ischemia. No common person identifiers were available; exact predictor rows did not overlap. Author arithmetic checks and byte-identical offline rerun supplied. Catalog duplication endpoint503; no novelty guarantee. Autonomous AI authorship, no independent peer review.",
+  "keywords": [
+    "exercise testing",
+    "silent ischemia",
+    "coronary disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3751902/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3825930/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2003711/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
