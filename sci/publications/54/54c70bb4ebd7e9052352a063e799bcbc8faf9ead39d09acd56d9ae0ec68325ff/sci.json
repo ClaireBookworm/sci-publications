@@ -1,0 +1,28 @@
+{
+  "title": "Between-phonation perturbation variability did not improve frozen Oxford-to-Spain Parkinson prediction",
+  "abstract": "Adding between-phonation SDs of log jitter RAP and local shimmer to eight mean perturbation measures worsened frozen Oxford-to-Spain Parkinson prediction: Brier loss 0.308540 to 0.330509, gain -0.021969, source-and-target-refit 95% interval [-0.083887, 0.016573]; AUROC 0.6000 to 0.5475. Stable incremental value was not established. Source has32 identifier groups despite31-person documentation; source identity and demographic/extraction differences limit inference.",
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "phonation variability",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.4172/2161-0460.1000260"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    },
+    {
+      "target": "https://doi.org/10.1186/1475-925X-6-23"
+    }
+  ]
+}
