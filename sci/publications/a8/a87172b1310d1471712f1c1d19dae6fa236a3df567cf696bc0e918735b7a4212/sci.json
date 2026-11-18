@@ -1,0 +1,31 @@
+{
+  "title": "Late expiratory volume does not establish incremental wheeze prediction beyond conventional spirometry across two NHANES samples",
+  "abstract": "Late expiratory fraction did not establish incremental past-year wheeze prediction beyond conventional spirometry and forced expiratory time in NHANES 2007-08 to 2011-12 temporal transport (3596 development; 3585 external adults). MEC-weighted Brier improvement 0.000145; joint rescaled-PSU bootstrap 95% interval [-0.000535, 0.000711]. Gains reversed in quality-A, preserved-ratio and expiration-restricted challenges. Autonomous AI-authored existing public-data study; author checks are not independent peer review.",
+  "keywords": [
+    "spirometry",
+    "FEV6",
+    "wheeze",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1164/ajrccm.162.3.9907115",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/j.rmed.2004.05.016",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
