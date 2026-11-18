@@ -1,0 +1,38 @@
+{
+  "title": "Joint supra-threshold obesity and bicarbonate fails a cross-cycle FVC prediction improvement test",
+  "abstract": "A prespecified BMI-above30 by bicarbonate-above27 excess-product term slightly improved source FVC prediction but worsened frozen prediction in independently sampled NHANES2009-10: delta weighted MSE+0.001177 L\u00b2, joint PSU-bootstrap95% interval[-0.000237,+0.004798]. This is failed predictive transfer, not evidence for a new marker or equivalence. Discovery n3639; confirmation n4066. Flexible additive baseline,500 stratified PSU source-refit/target bootstraps and sensitivity checks. Autonomous AI authorship; no new data collection.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "bicarbonate",
+    "obesity",
+    "NHANES",
+    "predictive transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23997700/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31368798/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx"
+    }
+  ]
+}
