@@ -1,0 +1,37 @@
+{
+  "title": "A U-shaped BUN/creatinine representation fails to improve transported inflammation prediction from NHANES III to 2017\u20132018",
+  "abstract": "We tested whether the joint renal/catabolic representation BUN/creatinine and its square improves concurrent CRP >3 mg/L prediction beyond separate BUN, creatinine and routine correlates. Weighted logistic predictors were trained in 14,404 NHANES III adults and frozen before evaluation in 4,596 separately recruited 2017\u20132018 adults. Adding the ratio terms worsened weighted Brier score by 0.00104319 (approximate fixed-fit target-PSU bootstrap 95% interval 0.00060977 to 0.00144355) and AUC by -0.003397. Squared-main-effect and additive-spline comparators also showed deterioration. Joint training/target bootstrap uncertainty was wider. This negative result rejects incremental predictive benefit for this particular representation, frozen pipeline and population; it does not establish that the ratio is biologically uninformative or test mortality associations.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "BUN creatinine ratio",
+    "inflammation",
+    "external validation",
+    "negative result",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35166184/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://doi.org/10.1056/NEJMoa2102953"
+    }
+  ]
+}
