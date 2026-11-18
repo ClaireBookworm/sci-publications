@@ -1,0 +1,132 @@
+{
+  "title": "RDW\u2013MCV interaction fails an incremental cross-cycle HbA1c prediction test beyond flexible individual blood-cell measures",
+  "abstract": "A fixed source-standardized RDW-by-MCV product was tested in 1892 source and 2397 independent-cycle NHANES adults without reported diagnosed or treated diabetes. Target weighted MSE changed by -0.00001241 percentage-points squared (conditional95% interval [-0.0005010797831197456, 0.000547347579562326]; source/target refit interval [-0.0007397662352115953, 0.0039495457941256485]). The 0.0087% point gain did not meet the fixed uncertainty or 1% descriptive criteria. Source cross-validation and several sensitivities worsened. This does not refute known cell-index associations or establish equivalence.",
+  "keywords": [
+    "RDW",
+    "MCV",
+    "HbA1c",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/joim.12188",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://doi.org/10.1111/dme.12518",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GLU_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GHB_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DIQ_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GLU_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation, official data/access documentation, or survey-bootstrap method as described in README"
+    }
+  ]
+}
