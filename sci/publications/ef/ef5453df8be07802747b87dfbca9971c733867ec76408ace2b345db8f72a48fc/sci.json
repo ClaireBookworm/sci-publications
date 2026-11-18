@@ -1,0 +1,44 @@
+{
+  "title": "Forced expiratory time did not improve frozen wheeze prediction across separate NHANES samples",
+  "abstract": "Recorded forced expiratory time may reflect lung emptying information absent from conventional spirometric summaries, but incremental prediction requires validation. We trained weighted logistic models in 4,070 NHANES 2007\u20132008 adults and froze them for 4,589 separately sampled 2009\u20132010 adults. Adding a cubic spline of forced expiratory time to flexible demographics, anthropometry, smoking, FVC, FEV1/FVC and FEF25\u201375 changed weighted Brier loss from 0.093088 to 0.093230 (difference +0.000142; conditional stratified-PSU bootstrap 95% interval -0.000588 to +0.000856). A small discovery grouped-CV gain did not transfer. Quality-restricted and extra-FEV1 analyses did not establish benefit; favorable subgroup point estimates remain exploratory. This negative incremental-prediction result does not show physiological equivalence, absence of information, or clinical utility. Independent study-program validation remains unavailable.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "forced expiratory time",
+    "wheeze",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1152/japplphysiol.00556.2020"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18171402/"
+    },
+    {
+      "target": "https://doi.org/10.1183/09031936.00128113"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RDQ_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
