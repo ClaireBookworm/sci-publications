@@ -1,0 +1,40 @@
+{
+  "title": "Eosinophil-count curvature does not establish incremental cross-cycle prediction of elevated CRP beyond standard leukocyte and adiposity measures",
+  "abstract": "A frozen quadratic term in discovery-centered log blood eosinophil count was added to standard demographic, adiposity and leukocyte predictors of single-visit CRP >3 mg/L. Logistic models trained in 5,069 NHANES 2007\u20132008 adults were evaluated without refitting in 4,639 separately recruited 2017\u20132018 adults. Survey-weighted Brier score changed by +0.0000417 (95% fixed-model stratified PSU bootstrap interval \u22120.0000130 to +0.0000915; delete-PSU normal interval \u22120.0000324 to +0.0001158). The prespecified improvement was not established. Restriction and penalty sensitivities sometimes favored curvature; this is not evidence of universal absence of eosinophil information. Shared survey infrastructure, assay changes and complete-case selection limit externality. Code, provenance, predictions and author self-checks are provided.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "eosinophils",
+    "nonlinear prediction",
+    "NHANES",
+    "negative result",
+    "inflammation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1002/clt2.12036"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7323424/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38559751/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
