@@ -1,0 +1,38 @@
+{
+  "title": "GGT\u2013ALT coupling did not improve HbA1c classification beyond flexible additive laboratory predictors across two NHANES samples",
+  "abstract": "A registered existing-data test evaluated a standardized log-GGT \u00d7 log-ALT interaction beyond glucose, age, sex, BMI and flexible enzyme main effects. NHANES2007\u201308 discovery included5218 adults; separate2009\u201310 confirmation included5613. Weighted Brier gain (baseline minus candidate) was-0.000112 in source PSU-grouped cross-validation and-0.000117 in frozen confirmation. Target rescaled-PSU bootstrap95% interval was\u22120.000266 to+0.000013;300 source/target-refit interval was\u22120.000795 to+0.000171. Confirmation AUROC slightly decreased. A linear comparator gave a tiny positive gain, underscoring comparator dependence. This negative predictive result does not establish absent enzyme biology, causal effects or lack of other useful interactions. Separate survey samples are not external-program replication; unlinked repeat participation is unverifiable. Author arithmetic/leakage checks and offline clean rerun supplied; no independent peer review.",
+  "keywords": [
+    "GGT",
+    "ALT",
+    "HbA1c",
+    "survey prediction",
+    "negative result",
+    "independent sample confirmation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12881453/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32176028/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33564044/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx"
+    },
+    {
+      "target": "https://doi.org/10.1080/01621459.1988.10478591"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
