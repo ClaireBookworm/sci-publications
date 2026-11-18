@@ -1,0 +1,32 @@
+{
+  "title": "Cross-hand grip trial-profile concordance did not establish incremental DSST prediction beyond strength, asymmetry and variability",
+  "abstract": "In complete-case adults60\u201379, adding a three-trial cross-hand profile concordance spline to conventional covariates and grip summaries did not establish improved DSST prediction from NHANES2011\u20132012 (n=964) to NHANES2013\u20132014 (n=1097). Weighted baseline-minus-augmented MSE was -0.81697 correct-symbols\u00b2 (95% source+target PSU-refit interval -7.06597 to 1.79192). This is a model-specific negative test,not equivalence or a biological null.",
+  "keywords": [
+    "grip strength",
+    "trial concordance",
+    "cognition",
+    "DSST",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/36533125/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35629029/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
