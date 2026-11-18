@@ -1,0 +1,54 @@
+{
+  "title": "Serum protein gap adds modest albuminuria discrimination across two independently sampled NHANES cycles",
+  "abstract": "A fixed model trained in NHANES2005\u20132006 (n=4081, 519 single-spot albuminuria cases) was evaluated without recalibration in independently sampled NHANES2009\u20132010 (n=5545, 597 cases). Adding total protein minus serum albumin to clinical/metabolic risk factors, serum creatinine and serum albumin increased AUC from 0.752342 to 0.765815. The difference was 0.013473, conditional paired95% interval [0.008155,0.018829], source/target-refit interval [0.006983,0.019668]. Log loss fell 0.295805\u21920.291207. This is a modest cross-sectional incremental-prediction result, not a new physiological measurement, persistent CKD diagnosis, clinical utility demonstration or non-NHANES validation.",
+  "keywords": [
+    "gamma gap",
+    "albuminuria",
+    "NHANES",
+    "incremental prediction",
+    "temporal validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26629820/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary gamma-gap literature motivating question."
+    },
+    {
+      "target": "https://doi.org/10.1001/jamanetworkopen.2023.26230",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary albuminuria-prediction literature;not exact replication."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source chemistry definitions and public data."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target UACR units and public data."
+    },
+    {
+      "target": "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults",
+      "relations": [
+        "uses"
+      ],
+      "reason": "2021CKDEPI equation used in sensitivity."
+    }
+  ]
+}
