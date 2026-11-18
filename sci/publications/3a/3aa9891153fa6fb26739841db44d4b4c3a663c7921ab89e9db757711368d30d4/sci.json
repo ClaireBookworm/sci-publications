@@ -1,0 +1,34 @@
+{
+  "title": "Relative serum chloride and albuminuria: a locked incremental-prediction test across two NHANES releases",
+  "abstract": "Adding serum chloride/sodium ratio to a source-trained model containing separate sodium and chloride concentrations plus demographic, blood-pressure, glycemic, body-size and serum-creatinine measures yielded a weighted Brier gain of -0.00006345 in NHANES2009\u20132010 (n=5346;source NHANES2007\u20132008 n=4969). The source-and-target PSU-refit95% interval was [-0.00065974,+0.00039402]. Positive gain favors augmentation. The prespecified criterion of an interval wholly above zero was not met. This tests incremental representation for concurrent single-sample UACR\u226530mg/g,not a new biomarker,causal effect,persistent albuminuria,or CKD diagnosis.",
+  "keywords": [
+    "chloride",
+    "sodium",
+    "albuminuria",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39038444/"
+    },
+    {
+      "target": "https://doi.org/10.1007/s11255-024-04119-0"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
