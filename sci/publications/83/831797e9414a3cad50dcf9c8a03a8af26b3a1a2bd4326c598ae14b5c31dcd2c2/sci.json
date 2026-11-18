@@ -1,0 +1,44 @@
+{
+  "title": "A platelet size–count interaction fails to improve cross-cycle prediction of elevated CRP beyond standard blood-count and adiposity measures",
+  "abstract": "A discovery-centered log platelet-count by log mean-platelet-volume interaction was fitted in 5,430 NHANES 2009–2010 adults and tested in 4,814 separately recruited 2015–2016 adults. For single-visit CRP >3 mg/L, adding the interaction to demographic, adiposity and blood-count predictors changed survey-weighted Brier score by +0.000533 (95% fixed-model stratified PSU-bootstrap interval −0.000089 to +0.001122; delete-PSU jackknife interval −0.000342 to +0.001408). The predicted improvement was not established. Smoking adjustment and exclusion of CRP >10 mg/L did not reverse the unfavorable point estimate, while a post-primary raw platelet/MPV comparator yielded a near-zero favorable change. This is a negative test of a specific predictive representation, not evidence that platelet biology contains no inflammatory information. Assay differences, complete-case selection and shared survey infrastructure limit interpretation. Public inputs, hashes, code and author self-checks accompany the report.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelet interaction",
+    "inflammation",
+    "NHANES",
+    "negative result",
+    "cross-cohort validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32313453/"
+    },
+    {
+      "target": "https://haematologica.org/article/view/6045"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "sci:sha256:82f5c2776df1d9ccd245ce8c21441585926b8c2ba027371c120583cc63230237",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Reuses author-local loading, logistic modeling, uncertainty and author-check software scaffold, not the prior liver hypothesis or empirical findings."
+    }
+  ]
+}
