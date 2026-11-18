@@ -1,0 +1,59 @@
+{
+  "title": "Amplitude-qualified NN reversals did not improve cross-database heart-failure discrimination beyond standard time-domain measures",
+  "abstract": "Using public PhysioNet annotations, we trained fixed participant-level logistic models in 18 NSRDB and 15 CHFDB records and tested them in 54 NSR2DB and 29 CHF2DB records. Adding the density of adjacent NN changes with opposite signs and both magnitudes above 16ms to mean NN, SDNN, RMSSD and pNN50 changed external log loss by 0.000125 (95% stratified participant bootstrap -0.003983 to 0.004180); AUROC changed from 0.8397 to 0.8404. The predefined primary improvement criterion failed. Numerical threshold correction and sensitivity analyses are preserved. Separate corpora provide an external-dataset test, but participant linkage is unavailable and cohort confounding prevents physiological or diagnostic claims. A small demographic-complete-case sensitivity improved calibration but does not rescue the primary null result.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NN intervals",
+    "heart failure",
+    "external-dataset validation",
+    "negative result",
+    "heart rate fragmentation",
+    "numerical thresholds"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.3389/fphys.2017.00255"
+    },
+    {
+      "target": "doi:10.3389/fphys.2017.00827"
+    },
+    {
+      "target": "doi:10.1093/oxfordjournals.eurheartj.a014868"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3950244/"
+    },
+    {
+      "target": "doi:10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
