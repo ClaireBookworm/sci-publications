@@ -1,0 +1,27 @@
+{
+  "title": "MCV\u2013RDW interaction does not establish added detection of low ferritin in nonanemic women across two NHANES cycles",
+  "abstract": "An explicit MCV\u2013RDW interaction was tested beyond age, hemoglobin, MCV and RDW additive splines for ferritin below15ng/mL among women aged20\u201349 not known pregnant, with Hb>=12 and CRP<=0.5mg/dL. Source NHANES2005\u201306 n669/78 events; frozen independently sampled2009\u201310 target n997/113. Target weighted AUC0.81125 to0.81226, gain0.00101, paired target-PSU95% interval[-0.00289,0.00598]; source-refit/target interval[-0.01118,0.00514]. Incremental discrimination was not established. Same-survey sampling, assay change and selection limit transport claims. No equivalence, clinical utility or causal claim. Reproducible code, provenance hashes, author checks and clean rerun provided.",
+  "keywords": [
+    "iron depletion",
+    "RDW",
+    "MCV",
+    "NHANES",
+    "negative result",
+    "independent sample validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1177/000992288702601203",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Prior joint interpretation of MCV and RDW motivates explicit interaction test; no priority claim for the indices."
+    }
+  ]
+}
