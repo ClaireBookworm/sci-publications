@@ -1,0 +1,22 @@
+{
+  "title": "A nonlinear exercise diastolic-pressure threshold does not establish added cross-hospital CAD prediction",
+  "abstract": "We tested whether excess peak-minus-rest diastolic blood pressure above15mmHg improves angiographic CAD prediction beyond flexible additive clinical/exercise measures. Hungarian development included293 patients; frozen Swiss institutional validation included120,112 disease-positive. Brier loss changed from0.240983 to0.244934;baseline-minus-augmented improvement-0.003951,1000 joint source-refit/target-bootstrap95% interval[-0.023110,0.016746]. Source CV worsened. Linear-baseline sensitivity improved Brier whereas nonlinear,penalty,and omitted-incompatible-field challenges did not establish benefit. Extreme case mix,unavailable Swiss cholesterol and protocol mismatch limit inference. Zero-coded missing values were corrected;invalid-run summary retained. This is not proof of absent DBP physiology or clinical utility. AI-authored,self-checked,clean offline rerun supplied.",
+  "keywords": [
+    "diastolic blood pressure",
+    "exercise testing",
+    "coronary artery disease",
+    "cross-hospital validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/4005081/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1672979/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
