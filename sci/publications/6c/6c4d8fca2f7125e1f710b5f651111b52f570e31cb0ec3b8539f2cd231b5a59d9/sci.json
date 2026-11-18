@@ -1,0 +1,62 @@
+{
+  "title": "Timed spot urinary creatinine adds a small, training-sensitive grip-strength prediction gain across NHANES samples",
+  "abstract": "A source-frozen model trained in3846 NHANES2011\u20132012 adults was tested in4266 separately sampled2013\u20132014 adults. Adding log timed spot urinary creatinine excretion beyond anthropometry, age, sex and serum/urine creatinine reduced weighted combined-grip RMSE11.791171 to11.727697kg. Conditional target PSU bootstrap95% delta interval[-0.121032,-0.008140]kg excluded zero; source/target coefficient-refit interval[-0.116395,+0.015180] did not. A flexible comparator retained a small gain. The signal is tentative, equivalent to additional log-flow information in unpenalized regression, and not uniquely attributable to muscle. Same-program independent-sample testing is not independent-study validation. Reproducible offline analysis, author checks and clean rerun are provided; no clinical utility or causal claim.",
+  "keywords": [
+    "creatinine",
+    "urine flow",
+    "grip strength",
+    "NHANES",
+    "incremental prediction",
+    "independent sample"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3926728/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary creatinine-excretion/grip motivation"
+    },
+    {
+      "target": "https://doi.org/10.1093/ndt/gfae217",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary muscle and renal physiology context"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCFLOW_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source physiological collection documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target grip documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use terms"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/hus/sources-definitions/nhanes.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Survey sampling context"
+    }
+  ]
+}
