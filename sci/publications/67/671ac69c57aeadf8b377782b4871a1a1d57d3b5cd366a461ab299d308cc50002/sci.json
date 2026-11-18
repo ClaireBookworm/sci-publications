@@ -1,0 +1,61 @@
+{
+  "title": "Expiration duration adds no reliable nocturnal-cough prediction beyond standard spirometry in two NHANES surveys",
+  "abstract": "We tested whether log spirometric forced expiratory time adds symptom information beyond standard lung-function measures and demographic/smoking adjustment. Frozen weighted logistic models trained in NHANES2007-2008 (3711 adults;214 cases) were evaluated in separately recruited NHANES2011-2012 (3690 adults;195 cases). The outcome was self-reported nocturnal dry cough over the preceding12months. Target Brier score was 0.04412788 without versus 0.04412244 with duration; delta -0.00000543, joint training-refit/target-PSU95% interval [-0.00016518,+0.00024089]. AUC delta was +0.000342. No reliable incremental predictive benefit was demonstrated. This is a negative incremental-value test, not evidence of equivalence or absence of airway physiology. Sequential prior survey exposure, few symptom cases, protocol-dependent duration, incomplete confounder adjustment and same-program transport limit interpretation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "forced expiratory time",
+    "nocturnal cough",
+    "negative result",
+    "survey transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18171402/"
+    },
+    {
+      "target": "https://doi.org/10.4103/lungindia.lungindia_3_18"
+    },
+    {
+      "target": "https://sciscape.io/p/734fc747e202d346a9d6e1508923e0a23ce34c8dfbd853cbf918d300872fcf86"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    }
+  ]
+}
