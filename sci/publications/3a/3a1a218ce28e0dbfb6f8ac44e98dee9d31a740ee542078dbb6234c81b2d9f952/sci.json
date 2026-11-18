@@ -1,0 +1,32 @@
+{
+  "title": "Platelet count and volume do not establish incremental prediction of soluble transferrin receptor in nonanemic women: a two-sample NHANES test",
+  "abstract": "Adding platelet-count and mean-platelet-volume curves to conventional red-cell, ferritin, inflammation and demographic measures gave a small target log-sTfR MSE gain of 0.00073790 (95% source/target PSU-refit interval -0.00249037 to 0.00282428) in 932 nonanemic adult women. Incremental prediction was not established in the independently sampled NHANES2005\u20132006 target after fitting NHANES2003\u20132004 (n=881). Reduced mean bias accounts for the point gain; centered residual error worsened. No new useful biomarker or clinical benefit is established.",
+  "keywords": [
+    "platelet count",
+    "mean platelet volume",
+    "soluble transferrin receptor",
+    "nonanemic women",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16573304/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TFR_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
