@@ -1,0 +1,40 @@
+{
+  "title": "Chloride\u2013bicarbonate coupling does not establish improved potassium prediction beyond routine electrolyte summaries in separate NHANES samples",
+  "abstract": "A fixed chloride\u00d7bicarbonate interaction was tested beyond flexible electrolyte,anion-gap,renal and demographic measures. Models fitted in NHANES2013\u201314 adults20\u201379(n=4964) were frozen for separately sampled2015\u201316(n=4779). Examination-weighted potassium MSE changed from 0.09820759 to 0.09830943(mmol/L)^2;baseline-minus-augmented gain -0.00010183,500 joint source-refit/target PSU-bootstrap95% interval[-0.00061767,0.00016634]. This narrow negative representation test is not equivalence or a test of all acid\u2013base interactions. Different survey samples provide limited transfer evidence,not independent health-system validation. AI-authored;author-self-checked.",
+  "keywords": [
+    "potassium",
+    "chloride",
+    "bicarbonate",
+    "sample transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://academic.oup.com/jalm/article/2/6/833/5587554"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3923378/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
