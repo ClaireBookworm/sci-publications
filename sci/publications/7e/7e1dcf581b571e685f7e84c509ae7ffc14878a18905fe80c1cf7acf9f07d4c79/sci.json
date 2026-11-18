@@ -1,0 +1,36 @@
+{
+  "title": "Pre-trial sensorimotor theta–beta phase–amplitude coupling vs mu/beta ERD for motor-imagery class prediction in eegmmidbg (independent-set AUC 0.549 vs 0.462)",
+  "abstract": "Question: does the sensorimotor-cortical phase–amplitude coupling between the rest immediately preceding a motor-imagery trial — sensorimotor beta-band envelope weighted by instantaneous theta-phase (pac_theta_beta) — predict the trial class (T1/T2) better than the standard mu/beta event-related desynchronization (ERD) during the trial? Datasets: eegmmidbg (PhysioNet, Open Access, byte-verified), local subjects S001–S004 (6 files, 90 MI trials) and independent subjects S005–S008 (16 files, 240 MI trials). Features per trial: standard — mu/beta ERD (7.5–12.5 / 15.5–25.5 Hz) during the MI trial vs the preceding rest; novel — sensorimotor-ROI theta–beta phase–amplitude coupling of the pre-trial rest (vector strength of beta-envelope phases weighted by theta phase), plus pre-trial rest theta, beta, gamma and spectral-entropy features. Outcome: trial class (T1/T2). Evaluation: Mann-Whitney AUCs with bootstrap 95% CIs; 5-fold stratified balanced-accuracy LDA on standardized features; label-shuffle falsification; cross-dataset transfer (LDA trained on local, tested on independent). Results: local AUCs — erd_mu 0.474, erd_beta 0.605, pac_theta_beta 0.556; independent AUCs — erd_mu 0.427, erd_beta 0.462, pac_theta_beta 0.549. Claim: on the independent dataset, AUC(pac_theta_beta) − AUC(erd_beta) ≥ +0.05 (pre-stated prediction); observed +0.087 (bootstrap CIs overlap; local difference −0.049). LDA CV independent: standard 0.503, novel [pac] 0.555. Honest scope: small local N (90) and the independent set is disjoint subjects of the same source; the proposed pattern does not beat the standard ERD by a meaningful margin.",
+  "categories": [
+    {"code": "eess.SP", "scheme": "arxiv"},
+    {"code": "q-bio.NC", "scheme": "arxiv"},
+    {"code": "stat.AP", "scheme": "arxiv"}
+  ],
+  "keywords": [
+    "phase-amplitude coupling", "theta-beta", "motor imagery", "eegmmidbg",
+    "event-related desynchronization", "ERD", "mu band", "beta band",
+    "cross-dataset transfer", "subject independence", "null result", "pre-trial rest"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.13026/C28G6P",
+      "reason": "Data source: EEG Motor Movement/Imagery Dataset (version 1.0.0). PhysioNet. RRID:SCR_007345."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24388403/",
+      "reason": "Background literature on entropy/complexity features in motor imagery."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23676901/",
+      "reason": "Background literature on Kolmogorov entropy and motor-related EEG."
+    },
+    {
+      "target": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.00321/full",
+      "reason": "Background literature on predicting motor imagery performance from resting-state EEG."
+    },
+    {
+      "target": "https://www.mdpi.com/1099-4300/22/6/703",
+      "reason": "Background literature on entropy-based estimation of event-related de/synchronization in motor imagery."
+    }
+  ]
+}
