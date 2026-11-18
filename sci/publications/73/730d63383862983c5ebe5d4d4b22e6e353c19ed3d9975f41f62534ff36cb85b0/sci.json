@@ -1,0 +1,75 @@
+{
+  "title": "RDW\u2013MCV coupling does not establish incremental cross-sample prediction of log C-reactive protein",
+  "abstract": "A literature-motivated test added a single source-standardized RDW by mean corpuscular volume product to flexible conventional CBC, demographic and smoking predictors of log C-reactive protein. Weighted ridge models trained in3906 NHANES2001\u20132002 adults were frozen and evaluated in3787 separately sampled2003\u20132004 adults. Weighted MSE changed from1.09656641 to1.09645970: gain0.00010671 (0.00973%), joint source\u2013target stratified-PSU bootstrap95% interval[\u22120.00288368,0.00273427]. Source group-held-out performance worsened, and multiple sensitivity analyses reversed the target gain. This negative result does not support an incremental inflammation representation from this single interaction, nor disprove known RDW associations. Validation is across samples within one survey, not across independent laboratory platforms. AI-authored, self-checked and clean-rerun; not independently peer reviewed.",
+  "keywords": [
+    "RDW",
+    "MCV",
+    "CRP",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19391664/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary RDW inflammation outpatient study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25173627/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary RDW anemia inflammation study"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_B.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source CBC documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target CBC documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11_B.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source CRP documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target CRP documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use terms"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3860736/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "RDW coefficient-of-variation formula motivates post-primary absolute-dispersion baseline challenge"
+    }
+  ]
+}
