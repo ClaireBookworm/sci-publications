@@ -1,0 +1,37 @@
+{
+  "title": "Repeated-recording jitter\u2013shimmer covariance fails to improve frozen Parkinson voice prediction in an independent Spanish dataset",
+  "abstract": "We tested whether within-person covariance of log jitter and log shimmer adds Parkinson case-control information beyond means and marginal variability of five shared acoustic measures. Participant-level models used three recordings per person, trained on 32 Oxford/Colorado subjects and tested unchanged on 80 separately recruited Spanish subjects. Covariance improved discovery leave-one-person-out Brier score by 0.01258, but external Brier worsened from 0.36497 to 0.37525: difference +0.01028 (95% stratified participant-bootstrap interval \u22120.00394 to +0.02514). External discrimination remained near chance. Penalty and comparator challenges did not establish transfer. Extraction and population shifts, small discovery size and absent shared demographics prevent a biological null conclusion. This is a reproducible negative transport result, not a validated diagnostic biomarker.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "covariance",
+    "independent validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.eswa.2015.10.034"
+    },
+    {
+      "target": "https://eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570436203.pdf"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7493334/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    }
+  ]
+}
