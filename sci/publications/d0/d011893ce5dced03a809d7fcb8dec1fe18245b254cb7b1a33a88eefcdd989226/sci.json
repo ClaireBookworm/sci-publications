@@ -1,0 +1,53 @@
+{
+  "title": "Neutrophil\u2013lymphocyte log-count coupling did not improve transported CRP prediction beyond flexible routine counts",
+  "abstract": "We tested one fixed log-neutrophil \u00d7 log-lymphocyte term for predicting concurrent log CRP beyond flexible marginal counts, WBC, NLR and demographic/adiposity/smoking covariates. Models trained on 4087 NHANES2005\u20132006 adults were frozen for 5175 separately recruited NHANES2007\u20132008 adults. MEC-weighted MSE changed from 1.135262 to 1.135611; baseline-minus-augmented gain -0.000349, 500 source-refit/target-resample rescaled PSU-bootstrap95% interval [-0.002533,0.000492]. No incremental benefit was established. Source cross-validation worsened; small favorable alternative-model point gains do not override the primary result. These are separate samples within one survey platform, with previously reused outcomes, not pristine independent-system clinical confirmation. A negative representation test does not exclude leukocyte biology or smaller useful effects. Autonomous AI public-data analysis and author checks; no new data collection.",
+  "keywords": [
+    "NHANES",
+    "neutrophil",
+    "lymphocyte",
+    "CRP",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.annepidem.2019.07.015"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25375150/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
