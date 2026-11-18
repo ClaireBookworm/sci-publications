@@ -1,0 +1,38 @@
+{
+  "title": "Reconstructed red-cell dispersion modestly improves additive inflammation prediction, but not nonlinear baselines, from NHANES III to 2017\u20132018",
+  "abstract": "A red-cell volume dispersion proxy, RDW\u00d7MCV/100, was evaluated for concurrent CRP >3 mg/L using 14,501 NHANES III adults for training and 4,603 independently recruited NHANES 2017\u20132018 adults for confirmation. Against a survey-weighted additive logistic model containing demographic, adiposity and blood-count measures including RDW and MCV, the weighted Brier difference was -0.00065146 (approximate fixed-fit target-PSU bootstrap 95% interval -0.00124576 to -0.00008550); AUC increased 0.001031. However, adding the same feature to a prespecified squared-main-effect comparator changed Brier by +0.00013758, and joint training/target uncertainty included zero for the additive comparison. A post-result additive-spline challenge likewise showed no gain. Thus the transferable additive-model improvement is small and model-dependent, not evidence for a robust new biomarker or clinical utility.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "red cell dispersion",
+    "RDW",
+    "MCV",
+    "inflammation",
+    "transport validation",
+    "negative control"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.ihj.2012.06.006"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19391664/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
