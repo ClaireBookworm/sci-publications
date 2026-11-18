@@ -1,0 +1,35 @@
+{
+  "title": "A peak-heart-rate\u2013ST interaction gives conditional cross-hospital improvement but fails a stable incremental-prediction criterion",
+  "abstract": "A fixed centered peak-heart-rate-fraction by ST-depression interaction was tested beyond flexible separate clinical/exercise measurements. Cleveland supplied303 source records; Budapest supplied294 independent hospital records. Target log loss fell0.582926 to0.567846 (difference\u22120.015080;conditional target bootstrap95% interval[\u22120.020752,\u22120.009639]). However, source fivefold CV worsened and source-and-target refitting yielded interval[\u22120.105695,+0.133951]. A linear comparator substantially outperformed the primary spline model. The prespecified stable-improvement criterion failed. This is a conditional cross-hospital comparison, not an established biomarker or clinical-utility claim. Medication confounding, historical referral populations, sparse data, missingness shift and unavailable participant linkage limit interpretation. Two isolated runs reproduced results exactly.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "peak heart rate",
+    "cross-hospital transfer",
+    "training uncertainty",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1729320/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    }
+  ]
+}
