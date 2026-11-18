@@ -1,0 +1,55 @@
+{
+  "title": "A monocyte\u2013HDL product is redundant with ratio-aware CRP models: algebra and a cross-sample test",
+  "abstract": "We tested a log-monocyte by log-HDL product for contemporaneous log-CRP prediction in independently recruited NHANES2007\u20132008 and2009\u20132010 adult samples (5213/5615 complete cases). Against flexible demographic, cell-count, lipid and ratio predictors, target weighted MSE gain was -0.00004713 log\u00b2 units (95% full-pipeline rescaled-PSU bootstrap interval [-0.00131654,0.00105458]). Author algebra and rank checks showed the product adds no source feature-space dimension when component and ratio spline terms already contain their squares. The negative result concerns this parameterization, not the absence of immune\u2013lipid biology or equivalence of all models.",
+  "keywords": [
+    "NHANES",
+    "monocyte",
+    "HDL",
+    "CRP",
+    "negative result",
+    "feature redundancy"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12944-025-02755-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary MHR literature motivating the question,not validation of the product"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRP definition and assay continuity"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CBC count derivation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HDL_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "HDL definitions"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use restrictions"
+    }
+  ]
+}
