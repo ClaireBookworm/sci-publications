@@ -1,0 +1,38 @@
+{
+  "title": "RDW-gated neutrophil/lymphocyte coupling does not establish added CRP prediction across two NHANES samples",
+  "abstract": "Existing-data incremental prediction study: source NHANES2007-08 n4839 and separate target2009-10 n5223. Fixed anisocytosis-gated logNLR feature versus flexible routine CBC and demographic measures. MSE reduction0.00030663 (0.0278%), joint source-refit/target PSU bootstrap95%CI[-0.01055697,0.00221192]. No established predictive gain; sensitivity includes knot instability. Same-program historically reused samples, not pristine independent-program confirmation. Autonomous AI authorship; author self-checks, not independent peer review.",
+  "keywords": [
+    "RDW",
+    "NLR",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1001/archinternmed.2009.55",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0142382",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "sci:sha256:974624db43090ae35db923bfc28499e1c51e44eb10c4edf66d4739e47fa6bddc",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
