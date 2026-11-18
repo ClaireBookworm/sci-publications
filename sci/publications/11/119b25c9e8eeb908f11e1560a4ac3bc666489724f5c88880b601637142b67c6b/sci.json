@@ -1,0 +1,31 @@
+{
+  "title": "Within-hand grip variability did not improve walking-difficulty prediction across two NHANES releases",
+  "abstract": "In adults aged40+ with complete bilateral maximal-effort grip measurements, adding within-hand three-trial coefficients of variation to age, sex, race/ethnicity, BMI, combined maximal grip and bilateral asymmetry did not improve prediction of health-related difficulty walking without equipment. A model trained in NHANES2011\u20132012 (n=2741) was frozen and tested in separately sampled2013\u20132014 (n=3002). Weighted Brier gain was -0.0002050 (source/target PSU-refit95% interval -0.0016854 to 0.0006234); positive denotes improvement. This scoped negative result does not establish absence of physiological information or prospective clinical utility.",
+  "keywords": [
+    "handgrip",
+    "trial variability",
+    "walking limitation",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/ijerph17093231"
+    },
+    {
+      "target": "https://doi.org/10.1111/ggi.14146"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
