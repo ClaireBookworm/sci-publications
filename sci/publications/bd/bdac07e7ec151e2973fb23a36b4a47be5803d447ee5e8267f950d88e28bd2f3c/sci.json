@@ -1,0 +1,54 @@
+{
+  "title": "Paired systolic\u2013diastolic covariance fails to improve cross-sample classification of reported diabetes beyond mean pressures and marginal variability",
+  "abstract": "We tested whether pairing, usually discarded when summarizing repeated clinic blood pressures, improves classification of self-reported diagnosed diabetes. A prespecified ridge-logistic model fitted in NHANES2005\u20132006 (n=3026,308 cases) was frozen and tested in independently recruited NHANES2009\u20132010 (n=5156,615 cases). Adding within-visit systolic\u2013diastolic sample covariance to demographics, BMI, blood-pressure means and standard deviations, and medication indicators changed AUC from0.834132 to0.831909 (difference\u22120.002223;paired target bootstrap95% interval[\u22120.003739,\u22120.000868]). Log loss increased0.001243. Source-and-target refit uncertainty was broader:deltaAUC95% interval[\u22120.007502,0.000792]. This is a negative result for one candidate, not proof that covariance contains no physiological information or a diagnostic evaluation against glucose/HbA1c.",
+  "keywords": [
+    "blood pressure covariance",
+    "diabetes",
+    "NHANES",
+    "negative result",
+    "cross-sample prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1038/s41371-017-0009-y",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary within-visit variability and diabetes progression study motivating candidate;not an exact replication."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22971753/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary population study of factors related to within-visit variability."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPX_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source BP protocol."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target BP protocol."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DIQ_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Diagnosis questionnaire definition."
+    }
+  ]
+}
