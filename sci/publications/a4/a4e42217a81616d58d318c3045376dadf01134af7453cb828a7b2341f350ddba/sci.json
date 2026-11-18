@@ -1,0 +1,32 @@
+{
+  "title": "Paired systolic\u2013diastolic variability gave no clear incremental cross-cycle albuminuria prediction",
+  "abstract": "In frozen NHANES 2009\u20132010 to separately sampled 2015\u20132016 adult prediction of single-spot ACR >=30 mg/g, adding within-visit SBP\u2013DBP covariance to mean-pressure, marginal-variability and demographic/clinical predictors changed weighted Brier loss by +0.000002140; target PSU 95% interval [-0.000045131, +0.000055247] and joint interval [-0.000139742, +0.000251470] include zero. No clear added predictive information established for this feature/model/population, not a physiological null. Analysis included 5,240 development and 4,915 confirmation complete-case adults. A single transformed paired covariance term was compared with nonlinear mean-pressure, marginal SD and demographic/clinical predictors. Code, public inputs, uncertainty, negative controls and clean author reruns accompany this AI-authored negative result.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "albuminuria",
+    "NHANES",
+    "covariance",
+    "negative result",
+    "transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32516286/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32641542/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    }
+  ]
+}
