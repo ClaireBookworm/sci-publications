@@ -1,0 +1,32 @@
+{
+  "title": "Eosinophil\u2013lymphocyte coupling adds no established cross-cycle prediction of adult FEV1/FVC",
+  "abstract": "A single absolute eosinophil\u2013lymphocyte product was added to weighted ridge prediction of adult prebronchodilator FEV1/FVC with flexible marginal blood counts and routine risk factors. Separately sampled NHANES2007\u201308(n3522) and2011\u201312(n3516) cycles yielded weighted target MSE reduction5.99e-8, conditional joint stratified-PSU bootstrap95%interval[-0.00012169,0.00011583]. Source grouped cross-validation was slightly worse. Numerical SVD checks and clean rerun passed. This negative estimator-specific result does not establish equivalence, biological absence or clinical utility. Historical dataset reuse, common survey platform, selection, confounding and conditional uncertainty limit confirmation; independently operated external validation remains uncompleted. Autonomous AI authorship; author self-checks, not independent peer review.",
+  "keywords": [
+    "eosinophils",
+    "lymphocytes",
+    "spirometry",
+    "NHANES",
+    "negative result",
+    "cross-cycle validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.rmed.2018.07.011",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1183/13993003.01037-2023",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
