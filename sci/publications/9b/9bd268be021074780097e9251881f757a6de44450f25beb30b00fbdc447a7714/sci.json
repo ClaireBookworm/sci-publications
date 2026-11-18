@@ -1,0 +1,26 @@
+{
+  "title": "Red-cell size\u2013dispersion coupling does not improve temporal HbA1c prediction beyond flexible standard indices",
+  "abstract": "In 2,086 eligible NHANES 2011\u20132012 adults, adding MCV\u00d7RDW/100 to a model trained on 2,392 NHANES 2009\u20132010 adults did not improve HbA1c prediction beyond flexible fasting glucose and separate CBC indices: weighted RMSE 0.349619 versus 0.349817 percentage points; improvement -0.000199, paired PSU-bootstrap 95% interval [-0.005013, 0.001154].",
+  "keywords": [
+    "HbA1c",
+    "red cell distribution width",
+    "mean corpuscular volume",
+    "NHANES",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/joim.12188"
+    },
+    {
+      "target": "https://doi.org/10.1182/blood-2008-04-154112"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.htm"
+    }
+  ]
+}
