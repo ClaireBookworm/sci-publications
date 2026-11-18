@@ -1,0 +1,35 @@
+{
+  "title": "Does urate/creatinine ratio add predictive value for elevated measured blood pressure? A locked two-release NHANES test",
+  "abstract": "Adding serum urate/creatinine ratio to a flexible source-trained model containing separate urate and creatinine plus demographic and metabolic measures did not meet the prespecified incremental-prediction criterion in NHANES2009\u20132010 (n=5387;source2007\u20132008 n=5031). Weighted Brier gain was -0.00003150 (source-and-target PSU-refit95% interval [-0.00090440,+0.00052194];positive favors augmentation). This is a model-specific negative test for concurrent measured BP\u2265140/90,not equivalence,absence of urate physiology,incident hypertension prediction,or clinical utility.",
+  "keywords": [
+    "urate",
+    "creatinine",
+    "blood pressure",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38186345/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37747002/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/40083597/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
