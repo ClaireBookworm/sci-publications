@@ -1,0 +1,19 @@
+{
+  "title": "Age context of exercise ST depression: external-hospital evaluation of one interaction beyond additive coronary-risk measures",
+  "abstract": "Adding ((age\u221250)/10) \u00d7 exercise ST depression changed Cleveland Brier score from 0.203517 to 0.209494; baseline-minus-augmented gain -0.005977, with 1000 source-refit/target patient-bootstrap 95% interval [-0.060553, 0.008048]. Incremental Brier value was not demonstrated. Models were developed in Hungarian patients and evaluated in Cleveland patients. Both hospital datasets have extensive prior reuse: this is not untouched confirmation. The result tests a single prespecified representation,not biological novelty or clinical utility. AI-authored and author-self-checked,not independently peer reviewed.",
+  "keywords": [
+    "exercise ECG",
+    "age",
+    "ST depression",
+    "coronary artery disease",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.0000039329.47437.3B"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
