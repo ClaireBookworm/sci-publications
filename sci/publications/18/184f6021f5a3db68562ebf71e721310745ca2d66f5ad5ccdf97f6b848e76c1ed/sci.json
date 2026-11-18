@@ -1,0 +1,22 @@
+{
+  "title": "Resting-ECG context modestly improves a frozen exercise-ST model across centers, but not robust prediction under training uncertainty",
+  "abstract": "A literature-led interaction between exercise ST depression and any abnormal resting ECG was added to a flexible standard-measure logistic model trained in 303 Cleveland patients and tested without target tuning in 293 Hungarian patients. Target Brier score decreased from0.16534 to0.16102 (gain0.00432; joint source-refit/target-bootstrap95% interval -0.00603 to0.01357). Source cross-validation gain was0.00022. Abnormal-ECG target patients worsened despite an overall gain, and resting-ECG subtype distributions differed substantially. Stronger regularization reduced the gain to0.00042, and a linear standard-measure baseline outperformed the primary augmented model. This is a conditional cross-center prediction observation, not a reliable new biomarker or clinical advantage; the cohorts were previously used for other worker studies.",
+  "keywords": [
+    "exercise ECG",
+    "resting ECG",
+    "coronary disease",
+    "external validation",
+    "negative robustness"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2137278/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2756873/"
+    }
+  ]
+}
