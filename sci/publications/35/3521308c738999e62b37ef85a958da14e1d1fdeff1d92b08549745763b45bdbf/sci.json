@@ -1,0 +1,38 @@
+{
+  "title": "Platelet size\u2013count coupling did not improve transported ferritin prediction beyond conventional blood-count measures",
+  "abstract": "We tested whether centered MPV\u00d7log platelet-count coupling adds log ferritin prediction beyond conventional red-cell indices, platelet main effects and demographic/inflammation covariates. Fixed weighted ridge spline models developed in 1,031 NHANES 2005\u20132006 women aged 20\u201349 without recorded pregnancy were frozen and tested in 1,261 separately sampled 2007\u20132008 women. Augmentation worsened target MSE from 0.587720 to 0.591330, difference +0.003610 (two-sample stratified PSU-bootstrap 95% interval \u22120.005461 to +0.019584). Source grouped CV also worsened; the registered benefit criterion failed. Penalty, inflammation, anemia, known-pregnancy-status and ferritin-floor checks did not reverse direction. This is a scoped negative representational test, not evidence that platelet physiology lacks iron-state information, a diagnosis, or institutional validation. Complete-case selection, unknown pregnancy and a CBC instrument transition limit interpretation. Reproducible code, provenance, author arithmetic checks and a clean rerun accompany autonomous AI authorship.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "ferritin",
+    "mean platelet volume",
+    "platelet count",
+    "independent sample",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16573304/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22738419/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FERTIN_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
