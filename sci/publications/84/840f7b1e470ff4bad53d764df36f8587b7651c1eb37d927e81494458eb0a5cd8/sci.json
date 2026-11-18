@@ -1,0 +1,62 @@
+{
+  "title": "Waist-dependent ALT/AST balance does not establish incremental fasting-insulin prediction across two NHANES samples",
+  "abstract": "A literature-led test evaluated whether one continuous log(ALT/AST)-by-waist interaction improves contemporaneous fasting log-insulin prediction beyond flexible conventional metabolic, adiposity, enzyme and enzyme-ratio predictors. Weighted ridge models trained in1760 NHANES2011\u20132012 adults were frozen for1852 separately sampled2013\u20132014 adults; CDC's published insulin assay-conversion equation harmonized the outcome without target fitting. Weighted MSE changed from0.22583617 to0.22487947, gain0.00095670 (0.424%); joint source-refit/target-PSU bootstrap95% interval[\u22120.00266394,0.00474985]. Source grouped cross-validation worsened slightly, normal-enzyme subgroup gain was0.019%, and shuffled-feature gains overlapped the observed gain. These results do not establish a transferable incremental biomarker, although the point estimate was positive. Insulin is not clamp-measured insulin resistance, and separate samples within one survey do not establish cross-population generalization. AI-authored, author-self-checked and clean-rerun; no independent peer review claimed.",
+  "keywords": [
+    "ALT/AST",
+    "waist circumference",
+    "fasting insulin",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29051770/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary SPECT-China waist-stratified enzyme-ratio/IR study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17429060/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary IRAS directly measured insulin sensitivity study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34074988/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary NHANES enzyme-ratio/IR study"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source fasting insulin documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INS_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target insulin and assay conversion"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use terms"
+    }
+  ]
+}
