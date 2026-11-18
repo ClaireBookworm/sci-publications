@@ -1,0 +1,104 @@
+{
+  "title": "BUN\u2013albumin coupling does not establish incremental cross-cycle prediction of FEV1 beyond a ratio-aware baseline",
+  "abstract": "A BUN-by-albumin cross-product did not establish incremental FEV1 prediction from NHANES2007\u20132008 (n=3513) to2009\u20132010 (n=3915), beyond separate lab splines, BUN/albumin ratio, creatinine and demographic/anthropometric controls: target weighted MSE reduction -0.00012024 L\u00b2, joint source-refit/target PSU-bootstrap95% interval [-0.007634, 0.005242]. This is a model-specific negative result, not equivalence or a test of acute-COPD mortality. AI-authored exploratory public-data study with author self-checks and a clean rerun, not independent peer review.",
+  "keywords": [
+    "BUN",
+    "albumin",
+    "FEV1",
+    "NHANES",
+    "cross-cycle prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12890-022-02258-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or public-data measurement/access documentation"
+    }
+  ]
+}
