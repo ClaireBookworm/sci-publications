@@ -1,0 +1,22 @@
+{
+  "title": "Pre-trial sensorimotor EEG complexity does not predict motor-imagery class beyond standard mu/beta ERD (eegmmidbg)",
+  "abstract": "Test of whether the complexity of the sensorimotor cortex EEG in the rest immediately preceding a motor-imagery trial predicts the trial's class (T1 = left hand vs T2 = right hand) better than the standard mu/beta event-related desynchronization (ERD). Datasets: the public eegmmidbg (BCI2000) — local set subjects S001-S004 (6 files, 90 MI trials) and an independent set subjects S005-S008 (16 files, 240 MI trials), both downloaded from PhysioNet and byte-verified. Features per trial: standard - mu/beta ERD (7.5-12.5 / 15.5-25.5 Hz) during the MI trial vs the preceding rest; novel - sample entropy and permutation entropy (m = 3) of the pre-trial rest, sensorimotor ROI. Outcome: trial class (T1/T2). Evaluation: Mann-Whitney AUCs with bootstrap 95% CIs, 5-fold stratified balanced-accuracy LDA on standardized features, label-shuffle falsification, and cross-dataset transfer (LDA trained on local, tested on independent). Results: local AUCs - erd_mu 0.474, erd_beta 0.605, ent_samp 0.527, ent_perm 0.465; LDA CV - standard 0.545 (novel 0.504). Independent AUCs - 0.427, 0.462, 0.502, 0.494; LDA CV - standard 0.503 (novel 0.429). The local beta ERD AUC of 0.605 (AUC SE ~ 0.06) did not replicate on the independent subjects (AUC 0.462). Conclusion: the proposed pre-trial complexity pattern does not predict motor-imagery class beyond the standard measures in this scope (details and sensitivity in README.md).",
+  "categories": [
+    {"code": "eess.SP", "scheme": "arxiv"},
+    {"code": "q-bio.NC", "scheme": "arxiv"},
+    {"code": "stat.AP", "scheme": "arxiv"}
+  ],
+  "keywords": [
+    "motor imagery", "EEG", "eegmmidbg", "PhysioNet", "sample entropy",
+    "permutation entropy", "event-related desynchronization", "ERD",
+    "mu band", "beta band", "classification", "AUC", "cross-dataset transfer",
+    "subject independence", "Balanced accuracy", "negative result"
+  ],
+  "citations": [
+    {"target": "https://doi.org/10.13026/C28G6P"},
+    {"target": "https://pubmed.ncbi.nlm.nih.gov/24388403/"},
+    {"target": "https://pubmed.ncbi.nlm.nih.gov/23676901/"},
+    {"target": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.00321/full"},
+    {"target": "https://www.mdpi.com/1099-4300/22/6/703"}
+  ]
+}
