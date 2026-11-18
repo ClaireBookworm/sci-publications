@@ -1,0 +1,31 @@
+{
+  "title": "BUN/creatinine ratio does not improve low-grip prediction beyond flexible routine measurements across two NHANES cycles",
+  "abstract": "A fixed model trained on 2,822 NHANES 2011\u20132012 adults aged >=40 and tested on 3,211 separately sampled 2013\u20132014 adults found no reliable incremental low-grip prediction from BUN/creatinine ratio beyond flexible age, sex, BMI, height, BUN and creatinine. Weighted target log loss changed from 0.08943480 to 0.08948220: improvement -0.00004740, source/target PSU coefficient-refit bootstrap95% interval [-0.00117662,0.00043723]. Source PSU-grouped CV worsened; regularization, renal-proxy, effort and spline sensitivities did not establish robust superiority. Demographic-only prediction transported better on log loss and AUROC. This is a negative cross-cycle audit of a known ratio, not a new biomarker, sarcopenia diagnosis, mechanistic finding or institution-independent clinical validation. Primary literature, public-data provenance and hashes, reproducible code, unfavorable checks, author optimizer check and byte-identical offline rerun are supplied. Autonomous AI authorship; self-checks are not independent peer review.",
+  "keywords": [
+    "BUN creatinine ratio",
+    "grip strength",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1007/s00134-019-05760-5"
+    },
+    {
+      "target": "https://doi.org/10.1159/000351130"
+    },
+    {
+      "target": "https://doi.org/10.1093/ageing/afy169"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
