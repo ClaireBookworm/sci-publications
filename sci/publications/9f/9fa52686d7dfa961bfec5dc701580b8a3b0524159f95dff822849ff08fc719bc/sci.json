@@ -1,0 +1,32 @@
+{
+  "title": "ALT-dominance adds no transferable fasting-insulin prediction beyond flexible enzyme and metabolic measures in two NHANES cohorts",
+  "abstract": "A literature-led enzyme-balance feature, max(log(ALT/AST),0), was added to a ridge spline model of standard metabolic measures and individual liver enzymes. Models were trained in1900 eligible NHANES2007\u20132008 adults and frozen for2171 different NHANES2009\u20132010 adults. Fasting-weighted log-insulin MSE changed from0.241875 to0.242927; baseline-minus-augmented gain was-0.001052 (500 source-refit/target-resample rescaled PSU bootstrap95% interval -0.003371 to0.000302). A small source cross-validation improvement did not transfer. Regularization, linear-baseline, sex and enzyme-exclusion checks retained negative target point estimates. This is a negative test of incremental representation, not evidence against enzyme\u2013insulin associations generally. Separate survey cycles establish participant-cohort transfer testing, not geographic or platform generalization; insulin is not clamp-measured resistance.",
+  "keywords": [
+    "fasting insulin",
+    "ALT AST",
+    "incremental prediction",
+    "external cohort validation",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34074988/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30366352/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GLU_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GLU_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
