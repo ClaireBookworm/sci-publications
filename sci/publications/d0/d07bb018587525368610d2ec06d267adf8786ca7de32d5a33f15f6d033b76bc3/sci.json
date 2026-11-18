@@ -1,0 +1,33 @@
+{
+  "title": "A bicarbonate\u2013BMI interaction did not establish improved cross-cycle prediction of forced vital capacity",
+  "abstract": "Serum bicarbonate is an established respiratory compensation marker, but whether its interaction with body mass index improves prediction of lung volume beyond additive information is unclear. We fitted models in 3,639 NHANES 2007\u201308 adults and transported frozen models to 4,066 NHANES 2009\u201310 adults. Adding one centered bicarbonate\u2013BMI product to a nonlinear additive comparator reduced FVC RMSE from 522.16 to 521.72 mL. Delta mean squared error was \u2212459.51 mL\u00b2 (paired participant-bootstrap 95% interval \u22121752.30 to +802.61; joint source-refit/target interval \u22121803.60 to +1397.83). Prespecified superiority was not established. Survey-design and subgroup sensitivities did not justify a stronger claim. The separately sampled releases support only a cross-cycle test, not independent-study validation or a hypoventilation diagnostic claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "bicarbonate",
+    "body mass index",
+    "forced vital capacity",
+    "NHANES",
+    "interaction",
+    "cross-cycle validation",
+    "inconclusive result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17187265/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22743675/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/index.html"
+    },
+    {
+      "target": "https://journals.sagepub.com/doi/pdf/10.1177/1536867X1001000201"
+    }
+  ]
+}
