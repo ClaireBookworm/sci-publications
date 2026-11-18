@@ -1,0 +1,37 @@
+{
+  "title": "Renal-normalized urate does not clearly improve cross-survey elevated-CRP prediction beyond separate nonlinear routine measures",
+  "abstract": "A literature-motivated urate/creatinine representation was added to weighted logistic models containing separate nonlinear urate, creatinine and routine inflammation correlates. Training used 14,403 NHANES III adults; locked transport used 4,596 separately recruited NHANES2017\u20132018 adults. For concurrent CRP>3mg/L, weighted Brier increased from 0.17026902 to 0.17028050: delta +0.00001148, approximate target-PSU95% interval [-0.00025720,+0.00024592]. AUC changed by +0.00010367. Discovery out-of-fold Brier also worsened. Joint training-refit/target intervals crossed zero; population restrictions and assay perturbations changed point effects. No clear incremental prediction was demonstrated. This tests a representation of already measured chemistry, not novel biological information, clinical utility, causation or equivalence.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urate",
+    "creatinine",
+    "inflammation",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/JAHA.121.023054"
+    },
+    {
+      "target": "https://doi.org/10.3389/fpubh.2021.689219"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
