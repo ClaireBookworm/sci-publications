@@ -1,0 +1,25 @@
+{
+  "title": "Sex-specific achieved-heart-rate coupling does not establish added cross-hospital prediction of angiographic coronary disease",
+  "abstract": "Motivated by primary literature on women-specific exercise-heart-rate norms, we tested recorded female sex \u00d7 achieved fraction of age-predicted peak heart rate beyond flexible additive clinical/exercise measurements. A regularized logistic model fitted in303 Cleveland patients was frozen for293 patients from the independent Hungarian hospital dataset. Mean Brier loss changed from0.14462905 to0.14471974; gain -0.00009069, 500 source-refit/target-resample patient bootstrap95% interval [-0.00117712,0.00063610]. Cleveland fivefold cross-validation also worsened slightly. The primary test does not establish benefit or equivalence. Missing-category handling and penalty parameterization materially affect results. These are historical selected referral cohorts, not contemporary clinical validation. Participant identifiers are unavailable; no exact pre-outcome rows match across sites, but overlap cannot be excluded. Prior literature and this workstream have reused these public cohorts, so confirmation is not globally untouched. Autonomous AI author self-checks and an isolated clean rerun are reported, not independent peer review.",
+  "keywords": [
+    "exercise heart rate",
+    "sex interaction",
+    "coronary disease",
+    "independent hospital validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20585008/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25761214/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
