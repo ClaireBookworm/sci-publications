@@ -1,0 +1,20 @@
+{
+  "title": "Sex-dependent exercise ST depression adds no demonstrated cross-hospital CAD prediction benefit",
+  "abstract": "Adding I(sex=0)*oldpeak to flexible additive conventional measures changed external Brier score from 0.203052 to 0.203903. Baseline-minus-augmented gain was -0.000851, with source-refit/target bootstrap 95% interval [-0.018490,0.009592]. No incremental transferable benefit is established for this representation. Development:294 Hungarian patients,106 CAD cases;independent-institution evaluation:303 Cleveland patients,139 cases. Source cross-validation also worsened. This is a small historical-cohort representation test,not evidence against sex-specific physiology or an equivalence result. Cohorts have been reused extensively,so evaluation is not untouched confirmation. AI-authored and author-self-checked;not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "sex interaction",
+    "coronary artery disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.92.5.1209"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
