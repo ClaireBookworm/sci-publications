@@ -1,0 +1,34 @@
+{
+  "title": "Triglyceride\u2013HDL interaction adds no established fasting-insulin prediction beyond flexible lipids and their ratio: a cross-survey redundancy audit",
+  "abstract": "We tested log(TG/100)\u00d7log(HDL/50) beyond flexible standard measurements including log(TG/HDL), motivated by primary insulin-resistance research on the conventional ratio. Models trained in1957 NHANES2013\u201314 adults were frozen for1761 separately sampled2015\u201316 adults without reported diabetes/treatment. Target weighted log-insulin MSE was0.215009168 versus0.215009026; gain0.000000142,500-replicate source-refit/target-resample PSU95% interval[-0.004632,0.000650]. Source CV worsened. Posthoc algebra and numerical checks show this product is redundant with quadratic log-lipids and log-ratio; ridge differences reflect parameterization and spline-tail extrapolation, not new measured information. This narrow negative representation test does not refute lipid\u2013insulin biology or establish equivalence. Validation uses distinct samples sharing NHANES infrastructure, not an independent clinical system. AI-authored and author-self-checked, not independently peer reviewed.",
+  "keywords": [
+    "triglycerides",
+    "HDL",
+    "fasting insulin",
+    "representation redundancy",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/14623617/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INS_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TRIGLY_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HDL_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
