@@ -1,0 +1,55 @@
+{
+  "title": "Joint AST\u2013ALT information did not establish incremental cognitive-score prediction across NHANES cycles",
+  "abstract": "Among 1170 NHANES2011\u201312 training and 1391 NHANES2013\u201314 test participants aged60+, a log-AST\u00d7log-ALT interaction changed MEC-weighted DSST mean squared error from 164.527790 to 164.495284. Baseline-minus-augmented MSE was 0.032506 (target-PSU bootstrap95%CI -0.094995 to 0.166605); incremental benefit was not established.",
+  "keywords": [
+    "AST",
+    "ALT",
+    "DSST",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39042647/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "2024 investigators, Non-linear association of liver enzymes with cognitive performance in the elderly: A cross-sectional study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31365104/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "2019 investigators, Association of Altered Liver Enzymes With Alzheimer Disease Diagnosis, Cognition, Neuroimaging Measures, and Cerebrospinal Fluid Biomarkers"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC cognitive testing2011\u201312"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC biochemistry2013\u201314"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC public-use agreement"
+    }
+  ]
+}
