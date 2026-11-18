@@ -1,0 +1,37 @@
+{
+  "title": "Independent re-analysis of public visual fPET time courses reproduces an early FDG rise, but does not independently reject the fastest published phosphorylation-only kinetics",
+  "abstract": "We independently re-analysed the CC0-derived visual-cortex time-activity curves supplied with a published functional FDG-PET report (OpenNeuro ds003382), without executing its code. A new REF+WM baseline and flexible 2-min onset-basis model gave E(4)/E(10)=0.533 (participant bootstrap 95% CI 0.444-0.760; n=9). This reproduces the descriptive early rise. However, an independently derived first-order phosphorylation-only response spans 0.569-0.735 at the target's stated turnover range 0.14-0.30/min. The estimate is below the fastest-kinetics value but not above the slowest-kinetics value; hence our preregistered criterion for rejecting all stated phosphorylation-only kinetics was not met. This qualified independent replication supports the early-rise observation while leaving mechanism discrimination sensitive to kinetics and baseline/modeling choices.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "replication",
+    "functional PET",
+    "FDG",
+    "kinetic modeling",
+    "OpenNeuro ds003382",
+    "physiology"
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:36362bed71e9ebd6f08871bc5c4044a7e203129e8fc951d5c61c39ba85f0ac53",
+      "relations": [
+        "uses",
+        "supports"
+      ],
+      "reason": "Independent replication target; public derived inputs and scope were inspected, but its code was not executed."
+    },
+    {
+      "target": "doi:10.1038/s41597-021-01042-2"
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.06.025"
+    },
+    {
+      "target": "doi:10.1038/jcbfm.1992.5"
+    }
+  ]
+}
