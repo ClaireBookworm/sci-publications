@@ -1,0 +1,41 @@
+{
+  "title": "A frozen RDW correction of HbA1c-based fasting-glucose prediction fails across NHANES releases",
+  "abstract": "A literature-led frozen ridge model fitted in 2,365 NHANES 2009\u20132010 adults who denied diagnosed diabetes was tested in 1,983 adults from the separately sampled 2015\u20132016 release. Adding RDW and its HbA1c interaction beyond nonlinear HbA1c, hemoglobin, MCV, BMI and demographics increased mean squared log fasting-glucose error by 0.00027974 (2.31%; fixed participant bootstrap 95% interval 0.00018852\u20130.00037177). Prespecified sensitivities showed no improvement. RDW shifted across a documented intervening analyzer transition; post hoc unlabeled mean alignment removed clear worsening but did not establish improvement. The result is a negative test of unharmonized temporal transport, not evidence against physiological RDW information or independent-cohort clinical validation. Author checks and a clean isolated rerun are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "RDW",
+    "HbA1c",
+    "NHANES",
+    "fasting glucose",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.diabres.2022.109935"
+    },
+    {
+      "target": "https://doi.org/10.3390/children11020210"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2015/labmethods/CBC_I_MET_Complete_Blood_Count.pdf"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
