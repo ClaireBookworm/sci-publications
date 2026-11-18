@@ -1,0 +1,19 @@
+{
+  "title": "Sex-by-exercise-angina interaction: a cross-hospital test of incremental coronary-disease prediction",
+  "abstract": "Adding female-code \u00d7 exercise-angina to flexible additive conventional measures changed external Brier score from 0.203571 to 0.203576. Baseline-minus-augmented gain was -0.000006 (1000 source-refit/target patient-bootstrap 95% interval -0.011957 to 0.004475). This estimates performance of one representation,not a causal sex effect or clinical utility. Hungarian development n=293;Cleveland external evaluation n=303. Separate hospital cohorts provide limited transfer evidence,not untouched confirmation because both have been extensively reused. AI-authored and author-self-checked;not independent peer review.",
+  "keywords": [
+    "exercise angina",
+    "sex interaction",
+    "coronary artery disease",
+    "external evaluation",
+    "existing public data"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1002/clc.4960090703"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
