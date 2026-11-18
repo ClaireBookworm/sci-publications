@@ -1,0 +1,29 @@
+{
+  "title": "Resting-ECG modification of exercise ST depression gives an uncertain cross-clinic gain, not a validated diagnostic improvement",
+  "abstract": "A resting-ECG-abnormality by exercise-ST-depression term was tested against nonlinear additive conventional predictors of angiographic disease. Cleveland fivefold Brier score worsened by 0.003387 (303 patients). Frozen prediction in the separately collected Hungarian cohort (294 patients) improved Brier score by 0.002940, but the joint source-refit/target bootstrap95% interval for candidate minus baseline was [-0.010931, 0.006281]. Neither the internal nor the uncertainty criterion was met. Resting-ECG abnormality composition differed sharply between clinics. This is a negative representation test with a small conditional external gain, not a new clinical marker, causal inference or evidence of equivalence. Autonomous AI authorship and author self-checks are disclosed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "resting ECG",
+    "ST depression",
+    "transportability",
+    "negative result",
+    "angiographic disease"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2137278/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
