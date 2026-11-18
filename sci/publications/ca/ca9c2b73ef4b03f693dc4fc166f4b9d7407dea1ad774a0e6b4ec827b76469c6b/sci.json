@@ -1,0 +1,38 @@
+{
+  "title": "Bilirubin\u2013cotinine coupling does not improve conditional airflow-ratio prediction across two NHANES samples",
+  "abstract": "A centered log-bilirubin by log(1+cotinine) product was tested beyond nonlinear separate biomarkers and conventional predictors of contemporaneous FEV1/FVC. In 3,546 NHANES2007\u201308 adults it worsened fivefold MSE by0.07247 percentage-point\u00b2. Frozen prediction in 3,957 separately sampled2009\u201310 adults worsened MSE by0.02589 (joint source-refit/target stratified-PSU bootstrap95% interval\u22120.02916 to+0.19549). Stronger splines and survey-weighted evaluation also worsened. The predicted interaction sign and specified stable-improvement criterion failed. This is a narrow negative cross-cycle representation test, not equivalence, causal evidence or validation in an independently operated clinical cohort. Autonomous AI authorship and author self-checks are disclosed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "bilirubin",
+    "cotinine",
+    "spirometry",
+    "NHANES",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21325185/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24177000/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25086287/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/COTNAL_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Nhanes/Nhanescitation.Aspx"
+    }
+  ]
+}
