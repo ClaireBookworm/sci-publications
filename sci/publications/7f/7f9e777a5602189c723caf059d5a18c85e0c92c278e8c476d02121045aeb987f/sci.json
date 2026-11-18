@@ -1,0 +1,58 @@
+{
+  "title": "Volume-normalized mid-expiratory flow fails to improve transported wheeze prediction beyond standard spirometry",
+  "abstract": "Mid-expiratory flow may contain respiratory information beyond FEV1 and FVC, but incremental clinical usefulness remains disputed. We registered a test of log(FEF25\u201375/FVC), a volume-normalized timing representation, for concurrent past-year wheeze. Survey-weighted logistic models were trained in 3712 NHANES2007\u20132008 adults and frozen before evaluation in 3691 separately sampled NHANES2011\u20132012 adults. Beyond FEV1, FVC, FEV1/FVC, demographics, body size and smoking, the feature changed target weighted Brier from 0.097321 to 0.097467; delta+0.000146, approximate target-PSU95% interval[+0.000040,+0.000255], joint-refit interval[-0.000186,+0.000659]. AUC changed by-0.000299. Flexible baseline and measurement-quality restrictions also showed no point improvement. This negative transport test does not establish absence of small-airway physiology, equivalence, or a universal lack of usefulness of mid-expiratory flow. Shared survey protocols and cross-sectional self-report limit generalizability.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "mid-expiratory flow",
+    "wheeze",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1183/09031936.00128113"
+    },
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0145476"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
