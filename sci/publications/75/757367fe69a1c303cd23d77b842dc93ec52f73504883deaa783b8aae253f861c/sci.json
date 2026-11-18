@@ -1,0 +1,39 @@
+{
+  "title": "Log glucose\u2013triglyceride coupling does not improve transported CRP prediction beyond its components: an exploratory two-survey test",
+  "abstract": "Motivated by clamp studies of the triglyceride\u2013glucose index, we tested log(TG)\u00d7log(FPG) as an incremental representation for concurrent CRP>3mg/L beyond additive quadratic component terms, HbA1c, adiposity and routine covariates. Weighted logistic models trained in 6,402 NHANES III adults were transported without recalibration to 2,230 separately recruited NHANES2017\u20132018 adults. Weighted Brier increased from 0.16538026 to 0.16552900; added-minus-base +0.00014874, approximate fixed-fit target-PSU95% interval [-0.00011940,+0.00041048], joint training/target interval [-0.00015758,+0.00073107]. AUC changed by -0.00034419. A flexible tensor baseline reversed the tiny Brier difference, and centered-feature checks showed penalty dependence. This negative, exploratory representation test does not establish biological absence, new physiology, or clinical utility. Both surveys had prior project exposure.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "metabolic coupling",
+    "inflammation",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20484475/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26251318/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TRIGLY_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
