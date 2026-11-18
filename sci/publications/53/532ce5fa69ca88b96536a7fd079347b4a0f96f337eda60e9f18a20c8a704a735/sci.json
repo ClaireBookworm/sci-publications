@@ -1,0 +1,139 @@
+{
+  "title": "Phosphorus\u2013filtration coupling does not establish incremental PTH prediction across two NHANES survey datasets",
+  "abstract": "A prespecified phosphorus-by-eGFR interaction added to flexible standard mineral/kidney markers did not establish incremental log intact-PTH prediction. Source NHANES2003\u20132004 n=3772; independently sampled target2005\u20132006 n=3781. Frozen-target weighted MSE improvement was 0.000189 log-units squared (95% joint source-refit/target PSU-bootstrap interval -0.000911 to 0.001777), or 0.137%. The interval includes harm. Unweighted and sex-stratified checks were inconsistent. These are separate cross-sectional survey datasets, not an external-cohort validation. The result is a narrow negative predictive test, not equivalence or a rejection of phosphate\u2013PTH physiology. AI-authored and author-self-checked; not independently peer reviewed.",
+  "keywords": [
+    "phosphorus",
+    "PTH",
+    "eGFR",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3741045/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary demographic/dietary/serum PTH association study"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2615703/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary NHANES eGFR and PTH study"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021",
+      "relations": [
+        "uses"
+      ],
+      "reason": "2021 race-free eGFR equation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis conditions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/vitamind/analyticalnote.aspx",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Standardized vitamin D equivalents"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_C.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_C.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "L40_C.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "L11_C.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VID_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "VID_C.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQ_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SMQ_C.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_D.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_D.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_D.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PTH_D.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VID_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "VID_D.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SMQ_D.xpt documentation"
+    }
+  ]
+}
