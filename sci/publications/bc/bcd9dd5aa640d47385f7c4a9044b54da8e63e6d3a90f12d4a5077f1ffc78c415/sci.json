@@ -1,0 +1,36 @@
+{
+  "title": "Urine osmolality-to-creatinine ratio did not establish incremental cross-cycle prediction of serum glucose beyond HbA1c",
+  "abstract": "A fixed spline representation of urine osmolality-to-creatinine ratio was tested for incremental prediction of log serum glucose beyond HbA1c, demographics, BMI, serum creatinine and nonlinear separate urinary markers. Models were fitted in 5,348 NHANES 2009\u20132010 adults and transported without refitting to 4,579 NHANES 2011\u20132012 adults. Target RMSE changed from 0.174734 to 0.174727 natural-log units. Delta MSE was -0.00000252 (paired participant-bootstrap 95% interval -0.00016490 to 0.00015998); prespecified superiority was not established. The weighted point estimate favored the comparator. Joint refit uncertainty and subgroup/representation challenges did not support a stronger claim. These are separately sampled survey releases under a shared protocol, not independent clinical programmes. This negative result neither excludes renal glucose effects nor establishes equivalence.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urine osmolality",
+    "urine creatinine",
+    "HbA1c",
+    "serum glucose",
+    "incremental prediction",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794013/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34003332/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/index.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    }
+  ]
+}
