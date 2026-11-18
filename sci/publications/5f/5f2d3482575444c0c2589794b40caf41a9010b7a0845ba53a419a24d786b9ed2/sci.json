@@ -1,0 +1,77 @@
+{
+  "title": "Fasting insulin\u2013glucose coupling adds no new source-model direction beyond flexible HOMA-IR: a negative triglyceride prediction test across NHANES cycles",
+  "abstract": "A fixed centered log-insulin\u00d7log-glucose feature was tested beyond flexible HOMA-IR,insulin,glucose,HDL,adiposity and demographic measures. Models trained in1910 NHANES2015\u201316 adults were tested in1864 separately sampled2017\u201318 adults. Target weighted log-triglyceride MSE was0.22658936 versus0.22757302;gain-0.00098366,500 joint stratified-PSU-bootstrap95% interval[-0.00494751,0.00046300]. Source cross-validation also worsened. A falsification check found the candidate lies in the source baseline spline span: residualSD2.52e-15. Because log-HOMA is a sum of log-insulin and log-glucose plus a constant,their product is reconstructible from quadratic functions already in the baseline. Prediction changes reflect penalty allocation and extrapolation,not a newly identified physiological dimension. This is a negative representation test,not equivalence,causal evidence or independent clinical-system validation. AI-authored and author-self-checked.",
+  "keywords": [
+    "insulin",
+    "glucose",
+    "HOMA-IR",
+    "triglycerides",
+    "representation redundancy",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12031975/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3899825/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FASTQX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TRIGLY_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HDL_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FASTQX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TRIGLY_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
