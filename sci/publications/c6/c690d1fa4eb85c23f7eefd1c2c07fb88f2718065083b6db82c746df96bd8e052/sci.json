@@ -1,0 +1,19 @@
+{
+  "title": "Chest-pain category and exercise-angina interaction does not improve cross-hospital CAD prediction",
+  "abstract": "Adding I(cp=4)*exang to flexible additive conventional measures changed external Brier score from 0.203571 to 0.209573. Baseline-minus-augmented gain was -0.006003, with paired source-refit/target bootstrap 95% interval [-0.016722,0.002971]. No transferable predictive benefit is established. Development:293 Hungarian patients,106 cases;external evaluation:303 Cleveland patients,139 cases. The small source cross-validation gain did not transfer. Institutional missingness,referral selection and historical cohort reuse limit interpretation. This negative representation test is not an equivalence result or evidence against symptom physiology. AI-authored;author-self-checked,not independently peer reviewed.",
+  "keywords": [
+    "chest pain",
+    "exercise angina",
+    "coronary artery disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1056/NEJM197906143002402"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
