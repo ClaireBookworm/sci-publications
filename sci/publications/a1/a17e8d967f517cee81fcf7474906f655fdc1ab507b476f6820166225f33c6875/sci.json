@@ -1,0 +1,54 @@
+{
+  "title": "Bilateral grip-change discordance gives a small but training-uncertain arthritis prediction gain across NHANES samples",
+  "abstract": "Bilateral grip-change discordance produced a small transferred Brier gain (0.00022377, 0.116%) for self-reported arthritis, but the source-target refit interval includes zero; incremental prediction was not established. Models trained on 2953 NHANES2011\u20132012 adults aged40+ were transferred without target fitting to 3243 NHANES2013\u20132014 adults. Target weighted Brier loss changed 0.19369779 to 0.19347402; conditional target-PSU95% gain interval [0.00010489766779248629, 0.0003328779042481955], full preprocessing source-target-PSU refit interval [-0.0006577637216108315, 0.0006629791983155717]. The comparator included flexible strength, asymmetry, variability, mean trend, anthropometry, demographics and hand symptoms. This is not a hand-arthritis diagnostic study and does not establish equivalence or clinical utility.",
+  "keywords": [
+    "repeated grip",
+    "arthritis",
+    "incremental prediction",
+    "NHANES",
+    "training uncertainty"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33709458/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Lee et al. Handgrip strength: Should repeated measurements be performed in both hands? Geriatr Gerontol Int.2021;21:426\u2013432. doi10.1111/ggi.14146."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34333399/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Impairments in grip and pinch force accuracy and steadiness in people with osteoarthritis of the hand: A case-control comparison. Primary study motivating force-control information beyond peak force."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC repeated-grip protocol, variables and effort codes."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MCQ_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC arthritis outcome question."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS public-use data terms; no reidentification or restricted linkage."
+    }
+  ]
+}
