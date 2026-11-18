@@ -1,0 +1,46 @@
+{
+  "title": "Octave-scale audiogram roughness adds no demonstrated predictive value beyond bilateral hearing averages: temporal NHANES validation",
+  "abstract": "Pure-tone averages discard audiogram shape. We tested the mean absolute second difference across five octave-spaced thresholds, averaged over both ears, as a predictor of concurrent self-reported hearing trouble. A survey-weighted logistic model trained in 3817 NHANES2011\u20132012 adults aged20\u201369 was transported unchanged to 4263 separately recruited NHANES2015\u20132016 adults. The baseline included age, sex, education, race/ethnicity, better- and worse-ear PTA4 and bilateral high-frequency thresholds. Adding roughness changed weighted Brier from 0.124570 to 0.124456 (delta-0.000114; approximate target-PSU95% interval-0.000317 to+0.000097; joint-refit interval-0.000383 to+0.000304). AUC changed by+0.000190. Superiority was not established. Flexible comparators and measurement restrictions test robustness but do not support a new clinical marker. This is a negative representation test of cross-sectional self-report, not proof of no auditory information; shared survey protocols limit external validity.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiogram shape",
+    "hearing trouble",
+    "pure-tone average",
+    "negative result",
+    "temporal transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1177/23312165231160978"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29254853/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
