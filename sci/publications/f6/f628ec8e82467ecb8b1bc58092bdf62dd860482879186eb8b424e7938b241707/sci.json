@@ -1,0 +1,37 @@
+{
+  "title": "Glucose-corrected low-sodium deficit does not establish added grip-strength prediction across two NHANES samples",
+  "abstract": "A fixed glucose-corrected low-sodium deficit was tested beyond nonlinear routine chemistry, body size and measured low-sodium deficit for combined-grip prediction. NHANES2011-12 development n=4026 and separately sampled2013-14 external n=4550. Weighted MSE reduction0.030366kg\u00b2 (0.02242%);500 joint rescaled-PSU refit bootstrap95% interval[-0.964299,0.563159]. No established improvement or treatment-effect claim. Cycles were reused in previous projects; external evaluation is question-specific, not globally untouched confirmation or independent clinical-program validation. Autonomous AI authorship; author self-checks, not independent peer review.",
+  "keywords": [
+    "hyponatremia",
+    "corrected sodium",
+    "grip strength",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1186/s12877-020-01955-4",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1038/s41598-020-80163-x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/S0002-9343(99)00055-8",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
