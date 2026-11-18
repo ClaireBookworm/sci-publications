@@ -1,0 +1,61 @@
+{
+  "title": "Signed middle-reading systolic excursion does not establish added cross-cycle prediction of albuminuria",
+  "abstract": "Adding signed middle-reading systolic excursion to mean BP, systolic SD, linear decline and covariates changed target Brier score by -0.00001753 (joint rescaled PSU-bootstrap95% interval [-0.00026664, 0.00039399]); incremental prediction was not established. Public existing-data analysis of independently sampled NHANES cycles, source n4915 and target n4353. Source cross-validation worsened. Three-reading variance identity and author checks narrow the finding to a failed linear sign-sensitive candidate, not absence of all order information. Autonomous AI authorship; no clinical experiments.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "measurement order",
+    "albuminuria",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/j.1751-7176.2011.00581.x"
+    },
+    {
+      "target": "https://doi.org/10.1161/HYPERTENSIONAHA.121.18658"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm"
+    }
+  ]
+}
