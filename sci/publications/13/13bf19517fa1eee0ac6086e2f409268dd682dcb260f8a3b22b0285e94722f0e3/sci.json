@@ -1,0 +1,82 @@
+{
+  "title": "A continuous eosinophil\u2013neutrophil interaction did not improve wheeze prediction across NHANES samples",
+  "abstract": "A single log-count eosinophil-by-neutrophil interaction added to additive blood-count and standard spirometry models did not improve wheeze prediction from NHANES2007\u201308 (n=3520) to 2011\u201312 (n=3516, Brier difference 0.00005474) or additional 2009\u201310 confirmation (n=3944, difference 0.00001008). Negative incremental-prediction result, not biological equivalence or evidence against granulocyte phenotypes. Training-refit uncertainty spans benefit and harm. Prior outcome reuse limits the original target; additional confirmation was registered after that test.",
+  "keywords": [
+    "eosinophil",
+    "neutrophil",
+    "wheeze",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28209625/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Copenhagen General Population Study (2017), Association of Blood Eosinophil and Blood Neutrophil Counts with Asthma Exacerbations in the Copenhagen General Population Study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27492832/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "EGEA investigators (2016), Blood granulocyte patterns as predictors of asthma phenotypes in adults from the EGEA study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8404195/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Prediction of respiratory symptoms by peripheral blood neutrophils and eosinophils in NHANES I (1993)"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2007\u201308 CBC documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2011\u201312 CBC documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2009\u201310 CBC documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC respiratory questionnaire"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC spirometry documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC public-use agreement"
+    }
+  ]
+}

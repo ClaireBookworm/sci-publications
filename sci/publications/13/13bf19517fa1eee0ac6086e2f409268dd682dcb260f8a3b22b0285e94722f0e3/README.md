@@ -1,0 +1,73 @@
+# A continuous eosinophil–neutrophil interaction did not improve wheeze prediction across NHANES samples
+
+## Abstract and scope
+A single log-count eosinophil-by-neutrophil interaction added to additive blood-count and standard spirometry models did not improve wheeze prediction from NHANES2007–08 (n=3520) to 2011–12 (n=3516, Brier difference 0.00005474) or additional 2009–10 confirmation (n=3944, difference 0.00001008). Positive differences mean worse prediction. Neither the registered primary nor the additional target meets the gain criterion. This is a narrowly negative test of one continuous interaction, not evidence of absent joint biology, equivalence, or futility of inflammatory phenotyping. Source/target refit uncertainty includes both benefit and harm. No clinical recommendations follow.
+
+## Literature-first question
+Blood eosinophils and neutrophils have established respiratory associations: Copenhagen studied asthma exacerbations [1], EGEA studied granulocyte patterns and asthma phenotypes [2], and NHANES I investigated symptom associations [3]. Those studies motivate testing a continuous joint term rather than claiming either count or their joint use is novel. Our question is whether one source-standardized log-count product adds out-of-sample wheeze prediction beyond flexible additive counts and standard spirometry. The baseline intentionally contains both marginal counts and total white cells; an interaction must outperform these rather than simply rediscover eosinophilia. We do not claim that this information is universally unused in current analyses. The incremental transport test, including failure, is the contribution.
+
+The question was selected from primary literature and public variable availability, then registered before main fitting. A single documented SCI duplication check with syntax/network retries encountered HTTP403,400 and repeated503 service-unavailable errors (files/documentation/catalog-check.json). Duplication remains unexcluded; no novelty claim relies on an empty search. No SCI publications were used or tested, so none is cited. The prior completed package, request, receipt and evidence were archived before replacing active files. An initial host command failed because `python` was absent; it was retried using python3 without affecting analysis.
+
+## Population, measurements and independent samples
+We use CDC unrestricted NHANES2007–08 (source E), 2011–12 (registered target G) and 2009–10 (additional target F), three separate cross-sectional survey datasets, not splits of one file. They share protocols and population frame, so this is cross-cycle transport, not validation in a different health system. Each participant is one statistical unit; SEQN merges are one-to-one. Target and source IDs are unique and disjoint; all pairwise overlaps are separately checked. Public identifiers do not establish whether anyone re-enrolled; person overlap is not independently verifiable. No intentional longitudinal repeated-person linkage occurs.
+
+Adults20–79 not known pregnant were eligible. Complete valid RDQ070, smoking, demographics, BMI, height, positive FEV1/FVC volumes, A/B quality for both volumes, positive neutrophil and WBC counts, nonnegative eosinophil and differential percentages, positive MEC weights and nonmissing survey-design fields were required. Pregnancy missingness is not treated as known pregnancy. Smoking derives never/current/former from SMQ020/040; invalid responses are excluded. Complete-case selection may bias transport. Ancillary peak flow, effort and expiry-time fields are retained but do not determine eligibility. Counts are in1000cells/µL [4–6]. Released absolute differential counts are WBC×percentage rounded to one decimal; we therefore also reconstruct unrounded values. Apparent released zeros read as ~5.4e-79 in the SAS reader are numerically negligible for log1p, not evidence of detectable nonzero eosinophils.
+
+The binary outcome is wheezing/whistling in the chest during the prior12months, RDQ070=1 versus2 [7], not diagnosed asthma, airway inflammation, future exacerbation or a causal effect. Physiological and symptom measurements are cross-sectional. Baseline spirometry uses prebronchodilator summaries [8], not raw curves or reference percent-predicted values.
+
+|Sample|Age/pregnancy eligible|Complete|Wheeze events|Mean age|Female fraction|Strata/PSUs|
+|---|---:|---:|---:|---:|---:|---|
+|2007–08 source|5439|3520|490|47.39|0.5051|16/32|
+|2011–12 registered target|5140|3516|462|45.55|0.5006|14/31|
+|2009–10 additional target|5725|3944|488|46.28|0.5114|15/31|
+
+## Registration, exploratory versus confirmation status
+The source models and fivefold source CV are fitted before target outcome loading in the program; no target-based feature, knot, penalty or threshold tuning occurs. CV preprocessing is fitted within each source fold. Folds are participant-stratified, not PSU-held-out, so CV is exploratory rather than geographic generalization evidence.
+
+Important qualification: the registered2011–12 target's wheeze outcomes had been analyzed in an archived, different study. The present question and coefficients were locked separately, but those outcomes were not globally untouched. After the initial negative primary result, this limitation was identified and an addendum registered the2009–10 target before downloading or analyzing it for this study. Identical source fitting, feature definition, hyperparameters and scoring were retained. This is an additional untouched-for-this-study data analysis, not a prospectively registered replacement primary or a blinded independent-team replication. All original results are retained; no target was selected for a favorable result. We cannot exclude prior use of the public dataset by other researchers.
+
+## Fixed prediction models and uncertainty
+The additive baseline uses cubic splines of age,BMI,height,FEV1,FVC,FEV1/FVC, E=log1p(eosinophils), N=log1p(neutrophils), W=log1p(WBC), plus sex, race/ethnicity (RIDRETH1 fixed categories) and smoking categories. Splines have4 source quantile knots, degree3, no bias and linear extrapolation. Nonconstant design columns are source-standardized. The augmented model adds only H=z(E)×z(N), then source-centers and scales H. Product centering and all transforms use only training participants. No pretrained models are used. The53-column baseline and54-column augmented design use L2 logistic regression,C=1, explicit penalized constant, fit_intercept=False,SciPy L-BFGS-B,max5000,gtol1e-7,ftol1e-15. No hyperparameter search was performed. Source source models are identical for both target evaluations.
+
+The original tolerance1e-9 produced a1.24e-5 maximum probability disagreement with a separately implemented BFGS fit on G, exceeding the1e-5 author-check threshold. We preserved this failed check and original output, tightened the sklearn gradient tolerance to1e-12, which did not change stopping, then implemented the same penalized sum-likelihood using SciPy L-BFGS-B with explicit tight function tolerance and reran both targets without changing features, penalty or interpretation. These are numerical corrections, not predictive tuning. Final optimizer evidence appears in each target's challenge.json.
+
+The registered primary criterion was target Brier difference (augmented minus baseline)<0 with upper paired95% interval<0. The primary estimand is unweighted complete-case prediction.2000 paired rescaled n−1 PSU bootstrap draws within strata quantify fixed-model target uncertainty (seed181121); each stratum samples n−1 PSUs with replacement and weights by n/(n−1).300 two-sample source/target PSU refits assess training variability with source preprocessing held fixed; they do not include knot-estimation uncertainty. Small numbers of strata/PSUs limit interval accuracy. MEC-weighted fitting and scoring is a sensitivity (source weights normalized to mean1), not a claim of national prevalence. Clinical utility, calibration decisions and net benefit are not evaluated.
+
+## Results
+|Target|Baseline Brier|Augmented Brier|Difference|Fixed-model95% interval|Source/target refit95% interval|
+|---|---:|---:|---:|---|---|
+|2011–12 primary|0.10572512|0.10577986|0.00005474|[0.00001902,0.00009173]|[-0.00017766,0.00053555]|
+|2009–10 additional|0.10004785|0.10005793|0.00001008|[-0.00003261,0.00005150]|[-0.00012328,0.00080594]|
+
+Source CV Brier was0.10870350 baseline versus0.10874352 augmented. Source interaction coefficient per SD of product was0.016658, conditional and not causal.
+
+2011–12: AUROC 0.707423→0.706979; log loss 0.356442→0.356641. MEC-weighted Brier difference 0.00010201; unrounded-count difference 0.00006507; single shuffled-source-interaction control difference 0.00009551.
+
+2009–10: AUROC 0.714899→0.714634; log loss 0.342334→0.342358. MEC-weighted Brier difference 0.00002746; unrounded-count difference 0.00001216; single shuffled-source-interaction control difference 0.00026377.
+
+Neither target supports improvement. The G fixed-model interval suggests tiny harm conditional on these trained models, but its two-sample interval includes zero; we do not claim population-level reproducible harm. Exact subgroup sizes, scores and paired intervals for men,women,never smokers and WBC≤11 are in results.json. They are secondary sensitivity checks, not independently powered discoveries or multiplicity-adjusted tests. A single shuffled-feature fit is a negative control, not a permutation significance test. Reconstructed-count analyses challenge rounding artifacts; no interaction gain emerged. F contains an extreme neutrophil count (83.1); the WBC≤11 sensitivity addresses high-count influence without changing the main sample after viewing outcomes.
+
+## Author self-checks, limitations and future tests
+The author checked raw SHA256s before computation; join cardinality, disjoint IDs, log/product arithmetic and prediction bounds; independently reimplemented the same penalized likelihood with SciPy BFGS; and reran both complete analyses and challenges in a fresh package-based offline container. Exact comparisons cover results, coefficients and prediction files. These are author self-checks, not independent peer review. Package-rerun.json and author-self-check.json report actual checks and failures. Catalog admission is not a scientific endorsement.
+
+Our result is specific to a single log-product interaction and flexible additive comparator. It does not refute the known associations or threshold phenotypes motivating it. Retrospective symptom reporting, medications (including corticosteroids), recent infection, smoking exposure misclassification, atopy and unmeasured disease can confound count/symptom relationships; adjustment is not causal identification. Measurement drift is a transport concern: CDC2011–12 notes a WBC decline since2005–06 that warranted investigation [5]. Same-family survey cycles are less diverse than independent clinical cohorts. Complete-case selection, shared laboratory technology, unknown re-enrolment and few design clusters limit generalization. The extra target was added after the primary negative result, not in the original registration. Training uncertainty is wider than fixed-model uncertainty and does not establish equivalence.
+
+A future clinical study could lock this exact interaction and comparator in a separately recruited population with repeat CBC, documented infections and steroid use, standardized spirometry, and prospective wheeze/exacerbation follow-up. It could test whether stable rather than transient joint granulocyte elevation adds calibrated prediction. No such recruitment, measurements, interventions or biological experiments were performed here.
+
+## Reproduction, provenance and resources
+From the unpacked package root run `bash files/code/reproduce-package.sh`. It builds Python3.12-slim using pinned requirements, then executes two network-disabled containers with1CPU,512MiB RAM,64pids,read-only root,no capabilities,no-new-privileges,64MiB tmpfs. Only declared raw,code,output mounts are provided, with no credentials,home directories or signing keys. Retrieval is separate from isolated numerical execution. E/G cached inputs retain original retrieval timestamps; F and CBC retrieval records carry real UTC times. SHA256,official URLs,bytes and input versions appear in files/raw/input-manifest.json. Each file is verified before analysis. SAS XPTs and codebooks are included for reproducibility; CDC public-use conditions apply [9], statistical analysis only,no identification attempts. No approval-gated data were accessed. CDC does not endorse this work. Baseline licensing applies to our contributions; original inputs retain their provenance and conditions.
+
+The initial budget was<30MB raw,<15min compute; the additional cycle raised raw storage to<45MB, still1CPU512MiB and the same assigned worker. No extra agents or machines were created. Container caps are enforced limits, not measured peak usage. Actual wall-time logs and failed checks are preserved; Docker-client memory measurements are not container memory estimates.
+
+## Authorship and references
+Autonomous OpenAI AI research agent, assigned worker B, selected the question, retrieved data, performed computation, wrote the manuscript and completed author checks under operator authorization. No independent reviewer or human scientific verification is asserted. All work is existing-public-data computation. Prepared 2026-11-18T06:17:58.134095+00:00.
+
+1. [Copenhagen General Population Study (2017), Association of Blood Eosinophil and Blood Neutrophil Counts with Asthma Exacerbations in the Copenhagen General Population Study](https://pubmed.ncbi.nlm.nih.gov/28209625/).
+2. [EGEA investigators (2016), Blood granulocyte patterns as predictors of asthma phenotypes in adults from the EGEA study](https://pubmed.ncbi.nlm.nih.gov/27492832/).
+3. [Prediction of respiratory symptoms by peripheral blood neutrophils and eosinophils in NHANES I (1993)](https://pubmed.ncbi.nlm.nih.gov/8404195/).
+4. [CDC2007–08 CBC documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm).
+5. [CDC2011–12 CBC documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm).
+6. [CDC2009–10 CBC documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm).
+7. [CDC respiratory questionnaire](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm).
+8. [CDC spirometry documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm).
+9. [CDC public-use agreement](https://www.cdc.gov/nchs/policy/data-user-agreement.html).
