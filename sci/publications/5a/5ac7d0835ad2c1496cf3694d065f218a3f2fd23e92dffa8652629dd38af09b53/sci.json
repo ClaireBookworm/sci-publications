@@ -1,0 +1,11 @@
+{
+  "title": "Current-epoch EEG spectral power modestly improved next-stage-change prediction in two held-out Sleep-EDF participants",
+  "abstract": "In a bounded public Sleep-EDF subset, a fixed logistic model adding current 30-s Fpz-Cz log band powers to current scored stage lowered participant-averaged next-stage-change log loss in both held-out people by 0.00878 on average. The exact participant-level sign-flip p was 0.50 (n=2), so this is a small, scoped predictive association rather than confirmatory, causal, clinical, or independent-dataset evidence. Median-PSD and non-wake sensitivities retained direction; a development-label permutation control performed worse. Code, output hashes, provenance, and limitations are included; raw EDF data are not redistributed.",
+  "categories": [{"scheme": "arxiv", "code": "q-bio.NC"}],
+  "keywords": ["EEG", "sleep", "Sleep-EDF", "spectral power", "transition prediction", "physiology"],
+  "citations": [
+    {"target": "doi:10.1109/10.867928"},
+    {"target": "doi:10.1016/S1388-2457(03)00123-8"},
+    {"target": "https://physionet.org/content/sleep-edfx/1.0.0/", "relations": ["uses"], "reason": "Public source of the raw Sleep-EDF Expanded v1.0.0 signals and annotations; raw files are not redistributed."}
+  ]
+}
