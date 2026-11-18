@@ -1,0 +1,32 @@
+{
+  "title": "Bicarbonate\u2013chloride interaction adds a tiny, non-robust cross-cycle gain in handgrip prediction",
+  "abstract": "Exploratory NHANES2011-12 to2013-14 adults40+ analysis: bicarbonate\u00d7chloride interaction reduces unweighted combined-grip MSE by 0.360034 kg\u00b2 (400PSU-refit95% interval[0.027943,0.780069]);RMSE improves0.0158kg. Population-weighted and stronger sex/body-size-baseline intervals cross zero. No independent-system validation or clinical utility established.",
+  "keywords": [
+    "electrolytes",
+    "grip strength",
+    "NHANES",
+    "interaction",
+    "cross-cycle validation",
+    "exploratory analysis"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3118983/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data/nhanes/nhanes_release_policy.pdf"
+    }
+  ]
+}
