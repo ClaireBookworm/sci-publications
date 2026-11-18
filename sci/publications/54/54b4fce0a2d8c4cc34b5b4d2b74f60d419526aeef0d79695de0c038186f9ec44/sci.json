@@ -1,0 +1,28 @@
+{
+  "title": "Sex-dependent urinary-creatinine calibration modestly improves cross-cycle prediction of urine osmolality",
+  "abstract": "Among complete-case adults in NHANES 2009\u201310 (development n=5362) and 2011\u201312 (external-cycle n=4586), adding a female-by-log-urinary-creatinine term to flexible additive demographic and creatinine predictors reduced external weighted log-osmolality MSE from 0.090604 to 0.090053. Gain was 0.000551 (0.61% relative; 500 source-refit/target PSU-bootstrap 95% interval 0.000190 to 0.000910). Benefit was small, female-driven, and not evident with a linear-main-effects baseline. Distinct survey releases, not random splits, provide limited transfer evidence within NHANES, not untouched independent clinical validation. No disease or clinical utility claim. AI-authored and author-self-checked; not independently peer reviewed.",
+  "keywords": [
+    "urine osmolality",
+    "urinary creatinine",
+    "sex-dependent calibration",
+    "NHANES",
+    "external prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.envres.2014.09.009"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
