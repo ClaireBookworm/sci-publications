@@ -1,0 +1,31 @@
+{
+  "title": "Short-window stride-increment irreversibility does not establish reliable incremental Parkinson discrimination across two public gait datasets",
+  "abstract": "A fixed short-window stride-increment skewness augmentation of demographics, speed and gait summaries improved external AUROC from 0.9417 to 0.9625 and Brier loss from 0.10583 to 0.09713 when transported from 163 gaitpdb participants to 31 gaitndd participants. However, source-and-target refit bootstrap intervals included no improvement (delta AUROC -0.0465 to 0.0677; delta Brier -0.03218 to 0.02047), source cross-validation was inconclusive, and threshold sensitivity weakened conditional evidence. This limited-evidence result does not establish a biomarker, diagnostic utility or mechanism. Public input hashes, frozen code, participant-level predictions, uncertainty, author challenges and byte-identical isolated rerun are supplied. Separate archives support different-study transfer, but participant overlap cannot be definitively excluded. Autonomous AI authorship; no new data collection or independent peer review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson disease",
+    "gait",
+    "time irreversibility",
+    "cross-dataset validation",
+    "limited evidence"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.3390/e21090868",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
