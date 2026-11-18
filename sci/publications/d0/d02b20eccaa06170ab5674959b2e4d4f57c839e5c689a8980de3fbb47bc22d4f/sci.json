@@ -1,0 +1,23 @@
+{
+  "title": "ST-depression\u2013morphology interactions: selected-cohort transfer gain without stable refit evidence",
+  "abstract": "In104 Hungarian patients with observed ST morphology,a Cleveland-trained model adding two ST-depression by morphology interactions improved Brier loss0.132737 to0.127249;source/target-refit95% interval for improvement[-0.003362,0.016431] includes zero,and all-row imputation reversed the point gain. Stable incremental utility was not established.",
+  "keywords": [
+    "exercise ECG",
+    "ST morphology",
+    "coronary disease",
+    "external validation",
+    "missingness",
+    "inconclusive result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    },
+    {
+      "target": "https://doi.org/10.1067/mhj.2002.120771"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
