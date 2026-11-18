@@ -1,0 +1,28 @@
+{
+  "title": "Low-frequency audiogram curvature does not establish incremental prediction of diagnosed diabetes across NHANES samples",
+  "abstract": "In separately sampled NHANES 2001\u20132002 training and 2003\u20132004 confirmation adults, bilateral 1-kHz audiogram curvature did not establish improved prediction of reported diagnosed diabetes beyond conventional hearing summaries and risk factors. Target weighted Brier gain was \u22120.001262 (source/target PSU-refit 95% interval \u22120.003628 to +0.000513;1702 adults,137 cases). This is a scoped negative result, not proof that audiogram shape lacks metabolic information.",
+  "keywords": [
+    "audiogram",
+    "curvature",
+    "diabetes",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18559825/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20097782/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DIQ_C.htm"
+    }
+  ]
+}
