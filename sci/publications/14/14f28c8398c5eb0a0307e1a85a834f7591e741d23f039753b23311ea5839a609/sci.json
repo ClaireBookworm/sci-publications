@@ -1,0 +1,23 @@
+{
+  "title": "ST depression and peak-heart-rate deficit across Cleveland and Hungarian cohorts: a conditional gain without stable refit evidence",
+  "abstract": "A prespecified ST-depression \u00d7 age-predicted peak-heart-rate-deficit interaction was added to a flexible clinical/exercise-ECG logistic model trained in 303 UCI Cleveland patients and frozen for 261 complete-case Hungarian patients. Hungarian Brier loss improved from 0.136670 to 0.130820 (gain0.005850;conditional95% interval0.002083\u20130.009700),but source/target bootstrap refits spanned\u22120.011398 to0.019693 and Cleveland cross-validation worsened by0.000843. A post-confirmation full-quadratic challenge reduced incremental gain to0.000182 while worsening absolute performance. Thus one frozen model transfers favorably,but stable incremental physiological utility is not established. This derived interaction is not measured chronotropic reserve,ST/HR slope,or a new biomarker. Author checks and a clean offline rerun are included.",
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "chronotropic response",
+    "coronary artery disease",
+    "external validation",
+    "representation sensitivity"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8989133/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2756873/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
