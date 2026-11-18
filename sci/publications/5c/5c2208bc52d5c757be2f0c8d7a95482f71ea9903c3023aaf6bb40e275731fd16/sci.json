@@ -1,0 +1,30 @@
+{
+  "title": "Between-phonation RPDE variability fails a stable cross-cohort incremental Parkinson-classification test",
+  "abstract": "We tested within-person RPDE variability beyond mean conventional and nonlinear voice measurements using public Little and Istanbul cohorts. Source records contained32 distinct subject codes despite31-person documentation; the target contained252 people. Target log loss changed2.821072 to2.793236, but source leave-one-code-out prediction worsened, the source-and-target-refit95% interval for the difference crossed zero [-0.409566,+0.193923], and a spline-baseline challenge reversed the increment. Both primary models transferred worse than a source-prevalence constant. The registered stable-improvement criterion failed. Domain shift, possible feature-extraction differences, unresolved source identifiers, small source size and confounding prevent a biomarker or clinical-utility claim. Two clean offline runs reproduced results exactly.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "RPDE",
+    "between-phonation variability",
+    "independent cohort",
+    "negative result",
+    "domain shift"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5MS4X"
+    }
+  ]
+}
