@@ -1,0 +1,34 @@
+{
+  "title": "Pulse-pressure reserve failed an all-record cross-hospital CAD prediction test; missingness explained most apparent harm",
+  "abstract": "Fixed models trained in 294 Budapest patients were transferred to 200 VA Long Beach patients. Adding exercise pulse-pressure reserve beyond noninvasive risk/exercise measures and pressure components worsened log loss from 0.980160 to 1.015899 (difference +0.035739; conditional 95% interval +0.024575 to +0.047888; joint source/target refit interval -0.007124 to +0.064066). The 139 complete-pressure records showed essentially no change (-0.000298; conditional interval -0.004417 to +0.003857). Missingness was 1/294 versus 61/200. A missingness-only feature reproduced most apparent harm; an exploratory no-added-indicator ablation reduced the difference to +0.005261. This all-record audit substantially overlaps prior SCI diastolic-rise work, with no biomarker novelty claimed. Independent recruiting institutions supplied the datasets, but global linkage is unavailable. Author self-checks and clean offline reruns were completed. No incremental utility or physiological harm is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "pulse pressure",
+    "coronary disease",
+    "external validation",
+    "missingness",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3710579/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7594096/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    },
+    {
+      "target": "sci:sha256:e2763961ae0b6c98c07b903c52b212c41e702ecdccf1838ccdc10408b437f68e"
+    }
+  ]
+}
