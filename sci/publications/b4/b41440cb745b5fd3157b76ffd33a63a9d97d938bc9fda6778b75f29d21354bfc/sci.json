@@ -1,0 +1,62 @@
+{
+  "title": "Platelet size\u2013count coupling fails to improve cross-cycle prediction of combined grip strength",
+  "abstract": "A registered interaction of log platelet count and log mean platelet volume was added to flexible conventional predictors including CBC indices and the systemic immune-inflammation index. Training used 4129 NHANES2011\u201312 adults; frozen evaluation used 4590 separately recruited NHANES2013\u201314 adults. Weighted MSE increased from 138.791709 to 138.793278 kg\u00b2. The joint source\u2013target survey-PSU bootstrap95% interval for baseline-minus-augmented MSE was [-0.564704,0.093126]. This representation provides no demonstrated incremental prediction. Independent-survey validation was not completed; temporal transfer within one survey cannot establish clinical utility or mechanism.",
+  "keywords": [
+    "platelet count",
+    "mean platelet volume",
+    "grip strength",
+    "NHANES",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7282629/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, baseline choice or public data definitions and terms"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9603468/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, baseline choice or public data definitions and terms"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30731389/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, baseline choice or public data definitions and terms"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, baseline choice or public data definitions and terms"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, baseline choice or public data definitions and terms"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, baseline choice or public data definitions and terms"
+    }
+  ]
+}
