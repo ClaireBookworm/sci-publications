@@ -1,0 +1,27 @@
+{
+  "title": "Minor leukocyte fractions do not establish added log-CRP prediction across NHANES samples",
+  "abstract": "Eosinophil and basophil percentages are omitted from common leukocyte ratio summaries. We fitted fixed weighted spline-ridge models in 4,385 NHANES 2005\u20132006 adults and evaluated them without target refitting in 5,646 adults from the separately sampled 2009\u20132010 release. Adding minor fractions to age, BMI, sex, race/ethnicity, WBC, NLR, MLR and platelet count changed weighted log-CRP MSE from 1.1985742 to 1.1982641. Gain was 0.0003101, conditional rescaled-PSU bootstrap 95% interval [-0.0045929, 0.0055457], and source/target coefficient-refit uncertainty included zero. All five source cross-validation folds worsened; normal-WBC, stronger blood-index and absolute-major-cell controls reversed the tiny target gain. This is a scoped negative test, not equivalence or evidence against all differential-cell information. Separate same-program samples do not establish independent-study transport; prior CRP use in these releases also prevents calling this pristine confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "eosinophils",
+    "basophils",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "transport evaluation"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.mayocp.2020.11.027",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary comparison of conventional immune markers motivated the question, not a replication of its mortality analysis."
+    }
+  ]
+}
