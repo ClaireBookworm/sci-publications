@@ -1,0 +1,34 @@
+{
+  "title": "Granulocyte-to-lymphocyte balance does not clearly improve cross-survey elevated-CRP prediction beyond separate nonlinear counts",
+  "abstract": "We tested whether a fixed granulocyte/lymphocyte ratio adds predictive structure beyond separate nonlinear counts and routine inflammation correlates. Weighted logistic models trained on 14,135 NHANES III adults were transported unchanged to 4,594 separately recruited NHANES2017\u20132018 adults. For concurrent CRP>3mg/L, weighted Brier changed from 0.17352038 to 0.17366381: added-minus-baseline +0.00014344, approximate target-PSU95% interval [-0.00019254, +0.00044550]. AUC changed by -0.00021934. Discovery out-of-fold Brier also worsened. Joint-refit intervals crossed zero. This did not establish incremental prediction; it is neither equivalence nor absence of biological association. Historical Coulter granulocytes and a modern sum of neutrophils, eosinophils and basophils are imperfectly harmonized. These previously reused survey cohorts are not pristine program-level confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "granulocytes",
+    "lymphocytes",
+    "inflammation",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0112361"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
