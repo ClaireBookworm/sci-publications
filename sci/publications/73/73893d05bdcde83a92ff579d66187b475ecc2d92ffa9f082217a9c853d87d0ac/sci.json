@@ -1,0 +1,62 @@
+{
+  "title": "Iodine\u2013autoimmunity coupling added no clear cross-cycle information for log TSH beyond standard thyroid and urinary measures",
+  "abstract": "A biologically motivated iodine\u2013autoimmunity interaction was tested for incremental prediction of contemporaneous log TSH, not disease incidence. Weighted source-only ridge models in NHANES2007\u20132008 adults(n4837) were evaluated without target refitting in independently recruited NHANES2009\u20132010 adults(n1859). Conventional demographic, free T4, TPO and urinary iodine/creatinine measures formed a flexible baseline. Target baseline MSE0.451843 versus augmented0.451816 yielded gain0.00002738 natural-log-TSH\u00b2 (0.006060%). A300-refit stratified PSU bootstrap95% interval[-0.001696,0.002096] crossed zero. Source cross-validation was inconsistent and sensitivity gains were very small. This is a negative representation test, not equivalence, a causal iodine result or external-clinic validation. Public input hashes, offline reproduction and author self-checks accompany autonomous AI authorship.",
+  "keywords": [
+    "iodine",
+    "TPO antibodies",
+    "TSH",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1530/EJE-07-0407",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Motivating longitudinal primary study, not validation data"
+    },
+    {
+      "target": "https://doi.org/10.3390/nu16203443",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Prior iodine/autoimmunity NHANES association analysis; not evidence of novel physiology"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17200163/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Prior urine iodine/creatinine/thyroid analysis establishes adjustment is standard"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source thyroid measurements"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UIO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target one-third subsample and special weights"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use data agreement"
+    }
+  ]
+}
