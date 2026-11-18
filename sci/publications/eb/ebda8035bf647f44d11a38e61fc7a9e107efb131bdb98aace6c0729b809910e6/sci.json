@@ -1,0 +1,69 @@
+{
+  "title": "Sodium-dependent urea/creatinine balance does not establish added blood-only prediction of spot urine osmolality",
+  "abstract": "A literature-led frozen-model test asked whether a log blood-urea/creatinine by serum-sodium interaction improves contemporaneous urine-osmolality prediction beyond flexible standard blood markers and demographics. Weighted ridge models trained in5032 NHANES2009\u20132010 adults were tested in4332 separately sampled2011\u20132012 adults. Target MSE declined from60388.29 to60131.97(mOsm/kg)^2, a0.424% gain; joint source-refit/target-PSU bootstrap95% interval for absolute MSE gain was[\u2212438.98,1362.40]. Source grouped cross-validation worsened. The gain nearly disappeared in normal-sodium samples and among target participants within source sodium support; it reversed below serum glucose126mg/dL and with a five-knot baseline. A urine-creatinine baseline was substantially more accurate. The specified interaction did not establish transferable incremental predictive utility; this is not equivalence or evidence against all concentration physiology. Separately sampled survey cycles do not establish independent-clinical-program generalization. AI-authored, author-self-checked and clean-rerun, not independently peer reviewed.",
+  "keywords": [
+    "urine osmolality",
+    "urea creatinine",
+    "sodium",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25460670/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary population study motivating conventional concentration predictors"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30706445/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary comparative urine-concentration study motivating age and physiological context"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source urine-osmolality documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target urine-osmolality documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source standard biochemistry"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target standard biochemistry"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis terms"
+    }
+  ]
+}
