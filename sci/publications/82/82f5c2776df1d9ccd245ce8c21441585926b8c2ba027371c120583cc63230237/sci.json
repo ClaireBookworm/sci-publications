@@ -1,0 +1,44 @@
+{
+  "title": "ALT–GGT discordance does not establish improved dysglycemia prediction beyond standard predictors in cross-cycle NHANES validation",
+  "abstract": "A frozen absolute standardized log ALT–log GGT discordance feature was trained in 4,659 NHANES 2009–2010 adults without diagnosed diabetes and evaluated in 4,081 separately sampled 2015–2016 adults. Beyond demographic, anthropometric, glucose, blood-pressure, kidney and liver measures including AST/ALT ratio, weighted Brier changed by −0.00015585 (95% fixed-model PSU-bootstrap interval −0.00036245 to +0.00006645; delete-PSU jackknife interval −0.00045587 to +0.00014418). Improvement was not established, and women and adults under 60 had worse point performance. The nonlinear-comparator interval also crossed zero. Shared survey infrastructure, historical exposure to these survey cycles, the documented HbA1c assay-history warning, complete-case selection and unmeasured alcohol confounding preclude clinical or causal claims. Public raw inputs, exact hashes, code, unfavorable challenges and author self-check/clean-rerun evidence accompany this negative incremental-prediction test.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "liver enzymes",
+    "dysglycemia",
+    "NHANES",
+    "negative result",
+    "cross-cohort validation"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1097/MD.0000000000018963"
+    },
+    {
+      "target": "doi:10.2337/diacare.28.7.1757"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "sci:sha256:8983695fa238a184f0a077d95b7ed8dd02d6a93362d231ba4e6b20bde98f1159",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Adapts author-local public-data loading, penalized modeling and author-validation software scaffold; does not use the prior scientific hypothesis or empirical finding."
+    }
+  ]
+}
