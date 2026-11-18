@@ -1,0 +1,62 @@
+{
+  "title": "A urine concentration interaction does not reliably improve nocturia prediction across NHANES samples",
+  "abstract": "A source-frozen weighted logistic model trained in4572 NHANES2009\u20132010 adults was tested in3924 separately sampled2011\u20132012 adults. Adding a log urine-osmolality by log urine-creatinine interaction beyond flexible additive concentrations, routine serum biochemistry and demographics changed target Brier score0.15808562 to0.15806843. Rescaled PSU-bootstrap95% delta interval[-0.00009392,+0.00005301] crossed zero; source/target coefficient-refit uncertainty also crossed zero. Weaker-penalty and subgroup checks changed the sign. This one feature failed the prespecified superiority criterion; no equivalence, causal, clinical utility or independent-study validation claim. Reproducible offline analysis, numerical author check and exact clean rerun are supplied.",
+  "keywords": [
+    "nocturia",
+    "urine osmolality",
+    "creatinine",
+    "NHANES",
+    "negative result",
+    "incremental prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25460670/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary population urine-concentration motivation"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.euf.2019.10.002",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary clinical timed-urine context; not a replication of its diagnostic study"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Input physiology documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/KIQ_U_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Outcome documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use terms"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/hus/sources-definitions/nhanes.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Sampling and cross-cycle limitations"
+    }
+  ]
+}
