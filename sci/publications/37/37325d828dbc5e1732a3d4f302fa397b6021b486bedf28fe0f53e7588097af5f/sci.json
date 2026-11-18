@@ -1,0 +1,32 @@
+{
+  "title": "Resting-heart-rate reserve features did not establish improved cross-center coronary disease prediction",
+  "abstract": "Resting heart rate is omitted from the conventional UCI heart-disease subset but available in the raw records. We tested established reserve-based exercise physiology representations using 293 Hungarian patients for training and 143 eligible Long Beach VA patients for independent-center confirmation. Adding resting heart rate, achieved chronotropic reserve and reserve-adjusted ST depression changed frozen Brier loss from 0.20407 to 0.19678 (difference -0.00729, paired patient bootstrap 95% interval -0.01580 to +0.00118), without improved discrimination (AUROC 0.72360 to 0.71327). Increment beyond resting heart rate alone was -0.00162 (-0.00524 to +0.00197). A flexible additive comparator and exploratory target-intercept calibration did not support a reserve-specific advantage. The result is inconclusive for incremental prediction and does not negate the established physiological value of chronotropic assessment. Complete-case selection, medication/protocol confounding and marked site shifts limit interpretation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "chronotropic reserve",
+    "resting heart rate",
+    "external validation",
+    "coronary artery disease",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226"
+    },
+    {
+      "target": "https://doi.org/10.1016/S0735-1097(00)01054-8"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/static/public/45/heart+disease.zip"
+    }
+  ]
+}
