@@ -1,0 +1,68 @@
+{
+  "title": "Signed grip-trial drift did not transfer incremental hemoglobin prediction across NHANES samples",
+  "abstract": "A registered literature-motivated test asked whether first-to-third bilateral grip change predicts hemoglobin beyond flexible demographics and conventional grip summaries in adults aged60+. Models fitted to1,362 NHANES2011\u20132012 participants were frozen and tested in1,484 separately sampled2013\u20132014 participants. The pattern slightly improved source grouped cross-validation, but target weighted MSE rose from1.374177 to1.379199 (g/dL)\u00b2. Baseline-minus-augmented gain was\u22120.005021, with joint source\u2013target stratified PSU-bootstrap95% interval[\u22120.019375,0.002174]. Pain-free, maximal-effort and specification checks did not rescue the result. This is not equivalence or evidence against anemia-related muscle effects. Validation spans separate cross-sectional releases of one survey, not another measurement system.",
+  "keywords": [
+    "handgrip",
+    "hemoglobin",
+    "trial order",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15086651/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Penninx et al2004, anemia and muscle strength"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38451343/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ActiFE2024, hemoglobin and grip study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/40923211/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Popkirov2025, repeated grip variation and submaximal effort"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source grip definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target grip definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hemoglobin assay"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use agreement"
+    }
+  ]
+}
