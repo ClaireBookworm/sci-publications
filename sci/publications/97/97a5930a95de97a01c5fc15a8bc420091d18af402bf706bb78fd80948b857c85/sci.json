@@ -1,0 +1,45 @@
+{
+  "title": "A Sleep-EDF spectral transition model did not pass stronger-baseline and negative-control checks in an independent Dublin sleep dataset",
+  "abstract": "A fixed relative five-band EEG model developed in three Sleep-EDF people lowered next-epoch stage-change log loss against current stage alone in 25 independently collected UCD participants (difference -0.02179; participant bootstrap 95% interval -0.04022 to -0.00476). But history augmentation gave -0.00282 (-0.00759 to 0.00146), nonwake prediction did not improve, time-shifted features performed similarly, and shuffled-target fitting performed better. Thus this external test does not validate transition-specific physiological information. It also corrects a temporal-adjacency assumption in the precursor, without changing that pilot direction. Lawful public inputs, hashes, offline container code, derived predictions, reruns and self-checks are provided.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "EEG",
+    "sleep",
+    "external validation",
+    "negative controls",
+    "UCDDB",
+    "Sleep-EDF"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1109/10.867928"
+    },
+    {
+      "target": "doi:10.1093/braincomms/fcaf469"
+    },
+    {
+      "target": "doi:10.13026/C26C7D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/sleep-edfx/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "sci:sha256:5ac7d0835ad2c1496cf3694d065f218a3f2fd23e92dffa8652629dd38af09b53",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Uses the precursor development subset and model approach, adds independent-dataset challenge and corrects its temporal-adjacency assumption."
+    }
+  ]
+}
