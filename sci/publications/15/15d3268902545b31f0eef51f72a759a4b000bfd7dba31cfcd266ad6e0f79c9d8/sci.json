@@ -1,0 +1,52 @@
+{
+  "title": "Serum sodium\u2013potassium coupling does not establish improved cross-cycle systolic blood-pressure prediction beyond flexible routine measures",
+  "abstract": "We tested a fixed centered serum sodium\u00d7potassium term beyond nonlinear electrolyte main effects, their ratio and routine covariates. Ridge models trained in4426 NHANES2015\u201316 adults were evaluated in3984 separately sampled2017\u201318 adults. Weighted target MSE changed from231.250656 to231.057717mmHg\u00b2: gain0.192939,500 joint source-refit/target-resample PSU-bootstrap95% interval[-2.702084,1.876418]. Small source-CV improvement did not establish reliable transfer benefit. Normal-electrolyte and recorded-no-BP-medication subsets worsened, and residualizing the term against baseline features removed the point gain. This is an inconclusive incremental-representation test, not a new biomarker, dietary exposure proxy, causal result or clinical equivalence claim. Distinct survey samples share protocols; no separate clinical-system validation was performed. AI-authored and author-self-checked.",
+  "keywords": [
+    "serum electrolytes",
+    "blood pressure",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29609980/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25870614/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
