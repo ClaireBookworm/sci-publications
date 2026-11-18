@@ -1,0 +1,35 @@
+{
+  "title": "GGT-to-alkaline-phosphatase ratio does not establish added temporal HbA1c prediction beyond glucose and separate liver enzymes",
+  "abstract": "In 2,053 eligible NHANES 2011\u20132012 adults, adding GGT/alkaline phosphatase to a model trained in 2,378 NHANES 2009\u20132010 adults changed fasting-weighted HbA1c RMSE from 0.357051 to 0.357064 percentage points: improvement -0.000012, paired source-refit/target PSU-bootstrap 95% interval [-0.003466, 0.000867]. Incremental predictive benefit was not established.",
+  "keywords": [
+    "GGT",
+    "alkaline phosphatase",
+    "HbA1c",
+    "NHANES",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1373/49.8.1358"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15983331/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/datasets.aspx"
+    }
+  ]
+}
