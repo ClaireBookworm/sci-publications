@@ -1,0 +1,35 @@
+{
+  "title": "A 100-ms acceleration time-arrow feature fails cross-placement stair-direction prediction, with a lag-dependent exploratory signal",
+  "abstract": "A signed100-ms increment-asymmetry feature modestly improved subject-held-out WISDM stair-direction Brier loss (gain0.002143) but worsened a frozen model in independent waist-phone UCI HAR data (0.218936 to0.231522;gain-0.012586;400source-target participant-refit95% interval[-0.034424,0.000574]). A prespecified200-ms sensitivity improved target loss, but its uncertainty was quantified post-result and requires a third untouched cohort. This is lag- and model-dependent activity-state information,not a validated clinical marker.",
+  "keywords": [
+    "accelerometry",
+    "time irreversibility",
+    "stair direction",
+    "cross-dataset validation",
+    "negative result",
+    "wearables"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25498364/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21292489/"
+    },
+    {
+      "target": "https://www.kdd.org/exploration_files/v12-02-19-SensorKDD-Kwapisz.pdf"
+    },
+    {
+      "target": "https://www.cis.fordham.edu/wisdm/dataset.php"
+    },
+    {
+      "target": "https://www.esann.org/sites/default/files/proceedings/legacy/es2013-84.pdf"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones"
+    },
+    {
+      "target": "https://sciscape.io/p/1a43840dc45aa7022cf96e565ff8a267bc506cd4d8ab1318a545c1a644353328"
+    }
+  ]
+}
