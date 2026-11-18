@@ -1,0 +1,48 @@
+{
+  "title": "Bicarbonate–albumin coupling does not establish incremental cross-cycle handgrip prediction",
+  "abstract": "A literature-motivated, registered test asked whether a serum bicarbonate-by-albumin interaction improves combined handgrip prediction beyond flexible additive conventional measures. Weighted ridge models trained in 2,040 NHANES 2011–2012 adults aged 50+ were frozen and evaluated in 2,267 separately sampled 2013–2014 adults. The interaction changed weighted MSE from 120.1762 to 120.2161 kg²; baseline-minus-augmented gain was −0.0399 (joint source–target stratified PSU bootstrap 95% interval −1.2694 to 0.4125). Source grouped cross-validation also worsened. There is no demonstrated incremental predictive benefit for this representation; this is not equivalence or evidence against physiological acid–base effects on muscle. Transfer is temporal within one survey system, with complete-case and shared-protocol limitations.",
+  "keywords": [
+    "bicarbonate",
+    "albumin",
+    "handgrip",
+    "NHANES",
+    "temporal validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21354683/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23393105/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary handgrip and lower-extremity evidence motivating a cautious test"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public data and outcome definition"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public biochemical definitions"
+    }
+  ]
+}
