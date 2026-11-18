@@ -1,0 +1,26 @@
+{
+  "title": "Eosinophil-to-neutrophil log balance does not establish incremental continuous CRP prediction across two NHANES samples",
+  "abstract": "A source-frozen model trained on 4,089 NHANES 2005\u20132006 adults was tested in 5,181 separately sampled 2007\u20132008 adults. Adding log((eosinophils+0.05)/(neutrophils+0.05)) to demographic, adiposity, smoking and standard leukocyte-index predictors changed survey-weighted log-CRP RMSE from 1.058080 to 1.057865. Improvement 0.000216, joint source-refit/target PSU-bootstrap95% interval [-0.001461, 0.001833], did not establish incremental benefit. The balance is algebraically determined by its component counts; no novel physiological information or clinical utility is established.",
+  "keywords": [
+    "eosinophils",
+    "neutrophils",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "temporal transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/cc6883"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/datasets.aspx"
+    }
+  ]
+}
