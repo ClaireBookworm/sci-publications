@@ -1,0 +1,62 @@
+{
+  "title": "Log-BUN\u2013creatinine coupling does not reliably improve cross-cycle prediction of digit-symbol performance",
+  "abstract": "A prespecified product of source-standardized log blood urea nitrogen and log creatinine was added to a flexible conventional renal/demographic model for digit-symbol substitution score. Training used NHANES2011\u201312 adults60+ (n=1290), with frozen transfer to separately recruited NHANES2013\u201314 adults (n=1505). Survey-weighted target MSE decreased from160.936594 to160.763116, a0.108% reduction. Joint source\u2013target survey-PSU bootstrap95% interval for MSE gain was[-13.322872,0.959521] points\u00b2; MAE worsened. Source cross-validation, regularization sensitivity, and delete-one checks do not support a reliable increment. These are same-survey cross-cycle cohorts, not independent clinical institutions. This negative feature test does not exclude kidney\u2013brain physiology or validate a diagnostic surrogate.",
+  "keywords": [
+    "BUN",
+    "creatinine",
+    "cognition",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37889501/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Physiological motivation"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37900140/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Conventional renal-cognitive association comparator"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Outcome methods"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Assay methods"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021",
+      "relations": [
+        "uses"
+      ],
+      "reason": "eGFR equation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Access terms"
+    }
+  ]
+}
