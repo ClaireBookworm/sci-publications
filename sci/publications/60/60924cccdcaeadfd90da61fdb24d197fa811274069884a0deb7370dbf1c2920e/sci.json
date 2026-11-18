@@ -1,0 +1,48 @@
+{
+  "title": "Ferritin\u2013CRP coupling adds no reliable cross-cycle hemoglobin prediction beyond conventional iron and CBC measures",
+  "abstract": "A registered product of standardized log ferritin and log CRP was added to flexible conventional iron, CBC and demographic predictors of hemoglobin in nonpregnant women20\u201349. Training used NHANES2003\u201304(n=922); frozen transfer used separately recruited NHANES2005\u201306(n=998). Weighted MSE decreased0.677043 to0.675608(g/dL)\u00b2, a0.212% gain; joint source\u2013target survey-PSU bootstrap95% interval for gain was[\u22120.007054,0.007185]. MAE worsened and source cross-validation mean gain was negative. This feature test does not establish improved physiological inference or clinical utility. Validation is across cycles within one survey, not independent institutions.",
+  "keywords": [
+    "ferritin",
+    "CRP",
+    "hemoglobin",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28615256/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Scientific motivation or source methods/rights"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34329578/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Scientific motivation or source methods/rights"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Scientific motivation or source methods/rights"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Scientific motivation or source methods/rights"
+    }
+  ]
+}
