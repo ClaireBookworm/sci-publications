@@ -1,0 +1,44 @@
+{
+  "title": "Monocyte\u2013HDL interaction does not establish improved CRP prediction beyond component measures: cross-cycle analysis and a legacy-survey challenge",
+  "abstract": "We tested whether a centered log-monocyte \u00d7 log-HDL interaction improves CRP >3 mg/L prediction beyond routine demographic, adiposity, leukocyte and component measures. Models trained in 5,057 NHANES 2007\u20132008 adults were tested in 4,636 separately sampled 2017\u20132018 adults. Weighted Brier difference was \u22120.00001946 (95% fixed-model PSU bootstrap interval \u22120.00009075 to +0.00004837); improvement was not established. Adding component/adiposity quadratics reversed the point estimate. An unchanged-model challenge in 3,944 NHANES III adults with manual differentials gave unweighted difference +0.00002481 (IID interval \u22120.00017072 to +0.00021628). That legacy sample is enriched for abnormal hematology and does not support national inference. Prior exposure to modern-cycle outcomes, shared survey infrastructure and measurement differences preclude strong untouched external-validation claims. Code, provenance, negative results and author checks are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "monocytes",
+    "HDL",
+    "interaction",
+    "CRP",
+    "negative result",
+    "NHANES III"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12944-025-02755-8"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab-acc.pdf"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
