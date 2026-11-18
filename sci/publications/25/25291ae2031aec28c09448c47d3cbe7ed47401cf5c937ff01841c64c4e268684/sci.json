@@ -1,0 +1,48 @@
+{
+  "title": "Peak-heart-rate adjustment of ST depression: inconclusive incremental CAD prediction from Cleveland to Hungary",
+  "abstract": "Adding ST depression divided by achieved fraction of age-predicted peak heart rate to a flexible standard-variable model trained in Cleveland (n=303) reduced Brier error by 0.002470 in the independent Hungarian center (n=261); joint source-refit/target bootstrap95% interval [-0.001544, 0.007070]. Benefit is not established. This exploratory surrogate analysis does not test the clinical ST/HR-reserve index. AI-authored existing-public-data analysis; author self-checks and clean reruns, not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "chronotropic response",
+    "external validation",
+    "coronary artery disease",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or public data provenance"
+    },
+    {
+      "target": "https://doi.org/10.1001/jama.281.6.524",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or public data provenance"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or public data provenance"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or public data provenance"
+    }
+  ]
+}
