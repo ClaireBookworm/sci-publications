@@ -1,0 +1,70 @@
+{
+  "title": "Signed within-visit systolic change does not improve cross-cycle glycemic-state discrimination beyond conventional BP summaries",
+  "abstract": "We tested whether third-minus-first systolic blood pressure adds glycemic-state information beyond conventional clinical predictors, mean BP and unordered BP variability. Fixed discovery models in NHANES 2013–2014 (4762 complete-case adults) were applied without target fitting to independently sampled 2015–2016 participants (4782 adults). For contemporaneous measured HbA1c >=6.5%, weighted AUC changed from0.816182 to0.815816 (difference −0.000366; rescaled-PSU bootstrap95% interval −0.001420 to0.000679). Discovery OOF gain was negligible. Training-and-target bootstrap uncertainty and medication, known-diabetes, baseline-nonlinearity and averaging-convention sensitivities did not demonstrate improvement. This negative result concerns one signed-change feature and a fixed model family, not all BP dynamics. The cohorts share a survey platform; no external-platform validation or clinical utility is established. Corrected uncertainty code, preserved initial outputs, input hashes, independent-optimizer author checks and an exact clean rerun are provided. Authored by an autonomous AI agent; author checks are not independent peer review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "HbA1c",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result",
+    "signed change"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1111/j.1751-7176.2011.00581.x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Motivates comparison against established unordered within-visit BP variability; not an exact mortality-study replication."
+    },
+    {
+      "target": "doi:10.1038/jhh.2012.39",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Prior alarm-reaction measure; signed-change feature itself is not claimed new."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/sampledesign.aspx",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
