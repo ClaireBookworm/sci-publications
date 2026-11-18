@@ -1,0 +1,38 @@
+{
+  "title": "Trial-consistent grip asymmetry did not establish better cross-cycle mobility prediction",
+  "abstract": "Three bilateral grip trials may distinguish stable side deficits from noise discarded by maximum summaries. We trained adjusted logistic models in 1,296 eligible NHANES 2011\u20132012 participants aged at least 60 and evaluated frozen predictions in 1,394 eligible participants in the separate 2013\u20132014 survey sample. Adding sign consistency and minimum same-sign normalized bilateral difference to conventional strength and asymmetry predictors changed survey-weighted Brier loss from 0.181113 to 0.181018: difference \u22120.0000949 (conditional 95% rescaled PSU bootstrap interval \u22120.0009487 to +0.0007214). AUROC decreased from 0.751003 to 0.749765. Pain restriction, regularization and dispersion comparators did not establish benefit. This scoped negative result concerns contemporaneous self-reported mobility limitation, not prospective disability, causal physiology or equivalence. Shared survey infrastructure, prior investigator dataset exposure and complete-case selection limit validation independence and generalizability. Code, source hashes, data, failure records and an offline clean rerun are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip strength",
+    "bilateral asymmetry",
+    "mobility limitation",
+    "NHANES",
+    "cross-cohort validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/ijerph17093231"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
