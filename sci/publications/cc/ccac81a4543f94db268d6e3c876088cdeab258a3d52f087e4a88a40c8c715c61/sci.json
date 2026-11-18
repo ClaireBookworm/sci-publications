@@ -1,0 +1,34 @@
+{
+  "title": "Calcium\u2013albumin coupling gives no clear incremental inflammation prediction across two NHANES surveys",
+  "abstract": "We tested whether a centered total-calcium-by-albumin interaction predicts concurrent CRP>3 mg/L beyond separate nonlinear chemistry and routine physiological predictors. A survey-weighted logistic model was fitted in 14,403 NHANES III adults and frozen for 4,596 separately recruited 2017\u20132018 adults. Adding the interaction changed weighted Brier score by -0.00001392 (approximate fixed-fit target-PSU bootstrap 95% interval -0.00005667 to 0.00002981) and AUC by 0.00013163. The interval crosses zero; discovery out-of-fold Brier worsened, and an additive-spline comparator showed essentially no gain. Joint training/target uncertainty also crossed zero. This narrowly scoped inconclusive result does not support a practically useful increment for the tested representation, and does not measure ionized calcium or establish absent biological coupling.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "calcium",
+    "albumin",
+    "inflammation",
+    "external validation",
+    "inconclusive result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1001/jamanetworkopen.2024.55251"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
