@@ -1,0 +1,27 @@
+{
+  "title": "Eosinophil\u2013neutrophil interaction does not improve frozen prediction of pre-bronchodilator airflow obstruction across NHANES cycles",
+  "abstract": "For adults40\u201379 with high-quality complete measurements, adding a log eosinophil\u00d7log neutrophil term to a flexible additive risk/count model did not establish improved detection of pre-bronchodilator FEV1/FVC<0.70 in independently sampled NHANES2011\u201312 after fitting in2007\u201308: target weighted AUC 0.785210 to 0.785142, delta -0.000068, conditional95% interval [-0.000288,0.000154]. Source n2252/449 events; target n2118/373. Source-refit uncertainty and sensitivity analyses do not justify primary superiority. Same-survey protocols, selection and pre-bronchodilator fixed threshold limit the claim; not a COPD diagnostic study. Reproducible code, provenance and author checks provided.",
+  "keywords": [
+    "eosinophils",
+    "neutrophils",
+    "spirometry",
+    "NHANES",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.rmed.2018.07.011",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary additive inflammatory-marker/lung-function associations motivate the specified incremental nonadditivity test; source data partly overlap."
+    }
+  ]
+}
