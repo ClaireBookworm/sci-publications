@@ -1,0 +1,64 @@
+{
+  "title": "A fixed B12\u2013folate interaction does not establish improved mean cell volume prediction across two NHANES older-adult samples",
+  "abstract": "In adults aged60 or older,we tested a centered log serum B12\u00d7log serum folate interaction beyond flexible individual nutrient effects and routine demographic,body-size,renal,liver and smoking measures. NHANES2011\u201312 source n=1470;separately sampled2013\u201314 target n=1655. Target weighted MCV MSE was 25.853979 versus 25.872735fL\u00b2;gain -0.018756,500 jointPSU-bootstrap95% interval[-0.314293,0.128602]. Source fivefoldCV gain was -0.016665. This fixed feature did not establish incremental prediction,not equivalence or rejection of nutrient interactions. Assay shifts,complete-case selection,and absence of independent health-system validation limit interpretation. AI-authored and author-self-checked.",
+  "keywords": [
+    "vitamin B12",
+    "serum folate",
+    "MCV",
+    "negative result",
+    "sample transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17209196/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18056804/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/VITB12_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/FOLFMS_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/VITB12_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FOLFMS_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
