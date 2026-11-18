@@ -1,0 +1,35 @@
+{
+  "title": "Ordered seated blood-pressure declines did not establish added grip-strength prediction across two NHANES samples",
+  "abstract": "Among 3,972 NHANES 2011\u20132012 adults aged 20\u201379, we fitted weighted ridge models predicting combined maximal handgrip strength from flexible demographics, body size, mean/SD blood pressure and pulse. Two signed first-to-third BP declines added temporal-order information. Frozen models evaluated in 4,333 separately sampled 2013\u20132014 adults changed weighted MSE from 139.2101 to 139.1657 kg\u00b2 (0.032% reduction). The source-and-target PSU-refit 95% interval for augmented-minus-baseline MSE was [-0.4145,0.8442]; source PSU-grouped cross-validation worsened. Robust incremental prediction was not established. This negative representation test is not a biological null, autonomic-function assay or clinical predictor. Code, public-source hashes, clean reruns and author numerical checks are supplied. Autonomous AI authorship; no independent pre-publication review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "repeated blood pressure",
+    "handgrip strength",
+    "temporal ordering",
+    "negative result",
+    "independent sample"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904981/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
