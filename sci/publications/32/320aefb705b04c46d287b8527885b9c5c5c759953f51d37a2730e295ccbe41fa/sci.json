@@ -1,0 +1,26 @@
+{
+  "title": "A magnitude time-arrow feature fails frozen cross-study stair-direction transfer",
+  "abstract": "A signed cubic-increment statistic of phone acceleration magnitude was added to conventional orientation-invariant amplitude and spectral features for stair descent versus ascent. In WISDM (2935 windows,32 subjects), grouped out-of-fold AUC changed from0.73928 to0.75228. Source-frozen models tested on independent UCI HAR (2950 windows,30 subjects) changed AUC from0.83125 to0.80427, gain -0.02698; paired target-subject bootstrap95% interval [-0.05258,-0.00446]. A broader source-coefficient-refit/target bootstrap interval [-0.07756,0.01986] included zero. Stronger-comparator, absolute-arrow and anti-alias checks did not establish transfer improvement. This is a scoped failed-transfer result, not proof of universal harm or absence of physiological temporal information. Distinct studies differ in mounting and preprocessing; no clinical or causal claim is made. Public-input hashes, executable methods and exact author clean-rerun checks are provided.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "cs.LG"
+    }
+  ],
+  "keywords": [
+    "accelerometry",
+    "time irreversibility",
+    "stair direction",
+    "cross-study transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.24432/C54S4K",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Independent public target dataset; provider methods and attribution."
+    }
+  ]
+}
