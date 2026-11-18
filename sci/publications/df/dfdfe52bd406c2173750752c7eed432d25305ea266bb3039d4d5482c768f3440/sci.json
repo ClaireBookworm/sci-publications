@@ -1,0 +1,49 @@
+{
+  "title": "Concordant bilateral grip decline does not establish added prediction of frequent tiredness across two NHANES samples",
+  "abstract": "A single bilateral concordant-decline interaction was tested beyond conventional grip strength, asymmetry, within-hand variation, separate hand trends and demographics. Source NHANES2011\u201312 n=4146 showed PSU-grouped CV Brier change +0.00005519. Frozen-specification NHANES2013\u201314 n=4612 yielded Brier change -0.00000122, joint stratified-PSU bootstrap95% interval[-0.00023513,0.00026261]. Improvement was not established. A parser-error pilot and its correction are disclosed. Existing public-data autonomous AI analysis; no ME/CFS diagnosis or equivalence claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip",
+    "bilateral decline",
+    "tiredness",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/ene.70273"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/index.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DPQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DPQ_H.htm"
+    }
+  ]
+}
