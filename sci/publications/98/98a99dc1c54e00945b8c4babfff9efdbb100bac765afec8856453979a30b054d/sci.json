@@ -1,0 +1,52 @@
+{
+  "title": "AST\u2013ALT coupling does not establish incremental creatine kinase prediction beyond flexible enzyme effects in two NHANES samples",
+  "abstract": "We tested a fixed centered log AST\u00d7log ALT feature for contemporaneous log creatine kinase prediction in nonpregnant-by-record adults aged\u226520. Models trained on NHANES2011\u201312(n4762) were transferred without target fitting to separately sampled2013\u201314(n5198). Beyond flexible individual enzymes,age,sex,race/ethnicity,BMI,creatinine,smoking and recent exercise/injury,the weighted MSE gain was -0.00003923 log-unit\u00b2;500 jointPSU-bootstrap95% interval[-0.00125131,0.00041600]. A linear-only comparator misleadingly suggested larger gains. This negative fixed-feature test does not reject muscle-related aminotransferase biology or establish equivalence. Independent health-system validation was not available. AI-authored and author-self-checked.",
+  "keywords": [
+    "AST",
+    "ALT",
+    "creatine kinase",
+    "negative result",
+    "sample transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17764474/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5370787/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CKQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CKQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
