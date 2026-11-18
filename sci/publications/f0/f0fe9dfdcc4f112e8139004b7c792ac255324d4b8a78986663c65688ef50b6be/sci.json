@@ -1,0 +1,69 @@
+{
+  "title": "A chloride\u2013bicarbonate product fails a cross-sample incremental systolic-pressure prediction test",
+  "abstract": "Serum chloride\u2013bicarbonate interaction did not establish incremental systolic-pressure prediction beyond flexible routine measures across NHANES2011\u20132012 and2013\u20132014: MSE gain 0.277878mmHg\u00b2 (0.138%), source-targetPSU refit95% interval [-1.025016,0.931664]. A fixed source-trained weighted ridge model was transferred without target fitting from 4268 to 4653 complete-case adults. Target MSE changed 201.011362 to 200.733484mmHg\u00b2. Unweighted analysis and source-percentile clipping reversed the small point gain. This is a negative incremental-model result, not equivalence, a novel acid-base mechanism, or a clinical diagnostic claim.",
+  "keywords": [
+    "NHANES",
+    "chloride",
+    "bicarbonate",
+    "systolic pressure",
+    "negative result",
+    "external validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17562979/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Serum anion gap and blood pressure in the National Health and Nutrition Examination Survey (2007); prior cross-sectional acid-base/BP association motivating the question, not proof of incremental prediction."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23980073/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Serum chloride is an independent predictor of mortality in hypertensive patients (2013); motivating context only, not an outcome replicated here."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC standard biochemistry variables and methods; see corresponding BIOPRO_H documentation for confirmation cycle."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC seated repeated blood-pressure protocol and variables."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC medication questions and skip patterns; MEC weighting guidance."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS public-use statistical analysis terms."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Confirmation chemistry total CO2 methodology and unchanged laboratory method/equipment/site."
+    }
+  ]
+}
