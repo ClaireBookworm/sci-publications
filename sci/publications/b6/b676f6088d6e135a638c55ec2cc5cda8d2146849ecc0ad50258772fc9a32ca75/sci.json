@@ -1,0 +1,35 @@
+{
+  "title": "Low-tail red-cell hemoglobin concentration did not establish added grip-strength prediction across two NHANES samples",
+  "abstract": "Low-tail MCHC curvature did not establish incremental combined-grip prediction beyond conventional CBC and body measures across NHANES2011\u20132012 and2013\u20132014 adults. Target weighted MSE gain 0.1236 kg\u00b2 had400 source+target PSU-refit95%interval[-0.2071,0.4128];source cross-validation gain was negative. This is not equivalence or evidence of absent physiology.",
+  "keywords": [
+    "MCHC",
+    "handgrip strength",
+    "NHANES",
+    "incremental prediction",
+    "negative result",
+    "transportability"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15031309/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1233489/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
