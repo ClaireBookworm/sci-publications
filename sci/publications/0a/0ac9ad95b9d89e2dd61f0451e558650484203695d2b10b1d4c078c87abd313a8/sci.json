@@ -1,0 +1,41 @@
+{
+  "title": "Ordered systolic curvature yields a small, uncertain albuminuria prediction gain across separate NHANES samples",
+  "abstract": "A fixed signed second difference of three systolic blood-pressure readings was tested beyond mean BP, systolic SD, signed drift and clinical covariates. Models trained in 5,252 NHANES 2009\u20132010 adults were applied without refitting to 4,800 newly acquired 2007\u20132008 participants. Target log-loss improvement was 0.00017556 (fixed-model stratified-PSU bootstrap95% interval -0.00002356 to 0.00037608); AUROC increased 0.000802. Discovery OOF loss worsened; joint training-target uncertainty included zero. The prespecified primary benefit criterion failed. Secondary weighted scoring and fixed-fit AUC were more favorable but do not replace the primary test. Curvature adds the signed middle-reading deviation, not a novel measurement: raw-reading coordinates nearly reproduce its performance. Separate survey releases share infrastructure and cannot establish independent-source generalization, mechanism, persistent CKD diagnosis or clinical utility. Author self-checks and isolated exact reruns are provided.",
+  "keywords": [
+    "blood pressure",
+    "albuminuria",
+    "reading order",
+    "curvature",
+    "external-sample validation",
+    "negative primary test"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1111/j.1751-7176.2011.00581.x"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
