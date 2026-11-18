@@ -1,0 +1,32 @@
+{
+  "title": "Sex-specific phosphate curves do not establish incremental grip-strength prediction: a two-release NHANES test",
+  "abstract": "In complete-case adults from NHANES2011\u20132012(source n=4310) and separately sampled2013\u20132014(target n=4828),adding sex-specific phosphate curves to a shared-phosphate demographic/body-size/chemistry model did not meet the registered incremental-prediction criterion for combined grip strength. Target weighted MSE gain was -0.122553kg\u00b2(source-and-target PSU-refit95%interval [-1.509259,+0.977368]);positive favors augmentation. This model-specific negative result is not equivalence,absence of phosphate physiology,or a refutation of published phosphate\u2013inflammation associations. No new physiological signal or clinical utility is established.",
+  "keywords": [
+    "phosphate",
+    "sex interaction",
+    "grip strength",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39433181/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
