@@ -1,0 +1,69 @@
+{
+  "title": "Phosphate–albumin coupling gives no clear incremental digit-symbol prediction across separately sampled NHANES cycles",
+  "abstract": "A fixed serum phosphate-by-albumin interaction was tested beyond flexible individual laboratory measures, conventional mineral summaries and demographic covariates. Models were fitted in1173 NHANES2011–2012 adults aged60+ and tested without refitting in1384 independently sampled2013–2014 adults. Weighted DSST MSE increased from163.0692 to163.2028 points²; baseline-minus-augmented error was−0.1336 (conditional target-PSU95% interval−0.2986 to+0.0286; joint coefficient-refit interval−7.9199 to+8.4141). Sensitivity directions varied with regularization and weighting; source cross-validation did not favor augmentation. This does not demonstrate incremental predictive value, equivalence, causality or clinical utility. It does not rule out other representations or meaningful gains under better-identified models.",
+  "keywords": [
+    "phosphate",
+    "albumin",
+    "DSST",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5749239/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Slinin et al. Serum Phosphate and Cognitive Function in Older Men. Int J Geriatr Psychiatry.2018;33:159-166. doi:10.1002/gps.4699."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17979900/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schram et al. Serum calcium and cognitive function in old age. J Am Geriatr Soc.2007;55:1786-1792. doi:10.1111/j.1532-5415.2007.01418.x."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11547714/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Shoji et al. Associations of Cognitive Function with Serum Magnesium and Phosphate in Hemodialysis Patients. Nutrients.2024;16:3776. doi:10.3390/nu16213776."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC source biochemistry definitions."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC confirmation biochemistry definitions."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC cognitive test methods and score definitions."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS public-use data agreement."
+    }
+  ]
+}
