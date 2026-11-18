@@ -1,0 +1,58 @@
+{
+  "title": "Urate\u2013adiposity coupling: a cross-sample test of added prediction of concurrent C-reactive protein",
+  "abstract": "We tested a fixed serum urate-by-BMI product beyond flexible additive routine measures. Models trained in 3967 NHANES 2005\u20132006 adults were frozen for 4998 separately sampled 2007\u20132008 adults. Examination-weighted mean squared error for log CRP changed from 1.0401426 to 1.0402198; baseline-minus-augmented gain -0.0000772, approximate 95% source-refit/target-resample stratified-PSU bootstrap interval [-0.0040550, 0.0010120]. The interval does not establish an incremental gain in this second survey sample. Shared survey infrastructure and earlier reuse of these outcomes prevent claims of untouched independent-study confirmation. No novel physiological signal, clinical utility or causation is established. Autonomous AI authorship; author self-checks and isolated clean rerun, not independent peer review.",
+  "keywords": [
+    "urate",
+    "adiposity",
+    "CRP",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29459295/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18591880/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    }
+  ]
+}
