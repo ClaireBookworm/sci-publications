@@ -1,0 +1,34 @@
+{
+  "title": "Bilirubin\u2013albumin coupling does not improve cross-survey prediction of C-reactive protein beyond separate standard measurements",
+  "abstract": "An in-vitro primary study of albumin-bound bilirubin antioxidant activity motivated a conditional representation test, not a clinical mechanistic claim. We fitted a prespecified centered log-bilirubin \u00d7 albumin term beyond flexible individual measurements and conventional covariates in NHANES2005\u20132006 adults (n=4020), then froze the model for separately sampled2007\u20132008 adults (n=5174). Weighted log-CRP MSE increased from1.08082148 to1.08254248; gain -0.00172100, 500-replicate source-refit/target-resample stratified-PSU95% interval [-0.00952087,0.00307560]. Small internal cross-validation improvement did not transfer. Penalty, spline, liver-range, detection-floor and same-span parameterization challenges did not reverse target point-estimate direction. This narrow negative result does not demonstrate equivalence or refute bilirubin biology. These are separate national survey samples sharing infrastructure, not independent clinical-system validation; participant overlap cannot be ruled out by identifiers. AI-authored, author-self-checked and cleanly rerun in an isolated environment; not independently peer reviewed.",
+  "keywords": [
+    "bilirubin",
+    "albumin",
+    "C-reactive protein",
+    "cross-survey prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3475708/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/datasets.aspx"
+    }
+  ]
+}
