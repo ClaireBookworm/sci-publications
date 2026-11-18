@@ -1,0 +1,68 @@
+{
+  "title": "Albumin\u2013creatinine coupling adds little to cross-cycle handgrip prediction",
+  "abstract": "A fixed serum albumin by log-creatinine interaction trained in4311 NHANES2011\u20132012 adults reduced weighted MSE by0.5574kg\u00b2 (0.422%) in4858 adults from2013\u20132014 beyond flexible conventional measures. Target-only rescaled PSU bootstrap interval excluded zero, but source-target refit interval[\u22121.1637,+0.06885] included zero. Sex-specific laboratory effects shrank the gain to0.1037kg\u00b2. This is small, baseline-sensitive exploratory temporal transport evidence, not a clinically useful biomarker. Prior cycle/outcome reuse precludes pristine confirmation.",
+  "keywords": [
+    "albumin",
+    "creatinine",
+    "grip strength",
+    "NHANES",
+    "cross-cycle validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16078958/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Longitudinal albumin strength motivation"
+    },
+    {
+      "target": "https://doi.org/10.1111/j.1532-5415.2012.04115.x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Conflicting prospective albumin evidence"
+    },
+    {
+      "target": "https://doi.org/10.1002/jcsm.13511",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Creatinine muscle interpretation motivation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NHANES public grip data and measurement definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NHANES public chemistry data and definitions"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Rescaled survey PSU bootstrap method"
+    },
+    {
+      "target": "https://www.kidney.org/ckd-epi-creatinine-equation-2021",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Creatinine eGFR equation for renal sensitivity"
+    }
+  ]
+}
