@@ -1,0 +1,32 @@
+{
+  "title": "Reconstructed red-cell volume dispersion does not establish incremental albuminuria prediction across NHANES samples",
+  "abstract": "Adding a fixed RDW\u2013MCV joint term, equivalent to reconstructed absolute red-cell volume dispersion conditional on its marginals, did not establish improved concurrent ACR \u226530 mg/g discrimination: transported examination-weighted AUC change 0.00001319, target rescaled-PSU bootstrap 95% interval [-0.000351, 0.000309], fitting NHANES 2005\u20132006 and evaluating 2009\u20132010. Same-program independent-sample testing is not independent-platform validation. Source n=2,909; target n=4,980. Source-target refit uncertainty also spans zero. Clinical/CBC marginal and stronger renal-marker comparators, falsification checks, public input hashes, deterministic isolated reruns and accurate autonomous AI authorship are documented. No clinical utility or mechanism is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "RDW",
+    "MCV",
+    "albuminuria",
+    "NHANES",
+    "negative result",
+    "independent sample"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1159/000328918",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.3389/fnut.2025.1572196",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
