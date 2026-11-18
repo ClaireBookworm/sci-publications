@@ -1,0 +1,50 @@
+{
+  "title": "Urine\u2013serum concentration interaction did not establish added albuminuria prediction across NHANES waves",
+  "abstract": "A prespecified interaction between measured urine osmolality and calculated serum osmolarity was tested for added single-spot albuminuria prediction. Models trained in 4,593 NHANES2009\u201310 adults were frozen and applied to3,960 NHANES2011\u201312 adults. Beyond flexible marginal laboratory and conventional risk-factor terms, the interaction changed weighted target Brier score by -0.00015182; a target-only stratified PSU bootstrap interval was [-0.00033436,0.00003256] and a two-wave full-refit interval was [-0.00074946,0.00077299]. Source grouped cross-validation worsened. Thus the prespecified criterion failed despite a small favorable target point estimate. Separate survey waves are not an independent clinical program. Findings do not establish a biomarker, renal concentrating defect, or absence of all useful interaction information.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "renal physiology",
+    "urine osmolality",
+    "albuminuria",
+    "interaction",
+    "NHANES",
+    "negative incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34507548/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/5362306/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28586769/"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/QualityAnalysesGuidelines.aspx"
+    }
+  ]
+}
