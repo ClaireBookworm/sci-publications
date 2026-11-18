@@ -1,0 +1,28 @@
+{
+  "title": "Brief repeated-grip decline adds no established predictive value for serum LDH across NHANES samples",
+  "abstract": "Bilateral first-to-third grip decline did not establish incremental prediction of serum log LDH beyond combined maximal grip and clinical covariates across separately sampled NHANES 2011\u20132012 and 2013\u20132014 adults (target MSE gain 0.00000618;PSU-refit 95% interval \u22120.00023533 to +0.00006511). This scoped negative result concerns a three-trial rested protocol, not prolonged fatigability tests, ME/CFS diagnosis or absence of all physiological information.",
+  "keywords": [
+    "handgrip",
+    "LDH",
+    "fatigability",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12967-021-02774-w"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
