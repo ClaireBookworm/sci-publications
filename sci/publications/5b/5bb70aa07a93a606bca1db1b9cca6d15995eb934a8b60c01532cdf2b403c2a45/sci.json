@@ -1,0 +1,35 @@
+{
+  "title": "Albumin/globulin ratio adds no established grip-strength prediction beyond its constituents: a locked two-release NHANES test",
+  "abstract": "In adults from NHANES2011\u20132012(source n=4305) and separately sampled2013\u20132014(target n=4850),adding albumin/globulin ratio to a flexible constituent-adjusted model did not meet the prespecified incremental-prediction criterion for combined grip strength. Target weighted MSE gain was +0.004778kg\u00b2(source-and-target PSU-refit95%interval [-1.503085,+0.680582]);positive favors augmentation. This model-specific negative test is not equivalence or evidence against albumin physiology;no new physiological signal or clinical utility is established.",
+  "keywords": [
+    "albumin",
+    "globulin",
+    "grip strength",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35501822/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16078958/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
