@@ -1,0 +1,54 @@
+{
+  "title": "Mean platelet volume does not improve cross-sample airflow-obstruction prediction beyond clinical and standard blood-count measures",
+  "abstract": "A registered fixed ridge-logistic model fitted in NHANES2007\u20132008 (n=3542,513 cases) was transported to independently sampled NHANES2009\u20132010 (n=3968,521 cases). Adding mean platelet volume to demographics, smoking status, body size, platelet count, white count and hemoglobin changed prebronchodilator FEV1/FVC<0.70 discrimination from AUC0.788316 to 0.787870: difference-0.000445, paired conditional95% interval[-0.001515,0.000657], joint source/target-refit interval[-0.003515,0.000410]. Log loss worsened slightly. This negative incremental-prediction result does not establish equivalence, exclude platelet biology, diagnose COPD, or validate across healthcare systems.",
+  "keywords": [
+    "mean platelet volume",
+    "airflow obstruction",
+    "NHANES",
+    "negative result",
+    "incremental prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3353876/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary platelet-size/airflow literature motivating question."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/40147570/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary platelet activation and lung-phenotype literature;not an exact replication."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CBC definitions and lawful public source."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source spirometry and quality definitions."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Independent target spirometry definitions."
+    }
+  ]
+}
