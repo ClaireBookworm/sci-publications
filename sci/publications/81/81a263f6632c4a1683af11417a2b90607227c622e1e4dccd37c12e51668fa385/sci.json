@@ -1,0 +1,40 @@
+{
+  "title": "Red-cell size variability adds no established hearing-discrimination gain beyond mean cell measures across two NHANES samples",
+  "abstract": "We tested whether red-cell distribution width (RDW) adds hearing-impairment prediction beyond hemoglobin, mean cell volume, white-cell count and conventional risk factors. Models fitted in NHANES2015\u201316 (n=2405;317 events) were frozen and tested in separately sampled NHANES2003\u201304 (n=878;126 events). Weighted AUC changed from 0.709005 to 0.708730; delta -0.000276, conditional95% PSU-bootstrap interval [-0.001771,0.001319]. Log loss decreased by 0.000992, but its interval included zero improvement. Source-refit uncertainty and sensitivity analyses did not establish discrimination superiority. This negative result concerns one linear RDW representation and independently sampled cycles of the same survey, not independent-study clinical validation or absence of physiological information.",
+  "keywords": [
+    "red cell distribution width",
+    "hearing impairment",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32193722/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary RDW/hearing association study motivates distinct incremental prediction test; no estimates or individual data reused."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public confirmation audiometry data and special subsample weights."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public source blood-cell measures."
+    }
+  ]
+}
