@@ -1,0 +1,111 @@
+{
+  "title": "Urate\u2013waist coupling offers no established improvement in CRP prediction across two NHANES cross-sections",
+  "abstract": "A frozen serum urate-by-waist interaction did not establish incremental prediction of log C-reactive protein beyond flexible standard markers. Source NHANES2007\u20132008 n=4709; separately sampled target2009\u20132010 n=5029. Target MEC-weighted MSE improvement was 0.0002497 log-units squared (95% joint source-refit/target stratified-PSU bootstrap interval -0.0010866 to 0.0013281), or 0.023%. The interval includes harm. Source cross-validation and restricted-population checks did not consistently improve. A post hoc sex-varying spline comparator reduced the gain to0.000008. The result is a narrow negative predictive test, not equivalence or rejection of urate/inflammation biology. Independent survey-cross-section confirmation is not external-cohort or prospective validation. AI-authored, author-self-checked, not independently peer reviewed.",
+  "keywords": [
+    "urate",
+    "waist circumference",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fpubh.2021.689219",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary NHANES urate, adiposity, sex and CRP analysis; motivation and stronger sex-varying comparator"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24627417/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary urate/inflammation NHANES analysis; motivation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical-analysis restrictions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRP_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SMQ_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRP_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SMQ_F.xpt documentation"
+    }
+  ]
+}
