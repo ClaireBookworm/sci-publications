@@ -1,0 +1,31 @@
+{
+  "title": "Cross-hand trial-order covariance did not improve cross-cycle prediction of grasping difficulty",
+  "abstract": "In separately sampled NHANES 2011\u20132012 to 2013\u20132014 adults aged at least 60, adding cross-hand trial-order covariance did not establish better grasping-difficulty prediction beyond strength, asymmetry, marginal variability, demographics, BMI and pain: weighted Brier delta -0.000048708, target PSU 95% interval [-0.000960449, +0.000887775], joint-refit interval [-0.001320904, +0.001446336]. Frozen development and confirmation included 1,429 and 1,527 complete-case older adults. AUC and log loss worsened; author checks, uncertainty and code accompany this scoped negative result.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip strength",
+    "bilateral covariance",
+    "NHANES",
+    "prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1093/geroni/igab046.3257"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32384713/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    }
+  ]
+}
