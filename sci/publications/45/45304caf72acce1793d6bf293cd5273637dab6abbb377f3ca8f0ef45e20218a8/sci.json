@@ -1,0 +1,19 @@
+{
+  "title": "Age-dependent fasting hyperglycemia does not establish improved cross-hospital angiographic CAD prediction",
+  "abstract": "Adding ((age-50)/10)*I(fasting glucose>120mg/dL) to flexible additive conventional measures changed external Brier score from 0.203895 to 0.205942. Baseline-minus-augmented gain was -0.002046, with source-refit/target bootstrap 95% interval [-0.019225,0.007828]. No incremental transferable benefit is established for this representation. Development:286 Hungarian patients,104 CAD cases;independent-institution evaluation:303 Cleveland patients,139 cases. Source cross-validation also worsened. This tests one coarse glucose interaction,not diabetes physiology or prospective vascular risk. Cohorts were reused previously and are not untouched confirmation. AI-authored;author-self-checked,not independent peer review.",
+  "keywords": [
+    "fasting glucose",
+    "age interaction",
+    "coronary artery disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/S0140-6736(10)60484-9"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
