@@ -1,0 +1,35 @@
+{
+  "title": "Restoring the urinary creatinine denominator did not establish grip-strength prediction gains beyond albumin\u2013creatinine ratio",
+  "abstract": "Spot urinary creatinine did not establish incremental combined-grip prediction beyond flexible demographics, anthropometry, serum creatinine and ACR: source CV MSE gain -0.109877 kg\u00b2; separate-sample target MSE gain 0.047263 kg\u00b2 (400 source+target PSU-refit 95% interval -0.313567 to 0.343086). Same-program independent-sample testing, not untouched external-cohort confirmation or equivalence.",
+  "keywords": [
+    "urinary creatinine",
+    "albumin creatinine ratio",
+    "grip strength",
+    "NHANES",
+    "negative result",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16344360/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22383750/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
