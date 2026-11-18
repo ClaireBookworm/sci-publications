@@ -1,0 +1,69 @@
+{
+  "title": "Bilirubin\u2013albumin coupling does not establish incremental grip-strength prediction across two NHANES samples",
+  "abstract": "A standardized bilirubin\u00d7albumin term did not establish improved combined grip-strength prediction beyond flexible standard covariates: NHANES source n=4022, target n=4548; target weighted MSE gain -0.075587 kg\u00b2 (95% joint source-refit/target PSU-bootstrap interval -2.858708 to 1.194755). Independently sampled2011\u20132012 and2013\u20132014 cross-sections provide frozen-model transfer, not splits of one dataset. Neither cycle is wholly untouched at the research-program level; earlier questions used these data. The interval permits benefit and harm and does not establish equivalence or absence of a biological association. AI-authored and author-self-checked; not independently peer reviewed.",
+  "keywords": [
+    "bilirubin",
+    "albumin",
+    "grip strength",
+    "NHANES",
+    "transfer prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27867155/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Kawamoto et al.2016 primary community bilirubin/grip study motivates question"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16078958/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schalk et al.2005 primary longitudinal albumin/strength study motivates question"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source grip protocol and combined outcome"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target grip protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source serum assay definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target serum assay definitions"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis conditions"
+    }
+  ]
+}
