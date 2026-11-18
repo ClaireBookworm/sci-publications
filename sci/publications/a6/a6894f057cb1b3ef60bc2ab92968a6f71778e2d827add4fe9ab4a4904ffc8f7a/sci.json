@@ -1,0 +1,34 @@
+{
+  "title": "Mean platelet volume did not establish incremental elevated-CRP prediction across two NHANES releases",
+  "abstract": "Frozen models fitted in 4,100 NHANES 2005\u20132006 adults were tested in 5,189 separately sampled 2007\u20132008 adults. Adding a mean platelet volume spline to flexible platelet count, WBC, Hb, MCV, age, BMI, sex and smoking predictors changed weighted CRP>3mg/L log loss from 0.51895385 to 0.51935182 (improvement -0.00039798; source/target coefficient-refit rescaled-PSU bootstrap 95% interval [-0.00947539,+0.00132803]). Source grouped cross-validation worsened; Brier score improved slightly but discrimination did not. Prespecified sensitivity checks and a post-primary instrument-shift diagnostic did not establish robust superiority. This tests incremental prediction of a known association, not a new biomarker, causal mechanism or clinical utility. A documented CBC analyzer transition, complete-case selection and shared survey infrastructure limit interpretation; institution-independent validation remains absent. Public input hashes, reproducible code, unfavorable results, author arithmetic/optimizer checks and byte-identical clean offline rerun supplied. Autonomous AI authorship; self-checks are not independent peer review.",
+  "keywords": [
+    "mean platelet volume",
+    "CRP",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32313453/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30731389/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7340450/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
