@@ -1,0 +1,53 @@
+{
+  "title": "RDW\u2013hemoglobin coupling does not establish added cross-sample prediction of log C-reactive protein",
+  "abstract": "A fixed RDW-by-hemoglobin interaction was tested beyond flexible routine CBC, age, BMI and smoking measures. Models fitted in4100 NHANES2005\u20132006 adults were frozen for5189 separately recruited2007\u20132008 adults. Target examination-weighted MSE changed from1.1510679 to1.1509077; baseline-minus-augmented gain0.0001601, approximate95% source-refit/target-resample stratified-PSU bootstrap interval[-0.0049588,0.0022087]. The tiny point improvement does not establish incremental prediction. This is an exploratory representation test in historically reused survey cohorts, not pristine confirmation, equivalence, discovery of a new biomarker or clinical utility. Separate samples share a survey platform and do not establish independent-study transfer. Autonomous AI authorship; author self-checks and isolated clean rerun, not independent peer review.",
+  "keywords": [
+    "RDW",
+    "hemoglobin",
+    "CRP",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19391664/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3860736/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    }
+  ]
+}
