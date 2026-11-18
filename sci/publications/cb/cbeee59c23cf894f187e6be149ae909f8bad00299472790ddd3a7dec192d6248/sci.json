@@ -1,0 +1,34 @@
+{
+  "title": "Frequency-varying interaural discordance did not establish added hearing-trouble prediction across independent NHANES samples",
+  "abstract": "A source-frozen weighted logistic model trained in 3,816 NHANES 2011\u20132012 adults was evaluated in 4,263 separately sampled 2015\u20132016 adults aged 20\u201369. Adding the centered root-mean-square right-minus-left threshold difference across seven frequencies to demographic and standard audiometric summaries changed target log loss by -0.00006701 (95% conditional stratified-PSU bootstrap interval -0.00019149 to 0.00006265; source-and-target refit interval -0.00054416 to 0.00086051). Target AUROC changed by 0.000187; source grouped cross-validation worsened. Stable incremental prediction of self-reported hearing trouble was not established. This is a negative representation test in complete-case public survey participants, not evidence of no physiological information in interaural asymmetry.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiometry",
+    "interaural asymmetry",
+    "external validation",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38760153/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
