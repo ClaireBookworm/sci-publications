@@ -1,0 +1,47 @@
+{
+  "title": "Heart-rate rise per achieved MET did not establish incremental cross-hospital coronary-disease prediction",
+  "abstract": "A primary-literature-motivated endpoint representation, (peak heart rate \u2212 resting heart rate)/(achieved MET \u2212 1), was tested in archived public angiographic referral cohorts. The underlying physiology is established, not a new biomarker. In 291 Hungarian development records, adding the ratio to a model already containing both heart rates, MET, duration and standard clinical/exercise measures slightly worsened five-fold out-of-fold log loss (0.382084 to 0.383352). Applied without target fitting to 146 eligible Long Beach VA patients, AUC changed from 0.713816 to 0.717654 (difference +0.003838; paired patient-bootstrap 95% interval \u22120.003845 to +0.012610). Log loss decreased by 0.005386, with an interval spanning no gain. Joint source/target refit uncertainty was wider. Medication/protocol adjustment reversed the AUC direction. Thus incremental transportable benefit was not established. This is not an equivalence test or a refutation of chronotropic physiology.",
+  "keywords": [
+    "chronotropic response",
+    "MET",
+    "angiographic coronary disease",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/j.1540-8167.1989.tb01549.x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation; endpoint proxy not reproduction of submaximal method."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1423382/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary chronotropic assessment motivation."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7503001/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary angiographic chronotropic-response motivation."
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input data and documentation, CC BY4.0."
+    }
+  ]
+}
