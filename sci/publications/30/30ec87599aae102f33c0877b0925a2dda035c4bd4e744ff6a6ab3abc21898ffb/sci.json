@@ -1,0 +1,32 @@
+{
+  "title": "Uncertain incremental value of a blood eosinophil\u2013neutrophil interaction for retrospective asthma attacks across two NHANES samples",
+  "abstract": "Among 435 NHANES 2009\u20132010 adults with current asthma, adding a log-eosinophil \u00d7 log-neutrophil interaction to flexible marginal-count and demographic models changed weighted Brier error from 0.27954357 to 0.27821988. The baseline-minus-augmented gain was 0.00132369 (source-and-target PSU-bootstrap 95% interval [-0.00246884, 0.00343310]); added utility was not established, and both models underperformed a source-derived constant risk.",
+  "keywords": [
+    "asthma",
+    "eosinophils",
+    "neutrophils",
+    "incremental prediction",
+    "NHANES",
+    "uncertain transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1373/clinchem.2016.267450"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
