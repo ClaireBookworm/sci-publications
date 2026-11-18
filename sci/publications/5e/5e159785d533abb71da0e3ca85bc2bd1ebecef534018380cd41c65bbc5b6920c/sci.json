@@ -1,0 +1,41 @@
+{
+  "title": "Within-session grip decrement does not establish incremental mobility prediction: an independent NHANES-cycle test",
+  "abstract": "A frozen order-aware grip-decrement feature was tested beyond peak grip, bilateral asymmetry, age, sex and BMI for concurrent walking limitation in adults aged 60+. Models were fitted in NHANES 2011–2012 (n=1407) and tested in the separately sampled 2013–2014 cycle (n=1524). Weighted log-loss improvement was 0.0000359 (95% rescaled-PSU bootstrap interval -0.000319 to 0.000351); AUROC fell from 0.750794 to 0.750645. The training coefficient had the opposite hypothesized sign. Effort, pain-free and flexible-baseline checks did not establish benefit. This is a negative result for a specific representation and protocol, with independent-cycle validation rather than cross-platform or prospective clinical validation.",
+  "keywords": [
+    "grip strength",
+    "trial order",
+    "mobility limitation",
+    "NHANES",
+    "negative result",
+    "independent-cycle validation"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.jht.2018.03.002"
+    },
+    {
+      "target": "doi:10.1186/s12967-021-02774-w"
+    },
+    {
+      "target": "doi:10.1111/ene.70273"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
