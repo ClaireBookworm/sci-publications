@@ -1,0 +1,19 @@
+{
+  "title": "Resting-ECG context of exercise angina: a cross-hospital interaction test for coronary-disease prediction",
+  "abstract": "Adding I(abnormal resting ECG) \u00d7 exercise angina changed Cleveland Brier score from 0.203517 to 0.204955; baseline-minus-augmented gain -0.001438, with 1000 source-refit/target patient-bootstrap 95% interval [-0.030597, 0.008206]. A Hungarian-developed additive ridge-logistic model of routine measures was compared with the same model plus one context interaction. This is a limited external hospital evaluation,not untouched confirmation: these public cohorts have been extensively reused. The result concerns this representation and comparator,not a causal mechanism or clinical utility. AI-authored and author-self-checked,not independently peer reviewed. Primary Brier gain was unfavorable and its interval spans zero;incremental value was not demonstrated. Resting-ECG category mix shifts sharply across sites.",
+  "keywords": [
+    "resting ECG",
+    "exercise angina",
+    "interaction",
+    "cross-hospital prediction",
+    "coronary artery disease"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/S0735-1097(00)00518-0"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
