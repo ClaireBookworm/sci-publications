@@ -1,0 +1,28 @@
+{
+  "title": "ST-depression\u2013angina coupling does not reliably improve cross-center coronary disease prediction",
+  "abstract": "A fixed ST-depression \u00d7 exercise-angina interaction was tested beyond additive clinical/exercise measures in public angiography cohorts. Cleveland-trained models (303 participants) were evaluated without target fitting in VA Long Beach (200 participants). The interaction improved discovery out-of-fold log loss by 0.00442 but worsened external log loss by 0.01636 (paired fixed-model improvement interval \u22120.03072 to \u22120.00087). Joint training/test bootstrap improvement interval was \u22120.07152 to 0.00521. Spline, penalty, complete-case, zero-value and deduplication checks did not establish benefit. This negative result applies to one representation and historical selected cohorts; it does not prove absence of physiological symptom\u2013electrical coupling or universal harm.",
+  "keywords": [
+    "exercise ECG",
+    "silent ischemia",
+    "angina",
+    "cross-center validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3825930/"
+    },
+    {
+      "target": "doi:10.7326/0003-4819-114-8-649"
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9"
+    }
+  ]
+}
