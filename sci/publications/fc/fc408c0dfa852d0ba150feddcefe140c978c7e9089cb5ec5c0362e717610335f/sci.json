@@ -1,0 +1,32 @@
+{
+  "title": "Conditional eosinophil suppression gave no clear incremental cross-cycle prediction of high CRP",
+  "abstract": "In frozen NHANES 2005\u20132006 to separately sampled 2017\u20132018 adult prediction of CRP >10 mg/L, adding a neutrophil\u2013eosinophil interaction changed weighted Brier loss by -0.000089813; target PSU 95% interval [-0.000234556, +0.000048060] and joint-refit interval [-0.000316107, +0.000161471] include zero. No clear incremental benefit was established beyond nonlinear leukocyte counts, NLR and demographic/body-size/smoking predictors. Frozen testing included 4,383 development and 4,827 confirmation complete-case adults. Code, public inputs, PSU bootstrap uncertainty, controls and author reruns accompany this scoped negative result. Both models overpredicted target prevalence; no clinical utility or physiological null is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "eosinophils",
+    "neutrophils",
+    "CRP",
+    "NHANES",
+    "prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/cc6883"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20096485/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    }
+  ]
+}
