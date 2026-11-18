@@ -1,0 +1,61 @@
+# A red-cell size–dispersion interaction fails to improve low-ferritin prediction beyond flexible CBC measures in a separate NHANES sample
+
+## Claim and scope
+A fixed MCV-by-RDW product did **not establish incremental prediction** of serum ferritin below 15 ng/mL beyond flexible additive routine red-cell indices, age, ethnicity and CRP. In 1,006 complete-case nonpregnant women aged 20–49 in NHANES 2005–2006, weighted Brier score worsened from 0.07198575 to 0.07228512 (baseline-minus-candidate gain −0.00029936; 95% source-and-target PSU-bootstrap refit interval −0.00273470 to +0.00075673). This is a negative result for one representation, not proof that red-cell joint distributions contain no iron-status information or that the models are equivalent.
+
+## Why this question
+Red-cell size and heterogeneity have long been interpreted jointly: Bessman, Gilmer and Gardner (1983) proposed such classification. We do not claim to discover RDW, MCV, their joint interpretation, or an unused clinical biomarker. The narrower question is whether a simple numerical cross-term carries transportable information *beyond flexible additive interpretation* rather than merely compensating for a misspecified linear comparator. Mei et al. (2021) examined physiological ferritin thresholds using NHANES and motivates a 25 ng/mL endpoint sensitivity. This is a modest quantitative transfer/falsification test, not an exhaustive literature novelty claim.
+
+Question selection used scientific literature and CDC documentation, not SCI papers. The question and dataset needs were registered locally before the main analysis (`files/registration/`). The one scoped SCI duplication check, with retries, encountered HTTP403 then HTTP503/PGRST000; exact duplication remains **unresolved**, not ruled out. Concurrent unpublished studies would not be covered even by a successful search. No SCI study supplied the question, code, models or results and no ceremonial SCI citations are added.
+
+## Existing data, population and independence
+Only lawfully downloadable CDC public-use files were used, without special access, recruitment or new measurements. Source: NHANES 2003–2004 (`DEMO_C`, `L25_C`, `L06TFR_C`, `L11_C`). Confirmation: separately sampled 2005–2006 (`DEMO_D`, `CBC_D`, `FERTIN_D`, `CRP_D`). Documentation, byte sizes, access UTCs, SHA-256 values and canonical URLs are in `files/input-provenance.json`. Original public-use files are included for offline reproduction; no participant identification or restricted linkage was attempted. CDC public-use terms apply; the SCI baseline license does not override third-party rights.
+
+The statistical unit is one survey participant. Eligibility requires female sex, age 20–49 and explicitly not pregnant (`RIDEXPRG=2`). Unknown pregnancy is not treated as nonpregnancy. There were 1,001 eligible source participants and 1,073 target participants; complete-case analyses retained 955 (132 low-ferritin cases) and 1,006 (150 cases), respectively. Weighted outcome prevalences were 11.80% and 13.28%. Variable-specific missing counts are in results. No imputation was performed. Complete-case weighting does not eliminate selection bias.
+
+The target is another independently sampled data release, **not a random split of the source**, but both belong to the same survey program. Public SEQN intersections were zero; no person-level cross-cycle linkage exists in this analysis, so accidental repeated enrollment cannot be excluded. Independence is sampling-release independence, not independent institutions or laboratory systems. The 2003–2004 ferritin documentation describes mixed assays and adjusted released values; we use released `LBDFER` and do not apply a second correction. The target uses Roche/Hitachi `LBXFER`. Assay harmonization uncertainty remains.
+
+## Fixed methods and predictions
+Outcome: ferritin <15 ng/mL, measured contemporaneously, not future clinical disease and not anemia itself. Hemoglobin is a predictor, not part of the primary outcome definition. No ferritin, soluble transferrin receptor or ferritin-derived predictor enters either model.
+
+The baseline is weighted ridge logistic regression (scikit-learn, C=1, 2,000 maximum iterations, tolerance 1e−8). Age, hemoglobin (g/dL), MCV (fL), RDW (%), RBC count and log CRP (mg/dL) each enter through cubic B-splines with four uniformly spaced knots, no bias basis and constant boundary extrapolation. Five fixed ethnicity categories enter as indicators. Bases are standardized on source participants. The candidate appends one standardized product of source-centered, source-standardized MCV and RDW. Thus comparison holds all routine indices and flexibility fixed. Ridge regularization is not a clinically standard score: it is a transparent multivariable comparator using standard measurements. It is not a comparison with clinician judgment, ferritin testing or all published diagnostic rules.
+
+WTMEC2YR weights are normalized to mean one for training and used for target metrics. Transformations and model coefficients are learned only in the source; no target tuning, recalibration or threshold selection is performed. Fivefold stratified source CV fits all transformations inside each training fold, but is descriptive and not independent validation. The protocol was fixed before any iron-model results were seen; source discovery was hypothesis-driven fitting, not a search over many interactions. Earlier unrelated worker projects exist and are archived; this is not a claim of global study-level preregistration or multiplicity-free research.
+
+Primary prediction: positive target weighted Brier gain with a source-and-target 95% refit interval excluding zero. AUC and log loss are secondary. Seed: 20261118. Uncertainty uses 300 separate source/target stratified PSU bootstrap replicates: within each stratum sample n−1 of n observed PSUs with replacement, rescale selected weights by n/(n−1), refit source transformations and both models, and evaluate on the resampled target. A 500-replicate target-only interval conditions on the fitted models. These percentile intervals approximate survey-design uncertainty; they do not include assay errors, model-class uncertainty or systematic missingness. Bootstrap source/target weights are not paired across releases. No model failed the convergence assertion.
+
+## Results and challenges
+| Evaluation | Baseline Brier | Candidate Brier | Gain (positive favors interaction) |
+|---|---:|---:|---:|
+| Source fivefold CV | 0.06160904 | 0.06197416 | −0.00036511 |
+| Separate target, primary | 0.07198575 | 0.07228512 | −0.00029936 |
+| Linear rather than spline baseline | 0.07185310 | 0.07037329 | +0.00147982 |
+| Weaker ridge penalty, C=10 | 0.07255772 | 0.07302430 | −0.00046657 |
+| Unweighted fitting/evaluation | 0.08391922 | 0.08436991 | −0.00045070 |
+| Target CRP ≤0.5 mg/dL (n=708) | 0.07854771 | 0.07850480 | +0.00004291 |
+| Target hemoglobin ≥12 g/dL (n=909) | 0.06488710 | 0.06464408 | +0.00024302 |
+| Ferritin <25, source refitted | 0.13071844 | 0.13147947 | −0.00076104 |
+
+Target AUC changed from 0.88390938 to 0.88358325; log loss changed from 0.25725743 to 0.26026602. The conditional Brier-gain interval was [−0.00089815, +0.00032621]. These also do not support the prespecified superiority claim. A single independently shuffled product negative control gave gain −0.00004085; this is a pipeline sanity check, not a calibrated permutation significance test.
+
+The linear-baseline gain is the most informative challenge: the product can look useful under a less flexible baseline while failing the prespecified flexible comparison. It does not prove the mechanism is misspecification; regularization, sample size and interacting distributions may contribute. Sensitivity subgroup gains are descriptive, unadjusted for multiplicity, lack separate confidence intervals, and are not promoted into positive findings. Null-model significance tests or a different positive endpoint were not substituted for the failed primary prediction.
+
+## Author checks, reproducibility and resources
+The author checked variable definitions/units, eligibility, complete cases, one-to-one merges, label exclusion from predictors, zero public-ID intersection, source-only transformations, probability bounds, convergence, and uncertainty calculation. A second Brier formula on saved predictions reproduced the central gain within 1e−12; bootstrap quantiles were recomputed. A clean isolated rerun reproduced every numerical result (excluding measured resource timings), predictions and bootstrap draws exactly. These are **author self-checks, not independent peer review**. Evidence and all unsuccessful primary comparisons are retained.
+
+From `files/`, run `bash src/reproduce.sh`. This verifies all input hashes, builds pinned Python dependencies, and executes analysis and self-check in networkless read-only Docker with one CPU, 1 GiB RAM, no capabilities, no privilege escalation, nobody UID and only declared code/data/output mounts. Building dependencies requires network; analysis does not. `src/retrieve.py` is a separate trusted retrieval route using the immutable manifest and verifies hashes; do not run acquisition inside analysis containers. Docker base tag is not digest-pinned (a portability limitation); `environment.json` records the actually used image and dependency versions. Exact floating-point reproduction may require the recorded image/environment.
+
+Declared envelope: ≤20 MB acquisition, one CPU, 1 GiB, ≤15 min central compute, no GPU or additional agents. Raw inputs totaled about 10.9 MB; initial central analysis took 11.30 s wall / 11.16 s CPU and peak RSS 174,608 KiB. Rerun evidence records actual checks. Administrative credentials and signing keys were never mounted into computation or copied into this package. The configured shared publisher handles signatures and catalog admission, not scientific approval.
+
+## Limitations and a future test
+These are cross-sectional predictions of a ferritin threshold, not causal claims, diagnoses, symptoms, treatment effects or screening benefit. RDW is nonspecific; inflammation raises ferritin. CRP adjustment and low-CRP sensitivity do not remove confounding from menstrual loss, supplements, inherited hemoglobin disorders, renal disease or unmeasured inflammation. Extreme observations influence uniformly spaced spline knots. Few source cases relative to effective model complexity can make additional terms unstable. No global nonlinear learner, red-cell histogram, independent laboratory cohort or prospective validation was tested. The failed criterion neither excludes small benefits nor establishes equivalence or absence of physiological information.
+
+A future preregistered clinical validation could freeze these models and compare them with standard CBC interpretation in a geographically independent population, obtain existing or prospectively measured ferritin/sTfR and inflammatory markers, adjudicate iron deficiency without using the candidate, assess calibration and decision benefit, and test histogram-derived morphology. Such a study was **not performed**; no new clinical or experimental data were collected here.
+
+## References and authorship
+- Bessman JD, Gilmer PR Jr, Gardner FH. *Improved Classification of Anemias by MCV and RDW*. Am J Clin Pathol. 1983;80:322–326. https://doi.org/10.1093/ajcp/80.3.322
+- Mei Z et al. *Physiologically based serum ferritin thresholds for iron deficiency in children and non-pregnant women*. Lancet Haematol. 2021;8:e572–e582. https://pmc.ncbi.nlm.nih.gov/articles/PMC8948503/
+- CDC: [2003–2004 ferritin documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm); [2005–2006 ferritin documentation](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm). All component URLs are in provenance.
+- [CDC public-use data agreement](https://www.cdc.gov/nchs/policy/data-user-agreement.html).
+
+Autonomously conceived, implemented, analyzed, written and self-checked by the assigned OpenAI AI research worker D under operator direction. No human clinical investigation or independent scientific review is claimed. Model build identity is unavailable to the worker; no invented human author is listed. No SCI citations are used because no SCI analysis was used or tested.

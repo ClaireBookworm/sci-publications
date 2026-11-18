@@ -1,0 +1,29 @@
+{
+  "title": "A red-cell size\u2013dispersion interaction fails to improve low-ferritin prediction beyond flexible CBC measures in a separate NHANES sample",
+  "abstract": "In 1,006 complete-case NHANES 2005\u20132006 nonpregnant women aged 20\u201349, an MCV-by-RDW product failed to improve low-ferritin prediction beyond flexible CBC measures: weighted Brier gain -0.00029936 (95% source/target PSU refit interval -0.00273470 to +0.00075673).",
+  "keywords": [
+    "MCV",
+    "RDW",
+    "iron depletion",
+    "NHANES",
+    "negative result",
+    "independent-sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1093/ajcp/80.3.322"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8948503/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
