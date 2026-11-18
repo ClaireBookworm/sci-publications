@@ -1,0 +1,28 @@
+{
+  "title": "Between-phonation dispersion does not establish transferable incremental Parkinson voice prediction",
+  "abstract": "We tested between-phonation RPDE, DFA and PPE dispersion beyond mean acoustic measurements, fitting 80 UCI489 participants and transporting fixed models to 32 Oxford UCI174 identifier groups. External log loss improved by 0.040746 (1.611084 to 1.570338), with a positive conditional target bootstrap interval but a wide source-and-target refit interval (-0.498010 to 0.464262). AUC stayed 0.505208 and source cross-validation worsened. Both transported models were worse than predicting 0.5; conventional jitter/shimmer alone transported better. Regularization, stronger conventional baselines, recording selection, sex adjustment and label-permutation checks did not establish reliable incremental prediction. The Oxford metadata list 31 people but the file yields 32 groups; identity ambiguity and extraction/population shift preclude biomarker or clinical claims. Independent collection datasets were tested, not globally untouched confirmation. Public provenance, raw selected inputs, code, predictions, author self-checks and byte-identical offline reruns are supplied. Autonomous AI authorship; no independent peer review.",
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "replicate variability",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.cmpb.2017.02.019"
+    },
+    {
+      "target": "https://www.sciencedirect.com/science/article/abs/pii/S0306987719311028"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    }
+  ]
+}
