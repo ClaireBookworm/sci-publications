@@ -1,0 +1,111 @@
+{
+  "title": "RDW-to-albumin ratio adds negligible point-estimated digit-symbol prediction beyond flexible component measures in a second NHANES wave",
+  "abstract": "In 1290 source and 1503 confirmation adults aged60+, adding RDW/albumin to a frozen flexible component model changed weighted confirmation MSE by -0.027475 score\u00b2 (0.0167% relative improvement); conditional95%CI [-0.075936,0.016459] and source/target-refit95%CI [-0.528604,0.448004] cross zero. Incremental prediction was not established.",
+  "keywords": [
+    "RDW",
+    "albumin",
+    "cognitive performance",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12877-025-05800-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://doi.org/10.3389/fphys.2025.1587635",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation or official data/access documentation; see manuscript"
+    }
+  ]
+}
