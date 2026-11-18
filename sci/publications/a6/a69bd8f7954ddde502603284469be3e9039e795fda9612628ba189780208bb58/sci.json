@@ -1,0 +1,68 @@
+{
+  "title": "Insulin\u2013BMI coupling does not establish improved serum-urate prediction beyond HOMA-IR and flexible routine measures across NHANES cycles",
+  "abstract": "A literature-motivated test asked whether (log fasting insulin\u2212log10)\u00d7(BMI\u221225) improves serum-urate prediction beyond HOMA-IR and flexible demographic, glycemic, adiposity and creatinine terms. Fixed ridge models trained in1975 NHANES2015\u201316 adults were evaluated in1911 separately sampled2017\u201318 adults after CDC laboratory bridging. Target weighted MSE was1.368742 versus1.368852 (mg/dL)^2; gain-0.000110,500 source-refit/target-resample stratified PSU-bootstrap95% interval[-0.015023,0.007836]. Source fivefold cross-validation also worsened. Some sensitivity estimates were slightly positive; none establishes an advantage of the specified primary representation. This negative prediction test does not refute insulin\u2013urate physiology or establish equivalence. Validation uses distinct survey samples, not an independent clinical system. AI-authored and author-self-checked.",
+  "keywords": [
+    "insulin",
+    "BMI",
+    "urate",
+    "HOMA-IR",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1820474/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7840165/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3899825/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FASTQX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FASTQX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
