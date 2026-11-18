@@ -1,0 +1,35 @@
+{
+  "title": "Retaining the urine-creatinine denominator does not establish robust incremental CRP prediction across NHANES samples",
+  "abstract": "Adding log spot urine creatinine to a flexible ACR/demographic/BMI/smoking/serum-creatinine model improved weighted Brier error by 0.00020467 in 5,560 NHANES 2009\u20132010 adults, but the source-and-target PSU-refit bootstrap interval (-0.00016485, 0.00054835) included zero and source cross-validation worsened. Robust incremental inflammation prediction was not established.",
+  "keywords": [
+    "urine creatinine",
+    "albumin-creatinine ratio",
+    "CRP",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16344360/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22383750/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
