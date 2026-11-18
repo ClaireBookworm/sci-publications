@@ -1,0 +1,28 @@
+{
+  "title": "Deficit-weighted ST depression modestly improves a frozen cross-site coronary-disease model, but not discovery cross-validation",
+  "abstract": "A literature-motivated interaction between exercise ST depression and age-predicted peak-heart-rate deficit was tested using independently collected Cleveland and Hungarian UCI cohorts. Adding one prespecified feature to a clinical/exercise logistic model trained on 303 Cleveland patients lowered Brier score on 293 eligible Hungarian patients from 0.12663 to 0.12234 (difference -0.00429; fixed-model stratified target-bootstrap 95% interval -0.00768 to -0.00095). AUC changed only from 0.88644 to 0.88826, with an interval including zero. Discovery cross-validation instead worsened by 0.00194, and joint training/target bootstrap uncertainty included no gain (-0.01616 to +0.00672). This establishes a conditional external prediction result, not a stable new biomarker or clinical benefit. Missing resting heart rate, medications and workload preclude mechanistic interpretation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "coronary disease",
+    "chronotropic response",
+    "external validation",
+    "training uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226"
+    },
+    {
+      "target": "https://doi.org/10.1002/clc.4960020103"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
