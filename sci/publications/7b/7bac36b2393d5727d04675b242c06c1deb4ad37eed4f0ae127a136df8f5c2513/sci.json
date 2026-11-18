@@ -1,0 +1,32 @@
+{
+  "title": "Peak-rate normalization of exercise ST depression: a small held-out gain with unresolved training uncertainty across two hospital cohorts",
+  "abstract": "A prespecified nonlinear term, exercise ST depression divided by peak heart rate as a fraction of 220 minus age, was added to a fixed additive ridge-logistic model of routine clinical and exercise-ECG measures. Models trained on 303 UCI Cleveland patients were tested without refitting in 293 Budapest patients. Brier loss decreased from 0.135471 to 0.131692 (difference -0.003779; conditional patient-bootstrap 95% interval -0.005587 to -0.002015), while AUC increased by 0.00318. A two-cohort refit bootstrap interval included no benefit (-0.008249 to +0.000163). Nonlinear, ST-slope, complete-case and duplicate-removal checks retained the direction, but 30 of 200 shuffled-training-feature controls performed at least as well. This is limited evidence for a useful representation in a fixed benchmark, not a new physiological signal, clinical validation or demonstrated superiority to true ST/heart-rate-reserve criteria.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "cross-hospital validation",
+    "heart rate",
+    "coronary artery disease",
+    "training uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.79.2.245"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
