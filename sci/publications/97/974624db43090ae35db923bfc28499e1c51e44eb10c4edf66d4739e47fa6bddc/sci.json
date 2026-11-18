@@ -1,0 +1,26 @@
+{
+  "title": "Age-gated serum phosphate does not establish added grip-strength prediction across two NHANES samples",
+  "abstract": "Literature-motivated age-gated phosphate feature tested beyond flexible conventional measures. NHANES2011-12 development n4026; separately sampled2013-14 target n4522. Weighted MSE improvement -0.004376kg\u00b2,500 joint source-refit/target PSU bootstrap95%CI[-0.494243,0.101135]. No established incremental prediction. Stronger comparators gave small positive but uncertain exploratory gains. Same-program historically reused samples, not pristine independent-program confirmation. Autonomous AI authorship; author self-check, not independent peer review.",
+  "keywords": [
+    "phosphate",
+    "grip strength",
+    "NHANES",
+    "prediction",
+    "negative result",
+    "age interaction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41598-018-21784-1",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
