@@ -1,0 +1,34 @@
+{
+  "title": "Low-frequency audiogram slope does not establish incremental prediction of balance-test failure across NHANES samples",
+  "abstract": "In 517 complete-case NHANES 2003\u20132004 adults aged 40\u201369, adding binaural low-frequency audiogram slope did not establish improved balance-failure prediction beyond conventional hearing summaries and risk factors: Brier gain +0.00138960, source/target PSU-refit 95% interval \u22120.00841561 to +0.00585358.",
+  "keywords": [
+    "audiogram shape",
+    "balance",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3518403/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31592821/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38351499/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAX_B.htm"
+    }
+  ]
+}
