@@ -1,0 +1,35 @@
+{
+  "title": "Post-first-second residual emptying fraction did not establish added chronic-phlegm prediction across separate NHANES samples",
+  "abstract": "In 2,331 NHANES 2007\u20132008 adults aged 40\u201379, we trained weighted logistic models for chronic phlegm using demographics, smoking, adiposity and standard spirometry. Adding D=(FVC\u2212FEV3)/(FVC\u2212FEV1) worsened source PSU-grouped cross-validation. Frozen evaluation in 2,188 separately sampled 2011\u20132012 adults changed log loss by +0.00007977 (target stratified-PSU 95% interval \u22120.00006330 to +0.00022799; source-and-target refit interval \u22120.00017017 to +0.00088771) and AUROC by \u22120.000506. No stable incremental benefit was established. D is algebraically recoverable from FEV3/FVC and FEV1/FVC, and the public summaries need not describe one maneuver. This is a negative representation test, not evidence against small-airway physiology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "late expiration",
+    "chronic phlegm",
+    "NHANES",
+    "negative result",
+    "cross-sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://link.springer.com/article/10.1186/s12931-023-02450-1"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
