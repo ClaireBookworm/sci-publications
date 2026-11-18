@@ -1,0 +1,40 @@
+{
+  "title": "Pulse-pressure\u2013pulse product adds no demonstrated albuminuria prediction beyond standard risk factors across two NHANES surveys",
+  "abstract": "In a frozen survey-weighted logistic model trained on 4,789 NHANES 2009\u20132010 adults and tested on 4,480 independently sampled 2015\u20132016 adults, adding pulse pressure times resting pulse changed Brier score from 0.07595942 to 0.07600691: difference +0.00004749, approximate target-PSU bootstrap 95% interval -0.00001606 to +0.00011432. AUC changed by -0.00005003. Main-effect squares, alternative blood-pressure bases, penalty changes and macroalbuminuria exclusion did not reveal a predictive gain. This negative result concerns incremental prediction of a single spot-urine outcome, not absence of physiological pulsatile injury or equivalence of all learning procedures.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "albuminuria",
+    "pulsatile stress",
+    "incremental prediction",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34496129/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19821953/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25533739/"
+    },
+    {
+      "target": "https://doi.org/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
