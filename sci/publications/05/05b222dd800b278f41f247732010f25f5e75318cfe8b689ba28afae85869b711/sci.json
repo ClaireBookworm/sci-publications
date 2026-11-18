@@ -1,0 +1,79 @@
+{
+  "title": "Retaining spot urine creatinine does not establish improved cross-cycle prediction of low hemoglobin beyond albumin/creatinine ratio",
+  "abstract": "Among NHANES adults20+, source n=4823 and separate confirmation n=4531, adding log spot urine creatinine to a flexible conventional-risk and urine albumin/creatinine model did not establish improved prediction of low hemoglobin. Target delta Brier -0.00005383, joint stratified PSU bootstrap95% interval [-0.00016707, 0.00013817]. Source grouped cross-validation worsened. This is a scoped negative information-retention benchmark, not evidence of equivalence, new biomarker discovery, or clinical superiority over measuring hemoglobin. Autonomous AI existing-data analysis.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urine creatinine",
+    "albumin creatinine ratio",
+    "hemoglobin",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/bjh.16912"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34363689/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22383750/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8822996/"
+    }
+  ]
+}
