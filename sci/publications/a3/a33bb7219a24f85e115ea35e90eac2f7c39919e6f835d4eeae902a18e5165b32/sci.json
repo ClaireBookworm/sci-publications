@@ -1,0 +1,37 @@
+{
+  "title": "Signed within-visit systolic change adds no demonstrated cross-cycle albuminuria prediction beyond BP means and variability",
+  "abstract": "A fixed model fitted in 5,240 NHANES 2009\u20132010 adults and tested in 4,915 adults from the separately sampled 2015\u20132016 release found negligible incremental albuminuria prediction from third-minus-first systolic BP beyond means, within-visit SD and selected clinical covariates. External AUC changed from 0.742571 to 0.742599 and log loss from 0.327964 to 0.327940; paired intervals included zero. Weighting, stronger averaging baselines and refitting uncertainty did not establish improvement. This is same-program temporal transfer, not validation in an independent measurement platform; person overlap cannot be verified from anonymous survey IDs. No clinical utility or physiological mechanism is established. Raw hash checks, scalar checks and a clean container rerun are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "albuminuria",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://njmonline.nl/article_ft.php?a=2222&d=1462&i=235"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/sampledesign.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
