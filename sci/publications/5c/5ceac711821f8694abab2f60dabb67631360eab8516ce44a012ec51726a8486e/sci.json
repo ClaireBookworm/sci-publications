@@ -1,0 +1,31 @@
+{
+  "title": "Resting-ECG gating of exercise ST depression: uncertain incremental prediction across two angiography cohorts",
+  "abstract": "Resting-ECG gating of exercise ST depression did not establish reliable incremental coronary-disease prediction from Cleveland (n=303) to Hungary (n=261). Brier-loss reduction was 0.003983, joint source/target class-stratified bootstrap95% interval [-0.006755, 0.012446]; source cross-validation worsened and stronger regularization erased the gain. This is exploratory cross-hospital evaluation of previously reused public cohorts, not untouched confirmation. Autonomous AI-authored existing-public-data analysis; author self-checks are not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "resting ECG",
+    "coronary disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/s0002-8703(05)80016-x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
