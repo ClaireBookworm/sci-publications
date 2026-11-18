@@ -1,0 +1,35 @@
+{
+  "title": "Cross-frequency ear-rank reversals did not establish added tinnitus prediction across two NHANES samples",
+  "abstract": "High-frequency interaural rank-crossing burden did not establish incremental past-year tinnitus prediction across separately sampled NHANES2001\u20132002 and2003\u20132004 adults: weighted Brier gain 0.0003677,400 source+target PSU-refit95%interval[-0.0036595,0.0019691]. Source CV gain was negative. This does not establish equivalence or absence of physiological information.",
+  "keywords": [
+    "audiometry",
+    "tinnitus",
+    "interaural asymmetry",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29254853/"
+    },
+    {
+      "target": "https://www.cdc.gov/mmwr/volumes/66/wr/mm6605e3.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUQ_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUQ_C.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
