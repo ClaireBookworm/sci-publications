@@ -1,0 +1,35 @@
+{
+  "title": "Swing\u2013stride coupling does not improve the primary cross-dataset Parkinson gait classifier: a sensitivity-dependent public-data result",
+  "abstract": "Within-foot swing\u2013stride rank coupling was tested beyond mean stride, stride CV, mean swing fraction and swing CV. A fixed logistic model trained on 31 gaitndd participants was evaluated on 162 gaitpdb participants. Adding coupling changed external AUC from 0.7310 to 0.7277 (paired bootstrap difference -0.0033, 95% interval -0.0064 to -0.0006) and worsened log loss by 0.0130. The proposed lower coupling in PD was absent in both datasets. First60-cycle and demographic-adjustment sensitivities reversed incremental performance, precluding a universal no-utility conclusion or robust biomarker claim. Computation was isolated and the corrected pipeline clean-rerun; source overlap cannot be definitively excluded.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "external validation",
+    "negative result",
+    "swing-stride coupling",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1152/jappl.2000.88.6.2045"
+    },
+    {
+      "target": "doi:10.1186/1743-0003-2-23"
+    },
+    {
+      "target": "doi:10.13026/C27G6C"
+    },
+    {
+      "target": "doi:10.13026/C24H3N"
+    },
+    {
+      "target": "doi:10.1161/01.CIR.101.23.e215"
+    }
+  ]
+}
