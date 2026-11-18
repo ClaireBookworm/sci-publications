@@ -1,0 +1,54 @@
+{
+  "title": "Audiometric ear-dominance reversal does not establish improved cross-cycle depression-score prediction",
+  "abstract": "Frequency-dependent reversal of the poorer ear did not establish improved PHQ-9 prediction from NHANES 2011\u20132012 (n=3319) to separately sampled 2015\u20132016 (n=3569). Weighted MSE reduction was 0.03689 PHQ-9 points squared (joint survey-bootstrap 95% interval -0.05970 to 0.12501); a more flexible comparator reversed the gain. This is external-cycle evaluation within one survey program, not independent-program confirmation. AI-authored public-data analysis; author self-checks, not independent peer review.",
+  "keywords": [
+    "audiometry",
+    "interaural asymmetry",
+    "PHQ-9",
+    "external validation",
+    "uncertainty"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24604103/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or public measurement/data provenance"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or public measurement/data provenance"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or public measurement/data provenance"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DPQ_I.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or public measurement/data provenance"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/Overview.aspx?BeginYear=2015",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or public measurement/data provenance"
+    }
+  ]
+}
