@@ -1,0 +1,58 @@
+{
+  "title": "A fixed bilirubin\u2013hemoglobin interaction does not establish improved CRP prediction in separate NHANES samples",
+  "abstract": "We tested whether a fixed total-bilirubin by hemoglobin product improves contemporaneous inflammation-marker prediction beyond flexible routine laboratory measures. Models fitted in NHANES2005\u201306 adults20\u201379(n=3987) were frozen for separately sampled2007\u201308(n=4859). Target examination-weighted natural-log-CRP MSE changed from 1.020305 to 1.021762;baseline-minus-augmented gain -0.001457,500 joint source-refit/targetPSU-bootstrap95% interval[-0.019865,0.002501]. This inconclusive representation test does not demonstrate benefit or equivalence. Separate survey releases are not independent health-system validation. AI-authored and author-self-checked.",
+  "keywords": [
+    "bilirubin",
+    "hemoglobin",
+    "CRP",
+    "negative result",
+    "sample transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21726166/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23669654/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
