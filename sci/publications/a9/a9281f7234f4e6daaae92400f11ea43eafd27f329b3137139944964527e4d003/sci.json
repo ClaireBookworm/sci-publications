@@ -1,0 +1,58 @@
+{
+  "title": "RDW\u2013globulin coupling does not establish improved CRP prediction beyond routine inflammatory measures in separate NHANES samples",
+  "abstract": "A fixed RDW\u00d7globulin interaction tested whether erythrocyte heterogeneity contextualizes serum protein signals beyond flexible routine laboratory measures and existing ratios. In NHANES2005\u201306 adults20\u201379(n=4049) models were fitted and frozen for separately sampled2007\u201308(n=4864). Examination-weighted natural-log-CRP MSE changed from 1.008172 to 1.007767;baseline-minus-augmented gain 0.000405,500 joint source-refit/targetPSU-bootstrap95% interval[-0.005345,0.003096]. This narrow representation test does not establish benefit or equivalence. Separate survey releases provide limited sample transfer,not independent health-system validation. AI-authored;author-self-checked.",
+  "keywords": [
+    "RDW",
+    "globulin",
+    "CRP",
+    "negative result",
+    "sample transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19391664/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8420021/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
