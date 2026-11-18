@@ -1,0 +1,76 @@
+{
+  "title": "Hemoglobin\u2013RDW interaction does not improve independent-cycle grip-strength prediction beyond flexible component effects and their ratio",
+  "abstract": "A fixed hemoglobin-by-RDW interaction trained in 4,515 NHANES 2011\u20132012 adults did not improve maximum-grip prediction in 5,011 independently sampled 2013\u20132014 adults beyond flexible blood-marker, ratio and anthropometric effects: target MSE increased by 0.0323 kg\u00b2, with both survey-bootstrap intervals spanning zero.",
+  "keywords": [
+    "hemoglobin",
+    "RDW",
+    "grip strength",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/36721603/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "RDW grip motivation"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/41731802/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Published ratio comparator"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source outcome protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target outcome protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source laboratory protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target laboratory protocol"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Data terms"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Rescaled bootstrap method"
+    }
+  ]
+}
