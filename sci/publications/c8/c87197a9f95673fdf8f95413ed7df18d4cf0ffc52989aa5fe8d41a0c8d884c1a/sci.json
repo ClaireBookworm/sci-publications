@@ -1,0 +1,28 @@
+{
+  "title": "BUN/creatinine adds fragile, baseline-dependent grip-strength prediction across NHANES cycles",
+  "abstract": "BUN/creatinine reduced target grip-strength MSE by 1.1203 kg\u00b2 beyond linear component measures, but survey-weighted uncertainty included zero and gains reversed under flexible-component and tail-restriction checks. These NHANES cycles do not establish robust incremental prediction or clinical utility.",
+  "keywords": [
+    "BUN/creatinine",
+    "grip strength",
+    "NHANES",
+    "sensitivity analysis",
+    "cross-cycle prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1007/s40520-022-02332-4"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data/nhanes/nhanes_release_policy.pdf"
+    }
+  ]
+}
