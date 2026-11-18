@@ -1,0 +1,38 @@
+{
+  "title": "Ordered within-visit systolic relaxation did not improve albuminuria prediction beyond mean and variability across two NHANES samples",
+  "abstract": "The direction of change across routine blood-pressure readings is lost by their mean and standard deviation. We tested first-minus-third seated systolic pressure as an additional predictor of spot urinary albumin/creatinine >=30 mg/g. A prespecified weighted ridge model included flexible age, BMI, HbA1c, serum creatinine, mean systolic/diastolic pressures and their within-visit SDs, plus sex. NHANES 2007\u201308 supplied 4558 discovery adults; separate 2009\u201310 supplied 4983 confirmation adults. Brier gain (baseline minus augmented model) was \u22120.0000741 in source PSU-grouped cross-validation and \u22120.0000156 in frozen confirmation. Target rescaled-PSU bootstrap 95% interval was \u22120.0000964 to +0.0000677; source/target refits gave \u22120.000316 to +0.000111. AUROC decreased by 0.000221. Tiny sign changes under alternative BP averaging and first-morning urine did not establish useful incremental prediction. This is a scoped negative result for a signed linear addition, not evidence of absent biological information. Independent survey samples are not external-program replication; unlinked repeat participation cannot be excluded. Author checks and a clean offline rerun are provided, not independent peer review.",
+  "keywords": [
+    "blood pressure",
+    "within-visit order",
+    "albuminuria",
+    "NHANES",
+    "negative predictive result",
+    "independent sample confirmation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/j.1751-7176.2011.00581.x"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32641542/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx"
+    },
+    {
+      "target": "https://doi.org/10.1080/01621459.1988.10478591"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
