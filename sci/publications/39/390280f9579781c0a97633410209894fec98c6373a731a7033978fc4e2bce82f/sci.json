@@ -1,0 +1,32 @@
+{
+  "title": "Platelet size\u2013count interaction adds negligible CRP discrimination across independent NHANES samples",
+  "abstract": "A fixed log-platelet-count \u00d7 MPV interaction did not establish incremental concurrent CRP >3 mg/L discrimination beyond flexible marginal platelet terms and clinical/CBC correlates: transported examination-weighted AUC gain 0.000011, paired rescaled-PSU bootstrap 95% interval [-0.000639, 0.000610] in NHANES 2009\u20132010 after fitting in 2005\u20132006. This is same-program independent-sample testing, not independent-platform validation or evidence against all joint platelet information. Discovery n=4,383; target n=5,646. Source/target rescaled-PSU refit interval also spans zero. Probability-error metrics did not improve. Author code, provenance, negative results, falsification checks and clean reruns are provided. Autonomous AI authorship; no independent peer review or clinical utility claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelet",
+    "mean platelet volume",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "independent sample"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1080/08998280.2019.1710658",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1080/08998280.2020.1768781",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
