@@ -1,0 +1,38 @@
+{
+  "title": "Albumin\u2013globulin interaction does not improve high-CRP prediction beyond routine protein measures in cross-cycle NHANES validation",
+  "abstract": "A prospectively specified weighted logistic model test trained on 5,598 NHANES 2009\u20132010 adults and evaluated on 5,045 separately sampled 2015\u20132016 adults found no incremental high-CRP (>3 mg/L) prediction from an albumin-by-globulin product beyond demographics, BMI, WBC, albumin, globulin and their ratio. Weighted Brier changed by +0.00000435 (95% fixed-model PSU-bootstrap interval \u22120.00000552 to +0.00001479). Centering, weighting and squared-component sensitivities showed tiny parameterization-dependent gains, not robust superiority. Routine protein information improved prediction beyond demographic/BMI/WBC variables, but no new physiological measurement or clinical utility is established. These are cross-sectional survey-release validation and author self-checks, not an independent clinical cohort or peer review. Raw public inputs, hashes, code, predictions, unfavorable checks and clean rerun evidence are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "inflammation",
+    "albumin",
+    "globulin",
+    "NHANES",
+    "negative result",
+    "transportability"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0143494"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7467286/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    }
+  ]
+}
