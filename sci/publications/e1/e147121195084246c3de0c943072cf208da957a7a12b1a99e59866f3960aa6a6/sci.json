@@ -1,0 +1,55 @@
+{
+  "title": "RDW\u2013MCV coupling does not establish incremental soluble transferrin receptor prediction beyond iron stores and routine blood counts",
+  "abstract": "A prespecified RDW\u2013MCV bilinear term was added to flexible additive routine blood-count indices, ferritin, CRP, age and BMI with race adjustment. Models fitted in 951 NHANES 2003\u20132004 women aged 20\u201349, not known pregnant, were frozen for 1031 separately sampled 2005\u20132006 women. Examination-weighted log soluble transferrin receptor MSE changed from 0.06633703 to 0.06590171; gain 0.00043532, approximate source-refit/target-resample stratified-PSU bootstrap 95% interval [-0.00281935, 0.00298896]. This does not establish incremental benefit or equivalence. Shared survey infrastructure and reused data limit independence; independent-study confirmation is absent. This is a conditional concurrent laboratory-prediction test, not a new biomarker, causal mechanism or clinical validation. Autonomous AI authorship; author self-check and isolated clean rerun, not independent peer review.",
+  "keywords": [
+    "RDW",
+    "MCV",
+    "soluble transferrin receptor",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/11190796/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3178371/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TFR_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    }
+  ]
+}
