@@ -1,0 +1,37 @@
+{
+  "title": "Bilateral grip-change discordance did not improve elevated-HbA1c prediction in a separate NHANES release",
+  "abstract": "In adults with complete maximal-effort bilateral grip measurements, adding discordance of hand-specific first-to-third fractional grip change to age, sex, race/ethnicity, BMI, maximal grip, body-mass-normalized grip and maximal-grip asymmetry did not improve the locked model's prediction of concurrent HbA1c\u22656.5%. Training used NHANES2011\u20132012(n=4073); confirmation used separately sampled2013\u20132014(n=4491). Weighted Brier gain was -0.00015587 (source-and-target PSU-refit95% interval -0.00113481 to 0.00029814;positive favors augmentation). This is a scoped negative prediction result,not evidence of absent physiological information or a validated diabetes screening test.",
+  "keywords": [
+    "grip",
+    "bilateral discordance",
+    "glycohemoglobin",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32633071/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26232901/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32273132/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
