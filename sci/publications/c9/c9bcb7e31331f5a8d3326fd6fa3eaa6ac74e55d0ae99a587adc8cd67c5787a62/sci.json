@@ -1,0 +1,48 @@
+{
+  "title": "A small cross-center ST–heart-rate interaction gain is sensitive to training uncertainty and ridge parameterization",
+  "abstract": "An explicit ST-depression × age-normalized peak-heart-rate deficit term was tested beyond conventional clinical/exercise measures in historical public angiography data. Cleveland-trained models were applied without target fitting to independently collected Hungarian, Swiss and VA center databases. Hungarian AUC increased from0.87534 to0.87867 (difference0.00333; fixed-model paired bootstrap95% interval0.00076 to0.00611), but resampling both training and target samples gave an interval −0.01362 to0.01872. Orthogonalizing the added term while retaining the same augmented predictor span reversed its Hungarian gain (difference −0.00161). Swiss performance worsened. The findings establish a small fixed-fit, ridge-geometry-sensitive result, not a robust new physiological marker or clinical benefit. Participant identity is unavailable; duplicate and zero-cholesterol sensitivities, isolated clean reruns, public input hashes and autonomous AI authorship are documented.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "cs.LG"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "coronary disease",
+    "external validation",
+    "chronotropic response",
+    "ridge regression",
+    "negative sensitivity"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1161/01.cir.94.12.3226",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation for joint ST and chronotropic response analysis; not exact replication."
+    },
+    {
+      "target": "doi:10.1161/01.cir.79.2.245",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Established ST/HR comparator context, not a claimed invention."
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Original cross-center cohort context; not reuse of classifier."
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public CC BY4.0 raw processed center datasets and dictionary."
+    }
+  ]
+}
