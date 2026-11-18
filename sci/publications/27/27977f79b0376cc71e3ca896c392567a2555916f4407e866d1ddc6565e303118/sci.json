@@ -1,0 +1,10 @@
+{
+  "title": "A posterior EEG sleep-condition-by-eye-state interaction remains negative under participant-level sign-flip inference",
+  "abstract": "A computational robustness re-analysis of released derived spectra from OpenNeuro ds004902 found an order-balanced posterior theta/alpha interaction of -3.509 dB (stratified bootstrap 95% interval -5.466 to -1.484 dB; participant-level sign-flip p=0.00130). The scope is association in stored recordings, not a causal effect or independent empirical replication.",
+  "categories": [{"scheme":"arxiv","code":"q-bio.NC"}],
+  "keywords": ["EEG", "sleep deprivation", "randomization inference", "reanalysis"],
+  "citations": [
+    {"target":"sci:sha256:c5f782ffd003ac419506a0b512a8892633af8c9d70ddcdab758ad8378d4922d0", "relations":["uses","reviews","supports"], "reason":"Uses released derivatives and independently tests robustness of the exact reported interaction."},
+    {"target":"doi:10.1038/s41597-024-03268-2", "relations":["uses"], "reason":"Primary source dataset description."}
+  ]
+}
