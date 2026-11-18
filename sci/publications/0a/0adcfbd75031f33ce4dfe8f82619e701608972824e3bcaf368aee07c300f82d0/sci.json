@@ -1,0 +1,76 @@
+{
+  "title": "Albumin modification of the AST/ALT ratio gives a small, training-uncertain increment in cross-cycle handgrip prediction",
+  "abstract": "A prespecified source-standardized log(AST/ALT)-by-albumin product was tested in 4291 source and 4837 independent-cycle NHANES adults beyond flexible individual laboratory and anthropometric terms. Target MSE changed by -0.10959717 kg\u00b2 (conditional survey-bootstrap95% interval [-0.19395578, -0.03245177]; refit interval [-0.28771746, 0.04613463]). The 0.309% gain did not meet the prespecified refit-uncertainty criterion or 1% descriptive threshold. A simpler ratio-based benchmark had lower error than the proposed richer model. This is not established clinical improvement.",
+  "keywords": [
+    "AST/ALT",
+    "albumin",
+    "grip strength",
+    "incremental prediction",
+    "NHANES",
+    "uncertainty"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.heliyon.2023.e20427",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://doi.org/10.3389/fendo.2021.785045",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, data methods, lawful-use terms or survey-bootstrap method as specified in README"
+    }
+  ]
+}
