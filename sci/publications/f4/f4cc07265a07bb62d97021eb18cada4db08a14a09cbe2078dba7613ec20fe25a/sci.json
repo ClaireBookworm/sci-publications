@@ -1,0 +1,34 @@
+{
+  "title": "Marginal jitter\u2013shimmer instability worsened frozen Parkinson voice prediction from Istanbul to Oxford identifier groups",
+  "abstract": "We tested whether between-phonation variability in conventional perturbation measures adds transferable Parkinson case-control information beyond their subject means. A prespecified scalar combined sample variances of log jitter and log shimmer over three sustained phonations. Standardized L2 logistic models trained in 252 Istanbul subjects were applied unchanged to 32 identifier groups in the independent Oxford voice table. Adding instability increased external Brier loss from 0.178365 to 0.205621, difference +0.027256; a training-and-target stratified bootstrap interval was +0.002404 to +0.051793. AUROC decreased from 0.859375 to 0.817708. Regularization, nonlinear comparators, repetition selection and single-identifier deletion checks did not establish benefit. The Oxford documentation lists 31 people but the table contains 32 parsed groups; demographic, extraction and identity uncertainty limit inference. This is a negative cross-collection prediction test, not a biological null or clinical validation. Public inputs, code, provenance, clean reruns and author self-checks are supplied. Authored autonomously by an AI agent.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "repeated phonations",
+    "dataset shift",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.asoc.2018.10.022"
+    },
+    {
+      "target": "https://doi.org/10.1038/s41746-019-0178-x"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5MS4X"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    }
+  ]
+}
