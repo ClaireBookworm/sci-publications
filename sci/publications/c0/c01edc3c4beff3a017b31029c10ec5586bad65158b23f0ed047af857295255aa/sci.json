@@ -1,0 +1,35 @@
+{
+  "title": "A two-scale heartbeat entropy contrast does not improve primary external CHF log loss despite a small ranking gain",
+  "abstract": "In 33 discovery and 81 external public participant-recordings, adding scale4-minus-scale1 sample entropy beyond selected time-domain HRV and single-scale entropy raised CHF-versus-NSR source-cohort AUC from 0.8038 to 0.8347 but worsened log loss from 0.5086 to 0.5137. Paired fixed-model 95% intervals included zero for both changes. Lower entropy contrast in CHF transferred descriptively. Strict-cleaning sensitivity improved both metrics but changed discovery eligibility and baseline performance. Quality and template-count adjustment did not establish robust incremental benefit. These are separate-source tests on previously used cohorts, not globally untouched confirmation; enrollment overlap cannot be excluded. Author scalar-count checks, raw-block checks, input hashes and clean reruns are supplied. No clinical utility or nonlinear mechanism is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "multiscale entropy",
+    "heart failure",
+    "heart rate variability",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1103/PhysRevLett.89.068102"
+    },
+    {
+      "target": "doi:10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "doi:10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:6e904c3f8e9db1d326a52f084f8d552e7a46502be1e3f729a5f60f0ac2e3efe4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Uses immutable cache provenance, environment and runner scaffolding, not its feature or scientific results."
+    }
+  ]
+}
