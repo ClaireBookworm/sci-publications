@@ -1,0 +1,76 @@
+{
+  "title": "Trial-to-trial handgrip laterality reversals provide no clear incremental prediction of grasp difficulty across independent NHANES cycles",
+  "abstract": "A fixed indicator of stronger-hand reversals across three paired grip trials was evaluated against maximum grip, asymmetry, variation, trend and demographic predictors. Training used 1,429 NHANES 2011\u20132012 adults aged60+; independent-cycle testing used1,530 NHANES2013\u20132014 adults. Brier loss changed by -0.00000686, with both survey-bootstrap intervals spanning zero. The result does not establish equivalence or clinical validity.",
+  "keywords": [
+    "handgrip",
+    "laterality",
+    "functional limitation",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32384713/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Maximum-grip asymmetry and function literature motivating the question"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33290729/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Longitudinal strength asymmetry and activity limitations literature"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MGX G public protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MGX H public protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PFQ G public protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PFQ H public protocol"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS data-use conditions"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Rescaled bootstrap methodology"
+    }
+  ]
+}
