@@ -1,0 +1,68 @@
+{
+  "title": "Signed pulse-pressure relaxation did not establish incremental HbA1c prediction across two NHANES samples",
+  "abstract": "A literature-motivated test asked whether third-minus-first pulse pressure contains glycemic information beyond conventional pressure levels, variability, pulse and clinical covariates. Source-fitted ridge models in 4,139 NHANES 2011\u20132012 adults were frozen and evaluated in 4,444 separately sampled 2013\u20132014 adults. Target MEC-weighted MSE was 0.533030780 before and 0.533031710 after adding the signed change. Baseline-minus-augmented gain was -0.00000093 HbA1c percentage-points squared, joint source/target stratified-PSU bootstrap 95% interval [-0.00092187, 0.00062745]. Source grouped cross-validation also failed to improve. Medication, representation and order-permutation checks did not establish utility. This negative result concerns a single low-resolution feature, not the absence of autonomic glycemic effects. Independent sample transfer within one survey is not independent-platform clinical validation. AI-authored, self-checked and clean-rerun; not independently peer reviewed.",
+  "keywords": [
+    "pulse pressure",
+    "HbA1c",
+    "trial order",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32086289/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Recent-onset diabetes and baroreflex impairment, primary study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24408773/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Wu et al 2014, glycemic categories and baroreflex sensitivity"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source BP protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target BP protocol"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "HbA1c assay and laboratory change"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use terms"
+    },
+    {
+      "target": "sci:sha256:31e1bb56f0f80bf574868e1e64b7278b134771c50301909da8c8da4e971b5c55",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Secondary signed systolic-change comparator tests the related feature, not an exact reproduction of this study"
+    }
+  ]
+}
