@@ -1,0 +1,47 @@
+{
+  "title": "RDW-to-albumin ratio did not improve cross-cohort CRP prediction beyond flexible component measures",
+  "abstract": "The red-cell distribution-width-to-albumin ratio (RAR) is an established prognostic composite. We asked whether its raw ratio representation adds nonadditive information about concurrent log C-reactive protein beyond flexible component and standard physiological measures. Models trained in 4063 NHANES2005\u20132006 adults were frozen and evaluated in 5147 different NHANES2007\u20132008 adults. MEC-weighted MSE was 1.063148 without and 1.063218 with RAR; gain was -0.000069 (500 source-refit/target-resample rescaled PSU bootstrap95% interval -0.003517 to 0.000938). No incremental prediction benefit was demonstrated. Small benefits or harms remain compatible. This representation-specific negative result does not test mortality, causality or clinical utility. Validation uses separate recruitment cohorts within one survey platform, not independent health systems.",
+  "keywords": [
+    "RDW",
+    "albumin",
+    "CRP",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1001/jamanetworkopen.2024.13213"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3387573/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
