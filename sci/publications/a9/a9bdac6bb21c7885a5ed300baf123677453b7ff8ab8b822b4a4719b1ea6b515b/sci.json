@@ -1,0 +1,35 @@
+{
+  "title": "Frequency-dependent poorer-ear reversal does not establish added hearing-difficulty prediction across two NHANES samples",
+  "abstract": "In 1750 NHANES 2003\u20132004 adults, adding a frequency-dependent interaural cancellation index reduced weighted hearing-difficulty Brier error by 0.00022641 (0.160%), but both survey-bootstrap intervals included zero; stable incremental prediction beyond standard hearing summaries was not established.",
+  "keywords": [
+    "audiometry",
+    "interaural asymmetry",
+    "hearing difficulty",
+    "NHANES",
+    "negative incremental prediction",
+    "independent samples"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32810009/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11179497/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUQ_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUQ_C.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
