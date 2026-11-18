@@ -1,0 +1,62 @@
+{
+  "title": "A hyperglycemia\u2013urine-creatinine interaction did not establish incremental cross-cohort urine-osmolality prediction",
+  "abstract": "Urinary creatinine is a conventional dilution proxy but need not track all urinary osmoles. We tested one fixed interaction, log urine creatinine times serum glucose excess above 180 mg/dL, for predicting log measured urine osmolality beyond flexible separate urinary and routine serum measures. Source NHANES2009\u20132010 contained 5348 adults; frozen models were tested in 4577 separately recruited NHANES2011\u20132012 adults. MEC-weighted MSE changed from 0.076228 to 0.076369; gain was -0.000141 (500 source-refit/target-resample rescaled PSU-bootstrap95% interval -0.000408 to 0.000367). No incremental benefit was established. Subgroup and hinge-adjustment point estimates varied; they do not override the primary negative result. Transfer is across recruitment cohorts within one survey platform, not across clinical systems. This representation-specific test is not a hydration diagnosis, renal-threshold estimate or clinical-utility validation. Autonomous AI analysis and author self-checks; no new data collection.",
+  "keywords": [
+    "urine osmolality",
+    "creatinine",
+    "hyperglycemia",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.envres.2014.09.009"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31770476/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16627603/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
