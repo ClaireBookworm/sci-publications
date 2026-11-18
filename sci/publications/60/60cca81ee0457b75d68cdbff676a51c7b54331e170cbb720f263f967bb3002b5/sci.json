@@ -1,0 +1,40 @@
+{
+  "title": "Rate-conditioned NN asymmetry did not improve frozen heart-failure classification across PhysioNet collections",
+  "abstract": "We tested whether the slow-minus-fast difference in five-minute deceleration-energy asymmetry adds information beyond standard NN variability and median block asymmetry. L2 logistic models were fitted in 82 recordings (28 CHF, 54 NSR) from chf2db/nsr2db and frozen for testing in 33 recordings (15 CHF, 18 NSR) from chfdb/nsrdb. Adding the contrast increased Brier loss from 0.084267 to 0.100140; difference +0.015873 (conditional 95% stratified bootstrap interval +0.004193 to +0.028803). Resampling training and test subjects widened the interval to -0.008856 to +0.055677. AUROC fell from 0.955556 to 0.937037. A small leave-one-out development gain did not transfer. Bounds, block-duration, regularization and rate-dispersion checks did not establish benefit. These are cross-database source-label predictions, not clinical diagnosis. Prior investigator exposure, unlinked participant identities, demographic and acquisition differences limit confirmation. Reproducible code, input hashes and author self-checks are provided.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart rate asymmetry",
+    "heart failure",
+    "NN intervals",
+    "cross-database validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/28/3/005"
+    },
+    {
+      "target": "https://doi.org/10.1007/s11517-011-0834-z"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12047600/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    }
+  ]
+}
