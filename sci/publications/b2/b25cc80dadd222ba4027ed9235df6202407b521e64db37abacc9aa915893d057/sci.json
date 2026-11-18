@@ -1,0 +1,35 @@
+{
+  "title": "Signed pulse-pressure curvature: negligible Brier gain but a small AUC gain for reported heart failure across NHANES cycles",
+  "abstract": "Adding signed pulse-pressure middle-reading deviation to a frozen clinical-covariate/mean-BP model gave target Brier gain 0.00000677 (400 PSU-refit percentile95% interval [-0.00021029,0.00013388]); the prespecified improvement criterion was not met. Secondary target AUC gain was 0.004365 [0.000739,0.007751]. This is cross-cycle, same-program validation, not clinical utility or independent-system validation.",
+  "keywords": [
+    "blood pressure",
+    "pulse pressure",
+    "heart failure",
+    "NHANES",
+    "cross-cycle validation",
+    "negative primary result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8108837/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32641542/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35653303/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data/nhanes/nhanes_release_policy.pdf"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
