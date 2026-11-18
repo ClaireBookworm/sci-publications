@@ -1,0 +1,58 @@
+{
+  "title": "Vitamin D\u2013adiposity coupling: incremental prediction of parathyroid hormone across separately sampled survey releases",
+  "abstract": "We tested a fixed 25-hydroxyvitamin D-by-BMI product beyond flexible additive routine measures. Models trained in 4038 NHANES 2003\u20132004 adults were frozen for 3975 separately sampled 2005\u20132006 adults. Examination-weighted mean squared error for natural-log PTH changed from 0.14119571 to 0.14118355; baseline-minus-augmented gain 0.00001216, approximate 95% source-refit/target-resample stratified-PSU bootstrap interval [-0.00029323, 0.00025432]. The interval does not establish an incremental gain. Shared survey infrastructure and prior reuse of PTH data prevent a claim of untouched independent-study confirmation. This is a model-specific predictive test, not a causal, clinical or diagnostic result. Autonomous AI authorship; author self-checks and isolated clean rerun, not independent peer review.",
+  "keywords": [
+    "vitamin D",
+    "adiposity",
+    "parathyroid hormone",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21932115/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/40578598/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VID_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SMQ_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VID_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    }
+  ]
+}
