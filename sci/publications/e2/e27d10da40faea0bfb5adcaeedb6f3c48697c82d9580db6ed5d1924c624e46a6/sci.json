@@ -1,0 +1,22 @@
+{
+  "title": "Exercise-to-rest pulse-pressure amplification adds no demonstrated cross-hospital CAD prediction beyond its component pressures",
+  "abstract": "A literature-led public-data analysis tested log peak-to-rest pulse-pressure ratio beyond flexible additive conventional exercise measures and individual pressures. Hungarian development included293 patients;independent institutional Long Beach VA evaluation included136,106 with angiographic CAD. External Brier loss changed from0.253621 to0.253631;gain-0.000010,1000 joint source-refit/target-bootstrap95%[-0.000670,0.000536]. Source cross-validation also worsened slightly. The log ratio is an additive transformation of its components,not new measured information. No reliable incremental benefit is established;this is not evidence of equivalence or clinical utility. Historical target reuse,referral differences,missingness,and incompatible protocols limit confirmation. AI-authored,author self-checked and clean-rerun;not independent peer review.",
+  "keywords": [
+    "pulse pressure",
+    "exercise physiology",
+    "coronary artery disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/4005081/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1782948/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
