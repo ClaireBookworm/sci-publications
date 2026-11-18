@@ -1,0 +1,76 @@
+{
+  "title": "BUN\u2013filtration coupling does not establish incremental hemoglobin prediction in temporal NHANES validation",
+  "abstract": "A prespecified logBUN-by-eGFR interaction was added to flexible kidney markers, BUN/creatinine ratio, iron, albumin and demographic baselines. Training in NHANES2011\u20132012 (n=4481) and frozen testing in the independently sampled2013\u20132014 cross-section (n=4881) yielded a weighted MSE reduction of0.000251 (g/dL)^2,95% joint source-refit/target PSU-bootstrap interval \u22120.002281 to0.003052. Target RMSE was0.993116 versus0.992990g/dL; MAE slightly worsened. Incremental prediction is not established; this is not equivalence or evidence against kidney\u2013erythropoiesis physiology. AI-authored and author-self-checked, not independently peer reviewed.",
+  "keywords": [
+    "BUN",
+    "hemoglobin",
+    "eGFR",
+    "NHANES",
+    "negative result",
+    "transfer prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0257305",
+      "relations": [
+        "uses"
+      ],
+      "reason": "KNOW-CKD primary BUN/anemia study"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27658757/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary BUN/creatinine comparator study"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021",
+      "relations": [
+        "uses"
+      ],
+      "reason": "2021 race-free eGFR equation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis conditions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2011 BIOPRO methods and variables"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2011 CBC methods and variables"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2013 BIOPRO methods and variables"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC2013 CBC methods and variables"
+    }
+  ]
+}
