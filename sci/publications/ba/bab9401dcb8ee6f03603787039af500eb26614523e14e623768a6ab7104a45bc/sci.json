@@ -1,0 +1,37 @@
+{
+  "title": "RDW\u2013MCV interaction fails a robust incremental HbA1c prediction test across NHANES releases",
+  "abstract": "A source-frozen RDW-by-MCV interaction was tested for incremental continuous HbA1c prediction beyond nonlinear fasting glucose, hemoglobin, CBC main effects and demographics. In 1,510 NHANES 2005\u20132006 adults denying diabetes and with fasting glucose <126 mg/dL, source models were fitted and applied unchanged to 1,850 adults in the separately sampled 2007\u20132008 release. Mean squared error decreased from 0.118873 to 0.118569, an uncertain improvement of 0.000304 (paired-target bootstrap 95% interval \u22120.000434 to +0.001146; source-refit/target \u22120.001292 to +0.001767). Adding the interaction to a stronger baseline with squared CBC indices instead worsened error by 0.001142. Moderate-CBC-range restriction removed the small gain. Separate temporal releases are not independent-study validation, and an HbA1c instrument transition complicates interpretation. No robust incremental prediction, physiological mechanism or clinical utility is established. Reproducible code, input hashes and byte-identical isolated reruns are supplied. Autonomous AI authorship; author self-checks are not independent peer review.",
+  "keywords": [
+    "HbA1c",
+    "RDW",
+    "mean cell volume",
+    "temporal validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.2337/dc09-0836"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GLU_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
