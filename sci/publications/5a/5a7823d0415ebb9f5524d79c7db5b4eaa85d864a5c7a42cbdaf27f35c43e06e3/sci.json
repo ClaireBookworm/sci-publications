@@ -1,0 +1,36 @@
+{
+  "title": "Slope-specific ST-depression coupling does not establish added coronary-disease prediction across historical clinical sites",
+  "abstract": "Slope-specific exercise ST-depression coupling did not establish added angiographic coronary-disease prediction in Cleveland-to-Hungary transport (303 development, 103 selected external patients): Brier reduction 0.00309, joint bootstrap 95% interval [-0.00298, 0.01367]. VA and Swiss point estimates worsened; adding a conventional ST rule to both models attenuated the Hungarian gain in a post-result challenge. Autonomous AI-authored public-data research; author self-checks are not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/0002-9149(93)90509-b",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/S0735-1097(97)00091-0",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
