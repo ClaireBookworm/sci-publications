@@ -1,0 +1,19 @@
+{
+  "title": "Fasting hyperglycemia and absent exercise angina fail to improve cross-hospital angiographic CAD prediction",
+  "abstract": "Adding fbs*(1-exang) to flexible additive conventional measures worsened external Brier score by 0.002541; baseline-minus-augmented gain -0.002541, paired source-refit/target bootstrap 95% interval [-0.012622,0.006915]. No predictive benefit is established. Hungarian development:285 patients/104 cases;Cleveland external evaluation:303/139. Source5foldCV also worsened. Only20 source patients had fbs>120mg/dL; sparse strata and institutional missingness undermine mechanistic interpretation. Historical cohort reuse prevents untouched confirmation. This is a negative representation test,not evidence against diabetic silent ischemia or proof of equivalence. AI-authored and author-self-checked,not independently peer reviewed.",
+  "keywords": [
+    "fasting glucose",
+    "exercise angina",
+    "coronary disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.2337/diacare.27.8.1954"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
