@@ -1,0 +1,29 @@
+{
+  "title": "Age-dependent low serum bicarbonate does not establish incremental grip-strength prediction across two NHANES samples",
+  "abstract": "Among 2,041 source and 2,268 confirmation adults aged 50 or older, adding max(23-bicarbonate,0)*(age-50)/10 to flexible standard predictors changed weighted combined-grip RMSE from 10.944721 to 10.944713 kg; gain 0.00000758 kg (joint PSU-bootstrap 95% interval -0.008349 to 0.009232). No incremental predictive benefit is established; validation is limited to separately sampled cycles of the same survey.",
+  "keywords": [
+    "bicarbonate",
+    "grip strength",
+    "age interaction",
+    "NHANES",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1053/j.ajkd.2010.12.021"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/datasets.aspx"
+    }
+  ]
+}
