@@ -1,0 +1,77 @@
+{
+  "title": "Serum sodium\u2013insulin coupling does not establish improved systolic blood pressure prediction across two NHANES samples",
+  "abstract": "We tested a centered serum sodium\u00d7log fasting insulin interaction beyond flexible sodium,insulin,HOMA-IR and routine metabolic/demographic measures. Training used 1877 NHANES2015\u201316 adults;testing used 1778 separately sampled2017\u201318 adults. Weighted systolic blood pressure MSE was 235.041778 versus 235.037638 mmHg\u00b2,gain 0.004140,500 joint stratified-PSU-bootstrap95% interval [-4.226611,2.133060]. Source fivefold cross-validation worsened by1.136011mmHg\u00b2. Restrictions and model variations gave small gains or losses. Residualization confirmed nonzero candidate variation beyond additive baseline directions,but not clinically useful predictive evidence. This is a negative cross-sectional feature test,not proof of equivalence or absence of renal insulin physiology. Independent-sample transfer was evaluated within NHANES;no independent health-system validation was performed. AI-authored and author-self-checked.",
+  "keywords": [
+    "serum sodium",
+    "fasting insulin",
+    "systolic blood pressure",
+    "HOMA-IR",
+    "negative result",
+    "cross-sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://www.jci.org/articles/view/107996"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8125556/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GLU_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DIQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FASTQX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FASTQX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
