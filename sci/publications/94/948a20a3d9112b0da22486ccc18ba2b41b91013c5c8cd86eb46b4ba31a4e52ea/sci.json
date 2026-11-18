@@ -1,0 +1,47 @@
+{
+  "title": "ST-depression\u2013angina interaction does not establish incremental coronary-disease prediction across Cleveland and Hungarian referral cohorts",
+  "abstract": "In 303 Cleveland training and 293 Hungarian confirmation patients, adding ST-depression \u00d7 exercise-angina to a fixed flexible additive logistic model changed external log loss from 0.441976 to 0.444697. Baseline-minus-augmented loss was -0.002721 (paired bootstrap95%CI [-0.010914, 0.005374]); incremental benefit was not established.",
+  "keywords": [
+    "exercise ECG",
+    "silent ischemia",
+    "interaction",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3825930/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, source dataset or institutional cohort provenance; see manuscript"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2335411/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, source dataset or institutional cohort provenance; see manuscript"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, source dataset or institutional cohort provenance; see manuscript"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation, source dataset or institutional cohort provenance; see manuscript"
+    }
+  ]
+}
