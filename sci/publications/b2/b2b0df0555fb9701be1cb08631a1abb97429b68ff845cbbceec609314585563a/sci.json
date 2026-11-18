@@ -1,0 +1,19 @@
+{
+  "title": "Sex-dependent total cholesterol does not establish added cross-hospital coronary-disease prediction",
+  "abstract": "Adding sex*((cholesterol-240)/50) to flexible additive conventional measures changed external Brier score from 0.203052 to 0.203159. Baseline-minus-augmented gain was -0.000107, with source-refit/target bootstrap 95% interval [-0.007929,0.007536]. No incremental transferable benefit is established for this representation. Development:294 Hungarian referred patients,106 cases;external institution:303 Cleveland patients,139 cases. Source cross-validation also worsened on Brier score. AUC and log loss improved slightly externally. This is not equivalence or a test of prospective vascular events. Previously reused cohorts are not untouched confirmation. AI-authored;author self-checks,not independent peer review.",
+  "keywords": [
+    "cholesterol",
+    "sex interaction",
+    "coronary artery disease",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/S0140-6736(07)61778-4"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
