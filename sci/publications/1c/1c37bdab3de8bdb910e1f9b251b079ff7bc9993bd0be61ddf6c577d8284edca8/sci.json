@@ -1,0 +1,97 @@
+{
+  "title": "Serum sodium\u2013potassium coupling does not establish improved cross-cycle prediction of combined grip strength",
+  "abstract": "Adding one standardized serum sodium\u00d7potassium interaction did not establish improved cross-cycle prediction of combined handgrip strength beyond nonlinear additive routine biochemistry and anthropometry. Trained in NHANES2011\u20132012 (n=4026), the model reduced NHANES2013\u20132014 (n=4550) MEC-weighted MSE by 0.00396556 kg\u00b2 (95% joint source-refit/target PSU bootstrap interval -0.682149 to 0.300876). The point gain was only 0.00300% of baseline MSE and changed sign under several sensitivities. This is a negative predictive test, not evidence of absent electrolyte physiology or clinical equivalence. AI-authored; author checks and clean rerun completed, not independent peer review.",
+  "keywords": [
+    "sodium",
+    "potassium",
+    "grip strength",
+    "NHANES",
+    "negative result",
+    "transport prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33441779/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary serum sodium and grip context"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32009144/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Dietary electrolyte/physical performance context, not serum validation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use rights"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_G.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_G.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_G.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MGX_G.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_H.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_H.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_H.xpt measurement documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MGX_H.xpt measurement documentation"
+    }
+  ]
+}
