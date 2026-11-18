@@ -1,0 +1,58 @@
+{
+  "title": "Ordered systolic blood-pressure curvature does not improve transported classification of low FEV1/FVC in two NHANES cycles",
+  "abstract": "We tested whether the signed curvature SBP1\u22122SBP2+SBP3 from three routine pressure readings improves classification of prebronchodilator FEV1/FVC<0.70 beyond average pressure, systolic variability and linear trend, demographics, anthropometry and smoking. Models trained in NHANES2007\u20132008 (3361 adults; 472 cases) were frozen and evaluated in separately recruited NHANES2011\u20132012 (3333; 409 cases). Target weighted Brier score worsened from 0.09801441 to 0.09889924, delta +0.00088483; joint rescaled-PSU bootstrap95% interval [-0.00006365,+0.00332694]. Incremental benefit was not established. This is an exploratory temporal-transport negative result, not equivalence, evidence of causal harm, or a COPD diagnostic study. Shared survey protocols and prior data exposure limit confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "ordered curvature",
+    "spirometry",
+    "negative result",
+    "temporal transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29266017/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20224559/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    }
+  ]
+}
