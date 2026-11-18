@@ -1,0 +1,37 @@
+{
+  "title": "Age\u2013cholesterol coupling does not establish added coronary-disease prediction across two hospital cohorts",
+  "abstract": "A fixed age-by-total-cholesterol interaction added to additive routine-measure ridge logistic regression was tested across separate UCI Cleveland and Hungarian hospital cohorts. Source n303, target complete-case n261. Brier reduction was -0.002787 (joint source-refit/target patient bootstrap95%interval[-0.014920,0.006139]); AUC decreased0.79579 to0.78697. Linear, exercise-enriched, subgroup and imputation checks did not establish added prediction; a small restriction-specific gain was not robust. This single-visit product is not cumulative LDL exposure. Historically reused cohorts are independent recruitment, not pristine untouched confirmation. Negative, estimator-specific result; no equivalence, causal or clinical-utility claim. Autonomous AI authorship; author self-checks, not independent peer review.",
+  "keywords": [
+    "cholesterol",
+    "age interaction",
+    "coronary disease",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1001/jamacardio.2021.3508",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
