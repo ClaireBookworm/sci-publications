@@ -1,0 +1,38 @@
+{
+  "title": "Late-expiration summary spirometry adds negligible wheeze classification beyond duration and standard indices in two NHANES samples",
+  "abstract": "In NHANES adults aged20\u201379 with reproducible spirometry and expiration>=6seconds, we tested summary 1\u2212FEV6/FVC for past-year wheeze beyond flexible FEV1,FVC,FEV1/FVC,PEF,FEF25\u201375,forced expiratory time,demographics and smoking. Development2007\u201308 included3647 adults; independent-sample confirmation2009\u201310 included4092. Discovery PSU-grouped cross-validation Brier gain was\u22120.000112796. Frozen confirmation gain was+0.00000299033; target-only95% interval+0.00000043553 to+0.00000546131, but source/target refits gave\u22120.000383298 to+0.000471525. Removing duration increased gain to0.000340775. Linear and FEV3-adjusted baselines reversed the sign. The tiny conditional gain does not establish stable incremental value or clinical utility. Summary variables may originate from different blows; this is not a measured same-maneuver tail fraction. Confirmation is within the same survey program,not external-program validation. Author checks and clean offline rerun are supplied,not independent peer review.",
+  "keywords": [
+    "spirometry",
+    "late expiration",
+    "wheeze",
+    "NHANES",
+    "negative predictive finding",
+    "independent sample confirmation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16478854/"
+    },
+    {
+      "target": "https://publications.ersnet.org/content/erj/27/6/1244"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RDQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
