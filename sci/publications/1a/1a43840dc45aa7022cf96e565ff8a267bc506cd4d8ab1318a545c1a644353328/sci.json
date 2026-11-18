@@ -1,0 +1,35 @@
+{
+  "title": "Bilateral middle-trial grip excursions did not establish added glycemic prediction across separate NHANES samples",
+  "abstract": "Bilateral middle-trial grip-excursion concordance did not establish incremental HbA1c prediction beyond maximum strength, asymmetry and marginal dynamics: source CV MSE gain -0.001684 percentage-points\u00b2; separate-sample target gain 0.002746 (400 source+target PSU-refit 95% interval -0.010006 to 0.011596). Same-program independent-sample testing, not untouched external-cohort confirmation or equivalence.",
+  "keywords": [
+    "grip trials",
+    "bilateral concordance",
+    "HbA1c",
+    "NHANES",
+    "negative result",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26552062/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32273132/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/26c6b75ed93c01e71cf74a004be02bfffd23349dcbafdf1fb740f9ec85617915"
+    }
+  ]
+}
