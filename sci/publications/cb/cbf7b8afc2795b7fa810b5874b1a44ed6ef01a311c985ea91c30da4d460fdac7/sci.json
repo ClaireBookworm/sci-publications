@@ -1,0 +1,40 @@
+{
+  "title": "MCV\u2013RDW interaction does not reliably improve cross-release prediction of digit-symbol processing speed",
+  "abstract": "In NHANES adults60+, an MCV\u00d7RDW interaction added to demographic,education,hemoglobin and additive-index ridge baselines reduced held-out MSE by 0.611 symbols\u00b2 in2013\u201314 (95%PSU-refit interval-2.386 to1.844) and 0.357 in1999\u20132000 (-1.402 to1.612). Neither confirms the prespecified improvement criterion. Instrument changes,complete-case selection and same-survey validation limit inference;no clinical utility established.",
+  "keywords": [
+    "cognition",
+    "red-cell indices",
+    "negative result",
+    "cross-release validation",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/jgs.12066"
+    },
+    {
+      "target": "https://www.frontiersin.org/journals/aging-neuroscience/articles/10.3389/fnagi.2025.1571159/full"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB25.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CFQ.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data/nhanes/nhanes_release_policy.pdf"
+    }
+  ]
+}
