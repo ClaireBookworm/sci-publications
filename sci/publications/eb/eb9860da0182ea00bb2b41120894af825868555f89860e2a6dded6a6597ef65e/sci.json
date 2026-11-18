@@ -1,0 +1,55 @@
+{
+  "title": "Continuous triglyceride\u2013waist interaction adds no established fasting-insulin predictive benefit across two NHANES samples",
+  "abstract": "A frozen continuous log-triglyceride by waist interaction did not establish incremental fasting log-insulin prediction beyond flexible standard metabolic markers: 1764 source/1853 target NHANES adults, 0.070% target MSE reduction, joint PSU-bootstrap95%CI for absolute gain [-0.005243,0.002112]. Source2011\u20132012 and target2013\u20132014 are separately sampled survey datasets, not independent clinical programs. Source grouped cross-validation worsened. Stronger baselines and sex/clinical restrictions produced gains below0.2%. This is a narrow negative incremental prediction result, not evidence against the established hypertriglyceridemic-waist phenotype. The target was previously used for a different study, limiting untouched-confirmation claims. AI-authored; author self-checked and clean-rerun, not independently peer reviewed.",
+  "keywords": [
+    "triglycerides",
+    "waist circumference",
+    "insulin",
+    "NHANES",
+    "transfer prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10889128/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary hypertriglyceridemic-waist metabolic study motivating question"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12167959/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary population study of hypertriglyceridemic waist"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GLU_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source fasting insulin and sampling documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/INS_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target insulin and assay conversion documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis terms"
+    }
+  ]
+}
