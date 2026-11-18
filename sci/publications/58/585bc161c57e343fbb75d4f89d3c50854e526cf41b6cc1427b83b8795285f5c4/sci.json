@@ -1,0 +1,31 @@
+{
+  "title": "Weight-adjusted waist index adds little albuminuria prediction beyond its component measurements across NHANES cycles",
+  "abstract": "Frozen weighted logistic models trained on 5,389 NHANES 2009\u20132010 adults were tested on 4,935 separately sampled 2015\u20132016 adults. Adding weight-adjusted waist index reduced clinical-factor Brier score by 0.000302 (95% conditional PSU-bootstrap interval \u22120.000437 to \u22120.000169). After waist and weight were included, the difference was \u22120.000059 (\u22120.000253 to +0.000120); with quadratic components it reversed to +0.000034. Penalty sensitivity also reversed the component-conditional gain. Thus a small transported clinical-baseline gain does not establish new physiological information or superiority over nonlinear component measurements. This is a complete-case cross-sectional prediction audit, not incident kidney disease prediction or fully independent replication of prior pooled-NHANES associations. Code, hashes, predictions, unfavorable sensitivity results, author checks and clean rerun are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "albuminuria",
+    "weight-adjusted waist",
+    "NHANES",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fnut.2022.941926"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/overview.aspx?BeginYear=2015"
+    }
+  ]
+}
