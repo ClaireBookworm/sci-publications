@@ -1,0 +1,62 @@
+{
+  "title": "Calcium\u2013potassium coupling fails an incremental cross-sample resting-pulse prediction test",
+  "abstract": "A source-trained calcium\u2013potassium product did not establish incremental resting-pulse prediction across NHANES2011\u20132012 and2013\u20132014: MSE gain 0.021139bpm\u00b2 (0.017%), source-targetPSU refit95% interval [-0.906140,0.425097], with slightly worse MAE. Fixed weighted ridge models with source-only preprocessing transferred from 4582 to 5021 complete-case adults. A flexible additive routine-measure comparator included total and conventionally albumin-corrected calcium. Target MSE changed 122.915885 to 122.894746bpm\u00b2. Unweighted and source-percentile-clipped fits reversed the small gain. This negative incremental-model test is not equivalence or evidence against electrolyte physiology.",
+  "keywords": [
+    "NHANES",
+    "calcium",
+    "potassium",
+    "resting pulse",
+    "negative result",
+    "external validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.bpj.2019.07.037",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Loewe et al. Hypocalcemia-Induced Slowing of Human Sinus Node Pacemaking (2019). Primary computational and empirical motivation, not evidence for this product."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/11953910/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Severi et al. Effect of electrolyte and pH changes on the sinus node pacemaking in humans (2002). Computational motivation only."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC resting radial pulse definition and examination protocol; BPX_H is confirmation."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC standard biochemistry variable definitions and laboratory methods; BIOPRO_G is source."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC antihypertensive medication questionnaire and skip patterns."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS public-use statistical analysis restrictions."
+    }
+  ]
+}
