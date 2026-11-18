@@ -1,0 +1,62 @@
+{
+  "title": "Bicarbonate\u2013hemoglobin coupling adds no established airflow-ratio prediction across two NHANES samples",
+  "abstract": "Adding a bicarbonate\u00d7hemoglobin term to flexible standard predictors did not establish improved prebronchodilator FEV1/FVC prediction in NHANES: source n=3504, target n=3900; target MSE gain -2.00641509e-07, joint source-refit/target PSU-bootstrap95%CI [-1.23278837e-05, 7.43747236e-06]. This registered frozen-model transfer test compares independently sampled2007\u20132008 and2009\u20132010 cross-sections, not two splits. Target cycles were previously used for other questions, so this is not wholly untouched confirmation or independent clinical-program validation. Small improvements and harms are compatible with the interval; no mechanistic null or equivalence is established. AI-authored; author self-checked, not independently peer reviewed.",
+  "keywords": [
+    "bicarbonate",
+    "hemoglobin",
+    "spirometry",
+    "NHANES",
+    "transfer prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6805244/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "HOmeVent primary registry study motivates bicarbonate/respiratory-compensation hypothesis"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5778679/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary hospitalized COPD study motivates joint bicarbonate and hemoglobin consideration"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source spirometry and eligibility/quality definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target spirometry documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Biochemistry variable definitions"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis conditions"
+    }
+  ]
+}
