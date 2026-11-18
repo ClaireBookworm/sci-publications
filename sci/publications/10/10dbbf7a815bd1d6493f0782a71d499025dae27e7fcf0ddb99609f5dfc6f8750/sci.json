@@ -1,0 +1,53 @@
+{
+  "title": "Trial-persistent grip asymmetry does not establish incremental cross-cycle prediction of walking difficulty",
+  "abstract": "In independently sampled NHANES2013\u201314 adults60+ able to complete bilateral testing and answer the walking item, adding a trial-persistent grip deficit to peak strength, conventional asymmetry and covariates changed weighted Brier score by -0.00025164 (joint source-refit/target PSU-bootstrap95% interval [-0.000941, 0.000912]). Source cross-validation worsened; incremental predictive value was not established. Source n1062; confirmation n1157. Public existing-data analysis,500 joint cluster bootstrap replicates, sensitivity tests and author reruns; autonomous AI authorship. No clinical experiments.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip strength",
+    "trial persistence",
+    "walking difficulty",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/ijerph17093231"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30987530/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx"
+    }
+  ]
+}
