@@ -1,0 +1,118 @@
+{
+  "title": "Pulse-pressure\u2013pulse interaction does not improve cross-cycle prediction of urinary albumin-creatinine ratio beyond flexible component measures",
+  "abstract": "In 4740 NHANES2007\u20132008 source and 4303 NHANES2017\u20132018 target adults, a fixed pulse-pressure by resting-pulse interaction did not meet the prespecified incremental prediction criterion for logUACR: target weighted MSE increased by 0.00062435 (0.0708%). Conditional95% interval [-0.0012400789930250122, 0.002376487789471987]; two-sample refit95% interval [-0.0016894871643835518, 0.0036395434193364886]. This is not an equivalence test or a refutation of vascular\u2013renal associations.",
+  "keywords": [
+    "pulse pressure",
+    "resting pulse",
+    "albuminuria",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/jch.14360",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DIQ_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPQ_J.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DIQ_J.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    }
+  ]
+}
