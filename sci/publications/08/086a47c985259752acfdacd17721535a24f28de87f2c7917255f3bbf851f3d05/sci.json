@@ -1,0 +1,97 @@
+{
+  "title": "A bicarbonate\u2013anion-gap interaction adds no demonstrated cross-cycle grip-strength prediction beyond flexible standard measures",
+  "abstract": "In 4270 NHANES2011\u20132012 training and 4798 NHANES2013\u20132014 confirmation adults, adding a fixed bicarbonate-by-albumin-corrected-anion-gap product to flexible standard measures changed target weighted grip-strength MSE by -0.017810 kg\u00b2 (0.0131% improvement). Conditional and refit 95% intervals included zero; the prespecified incremental-prediction criterion was not met.",
+  "keywords": [
+    "bicarbonate",
+    "anion gap",
+    "grip strength",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1053/j.ajkd.2010.12.021",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://doi.org/10.1038/ki.2011.479",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation or official data/access documentation; see README"
+    }
+  ]
+}
