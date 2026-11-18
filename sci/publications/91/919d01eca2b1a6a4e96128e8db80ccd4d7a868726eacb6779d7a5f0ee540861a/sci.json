@@ -1,0 +1,26 @@
+{
+  "title": "A monocyte\u2013neutrophil balance term fails to improve cross-cycle adult FEV1 prediction",
+  "abstract": "A prespecified monocyte/(monocyte+neutrophil) feature was added to weighted ridge prediction of FEV1 beyond flexible individual leukocyte counts, demographics, body size and smoking. Source NHANES2007\u201308(n3737) grouped-CV MSE improved0.00016185 L\u00b2; held-out NHANES2011\u201312(n3685) reduction was\u22120.00138964 L\u00b2. Joint PSU-bootstrap95%interval[\u22120.159747,+0.018326] was extremely unstable. Registered sensitivities and post hoc support restriction also failed to improve target point estimates. This is an estimator-specific negative result, not equivalence or absence of biology. Independent survey cycles share a platform and were historically reused; independent clinical-cohort validation was not completed. Author AI self-checks, alternate solver and clean reruns passed; no independent review claimed.",
+  "keywords": [
+    "monocyte",
+    "neutrophil",
+    "FEV1",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1080/07853890.2021.1948603",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
