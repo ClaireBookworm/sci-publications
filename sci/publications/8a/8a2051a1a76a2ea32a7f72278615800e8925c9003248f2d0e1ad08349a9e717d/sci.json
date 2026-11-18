@@ -1,0 +1,79 @@
+{
+  "title": "Three-trial grip variability did not improve work-disability prediction across two NHANES samples",
+  "abstract": "In 3,970 NHANES 2013\u20132014 adults aged 20\u201364, adding within-hand three-trial grip CV to a fixed conventional model trained in 3,638 NHANES 2011\u20132012 adults changed examination-weighted work-disability Brier score by +0.00000784 (conditional survey-bootstrap 95% interval \u22120.00000593 to +0.00002248). The prespecified improvement criterion failed. Separate-survey-sample prediction testing does not establish clinical utility, equivalence, causation, or independent-study transportability.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip variability",
+    "work disability",
+    "NHANES",
+    "held-out prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.5014/ajot.2019.029538"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32070795/"
+    },
+    {
+      "target": "doi:10.1080/00140139508925229"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
