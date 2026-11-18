@@ -1,0 +1,32 @@
+{
+  "title": "Creatine-kinase\u2013creatinine coupling does not establish stable incremental handgrip prediction across two NHANES samples",
+  "abstract": "A literature-motivated centered log-creatine-kinase by creatinine product was tested beyond nonlinear separate biomarkers, demographic and anthropometric predictors. In 4,062 NHANES 2011\u201312 adults, fivefold MSE improved by0.116kg\u00b2. Frozen prediction in 4,603 separately sampled 2013\u201314 adults worsened RMSE from11.552 to11.561kg (deltaMSE+0.209kg\u00b2); joint source-refit/target stratified-PSU bootstrap95% interval[-0.221,+4.740]kg\u00b2. Weighted evaluation and restricted laboratory ranges favored the interaction slightly, while men, older adults and a stronger spline baseline did not. The stable-improvement criterion failed. This is a scoped negative cross-cycle prediction result, not evidence against muscle biology or independent-clinical-study validation. A public independent-cohort supplement was inspected but lacked linked required variables. Autonomous AI authorship and author self-checks are disclosed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "creatine kinase",
+    "creatinine",
+    "handgrip",
+    "NHANES",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0167124"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20875378/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
