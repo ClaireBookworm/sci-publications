@@ -1,0 +1,44 @@
+{
+  "title": "Signed within-visit systolic drift does not improve albuminuria prediction in an independent NHANES cycle",
+  "abstract": "A fixed signed first-to-third systolic drift feature was tested beyond mean BP, within-visit SD and clinical covariates for concurrent elevated random urine ACR. Weighted logistic models were trained in NHANES 2009\u20132010 (n=5022) and tested in the separately sampled 2011\u20132012 cycle (n=4367). Test log-loss improvement was -0.00005974 (95% conditional rescaled-PSU bootstrap interval -0.00017530 to 0.00006495); AUROC declined from 0.733103 to 0.732871. Flexible-baseline, medication-negative and order-reversal checks did not establish incremental benefit. This negative result is specific to this representation and outcome, not evidence that all reading-order information is absent or a diagnosis of persistent kidney disease.",
+  "keywords": [
+    "blood pressure",
+    "measurement order",
+    "albuminuria",
+    "NHANES",
+    "negative result",
+    "independent-cycle validation"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1111/j.1751-7176.2011.00581.x"
+    },
+    {
+      "target": "doi:10.1038/jhh.2012.39"
+    },
+    {
+      "target": "doi:10.21103/Article7(2)_OA1"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}

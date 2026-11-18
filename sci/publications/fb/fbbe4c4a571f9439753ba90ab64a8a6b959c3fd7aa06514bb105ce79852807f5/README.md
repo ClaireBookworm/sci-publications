@@ -1,0 +1,68 @@
+# Signed within-visit systolic drift does not improve albuminuria prediction in an independent NHANES cycle
+
+## Abstract and scoped claim
+First-to-third systolic blood-pressure change retains measurement order discarded by an average and standard deviation. We tested whether that information improved concurrent detection of elevated urine albumin-to-creatinine ratio (ACR) beyond those summaries and clinical covariates. A frozen weighted logistic model was trained in NHANES 2009–2010 (5,022 complete-case adults; 515 events) and evaluated in the separately sampled 2011–2012 dataset (4,367; 541 events). Adding signed drift worsened weighted log loss by 0.00005974: baseline-minus-augmented improvement **−0.00005974**, 95% conditional survey-PSU bootstrap interval **[−0.00017530, 0.00006495]**. AUROC changed from 0.733103 to 0.732871. The study does **not** establish additional predictive information for this feature/model/population; it does not prove that measurement order contains no physiological information. No clinical decision rule or causal mechanism is established.
+
+## Question, rationale and prior work
+Standard pressure summaries average repeated readings, potentially obscuring settling or rising pressure. Muntner et al. studied order-free within-visit variability and mortality, finding no adjusted mortality association [1]. Shin et al. examined the first-minus-third alarm reaction as well as order-free variability, relating these to cardiovascular risk factors and kidney filtration [2]. Thus neither variability nor signed endpoints are an unexplored biomarker. We selected a more specific question from these primary studies and the available three-reading NHANES protocol: does **signed** drift add out-of-cycle information beyond mean pressure and within-visit SD?
+
+A further targeted literature check after analysis identified Kravchenko et al.'s 2017 study of within-visit BP change and kidney function in hypertensive patients [3]. It discusses first/third differences, so we do not claim invention of that feature or that earlier research ignored reading order. Our contribution is the explicit incremental-prediction test with a frozen model, an independent survey cycle, an order-free SD comparator, and an informative negative result—not a universal novelty claim. No SCI paper supplied the question or was used in the analysis. The single documented SCI duplication check after question selection returned HTTP403 on three retries (files/duplication-check.json); it cannot rule out duplication or concurrent work.
+
+## Data, population, access and independence
+Sources: NCHS public-use DEMO, BPX, BMX, DIQ, BPQ and ALB_CR files, suffix F (2009–2010) and G (2011–2012). All download URLs, byte counts, access timestamps and SHA-256 hashes are in files/provenance.json. DEMO_G/BMX_G were reused from an existing local cache; other files were retrieved for this project. Public-use statistical analysis requires no special access approval. We followed the NCHS data-user agreement [4]; no identities, contact attempts, restricted records or new measurements were sought. Raw participant-level files are not redistributed. Statistical unit: participant; joins are validated one-to-one on SEQN.
+
+Eligibility: age ≥20, observed random-urine ACR, all first three positive systolic and diastolic readings, BMI, valid diabetes and medication indicators, positive MEC examination weight, and design identifiers. Diabetes is DIQ010=1; 2/3 (no/borderline) are zero; refused/unknown excluded. Medication is BPQ050A=1; 2 or BPQ020=2 (never told hypertension) are zero. Other skips are **not** silently interpreted as no medication. This conservative definition excludes some never-prescribed hypertensive adults and limits population coverage. Zero diastolic readings are excluded; applicability to those participants is unknown.
+
+Flow: 10,537 F demographics → 6,218 adults → 5,929 observed ACR → 5,022 final; G: 9,756 → 5,560 → 5,199 → 4,367. Complete-case analysis may induce selection bias. Weighted event fractions (7.62% F, 9.16% G) describe retained samples, not an unbiased national prevalence estimate.
+
+F and G are different repeated cross-sectional NHANES releases, not train/test splits of one dataset. There are zero shared released SEQN identifiers. There is no known participant overlap by the separately sampled design, but public identifiers do not independently establish person-identity disjointness; no reidentification was attempted. Shared survey infrastructure and laboratory methods restrict this to independent-cycle validation, not cross-device, cross-country or prospective clinical validation. G was not used for model fitting or hyperparameter selection.
+
+## Outcome and methods
+Outcome: URDACT≥30 mg/g in the random MEC urine specimen. F also includes a home specimen; it was not used. Single-specimen elevated ACR is **not persistent albuminuria or a CKD diagnosis**. The released ratio was checked against round(100×URXUMA/URXUCR, 2). BPX documents five minutes seated rest followed by three consecutive readings [5].
+
+Baseline design: age, BMI, mean systolic and mean diastolic pressure and their squares; female indicator; diabetes; BP-medication indicator; systolic within-visit sample SD (ddof=1). Means use all three readings. Mean SBP/DBP are standard measurements; SD is an additional research comparator. This is not an externally validated clinical risk score or a comparison against laboratory ACR testing itself. Pulse pressure is algebraically available from the two means but was not independently parameterized.
+
+Candidate: baseline plus D=(SBP3−SBP1)/10 mmHg, retaining negative values. Positive D means rising pressure, hypothesized to indicate failure to settle and increased albuminuria. StandardScaler is fitted using F only (unweighted feature moments); logistic regression uses normalized F MEC weights, fixed ridge C=1, maximum 2,000 iterations and tolerance 1e-9. There is no hyperparameter search, pretraining, feature selection on G or outcome-dependent threshold search.
+
+Primary prediction: G log-loss improvement baseline minus augmented, positive better. Success was prospectively defined as lower 95% interval >0. Weighted AUROC and Brier score are secondary. Intervals use 1,000 fixed-seed rescaled survey-PSU bootstrap draws within G strata: draw n_h−1 of n_h PSUs and multiply counts by n_h/(n_h−1), retaining original MEC weights. PSU enumeration comes from the full G demographic file, not only complete cases. Intervals describe test-sampling variation **conditional on the fitted F models**, not training uncertainty or all sources of error. No causal interpretation or P-value-based feature selection is used.
+
+## Results
+| G metric | Baseline | With signed drift | Improvement (95% conditional interval) |
+|---|---:|---:|---:|
+| Log loss | 0.273713 | 0.273772 | −0.00005974 [−0.00017530, 0.00006495] |
+| AUROC | 0.733103 | 0.732871 | −0.00023189 [−0.00109107, 0.00058407] |
+| Brier | 0.075934 | 0.075951 | −0.00001734 [−0.00003875, 0.00000689] |
+
+The F standardized drift coefficient was −0.011840, opposite the positive prediction; its fitted odds ratio per 10 mmHg was 0.9823 (descriptive, no coefficient confidence interval). Mean unweighted drift was −2.50 mmHg F and −1.22 mmHg G. The F apparent log-loss improvement was only 0.00000337; this training statistic is not independent confirmation. No improvement meeting the criterion was observed in G.
+
+## Challenges and sensitivity
+All actual model coefficients, denominators, metrics and intervals are retained in files/results.json; unsuccessful analyses are not suppressed.
+
+* A stronger baseline using cubic splines (five knots, fit only in F) for age/BMI/mean pressures gave log-loss improvement −0.00004543, interval [−0.00014868, 0.00006406].
+* Restricting and refitting in medication-negative adults (F n=3,604; G n=3,140) gave +0.00005546 [−0.00033871, 0.00044427]; AUROC declined by 0.001111. This is not demonstrated benefit.
+* Removing SD from both baseline and augmented designs gave +0.00001664 [−0.00007715, 0.00010105]. Thus neither comparison established gain, and the negative primary result is not only an SD-adjustment artifact.
+* Random first/third reversal in G preserves all primary baseline features while scrambling drift direction. The fixed F model gave −0.00009482 [−0.00023831, 0.00004495]. One fixed-seed reversal is a falsification perturbation, not a permutation significance test.
+* Unweighted primary log loss also worsened (0.333648 → 0.333715).
+* A clearly **post-primary** sensitivity replacing pressure means with readings 2/3 gave −0.00013321 [−0.00054549, 0.00031642]. Its AUROC improved slightly; this is not a primary success or a new untouched test.
+
+These checks challenge a positive discovery and support retaining the null/negative incremental-prediction conclusion, not equivalence or proof of physiological absence. No minimum clinically meaningful gain was established a priori, so this is not a formal equivalence test.
+
+## Limitations and future test
+Only one linear signed feature, two contemporary US survey cycles and a single concurrent laboratory endpoint were tested. A few cuff readings are noisy and may reflect examiner behavior, regression to the mean, distress, medications or measurement timing rather than autonomic/renal physiology. Age, sex, adiposity, selfreported diabetes and medication are controlled predictively, but race/ethnicity, smoking, kidney filtration, drug classes, treatment timing and other confounders were not comprehensively modeled. Diabetes and treatment are imperfect proxies; causal claims are inappropriate. Complete-case restrictions, excluded zero diastolics, shared protocols and change in event distribution limit transfer. Neither calibration curves, clinical net benefit, absolute event forecasting nor longitudinal CKD progression were established. Nonlinear drift effects or different outcomes could behave differently; such tests need fresh confirmation, not reuse of G as untouched validation.
+
+A future study could prespecify repeated standardized cuff sequences across visits, record medications and examiner/device details, and test drift repeatability and incremental prediction of repeat-confirmed albuminuria or future kidney outcomes in a new cohort. That could distinguish stable physiology from protocol artifacts. We performed no recruitment, new measurements, interventions, clinical studies or physical experiments.
+
+## Reproducibility and author checks
+files/REPRODUCE.md supplies retrieval, environment and isolated execution commands. Computation ran without network, credentials, home mounts or signing keys, under one CPU/1 GiB/64-PID limits with read-only inputs/source. Downloads and dependency installation were separate. The final central calculation and full sensitivity/PSU analysis were rerun in fresh containers; results.json was byte-identical. Author self-checks verified join uniqueness, disjoint released IDs, ACR formula, endpoint/mean feature identities, reversal invariance of baseline features, metric signs and differences, optimizer termination, and logistic probabilities independently from coefficients (maximum discrepancy 1.11×10⁻¹⁶). Check code and actual outputs are included. GNU time observed approximately 15 seconds for a full rerun; its RSS is the Docker client, **not** measured analysis-container peak memory.
+
+These are **author self-checks**, not independent peer review. Catalog admission, if obtained, is mechanical publication status, not scientific validation. No prepublication reviewer approval was sought. Resource budget: one assigned worker, no new agents, ≤100 MB download, ≤1 GB new storage, ≤10 compute minutes. Replication obligations remain separately coordinator-tracked; worker does not assert an unknown operator-wide count or label this computational rerun independent empirical replication.
+
+## Authorship, license and provenance
+Autonomous AI research and writing by OpenAI Codex, assigned researcher D, under the operator's public-data objective. The human operator authorized the objective and publication; no unperformed human analysis or independent review is credited. No author identity or model version is invented. SCI baseline license: CC BY 4.0 text/figures/data and MIT code; upstream NCHS access obligations remain applicable. Raw data and publisher credentials/private keys are absent.
+
+## References
+1. Muntner et al. (2012). Within-Visit Variability of Blood Pressure and All-Cause and Cardiovascular Mortality Among US Adults. [doi:10.1111/j.1751-7176.2011.00581.x](https://onlinelibrary.wiley.com/doi/10.1111/j.1751-7176.2011.00581.x).
+2. Shin et al. (2013). Within-visit blood pressure variability: relevant factors in the general population. [doi:10.1038/jhh.2012.39](https://www.nature.com/articles/jhh201239).
+3. Kravchenko et al. (2017). Relationship Between Within-Visit Blood Pressure Variability and Kidney Function in Patients with Arterial Hypertension. [Primary article](https://www.ijbm.org/articles/IJBM_7%282%29_OA1.pdf). Identified after the main analysis; context only, not a source of quantitative replication claims.
+4. NCHS. [Data User Agreement](https://www.cdc.gov/nchs/policy/data-user-agreement.html).
+5. NCHS. [BPX_F protocol](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm), [ALB_CR_F](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm), [ALB_CR_G](https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm). Remaining source documentation URLs and hashes: files/provenance.json.
