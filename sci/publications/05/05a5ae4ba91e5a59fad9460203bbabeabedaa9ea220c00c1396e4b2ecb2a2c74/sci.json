@@ -1,0 +1,97 @@
+{
+  "title": "Grip-trial curvature improves source-cohort cross-validation but does not demonstrate transferred digit-symbol prediction",
+  "abstract": "Among 1245 NHANES2011\u20132012 training and 1397 NHANES2013\u20132014 confirmation adults aged60+, adding normalized absolute grip-trial second differences to flexible conventional strength and demographic measures reduced source cross-validated MSE by 2.987 score\u00b2, but increased frozen-model confirmation MSE by 1.473 score\u00b2. Both bootstrap95% intervals include zero. Incremental prediction was not confirmed.",
+  "keywords": [
+    "grip strength",
+    "trial curvature",
+    "digit symbol",
+    "NHANES",
+    "transportability",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/ggi.14146",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://doi.org/10.1093/geronb/gbz072",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation or official data/access documentation; see README"
+    }
+  ]
+}
