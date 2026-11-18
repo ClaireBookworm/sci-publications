@@ -1,0 +1,38 @@
+{
+  "title": "Low-sodium/high-glucose co-occurrence did not establish incremental processing-speed prediction across two NHANES samples",
+  "abstract": "A fixed low-sodium/high-glucose hinge did not establish incremental DSST prediction beyond flexible conventional blood chemistry, calculated osmolarity and demographic factors. Source2011\u20132012(n=1289)CV MSE gain was -0.7627; separate2013\u20132014(n=1504)weighted MSE gain was 0.0214 score\u00b2(400 source+target PSU-refit95%interval -2.7920 to 1.0332). These are separately sampled releases in one program,not untouched external-cohort confirmation;the negative result is not equivalence.",
+  "keywords": [
+    "sodium",
+    "glucose",
+    "DSST",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31776660/"
+    },
+    {
+      "target": "https://www.nejm.org/doi/10.1056/NEJM197310182891607"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10225241/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
