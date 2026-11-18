@@ -1,0 +1,35 @@
+{
+  "title": "Phosphate\u2013vitamin D coupling does not improve temporal prediction of parathyroid hormone beyond flexible standard measures",
+  "abstract": "A literature-led serum phosphate-by-log25OH-vitaminD interaction was evaluated in 4162 NHANES2003\u20132004 adults and 4087 separately sampled2005\u20132006 adults. Weighted ridge models included flexible standard mineral, renal and demographic measures. Target weighted log-PTH RMSE was 0.379518 without and 0.379534 with the interaction; baseline-minus-augmented gain -0.00001624 (joint PSU bootstrap95% interval -0.00036219 to 0.00011220). Source PSU-held-out cross-validation likewise did not favor the interaction. This is a negative predictive result for one prespecified feature, not evidence against mineral endocrine feedback or proof of equivalence. Validation is temporal within NHANES, not across unrelated study programs; these cycles were previously used for other questions.",
+  "keywords": [
+    "PTH",
+    "phosphate",
+    "vitamin D",
+    "NHANES",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8970892/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21030580/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Nhanes/vitamind/analyticalnote.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/datasets.aspx"
+    }
+  ]
+}
