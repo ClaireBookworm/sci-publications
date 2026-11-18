@@ -1,0 +1,32 @@
+{
+  "title": "Eosinophil-to-neutrophil balance did not improve cross-cycle FEV1/FVC prediction beyond nonlinear separate counts",
+  "abstract": "A prespecified representation test fitted models in 3,560 NHANES 2007\u20132008 adults and transferred them without refitting to 3,996 NHANES 2009\u20132010 adults. Adding a spline of the log eosinophil-to-neutrophil ratio to demographics, smoking, anthropometry and separate count splines changed FEV1/FVC RMSE from 0.067206 to 0.067269. Delta MSE was 0.00000837 (target-participant bootstrap 95% interval 0.00000086 to 0.00001810). Source-refit plus target bootstrap uncertainty spanned zero. Weighted, quality and representation challenges did not support incremental benefit. These separately sampled survey releases share a protocol and are not independent clinical programmes. This negative result tests a deterministic feature representation, not the presence or absence of eosinophilic airway biology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "eosinophils",
+    "neutrophils",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30170809/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/index.html"
+    }
+  ]
+}
