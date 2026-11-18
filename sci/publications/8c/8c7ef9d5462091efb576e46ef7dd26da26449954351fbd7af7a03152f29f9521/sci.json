@@ -1,0 +1,35 @@
+{
+  "title": "Romberg retest improvement does not add stable symptom prediction beyond best stance time in two NHANES samples",
+  "abstract": "In 2296 NHANES 2003\u20132004 adults who reached condition4, adding a linear retest-improvement term increased weighted Brier error for prior-year dizziness/balance/falling problems from 0.166208 to 0.166323; the source-and-target survey-bootstrap interval for baseline-minus-augmented error was [-0.001096, 0.000287]. Stable added prediction was not established.",
+  "keywords": [
+    "Romberg",
+    "balance",
+    "retest",
+    "NHANES",
+    "negative incremental prediction",
+    "independent samples"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19468085/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21892121/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAQ_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAQ_C.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
