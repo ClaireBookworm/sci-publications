@@ -1,0 +1,49 @@
+{
+  "title": "Frequency-specific interaural crossing discordance does not improve transported tinnitus classification beyond standard audiometric summaries",
+  "abstract": "We tested a nonnegative audiometric contrast: mean absolute interaural difference across five frequencies minus the absolute mean signed difference. It preserves frequency-specific crossing information absent from ear averages. Weighted logistic models trained in NHANES2011\u20132012 (3816 adults, 582 tinnitus cases) were frozen and evaluated in separately recruited NHANES2015\u20132016 (4262; 616 cases). Beyond demographics, better/worse speech-frequency averages, high-frequency hearing, PTA asymmetry and notch depth, weighted Brier score changed from 0.12258161 to 0.12283167, delta +0.00025006, joint rescaled-PSU bootstrap95% interval [-0.00018516,+0.00102696]. No incremental benefit was established; spline and full-frequency comparators also failed to show point benefit. This exploratory temporal-transport negative result is not equivalence, a causal result, or validation of a diagnostic tool.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiometry",
+    "tinnitus",
+    "interaural asymmetry",
+    "negative result",
+    "temporal transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32176119/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29254853/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28182600/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    }
+  ]
+}
