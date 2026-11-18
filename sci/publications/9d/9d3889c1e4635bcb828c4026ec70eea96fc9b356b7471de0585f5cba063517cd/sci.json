@@ -1,0 +1,104 @@
+{
+  "title": "Upper-arm length did not improve cross-cycle FVC prediction beyond flexible standard anthropometry",
+  "abstract": "Upper-arm length could encode body proportions not captured by standing height, but whether that information improves held-out lung-volume prediction is uncertain. We fixed a one-term extension before testing its association: add measured upper-arm length to an empirical FVC model using age, sex, height, BMI, waist, smoking and self-reported race/ethnicity. We fitted NHANES 2007\u20132008 adults (n=3,749) and applied the frozen models to the separately recruited 2009\u20132010 dataset (n=4,171). Target RMSE was 518.992 mL without and 519.032 mL with the arm term. Baseline-minus-augmented RMSE was \u22120.040 mL (target stratified-PSU bootstrap 95% interval \u22120.566 to +0.457; source-and-target refit interval \u22120.965 to +0.470). Source five-fold out-of-fold gain was +0.137 mL. Survey weighting, stronger anthropometric flexibility and other sensitivity tests did not show a consistent benefit. This is a scoped negative predictive result, not proof that body proportions contain no physiological information or an equivalence study. Independent-programme validation was not performed.",
+  "keywords": [
+    "spirometry",
+    "anthropometry",
+    "FVC",
+    "NHANES",
+    "negative result",
+    "cross-cycle validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1519841/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary body-frame motivation"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17539839/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Arm-span independent-group prediction motivation; distinct from upper-arm length"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25254426/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary body-proportion and secular-change motivation"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32530561/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary sitting-height versus total-height scaling motivation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input documentation"
+    }
+  ]
+}
