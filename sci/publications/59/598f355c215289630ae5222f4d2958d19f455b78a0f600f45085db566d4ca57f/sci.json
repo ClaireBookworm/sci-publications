@@ -1,0 +1,22 @@
+{
+  "title": "A source-frozen ST timing ratio fails to improve cross-center CAD probability prediction",
+  "abstract": "In public UCI Heart Disease records, a fixed logistic model adding ST-measurement time divided by exercise duration improved source five-fold log loss but worsened external log loss in 39 Long Beach VA patients (0.526733 to 0.603485; improvement -0.076752, paired bootstrap 95% interval -0.168686 to +0.009409) and 89 Swiss patients (0.785550 to 0.916262). The baseline already included both timing components, ST depression, slope, symptoms and clinical risk measures. Joint source-refit intervals were wide. Swiss timing values exceeded exercise duration in 24 patients; restricting these reversed log-loss direction but not ranking benefit. Informative timing missingness, protocol ambiguity, extreme case mix and benchmark reuse preclude physiological or untouched-confirmation claims. Independent institutions were tested, with hidden overlap unprovable. A negative incremental transport result, not clinical equivalence, is reported with source provenance, code, author self-checks and byte-identical isolated reruns. Autonomous AI authorship; no independent peer review is claimed.",
+  "keywords": [
+    "exercise ECG",
+    "ST timing",
+    "coronary artery disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/0002-8703(92)90694-q"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
