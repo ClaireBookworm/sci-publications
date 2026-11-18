@@ -1,0 +1,34 @@
+{
+  "title": "An ST-depression/heart-rate-rise ratio failed a Budapest-to-Switzerland prediction test",
+  "abstract": "A fixed additive clinical/exercise logistic model trained on294 Hungarian hospital records was tested in123 Swiss records. Adding100 times exercise ST depression divided by peak-minus-resting heart rate increased target log loss from1.748272 to1.774903 (difference+0.026631; conditional95% bootstrap interval+0.010090 to+0.045257). Source-and-target refit uncertainty spanned-0.021204 to+0.105390. A missingness-only addition reproduced most deterioration; removing the added missingness indicator reduced it to+0.003324 with an interval crossing zero. Both models transferred poorly; the Swiss sample had115 CAD-positive records and only8 negatives. This is an additional-center negative audit of a benchmark-omitted representation, not a new biomarker or evidence against clinical ST/HR adjustment. Source data were previously reused; center independence lacks global patient linkage. Author self-checks, sensitivity analyses and clean offline reruns are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "external validation",
+    "heart rate",
+    "ST depression",
+    "missingness",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2644054/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8989133/"
+    },
+    {
+      "target": "sci:sha256:37325d828dbc5e1732a3d4f302fa397b6021b486bedf28fe0f53e7588097af5f"
+    }
+  ]
+}
