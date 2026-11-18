@@ -1,0 +1,29 @@
+{
+  "title": "Hemoglobin-to-RDW ratio did not establish incremental FEV1 prediction beyond flexible component effects across NHANES samples",
+  "abstract": "In complete-case adults40\u201379, adding a hemoglobin-to-RDW ratio spline to flexible component and conventional covariate models did not establish improved FEV1 prediction from NHANES2007\u20132008 (n=2259) to separately sampled2009\u20132010 (n=2474). Weighted baseline-minus-augmented MSE was -109.908 mL\u00b2 (95% source+target PSU-refit interval -2362.126 to 1108.986). This model-specific negative result does not establish equivalence or refute reported HRR associations.",
+  "keywords": [
+    "hemoglobin",
+    "RDW",
+    "FEV1",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11891021/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34044292/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
