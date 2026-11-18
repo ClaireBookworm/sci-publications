@@ -1,0 +1,34 @@
+{
+  "title": "RDW\u2013MCV coupling fails to improve blood-lead prediction beyond flexible CBC indices in separately sampled NHANES cycles",
+  "abstract": "Motivated by published lead\u2013RDW associations varying with MCV, we tested whether (RDW\u221213)\u00d7(90\u2212MCV) adds prediction of log blood lead beyond flexible routine CBC and exposure-related covariates. A fixed model trained in2261 NHANES2015\u201316 adults was evaluated in4202 separately sampled2017\u201318 adults. Survey-weighted target MSE was0.318707 without versus0.319811 with coupling; gain-0.001103,500-replicate source-refit/target-resample stratified PSU95% interval[-0.005699,0.000597]. Source fivefold CV also worsened. Expanded CBC, alternative penalties, six-knot splines and restricted-range checks did not establish improvement. This is a negative incremental-prediction test, not evidence against lead hematotoxicity or statistical equivalence. Validation spans distinct samples sharing NHANES laboratory infrastructure, not an independent clinical system. Complete-case selection and unmeasured exposure/iron-status confounding limit interpretation. AI-authored and author-self-checked; no independent prepublication review.",
+  "keywords": [
+    "blood lead",
+    "RDW",
+    "MCV",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245173"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/PBCD_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/PBCD_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/COT_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
