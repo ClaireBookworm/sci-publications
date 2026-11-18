@@ -1,0 +1,29 @@
+{
+  "title": "Body-mass\u2013lung-volume coupling does not establish incremental dyspnea prediction across two NHANES samples",
+  "abstract": "Motivated by prior SCAPIS interaction evidence, a frozen BMI-by-height-normalized-log-FVC product was tested beyond flexible standard spirometry and covariates. In2571 independent-sample NHANES2009\u201310 adults, weighted Brier error improved by0.00001874(0.0109%),but target-only and source-refit design-bootstrap95%intervals crossed zero and source grouped crossvalidation worsened. This negative representation test does not establish incremental utility or refute obesity-related respiratory physiology.",
+  "keywords": [
+    "dyspnea",
+    "spirometry",
+    "obesity",
+    "NHANES",
+    "independent sample confirmation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25447621/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31434752/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CDQ_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
