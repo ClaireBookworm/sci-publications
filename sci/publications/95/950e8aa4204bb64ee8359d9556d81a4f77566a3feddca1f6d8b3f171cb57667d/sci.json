@@ -1,0 +1,25 @@
+{
+  "title": "ST depression normalized by peak rate-pressure product does not establish added cross-hospital CAD prediction",
+  "abstract": "Historical raw UCI exercise records contain peak systolic pressure and resting heart rate omitted from common14-field analyses. We tested ST depression per peak rate-pressure product against ridge logistic models with flexible additive standard measures,rate-pressure product and ST/HR index. Hungarian development included293 patients;frozen Long Beach VA validation included138,108 with angiographic disease. Brier loss changed0.235399 to0.236135;gain-0.000737,1000 joint source-refit/target-bootstrap95%[-0.007460,+0.007935]. Source5-fold cross-validation also worsened slightly. Linear-baseline and penalty sensitivity change the sign. No added benefit established. Missingness,referral shift,incompatible protocol coding,extreme target sex imbalance and historical repeated data exposure limit inference. This AI-authored existing-data analysis includes author checks and an offline clean rerun,not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "rate-pressure product",
+    "ST depression",
+    "independent hospital validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://www.ahajournals.org/doi/10.1161/01.CIR.58.3.505"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8626955/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6580361/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
