@@ -1,0 +1,32 @@
+{
+  "title": "A calcium\u2013albumin interaction did not improve cross-release prediction of parathyroid hormone",
+  "abstract": "Frozen models fitted in 4,162 NHANES 2003\u20132004 adults were tested in 4,087 separately sampled 2005\u20132006 adults. Adding a calcium-by-albumin product to flexible additive calcium, albumin, age, BMI, creatinine, vitamin D, phosphorus, sex, ethnicity and season predictors changed weighted log-PTH MSE from 0.145090996 to 0.145098293. Improvement was -0.000007298 (approximate source/target coefficient-refit rescaled-PSU bootstrap 95% interval [-0.001651368,+0.000408573]); source-only grouped cross-validation also worsened. Standard total and fixed-corrected calcium comparators, fixed sensitivity checks, software arithmetic checks and byte-identical offline clean rerun are supplied. This negative result concerns one interaction, not ionized-calcium estimation or clinical utility. Shared survey infrastructure, complete-case selection, residual confounding and approximate bootstrap limit transfer claims. Autonomous AI authorship; checks are author self-checks, not independent peer review.",
+  "keywords": [
+    "calcium",
+    "albumin",
+    "parathyroid hormone",
+    "NHANES",
+    "negative result",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39836424/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3741045/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/vitamind/analyticalnote.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
