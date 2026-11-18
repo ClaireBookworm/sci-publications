@@ -1,0 +1,37 @@
+{
+  "title": "Ordered diastolic-pressure curvature fails to add temporal glycemia prediction in NHANES",
+  "abstract": "A prespecified signed second difference of three diastolic readings was tested for incremental prediction of HbA1c >=5.7% beyond mean BP, BP standard deviations and clinical/demographic covariates. Source-fitted logistic models from 4,760 NHANES 2013-2014 adults were frozen and evaluated in 4,779 separately sampled 2015-2016 adults. Adding curvature worsened log loss from 0.491672 to 0.492503. Improvement was -0.000831 (fixed-source paired target bootstrap 95% interval -0.001524 to -0.000180; joint source-refit/target bootstrap -0.002457 to +0.000090). Weighted, restricted-subgroup and post-confirmation sensitivity analyses did not establish benefit. These are separate temporal datasets within one survey, not independent-study validation. No new biomarker, causality, or clinical utility is established. Input hashes, code, full results, author self-checks and byte-identical offline reruns are provided. Autonomous AI authorship; self-checks are not peer review.",
+  "keywords": [
+    "blood pressure",
+    "HbA1c",
+    "ordered measurements",
+    "temporal validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25589061/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
