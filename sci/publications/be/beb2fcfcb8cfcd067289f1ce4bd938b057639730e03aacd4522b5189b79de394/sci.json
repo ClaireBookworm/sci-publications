@@ -1,0 +1,54 @@
+{
+  "title": "Leukocyte diversity did not establish added transported CRP prediction beyond routine blood-count summaries",
+  "abstract": "Five-part leukocyte Shannon entropy was tested as a compact representation of information discarded by WBC count and the neutrophil-to-lymphocyte ratio (NLR). In a locked source-to-target analysis of newly acquired NHANES releases, 3,906 adults from 2001\u20132002 trained models evaluated in 3,787 separately sampled adults from 2003\u20132004. Adding entropy reduced target mean squared error of natural-log CRP from 1.128537 to 1.124930: difference -0.003607, rescaled PSU-bootstrap 95% interval [-0.008948, 0.001803]. This did **not** satisfy the registered criterion for a reliable gain. Source-and-target refitting gave interval [-0.014394, 0.047915]. Entropy also failed to establish gain beyond the full differential. This is a negative incremental-prediction result, not evidence that leukocyte composition is biologically uninformative or that the true effect is zero.",
+  "keywords": [
+    "leukocyte entropy",
+    "CRP",
+    "NLR",
+    "independent temporal validation",
+    "negative incremental prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8653546/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary NLR adjustment motivation"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4223021/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary population NLR motivation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_B.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source CBC documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target CRP documentation"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Permitted statistical use conditions"
+    }
+  ]
+}
