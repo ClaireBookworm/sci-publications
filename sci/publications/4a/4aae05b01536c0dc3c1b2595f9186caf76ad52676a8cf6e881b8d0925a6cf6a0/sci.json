@@ -1,0 +1,40 @@
+{
+  "title": "Exercise angina\u2013peak-heart-rate coupling provides no robust incremental CAD prediction across two hospital cohorts",
+  "abstract": "A fixed exercise-angina by peak-heart-rate interaction was tested beyond additive conventional measures from Cleveland (303 records) to Hungary (261 complete records). Target Brier improved by only0.00002608, with conditional95% interval excluding zero but two-sample refit interval spanning\u22120.00934 to+0.01162. Source cross-validation worsened, and linear/regularization sensitivities reversed gains. This is not evidence of a clinically useful biomarker or biological equivalence. Historical target outcome reuse limits confirmation.",
+  "keywords": [
+    "exercise angina",
+    "heart rate",
+    "coronary disease",
+    "transport",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/498601/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Chin et al.1979 chronotropic incompetence motivation"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Detrano et al.1989 international diagnostic comparison"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Janosi, Steinbrunn, Pfisterer and Detrano1989 UCI Heart Disease data and definitions"
+    }
+  ]
+}
