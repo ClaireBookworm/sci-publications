@@ -1,0 +1,32 @@
+{
+  "title": "Repeated-grip trial gain did not improve HbA1c prediction beyond peak strength across two NHANES samples",
+  "abstract": "Adding bilateral mean third-minus-first grip change to peak-grip and conventional covariate models did not establish incremental HbA1c prediction from NHANES2011\u20132012 (n=4149) to separately sampled2013\u20132014 (n=4645). Weighted baseline-minus-augmented MSE was -0.0003173 percentage-point\u00b2 (400 source+target PSU-refit95%interval -0.0037983 to 0.0010615). This is a model-specific negative result,not equivalence,not evidence of clinical screening utility.",
+  "keywords": [
+    "grip strength",
+    "repeated trials",
+    "HbA1c",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33709458/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26552062/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
