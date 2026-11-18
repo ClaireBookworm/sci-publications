@@ -1,0 +1,35 @@
+{
+  "title": "Leukocyte compositional entropy did not improve periodontal pocket-depth prediction across two NHANES samples",
+  "abstract": "Five-part leukocyte entropy did not establish added prediction of mean periodontal probing depth beyond conventional counts and risk factors across separately sampled NHANES2009\u20132010(n=3139)and2011\u20132012(n=2790). Target weighted MSE gain was-0.000107mm\u00b2(400 source+target PSU-refit95%interval-0.002546to0.001226);source cross-validation gain was also negative. This is not proof of equivalence or absent biological information.",
+  "keywords": [
+    "leukocyte entropy",
+    "periodontal probing depth",
+    "NHANES",
+    "incremental prediction",
+    "negative result",
+    "transportability"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735683/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/OHXPER_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXPER_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
