@@ -1,0 +1,32 @@
+{
+  "title": "Paired within-visit blood-pressure cofluctuation does not establish added albuminuria prediction in two NHANES samples",
+  "abstract": "In 5187 NHANES 2009\u20132010 adults, adding stabilized systolic\u2013diastolic cofluctuation to a model of mean pressures, marginal variability and risk factors changed weighted Brier error from 0.06548344 to 0.06549861. The baseline-minus-augmented difference was -0.00001517 (source-and-target PSU-bootstrap 95% interval [-0.00042770, 0.00006472]); added predictive utility was not established.",
+  "keywords": [
+    "blood pressure",
+    "cofluctuation",
+    "albuminuria",
+    "NHANES",
+    "negative incremental prediction",
+    "independent samples"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1038/hr.2013.58"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
