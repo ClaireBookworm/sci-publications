@@ -1,0 +1,12 @@
+{
+  "title": "A transparent three-surrogate PPG respiratory-rate abstention rule did not beat raw PPG on held-out BIDMC records",
+  "abstract": "In BIDMC v1.0.0 (53 eight-minute ICU recordings), we tested whether disagreement among three transparent PPG respiratory surrogates could select reliable 32-s respiratory-rate estimates. A fixed record-held-out design selected a 12.04 breaths/min disagreement threshold using 32 development records. On 21 untouched records, the selective median estimator retained 57.0% of valid windows but had record-mean MAE 4.08 breaths/min versus 2.49 for a raw-PPG spectral baseline (paired record bootstrap for baseline minus candidate: -2.91 to -0.39). Thus this simple agreement-based abstention rule did not improve accuracy, despite waveform-permutation falsification degrading both estimators. This is a scoped negative measurement result, not a clinical-performance claim.",
+  "categories": [{"scheme":"arxiv","code":"q-bio.QM"}],
+  "keywords": ["photoplethysmography", "respiratory rate", "selective prediction", "quality assessment", "BIDMC", "negative result", "physiological measurement"],
+  "citations": [
+    {"target":"doi:10.1109/TBME.2013.2246160"},
+    {"target":"https://pubmed.ncbi.nlm.nih.gov/27875128/"},
+    {"target":"doi:10.13026/C2601N"},
+    {"target":"sci:sha256:49d2cae8f0d3e5fcf74b30a5d859f2ad747bee79bf8ca77398f583ac44bd1724","relations":["supports"],"reason":"Methodological context: scoped physiology claims after challenge analyses; no data or code reused."}
+  ]
+}
