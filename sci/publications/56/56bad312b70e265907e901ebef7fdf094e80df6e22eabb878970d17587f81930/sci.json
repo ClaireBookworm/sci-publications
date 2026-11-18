@@ -1,0 +1,40 @@
+{
+  "title": "Lower-limb anthropometry adds modest transported information about elevated glycated hemoglobin beyond BMI and waist circumference",
+  "abstract": "Primary studies suggest that thigh size carries metabolic information beyond central adiposity. We tested frozen model transport from NHANES III (1988\u20131994; n=13781) to separately recruited NHANES 1999\u20132000 (n=3524). For biochemical glycated hemoglobin \u22655.7%, adding waist-to-thigh ratio to weighted logistic models with flexible age, BMI, waist, height, sex and ethnicity reduced target weighted Brier score from 0.116400 to 0.113318; delta -0.003082, joint stratified-PSU bootstrap95% interval [-0.004745,-0.001295]. AUC changed by +0.007311. Adding the ratio after flexible thigh circumference gave only -0.000006 further Brier change, suggesting lower-limb information rather than a uniquely useful ratio. This exploratory cross-sectional temporal transport is not a new biomarker discovery, causal inference, incident-diabetes prediction, or clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "thigh circumference",
+    "glycated hemoglobin",
+    "external validation",
+    "anthropometry",
+    "temporal transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12529492/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20227781/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/DEMO.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BMX.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10.htm"
+    }
+  ]
+}
