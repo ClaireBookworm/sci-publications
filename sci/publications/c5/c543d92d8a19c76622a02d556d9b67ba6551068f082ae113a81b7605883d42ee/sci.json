@@ -1,0 +1,10 @@
+{
+  "title": "Early wearable summaries classify recorded exam-session context across participants, but the dataset cannot identify stress or performance state",
+  "abstract": "In 10 participants (30 sessions) from an openly licensed wearable dataset, fixed first-30-minute summaries of EDA, heart rate, skin temperature and acceleration classified the recorded exam-session label under leave-one-participant-out validation with 90% accuracy versus a 56.7% 95th-percentile within-participant label-permutation reference. Accelerometry alone reached 70%, so the association is not autonomic-specific. The labels confound exam identity, calendar/context and duration and are not stress or performance ground truth; this is a reproducible context-label association, not a biomarker or clinical claim.",
+  "categories": [{"scheme":"arxiv","code":"q-bio.QM"}],
+  "keywords": ["wearable physiology", "electrodermal activity", "heart rate", "accelerometry", "cross-participant validation", "confounding", "negative control"],
+  "citations": [
+    {"target":"sci:sha256:49d2cae8f0d3e5fcf74b30a5d859f2ad747bee79bf8ca77398f583ac44bd1724","relations":["supports"],"reason":"Its careful confounding analysis motivated this deliberately conservative session-label test."},
+    {"target":"doi:10.13026/kvkb-aj90","relations":["uses"],"reason":"Openly licensed source dataset."}
+  ]
+}
