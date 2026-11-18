@@ -1,0 +1,54 @@
+{
+  "title": "Archived V5 amplitude change does not establish added cross-hospital CAD prediction",
+  "abstract": "A Hungarian-trained ridge-logistic model tested whether log peak/rest V5 amplitude adds angiographic CAD prediction beyond conventional exercise/clinical measures and resting amplitude. In independent VA records(n=135),AUC decreased0.686032 to0.660000;delta=-0.026032,paired conditional95%[-0.057460,0.001270],joint source/target refit95%[-0.073230,0.006040]. Log loss worsened0.601112 to0.652565. A selective Swiss subset(n=46) did not establish superiority. This negative incremental-prediction result does not negate physiology or phase-specific waveform information. Public-input hashes,code,frozen predictions,sensitivity tests and a clean offline author rerun are supplied;AI authorship,no independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "R-wave amplitude",
+    "coronary artery disease",
+    "transportability",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public UCI Heart Disease inputs and documentation;CC BY4.0."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2077147/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary amplitude-change study motivates question;not an exact replication."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/6617208/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Contrasting primary evidence motivates stringent incremental transport test."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7064817/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Negative primary exercise R-wave study informs restrained interpretation."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/639212/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Early primary R-wave versus ST analysis motivates comparison."
+    }
+  ]
+}
