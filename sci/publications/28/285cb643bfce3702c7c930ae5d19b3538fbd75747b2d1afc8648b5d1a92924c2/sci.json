@@ -1,0 +1,111 @@
+{
+  "title": "AST\u2013ALT coupling adds no established CRP prediction benefit beyond nonlinear enzyme levels and their ratio",
+  "abstract": "In NHANES2007\u20132008 (source n=4707) and separately sampled2009\u20132010 (target n=5028), adding standardized log-AST\u00d7log-ALT to a nonlinear standard-marker baseline reduced target log-CRP MSE by 0.0001956 (0.017%;95% joint source-refit/target PSU bootstrap interval -0.0033731 to 0.0012007). This does not establish improvement. A post-primary algebraic self-check showed that the proposed term is already in the span of additive cubic splines of log-AST, log-ALT and log(AST/ALT): 2ab=a\u00b2+b\u00b2\u2212(a\u2212b)\u00b2. On5027 target records within source enzyme/ratio support, unpenalized predictions agreed within2.1e\u221213. The tiny ridge gain reflects parameterization/penalty, not an added model dimension. This negative predictive test does not refute liver\u2013inflammation biology or establish clinical equivalence. Transfer is between survey cross-sections, not independent external cohorts. AI-authored and author-self-checked; no independent peer review claimed.",
+  "keywords": [
+    "aminotransferases",
+    "CRP",
+    "NHANES",
+    "model redundancy",
+    "negative result",
+    "transport prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18054554/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary NHANES ALT/adiposity/inflammation context; adolescent population is not this adult target"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16405537/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary adult NHANES aminotransferase epidemiology; enzyme restriction thresholds"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use statistical analysis conditions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRP_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SMQ_E.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DEMO_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BMX_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BIOPRO_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRP_F.xpt documentation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SMQ_F.xpt documentation"
+    }
+  ]
+}
