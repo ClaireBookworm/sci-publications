@@ -1,0 +1,23 @@
+{
+  "title": "Vitamin-C\u2013RDW coupling does not establish improved cross-cycle prediction of C-reactive protein",
+  "abstract": "In separately sampled NHANES cycles, adding (log(vitamin C)-log(50))*(RDW-13) to flexible additive conventional predictors changed external weighted log-CRP MSE from 1.082231 to 1.082391. Baseline-minus-augmented gain was -0.000159 (500 source-refit/target PSU bootstrap 95% interval -0.006109 to 0.001213). This representation has no established incremental predictive benefit; this is not evidence of equivalence or absence of vitamin-C biology. Development:4135 adults in2003\u201304;external cycle:4061 adults in2005\u201306. Source cross-validation also worsened. Participants are distinct public survey records,not different splits;the survey system and prior outcome exposure limit confirmation. AI-authored,self-checked,not independently peer reviewed.",
+  "keywords": [
+    "vitamin C",
+    "red cell distribution width",
+    "C-reactive protein",
+    "NHANES",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/nu14061254"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06VIT_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VIC_D.htm"
+    }
+  ]
+}
