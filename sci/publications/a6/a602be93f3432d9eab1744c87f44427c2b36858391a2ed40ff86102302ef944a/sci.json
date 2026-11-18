@@ -1,0 +1,76 @@
+{
+  "title": "Calcium\u2013albumin interaction provides no clear incremental prediction of maximum handgrip across two NHANES cycles",
+  "abstract": "A fixed calcium-by-albumin product was tested beyond separate flexible laboratory and demographic terms in4294 source and4810 independent-cycle NHANES adults. Target MSE changed by+0.02535240kg\u00b2 with95% refit survey-bootstrap interval[-0.17402955,0.29910034]. A small source cross-validation gain did not establish independent-cycle improvement. This is a scoped negative result, not an ionized-calcium or clinical validation.",
+  "keywords": [
+    "calcium",
+    "albumin",
+    "grip strength",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2829419",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary motivation for testing joint calcium-albumin representation"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11951309/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Adjacent calcium and muscle mass context"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Official methods and variables"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Official methods and variables"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Official methods and variables"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Official methods and variables"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use terms"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Bootstrap method"
+    }
+  ]
+}
