@@ -1,0 +1,33 @@
+{
+  "title": "Three-reading systolic variability does not establish added hearing-impairment prediction across NHANES samples",
+  "abstract": "In adults40\u201369, three-reading systolic average real variability did not establish incremental hearing-impairment prediction beyond flexible mean blood pressures and conventional risk factors. Models fitted in NHANES2015\u201316 (n2341,298 events) were frozen and tested in separately sampled2011\u201312 (n1982,230 events). Weighted AUC changed from 0.702347 to 0.701777; delta -0.000571, conditional95% rescaled-PSU interval [-0.001531,0.000587]. Log loss worsened. Source-refit uncertainty, risk-factor restrictions and stronger regularization do not establish superiority. This is a negative result for one representation and same-survey independent samples, not equivalence, causal evidence or independent-study clinical validation. Reproducible public-data code, provenance and author checks are supplied.",
+  "keywords": [
+    "blood pressure variability",
+    "audiometry",
+    "hearing impairment",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38494745/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary ambulatory BP and hearing study motivates vascular auditory question; no data or estimates reused."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34001810/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary long-timescale variability/organ damage association motivates distinct short-timescale incremental test, not protocol equivalence."
+    }
+  ]
+}
