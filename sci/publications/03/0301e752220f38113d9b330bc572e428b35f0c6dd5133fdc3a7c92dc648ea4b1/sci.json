@@ -1,0 +1,35 @@
+{
+  "title": "No demonstrated cross-cohort CRP prediction gain from a low-eosinophil hinge beyond flexible leukocyte measures",
+  "abstract": "We tested whether max(1-eosinophil percent,0) improves prediction of log C-reactive protein beyond flexible demographic, adiposity, smoking, white-cell differential and neutrophil-to-lymphocyte measures. Ridge spline models trained in 4087 NHANES2005\u20132006 adults were frozen for 5175 different NHANES2007\u20132008 adults. MEC-weighted MSE was 1.133310 without and 1.133362 with the hinge; gain was -0.000052 (500 source-refit/target-resample rescaled PSU bootstrap95% interval -0.006275 to 0.003880). No incremental benefit was demonstrated. This narrowly negative representation test does not exclude eosinophil\u2013inflammation associations or small gains. Cohorts share a survey population and protocol, and CBC instruments changed; this is not independent-system clinical validation.",
+  "keywords": [
+    "eosinophils",
+    "CRP",
+    "incremental prediction",
+    "NHANES",
+    "negative result",
+    "cohort transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32544252/"
+    },
+    {
+      "target": "https://doi.org/10.1002/clt2.12036"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
