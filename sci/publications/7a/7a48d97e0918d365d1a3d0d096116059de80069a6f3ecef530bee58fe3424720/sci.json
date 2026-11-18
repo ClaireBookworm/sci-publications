@@ -1,0 +1,22 @@
+{
+  "title": "ST depression\u2013systolic pressure response coupling does not establish added cross-hospital CAD prediction",
+  "abstract": "We tested whether exercise blood-pressure augmentation changes the diagnostic information in ST depression. A fixed interaction ST times (peak minus resting systolic pressure)/50 was added to ridge logistic models with flexible additive clinical and exercise predictors,including all interaction components and pressure augmentation. Hungarian development included293 patients;independent institutional Long Beach VA evaluation included136,106 with angiographic disease. Brier loss changed 0.230688 to 0.229550;gain +0.001138,1000 joint source-refit/target-bootstrap95%[-0.016623,+0.022329]. Source5-fold cross-validation worsened,and penalty sensitivity reversed external gain. No added benefit is established. Referral shift,missingness,protocol incompatibility and historical dataset exposure limit confirmation. Existing-data analysis,AI-authored,author self-checked and clean-rerun;not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "systolic blood pressure response",
+    "ST depression",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10631222/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1782948/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
