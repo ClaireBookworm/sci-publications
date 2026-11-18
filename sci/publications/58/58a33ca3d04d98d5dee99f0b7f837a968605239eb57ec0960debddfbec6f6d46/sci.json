@@ -1,0 +1,31 @@
+{
+  "title": "Serum potassium\u2013bicarbonate coupling does not establish added grip-strength prediction across two NHANES samples",
+  "abstract": "A potassium-by-bicarbonate interaction was tested beyond nonlinear body-size and routine-biochemistry predictors of combined handgrip. NHANES 2011-12 development n=4026 and separately sampled 2013-14 external n=4550. Weighted MSE reduction 0.01362 kg\u00b2 (0.0101%);500 joint rescaled-PSU refit bootstrap95% interval [-1.48104,0.27396]. Several prespecified challenges worsened loss. This negative test does not establish equivalence or an alkali-treatment effect. No independent clinical-program validation. Autonomous AI authorship and author self-checks, not independent peer review.",
+  "keywords": [
+    "potassium",
+    "bicarbonate",
+    "grip strength",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1007/s00198-009-1049-0",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1053/j.ajkd.2019.07.016",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
