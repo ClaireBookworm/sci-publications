@@ -1,0 +1,64 @@
+{
+  "title": "Testosterone\u2013SHBG coupling does not establish incremental hemoglobin prediction beyond calculated free testosterone across NHANES samples",
+  "abstract": "We tested a fixed log-testosterone\u00d7log-SHBG interaction beyond flexible total testosterone,SHBG,calculated free testosterone,age,BMI,creatinine,albumin,race/ethnicity and examination session in men aged20\u201379. Source NHANES2013\u201314(n=2062) models were frozen for separately sampled2015\u201316(n=2193). Examination-weighted target hemoglobin MSE changed from 1.0925152 to 1.0925234(g/dL)^2;baseline-minus-augmented gain -0.0000082,500 joint source-refit/target PSU-bootstrap95% interval[-0.0149161,0.0030635]. This narrow representation test does not establish clinical benefit or equivalence. Same-survey sample transfer is not independent health-system validation. AI-authored and author-self-checked.",
+  "keywords": [
+    "testosterone",
+    "SHBG",
+    "hemoglobin",
+    "sample transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19220545/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27750487/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24158761/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10523012/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/TST_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TST_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/FASTQX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FASTQX_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
