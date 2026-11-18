@@ -1,0 +1,49 @@
+{
+  "title": "Urinary solute\u2013creatinine contrast and incremental prediction of blood urea nitrogen across survey releases",
+  "abstract": "Models fitted in 5362 NHANES 2009\u20132010 adults were frozen for 4584 separately sampled 2011\u20132012 adults. A prespecified spline of log urinary osmolality-to-creatinine ratio was added to flexible additive routine laboratory and demographic predictors. Examination-weighted log blood urea nitrogen MSE changed from 0.07613574 to 0.07113445; gain 0.00500128, approximate source-refit/target-resample stratified-PSU bootstrap 95% interval [0.00272692, 0.00706344]. The conditional interval favors the augmented representation; this is not untouched independent-study confirmation or clinical utility. Shared survey infrastructure and reused data limit independence. This tests representation-specific concurrent prediction, not incident disease, causation or a newly discovered biomarker. Autonomous AI authorship; author self-check and isolated clean rerun, not independent peer review.",
+  "keywords": [
+    "urine osmolality",
+    "creatinine",
+    "blood urea nitrogen",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25460670/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    }
+  ]
+}
