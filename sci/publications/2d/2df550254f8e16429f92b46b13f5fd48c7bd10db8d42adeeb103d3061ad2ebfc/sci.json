@@ -1,0 +1,34 @@
+{
+  "title": "Serum sodium-to-potassium ratio as an incremental representation of inflammation: an exploratory cross-survey prediction test",
+  "abstract": "We tested whether serum sodium/potassium adds prediction of concurrent CRP>3mg/L beyond separate nonlinear electrolytes, bicarbonate and routine covariates. Models fitted in 14,402 NHANES III adults were transported without recalibration to 4,593 separately recruited NHANES2017\u20132018 adults. Weighted Brier changed from 0.17142616 to 0.17148931; added-minus-base +0.00006316, approximate fixed-fit target-PSU95% interval [+0.00000073,+0.00012424]. AUC delta was -0.00025522. Joint training/target interval for Brier was [-0.00000469,+0.00018022]. This is an exploratory model-representation test in historically reused cohorts, not a clinical biomarker validation, dietary sodium proxy or causal study. No incremental predictive advantage was established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "sodium",
+    "potassium",
+    "inflammation",
+    "transportability",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1155/2020/6365947"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
