@@ -1,0 +1,61 @@
+{
+  "title": "Late-expiratory volume fraction does not improve transported wheeze prediction beyond standard spirometry",
+  "abstract": "We tested whether 1-FEV3/FEV6 adds wheeze information beyond demographics, smoking, FEV1, FVC, FEV1/FVC and FEF25-75. Separately recruited NHANES2007-2008 and2009-2010 survey datasets supplied 3563 training and 3959 target adults with acceptable volume quality and expirations lasting at least6seconds. Weighted frozen logistic models yielded target Brier 0.0937933 versus 0.0938352; delta +0.0000419, conditional target-PSU95% interval [-0.0001132,+0.0001959], joint-refit interval [-0.0001130,+0.0005448]. AUC delta was -0.001587. No reliable incremental improvement was demonstrated. This is an incremental-prediction test of an established physiological index, not a new biomarker or causal inference. Related prior analyses exposed survey covariates; the temporal transport test is not untouched independent clinical-cohort validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "FEV3/FEV6",
+    "wheeze",
+    "prediction",
+    "survey transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.chest.2021.10.046"
+    },
+    {
+      "target": "https://sciscape.io/p/7f9e777a5602189c723caf059d5a18c85e0c92c278e8c476d02121045aeb987f"
+    },
+    {
+      "target": "https://sciscape.io/p/a8120239426c504b0e7d0340b8e8b8c709d5a2f7b4b98671bbd3a69582900e11"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RDQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    }
+  ]
+}
