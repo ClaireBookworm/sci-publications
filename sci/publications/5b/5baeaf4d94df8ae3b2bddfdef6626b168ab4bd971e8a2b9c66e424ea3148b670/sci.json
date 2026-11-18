@@ -1,0 +1,40 @@
+{
+  "title": "Exercise rate\u2013pressure product reserve does not improve cross-hospital CAD prediction beyond its separate components",
+  "abstract": "We tested whether an endpoint rate\u2013pressure product reserve proxy adds angiographic coronary disease prediction beyond its heart-rate and systolic-pressure components and standard noninvasive exercise measures. Models fitted in 293 Hungarian patients were frozen and evaluated in 139 Long Beach VA patients and 120 Swiss patients from distinct recruiting institutions. Primary VA AUC changed from0.70298 to0.70269, a difference of\u22120.00029 (paired target bootstrap95% interval\u22120.00175 to0.00000; source/target refit interval\u22120.00497 to+0.00439). Log loss was not improved. Swiss performance likewise showed no incremental gain and major calibration shift. A prespecified ratio sensitivity improved VA log loss but had an AUC interval crossing zero. This scoped negative result concerns a small, historical, selected diagnostic sample and fixed models, not absence of physiological information or clinical utility in general.",
+  "keywords": [
+    "exercise",
+    "rate-pressure product",
+    "coronary artery disease",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/S0735-1097(02)02009-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary physiological motivation for peak-minus-rest RPP"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8449196/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary study comparing exercise RPP and heart-rate measures"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public input data and codebook"
+    }
+  ]
+}
