@@ -1,0 +1,22 @@
+{
+  "title": "Heart-rate\u2013pressure response discordance does not establish added cross-hospital CAD prediction",
+  "abstract": "We tested squared discordance between log fractional exercise heart-rate and systolic-pressure responses as an added predictor of angiographic CAD. A ridge logistic baseline included flexible additive conventional exercise measures and both fractional-response components. Hungarian development included293 patients;independent institutional Long Beach VA evaluation included136,106 with disease. Brier loss worsened0.228805 to0.232397;gain-0.003593,1000 joint source-refit/target-bootstrap95%[-0.015000,0.022050]. Source5-fold CV slightly improved,but sensitivity checks changed the external sign. No added benefit is established. Protocol incompatibility,missingness,referral shift and prior historical target exposure limit confirmation. Existing public-data analysis,AI-authored,author self-checked and clean-rerun;not independent peer review.",
+  "keywords": [
+    "exercise hemodynamics",
+    "heart rate",
+    "blood pressure",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20706136/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7503001/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
