@@ -1,0 +1,35 @@
+{
+  "title": "Joint anion-gap\u2013bicarbonate information does not establish improved albuminuria prediction in cross-cycle NHANES validation",
+  "abstract": "A frozen centered albumin-corrected anion-gap by bicarbonate interaction trained on 5,356 NHANES 2009\u20132010 adults and evaluated on 4,911 separately sampled 2015\u20132016 adults did not establish improved single-visit albuminuria prediction beyond routine kidney/metabolic variables and both main effects. Weighted Brier changed by \u22120.00000918 (95% fixed-model PSU-bootstrap interval \u22120.00024038 to +0.00019861). Penalty strength, sex strata and race-indicator removal changed the direction; adding standard eGFR reduced the point improvement further. Shared survey infrastructure, historical analyst exposure to these cycles, complete-case selection and single-visit labels limit confirmation and clinical interpretation. Raw public inputs, hashes, code, uncertainty calculations, unfavorable challenges and clean rerun evidence accompany this author-self-checked negative incremental-prediction test.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "anion gap",
+    "bicarbonate",
+    "albuminuria",
+    "NHANES",
+    "negative result",
+    "transportability"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1152/ajprenal.00496.2018"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/ALB_CR_I.htm"
+    },
+    {
+      "target": "https://www.niddk.nih.gov/research-funding/research-programs/kidney-clinical-research-epidemiology/laboratory/glomerular-filtration-rate-equations/adults"
+    }
+  ]
+}
