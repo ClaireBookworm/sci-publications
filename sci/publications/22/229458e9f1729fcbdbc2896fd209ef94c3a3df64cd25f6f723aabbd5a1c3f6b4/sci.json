@@ -1,0 +1,55 @@
+{
+  "title": "BUN–albumin interaction does not establish improved maximum-grip prediction across two NHANES cycles",
+  "abstract": "A centered serum blood-urea-nitrogen (BUN) by albumin interaction was tested beyond flexible individual laboratory measurements, BUN/creatinine and BUN/albumin ratios, anthropometry and demographics. Weighted ridge models trained in4055 NHANES2011–2012 adults were transferred without target fitting to4581 separately sampled2013–2014 adults. Target MSE changed35.294982→35.325237kg²; baseline-minus-augmented gain was−0.030254kg² (conditional target-PSU95% interval[−0.139318,0.077493]; full-source-preprocessing and source-target-PSU refit interval[−0.263522,0.166817]). Penalty, sex and reference-range sensitivities changed direction. Source PSU-grouped CV weakly favored augmentation but confirmation did not. This scoped negative test does not establish equivalence, clinical utility or a catabolic mechanism.",
+  "keywords": [
+    "BUN",
+    "albumin",
+    "grip strength",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16078958/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schalk et al. Serum albumin and muscle strength: a longitudinal study in older men and women. J Am Geriatr Soc.2005;53:1331–1338. doi10.1111/j.1532-5415.2005.53417.x."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12275509/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Chang et al. Nutritional Status and Renal Function in Relation to Frailty among the Community-Dwelling Elderly Taiwanese Population. J Nutr Health Aging.2022;26:6–12. doi10.1007/s12603-021-1714-3."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC grip protocol, outcome variables and effort codes."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC biochemistry definitions."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS public-use data terms."
+    }
+  ]
+}
