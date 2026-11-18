@@ -1,0 +1,62 @@
+{
+  "title": "Serum sodium\u2013potassium coupling failed to improve cross-cycle cognitive-score prediction",
+  "abstract": "In NHANES2011\u201312 training (n=1172) and2013\u201314 testing (n=1391) among adults60+, adding a standardized serum sodium\u00d7potassium term to a flexible electrolyte/demographic baseline changed weighted DSST MSE from 163.791368 to 164.663023. Baseline-minus-augmented MSE was -0.871655 (paired target-PSU95%CI -1.584145 to -0.040405); incremental benefit was not established.",
+  "keywords": [
+    "sodium",
+    "potassium",
+    "DSST",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34030649/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Lee et al.(2021). Serum sodium in relation to various domains of cognitive function in the elderly US population."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29439092/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Nowak et al.(2018). Serum Sodium and Cognition in Older Community-Dwelling Men."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/42254829/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zhang et al.(2026). Synergistic Effects of Normal-Range Serum Sodium and Potassium on Mortality: The Modifying Role of Inflammation From a NHANES Cohort Analysis."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC. NHANES2011\u201312 cognitive testing documentation."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC. NHANES2013\u201314 standard biochemistry documentation."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC. NCHS public-use data agreement."
+    }
+  ]
+}
