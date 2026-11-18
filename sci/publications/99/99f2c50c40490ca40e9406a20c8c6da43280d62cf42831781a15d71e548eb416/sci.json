@@ -1,0 +1,32 @@
+{
+  "title": "A chronotropic–ST interaction gives a small, regularization-sensitive cross-center prediction gain",
+  "abstract": "A frozen Cleveland logistic model (303 patients) was evaluated on 261 complete-case Hungarian patients in the public UCI Heart Disease collection. Adding age-adjusted peak-HR deficit and its interaction with ST depression lowered Brier score from 0.139779 to 0.136194 (difference −0.003585; fixed-model patient-bootstrap 95% interval −0.005494 to −0.001730). Discovery-refit uncertainty spanned −0.017380 to +0.018021; weak regularization reversed the gain and label-shuffle controls undermined specificity. Thus the result is a small model-conditional cross-center gain, not stable incremental physiology, novelty of chronotropic adjustment, or clinical superiority. Inputs, frozen predictions, author formula checks, clean rerun and unfavorable sensitivity results are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "chronotropic response",
+    "ST depression",
+    "transportability",
+    "regularization",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
