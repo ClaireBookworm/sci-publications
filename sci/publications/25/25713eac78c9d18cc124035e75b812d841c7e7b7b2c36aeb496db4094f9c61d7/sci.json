@@ -1,0 +1,38 @@
+{
+  "title": "A joint low-calcium/high-phosphorus hinge did not establish incremental PTH prediction across two NHANES samples",
+  "abstract": "A fixed serum calcium\u2013phosphorus hinge did not establish incremental log PTH prediction beyond flexible conventional measurements and their product. In NHANES2003\u20132004(n=3773)and2005\u20132006(n=3783), target weighted MSE gain was 0.0000277 (400 source+target PSU-refit95%interval -0.0063897 to 0.0038076); source CV gain was -0.0008897. These are separately sampled releases within one survey program, previously used in author research, not untouched external-cohort confirmation. The result is not equivalence.",
+  "keywords": [
+    "calcium",
+    "phosphorus",
+    "PTH",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21932115/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2831248/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VID_C.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
