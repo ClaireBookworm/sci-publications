@@ -1,0 +1,38 @@
+{
+  "title": "Signed first-to-third grip change did not improve mobility-difficulty prediction in a separate NHANES older-adult sample",
+  "abstract": "We tested whether trial-order information discarded by maximum grip summaries improves contemporaneous mobility-difficulty prediction. Weighted models trained in 1,407 NHANES 2011\u20132012 adults aged at least 60 were frozen and tested in 1,524 separately sampled 2013\u20132014 adults. Adding bilateral mean first-to-third grip change to flexible age, BMI, maximum strength, variability, asymmetry and demographic predictors changed weighted Brier loss from 0.182203 to 0.182309 (difference +0.000106; conditional rescaled-PSU bootstrap 95% interval -0.000365 to +0.000555). The discovery grouped-cross-validation difference was also positive. Linear-baseline and quality-restricted analyses did not improve. These data do not establish incremental predictive benefit, pure physiological fatigability, causality, equivalence or clinical utility. The two survey samples share infrastructure and do not constitute independent-institution validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip strength",
+    "trial order",
+    "mobility",
+    "NHANES",
+    "negative result",
+    "survey transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/ggi.14146"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
