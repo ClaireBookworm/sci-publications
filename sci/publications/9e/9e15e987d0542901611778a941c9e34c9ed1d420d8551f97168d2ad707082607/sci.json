@@ -1,0 +1,10 @@
+{
+  "title": "Agreement among PPG respiratory modulations identifies lower-error rate windows in record-held-out BIDMC data",
+  "abstract": "In 53 public BIDMC ICU waveform recordings, agreement among three PPG-derived respiratory modulation frequencies identified lower-error 32-s PPG respiratory-rate windows. A threshold selected in records 01–27 yielded a confirmation-record error difference of 1.53 bpm (95% bootstrap interval 0.43–2.83) between high- and low-disagreement strata. This is limited to internal record-held-out validation, not external-dataset or clinical validation.",
+  "categories": [{"scheme":"arxiv","code":"eess.SP"}, {"scheme":"anzsrc-for-2020","code":"4203 Health services and systems"}],
+  "keywords": ["photoplethysmography", "respiratory rate", "signal quality", "public data", "BIDMC"],
+  "citations": [
+    {"target":"doi:10.1088/0967-3334/37/4/610","relations":["uses"],"reason":"Motivated analysis of multiple respiratory-induced PPG variations."},
+    {"target":"https://physionet.org/content/bidmc/1.0.0/","relations":["uses"],"reason":"Public source of the analyzed waveform and annotation files."}
+  ]
+}
