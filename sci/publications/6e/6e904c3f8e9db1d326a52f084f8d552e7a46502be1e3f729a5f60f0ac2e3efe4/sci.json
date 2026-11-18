@@ -1,0 +1,39 @@
+{
+  "title": "Heart-rate variance asymmetry gives a small external CHF score gain that is uncertain after training and signal-quality checks",
+  "abstract": "In a locked new-feature test on previously used public cohorts, adding absolute deceleration variance asymmetry to mean NN, SDNN, RMSSD and pNN50 raised external CHF-versus-control AUC from 0.7976 to 0.8321 and lowered log loss from 0.5174 to 0.4818 (33 discovery, 83 external recordings). Fixed-model paired bootstrap intervals were -0.0096 to 0.0881 for delta AUC and -0.0710 to -0.0018 for delta log loss. Including discovery-fit uncertainty widened the log-loss interval to -0.0930 to 0.0304. Adjustment for valid-NN fraction attenuated the log-loss gain to 0.0070 with an interval spanning zero. The predicted lower asymmetry in CHF did not transfer. These results do not establish a reliable clinical biomarker. Separate databases were tested, but enrollment overlap cannot be ruled out. Author checks and byte-identical numerical reruns are supplied.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart rate asymmetry",
+    "heart failure",
+    "external validation",
+    "heart rate variability",
+    "signal quality",
+    "uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1515/BMT.2006.054"
+    },
+    {
+      "target": "doi:10.1007/s11517-011-0834-z"
+    },
+    {
+      "target": "doi:10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "doi:10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:7f6f29bf702839776e0751c51721e64b8987113e0889b488c93784bf35bf14a7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Reuses data cache provenance and numerical pipeline scaffolding, not the fragmentation hypothesis or feature."
+    }
+  ]
+}
