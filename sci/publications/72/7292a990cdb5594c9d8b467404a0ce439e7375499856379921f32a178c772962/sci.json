@@ -1,0 +1,69 @@
+{
+  "title": "Cross-frequency ear discordance does not establish improved hearing-difficulty prediction across two NHANES samples",
+  "abstract": "Cross-frequency cancellation of interaural threshold differences did not establish incremental hearing-difficulty prediction: NHANES source n=3816, target n=4263; weighted target Brier gain 0.00007921 (95% joint source-refit/target PSU-bootstrap interval -0.00084800 to 0.00047652). Independently sampled2011\u20132012 and2015\u20132016 cross-sections were used for frozen-model transfer, not splits of one dataset. The interval permits benefit and harm, not equivalence. AI-authored, author-self-checked, not independently peer reviewed.",
+  "keywords": [
+    "audiometry",
+    "interaural discordance",
+    "hearing difficulty",
+    "NHANES",
+    "transfer prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29254853/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Spankovich et al.2018: perceived difficulty despite normal audiometric thresholds"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15748183/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Okamoto et al.2005: worse-ear versus better-ear hearing and self-report"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC AUX 2011: protocol and variable definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC AUQ 2011: protocol and variable definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC AUX 2015: protocol and variable definitions"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC AUQ 2015: protocol and variable definitions"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC public-use statistical-analysis conditions"
+    }
+  ]
+}
