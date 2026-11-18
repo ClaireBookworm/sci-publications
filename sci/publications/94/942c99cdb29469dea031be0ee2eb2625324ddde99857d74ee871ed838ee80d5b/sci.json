@@ -1,0 +1,71 @@
+{
+  "title": "Bilateral discordance of repeated grip change does not establish added digit-symbol prediction across NHANES samples",
+  "abstract": "A fixed ridge model trained in 1,245 NHANES 2011–2012 adults aged 60+ was tested without refitting in 1,397 adults from the separate 2013–2014 sample. Adding the normalized absolute between-hand difference of first-to-third grip changes to peak strength, asymmetry, mean change, within-hand CV and demographic covariates reduced unweighted digit-symbol substitution MSE by 0.3107 score-squared (conditional stratified-PSU bootstrap 95% interval −0.2627 to 0.9357; joint training/target interval −0.3124 to 1.0934). The prespecified benefit criterion failed. Survey-weighted and pain-free standing sensitivities reversed the gain. Separate cross-sectional survey samples share infrastructure and do not establish independent-source transfer. Previously used grip caches make confirmation outcome-untouched rather than fully data-naive. No causal, diagnostic or clinical utility claim is made. Author algebraic checks and a byte-identical offline rerun are provided.",
+  "keywords": [
+    "grip strength",
+    "trial discordance",
+    "cognition",
+    "digit-symbol substitution",
+    "NHANES",
+    "negative incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.2466/pms.1991.73.3.804"
+    },
+    {
+      "target": "doi:10.3233/JAD-215454"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33027842/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
