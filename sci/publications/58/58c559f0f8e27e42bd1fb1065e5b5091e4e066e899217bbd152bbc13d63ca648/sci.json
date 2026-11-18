@@ -1,0 +1,85 @@
+{
+  "title": "Red-cell distribution width did not establish incremental FEV1 prediction across two NHANES samples",
+  "abstract": "Fixed models trained in 2,258 NHANES 2007\u20132008 adults were evaluated in 2,478 separate 2009\u20132010 adults. Adding RDW to demographic, body-size, smoking, hemoglobin, MCV and WBC predictors changed examination-weighted FEV1 mean squared error by -0.00034694 L\u00b2 (conditional Rao\u2013Wu PSU-bootstrap95% interval -0.00094351 to +0.00035728). RMSE changed from 0.445359 to 0.444969 L; the prespecified improvement criterion failed. A flexible spline baseline nearly eliminated the point gain. Author arithmetic checks and a clean offline rerun passed. These are separate survey samples with shared infrastructure and no definitive cross-cycle person linkage, not independent-institution validation. No new RDW\u2013lung association, equivalence, causal effect or clinical utility is claimed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "red cell distribution width",
+    "FEV1",
+    "external validation",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.3389/fmed.2025.1503142"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
