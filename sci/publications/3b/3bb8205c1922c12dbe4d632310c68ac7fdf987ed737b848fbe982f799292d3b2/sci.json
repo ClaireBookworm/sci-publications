@@ -1,0 +1,34 @@
+{
+  "title": "Serum potassium curvature does not improve cross-cycle grip-strength prediction beyond routine measures",
+  "abstract": "In complete-case NHANES adults aged20+, adding squared serum potassium to a demographic,anthropometric,routine-chemistry,linear-potassium and conventional potassium-category baseline changed target MSE by a reduction of -0.000609 kg\u00b2 (95% stratified-PSU source-refit interval -0.275 to 0.143). Survey-weighted improvement was 0.218 kg\u00b2 (-0.612 to 0.614). Neither confirms incremental prediction; validation is across distinct NHANES cycles,not an independent measurement system.",
+  "keywords": [
+    "potassium",
+    "grip strength",
+    "negative result",
+    "NHANES",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1152/ajpcell.00104.2019"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12813152/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data/nhanes/nhanes_release_policy.pdf"
+    }
+  ]
+}
