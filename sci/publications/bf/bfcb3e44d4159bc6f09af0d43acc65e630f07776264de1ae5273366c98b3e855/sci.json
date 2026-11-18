@@ -1,0 +1,59 @@
+{
+  "title": "An RDW\u2013MCV interaction did not establish improved elevated-CRP prediction across two NHANES cycles",
+  "abstract": "In 4,383 NHANES 2005\u20132006 adults, we fitted a conventional blood-index and demographic model for contemporaneous CRP >3 mg/L, with or without a centered RDW-by-MCV interaction. Frozen models were tested in 5,043 adults from the separately recruited 2015\u20132016 cycle. The added interaction changed survey-weighted Brier loss by +0.000339 (conditional Rao\u2013Wu bootstrap 95% interval \u22120.000397 to +0.001114), failing the registered improvement criterion. AUC rose from 0.78432 to 0.78488, but probability calibration did not improve. The result is a scoped negative transport test, not evidence of equivalence or validation in a different study program.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "RDW",
+    "MCV",
+    "CRP",
+    "transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1177/00033197211052124"
+    },
+    {
+      "target": "https://doi.org/10.1186/s12944-020-01308-5"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/SMQ_I.htm"
+    }
+  ]
+}
