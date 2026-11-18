@@ -1,0 +1,54 @@
+{
+  "title": "A fixed hyperglycemia hinge did not improve cross-cycle prediction of spot urine osmolality beyond routine serum chemistry",
+  "abstract": "We tested whether max(serum glucose−180,0) improves spot urine osmolality prediction beyond age, sex, race/ethnicity, BMI, serum sodium, glucose, urea nitrogen and creatinine. A fixed linear model was fitted in 5,428 NHANES 2009–2010 adults and evaluated without refitting in 4,631 adults from the separately recruited 2011–2012 cycle. Target RMSE increased from 239.516 to 239.596 mOsm/kg; baseline-minus-augmented RMSE was −0.080 (target stratified PSU-bootstrap 95% interval −0.150 to −0.007; joint source/target refit interval −0.279 to +0.012). Source out-of-fold performance and survey-weighted, alternative-knot and renal-function sensitivities did not support the prespecified representation. A stabilized spline sensitivity gave a small descriptive improvement, underscoring model dependence. This scoped negative result does not refute nonlinear renal glucose handling, test a universal renal threshold, or establish equivalence. Confirmation is across NHANES cycles, not across clinical programmes.",
+  "keywords": [
+    "urine osmolality",
+    "hyperglycemia",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16627603/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary human renal glucose-clamp motivation."
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19418417/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary study challenging universal renal threshold interpretation."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5794013/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary NHANES urine concentration analysis motivating standard blood-osmolality comparator."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public development urine data documentation."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public confirmation urine data documentation."
+    }
+  ]
+}
