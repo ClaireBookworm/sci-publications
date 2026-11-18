@@ -1,0 +1,35 @@
+{
+  "title": "Within-visit systolic-pressure variability does not improve transferred DSST prediction across two NHANES samples",
+  "abstract": "In 1,390 NHANES 2013\u20132014 adults aged 60 or older, adding log within-visit systolic-pressure SD to a source-fitted demographic/education/mean-pressure model worsened weighted DSST MSE by 0.5864 points squared; the gain interval (-3.0408, 0.2901) included zero. Incremental predictive value was not established.",
+  "keywords": [
+    "blood pressure variability",
+    "cognition",
+    "DSST",
+    "NHANES",
+    "negative result",
+    "independent-sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23900315/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22372776/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx"
+    }
+  ]
+}
