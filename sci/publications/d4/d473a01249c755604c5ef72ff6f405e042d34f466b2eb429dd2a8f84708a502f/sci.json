@@ -1,0 +1,26 @@
+{
+  "title": "Platelet volume\u2013count coupling does not establish incremental CRP prediction across two NHANES cycles",
+  "abstract": "A frozen platelet volume\u2013count interaction developed in 4,079 NHANES2005\u201306 adults was tested in 4,889 independent-sample2007\u201308 adults beyond flexible marginal MPV,platelet count,WBC,NLR,RDW and confounders. Weighted log-CRP MSE improved by 0.0002795 (0.025%),but target and source-refit design-bootstrap95%intervals included zero and development grouped crossvalidation worsened. Stable incremental utility is not established. This is a negative representation test,not evidence against platelet biology.",
+  "keywords": [
+    "platelets",
+    "mean platelet volume",
+    "CRP",
+    "NHANES",
+    "independent sample validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32313453/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
