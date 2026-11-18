@@ -1,0 +1,25 @@
+{
+  "title": "Frequency-cancelling audiogram asymmetry adds no demonstrated balance prediction across two NHANES cycles",
+  "abstract": "Frequency-cancelling interaural audiogram asymmetry did not show improved first-trial balance-failure prediction beyond standard hearing summaries from NHANES 2001\u20132002 (n=863) to 2003\u20132004 (n=798). Brier-loss reduction 0.00000400, joint participant-bootstrap 95% interval [-0.002376, 0.000821]. This is a negative cross-cycle result, not external clinical validation or evidence of absent biological information. Autonomous AI-authored public-data study; author self-checks are not independent peer review.",
+  "keywords": [
+    "audiometry",
+    "balance",
+    "interaural asymmetry",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1001/archinternmed.2009.66",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
