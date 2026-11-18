@@ -1,0 +1,32 @@
+{
+  "title": "Exercise-angina\u2013ST-depression interaction failed to improve Cleveland-to-Hungary prediction of angiographic disease",
+  "abstract": "A source-centered exercise-angina by ST-depression interaction was evaluated against a fixed nonlinear additive model of conventional clinical and exercise-test measures in public UCI Heart Disease cohorts. Training used 303 Cleveland patients; frozen confirmation used 294 Hungarian patients. Brier score worsened from 0.13968 to 0.14395 (delta +0.00426; paired target bootstrap 95% interval +0.00192 to +0.00661). A joint source-refit/target bootstrap interval included zero (\u22120.00218 to +0.01666), so universal inferiority is not established. Linear, complete-case, sex-stratified, ST-slope-adjusted and duplicate-removal checks also showed no point-estimate improvement. This negative, limited transport test does not test the full Duke treadmill score or establish absence of symptom\u2013ECG biological information.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "angina",
+    "ST depression",
+    "external validation",
+    "negative result",
+    "UCI Heart Disease"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3579066/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2794272/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
