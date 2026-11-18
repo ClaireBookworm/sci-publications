@@ -1,0 +1,62 @@
+{
+  "title": "GGT\u2013ALP coupling adds no reliable cross-cycle prediction of the prebronchodilator FEV1/FVC ratio",
+  "abstract": "A registered product of source-standardized log serum GGT and log alkaline phosphatase was added to flexible conventional enzyme, demographic and smoking predictors of prebronchodilator FEV1/FVC. Training used NHANES2007\u201308 adults20\u201379 (n=3510); frozen transfer used the separately recruited NHANES2009\u201310 sample (n=3910). Target weighted MSE worsened from43.251250 to43.252298 percentage-points squared. Joint source\u2013target survey-PSU bootstrap95% interval for MSE gain was[\u22120.044692,0.031355]. Source cross-validation and regularization checks were also negative. This specific feature provides no demonstrated incremental prediction. Validation is between cycles of one survey, not independent institutions, and does not establish a causal liver\u2013lung mechanism or clinical utility.",
+  "keywords": [
+    "GGT",
+    "alkaline phosphatase",
+    "spirometry",
+    "NHANES",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25012802/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation, methods or public data access"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37033218/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation, methods or public data access"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34414431/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation, methods or public data access"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation, methods or public data access"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation, methods or public data access"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary scientific motivation, methods or public data access"
+    }
+  ]
+}
