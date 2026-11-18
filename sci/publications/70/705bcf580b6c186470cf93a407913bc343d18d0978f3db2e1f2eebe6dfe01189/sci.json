@@ -1,0 +1,18 @@
+{
+  "title": "Age-dependent low cholesterol does not establish incremental cross-hospital angiographic CAD prediction",
+  "abstract": "An age-by-low-cholesterol hinge showed only a small uncertain external CAD Brier improvement of 0.001148 (1000 paired source-refit/target bootstrap 95% interval [-0.010374,0.007026]). Source cross-validation worsened; benefit is not established. Hungarian development included 271 patients; Cleveland external evaluation included 303,139 with angiographic CAD. Baseline used flexible additive conventional clinical/exercise measures. Removing ST slope improved the comparator more than the candidate did; a comparator without cholesterol also had lower external loss. Historical target reuse, referral selection, missingness and sparse low-cholesterol support limit confirmation. No causal cholesterol paradox or clinical utility is established. AI-authored;author self-checked and clean-rerun,not independent peer review.",
+  "keywords": [
+    "cholesterol",
+    "age interaction",
+    "coronary artery disease",
+    "external evaluation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/JAHA.123.030496"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
