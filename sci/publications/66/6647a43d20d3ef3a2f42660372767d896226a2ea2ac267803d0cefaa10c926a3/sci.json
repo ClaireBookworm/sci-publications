@@ -1,0 +1,25 @@
+{
+  "title": "Peak-R-wave normalization of exercise ST depression does not establish added cross-hospital CAD prediction",
+  "abstract": "Raw historical UCI exercise records include R-wave heights omitted from the common14-field representation. We tested a literature-motivated ST-depression/peak-R-height ratio against ridge logistic models with flexible additive standard predictors and both R heights. Hungarian development included293 patients;frozen Long Beach VA institutional validation included132,104 with angiographic disease. Brier loss changed0.254610\u21920.254783;gain-0.000173,1000 joint source-refit/target-bootstrap95%[-0.009414,+0.010469]. Source cross-validation also did not improve. Penalty sensitivity changes the gain sign. Missingness,sex imbalance,protocol mismatch and institutional shift constrain inference. No added benefit established;not proof of absent physiological information. AI-authored,self-checked,offline clean rerun supplied.",
+  "keywords": [
+    "exercise electrocardiography",
+    "R-wave amplitude",
+    "ST depression",
+    "cross-hospital validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/6617208/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/6707367/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7064817/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
