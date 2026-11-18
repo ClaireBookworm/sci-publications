@@ -1,0 +1,47 @@
+{
+  "title": "Successive-stride roughness does not establish incremental cross-dataset Parkinson discrimination",
+  "abstract": "Successive-stride roughness was tested beyond age, sex, speed, mean stride and CV. Models fitted in31 gaitndd participants were frozen and evaluated in157 gaitpdb participants. AUC changed0.71459 to0.71492, paired target95% difference interval\u22120.00296 to+0.00412. Source/target refit intervals included no gain for both AUC and log loss. Sensitivity checks revealed substantial demographic/protocol/detector shift. This is a scoped negative incremental-prediction result, not a validated biomarker. Different archives were tested, but participant overlap cannot be ruled out. Public hashes, reproducible offline code, preserved correction and author checks are supplied.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "external validation",
+    "stride roughness",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary speed/variability motivation"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.jbiomech.2019.05.039",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary Poincare variability context"
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source data"
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target data"
+    }
+  ]
+}
