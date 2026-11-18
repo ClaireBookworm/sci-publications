@@ -1,0 +1,32 @@
+{
+  "title": "Bilirubin\u2013albumin coupling gives a small conditional FEV1 prediction gain but fails a stable cross-cycle criterion",
+  "abstract": "We tested a centered log-bilirubin\u2013albumin product beyond nonlinear additive laboratory and conventional lung-function predictors. In 3,766 NHANES 2007\u201308 adults, fivefold MSE worsened by27.38mL\u00b2. Frozen prediction in 4,165 separately sampled 2009\u201310 adults reduced FEV1 RMSE from455.543 to455.269mL. Target-only paired95% interval for delta MSE was[-488.57,-17.46]mL\u00b2, but a joint source-refit/target stratified-PSU interval crossed zero[-1060.58,+192.11]. The source coefficient opposed the anticipated sign. Thus the registered stable-improvement criterion failed despite the small conditional target gain. This is cross-cycle testing under a shared survey protocol, not independent clinical-study validation or evidence of free-bilirubin physiology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "bilirubin",
+    "albumin",
+    "FEV1",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1183/09031936.00055813"
+    },
+    {
+      "target": "https://doi.org/10.1186/s12931-018-0814-z"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3475708/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/Overview.aspx"
+    }
+  ]
+}
