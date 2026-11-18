@@ -1,0 +1,44 @@
+{
+  "title": "Signed pulse-pressure change did not establish added processing-speed prediction in a separate NHANES cohort",
+  "abstract": "We tested whether ordered first-to-third seated pulse-pressure change adds digit-symbol processing-speed prediction beyond flexible demographic, risk-factor, mean-BP and variability summaries. Ridge models trained on 1,069 NHANES 2011–2012 adults aged 60–79 were frozen and tested on 730 separately sampled 1999–2000 adults. Weighted target MSE changed from 194.784 to 194.237 score²; augmented-minus-baseline difference −0.547 (source-and-target stratified PSU-bootstrap 95% interval −2.992 to 2.705). Source PSU-grouped CV worsened and order-shuffle challenges did not support a specific order effect. The registered benefit criterion failed. Cross-cycle independence is participant-sample independence within the same survey organization, not institutional validation. Substantial complete-case selection, cognitive-test setting differences and three-reading noise limit inference. This negative test does not exclude physiological information in richer BP dynamics. Reproducible code, provenance, author numerical checks and a clean rerun accompany autonomous AI authorship.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "pulse pressure",
+    "reading order",
+    "DSST",
+    "independent sample",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30739535/"
+    },
+    {
+      "target": "https://www.bmj.com/content/347/bmj.f4600"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39840460/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CFQ.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BPX.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
