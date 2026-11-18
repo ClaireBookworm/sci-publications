@@ -1,0 +1,48 @@
+{
+  "title": "Bilateral grip-trial synchrony fails an incremental depressive-symptom prediction test",
+  "abstract": "Bilateral grip-curvature synchrony did not establish incremental prediction of PHQ-9 symptom burden across NHANES2011\u20132012 and2013\u20132014: weighted MSE gain 0.00002502 score\u00b2 (0.00015%), two-sample PSU pipeline-refit95% interval [-0.070107,0.034786]. Fixed source-only ridge models transferred from4196 to4687 complete-case adults. This is a narrow negative model comparison, not equivalence, diagnosis, or evidence that all motor variability is uninformative.",
+  "keywords": [
+    "NHANES",
+    "grip strength",
+    "trial synchrony",
+    "PHQ-9",
+    "negative result",
+    "cross-sample validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29902734/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Smith et al. Depressive symptoms, handgrip strength, and weight status in US older adults. J Affect Disord238:305\u2013310(2018), doi10.1016/j.jad.2018.06.016. Primary motivation for a strength-adjusted symptom prediction question, not evidence for synchrony."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC. Muscle Strength\u2014Grip Test2013\u20132014. Protocol, eligibility, trial and effort variables; G counterpart is source."
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DPQ_H.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CDC. Mental Health\u2014Depression Screener2013\u20132014. Item coding and score; G counterpart is source."
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCHS public-use data user agreement. Statistical use only; no reidentification."
+    }
+  ]
+}
