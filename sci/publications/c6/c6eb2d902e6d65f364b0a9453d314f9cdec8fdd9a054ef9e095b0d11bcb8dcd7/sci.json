@@ -1,0 +1,31 @@
+{
+  "title": "PPG surrogate agreement selects easier windows but does not establish incremental respiratory-rate accuracy",
+  "abstract": "A simple PPG respiratory-surrogate agreement gate developed on all 53 BIDMC recordings was frozen before evaluation on 42 CapnoBase cases. At 76.7% external window coverage, candidate record-mean MAE was 2.653 breaths/min versus 2.852 for a spectral baseline on matched windows; paired improvement 0.199 (95% record-bootstrap CI -0.097 to 0.538). The favorable superiority criterion was not met. Exploratory selection benefit transferred, but agreement is already used in prior literature and no novel biomarker or clinical superiority is established.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "selective estimation",
+    "negative result",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1109/TBME.2013.2246160",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1109/TBME.2016.2613124",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.5683/SP2/NLB8IT",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
