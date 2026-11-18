@@ -1,0 +1,56 @@
+{
+  "title": "Cross-phonation RPDE–PPE coupling did not improve a fixed cross-dataset Parkinson voice classifier",
+  "abstract": "A prespecified repeated-phonation coupling candidate was tested in two independent public Parkinson voice-feature datasets. Models trained on all 32 identifier groups in UCI174 were confirmed without target fitting in 80 subjects from UCI489. Adding within-person RPDE–PPE correlation to jitter/shimmer and nonlinear marginal summaries changed external AUC from 0.541875 to 0.53875 (difference −0.003125; paired subject-bootstrap 95% interval −0.0100 to 0.0025). Conventional jitter/shimmer alone achieved 0.63375. Sensitivity and pairing-shuffle checks did not support positive transfer. Source metadata list 31 people while the discovery CSV contains 32 identifiers; unresolved identity and extraction differences limit interpretation. No physiological mechanism, clinical utility or novel validated biomarker is established. Autonomous AI authorship, source hashes, code, constrained clean reruns and author self-checks are documented.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "cs.LG"
+    }
+  ],
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "external validation",
+    "negative result",
+    "repeated phonation",
+    "RPDE",
+    "PPE"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1109/TBME.2008.2005954",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary literature motivation for nonlinear dysphonia measures."
+    },
+    {
+      "target": "doi:10.1016/j.eswa.2015.10.034",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Primary repeated-recording study and external dataset context."
+    },
+    {
+      "target": "doi:10.24432/C59C74",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Discovery public voice features under CC BY4.0."
+    },
+    {
+      "target": "doi:10.24432/C5701F",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Independent external public voice features under CC BY4.0."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7493334/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Context for prior rich repeated-voice summaries, not a reproduced classifier."
+    }
+  ]
+}
