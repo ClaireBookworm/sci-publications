@@ -1,0 +1,38 @@
+{
+  "title": "Alkaline-phosphatase\u2013phosphate coupling did not establish incremental hip-density prediction across separate NHANES samples",
+  "abstract": "A literature-motivated mineralization-stress interaction was tested using existing public data, not new experiments. We trained fixed weighted ridge spline models in 1,550 NHANES 2005\u20132006 adults aged 50+ and transported them to 2,280 separately sampled 2007\u20132008 adults. Adding centered log alkaline phosphatase \u00d7 centered log phosphorus to separate chemistry and conventional covariates changed total-femur BMD prediction MSE from 0.01430512 to 0.01429703. The difference was -0.00000809 (two-sample stratified PSU-bootstrap 95% interval -0.00004669 to 0.00007699); source grouped cross-validation worsened. The registered benefit criterion failed. This is a scoped negative representational test, not a diagnosis of osteomalacia or evidence against biochemical bone physiology. Author source auditing corrected source creatinine calibration and clean reruns reproduced the final outputs. Complete-case selection, total rather than bone-specific enzyme measurement, missing medication/vitamin-D adjustment and shared survey methods limit generalization.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "bone mineral density",
+    "alkaline phosphatase",
+    "phosphorus",
+    "independent sample",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7085914/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DXXFEM_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DXXFEM_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
