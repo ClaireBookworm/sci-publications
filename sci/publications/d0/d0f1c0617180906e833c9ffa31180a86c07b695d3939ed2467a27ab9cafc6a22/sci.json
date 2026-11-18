@@ -1,0 +1,69 @@
+{
+  "title": "Thyroid\u2013pituitary coupling does not consistently improve independent-cycle radial-pulse prediction",
+  "abstract": "A fixed logTSH-by-free-T4 interaction trained in 4,951 NHANES 2007\u20132008 adults did not improve radial-pulse prediction in 1,847 independently sampled 2009\u20132010 adults beyond flexible additive hormones and conventional covariates; target MSE increased by 0.0578 bpm\u00b2 and both survey-bootstrap intervals included zero.",
+  "keywords": [
+    "thyroid",
+    "radial pulse",
+    "NHANES",
+    "incremental prediction",
+    "negative result",
+    "independent-cycle validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23339744/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hormone-heart-rate primary motivation"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39986552/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Sensitivity-index primary motivation"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source hormone protocol and weighting"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/THYROD_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Target subsampling and weighting"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Pulse outcome definition"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public-use conditions"
+    },
+    {
+      "target": "https://www150.statcan.gc.ca/n1/pub/71-526-x/2017001/chapt7-eng.htm",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Survey rescaled-bootstrap method"
+    }
+  ]
+}
