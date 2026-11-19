@@ -1,0 +1,249 @@
+{
+ "title": "Genome size did not fall with heterozygosity within 325 butterfly and moth genera, contrary to the mutational-hazard model of junk DNA; a fall within 65 fly genera is tentative",
+ "abstract": "Within genera of butterflies and moths, species with more genetic diversity did not have smaller genomes, although the mutational-hazard hypothesis predicts that they should; within genera of flies, a decrease appeared but is not secure. This matters because the mutational-hazard hypothesis, the main non-adaptive explanation of non-coding ('junk') DNA, says that extra DNA is slightly harmful and that selection removes it only in species with large populations. We used 4,143 sequenced species (19 phyla, mostly British species from the Darwin Tree of Life). Diversity is heterozygosity: the fraction of DNA bases that differ between the two genome copies of one individual, estimated from short DNA words (k-mers) in reads. In theory it equals 4 Ne u (effective population size times mutation rate), the quantity the hypothesis uses. It agreed with published population diversity (R2 = 0.77, 27 species). We compared species within genera, order by order, and pooled orders with a random-effects model. In 1,397 Lepidoptera (325 genera), genome size changed by +0.8% per +1 percentage point of heterozygosity (95% CI -1.2 to +2.8); with genome size from k-mers, -0.6% (-2.6 to +1.6). The hypothesis with 10 harmful-mutation sites per DNA insertion predicts -3%. Pooled over 8 animal orders, the change was -0.1% (-2.0 to +1.9), and the orders did not differ significantly (p = 0.41). Among genera within families it was null or positive (+5.7%, -0.7 to +12.0). In 206 Diptera (65 genera) the change was -4.8% (-8.9 to -0.4), but this interval crosses zero with a bootstrap over families or a sex covariate; with k-mer genome size it was -10.5% (-15.1 to -6.1), but that measure comes from the same fit as heterozygosity. Under the hypothesis and stated assumptions, the moth data allow at most about 5-10 hazard sites per insertion with a robust error model, and 3-4 times more with a heavy-tailed one. Limits: one individual per species, and heterozygosity reflects recent history.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  }
+ ],
+ "keywords": [
+  "genome size",
+  "non-coding DNA",
+  "junk DNA",
+  "mutational hazard hypothesis",
+  "drift barrier",
+  "heterozygosity",
+  "effective population size",
+  "transposable elements",
+  "GenomeScope",
+  "Darwin Tree of Life",
+  "phylogenetic comparative methods",
+  "random-effects meta-analysis",
+  "Lepidoptera",
+  "Diptera"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig2_orders_within_genus.png",
+   "caption": "Within-genus change in genome size per +1 percentage point of k-mer heterozygosity for each animal order with at least 5 multi-species genera (95% percentile bootstrap intervals over genera), with assembly length (blue) and k-mer genome length (orange); diamonds are random-effects pooled estimates. Dashed and dotted lines: mutational-hazard prediction for 10 and 25 hazard sites per insertion, 60% non-functional DNA, half of the equilibrium change reached. Lepidoptera are flat; the Diptera decrease is robust only with k-mer genome length."
+  },
+  {
+   "path": "files/figures/fig1_scatter.png",
+   "caption": "(A) Assembly length against heterozygosity for 4,143 species, with mutational-hazard equilibrium curves for 10 and 50 hazard sites. (B) Lepidoptera and (C) Diptera within genera, as deviations from genus means, with observed slopes (solid) and the hypothesis slope for 10 hazard sites (dashed)."
+  },
+  {
+   "path": "files/figures/fig3_orders_among_genera.png",
+   "caption": "Change in genome size per +1 point of heterozygosity among genus means within families, by order (95% CI from a bootstrap over families), with pooled estimates. No order and no pooled estimate shows the negative slope the hypothesis predicts at this level."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:f1c6bca37ef65adbec63541fa6795438d06fb5256fe8ddb8c577d8cb468b13f0",
+   "reason": "Related test of population-size-dependent weak selection on non-coding DNA within mouse subspecies; this study tests the same population-size logic across thousands of species."
+  },
+  {
+   "target": "sci:sha256:dda77b70249a8a4d24d4705c0d859a99f04c54465eb85a300b123fd359a35bc5",
+   "reason": "Context: catalog work on function of non-conserved regulatory DNA in humans; our comparative approach is complementary."
+  },
+  {
+   "target": "doi:10.1126/science.1089370",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Lynch & Conery 2003 proposed the mutational-hazard hypothesis; within moth genera and pooled over orders we find no negative genome size-diversity slope; within fly genera a tentative one."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1001080",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Whitney & Garland 2010 found no relation after phylogenetic control; we agree at much larger scale."
+  },
+  {
+   "target": "doi:10.7554/eLife.100574",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Marino et al. 2025: long-term Ne (dN/dS) does not explain genome size in 807 animals; we reach the same conclusion with heterozygosity."
+  },
+  {
+   "target": "doi:10.1073/pnas.2519649123",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Weinstein & Roy 2026: genome size unrelated to Ne or mutation rate in 55 vertebrates."
+  },
+  {
+   "target": "doi:10.1101/gr.212589.116",
+   "reason": "Lefebure et al. 2017: larger genomes with lower Ne in subterranean isopods, a within-clade MHH-consistent case."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-11308-4",
+   "reason": "Mackintosh et al. 2019: butterfly diversity not predicted by genome size."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-14998-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GenomeScope2, source of the k-mer heterozygosity, k-mer genome length and repeat length."
+  },
+  {
+   "target": "doi:10.1073/pnas.2115642118",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Darwin Tree of Life project, source of most genomes."
+  },
+  {
+   "target": "https://tolqc.cog.sanger.ac.uk/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Sanger Tree of Life QC portal, scraped 2026-11-19."
+  },
+  {
+   "target": "doi:10.1073/pnas.1423041112",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Open Tree of Life synthetic tree used for phylogenetic contrasts."
+  },
+  {
+   "target": "doi:10.5285/dbc7cc17-cbbd-49dd-bab4-8e8855768d66",
+   "relations": [
+    "uses"
+   ],
+   "reason": "British butterfly and moth trait data (OGL v3)."
+  },
+  {
+   "target": "doi:10.1002/ecy.3670",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Data paper for the moth trait database."
+  },
+  {
+   "target": "doi:10.7554/eLife.67509",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Buffalo 2021 compilation of population diversity, used for validation of k-mer heterozygosity."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.1001388",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Leffler et al. 2012 diversity data (via Buffalo 2021)."
+  },
+  {
+   "target": "doi:10.1038/nature13685",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Romiguier et al. 2014 diversity data (via Buffalo 2021)."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.1002112",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Corbett-Detig et al. 2015 diversity data (via Buffalo 2021)."
+  },
+  {
+   "target": "doi:10.1093/genetics/47.6.713",
+   "reason": "Kimura 1962 fixation probabilities used in the equilibrium model."
+  },
+  {
+   "target": "doi:10.1086/284325",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Felsenstein 1985 independent contrasts."
+  },
+  {
+   "target": "doi:10.1098/rstb.1989.0106",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Grafen 1989 branch lengths."
+  },
+  {
+   "target": "doi:10.18473/lepi.v68i3.a8",
+   "reason": "Miller 2014: genome size and voltinism in 51 Lepidoptera."
+  },
+  {
+   "target": "doi:10.1016/S0168-9525(00)02157-0",
+   "reason": "Petrov 2001: lineage differences in DNA loss rates, relevant to the equilibrium fraction q."
+  },
+  {
+   "target": "doi:10.1073/pnas.1616702114",
+   "reason": "Kapusta et al. 2017: genome size dynamics through DNA gain and loss."
+  },
+  {
+   "target": "doi:10.1073/pnas.092595699",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Lynch 2002: about 10 essential sites per U2-type intron; neutrality condition N s < 0.1; source of the reference hazard value."
+  },
+  {
+   "target": "doi:10.1093/molbev/msab142",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Roddy et al. 2021: mammals with small populations do not have larger genomes; consistent with our pooled null."
+  },
+  {
+   "target": "doi:10.1111/mec.70265",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Lewin & Eyre-Walker 2026: no Ne-genome size link across 120 eukaryotes with Ne from diversity and mutation rates."
+  },
+  {
+   "target": "doi:10.1093/molbev/msaf111",
+   "reason": "Merel et al. 2025: relaxed purifying selection associated with TE accumulation in flies; agrees in direction with our tentative within-genus fly result."
+  },
+  {
+   "target": "doi:10.1093/molbev/msaf206",
+   "reason": "Pisarenco et al. 2025: genome halving in island spiders, a within-clade MHH-consistent case."
+  },
+  {
+   "target": "doi:10.1093/molbev/msaf315",
+   "reason": "Luiselli et al. 2025: theory of an equilibrium non-coding fraction set by structural mutations."
+  },
+  {
+   "target": "doi:10.1093/evlett/qraf011",
+   "reason": "Roberts & Josephs 2025: k-mer-based diversity and genome size in plants."
+  },
+  {
+   "target": "doi:10.1101/gr.279452.124",
+   "reason": "Jenike et al. 2025: pitfalls of k-mer methods (sex chromosomes, large genomes)."
+  },
+  {
+   "target": "doi:10.1093/bioinformatics/btx153",
+   "reason": "Vurture et al. 2017: GenomeScope heterozygosity compared with mapping-based estimates."
+  },
+  {
+   "target": "doi:10.1111/j.1558-5646.2010.00967.x",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Whitney et al. 2010: no support for non-adaptive genome size evolution in plants."
+  },
+  {
+   "target": "doi:10.1111/j.1558-5646.2012.01674.x",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Ai et al. 2012: genome size not correlated with Ne in Oryza."
+  }
+ ]
+}
