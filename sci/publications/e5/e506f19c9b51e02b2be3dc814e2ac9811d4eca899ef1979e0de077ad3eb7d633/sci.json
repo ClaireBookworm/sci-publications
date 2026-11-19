@@ -1,0 +1,163 @@
+{
+  "title": "Common human alleles that add reporter activity to non-functional DNA are not detectably rarer than alleles that remove it; published SuRE allele directions depend on the donor genome",
+  "abstract": "Common human DNA variants that give non-functional DNA more regulatory activity in a reporter assay are not detectably rarer than variants that remove activity. This matters because much non-functional DNA can start transcription outside its chromosome, and it is not known if selection must keep this DNA silent. We used SuRE, a published assay that measured both alleles of 5.9 million common SNPs in K562 and HepG2 cells, with allele frequencies and ancestral alleles from 1000 Genomes. A derived (new) allele is a gain if it increases activity and a loss if it decreases activity. In non-functional DNA (not in exons, promoters, conserved elements, or within 500 bp of DNase-sensitive sites of 125 cell types), the derived allele frequency of gain alleles minus that of loss alleles was -0.003 (95% CI -0.011 to +0.005; 7,062 SNPs), after control for the donor genotype configuration and mutation type. Missense minus synonymous SNPs in the same model gave -0.009. So the data exclude a gain-versus-loss selection difference larger than about 1.3 times the missense difference (approximately 4Ns < -1.5, where N is the effective population size and s the selection coefficient); power for a missense-sized effect was 0.59, and a missense-sized difference is not excluded. DNase-sensitive and promoter DNA showed no robust selection against loss alleles either, so the test is weak for SuRE effects in general. We also found two problems in the public SuRE data. First, the published effect direction depends strongly on which of the four donor genomes carries the allele (fraction of gains 0.36 to 0.85); a frequency analysis without full control for donor genotypes gives false selection signals. Second, the library labelled as donor HG01241 (library 2) contains the DNA of donor NA18983 (fraction of fragments with the ALT allele 0.007, 0.495 and 0.988 at NA18983 genotypes 0, 1 and 2). A within-library reanalysis of the raw fragment data on 9 chromosomes needed the same genotype control to pass a placebo test and was underpowered. Main limits: only common SNPs (strong selection is invisible), an assay outside chromatin, and an approximate selection scale. We give per-SNP tables, a library identity table, and testable predictions.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "reporter assay",
+    "SuRE",
+    "raQTL",
+    "derived allele frequency",
+    "purifying selection",
+    "spurious regulatory activity",
+    "default activity",
+    "1000 Genomes",
+    "batch effect",
+    "donor library",
+    "within-library allelic test",
+    "MPRA"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_selection_tests.png",
+      "caption": "Approximate scaled selection (4Ns) of activity-gaining minus activity-losing derived alleles, by genomic class. Blue circles: all autosomes, published raQTL calls, conditioned on donor genotype configuration (A, filled) and restricted to SNPs whose derived allele is the ALT allele (A2, open). Orange squares: chromosomes 2-8, 21, 22, within-library raQTL calls, conditioned on configuration and derived-is-ALT (B4, filled) or ALT-only (B5, open); these are underpowered. Bars are 95% Monte Carlo intervals that include yardstick uncertainty (clipped at +/-4.5). Dotted lines: the missense-versus-synonymous difference in the same SNPs, as gain-like (left) or loss-like (right). Non-functional DNA is near zero in all analyses."
+    },
+    {
+      "path": "files/figures/fig1_donor_configuration.png",
+      "caption": "Fraction of raQTLs in which the derived allele increases SuRE activity, for SNPs whose derived allele is carried (one copy) by only one donor genome or by all four. Blue: published pooled calls (all autosomes); open squares: within-library calls (chromosomes 2-8, 21, 22). Bars are 95% Wilson intervals. The published fractions range from 0.36 to 0.85 by donor. NA18983 DNA is in 3 of the 8 libraries and HG01241 DNA in 1 (see figure 3)."
+    },
+    {
+      "path": "files/figures/fig3_library_identity.png",
+      "caption": "Genotype identity of the eight SuRE libraries (chromosomes 21-22, about 23,000 sites per library). For each library: fraction of fragments whose reads show the ALT allele at sites where the labelled donor (orange) or the best-matching donor (blue) has 0 (circles), 1 (open squares) or 2 (diamonds) ALT copies. Seven libraries match their labels. The library labelled HG01241 library 2 matches NA18983 (0.007, 0.495, 0.988), not HG01241 (0.23, 0.30, 0.49)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41588-019-0455-2",
+      "relations": [
+        "uses",
+        "reviews"
+      ],
+      "reason": "Source of the SuRE SNP table and fragment data (OSF w5bzq). We reproduce its raQTL calls, show that its allele directions depend on donor genotype configuration, and show that one of its eight libraries (labelled HG01241 library 2) contains NA18983 DNA."
+    },
+    {
+      "target": "https://osf.io/w5bzq",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SuRE SNP table (pjxm4) and fragment count tables (h3m49)."
+    },
+    {
+      "target": "doi:10.1038/nature15393",
+      "relations": [
+        "uses"
+      ],
+      "reason": "1000 Genomes phase 3 allele frequencies, ancestral alleles and donor genotypes."
+    },
+    {
+      "target": "https://www.cog-genomics.org/plink/2.0/resources",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PLINK 2 files of 1000 Genomes phase 3."
+    },
+    {
+      "target": "doi:10.1186/s13742-015-0047-8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PLINK 2 format and tools."
+    },
+    {
+      "target": "doi:10.1038/nature11247",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE DNase clusters used to define non-functional DNA."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "relations": [
+        "uses"
+      ],
+      "reason": "phastCons conserved elements."
+    },
+    {
+      "target": "doi:10.1101/gr.135350.111",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE basic v19 annotation."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg19/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "UCSC hg19 annotation tables and genome."
+    },
+    {
+      "target": "doi:10.1038/s41594-024-01235-4",
+      "reason": "Claim that regulatory activity is the default DNA state and that selection must repress harmful activity; we test a population-genetic prediction of it."
+    },
+    {
+      "target": "doi:10.1038/s41586-024-07128-2",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Synthetic non-functional DNA is silent in mammalian chromatin; our null result is consistent with this."
+    },
+    {
+      "target": "doi:10.1038/nbt.3754",
+      "reason": "SuRE method."
+    },
+    {
+      "target": "doi:10.1093/genetics/132.4.1161",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Poisson random field model for the DAF-to-4Ns scale."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Rare-variant test of new TF-motif matches in non-functional DNA, also null; our common-variant test of measured activity covers weaker selection."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "reason": "Small rare-variant excess in regulatory DNA without conservation."
+    },
+    {
+      "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+      "reason": "No extra selection on transposon copies with regulatory marks."
+    },
+    {
+      "target": "sci:sha256:04a7a4b121955cd1fd3b4b966e78a5a88f8d41b65af5f66f836e5ba9c100f213",
+      "reason": "Active transposon copies and rare alleles."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "reason": "Context: mutation rate and constraint at conserved non-coding bases."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "reason": "Context: calibration of phyloP conservation scores."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "reason": "Context: conservation of CRISPRi-tested enhancers."
+    }
+  ]
+}
