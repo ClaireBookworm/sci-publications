@@ -1,0 +1,195 @@
+{
+ "title": "In 76,215 human genomes, mutations that change nucleosome-positioning signals in non-functional DNA show no detectable selection; the apparent selection comes from the mapped cells' own alleles",
+ "abstract": "Point mutations that make non-functional human DNA fit a nucleosome better or worse show no detectable natural selection in 76,215 genomes; the patterns that look like selection come from the cells used to map the nucleosomes. This matters because published studies used such patterns to claim weak selection for nucleosome positioning over a large part of the human genome, which would give a function to much \"junk\" DNA, and because the same artefact can affect any test of selection on features mapped in present-day cells.\n\nWe used gnomAD v4.1 variants in 1.87 Gb of autosomal DNA without exons, regulatory elements, conserved elements or low-complexity repeats: 108.5 million variants within 62 base pairs of 6.36 million nucleosome centres mapped by MNase-seq in cell lines of seven Yoruba donors. Inside a nucleosome, A/T is preferred where the DNA minor groove faces the histones and G/C 5 bp away. A selection index compares, between these two kinds of positions, how often new A/T-to-G/C and G/C-to-A/T alleles are common rather than rare; GC-biased gene conversion, composition and mutation-rate differences cancel in it.\n\nOver all variants, alleles that improve the fit were more often common (index -0.035, 95% interval ±0.008), more so at higher frequency. But in two maps built from disjoint groups of three donors, an allele carried by one group looked favoured only in that group's map (-0.068 ±0.011) and not in the other map (+0.002 ±0.014): the donors' own alleles shape where nucleosomes are called (map conditioning). Substitutions show the same asymmetry: the contrast is -0.33 on the human lineage, whose bases the donors carry, and -0.004 on the chimpanzee lineage. Selection strong enough to make the human fixed-substitution contrast (-0.39) predicts -0.042 on the other map; a two-population simulation bounds the heterozygote selection coefficient per base change below 1.8e-6 (95%). For a GC-rule proxy of nucleosome-inhibiting barriers, a divergence statistic that a previous study read as selection appeared when barriers were defined on the human reference and disappeared on the ancestral sequence. The present mutation spectrum explains only 2% of the A/T rhythm.\n\nLimitations: one map source; barriers approximated by a GC rule; one demographic model; a small unexplained residual. Map conditioning of substitutions was proposed before (Warnecke et al. 2013); the new parts are the donor-level map swap in population data and the bound.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "nucleosome positioning",
+  "rotational positioning",
+  "natural selection",
+  "allele frequency spectrum",
+  "gnomAD",
+  "MNase-seq",
+  "ascertainment bias",
+  "map conditioning",
+  "reference bias",
+  "NIEB",
+  "GC-biased gene conversion",
+  "mutation spectrum",
+  "population genetics",
+  "1000 Genomes",
+  "forward simulation"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_rotational.png",
+   "caption": "Rotational test. (A) A/T rhythm around 6.36 M dyads. (B) Contrast between A/T-preferred and G/C-preferred offsets for each mutation direction and outcome, all variants, and for human- and chimpanzee-lineage substitutions. (C) Selection index for alleles carried or not carried by the map donors. (D) Map swap: alleles of one donor group look favoured only on that group's map. Black bars: index expected under the selection that would make the substitution contrast."
+  },
+  {
+   "path": "files/figures/fig2_barriers.png",
+   "caption": "GC-poor barriers (GC-rule proxy of NIEBs): the published divergence/polymorphism statistic appears for barriers defined on hg38 (circles) and disappears for barriers defined on the ancestral sequence (squares); the allele-frequency test (B) has low power."
+  },
+  {
+   "path": "files/figures/fig3_equilibrium.png",
+   "caption": "The present mutation spectrum (rare variants) predicts about 2% of the A/T rhythm at equilibrium; human-lineage substitutions are phase-locked but are carried by the map donors."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eac6ec260df06486b728132989676c5438dc8e7f3c8f646a21debab815fe46b8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We adapted its gnomAD streaming code (vcfx.c, stream_chrom.sh) and its forward-simulation design; it showed that mutation-rate effects can mimic selection in singleton frequencies."
+  },
+  {
+   "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+   "relations": [
+    "supports"
+   ],
+   "reason": "It found no selection on new transcription-factor motif matches in non-functional DNA; we find none on nucleosome-positioning signals."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "reason": "Shows that phyloP is miscalibrated in neutral DNA; we define non-functional DNA without relying on per-base phyloP thresholds."
+  },
+  {
+   "target": "doi:10.1101/gr.122275.111",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Prendergast & Semple 2011 claimed widespread nucleosome-linked selection from divergence/polymorphism ratios at MNase-mapped dyads; we show that alleles carried by the map donors produce such signals."
+  },
+  {
+   "target": "doi:10.1186/s12864-016-2880-2",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Drillon et al. 2016 read a divergence/polymorphism statistic at sequence-defined NIEBs as selection over 37.5% of the genome; with a GC-rule proxy we reproduce it only for barriers defined on the present-day reference."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004457",
+   "reason": "Langley et al. 2014: nucleosome-linked polymorphism in Drosophila; raised and controlled the donor-allele problem."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.10.004",
+   "reason": "Pich et al. 2018: mutation periodicity follows minor-groove orientation; we see a 1.3-1.6% modulation in germline rare variants, only weakly in phase with the composition rhythm."
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.1003373",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Warnecke et al. 2013 explained nucleosome-linked substitution patterns by repositioning on the present sequence; our lineage test replicates their human/chimpanzee asymmetry and our map swap extends it to polymorphism."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1002053",
+   "reason": "He et al. 2011: lineage-specific tests of selection on binding sites; ascertainment of sites on one species."
+  },
+  {
+   "target": "doi:10.1093/molbev/msad284",
+   "reason": "Jiang & Zhang 2024: ascertainment bias in genomic tests of positive selection on regulatory sequences."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-15185-0",
+   "reason": "Li & Luscombe 2020: nucleosome stability and germline mutation rate."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1003036",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Gaffney et al. 2012: the paired-end MNase-seq data we use."
+  },
+  {
+   "target": "doi:10.1126/science.1219240",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Tennessen et al. 2012: demographic model of the simulations."
+  },
+  {
+   "target": "doi:10.1038/nature15393",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1000 Genomes phase 3: genotypes of the map donors."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD genomes (76,156-genome constraint map); we use v4.1."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-31872-6",
+   "reason": "Dukler et al. 2022: strong selection classes in human non-coding DNA."
+  },
+  {
+   "target": "doi:10.1038/nature04979",
+   "reason": "Segal et al. 2006: genomic code for nucleosome positioning."
+  },
+  {
+   "target": "doi:10.1038/nature07667",
+   "reason": "Kaplan et al. 2009: intrinsic nucleosome organisation."
+  },
+  {
+   "target": "doi:10.1038/nsmb.2506",
+   "reason": "Struhl & Segal 2013: determinants of nucleosome positioning."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "Graur et al. 2013: critique of function claims for most of the genome."
+  },
+  {
+   "target": "doi:10.1002/bies.20544",
+   "reason": "Taft, Pheasant & Mattick 2007: non-coding DNA and complexity (candidate C)."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs (streamed)."
+  },
+  {
+   "target": "https://epd.expasy.org/mga/hg19/gaffney12/gaffney12.html",
+   "relations": [
+    "uses"
+   ],
+   "reason": "EPD MGA copy of the MNase-seq data."
+  },
+  {
+   "target": "https://1000genomes.s3.amazonaws.com/release/20130502/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1000 Genomes phase 3 VCFs (AWS mirror)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence, RepeatMasker, GENCODE v46 table, phastCons elements, segmental duplications, ape alignments."
+  },
+  {
+   "target": "https://downloads.wenglab.org/V3/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE SCREEN cCREs (V3)."
+  }
+ ]
+}
