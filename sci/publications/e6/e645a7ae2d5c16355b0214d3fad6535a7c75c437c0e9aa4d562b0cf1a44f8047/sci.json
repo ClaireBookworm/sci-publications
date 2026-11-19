@@ -1,0 +1,26 @@
+{
+  "title": "A quarter-second expiratory deceleration contrast does not improve cross-cycle wheeze prediction",
+  "abstract": "In public NHANES adults, we tested 4*(2*FEV0.75-FEV0.5-FEV1)/FVC beyond flexible standard spirometric summaries and demographics. Source2007\u201308(n3667) grouped-CV Brier improved0.00003478, but target2011\u201312(n3644) Brier reduction was\u22120.00021541, approximate95% joint PSU-bootstrap interval[\u22120.00114282,+0.00009172]. Target AUC fell0.733984 to0.732254; log loss improved. Registered sensitivities and reverse transfer also had unfavorable Brier point estimates. This is an estimator- and scoring-rule-specific negative result, not equivalence or absence of physiology. Independent survey cycles share a platform and historical reuse; external clinical-cohort validation remains absent. Author AI self-checks and clean isolated reruns passed; no independent peer review claimed.",
+  "keywords": [
+    "spirometry",
+    "early expiration",
+    "wheeze",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.2147/COPD.S150280",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
