@@ -1,0 +1,180 @@
+{
+ "title": "Apparent selection on human G-quadruplex motifs depends on how mutation context is matched, and a structure-free control shows similar shifts in most designs, in 76,215 genomes and ape divergence",
+ "abstract": "Within human G-quadruplex (G4) motifs, base changes that destroy the motif look strongly depleted, not depleted, or slightly enriched depending on how mutation context is matched, and a control with the same run geometry but no structure shifts in the same way in most designs; we found no design-independent sign that selection keeps the G4 structure. This matters because several studies use variant depletion at G4 motifs, in particular at central guanines, as evidence that G4s are a large class of functional DNA. In 345,330 canonical G4 motifs (four or more runs of three or more G, loops of 1-7 bases) on the human autosomes, a breaking base is a G where any change removes every G4 match; at a keeping base a match remains. We compared alleles at breaking and keeping bases in the same strata (R = observed/expected; R < 1 means depletion) in gnomAD v4.1 (76,215 genomes) and in chimpanzee- and gorilla-lineage substitutions. With 3-base context strata, as in earlier mutability-adjusted tests, breaking alleles looked 29% depleted and breaking bases had 27% fewer ape substitutions; chains of A-runs, which form no structure, looked 33-35% depleted. With 7-base strata (pre-registered) there was no depletion: R = 1.15 (95% CI 1.13-1.17) for alleles with frequency of 1e-4 or more and 1.02 (1.00-1.04) for ape substitutions. Divided by the A-run result in the same design, across 9 designs and 3 outcomes, the G4 ratio was 0.81-1.14 (median 1.01); within-locus designs with 3- or 5-base context gave 0.81-0.89, but adding run length or 7-base context gave 0.87-1.14. G4 bases carried no fewer alleles than nearby lone G-runs (polymorphism/divergence ratio 0.94-1.01, against 1.2-1.4 reported without matching). A CTCF-motif positive control was depleted for common alleles with 3-base strata (R 0.78) but weakly or not at all with other designs. Keeping bases had 1.7 times more failed-filter variant records. These results support the 2009 view that the lower variation at disruptive G4 positions comes mainly from mutation; between loci, central-G constraint signals arise without structure, but within loci an 11-19% deficit remains unless G-run length is matched. Limits: no design is known to be unbiased, so a G4-specific depletion of about 20-25% cannot be excluded; the positive control has limited power; the canonical motif misses bulged and long-loop G4s.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "G-quadruplex",
+  "G4",
+  "non-coding DNA",
+  "junk DNA",
+  "non-B DNA",
+  "purifying selection",
+  "gnomAD",
+  "population genetics",
+  "CTCF",
+  "mutation context",
+  "sequence context",
+  "variant calling artefact",
+  "ape divergence",
+  "phyloP",
+  "functional fraction",
+  "G4-seq",
+  "negative control",
+  "positive control"
+ ],
+ "display": [
+  {
+   "path": "files/results/figures/fig1_design_and_main.png",
+   "caption": "A: one G4 motif with breaking (filled) and keeping (outlined) G bases. B: ratio R of breaking to keeping alleles (95% CI, 1-Mb block bootstrap) for five outcomes: gnomAD v4.1 PASS alleles with AF >= 1e-4 (pre-registered), PASS alleles of any count, all records, share of high-quality alleles with AF >= 1e-4, and chimpanzee + gorilla lineage substitutions. Orange: CTCF motifs (positive control). Blue: G4 motifs (filled 7-base strata; hollow plus G-run length). Green: A-run chains (negative control)."
+  },
+  {
+   "path": "files/results/figures/fig4_calibrated.png",
+   "caption": "A: C = R(G4) / R(A-run chains), the ratio of breaking to keeping alleles for G4 motifs divided by the same ratio for the structure-free A-run control, for 9 stratification designs and 3 outcomes (PASS alleles with AF >= 1e-4, all gnomAD records, chimpanzee + gorilla substitutions); 95% CI from 500 joint bootstrap replicates of 1-Mb blocks. B: CTCF positive control R by design and outcome, with all strata or only strata with at least 100 keeping rows."
+  },
+  {
+   "path": "files/results/figures/fig2_technical.png",
+   "caption": "A: ratio B/K of technical outcomes (non-PASS records, records with low allele number, low coverage) at G4, CTCF and A-run sites. B: G4 motifs by thirds of G4Hunter score: PASS alleles with AF >= 1e-4, non-PASS records and the high-quality allele frequency outcome."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:af0c2a3278a5990bc6e05b4f8cfc8537e1477a72fcd273bbf2adfbb34c889e11",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its chimpanzee/gorilla ancestral-base code (MIT) and its method of reading gnomAD v4.1 from the UCSC bigBed by range requests; our within-motif test parallels its paired/unpaired test for RNA structures."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "reason": "Related test of selection on non-conserved regulatory DNA with gnomAD v4.1; like it, we find that mappability, coverage and composition controls remove most apparent signal."
+  },
+  {
+   "target": "doi:10.1093/nar/gkp590",
+   "relations": [
+    "supports"
+   ],
+   "reason": "First within-motif contrast of disruptive vs neutral G4 positions (dbSNP); its authors attributed the lower variation to mutation, which our structure-free control and wider context matching support."
+  },
+  {
+   "target": "doi:10.1101/gr.269589.120",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Claims purifying selection on G4s from polymorphism/divergence odds ratios against composition-unmatched controls; with matched lone G-runs we find a ratio of 0.94-1.01."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-14404-y",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Reports constraint on UTR G4s, strongest at central guanines; we show that 3-base context matching gives the same central-base signal in structure-free A-run chains and that UTR breaking alleles are not depleted with 7-base matching."
+  },
+  {
+   "target": "doi:10.1038/s42003-023-05015-6",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Reports constraint on promoter G4s with central-G MAPS enrichment based on 3-base mutability; our A-run control shows that such central-base signals arise without structure."
+  },
+  {
+   "target": "doi:10.64898/2026.05.29.26354456",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Reports that non-coding G4-modifying variants are depleted under purifying selection; we find no frequency shift of high-quality G4-breaking alleles and a large excess of failed-filter records at G4s."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4 genomes (76,215 genomes; v4.1 release) are the variant data."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP scores."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110582",
+   "relations": [
+    "uses"
+   ],
+   "reason": "In vitro G4-seq (K+) hits of Marsico et al. 2019."
+  },
+  {
+   "target": "doi:10.1093/nar/gki609",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Canonical G4 motif definition (quadparser)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkw006",
+   "relations": [
+    "uses"
+   ],
+   "reason": "G4Hunter score used as stability proxy."
+  },
+  {
+   "target": "doi:10.1038/ng.3511",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Shows that 7-base context explains much more mutation-rate variation than 3-base context; our A-run control shows the same for run-internal bases."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v47 annotation."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE V4 candidate cis-regulatory elements."
+  },
+  {
+   "target": "https://jaspar.elixir.no/matrix/MA0139.2/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CTCF motif for the positive control."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/genomes/genomes.bb",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC bigBed copy of gnomAD v4.1 genomes (read from the hgdownload2 mirror)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/coverage/v3-genome/gnomad.coverage.median.bw",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD genome median coverage."
+  }
+ ]
+}
