@@ -1,0 +1,209 @@
+{
+  "title": "In nine great-ape populations, human regulatory DNA without mammal conservation does not lose more diversity where populations are larger; at most 5% of its bases have selection near s = 2.5e-5",
+  "abstract": "In great apes, human regulatory DNA that mammals do not conserve loses the same small fraction (1-5%) of its expected genetic variation in large and small populations. This matters because a recent claim says that this DNA is under weak natural selection that the small human population cannot show; that claim predicts a larger loss in larger populations, and we do not find it for the class as a whole or for its transposon-derived majority.\n\nWe used 72 great apes in 9 populations and 9 humans, genotyped with one pipeline on the human reference (Great Ape Genome Project). Background diversity, which is proportional to effective population size (Ne), differs up to 2.4-fold inside genera. We tested 62.8 million sites in 410,716 ENCODE candidate regulatory elements at least 2 kb from exons, with no base conserved across 241 mammals and no overlap with phastCons elements; 76% of the sites are in transposon-derived elements. The diversity deficit D is the fraction of expected diversity that is missing (0 for neutral DNA); expectations come from background DNA matched for three-base context, GC content, transposon status, distance to exons and to conserved DNA, and region.\n\nInside genera, D did not increase with background diversity: slope +0.002 per +0.001 diversity (bootstrap 95% CI -0.006 to +0.009) for the whole class and -0.002 (-0.010 to +0.006) for its transposon-derived part, against +0.048 predicted by a model fitted in wild mice (20% of bases with selection coefficient s = 2.5e-5). At most 5% of the bases can carry s = 2.5e-5, and at most 5-20% over the range of s that apes can show (5e-6 to 2e-4). Mammal-conserved non-coding DNA (+0.045) and amino-acid-changing coding sites (+0.041) showed the increase; random background and DNA beside the elements did not. Elements with little transposon DNA gave positive slopes (+0.017 to +0.019) that did not survive correction for 18 subgroups. GC-rich transposon-free elements gave +0.041, close to the mouse-model prediction, but this is unresolved because GC-rich background DNA moved strongly in the opposite direction and our context model does not fit GC-rich DNA.\n\nLimits: elements are defined in human cells; the model assumes equilibrium and equal activity across genera; selection weaker than about 5e-6, or complete in every population, is not tested. Three independent reviews changed the analysis; earlier versions are included.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "regulatory elements",
+    "ENCODE cCRE",
+    "transposable elements",
+    "nearly neutral theory",
+    "effective population size",
+    "great apes",
+    "chimpanzee",
+    "gorilla",
+    "orangutan",
+    "purifying selection",
+    "nucleotide diversity",
+    "drift barrier",
+    "functional fraction of the genome",
+    "Great Ape Genome Project",
+    "GC content",
+    "weak selection"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_deficit_vs_diversity.png",
+      "caption": "Diversity deficit D (fraction of expected diversity that is missing) against background diversity for 9 great-ape populations and 2 human groups. A: elements with no mammal-conserved base that are mostly transposon copies (76% of sites); B: far elements with no conserved base and no transposon base (10%); C: mammal-conserved non-coding DNA. Bars: 95% block-bootstrap CIs. Dashed: the weak-selection model fitted in wild mice (20% of bases, s = 2.5e-5), started at the lowest-diversity taxon of each genus. D rises with diversity inside genera in C, not in A; B is unclear."
+    },
+    {
+      "path": "files/figures/fig2_within_genus_contrasts.png",
+      "caption": "Difference in D between the higher- and lower-diversity population of each genus, by class of DNA (95% CIs). Black ticks: prediction of the mouse-fitted model for the non-conserved classes. Conserved non-coding DNA and 0-fold coding sites (positive controls) increase in chimpanzees and orangutans (in gorillas the 0-fold increase is small); non-conserved and transposon-derived elements do not; the GC-rich background control is noisy."
+    },
+    {
+      "path": "files/figures/fig4_bound_on_weak_selection.png",
+      "caption": "Largest fraction f of bases with selection coefficient s that agrees with the ape data (95%, profile at fixed s, one offset per genus, overdispersion-scaled, interpolated). Grey band: 4·Ne·s between 1 and 10 in the ape populations. Star and box: the model fitted in wild mice and its CI. The whole class and its transposon-derived part exclude the mouse best fit and nearly all of its CI."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:fde7b1f489459b407abfc248dc02ba23336ff4cc83a9d471409a69695e796f8f",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "We test its weak-selection model (20% of bases, s = 2.5e-5) on the same class of human DNA across great-ape populations; the predicted increase of the deficit with Ne is absent for the class and its transposon-derived majority. A small signal in GC-rich transposon-free elements remains unresolved. We use its model form and definitions."
+    },
+    {
+      "target": "sci:sha256:f1c6bca37ef65adbec63541fa6795438d06fb5256fe8ddb8c577d8cb468b13f0",
+      "reason": "Related Ne contrast inside wild mice, confounded with subspecies."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We use its per-cCRE Zoonomia conservation tiers to define elements with no conserved base."
+    },
+    {
+      "target": "sci:sha256:89f75c79ea5e42c643ec9c632000904759a43b1fca9604cb02eabf35ce5ae3e2",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Human ancient-DNA result on the same class of DNA (no recent directional selection); agrees with our null."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "reason": "Human de novo mutation calibration of conserved and non-conserved DNA."
+    },
+    {
+      "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+      "reason": "Another Ne-based test of the non-adaptive view of non-coding DNA."
+    },
+    {
+      "target": "doi:10.1038/nature12228",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Great Ape Genome Project genotypes and callable masks."
+    },
+    {
+      "target": "https://eichlerlab.gs.washington.edu/greatape/data/VCFs/SNPs/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Download location of the SNP calls and masks."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2493-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE candidate cis-regulatory elements."
+    },
+    {
+      "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE Registry V4 file."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal phyloP (through the tiers)."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "relations": [
+        "uses"
+      ],
+      "reason": "phastCons conserved elements."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "hg18 sequence, phastCons, RepeatMasker, gene tables and liftOver chains (also hg38ToMm10)."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.0030042",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Weaker non-coding constraint in hominids than murids, attributed to Ne; our conserved-DNA controls agree."
+    },
+    {
+      "target": "doi:10.1093/molbev/msp219",
+      "reason": "Constrained sites and deleterious mutation rates in hominid and murid genomes."
+    },
+    {
+      "target": "doi:10.1093/gbe/evv058",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Efficacy of purifying selection on coding DNA follows Ne across chimpanzee subspecies; our 0-fold control agrees."
+    },
+    {
+      "target": "doi:10.1093/molbev/msw215",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Efficacy of selection correlates with long-term Ne across great apes."
+    },
+    {
+      "target": "doi:10.1534/genetics.119.302494",
+      "reason": "Distribution of fitness effects of amino-acid mutations across great apes and Ne."
+    },
+    {
+      "target": "doi:10.1093/gbe/evv082",
+      "reason": "Selection on coding and non-coding DNA in central chimpanzees."
+    },
+    {
+      "target": "doi:10.1093/gbe/evz215",
+      "reason": "Mutation rate and linked selection across Homininae genomes."
+    },
+    {
+      "target": "doi:10.1016/j.tig.2016.01.004",
+      "reason": "Limits of selection in a non-equilibrium world (population history)."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06798-8",
+      "reason": "Primate-specific constrained regulatory elements that mammal-wide filters can miss."
+    },
+    {
+      "target": "doi:10.1093/genetics/132.4.1161",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Poisson random field model."
+    },
+    {
+      "target": "doi:10.1038/246096a0",
+      "reason": "Nearly neutral theory."
+    },
+    {
+      "target": "doi:10.1126/science.1225057",
+      "reason": "Earlier claim of human-specific selection on non-conserved regulatory DNA."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004525",
+      "reason": "Estimate of the constrained fraction of the human genome."
+    },
+    {
+      "target": "doi:10.1038/s41594-024-01235-4",
+      "reason": "Regulatory activity as the default state of DNA."
+    },
+    {
+      "target": "doi:10.1126/science.abn7829",
+      "reason": "Primate diversity data with a wider Ne range (prediction 3)."
+    },
+    {
+      "target": "doi:10.1038/s41597-025-06124-z",
+      "reason": "Larger great-ape dataset for replication (prediction 1)."
+    }
+  ]
+}
