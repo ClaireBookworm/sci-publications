@@ -1,0 +1,246 @@
+{
+ "title": "Non-conserved regulatory DNA that aligns between human and mouse has a several-fold larger diversity deficit in wild house mice than in humans, which agrees with weak purifying selection",
+ "abstract": "Regulatory DNA that is not conserved across mammals, but whose sequence still aligns between human and mouse, keeps much less of its expected genetic diversity in wild house mice than in humans. This matters because a small selection signal in human population data is often read as evidence that non-conserved regulatory DNA has no function; our result agrees with weak purifying selection on part of this DNA, which large populations can see and small ones cannot.\n\nWe measured the diversity deficit D (the fraction of expected nucleotide diversity that is missing; 0 for neutral DNA) at non-CpG sites of ENCODE candidate cis-regulatory elements (cCREs) without conserved bases and without repeat DNA, in humans (1000 Genomes; effective population size Ne 13,000-19,000) and in three wild mouse populations (Germany, Iran, India; Ne about 100,000-330,000). Expected diversity came from background DNA matched for sequence context, GC, repeat and alignability status, distance to genes and region.\n\nFor enhancer-like cCREs whose sequence aligns between the species and that lie at least 500 bp from conserved DNA, D was 0.118-0.145 in mice and 0.026-0.047 in humans; for accessible-only cCREs it was 0.075-0.109 and -0.011 to 0.015. Random background segments had D between -0.017 and 0.010. In 74,788 new mouse mutations (BXD lines) the aligned enhancer-like cCREs did not get fewer mutations than expected, although these controls are poorly calibrated; in 297,248 human de novo mutations they got about 4% fewer, about the size of the human deficit. An excess of rare variants appeared only in the two larger mouse populations. Inside the mouse species, D increased only modestly with Ne (largest minus smallest population: 0.016, 95% CI 0.000-0.032, for enhancer-like and 0.037, 0.022-0.053, for accessible-only cCREs). A model in which about 20% of the bases have a selection coefficient near 2.5 x 10^-5 fits all six populations.\n\nLimits: random GC-rich DNA shows an apparent excess of new mutations in both species, so a mouse mutation deficit of about 0.1-0.15 cannot be excluded; the within-mouse contrast is confounded with subspecies and history; mouse and human elements are different DNA. Earlier divergence studies found more non-coding constraint in murids than in hominids; we extend this to non-conserved, activity-defined regulatory DNA.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "regulatory elements",
+  "cCRE",
+  "purifying selection",
+  "nearly neutral theory",
+  "effective population size",
+  "wild house mice",
+  "Mus musculus castaneus",
+  "nucleotide diversity",
+  "de novo mutations",
+  "enhancers",
+  "1000 Genomes",
+  "functional fraction of the genome"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig2_deficit_vs_ne.png",
+   "caption": "Diversity deficit D against effective population size (Ne) for four site classes. Blue: human populations (EUR, EAS, AFR); orange: wild mouse populations (Germany, Iran, India); bars: 95% block-bootstrap CIs. Crosses: deficit of new mutations in the same class (human de novo; mouse BXD), the level a lower mutation rate alone gives. Dashed lines: weak-selection model with each species fitted mutation deficit (meaningful only for the two right panels). Non-conserved, aligned regulatory DNA at least 500 bp from conserved DNA has a much larger deficit in mice than in humans."
+  },
+  {
+   "path": "files/figures/fig1_deficit_by_class.png",
+   "caption": "Diversity deficit D (95% CI) by site class in African humans, German mice and Indian castaneus mice, with an alignability-matched expectation. cCRE rows use elements without repeat DNA. Calibration rows (random background segments, aligned background) are near 0."
+  },
+  {
+   "path": "files/figures/fig3_distance.png",
+   "caption": "Diversity deficit of non-conserved, aligned enhancer-like cCREs by distance to the nearest placental-conserved DNA, for African humans and three wild mouse populations. Crosses: new-mutation deficits (human de novo beside the human point; mouse BXD beside the castaneus point; no mouse estimate at 2-10 kb). In humans the deficit equals the mutation-rate level and is near 0 at 2-10 kb; in mice it stays at 0.08-0.12."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its 299,670 filtered human de novo mutations (files/data/dnm_annotated.tsv.gz) to measure the mutation-rate part of the human deficits; our results agree with its finding that conserved non-coding bases mutate less."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "supports"
+   ],
+   "reason": "It reports a small rare-variant excess at human regulatory elements without mammalian conservation; our human results agree, and our mouse results suggest that small human Ne is one reason for the small signal."
+  },
+  {
+   "target": "sci:sha256:8308b0567814e9a9982209a87e7ed9d192a1ca0950c50a6bf29fba1a2b0f9843",
+   "reason": "Related human evidence (eQTL enrichment) for function of regulatory elements without mammal conservation."
+  },
+  {
+   "target": "sci:sha256:dda77b70249a8a4d24d4705c0d859a99f04c54465eb85a300b123fd359a35bc5",
+   "reason": "Related human evidence (complex traits) on non-conserved regulatory elements."
+  },
+  {
+   "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+   "reason": "Related: shows that mutation-rate effects can mimic constraint in human non-coding DNA; we control this with de novo mutations and within-species Ne contrasts."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "Related human analysis of constrained DNA far from accessible chromatin."
+  },
+  {
+   "target": "doi:10.1038/sdata.2016.75",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Wild mouse population genomes (VCFs)."
+  },
+  {
+   "target": "doi:10.1038/nature15393",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1000 Genomes phase 3 allele frequencies and strict mask."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cCRE registry."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cCRE Registry V4 files (mm10, GRCh38)."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons conserved elements."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap mappability (mm10 k100)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC genome sequences, liftOver chains, phastCons, RepeatMasker and RefSeq tables."
+  },
+  {
+   "target": "https://wwwuser.gwdg.de/~evolbio/evolgen/wildmouse/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download location of the wild mouse VCFs."
+  },
+  {
+   "target": "https://1000genomes.s3.amazonaws.com/release/20130502/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1000 Genomes phase 3 sites VCF (v5b)."
+  },
+  {
+   "target": "doi:10.1093/genetics/132.4.1161",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Poisson random field model used for the selection model."
+  },
+  {
+   "target": "doi:10.1038/246096a0",
+   "reason": "Nearly neutral theory."
+  },
+  {
+   "target": "doi:10.1126/science.1089370",
+   "reason": "Drift-barrier view of genome architecture."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1003995",
+   "reason": "Earlier wild-mouse study of selection on conserved non-coding elements."
+  },
+  {
+   "target": "doi:10.1093/molbev/msy188",
+   "reason": "Diversity troughs and linked selection in wild mice."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Turnover of constrained human non-coding DNA."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1008827",
+   "reason": "Population-genetic model of constrained-site turnover."
+  },
+  {
+   "target": "doi:10.1101/gr.186148.114",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Mouse germline mutation rate (5.4e-9)."
+  },
+  {
+   "target": "doi:10.1038/nature11396",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human germline mutation rate."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-12023-w",
+   "reason": "Mouse versus human mutation rates."
+  },
+  {
+   "target": "doi:10.1038/s41594-024-01235-4",
+   "reason": "Regulatory activity of random DNA (activity is not evidence of function)."
+  },
+  {
+   "target": "doi:10.1038/s41586-024-07128-2",
+   "reason": "Default activity of synthetic DNA in yeast and mammalian cells."
+  },
+  {
+   "target": "doi:10.7554/eLife.100574",
+   "reason": "Ne and genome size across animals."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "Critique of activity-based definitions of function."
+  },
+  {
+   "target": "doi:10.1038/nature11247",
+   "reason": "ENCODE 2012 claim of widespread biochemical function."
+  },
+  {
+   "target": "doi:10.1126/science.aau1043",
+   "reason": "Source study of part of the de novo mutations."
+  },
+  {
+   "target": "doi:10.1093/molbev/msq299",
+   "reason": "Earlier wild-mouse study of selection near genes."
+  },
+  {
+   "target": "doi:10.1038/s41586-022-04701-5",
+   "relations": [
+    "uses"
+   ],
+   "reason": "BXD new-mutation (singleton) calls used to measure the mouse mutation-rate deficit of each class."
+  },
+  {
+   "target": "https://github.com/tomsasani/bxd_mutator_manuscript",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download location of the BXD singleton files (data/singleton_vars)."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.0030042",
+   "reason": "Earlier evidence (divergence data) for more constraint in murid than hominid gene control regions, attributed to Ne; our result extends it to non-conserved cCREs."
+  },
+  {
+   "target": "doi:10.1093/molbev/mss105",
+   "reason": "Same wild-mouse subspecies Ne gradient used for adaptive protein evolution."
+  },
+  {
+   "target": "doi:10.1126/science.1225057",
+   "reason": "Human population evidence for selection on non-conserved ENCODE elements; our human lineage-specific classes show a modest signal in line with it."
+  },
+  {
+   "target": "https://genome.cshlp.org/content/16/7/875",
+   "reason": "Halligan and Keightley 2006: widespread non-coding constraint in Drosophila (large Ne)."
+  }
+ ]
+}
