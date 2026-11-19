@@ -1,0 +1,207 @@
+{
+ "title": "Recent directional selection measured in West Eurasian ancient DNA is near zero per SNP in ENCODE regulatory elements without mammalian conservation, below about a quarter of that in conserved ones",
+ "abstract": "Human regulatory DNA that mammals do not conserve carries almost none of the natural selection that changed allele frequencies in West Eurasia during the last 10,000 years, while conserved DNA carries much of it. This matters because one remaining argument for the function of such DNA is that it changes quickly by adaptation, and tests of purifying selection cannot see adaptation.\n\nWe used selection statistics for 9.7 million variants from an ancient-DNA time series of 15,836 people (Akbari et al. 2026). We applied stratified LD score regression (S-LDSC), which divides a genome-wide signal among classes of SNPs and corrects for linkage disequilibrium (LD, the correlation between nearby SNPs), to 1.1 million common SNPs. As a second method we fine-mapped selection loci. The classes were ENCODE candidate regulatory elements (cCREs) grouped by bases conserved across 241 mammals: tier 0 (no conserved base; 5.7% of SNPs) and tier 2 (5% or more conserved bases). The main measure is the conserved-equivalent fraction (CEF): the excess signal per SNP in tier 0 divided by the excess in tier 2 (0 = no excess; 1 = as much as conserved cCREs). We applied the same S-LDSC model to 106 independent genome-wide association studies (GWAS) of traits.\n\nThe tier-0 CEF was -0.06 in the main S-LDSC model (95% interval -0.39 to 0.24) and -0.08 to +0.11 in six models; in 5,324 fine-mapped loci it was -0.04 (-0.10 to 0.02). Per SNP, tier-2 cCREs had 12 times the genome-average selection signal (SE 2.5) and tier-0 cCREs 0.35 (SE 1.56). Trait heritability had the same pattern, so we found no sign that recent adaptation uses non-conserved cCREs more than trait variation does. Selection was more concentrated than heritability in functional DNA: coding SNPs (1.4% of SNPs) carried 34% of the selection signal, and coding enrichment (24, SE 4.7) and missense enrichment (67, SE 16) exceeded those of all 106 traits. Results were the same without SNPs near the strongest signals, without SNPs with possible batch effects, and for directly genotyped and imputed SNPs separately.\n\nLimits: common SNPs and European LD only; absolute tier-0 values depend on the model, so the conclusion rests on CEF; the selection statistic can contain drift, structure and imputation effects; no independent ancient-DNA replication yet. An independent review found a weighting problem, which we fixed; the tier-0 result did not change.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "functional fraction",
+  "ancient DNA",
+  "directional selection",
+  "adaptation",
+  "stratified LD score regression",
+  "ENCODE cCRE",
+  "evolutionary conservation",
+  "Zoonomia",
+  "heritability enrichment",
+  "polygenic selection",
+  "West Eurasia",
+  "fine-mapping",
+  "missense"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_enrichment.png",
+   "caption": "Enrichment per SNP (1 = genome average; 95% CI) in model M1 for the ancient-DNA selection statistic (blue), the meta-analysis of 106 traits (orange) and 22 blood and immune traits (aqua). A: ENCODE cCREs by the fraction of bases conserved in 241 mammals, and the 0.3-3 kb flanks of tier-0 cCREs (model M2). B: coding, conserved and chromatin classes of baselineLD v2.2."
+  },
+  {
+   "path": "files/figures/fig2_cef_models.png",
+   "caption": "Conserved-equivalent fraction of tier-0 cCREs, (E0 - 1)/(E2 - 1), with 95% CI, in six S-LDSC model specifications and from fine-mapping of 498 genome-wide significant and 5,324 FDR-50% selection loci. 0 = no more signal per SNP than the genome average; 1 = as much as tier-2 cCREs. Blue: selection (ancient DNA); orange: 106 traits; aqua: 22 blood and immune traits."
+  },
+  {
+   "path": "files/figures/fig3_selection_vs_heritability.png",
+   "caption": "Enrichment of the selection signal against the meta-analysed heritability enrichment for functional annotations (model M1; log scales; only positive estimates shown). Solid line y = x; dotted line y = 3x. Blue diamonds: cCRE tiers and their 500-bp windows. Most annotations lie above y = x."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We reuse its conservation tier for every ENCODE V4 cCRE (ccre_v4_conservation_tiers.parquet); its purifying-selection result is the comparison for our directional-selection result."
+  },
+  {
+   "target": "sci:sha256:8308b0567814e9a9982209a87e7ed9d192a1ca0950c50a6bf29fba1a2b0f9843",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Same tiers; small eQTL enrichment of tier-0 cCREs relative to tier 2 agrees with our low tier-0 conserved-equivalent fraction."
+  },
+  {
+   "target": "sci:sha256:dda77b70249a8a4d24d4705c0d859a99f04c54465eb85a300b123fd359a35bc5",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Same tiers; few extra causal trait variants in tier-0 cCREs, which our S-LDSC heritability results agree with."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "Related SCI work on conservation of experimentally validated enhancers."
+  },
+  {
+   "target": "sci:sha256:fde7b1f489459b407abfc248dc02ba23336ff4cc83a9d471409a69695e796f8f",
+   "reason": "Related SCI work: weak purifying selection on non-conserved regulatory DNA in wild mice."
+  },
+  {
+   "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+   "reason": "Related SCI work on primate-specific constraint in DNase sites."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Related SCI work on selection in transposable elements with regulatory marks."
+  },
+  {
+   "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+   "reason": "Related SCI work on deletions of conserved and non-conserved non-coding DNA."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "Related SCI work on conserved DNA outside mapped chromatin."
+  },
+  {
+   "target": "doi:10.1038/s41586-026-10358-1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the selection summary statistics for 9.7 million variants."
+  },
+  {
+   "target": "doi:10.7910/DVN/7RVV9N",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Harvard Dataverse release of the selection statistics (file Selection_Summary_Statistics_01OCT2025.tsv.gz)."
+  },
+  {
+   "target": "https://zenodo.org/records/10515792",
+   "relations": [
+    "uses"
+   ],
+   "reason": "S-LDSC reference files: baselineLD v2.2, 1000G Phase 3 EUR, weights, frequencies, 106 GWAS summary statistics."
+  },
+  {
+   "target": "doi:10.1038/ng.3404",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Stratified LD score regression."
+  },
+  {
+   "target": "doi:10.1016/j.ajhg.2019.02.008",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Showed that heritability enrichment of regulatory elements is concentrated in elements with ancient sequence and conserved function; our heritability results agree."
+  },
+  {
+   "target": "doi:10.1038/ng.3954",
+   "relations": [
+    "uses"
+   ],
+   "reason": "baselineLD model and tau*."
+  },
+  {
+   "target": "doi:10.1038/ng.3211",
+   "relations": [
+    "uses"
+   ],
+   "reason": "LD score regression."
+  },
+  {
+   "target": "doi:10.1038/s41588-020-00735-5",
+   "relations": [
+    "uses"
+   ],
+   "reason": "PolyFun Python 3 ldsc.py used for LD scores and as the reference for validation."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE candidate cis-regulatory elements."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal constraint behind the tiers."
+  },
+  {
+   "target": "doi:10.1126/science.1225057",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Claimed lineage-specific selection on non-conserved regulatory DNA; we find no detectable directional selection in it."
+  },
+  {
+   "target": "doi:10.1534/g3.119.400186",
+   "reason": "Earlier haplotype-based evidence of recent positive selection in enhancers."
+  },
+  {
+   "target": "doi:10.1038/s41594-024-01235-4",
+   "reason": "Random DNA has regulatory activity by default."
+  },
+  {
+   "target": "doi:10.1093/molbev/msz113",
+   "reason": "Candidate question C2 (transposon insertion fitness map)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkz182",
+   "reason": "Candidate question C3 (replication origins)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkp590",
+   "reason": "Candidate question C4 (G-quadruplex structure-specific constraint)."
+  },
+  {
+   "target": "doi:10.1038/ng.2435",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Approximate Bayes-factor single-causal fine-mapping used in our second estimator."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06705-1",
+   "reason": "Independent ancient-DNA selection study; possible replication source."
+  },
+  {
+   "target": "https://github.com/omerwe/polyfun",
+   "relations": [
+    "uses"
+   ],
+   "reason": "PolyFun ldsc.py, commit 8b17b4ec87fde11f8d216c049c08d1420cd25de6."
+  }
+ ]
+}
