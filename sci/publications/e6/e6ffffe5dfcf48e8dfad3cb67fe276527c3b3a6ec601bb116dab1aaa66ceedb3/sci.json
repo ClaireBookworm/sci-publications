@@ -1,0 +1,301 @@
+{
+ "title": "Fruit-fly lines with more nuclear DNA did not develop more slowly or grow larger in independent studies of one natural population; a link with lower survival is inconclusive",
+ "abstract": "Inbred lines of one natural fruit-fly population that have more nuclear DNA did not develop more slowly or grow larger in experiments by other laboratories. This matters because one proposed function of non-coding (\"junk\") DNA is a bulk effect: more DNA gives larger, slower-dividing cells and slower development (the nucleotype hypothesis), and a 2014 study reported genome-size effects on development, pupal mass and survival in this population. We used published flow-cytometry genome sizes of 208 lines of the Drosophila Genetic Reference Panel (mean 175.5 Mb; standard deviation 1.5%) and line means from DGRPool, a public collection of phenotype data. We adjusted for chromosome inversions and Wolbachia infection, combined studies by random-effects meta-analysis, and resampled lines across all studies together (bootstrap), because the studies share lines. A partial correlation is the correlation that remains after this adjustment. In 9 studies of development time, the pooled partial correlation with log genome size was -0.03 (95% CI -0.10 to 0.06), against about +0.19 expected if development time were proportional to DNA content; 1% more DNA lengthens development by at most about 0.3%. In 11 studies of body or organ size it was 0.03 (-0.08 to 0.11). The development interval does not overlap the strongest development effect of the original study after conversion to the whole-panel range of genome size. Survival to adult gave -0.04 (-0.16 to 0.11) in 7 studies (a test added after we saw the original data), but one large study and an averaged survival score were negative, so a weak link is possible. Across 1,802 phenotypes, genome size was not more connected to other traits than random heritable traits were. In 20 lines chosen for small or large wing cells, the large-cell lines did not have more DNA. Limits: genome size varies little within the population, we could not check the flow-cytometry values against sequence data, an earlier analysis of the same genome sizes had already found small trait correlations, and data on cell size and metabolic rate are few.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  }
+ ],
+ "keywords": [
+  "genome size",
+  "nucleotype",
+  "junk DNA",
+  "non-coding DNA",
+  "Drosophila Genetic Reference Panel",
+  "DGRPool",
+  "flow cytometry",
+  "replication",
+  "development time",
+  "cell size",
+  "meta-analysis",
+  "C-value"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_forest.png",
+   "caption": "Partial correlation of log genome size with development time, body or organ size, and survival in independent DGRPool studies (blue, 95% CI), pooled estimate (black), and the original 50-line study with 95% CI converted to the whole-panel range of genome size (orange, not pooled). Green: correlation expected if development time were proportional to genome size."
+  },
+  {
+   "path": "files/figures/fig2_phenome_wide.png",
+   "caption": "Phenome-wide scan of 1,802 phenotypes: observed P values, comparison with 1,000 permutations of genome size, and comparison with 150 random DGRP traits used as predictors."
+  },
+  {
+   "path": "files/figures/fig3_cell_size.png",
+   "caption": "Wing cell area against genome size in 20 lines chosen for small or large wing cells; green curve: expected relation if area scales with genome size to the power 2/3."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+   "reason": "Tests the mutational-hazard explanation of genome size across moth and butterfly genera; we test the functional (nucleotype) explanation inside one fly population."
+  },
+  {
+   "target": "sci:sha256:156af082da5a238f7b9d11becda20559d3b89e925bf62f6575557d6a0256f600",
+   "reason": "Another test in which natural variation in the amount of repeat DNA (rDNA) had no broad effect."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004522",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Original claim that DGRP genome size explains up to 23% of developmental variation; source of the genome-size values; we test it in independent data."
+  },
+  {
+   "target": "doi:10.7554/eLife.88981",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DGRPool: source of all line-mean phenotypes."
+  },
+  {
+   "target": "doi:10.1101/gr.171546.113",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DGRP freeze 2 genotypes, inversions and genome sizes."
+  },
+  {
+   "target": "doi:10.1038/nature10811",
+   "reason": "The Drosophila Genetic Reference Panel."
+  },
+  {
+   "target": "https://zenodo.org/records/155396",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Mirror of the DGRP freeze 2 VCF used for the relationship matrix."
+  },
+  {
+   "target": "https://github.com/DeplanckeLab/dgrpool",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Inversion and Wolbachia covariate file."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1003129",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Sequencing statistics used for the sequence-based genome-size check."
+  },
+  {
+   "target": "doi:10.1038/hdy.2008.49",
+   "reason": "Genome size and development time across Drosophila species."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004351",
+   "reason": "Review of the junk-DNA and nucleotype arguments."
+  },
+  {
+   "target": "doi:10.1126/science.1089370",
+   "reason": "Drift and mutational-hazard explanation of genome size."
+  },
+  {
+   "target": "doi:10.1093/aob/mci004",
+   "reason": "Technical artefacts in intraspecific genome-size estimates."
+  },
+  {
+   "target": "doi:10.1038/ng.2678",
+   "reason": "Flow cytometry versus sequence-based genome size within a species."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1007162",
+   "reason": "Within-species genome-size clines in maize."
+  },
+  {
+   "target": "doi:10.1534/genetics.107.075069",
+   "reason": "Genome-size differences among Drosophila strains and species follow satellite DNA content."
+  },
+  {
+   "target": "doi:10.3390/genes11020218",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Selection on body size or development time changed genome size little; agrees with our result."
+  },
+  {
+   "target": "doi:10.1017/s0016672300029554",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Y-linked rDNA copy number did not correlate with development rate in D. melanogaster."
+  },
+  {
+   "target": "doi:10.1289/ehp.1510513",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Zhou 2016: development time, viability"
+  },
+  {
+   "target": "doi:10.1534/g3.118.200260",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Morozova 2018: development time, viability"
+  },
+  {
+   "target": "doi:10.1038/s41467-022-29183-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Havula 2022: development time, eclosion rate"
+  },
+  {
+   "target": "doi:10.1093/evolut/qpad163",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Wong 2023: eclosion time, viability"
+  },
+  {
+   "target": "doi:10.1002/ece3.2552",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Horvath 2016: development time, viability at three densities"
+  },
+  {
+   "target": "doi:10.1186/s12862-016-0776-z",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Horvath 2016: embryonic development time"
+  },
+  {
+   "target": "doi:10.64898/2026.06.05.730474",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Bai 2026: development time, body weight"
+  },
+  {
+   "target": "doi:10.1093/g3journal/jkae010",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Li 2024: development time"
+  },
+  {
+   "target": "doi:10.1534/genetics.116.187286",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Mossman 2016: development time, viability"
+  },
+  {
+   "target": "doi:10.1111/een.70149",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Zhang 2026: larval time"
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1005616",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Vonesch 2016: thorax length, wing area"
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1007686",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Lafuente 2018: thorax length"
+  },
+  {
+   "target": "doi:10.1038/s41437-023-00603-y",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Wilcox 2023: wing, leg and pupa size"
+  },
+  {
+   "target": "doi:10.3390/biology15141157",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Ghosh 2026: wing and leg size"
+  },
+  {
+   "target": "doi:10.1093/icb/icz135",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Frankino 2019: wing and pupa area"
+  },
+  {
+   "target": "doi:10.1534/g3.114.016477",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Unckless 2015: body weight"
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1005030",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Unckless 2015: same weights as the previous study (excluded as duplicate)"
+  },
+  {
+   "target": "doi:10.1186/s12864-020-6739-1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Harrison 2020: body weight"
+  },
+  {
+   "target": "doi:10.1111/mec.15878",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Lovejoy 2021: dry weight"
+  },
+  {
+   "target": "doi:10.1111/1365-2435.14485",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Leiva 2023: wing cell area, cell number, mass"
+  },
+  {
+   "target": "doi:10.1111/1365-2435.14294",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Leiva 2023: wing cell area at two temperatures and oxygen levels"
+  },
+  {
+   "target": "doi:10.1038/s41598-021-84534-w",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Watanabe 2021: body weight, trichome area"
+  },
+  {
+   "target": "doi:10.1155/2016/2157494",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Phenotype data via DGRPool. Duun Rohde 2016: metabolic rate, viability"
+  }
+ ]
+}
