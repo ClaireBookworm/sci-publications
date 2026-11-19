@@ -1,0 +1,216 @@
+{
+  "title": "In 197 Zambian fruit-fly genomes, half of the constrained non-coding DNA lies outside 1,345 open-chromatin maps, mostly as conserved sequence within 1 kb of the peaks",
+  "abstract": "In the fruit fly, half of the non-coding DNA that natural selection keeps unchanged is outside every open-chromatin peak in 1,345 public experiments; most of it is conserved sequence within 1 kb of a peak. This matters because open-chromatin maps are the main guide to functional non-coding DNA, and here conservation finds the selected DNA much better than the maps do.\n\nWe used 197 Drosophila melanogaster genomes from Zambia (DPGP3), D. simulans as outgroup, and all public fly ATAC-seq and DNase-seq experiments in ChIP-Atlas. These assays find open chromatin, that is, DNA without nucleosomes, where most known enhancers are. Constraint is the fraction of new mutations that selection removes, measured from divergence (C_D) or from diversity in the 197 genomes (C_pi), relative to neutral short-intron sites with base composition and 1-Mb windows matched. On the autosomes, 55% of non-repeat intron and intergenic DNA (29.1 Mb) was never open. Its constraint was C_D 0.53 (95% CI 0.52-0.55) and C_pi 0.48 (0.45-0.50), against 0.66 and 0.62 for non-coding DNA open at least once, so it holds 50% of the constrained non-coding sites. DNA with no peak in 6,277 open-chromatin, histone, RNA polymerase II and transcription-factor experiments still had C_D 0.48. Of the selected never-open sites, 84-87% are in phastCons-conserved elements (conserved by alignment of 27 insects): conserved never-open DNA had C_pi 0.71, close to 0.76 for conserved open DNA, and non-conserved never-open DNA had only 0.17. 90% of never-open DNA is within 1 kb of a peak, and its constraint changes little with distance to the peak. Adding the experiments in random order lowered the constraint of the DNA not yet open only from 0.59 to 0.53, without saturation; DNA open only in 28 pupal experiments had C_D 0.80. Rare alleles were in excess in all four mutation types; this is clean evidence of selection only for the conserved never-open DNA. At least about 60% of new mutations in never-open DNA have a scaled selection coefficient 4Ns below -1; the share below -100 is not identified, because the model fit depends on an unknown mutation-rate ratio or on a non-selective distortion of the allele-frequency spectrum. SNPs that create strong motif matches in dark DNA were not rarer than other SNPs.\n\nLimits: values are relative to short introns; peaks are uniformly called but most samples are embryos, larvae and brains; an independent review removed an earlier claim of weak selection.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "dark DNA",
+    "Drosophila melanogaster",
+    "DPGP3",
+    "purifying selection",
+    "evolutionary constraint",
+    "conserved non-coding elements",
+    "chromatin accessibility",
+    "ATAC-seq",
+    "ChIP-Atlas",
+    "site frequency spectrum",
+    "distribution of fitness effects",
+    "phastCons",
+    "saturation analysis",
+    "short introns",
+    "Polycomb",
+    "fastDFE"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_constraint_by_open_breadth.png",
+      "caption": "Constraint (1 - divergence / neutral divergence) of D. melanogaster autosomal non-coding DNA by the number of ATAC-seq or DNase-seq experiments (of 1,345) with a peak over the site. Never-open DNA (0) has constraint 0.53; fully dark DNA (no peak of any kind in 6,277 experiments) has 0.48. Dashed lines: coding and UTR classes. Error bars: 95% CI, 1-Mb block bootstrap."
+    },
+    {
+      "path": "files/figures/fig4_conservation_vs_open.png",
+      "caption": "Conservation, not openness, marks the selected non-coding DNA. Left and middle: divergence-based and diversity-based constraint for never-open and open non-coding DNA, inside and outside phastCons 27-way elements (divergence values for conserved DNA are partly circular; diversity values are not). Right: diversity-based constraint of never-open DNA by distance to the nearest ATAC/DNase peak; 90% of never-open DNA is within 1 kb of a peak. Error bars: 95% CI, 1-Mb block bootstrap."
+    },
+    {
+      "path": "files/figures/fig2_saturation.png",
+      "caption": "Saturation analysis. Experiments are added in 20 random orders. Left: share of non-coding DNA not yet open. Middle: constraint of that residual. Right: share of all constrained non-coding sites inside the residual. After 1,345 experiments the residual is 55% of non-coding DNA, has constraint 0.53, and holds 50% of the constrained sites."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1534/genetics.115.174664",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DPGP3 Zambian genomes and the Drosophila Genome Nexus alignment pipeline."
+    },
+    {
+      "target": "doi:10.1093/molbev/msw195",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Drosophila Genome Nexus 1.1, including the D. simulans alignment to release 5 and the admixture/IBD masks."
+    },
+    {
+      "target": "https://johnpool.net/genomes.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Download page for DPGP3 sequences, simulans alignment and masking files."
+    },
+    {
+      "target": "doi:10.15252/embr.201846255",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ChIP-Atlas uniformly processed peak calls for all public fly ATAC, DNase, histone, Pol II and TF experiments."
+    },
+    {
+      "target": "doi:10.1093/nar/gkae358",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ChIP-Atlas 3.0 (current release of the peak files)."
+    },
+    {
+      "target": "doi:10.1093/molbev/msae070",
+      "relations": [
+        "uses"
+      ],
+      "reason": "fastDFE, used to infer the distribution of fitness effects."
+    },
+    {
+      "target": "doi:10.1093/molbev/msq046",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Short-intron positions 8-30 as the neutral reference."
+    },
+    {
+      "target": "doi:10.1101/gr.5022906",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Divergence-based evidence that constraint is strong in fly non-coding DNA and increases with intron and intergenic length; our distance-to-exon pattern agrees."
+    },
+    {
+      "target": "doi:10.1093/molbev/msae004",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Showed that only ~42% of phastCons-conserved fly bases are in open chromatin of 79 contexts; with 1,345 experiments and population data we confirm the gap and show current selection on the conserved never-open DNA."
+    },
+    {
+      "target": "doi:10.1534/genetics.113.158758",
+      "reason": "D. melanogaster mutation rate; context for converting scaled to absolute selection coefficients (not used for a final claim)."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "reason": "Conserved-element fractions in insect and vertebrate genomes."
+    },
+    {
+      "target": "doi:10.1093/molbev/msm150",
+      "reason": "Purifying selection on conserved non-coding sequences in Drosophila from polymorphism data; our conserved never-open DNA shows the same.",
+      "relations": [
+        "supports"
+      ]
+    },
+    {
+      "target": "doi:10.1038/nature04107",
+      "reason": "Selection on Drosophila non-coding DNA from polymorphism and divergence."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1003527",
+      "reason": "Strong selection at fly synonymous sites, relevant to the 4-fold comparison class."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004525",
+      "reason": "Human constrained fraction from the neutral indel model."
+    },
+    {
+      "target": "doi:10.1038/s41594-024-01235-4",
+      "reason": "Regulatory activity of naive DNA; relevant to selection against spurious activity."
+    },
+    {
+      "target": "doi:10.1126/science.1089370",
+      "reason": "Drift-barrier view of genome complexity."
+    },
+    {
+      "target": "doi:10.7554/eLife.100574",
+      "reason": "Effective size does not explain genome size in animals."
+    },
+    {
+      "target": "doi:10.1093/gbe/evx121",
+      "reason": "Mutational-load bound on the human functional fraction."
+    },
+    {
+      "target": "doi:10.1093/nar/gkad1059",
+      "relations": [
+        "uses"
+      ],
+      "reason": "JASPAR 2024 insect motifs for the motif-gain test."
+    },
+    {
+      "target": "https://ftp.ensembl.org/pub/release-112/gtf/drosophila_melanogaster/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Gene models (BDGP6.46)."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "dm6 sequence, repeats, phastCons elements and the dm3-to-dm6 chain."
+    },
+    {
+      "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+      "reason": "Human counterpart: dark constrained DNA is under selection mainly within 1 kb of exons; in the fly the dark constraint instead increases away from exons."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "reason": "Human test of selection on motif-gain mutations in non-functional DNA; we run the fly version."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "reason": "Human de novo mutation and calibrated constraint of conserved non-coding bases."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "reason": "Calibration problems of conservation scores; we use population data instead of conservation scores to measure selection."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "reason": "Human non-conserved regulatory elements show little rare-variant excess; in the fly, non-conserved DNA also carries little constraint, open or not."
+    },
+    {
+      "target": "doi:10.1186/s13059-023-03079-5",
+      "reason": "Evolution and mutational robustness of chromatin accessibility in Drosophila."
+    },
+    {
+      "target": "doi:10.1016/j.tig.2014.02.002",
+      "reason": "Power of population genomics to infer functionality; general argument about weak selection and population size."
+    },
+    {
+      "target": "doi:10.64898/2026.03.01.708907",
+      "reason": "DFE of new mutations in D. melanogaster regulatory regions; shows by simulation that DFE methods can misinfer mildly deleterious DFEs, relevant to our unidentified DFE strength."
+    },
+    {
+      "target": "doi:10.1101/623744",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Population evidence for purifying selection on conserved non-coding elements in D. melanogaster."
+    }
+  ]
+}
