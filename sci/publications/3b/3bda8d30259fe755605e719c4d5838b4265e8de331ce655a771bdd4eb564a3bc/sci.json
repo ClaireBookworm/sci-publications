@@ -1,0 +1,134 @@
+{
+  "title": "Fission-yeast non-coding DNA is depleted of transposon insertions near essential genes only in introns and slightly in UTRs and upstream DNA, consistent with gene-disrupting costs in about 15% of it",
+  "abstract": "In fission yeast, transposon insertions disrupt a neighbouring gene about as fully as a coding insertion in only about 15% of non-coding DNA, mainly introns and part of the untranslated regions; a 2019 study read low insertion density as function in 40-80% of that DNA. This matters because the 2019 study is one of the few genome-wide fitness measurements of non-coding DNA and is cited as evidence for widespread function. The 2019 study sampled each culture once, sorted bases by insertion density with a hidden Markov model (states S1, S2, S3) and called S1 and S2 functional; these labels also cover 98% of the coding DNA of genes whose deletion does not slow colony growth. If an insertion costs fitness by disrupting a nearby gene, the DNA must be more depleted next to essential than next to non-essential genes, as coding DNA is (density ratio 0.34). Within 1 kb, after standardising for insertion preference (motif score and nucleosome density), the depletion relative to that of coding DNA (gene-linked share) was 1.10 for introns, 0.14 for 5' untranslated regions (UTRs), 0.10 for 3' UTRs, 0.08 for upstream DNA and 0.01 for lncRNA loci and other intergenic DNA. Over the 4.28 Mb of non-coding DNA within 1 kb of a gene, the weighted share was 15.5% (95% CI 12.9-19.0%; 14-17% with other data or gene assignment), against 81.7% for the 2019 labels on the same DNA. This test cannot see partial costs or costs that do not depend on gene essentiality. A second test used public data in which four Hermes cultures were sequenced at generation 0 and after 80 more generations (Lee et al. 2020). If every insertion in S2 non-coding DNA carried the cost implied by its insertion deficit (about 0.05 per generation), established S2 insertions would fall 7 times as often as in slow-growth genes; we observed 0.12 times (per culture 0.03-0.19). The 2019 states still rank selection (S1 > S2 > S3), and selection rises toward the start codon. Limits: elements with near-lethal costs that do not act through nearby genes escape both tests; the tests measure large insertions in laboratory growth; and the four cultures disagree.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "transposon insertion sequencing",
+    "Tn-seq",
+    "Hermes transposon",
+    "Schizosaccharomyces pombe",
+    "fitness",
+    "insertion bias",
+    "functional fraction",
+    "5' UTR",
+    "introns",
+    "reanalysis"
+  ],
+  "display": [
+    {
+      "path": "files/fig1_claim_vs_measured.png",
+      "caption": "A: share of each DNA class that the 2019 analysis called functional (HMM states S1 or S2, blue; fewer than 9 insertion sites per 100 nt, orange). B: selection measured from generation 0 to 80 in four cultures (Lee et al. 2020 data), relative to 2019 state-S3 non-coding DNA, stratified for insertion-motif score and nucleosome density, calibrated so that essential coding DNA (young-insertion loss, blue) or slow-growth coding DNA (established-insertion fall, green) equals 1; 95% block-bootstrap CIs. C: insertion density next to essential genes divided by density next to non-essential genes (within 1 kb, standardised for insertion preference), from the 2019 data (filled) and from young sites at generation 0 in the 2020 data (open); coding DNA is the control. Numbers at right are gene-linked shares, (1 - ratio) / (1 - coding ratio)."
+    },
+    {
+      "path": "files/fig2_position_profile.png",
+      "caption": "Excess loss of young insertions (percentage points relative to 2019 state-S3 non-coding DNA; four cultures; stratified for motif score and nucleosome density; 95% CI) by position relative to the transcript start and start codon. Selection is absent 51-300 nt upstream of the transcript start, rises through the 5' UTR (shaded) and is highest in the coding DNA; it is stronger for essential genes."
+    },
+    {
+      "path": "files/fig3_validation.png",
+      "caption": "A: change of insertion reads from generation 0 to 80 in the first 80% of each coding region, by deletion-strain colony-size fitness (Malecki et al. 2016), four cultures. B: within each non-coding class, the 2019 HMM state S1 shows more selection against young insertions than state S2 (essential coding DNA = 1; S3 non-coding DNA = 0; 95% CI)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1093/molbev/msz113",
+      "relations": [
+        "challenges",
+        "uses"
+      ],
+      "reason": "Grech et al. 2019 report insertion fitness effects in 66-90% of the S. pombe genome and 40-80% of non-coding DNA; we reuse their insertion counts, HMM states, predictors and gene table, and test the claim."
+    },
+    {
+      "target": "doi:10.1016/j.celrep.2020.01.094",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Lee et al. 2020: Hermes insertion sequencing at generation 0 and 80 (SRA PRJNA517661), which we re-mapped and analysed."
+    },
+    {
+      "target": "doi:10.1016/j.xpro.2021.100392",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Protocol that defines the generation-0 and generation-80 samples and the read structure."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA517661",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Raw reads of the time-resolved Hermes data."
+    },
+    {
+      "target": "https://figshare.com/projects/Hermes_Transposon_Mutagenesis_of_the_Fission_Yeast_Genome/20278",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Processed data of Grech et al. 2019 (insertion counts, HMM states, HMM predictors, gene table)."
+    },
+    {
+      "target": "doi:10.1186/s13059-016-1101-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Deletion colony-size fitness used to calibrate the tests (via the Grech et al. gene table)."
+    },
+    {
+      "target": "https://www.pombase.org/data/genome_sequence_and_features/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Genome sequence and GFF3 annotation (downloaded 2026-11-19)."
+    },
+    {
+      "target": "doi:10.1534/genetics.113.152744",
+      "reason": "Hermes prefers nucleosome-free intergenic DNA in S. pombe (in vivo vs in vitro insertion maps)."
+    },
+    {
+      "target": "doi:10.1073/pnas.1016382107",
+      "reason": "Hermes inserts into nucleosome-free DNA in vivo."
+    },
+    {
+      "target": "doi:10.1007/s00294-020-01096-6",
+      "reason": "Comparison of transposon mutagenesis approaches in yeasts, including Hermes jackpot sites."
+    },
+    {
+      "target": "doi:10.1038/nmeth.1377",
+      "reason": "Two-time-point Tn-seq fitness measurement."
+    },
+    {
+      "target": "doi:10.7554/eLife.23570",
+      "reason": "SATAY transposon method; read counts per insertion site as a fitness readout."
+    },
+    {
+      "target": "doi:10.7554/eLife.76000",
+      "reason": "Deletions of fission-yeast lincRNAs show phenotypes in some of many conditions; our test covers one condition."
+    },
+    {
+      "target": "doi:10.1038/ng.3215",
+      "reason": "Population diversity of S. pombe non-coding DNA."
+    },
+    {
+      "target": "doi:10.1093/gbe/evx121",
+      "reason": "Load-based upper limit on the functional fraction (debate context)."
+    },
+    {
+      "target": "doi:10.1093/gbe/evaa040",
+      "reason": "Counter-argument on load and the functional fraction (debate context)."
+    },
+    {
+      "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+      "reason": "Related re-analysis showing that single-time-point screen calls for non-coding loci can match control rates."
+    }
+  ]
+}
