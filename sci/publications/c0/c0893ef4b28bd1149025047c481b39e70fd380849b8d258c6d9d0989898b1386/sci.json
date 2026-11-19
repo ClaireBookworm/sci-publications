@@ -1,0 +1,174 @@
+{
+  "title": "In a public fission yeast time course, transposon insertions reduced growth in about 10% of non-coding DNA (main-analysis upper bound under 30%), not the 40-80% inferred from one sample",
+  "abstract": "In fission yeast, transposon insertions into most non-coding DNA did not reduce growth over about 75 generations; about 8-12% of non-coding bases (95% upper bound 18-27%) carried costs like those of genes whose deletion slows growth, mostly in introns, where an insertion breaks the host gene. This matters because a published study inferred from the absence of insertions in one sample that insertions affect fitness in 40-80% of the non-coding DNA of this yeast, a result read as evidence that most non-coding DNA has a function.\n\nWe reanalysed public Hermes transposon libraries from four cultures sampled at a first time point (T0) and about 75 generations later (T80). An insertion that reduces growth is lost faster than one in a gene the cell does not need. The retention ratio (RR) is the number of T0 insertion sites still present at T80 divided by the number expected from insertions in dispensable genes with the same T0 abundance and the same local insertion density; RR = 1 means no cost. Because the T80 libraries contain reads carried over from the other cultures, the main analysis uses sites that no other culture has. Insertions in essential genes had RR 0.50 (95% CI 0.42-0.59), and in genes whose deletion slows growth 0.47; gene RR followed the colony size of the deletion strain. All non-coding DNA had RR 0.93 (0.86-1.04). Non-coding DNA that the published model called depleted (82% of non-coding bases) had RR 0.95 (0.89-1.02), against 0.85 for non-essential and 0.50 for essential coding DNA with the same calls. The most depleted non-coding windows lost no more insertions than neutral DNA at the same density (RR 0.96, 0.80-1.12). Losses were in introns (0.51 in essential genes, 0.76 in others), small RNA genes (0.77) and 5' untranslated regions (0.90); 3' untranslated regions, lncRNA DNA and intergenic DNA showed little loss. Nine sensitivity analyses gave 0-21% of non-coding bases with such costs (upper bounds up to 42% in one). Because the depletion in one sample is reproducible between laboratories, absent from insertions into naked DNA and mostly not followed by loss over time, for non-coding DNA it is mainly an insertion bias of the living cell.\n\nLimits: one growth condition; a small cost spread over all non-coding DNA (up to about 0.4% per generation) is not excluded; the compact yeast genome does not tell how much of a large genome is functional.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "functional fraction of the genome",
+    "transposon insertion sequencing",
+    "Tn-seq",
+    "Hermes transposon",
+    "fission yeast",
+    "Schizosaccharomyces pombe",
+    "fitness",
+    "insertion bias",
+    "time course",
+    "reanalysis",
+    "introns",
+    "untranslated regions",
+    "lncRNA",
+    "chromatin"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_depletion_vs_loss.png",
+      "caption": "A: Retention ratio of transposon insertion sites from T0 to T80 (sites unique to one culture; 1 = like insertions in dispensable genes at the same density) against the insertion density of the same 100-nt windows in the independent one-sample libraries of Grech et al. 2019. In coding DNA, low density predicts later loss of insertions; in non-coding DNA it does not. Bars: 95% CI (bootstrap over cultures and 20-kb blocks). B: Non-coding bases per density bin; labels give the percent that the published hidden Markov model called depleted."
+    },
+    {
+      "path": "files/figures/fig2_classes.png",
+      "caption": "Retention ratio by DNA class over about 75 generations (sites unique to one culture). Blue dots: two wild-type cultures; orange squares: two reporter-strain cultures; black tick and grey bar: pooled value and 95% CI. Losses occur in coding DNA, introns, small RNA genes and 5' UTRs; 3' UTRs, lncRNA DNA, intergenic DNA and non-coding DNA called depleted show little or none."
+    },
+    {
+      "path": "files/figures/fig3_calibration.png",
+      "caption": "Calibration against deletion strains. Non-essential genes in eight equal bins of deletion-strain colony size. A: one-sample insertion density in the coding DNA (Grech et al.). B: time-course retention ratio (this work). Dotted line: essential genes. The time course measures fitness loss."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1093/molbev/msz113",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "The claim under test (fitness effects of insertions in 40-80% of non-protein-coding regions); we use its per-site counts, HMM states, window and gene tables."
+    },
+    {
+      "target": "https://figshare.com/projects/Hermes_Transposon_Mutagenesis_of_the_Fission_Yeast_Genome/20278",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Data files of Grech et al. 2019 (checksums in files/data/SOURCES.tsv)."
+    },
+    {
+      "target": "doi:10.1016/j.celrep.2020.01.094",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hermes libraries sampled at T0 and T80 in four cultures: the time course that we reanalyse."
+    },
+    {
+      "target": "doi:10.1016/j.xpro.2021.100392",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Protocol giving the passaging scheme and the definition of the T0 and T80 samples."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA517661",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Raw reads of the Lee et al. 2020 libraries (SRR8502433-SRR8502440)."
+    },
+    {
+      "target": "doi:10.1534/genetics.113.152744",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hermes insertions into naked S. pombe DNA in vitro (SRX272855) and an 80-generation in vivo library (SRX089126)."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/sra/SRX272855",
+      "relations": [
+        "uses"
+      ],
+      "reason": "In vitro Hermes insertion reads (SRR836165)."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/sra/SRX089126",
+      "relations": [
+        "uses"
+      ],
+      "reason": "In vivo Hermes insertion reads of Guo et al. 2013 (SRR327340)."
+    },
+    {
+      "target": "doi:10.1073/pnas.1016382107",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Hermes inserts preferentially into nucleosome-free DNA in vivo, which fits our finding that the one-sample depletion is a cellular insertion bias."
+    },
+    {
+      "target": "doi:10.1186/s13059-016-1101-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Deletion-strain colony sizes used for calibration (via the Grech et al. gene table)."
+    },
+    {
+      "target": "doi:10.1038/nbt.1628",
+      "reason": "Genome-wide S. pombe deletion collection that underlies gene essentiality calls."
+    },
+    {
+      "target": "doi:10.1093/genetics/iyab222",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PomBase, source of the genome annotation."
+    },
+    {
+      "target": "https://www.pombase.org/data/genome_sequence_and_features/gff3/Schizosaccharomyces_pombe_all_chromosomes.gff3.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Annotation file, downloaded 2026-11-19."
+    },
+    {
+      "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+      "reason": "Related audit: a perturbation screen's evidence for non-coding function tested against the screen's own negative controls."
+    },
+    {
+      "target": "sci:sha256:9d0f6d98c9e2639f20539e346e720187661c3e48ede01a558af6b8e181f713d4",
+      "reason": "Related estimate of how much non-coding DNA is under selection, from population data in fruit flies."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1010462",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Multi-time-point Hermes experiment in S. pombe that used intergenic insertions as the neutral control; our result supports that choice for vegetative growth."
+    },
+    {
+      "target": "doi:10.1101/gr.239699.118",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Tf1 insertion libraries in S. pombe sampled before and after growth; most insertions kept their frequency without stress."
+    },
+    {
+      "target": "doi:10.1038/ng.3215",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Population genomics of S. pombe: purifying selection on non-coding DNA is concentrated in UTRs and introns, consistent with where we find losses."
+    },
+    {
+      "target": "doi:10.7554/eLife.76000",
+      "reason": "lincRNA deletion screen in S. pombe: few deletions slow growth in standard media but many have phenotypes in other conditions; this limits our one-condition result."
+    },
+    {
+      "target": "doi:10.1038/nmeth.1377",
+      "reason": "Tn-seq: fitness from insertion frequencies at two time points, standard in bacteria; our method applies the same principle."
+    }
+  ]
+}
