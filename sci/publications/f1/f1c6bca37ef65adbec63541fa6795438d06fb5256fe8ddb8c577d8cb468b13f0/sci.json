@@ -1,0 +1,184 @@
+{
+ "title": "Old regulatory DNA with no conserved base in mouse or human loses more diversity in wild mouse subspecies with larger population size; this fits weak selection but is confounded with subspecies",
+ "abstract": "In wild house mice, old (alignable) candidate regulatory elements with no conserved base in mouse or human alignments lose more diversity, relative to nearby DNA, in subspecies with larger long-term population size. The direction fits weak purifying selection, but size is confounded with subspecies. This matters because human data show no selection on non-conserved regulatory DNA, and it was not known if the cause is no function or a human population too small for weak selection to act (the drift barrier). We measured nucleotide diversity (the mean difference between two genome copies) in ENCODE candidate regulatory elements (cCREs) in 7 wild mouse populations and in African-ancestry gnomAD genomes (chromosomes 19-22), against matched background DNA. Of mouse cCREs that the mouse alignment calls non-conserved but that align to human, 69% contain at least one base of a human 100- or 470-species conserved element (median 7 bp); these lose 7-15% of diversity. In strictly non-conserved old sequence (12 Mb), the loss relative to flanking DNA was 3.9%, 7.0% and 10.8% in musculus, domesticus and castaneus populations with long-term effective size 1.9, 2.5 and 5.0 x 10^5 (all SNVs). It grew by 3.8 points (95% CI 2.9-4.8) from domesticus to castaneus and by 3.1 (1.5-4.5) from musculus to domesticus, and was positive in all four combinations of site base and variant type; with GC-conservative variants (A<->T, C<->G) a net loss was seen only in castaneus (4.5%). Rodent-specific sequence showed less (0.4 points with GC-conservative variants). The evidence is not clean: the two contrasts do not fit one nearly-neutral curve, so effects not due to population size of 2-4 points exist; contrasts between ancestral and recently bottlenecked populations within subspecies were null for this class; composition offsets differ between populations; and segregating-site and singleton patterns did not separate selection from other causes. If the increase is selection, it corresponds to about 2-8 x 10^-7 per base, which predicts a 0.4-1.4% loss at human size; the human estimate (0.9%, 95% CI -4.2 to 6.1%) cannot test this. Limitations: subspecies and, for castaneus, sequencing batch are confounded with size; the human data cover 4 chromosomes; the strict class depends on short conserved elements.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "regulatory elements",
+  "ENCODE cCRE",
+  "purifying selection",
+  "nearly neutral theory",
+  "drift barrier",
+  "effective population size",
+  "wild house mice",
+  "Mus musculus castaneus",
+  "nucleotide diversity",
+  "GC-biased gene conversion",
+  "phastCons",
+  "gnomAD",
+  "conservation calling"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_diversity_reduction_vs_N.png",
+   "caption": "Diversity reduction D (1 - observed/expected) against effective population size N. A: conserved cCRE bases (blue), cCREs non-conserved in the mouse but conserved in the human alignment (orange), strictly non-conserved cCREs (aqua). B: strictly non-conserved old (orange) and lineage-specific (aqua) sequence and the 0.3-3 kb flanks of the old elements (gray). Filled circles: ancestral-range mouse populations; open circles: recently bottlenecked populations; diamonds: human (gnomAD African, chr19-22)."
+  },
+  {
+   "path": "files/figures/fig2_by_site_base_and_snv_type.png",
+   "caption": "Diversity reduction by site base (A/T or G/C) and variant type in the three ancestral-range mouse populations (lines) and humans (diamonds). Levels differ between panels (composition offsets), but strictly non-conserved old cCRE sequence (orange) increases with N in all four; its flanks (gray) do not."
+  },
+  {
+   "path": "files/figures/fig3_population_contrasts.png",
+   "caption": "Differences in diversity reduction between ancestral-range populations with 95% bootstrap intervals: castaneus minus domesticus Iran (N x 2.0, dark) and domesticus Iran minus musculus Afghanistan (N x 1.3, same sequencing study, gray), for all non-CpG SNVs (A) and GC-conservative SNVs (B)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "reason": "Human non-conserved cCREs show about 2% of the conserved-DNA selection signal; our human chr19-22 value is consistent with this, and our mouse data suggest, with confounding, that weak selection could exist below human detection."
+  },
+  {
+   "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+   "reason": "Related human result: primate-specific constrained DHS cores show little selection beyond matched neutral repeats; consistent with our lineage-specific result in mice."
+  },
+  {
+   "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+   "reason": "Related human result on transposon copies with regulatory marks (no detectable extra selection)."
+  },
+  {
+   "target": "sci:sha256:8308b0567814e9a9982209a87e7ed9d192a1ca0950c50a6bf29fba1a2b0f9843",
+   "reason": "Non-conserved regulatory elements carry causal eQTL variants; molecular effects can coexist with very small fitness effects such as those our illustrative calculation suggests."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "reason": "Excess false positives of mammal-wide conservation scores in neutral DNA; relevant to our strict definition based on 470-way phastCons elements."
+  },
+  {
+   "target": "doi:10.1038/sdata.2016.75",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Wild house-mouse population genotype data (Harr et al. 2016)."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites, African-ancestry allele counts, chr19-22."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE Registry V4 cCREs for mm10 and GRCh38."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "reason": "ENCODE registry of candidate cis-regulatory elements."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/mm10/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "mm10 genome, phastCons 60-way and placental elements, RepeatMasker, liftOver chains, RefSeq."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 chromosomes, phastCons 100-way and 470-way elements, RepeatMasker, liftOver chains, RefSeq."
+  },
+  {
+   "target": "doi:10.1093/nar/gky677",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Umap k100 mappability (Karimzadeh et al. 2018)."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-12023-w",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Mouse and human germline mutation rates used to convert diversity to N."
+  },
+  {
+   "target": "doi:10.1038/246096a0",
+   "reason": "Nearly-neutral theory (Ohta 1973)."
+  },
+  {
+   "target": "doi:10.1038/nrg.2016.104",
+   "reason": "Drift-barrier hypothesis (Lynch et al. 2016)."
+  },
+  {
+   "target": "doi:10.1093/molbev/mss105",
+   "reason": "Selection efficacy and effective size differ among house-mouse subspecies (Phifer-Rixey et al. 2012)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1003995",
+   "reason": "Selection on conserved non-coding DNA in wild M. m. castaneus (Halligan et al. 2013)."
+  },
+  {
+   "target": "doi:10.1146/annurev-genom-082908-150001",
+   "reason": "GC-biased gene conversion (Duret and Galtier 2009)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Constrained fraction of the human genome (Rands et al. 2014)."
+  },
+  {
+   "target": "doi:10.1126/science.1225057",
+   "reason": "Claim of human-lineage selection on non-conserved regulatory DNA (Ward and Kellis 2012)."
+  },
+  {
+   "target": "doi:10.1093/gbe/evt028",
+   "reason": "Junk-DNA debate (Graur et al. 2013)."
+  },
+  {
+   "target": "doi:10.1073/pnas.1318948111",
+   "reason": "Defining functional DNA elements (Kellis et al. 2014)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC544929",
+   "reason": "Keightley et al. 2005: weaker non-coding constraint in hominids than murids, attributed to effective population size."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1000157",
+   "reason": "Gaffney et al. 2008: constraint in non-coding DNA and population size in hominids and murids."
+  },
+  {
+   "target": "doi:10.1073/pnas.0705658104",
+   "reason": "Nikolaev et al. 2007: lineage differences in non-coding constraint."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2809770",
+   "reason": "Eory et al. 2010: constrained sites in hominid and murid genomes; a contrary result on Ne dependence."
+  },
+  {
+   "target": "https://academic.oup.com/mbe/article/35/12/2971/5123518",
+   "reason": "Booker and Keightley 2018: linked selection shapes diversity near functional elements in house mice; relevant to the flank control."
+  },
+  {
+   "target": "https://academic.oup.com/mbe/article/28/3/1183/992349",
+   "reason": "Kousathanas et al. 2011: selection on non-coding DNA near genes in wild house mice."
+  },
+  {
+   "target": "doi:10.7554/eLife.36317",
+   "reason": "Pouyet et al. 2018: use of GC-conservative variants to avoid GC-biased gene conversion."
+  }
+ ]
+}
