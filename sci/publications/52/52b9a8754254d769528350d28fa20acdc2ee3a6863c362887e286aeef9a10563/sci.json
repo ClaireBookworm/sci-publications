@@ -1,0 +1,193 @@
+{
+ "title": "Natural deletions of element-free DNA between human genes and enhancers showed no detectable rise in expression in 730 cell lines; eQTL-adjusted analyses exclude the rise a contact model predicts",
+ "abstract": "When people carry a natural deletion of DNA with no known function that lies between a gene and its enhancers, we detect no rise in the gene's expression, although a standard contact model predicts a small rise because the enhancers move closer. This matters because one proposed role of junk DNA is to act as a spacer whose length sets enhancer-gene distance; if so, its length would affect expression and fitness, and sequence-based counts of functional DNA would miss it. We used RNA-seq of lymphoblastoid cell lines from 730 people (MAGE) and structural-variant genotypes of the same people (1000 Genomes). For each common deletion and gene within 1 Mb we estimated the expression change per deletion copy. Enhancers and weights came from the activity-by-contact (ABC) model in GM12878 (ABC score = the fraction of a gene's regulatory input from one element). A clean deletion removes no exon, candidate regulatory element, conserved element or ABC element. We predicted each clean deletion's effect from the shorter distances (contact proportional to 1/distance) and regressed observed on predicted effects (slope 1 = model correct, 0 = no effect). Positive control: 374 deletions that remove ABC elements lowered expression with slope 1.31 (95% CI 0.45 to 2.08). Spacer test: 4,761 clean deletions (52,861 gene pairs) gave -0.69 (-1.83 to 0.44) in the pre-specified model and -0.55 (-1.28 to 0.19) after adjustment for each gene's lead eQTL variants. All 27 adjusted variants and 5 of 9 unadjusted variants exclude slope 1 (32 of 36); adjusted upper bounds are at most 0.26, or 0.60 without the 150 pairs within 5 kb of the TSS. For pairs with predicted rises of at least 0.21% (+0.37% on average), unadjusted data gave +0.31% (-0.24 to +0.97), consistent with the model, but adjusted data gave -0.06% (-0.38 to +0.19). Exploratory: deletions of non-repeat clean DNA lowered expression where the model predicted a rise. Limits: most deletions are short (median 299 bp), so a few dozen loci carry the test; 78% of clean deletions are mostly repeat DNA; eQTL adjustment can absorb real effects and the positive control covers only large effects; a noisy predictor biases slopes towards 0; one cell type; short-read genotypes. Two rounds of independent review changed the analysis and claims. We give loci for CRISPR tests.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "spacer DNA",
+  "enhancer-promoter distance",
+  "structural variants",
+  "deletions",
+  "eQTL",
+  "activity-by-contact",
+  "ABC model",
+  "MAGE",
+  "1000 Genomes",
+  "lymphoblastoid cell lines",
+  "gene regulation",
+  "natural experiment",
+  "specification curve",
+  "positive control"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_observed_vs_predicted.png",
+   "caption": "Observed against predicted change in expression per deletion copy (percent). A: deletions that remove GM12878 ABC enhancer elements (positive control) follow the model (slope 1.31). B: clean deletions of element-free DNA between a gene and its enhancers, unadjusted (slope -1.02). C: the same, adjusted for each gene's lead eQTL variants (slope -0.55). Dashed line: model prediction. Points: weighted mean per bin with 95% CI (2-Mb block bootstrap, 20,000 replicates)."
+  },
+  {
+   "path": "files/figures/fig2_specification_grid.png",
+   "caption": "A: spacer slope for clean deletions in 36 analysis variants (4 ways to adjust for lead eQTL variants x 3 covariate sets x 3 weightings). The model value is 1; 32 of 36 intervals exclude it, and all 4 exceptions are unadjusted random-effects fits. B: the positive-control slope under the same adjustments; the two strongest adjustments remove it, so their spacer bounds are not calibrated."
+  },
+  {
+   "path": "files/figures/fig3_subsets.png",
+   "caption": "Spacer slope in subsets of deletions and in model variants, unadjusted (blue) and adjusted for lead eQTL variants with r2 < 0.8 (orange). Non-repeat deletions give a negative slope (exploratory)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+   "relations": [
+    "supports"
+   ],
+   "reason": "This study found weak length conservation of enhancer-gene DNA across mammals and proposed testing whether expression is insensitive to such distance changes; our human deletion data show that it is, for natural length changes."
+  },
+  {
+   "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Found no extra rarity of short element-free deletions between validated enhancers and genes; our expression result agrees."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "Related study of validated enhancers and conservation."
+  },
+  {
+   "target": "sci:sha256:b8d8d2aefd07f9694d9edc6fa6ef6206b65ee82112453dc54cf0e6c4c5545664",
+   "reason": "Reports sample swaps in 1000 Genomes LCL expression panels, including one in MAGE; we removed the affected MAGE sample."
+  },
+  {
+   "target": "doi:10.1038/s41586-024-07708-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MAGE RNA-seq, covariates and eQTL results (Zenodo 10535719)."
+  },
+  {
+   "target": "https://zenodo.org/records/10535719",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1016/j.cell.2022.08.004",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1000 Genomes high-coverage SV callset and phased SNV panel."
+  },
+  {
+   "target": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/working/20210124.SV_Illumina_Integration/1KGP_3202.gatksv_svtools_novelins.freeze_V3.wAF.vcf.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://www.encodeproject.org/files/ENCFF222NAR/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GM12878 ABC full predictions (ENCODE-rE2G pipeline)."
+  },
+  {
+   "target": "https://www.encodeproject.org/files/ENCFF420VPZ/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cCRE registry v4."
+  },
+  {
+   "target": "doi:10.1038/s41588-019-0538-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ABC model."
+  },
+  {
+   "target": "doi:10.1038/s41586-021-03446-x",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1101/2023.11.09.563812",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons conserved elements."
+  },
+  {
+   "target": "doi:10.1038/s41586-022-04570-y",
+   "reason": "Experimental distance dependence of enhancer action in mouse ES cells."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1007902",
+   "reason": "Intronic deletion eQTLs lie near enhancers."
+  },
+  {
+   "target": "doi:10.1038/ng.3834"
+  },
+  {
+   "target": "doi:10.1101/gr.275488.121"
+  },
+  {
+   "target": "doi:10.1038/s41588-022-01043-w"
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004351",
+   "reason": "Discussion of junk DNA and proposed bulk or spacer roles."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2014.11.021"
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/39626663/"
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11741922/",
+   "reason": "Jensen et al. 2025 Mol Cell: distance scaling of enhancer action is gene-specific."
+  },
+  {
+   "target": "doi:10.1101/2025.01.13.632719",
+   "reason": "Felder et al. 2025: deletion of intervening DNA reactivates globin genes (enhancer distance matters at specific loci)."
+  },
+  {
+   "target": "https://genestogenomes.org/enhancer-promoter-distance-is-a-potent-modulator-of-gene-expression/",
+   "reason": "Quintero-Cadena and Sternberg 2016: spacer DNA lowers reporter expression in C. elegans."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-16482-4",
+   "reason": "Jakubosky et al. 2020: SV-eQTLs."
+  },
+  {
+   "target": "doi:10.1111/jcmm.18142",
+   "reason": "Kerschner et al. 2024: deletions between CFTR enhancers and promoter."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "reason": "Related SCI study of non-conserved regulatory DNA."
+  }
+ ]
+}
