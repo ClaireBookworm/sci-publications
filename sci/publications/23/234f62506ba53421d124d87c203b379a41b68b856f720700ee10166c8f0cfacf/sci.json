@@ -1,0 +1,214 @@
+{
+  "title": "In 63,046 human genomes, ultraconserved elements lose and gain copies less often than neutral DNA but not detectably less often than equally conserved non-UCE DNA at the same loci",
+  "abstract": "In healthy humans, ultraconserved elements (UCEs; segments of 200 bp or more identical in distant species such as human, mouse and rat) are deleted and duplicated less often than neutral DNA, and non-UCE DNA that is equally conserved across mammals at the same loci is depleted almost as much; the remaining UCE-specific difference is not statistically significant. This matters because the depletion of UCEs from copy-number variants has been the main evidence for a special UCE function that senses copy number, possibly by pairing of the two copies; if equally conserved DNA is depleted nearly as much, that evidence is weak. We used 598,205 deletions and 243,323 duplications from the gnomAD v4.1 structural-variant (SV) callset of 63,046 genomes. We compared 362 non-exonic UCEs of the 481 human-mouse-rat set with conserved and neutral windows of the same length in the same 131 loci; non-UCE controls exclude windows that overlap, or lie within 10 kb of, a UCE of any published set (896, 527 and 1,696 elements). Poisson models counted SVs that overlap each window but no protein-coding exon, with an exon-geometry offset, locus fixed effects and composition controls. Conservation was the mean 241-mammal phyloP (a per-base score of slow change). Relative to neutral windows, UCEs had a rate ratio of 0.60 (95% CI 0.48-0.75) for deletions and 0.73 (0.56-0.95) for duplications; non-UCE windows with phyloP of 6 or more had 0.64 and 0.64. Matched in 0.25-phyloP bins and pooled over both SV types, UCEs against non-UCE windows gave 0.91 (0.61-1.36). All eight pooled specifications gave 0.65-0.92 with all p > 0.15, so a UCE-specific effect of 10-35% is neither shown nor excluded. Duplications avoided conserved DNA less than deletions did (ratio of rate ratios 1.17, 1.02-1.34). Exon-free 1-10 kb duplications that copy 128 or more conserved bases were more often singletons (SVs seen in one person) by 4.4-9.5 percentage points, against 2.2-8.0 for deletions; the duplication effect depended on composition controls, so the relative strength of selection on copy gain and copy loss is unresolved. Two independent reviews led us to remove all published UCE sets from the controls and to withdraw a claim that copy gain costs as much as copy loss. Limits: short-read calls; SVs that overlap UCEs are much larger than the UCEs; the test cannot tell a copy-sensing mechanism that acts on all conserved DNA from regulatory dosage effects; we did not test de novo or cancer copy-number variants.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "ultraconserved elements",
+    "non-coding DNA",
+    "junk DNA",
+    "copy-number variation",
+    "structural variants",
+    "duplications",
+    "deletions",
+    "gnomAD-SV",
+    "purifying selection",
+    "dosage sensitivity",
+    "pairing hypothesis",
+    "phyloP",
+    "conserved non-coding elements",
+    "claim test"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_gradient.png",
+      "caption": "Rate ratio of exon-free gnomAD v4.1 deletions (blue) and duplications (orange) per window relative to local neutral windows (Poisson model with locus fixed effects, exon-geometry offset and composition controls; 95% CI, cluster-robust by locus), against group-mean 241-mammal phyloP. Circles: conserved windows with no UCE of any published set within 10 kb, binned by phyloP; squares: windows that are UCEs only in the broader sets (896, DMR, CoDHo); diamonds: the 362 non-exonic UCEs of the 481 set. UCEs lie on the same conservation trend as non-UCE DNA."
+    },
+    {
+      "path": "files/figures/fig2_singleton_dose.png",
+      "caption": "Change in the probability that an exon-free SV is a singleton, by the number of phastCons-conserved bases inside it (reference: no conserved base), for 1-10 kb and 10-100 kb SVs genome-wide. Linear probability models with size x caller x evidence, 1-Mb block, fine repeat and simple-repeat bins, segmental duplication, GC and distance fixed effects; 95% CI. Duplication effects are smaller with these fine controls than with coarse controls; terms with fewer than 20 SVs are not fitted."
+    },
+    {
+      "path": "files/figures/fig3_uce_specific.png",
+      "caption": "UCE-specific contrasts after review: UCE windows against non-UCE windows (no UCE in any published set) matched in 0.25-phyloP bins, above phyloP cut-offs, or beyond a phyloP trend (phyloP > 2). Rate ratios of overlapping exon-free SVs with 95% CI; blue deletions, orange duplications, black diamonds pooled. The dashed line marks the size of the whole depletion reported by McCole et al. 2014 against random placement (0.77)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+      "relations": [
+        "uses",
+        "supports"
+      ],
+      "reason": "We reuse its fixed-effects code (fe.py) and its SV extraction approach; our duplication results complement its deletion results for conserved non-coding DNA."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "reason": "phyloP error rates vary with composition; relevant to our use of phyloP as the conservation measure."
+    },
+    {
+      "target": "doi:10.1038/ng1888",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported UCE depletion from CNVs and segmental duplications; we find the CNV depletion is matched by equally conserved non-UCE DNA."
+    },
+    {
+      "target": "doi:10.1534/genetics.108.096537",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Proposed dosage sensitivity / pairing of UCEs from CNV depletion and saw depletion also for slightly less conserved elements; we test the UCE-specific part with gnomAD-SV and UCE-free, conservation-matched local controls."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004646",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported UCE depletion from CNVs of healthy cells as evidence of a UCE-specific dosage mechanism."
+    },
+    {
+      "target": "doi:10.1016/j.celrep.2018.06.031",
+      "reason": "Restates the UCE pairing model."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2371-0",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Reported CNV depletion in conserved non-coding DNA, weaker for duplications; our results agree."
+    },
+    {
+      "target": "https://journals.plos.org/plosgenetics/article/file?type=supplementary&id=10.1371/journal.pgen.1004646.s003",
+      "relations": [
+        "uses"
+      ],
+      "reason": "hg18 coordinates of the 896, DMR, CoDHo and HMR UCE sets, lifted to hg38 to remove UCEs from the controls."
+    },
+    {
+      "target": "https://hgdownload2.soe.ucsc.edu/goldenPath/hg18/liftOver/hg18ToHg38.over.chain.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "liftOver chain."
+    },
+    {
+      "target": "doi:10.1126/science.1098119",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Definition of the 481 UCEs."
+    },
+    {
+      "target": "doi:10.1093/gigascience/giz159",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source of the UCE sequences and hg38 coordinates (Hiller lab archive)."
+    },
+    {
+      "target": "doi:10.1093/database/bau062",
+      "reason": "UCbase 2.0, origin of the UCE coordinates."
+    },
+    {
+      "target": "https://storage.googleapis.com/gcp-public-data--gnomad/release/4.1/genome_sv/gnomad.v4.1.sv.sites.bed.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v4.1 SV sites."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2287-8",
+      "relations": [
+        "uses",
+        "supports"
+      ],
+      "reason": "gnomAD-SV methods; it reported weaker selection on non-coding duplications than deletions, which our duplication results support."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/cactus241way/cactus241way.phyloP.bw",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal phyloP."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia constraint."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/phastConsElements100way.txt.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "phastCons 100-way conserved elements."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "relations": [
+        "uses"
+      ],
+      "reason": "phastCons method."
+    },
+    {
+      "target": "doi:10.1093/nar/gkac1071",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE annotation."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2022.06.036",
+      "relations": [
+        "uses"
+      ],
+      "reason": "pHaplo / pTriplo gene dosage-sensitivity scores."
+    },
+    {
+      "target": "doi:10.1038/s41588-024-01820-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GeneBayes s_het."
+    },
+    {
+      "target": "doi:10.1126/science.1142430",
+      "reason": "UCE alleles are under selection (SNV frequencies)."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.0050234",
+      "reason": "Deletion of UCEs in mice yields viable mice."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2017.12.017",
+      "reason": "UCE enhancer deletions give subtle phenotypes in mice."
+    },
+    {
+      "target": "doi:10.1038/s41588-021-00812-3",
+      "reason": "UCE enhancer function tolerates point mutations."
+    },
+    {
+      "target": "doi:10.1038/s41576-021-00424-x",
+      "reason": "Review of explanations for ultraconservation."
+    },
+    {
+      "target": "doi:10.1038/s41467-022-31872-6",
+      "reason": "ExtRaINSIGHT: modest ultraselection in UCEs."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0110692",
+      "reason": "Selection within UCEs is concentrated at transcription-factor binding sites."
+    }
+  ]
+}
