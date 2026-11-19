@@ -1,0 +1,194 @@
+{
+ "title": "Natural rDNA copy number has no reproducible genome-wide effect on gene expression in cell lines from 1,045 people; few genes follow it, mainly a gene family next to each rDNA array in T2T-CHM13",
+ "abstract": "In human lymphoblastoid cell lines (LCLs), the number of ribosomal DNA (rDNA) copies does not change genome-wide gene expression in a reproducible way. This matters because a 2014 study that reported such an effect is still cited as human evidence that this large repeat region, which the standard reference genome omits, regulates genes far from itself. rDNA is the tandem array that codes for ribosomal RNA; people carry about 100 to 600 copies, and most are silent. The 2014 study reported 1,371 associated genes (P < 0.01) in LCLs of 97 people. On its own expression data, the same pipeline gave 1,809 genes with real copy number (CN) and a median of 1,784 genes when CN was shuffled within populations. Its null is very wide because two populations from two studies were pooled and three dependent P values were combined, so its result is ambiguous. We then used 30x DNA estimates of CN and two independent RNA-seq panels, MAGE (705 people) and Geuvadis (427 people). In people who are in only one panel, gene-wise association profiles did not agree (r = 0.03; shuffled range -0.10 to 0.10), whereas the same test detected Epstein-Barr virus genome CN (r = 0.32) and mitochondrial DNA CN (r = 0.13) as positive controls. Under the main models MAGE showed no excess of associated genes, and a Geuvadis-only negative shift of ribosome-biogenesis genes did not repeat in MAGE. The ribosome, nucleolus and mitochondrial gene sets named in 2014 had set-mean correlations within -0.08 to +0.08. A spike-in test showed that a shift of ribosomal-protein genes by 0.03 SD per SD of CN would be detected with 10 expression factors in the model; a 2026 GTEx preprint reports positive associations for these genes in other tissues. In 2,414 people, rDNA CN and mitochondrial DNA CN were not inversely related (partial r = +0.05). A few genes did follow CN in both panels. TEKT4P2 expression fell as CN rose (r = -0.45 and -0.36). TEKT4P2 belongs to a duplicated gene family whose copies sit 60-90 kb after the rDNA array on each acrocentric chromosome in the complete T2T-CHM13 genome; a crude proxy of its DNA dosage does not explain the association. A 17p11.2 gene family rose with CN. Main limit: all expression data come from LCLs, so effects in other tissues remain possible.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "stat.AP"
+  }
+ ],
+ "keywords": [
+  "ribosomal DNA",
+  "rDNA copy number",
+  "dark genome",
+  "non-coding DNA function",
+  "trans-eQTL",
+  "replication",
+  "population confounding",
+  "permutation null",
+  "lymphoblastoid cell lines",
+  "MAGE",
+  "Geuvadis",
+  "1000 Genomes 30x",
+  "mitochondrial DNA copy number",
+  "TEKT4P2",
+  "nucleolus organizer region",
+  "acrocentric chromosomes",
+  "T2T-CHM13",
+  "CRAM index"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_reproduction.png",
+   "caption": "Re-run of the 2014 rDNA-expression pipeline on its own data (ReCount montpick, 96 people). (a) Genes associated with real low-coverage rDNA copy number (blue line) against the same pipeline with copy number shuffled within population (gray) or across everyone (green), 200 shuffles each; orange dashed line: the 2014 result. (b) Low-coverage against 30x copy-number estimates for the same 163 people. (c) 45S rDNA copy number by continental group, 2,414 people."
+  },
+  {
+   "path": "files/figures/fig2_scans.png",
+   "caption": "45S rDNA copy number against genome-wide expression, model with population, sex, batch and 10 expression factors. (a, b) QQ plots for MAGE (705 people) and Geuvadis (427 people) with the 95% band of within-population copy-number shuffles; orange: Epstein-Barr virus genome copy number (positive control). (c) Per-gene t values in MAGE without the 87 people shared with Geuvadis, against Geuvadis: r = 0.034, shuffled 95% range -0.10 to 0.10."
+  },
+  {
+   "path": "files/figures/fig5_tekt4p2.png",
+   "caption": "(a) In T2T-CHM13, copies of the TEKT4P2 duplication family (blue, >= 98% identity) sit 60-90 kb after the rDNA array (orange) on chromosomes 13, 14, 15 and 21, and continue from the array on chromosome 22. (b, c) TEKT4P2 expression falls as 45S rDNA copy number rises in MAGE (r = -0.45) and Geuvadis (r = -0.36); residuals after population, sex, batch and 10 expression factors."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1038/ncomms5850",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "The tested claim: rDNA copy number as a trans-regulator of gene expression and inverse coupling with mtDNA copy number in human LCLs. We re-run its pipeline on its own expression data and test the claim in two larger panels."
+  },
+  {
+   "target": "doi:10.1038/s41598-020-80049-y",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "Source of the 30x and low-coverage rDNA copy-number estimates; our results extend its finding that low-coverage estimates are unreliable."
+  },
+  {
+   "target": "doi:10.1038/s41586-024-07708-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MAGE RNA-seq panel (705 people used)."
+  },
+  {
+   "target": "doi:10.5281/zenodo.10535719",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MAGE expression pseudocounts and sample metadata, read by HTTP range requests."
+  },
+  {
+   "target": "doi:10.1038/nature12531",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Geuvadis RNA-seq panel and sample metadata."
+  },
+  {
+   "target": "doi:10.1186/s13059-021-02533-6",
+   "relations": [
+    "uses"
+   ],
+   "reason": "recount3 gene coverage sums for Geuvadis (ERP001942)."
+  },
+  {
+   "target": "doi:10.1186/1471-2105-12-449",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReCount montpick count table, the expression data of the 2014 study."
+  },
+  {
+   "target": "doi:10.1038/nature08903",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CEU RNA-seq inside ReCount montpick."
+  },
+  {
+   "target": "doi:10.1038/nature08872",
+   "relations": [
+    "uses"
+   ],
+   "reason": "YRI RNA-seq inside ReCount montpick."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2022.08.004",
+   "relations": [
+    "uses"
+   ],
+   "reason": "NYGC 30x 1000 Genomes CRAM index files used for mtDNA, EBV and rDNA proxy copy number."
+  },
+  {
+   "target": "doi:10.1126/science.abj6987",
+   "relations": [
+    "uses"
+   ],
+   "reason": "T2T-CHM13 assembly: position of TEKT4P2 next to the chromosome 21 rDNA array."
+  },
+  {
+   "target": "doi:10.1126/science.abl4178",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CHM13 satellite and rDNA array annotation (censat)."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-05976-y",
+   "reason": "Structure and recombination of acrocentric short arms; context for a cis or haplotype explanation of TEKT4P2."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1001376",
+   "reason": "Drosophila evidence that rDNA deletions change genome-wide expression; the model behind the human claim."
+  },
+  {
+   "target": "doi:10.1016/j.xgen.2024.100562",
+   "reason": "UK Biobank associations of rDNA copy number with blood and kidney traits; mechanism left open by our null trans result."
+  },
+  {
+   "target": "doi:10.1038/s41467-024-49397-5",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reports no association of rDNA copy number with nascent rDNA transcription in LCLs, consistent with our null rRNA-read result."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0108384",
+   "relations": [
+    "supports"
+   ],
+   "reason": "EBV copy number associates with host gene expression in LCLs; our positive control."
+  },
+  {
+   "target": "sci:sha256:b8d8d2aefd07f9694d9edc6fa6ef6206b65ee82112453dc54cf0e6c4c5545664",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Identifies the MAGE library labelled NA11919 as HG00237; we removed it."
+  },
+  {
+   "target": "https://digital.lib.washington.edu/researchworks/bitstreams/1fe8f5c6-1b14-4bd1-abb6-14f74c0ea9be/download",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Hall 2021 dissertation appendix A5.1: no inverse rDNA-mtDNA correlation in 30x data; our CRAM-index estimate agrees."
+  },
+  {
+   "target": "doi:10.64898/2026.01.09.26343685",
+   "reason": "GTEx/UK Biobank preprint reporting positive associations of 45S CN with ribosomal-protein gene expression across tissues; our LCL data bound such effects at about 0.03-0.05 SD per SD of CN and do not test other tissues."
+  },
+  {
+   "target": "doi:10.1002/bies.202400232",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Notes that extreme rDNA copy numbers in early low-coverage studies are likely artifacts."
+  },
+  {
+   "target": "doi:10.1101/gr.275350.121",
+   "reason": "Sequence content of acrocentric short arms, including tektin pseudogenes."
+  },
+  {
+   "target": "doi:10.1038/s41467-025-60513-x",
+   "reason": "Describes the common 46-kb deletion at 17p11.2 that removes USP32P2 and FAM106A; we adjust for its dosage."
+  }
+ ]
+}
