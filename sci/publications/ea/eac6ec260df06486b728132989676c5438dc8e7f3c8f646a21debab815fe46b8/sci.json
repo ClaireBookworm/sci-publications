@@ -1,0 +1,205 @@
+{
+ "title": "In 76,215 human genomes, strand differences in singleton frequencies of new six-base words in introns largely follow strand-specific mutation linked to transcription, not selection on the RNA",
+ "abstract": "New short sequences (words) made by point mutations in human introns are seen once (as singletons) more or less often depending on whether they form on the transcribed (sense) strand or the other strand; these differences largely follow strand-specific mutation rates, not purifying selection on the pre-mRNA. This matters because strand-specific allele-frequency tests are used to find RNA signals that non-coding DNA must avoid, and this mutational effect gives false signals up to half as large as those of strongly predicted cryptic splice sites.\n\nWe used 188.8 million single-nucleotide variants in 997.5 Mb of protein-coding introns from gnomAD v4.1 (76,215 genomes). For 2,016 pairs of six-base words, we compared the singleton excess (extra fraction of variants seen once; selection raises it) for words made on the sense strand with that for words made on the antisense strand. In introns, 1,062 pairs differed at a false discovery rate of 5% (up to 2.7 percentage points, pp; replication between genome halves r = 0.86); in intergenic DNA, which has no transcription, none did (r = 0.01). Its amplitude was 0.36 in genes silent in body tissues and testis and 1.29 in genes active in both.\n\nThe difference follows the mutated trinucleotide (59 of 96 classes; 1 of 96 in intergenic DNA), is the same in rare variants only and in genes on either reference strand (r = 0.96), and across 1,343 pentanucleotide contexts the singleton contrast follows the variant-density contrast with the slope of recurrent mutation (-6.9; recurrence -5.6; selection about -35). One family, T>C at A-T-[A/T]-G on the sense strand, has up to +10.5 pp that recurrence does not explain; its density deficit is absent in singletons and similar in rare and common variants, which does not fit a single selection coefficient; a recent change of strand bias, non-inherited singleton calls, or a mixture of strongly harmful and neutral mutations remain possible. After allowing for real differences between mutation routes, only one word pair (ACGTAA, 5-prime splice-site-like, +1.15 pp) keeps a contrast that is consistent across models and ancestries. New AATAAA polyadenylation signals in introns show no selection (-0.14 pp, SE 0.08; same-composition words -0.34 to +0.17), which excludes heterozygote selection above about 1e-4 (bound uncertain about two-fold).\n\nLimitations: the T>C outlier is not resolved; ancestral alleles and replication direction were not used; selection below about 1e-4 is not detected.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "introns",
+  "purifying selection",
+  "site frequency spectrum",
+  "gnomAD",
+  "transcription-coupled mutation",
+  "strand asymmetry",
+  "mutational signature",
+  "polyadenylation signal",
+  "splicing enhancer",
+  "pseudoexon",
+  "U1 telescripting",
+  "hexamer",
+  "singleton",
+  "mutation spectrum",
+  "population genetics"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_screen.png",
+   "caption": "A: p-values of the sense-versus-antisense contrast for 2,016 hexamer pairs in protein-coding introns, lncRNA introns and intergenic DNA (null). B: the contrast in odd versus even 10-Mb blocks (disjoint variants). C: amplitude of the contrast profile by gene expression in body tissues and testis (GTEx v8), with 95% intervals."
+  },
+  {
+   "path": "files/figures/fig2_mechanism.png",
+   "caption": "A: strand difference of the singleton excess for the 96 trinucleotide mutation classes (introns, all and rare variants; intergenic). B: singleton contrast against variant-density contrast for 1,343 pentanucleotide classes, with the slopes expected from recurrent mutation and from selection; the 8 classes that make ACWG words are marked. C: density contrast by allele-count class for these 8 classes and for other T>C classes."
+  },
+  {
+   "path": "files/figures/fig3_residual_and_claims.png",
+   "caption": "A: strand contrast by mutation route (position of the mutated base in the word) for three words. B: named words, including the AATAAA polyadenylation signal, under the base model, the oriented-trinucleotide model and a random-effects mean over routes. C: composition strand asymmetry of each word in introns against its population strand contrast."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Its motif-gain test found no selection on new transcription-factor motif matches and +2.99 pp for cryptic splice gains; we extend the gain test to strand-specific RNA words and show a strand-specific mutational confound that its both-strand design avoids."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We adapted its approach of streaming gnomAD v4.1 genome VCFs without storing them."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "Related: conserved intronic DNA far from accessible chromatin lies mainly within 1 kb of exons (splicing-related constraint)."
+  },
+  {
+   "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+   "reason": "Related: de novo mutation rates at conserved non-coding bases; mutation-rate confounds in constraint tests."
+  },
+  {
+   "target": "doi:10.1534/g3.117.041483",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Claims counter-selection of AATAAA in introns from strand asymmetry of composition; population data show no selection on new intronic AATAAA."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.12.015",
+   "reason": "SpliceAI; cryptic splice variants are depleted in gnomAD (positive control)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.0020191",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Exon-enhancer and silencer classes of all hexamers (Skippy NI table)."
+  },
+  {
+   "target": "doi:10.1038/nature09479",
+   "reason": "U1 snRNP telescripting protects pre-mRNAs from premature cleavage at intronic polyadenylation signals."
+  },
+  {
+   "target": "doi:10.1038/nsmb.3473",
+   "reason": "U1 telescripting regulates a size-function-stratified genome."
+  },
+  {
+   "target": "doi:10.1038/ng1103",
+   "reason": "Transcription-associated mutational asymmetry in mammals."
+  },
+  {
+   "target": "doi:10.1126/science.aba7408",
+   "reason": "Compendium of germline mutational processes from population data, including transcription-associated asymmetry."
+  },
+  {
+   "target": "doi:10.1038/s41588-018-0285-7",
+   "reason": "Strand asymmetry of germline mutation measured with rare gnomAD variants."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-1943-3",
+   "reason": "Mutational signatures SBS5 and SBS16 (T>C at ATN) with transcriptional strand bias."
+  },
+  {
+   "target": "doi:10.1126/science.1219240",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Demographic model for the forward simulation (Tennessen et al. 2012)."
+  },
+  {
+   "target": "doi:10.1126/science.1073774",
+   "reason": "Exonic splicing enhancer hexamers (RESCUE-ESE)."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2004.11.010",
+   "reason": "Exonic splicing silencers (FAS-ESS) and pseudoexon suppression."
+  },
+  {
+   "target": "doi:10.1101/gr.119628.110",
+   "reason": "Experimental splicing scores of all hexamers (ESRseq; not accessible for this study)."
+  },
+  {
+   "target": "doi:10.1038/s41467-023-44456-9",
+   "reason": "Allele-frequency-based selection on polyadenylation signals and other elements in 3-prime UTRs."
+  },
+  {
+   "target": "doi:10.1093/nar/gkz918",
+   "relations": [
+    "uses"
+   ],
+   "reason": "PolyASite 2.0 atlas of cleavage sites."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia phyloP (conservation mask)."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs."
+  },
+  {
+   "target": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_46/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v46 annotation."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "hg38 sequence and RepeatMasker."
+  },
+  {
+   "target": "https://gtexportal.org/home/downloads/adult-gtex/bulk_tissue_expression",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v8 gene median TPM."
+  },
+  {
+   "target": "https://skippy.nhgri.nih.gov/features-ni_table.shtml",
+   "relations": [
+    "uses"
+   ],
+   "reason": "NI hexamer table."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1006489",
+   "reason": "Mutation-rate variation and recurrent mutation shape the allele-frequency spectrum in large samples (the mechanism behind most of the strand signal)."
+  },
+  {
+   "target": "doi:10.1093/molbev/msn245",
+   "reason": "Transcription-induced mutational strand bias in human genes."
+  },
+  {
+   "target": "doi:10.1093/gbe/evw137",
+   "reason": "Population-genetic test of selection on polyadenylation-signal hexamers (not specific to introns)."
+  },
+  {
+   "target": "doi:10.1038/nature19057",
+   "reason": "MAPS: singleton fraction calibrated by context mutability."
+  },
+  {
+   "target": "doi:10.1038/s41588-023-01562-0",
+   "reason": "Roulette basepair-resolution mutation-rate model (no transcription-strand term)."
+  }
+ ]
+}
