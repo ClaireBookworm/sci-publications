@@ -1,0 +1,180 @@
+{
+  "title": "In 101 amniote genomes, the 1.5-fold LINE-1 excess on the eutherian X matches the LINE excess on bird Z chromosomes, which have no X inactivation",
+  "abstract": "The X chromosome of placental mammals has about 1.5 times more LINE-1 retrotransposon DNA than its autosomes, and the Z chromosome of neognath birds, which have no X inactivation, has an excess of the same size of its own LINE family (CR1). So this excess forms without X inactivation, and it alone cannot support the Lyon repeat hypothesis, which gives this large class of non-coding DNA a function: to help spread the silencing of one X in female mammals. LINEs are transposable elements that copy themselves through RNA; LINE-1 makes about 17-20% of mammal genomes. We used uniform repeat annotations (UCSC GenArk RepeatMasker) of 101 chromosome-level genomes. In 1-Mb windows, we compared repeat coverage on the X or Z with the coverage that a model fitted on the autosomes of the same genome predicts from GC content, chromosome length, distance to the chromosome end and CpG-island density. The median excess of the most abundant LINE was 1.54-fold on the eutherian X (LINE-1; 30 species, 19 orders) and 1.48-fold on the neognath Z (CR1; 41 species, 35 orders); the difference was -0.008 log2 units (95% CI -0.12 to +0.11), and equivalence tests excluded differences larger than about 0.10-0.15 log2 units. In both groups the excess was in younger subfamilies and in longer elements (exploratory). On the X, the class-level excess was specific to LINE-1, but long LTR elements also had an excess; at matched length the gap between LINE-1 and LTR elements narrowed but did not close. The group median excesses were larger than the maximum (4/3) that sex-biased insertion alone can make. Not all sex chromosomes had a large excess: the marsupial X (imprinted X inactivation) had a modest LINE-1 excess (1.15-fold raw, 1.3-1.5-fold after GC adjustment), and monotreme X and squamate sex chromosomes had little excess of their most abundant LINE. Relative to the scatter among its own autosomes, the eutherian X was more extreme than the bird Z (median z 5.9 vs 3.0). Each group descends from one sex-chromosome origin, so the comparison is a pattern, not a replicated experiment. The analysis does not test mechanistic roles of LINE-1 RNA in X inactivation. Repeat libraries differ between species, pseudoautosomal regions were not removed, and 20 of 121 selected assemblies could not be analysed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "transposable elements",
+    "LINE-1",
+    "CR1",
+    "X chromosome inactivation",
+    "Lyon repeat hypothesis",
+    "sex chromosomes",
+    "Z chromosome",
+    "comparative genomics",
+    "ectopic recombination",
+    "birds",
+    "mammals",
+    "repeat landscape"
+  ],
+  "display": [
+    {
+      "path": "files/figs/fig1_dominant_line_enrichment.png",
+      "caption": "Excess of the most abundant LINE on the X or Z chromosome (log2 observed / expected from autosomes of the same GC, length and CpG density), one dot per species. Eutherian X (LINE-1) and neognath bird Z (CR1) have the same median excess; birds have no X inactivation. Filled dots: the sex chromosome scores higher than every comparable autosome."
+    },
+    {
+      "path": "files/figs/fig5_length_classes.png",
+      "caption": "Exploratory: raw sex-chromosome-to-autosome density by element length. On the eutherian X, both LINE-1 and LTR elements show an excess that rises with length; short solo LTRs, which make most LTR DNA, have none; LINE-1 stays above LTR at most matched lengths. On the bird Z, CR1 rises with length up to 2-4 kb."
+    },
+    {
+      "path": "files/figs/fig4_age_profile.png",
+      "caption": "Sex-chromosome-to-autosome density of the most abundant LINE by subfamily age quintile, for genomes whose repeat library resolves young subfamilies. In eutherians and in neognath birds, the excess is in younger subfamilies and absent in the oldest fifth."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1159/000014969",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Lyon repeat hypothesis: LINE-1 as boosters of X inactivation; the distributional claim tested here."
+    },
+    {
+      "target": "doi:10.1073/pnas.97.12.6634",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported the 2-fold, young-subfamily L1 excess on the human X as evidence for the Lyon hypothesis; we find the same features on bird Z chromosomes without X inactivation."
+    },
+    {
+      "target": "doi:10.1038/nature03440",
+      "reason": "Human X sequence; L1 distribution described as consistent with the way-station role."
+    },
+    {
+      "target": "doi:10.1007/s00412-004-0301-9",
+      "reason": "L1 accumulation on the X in Afrotheria and Xenarthra."
+    },
+    {
+      "target": "doi:10.1007/s00412-007-0116-6",
+      "reason": "Sex chromosomes of basal placental mammals; X L1 accumulation as retention of recent insertions."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2010.04.042",
+      "reason": "Mechanistic evidence for L1 transcription during X inactivation; not tested by our distributional analysis."
+    },
+    {
+      "target": "doi:10.1073/pnas.2514037123",
+      "reason": "L1Tf copy number and the mouse X-controlling element; mechanistic evidence not addressed here."
+    },
+    {
+      "target": "doi:10.1186/s13100-019-0173-4",
+      "reason": "Proposed L1-Xist triplex mechanism for X inactivation (supports a functional L1 role)."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1000172",
+      "reason": "Argued for selection retaining L1 on the human X."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0006252",
+      "reason": "X inactivation persists in a rodent lacking L1 activity."
+    },
+    {
+      "target": "doi:10.1126/science.1237973",
+      "reason": "Xist spreads first to gene-rich regions near its locus by 3D proximity."
+    },
+    {
+      "target": "doi:10.1038/nature12719",
+      "reason": "High-resolution Xist binding maps; two-step spreading to gene-rich regions."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7890635",
+      "reason": "Cross-species XCI escape study; repeat enrichment near subject genes only in some species."
+    },
+    {
+      "target": "doi:10.1038/nature05805",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Reported no L1 excess on the opossum X; we find a modest excess (about 1.15-fold raw, 1.3-1.5-fold after GC adjustment) across nine marsupials."
+    },
+    {
+      "target": "doi:10.1007/s10577-009-9068-4",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Compared human X, chicken Z (CR1 excess) and platypus X (no LINE excess); we extend this to 101 genomes with size and GC controls."
+    },
+    {
+      "target": "doi:10.1038/nature09172",
+      "reason": "Chicken Z sequence; higher interspersed repeat density on the Z."
+    },
+    {
+      "target": "https://genome.cshlp.org/content/20/5/600",
+      "reason": "Sex-chromosome-specific SINE and LINE distributions in primates."
+    },
+    {
+      "target": "doi:10.1017/S0016672300027695",
+      "reason": "Theory: unequal (ectopic) exchange limits transposable element copy number, more where recombination is high."
+    },
+    {
+      "target": "doi:10.1038/371215a0",
+      "reason": "Theory of repetitive DNA accumulation in low-recombination regions."
+    },
+    {
+      "target": "doi:10.1016/j.gene.2006.09.033",
+      "reason": "Length-dependent selection against L1 via ectopic recombination; one explanation consistent with, but not tested by, our element-length pattern."
+    },
+    {
+      "target": "doi:10.1093/molbev/msp282",
+      "reason": "Bird Z effective population size is often below 3/4 of autosomes."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6735826",
+      "reason": "Paleognath sex-chromosome differentiation and PAR sizes used to interpret the emu, ostrich and tinamou results."
+    },
+    {
+      "target": "doi:10.1186/s13059-023-03057-x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "UCSC GenArk: source of RepeatMasker, RepeatModeler, GC, gap and CpG-island tracks."
+    },
+    {
+      "target": "doi:10.1186/s13100-020-00230-y",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Dfam repeat libraries used by the GenArk RepeatMasker runs."
+    },
+    {
+      "target": "doi:10.1073/pnas.1921046117",
+      "relations": [
+        "uses"
+      ],
+      "reason": "RepeatModeler2 de novo libraries used for the robustness analysis."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/hubs/UCSC_GI.assemblyHubList.txt",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GenArk assembly list (accessed 2026-11-20)."
+    },
+    {
+      "target": "https://ftp.ncbi.nlm.nih.gov/genomes/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "NCBI assembly summaries and assembly reports (chromosome names and lengths), accessed 2026-11-20."
+    }
+  ]
+}
