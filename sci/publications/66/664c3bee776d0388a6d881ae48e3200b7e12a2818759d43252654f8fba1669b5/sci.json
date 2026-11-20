@@ -1,0 +1,174 @@
+{
+  "title": "Transcription-factor binding in mammal-conserved promoter DNA predicted gene response to factor knockdown in K562 cells; non-conserved promoter or distal binding had no detectable effect",
+  "abstract": "When a transcription factor (TF) was knocked down in human K562 cells, genes with a peak of that TF in mammal-conserved promoter DNA responded more often than expected; peaks in non-conserved promoter DNA, and peaks 10-100 kb from genes, had no detectable effect. This matters because the claim that most of the genome is functional rests mainly on biochemical activity, such as TF binding, in DNA that evolution does not conserve.\n\nWe combined CRISPR-interference knockdowns of 150 TFs from a genome-wide Perturb-seq screen with ENCODE ChIP-seq peaks of the same TFs in K562 (2.4 million peaks) and 241-mammal phyloP scores. A peak was conserved if 5 or more of the 101 bases at its summit had phyloP of 2.27 or more, and not conserved if none had. A gene responded if its expression changed with |t| > 3. A linear model with gene and TF fixed effects gave the change in response probability per peak, with 95% bootstrap intervals over TFs.\n\nBinding explained little: genes with a peak within 10 kb responded in 2.5% of cases, and genes with no peak within 100 kb in 2.1%. Conserved promoter peaks (within 1 kb of the transcription start) added 0.15 percentage points (pp) per peak (0.07 to 0.22), more than all 20 placebo fits that gave each TF the peaks of another TF. Non-conserved promoter peaks added 0.03 pp (-0.06 to 0.14). This pre-specified difference was not significant (P = 0.07). It was significant in the strongest third of ChIP signal (0.46 vs 0.04 pp; difference -0.42, -0.66 to -0.15) and for down-regulated genes (0.10 vs -0.05 pp). It was absent in the most highly expressed genes and in peaks outside regions that many TFs bind. At 10-100 kb both classes stayed below about 0.07 pp per peak, so these data cannot tell whether conservation matters for distal binding.\n\nLimits: one cancer cell line; Perturb-seq detects only changes of about 25-70%; most knockdown responses are indirect; a replication with ENCODE bulk knockdowns (44 TFs) detected no effect in any class; several splits were added after the main result. Prediction for a laboratory test: a mutation of the TF motif in a strong non-conserved promoter peak will change expression of the gene less than half as much as the same mutation in a strong conserved peak.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.MN"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "transcription factor binding",
+    "ChIP-seq",
+    "Perturb-seq",
+    "CRISPR interference",
+    "evolutionary conservation",
+    "phyloP",
+    "Zoonomia",
+    "ENCODE",
+    "K562",
+    "promoter",
+    "enhancer",
+    "HOT regions",
+    "transposable elements",
+    "biochemical function"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_per_peak_effects.png",
+      "caption": "Change in the probability that a gene responds to knockdown of a transcription factor, per ChIP-seq peak of that factor, by distance to the gene and conservation of the bound DNA. (a) Perturb-seq, 150 factors; gray ticks are placebo fits with another factor's peaks. (b) ENCODE bulk knockdowns, 44 factors. Bars: 95% bootstrap intervals over factors."
+    },
+    {
+      "path": "files/figures/fig2_signal_matched.png",
+      "caption": "Per-peak effects by ChIP-signal third within each factor. At promoters, only the strongest third of conserved peaks has a detectable effect; strong non-conserved promoter peaks do not."
+    },
+    {
+      "path": "files/figures/fig3_robustness.png",
+      "caption": "Conserved (blue) and non-conserved (orange) per-peak effects in all model variants and windows. Asterisks mark analyses added after the main result."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.cell.2022.05.013",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Genome-wide Perturb-seq in K562: source of the knockdown responses."
+    },
+    {
+      "target": "doi:10.25452/figshare.plus.20029387.v1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Processed pseudobulk file K562_gwps_normalized_bulk_01.h5ad."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2493-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE K562 TF ChIP-seq peaks and knockdown RNA-seq."
+    },
+    {
+      "target": "doi:10.1038/nature11247",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "The claim that biochemical activity, including TF binding, marks most of the genome as functional; non-conserved binding showed no detectable regulatory effect here, with limited power."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal constraint and the phyloP 2.27 threshold."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2018.01.029",
+      "relations": [
+        "uses"
+      ],
+      "reason": "List of human transcription factors."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004226",
+      "reason": "59 TF knockdowns in lymphoblastoid cells: few bound genes respond, and footprint-defined functional sites were not more conserved. We test the conservation question at genome scale with ChIP peaks."
+    },
+    {
+      "target": "doi:10.1038/s41586-025-08916-0",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Yeast study showing low overlap of TF binding and regulatory targets; we see the same in human K562 cells."
+    },
+    {
+      "target": "doi:10.1038/s41594-024-01235-4",
+      "reason": "Regulatory activity is the default state of DNA; motivates the test."
+    },
+    {
+      "target": "doi:10.1093/gbe/evt028",
+      "reason": "Critique of the ENCODE function claim."
+    },
+    {
+      "target": "doi:10.1073/pnas.1221376110",
+      "reason": "Causal-role versus selected-effect function."
+    },
+    {
+      "target": "doi:10.1093/nar/gkad1059",
+      "relations": [
+        "uses"
+      ],
+      "reason": "JASPAR 2024 motifs for the own-motif analysis."
+    },
+    {
+      "target": "doi:10.1093/nar/gkac1071",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE transcript start sites."
+    },
+    {
+      "target": "sci:sha256:8308b0567814e9a9982209a87e7ed9d192a1ca0950c50a6bf29fba1a2b0f9843",
+      "reason": "Non-conserved regulatory elements carry causal eQTL variants at a third to a half of the enrichment of conserved ones; a cis-variant view to compare with our trans-knockdown view."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "reason": "CRISPRi-validated enhancers are only slightly more conserved than CRISPRi-negative elements; consistent with our near-zero distal conservation contrast."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "reason": "Weak purifying selection on non-conserved regulatory elements."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "reason": "No selection against new TF motif matches in non-functional DNA."
+    },
+    {
+      "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+      "reason": "Transposable-element copies with regulatory marks show no extra purifying selection."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "reason": "Composition-dependent false-positive rate of phyloP; a limit of our conservation classes."
+    },
+    {
+      "target": "doi:10.1186/gb-2012-13-9-r50",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Reporter tests of ENCODE promoter sites: functional sites were more conserved and closer to the TSS; agrees with our promoter result."
+    },
+    {
+      "target": "doi:10.1126/science.1186176",
+      "reason": "TF binding evolves fast; shared binding marks conserved function."
+    },
+    {
+      "target": "doi:10.7554/eLife.02626",
+      "reason": "Multi-species binding highlights conserved control of tissue pathways."
+    },
+    {
+      "target": "doi:10.7554/eLife.95170",
+      "reason": "HOT loci are constrained and drive housekeeping genes; our promoter effect is mainly in HOT peaks."
+    },
+    {
+      "target": "doi:10.1038/s41586-025-09866-3",
+      "reason": "Causal models of regulator effects built on the same genome-wide Perturb-seq data; we could not read the full text."
+    }
+  ]
+}
