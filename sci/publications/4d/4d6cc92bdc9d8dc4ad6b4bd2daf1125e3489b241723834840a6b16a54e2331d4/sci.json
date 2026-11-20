@@ -1,0 +1,164 @@
+{
+ "title": "In five plant genomes of 0.12 to 4.9 Gb, the 41-fold larger wheat A genome has only 1.9 to 5.5 times more non-coding DNA that aligns to a relative at equal divergence",
+ "abstract": "In plants, a much larger genome does not have a proportionally larger amount of non-coding DNA that aligns to a related species, so it cannot have a proportionally larger amount of conserved non-coding DNA. This is important because one argument says that most non-coding DNA has a function. If that is true, the amount of non-coding DNA that natural selection keeps unchanged (conserved DNA) must increase in proportion to genome size. Conserved DNA must stay alignable, so the alignable amount is an upper limit for it.\n\nWe used public Ensembl Plants pairwise genome alignments of five reference genomes with 2 to 6 relatives each (19 pairs): Arabidopsis thaliana (0.12 Gb), rice (0.37 Gb), Medicago truncatula (0.43 Gb), maize (2.1 Gb) and the A subgenome of bread wheat (4.9 Gb; chromosome 1A, scaled by length). Non-coding DNA has no annotated protein-coding sequence in either species. We compared genomes at the same neutral divergence (0.20 and 0.42 substitutions per site at 4-fold degenerate codon sites).\n\nAligned non-coding DNA was 41 to 251 Mb per genome at divergence 0.20 and 29 to 143 Mb at 0.42. The slope of log amount on log genome size was 0.12 to 0.36 in four fits, with upper 95% limits of 0.40 to 0.72. Wheat A had 1.9 to 5.5 times the aligned non-coding DNA of Arabidopsis and 2.0 to 3.5 times that of rice (13-fold genome size). At least 20.6 Mb of rice non-coding DNA is constrained across grasses (published estimate). Proportional increase would thus need at least 273 Mb in wheat A, more than its 170 to 251 Mb of alignable non-coding DNA.\n\nPairwise conservation tests found only 0.2 to 1.4 Mb per genome after a length-matched control with old transposon DNA, far less than multi-genome estimates. Thus they cannot show how conserved DNA scales. Large genomes also contain 9 to 19 Mb of non-coding DNA that aligns to coding sequence of the other species (gene fragments). An indel-spacing method called 14 to 41% of transposon DNA constrained, so it is not reliable in plants.\n\nLimits: five genomes, and both large ones are grasses; with a grass term, one of four fits excludes proportional increase. The rice comparison has a small margin (9%) for the most permissive bound. The result is an upper bound for DNA conserved over divergence 0.2 or more; younger function, and function that does not need a conserved sequence, are outside this test.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "junk DNA",
+  "non-coding DNA",
+  "genome size",
+  "C-value paradox",
+  "onion test",
+  "conserved non-coding sequence",
+  "evolutionary constraint",
+  "plant genomes",
+  "wheat",
+  "maize",
+  "Arabidopsis",
+  "transposable elements",
+  "neutral indel model",
+  "neutral reference",
+  "pairwise genome alignment",
+  "Ensembl Plants"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_scaling.png",
+   "caption": "Non-coding DNA against genome size for five plant genomes at the same neutral divergence (left: 0.20, right: 0.42 substitutions per site at 4-fold degenerate sites). Blue: aligned non-coding DNA including soft-masked repeats, the upper limit for conserved DNA. Orange: conserved segments in excess of a length-matched transposon control (low sensitivity). Filled symbols and solid lines: one-to-one alignments; open symbols and dashed lines: reference-unique alignments. Black diamond: published lower bound for constrained non-coding DNA in rice (20.6 Mb); black star: the amount that proportional increase would require in wheat A (273 Mb). The dotted line shows proportional increase from Arabidopsis."
+  },
+  {
+   "path": "files/figures/fig3_controls_and_fragments.png",
+   "caption": "Left: share of non-coding bases in segments called conserved against the share of bases of held-out old transposon segments, length-matched to the non-coding segments, for each of 19 genome pairs. Points above the dashed line show excess conservation of non-coding DNA. Right: reference DNA without annotated coding sequence that aligns to coding sequence of the other species (gene fragments and unannotated genes), whole genome, at divergence 0.20."
+  },
+  {
+   "path": "files/figures/fig2_divergence.png",
+   "caption": "Each amount against the neutral divergence of each genome pair (one-to-one alignments). Left: aligned non-coding DNA including soft-masked repeats. Centre: segments called conserved against the local transposon rate. Right: the same after subtraction of the length-matched false-positive rate of held-out transposon segments. The high values for wheat at divergence below 0.1 (Aegilops tauschii, rye) are not used in the matched comparisons."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We adapt the neutral indel model and alignment trimming of Rands et al. 2014 and show that the model fails a neutral control in plant alignments."
+  },
+  {
+   "target": "doi:10.1101/gr.108795.110",
+   "reason": "Earlier neutral-indel-model estimates of constrained sequence in mammals and Drosophila."
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.0020005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Original neutral indel model."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "reason": "Conserved fraction of genomes across yeast, worm, insect and vertebrates."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004351",
+   "relations": [
+    "supports"
+   ],
+   "reason": "The case for junk DNA and the onion test; our upper bound gives a quantitative plant version."
+  },
+  {
+   "target": "doi:10.1002/ajb2.1002",
+   "reason": "Functional-space hypothesis: functional target size grows with plant genome size. Our upper bound excludes proportional growth but not weak growth."
+  },
+  {
+   "target": "doi:10.1101/gr.266528.120",
+   "reason": "Maize CNS space of 106 Mb, which our aligned non-coding DNA reproduces, and a positive correlation of CNS length with genome size in Andropogoneae, consistent with our slow growth."
+  },
+  {
+   "target": "doi:10.1093/gbe/evy006",
+   "reason": "Published lower bound of 20.64 Mb Poaceae-constrained non-coding sequence in rice, used for the rice-to-wheat break-even test; also shows that our pairwise conservation estimates are low.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1101/2025.09.17.676453",
+   "reason": "Conservatory: 2.3 million conserved non-coding sequences in 284 plant species, a resource for a better-powered test."
+  },
+  {
+   "target": "doi:10.1038/s41477-019-0548-z",
+   "reason": "Distal accessible chromatin regions become more common as plant genome size increases."
+  },
+  {
+   "target": "doi:10.1038/ng.2684",
+   "reason": "Atlas of conserved non-coding sequences in crucifers; estimate of selected sequence in A. thaliana."
+  },
+  {
+   "target": "doi:10.1038/ng1615",
+   "reason": "Helitrons capture gene fragments in maize; explains gene-derived 'non-coding' alignments."
+  },
+  {
+   "target": "doi:10.1105/tpc.111.083741",
+   "reason": "Frequent gene movement and pseudogenes in wheat and barley; explains gene-derived 'non-coding' alignments."
+  },
+  {
+   "target": "doi:10.1126/sciadv.aav9188",
+   "reason": "Pervasive hybridisation among wheat relatives; a possible cause of low-divergence regions between close Triticeae."
+  },
+  {
+   "target": "doi:10.1126/science.aar7191",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Wheat reference genome IWGSC RefSeq v1.0 (chromosome lengths)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkab1007",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ensembl Genomes: source of the pairwise alignments and annotations."
+  },
+  {
+   "target": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/plants/current/maf/ensembl-compara/pairwise_alignments/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ensembl Plants release 63 pairwise LASTZ_NET alignments."
+  },
+  {
+   "target": "doi:10.1111/evo.13360",
+   "reason": "Mutation-accumulation lines in Chlamydomonas: an alternative approach considered during question selection."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000192",
+   "reason": "Fitness effects of spontaneous mutations in Chlamydomonas: alternative approach considered."
+  },
+  {
+   "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+   "reason": "Related SCI test of the mutational-hazard model of junk DNA with genome size in insects."
+  },
+  {
+   "target": "sci:sha256:eb105cb0d127cd21d17f80555493898b9a415b31a5b31578db1b68dade409d95",
+   "reason": "Related SCI study of intron size in vertebrate genomes enlarged by transposons."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Shows that conservation scores depend on the neutral reference and sequence composition, as our held-out transposon control also finds."
+  },
+  {
+   "target": "sci:sha256:9d0f6d98c9e2639f20539e346e720187661c3e48ede01a558af6b8e181f713d4",
+   "reason": "Related SCI estimate of constrained non-coding DNA in a compact (fly) genome."
+  }
+ ]
+}
