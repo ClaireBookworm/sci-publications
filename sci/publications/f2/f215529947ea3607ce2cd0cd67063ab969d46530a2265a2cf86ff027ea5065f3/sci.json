@@ -1,0 +1,263 @@
+{
+ "title": "In 205 inbred fruit-fly lines, genome size had only weak, model-dependent links with traits measured by other labs, and related data did not show the published faster pupation of large-genome lines",
+ "abstract": "In 205 inbred lines of the fruit fly Drosophila melanogaster, genome size showed no detectable association with development time or with body size at 25 °C, and only weak associations with viability and body size at 17 °C, in data that other laboratories measured. This matters because, within a species, almost all differences in DNA amount are non-coding (\"junk\") DNA; a 2014 study reported that genome size explains up to 23% of variation in survival and development and that large-genome lines pupate earlier, which would mean that the bulk amount of non-coding DNA changes the body (a \"nucleotype\" effect).\n\nWe used the published flow-cytometry genome sizes of the Drosophila Genetic Reference Panel (169.7 to 192.8 Mb) and 1,572 line-mean phenotypes from 144 studies in DGRPool, with mixed models for inversions, Wolbachia and genetic relatedness (67,166 SNPs). Genome size was measured with few flies per line, and the error was larger in large-genome lines, so we report the pre-registered analysis (raw line means) and four other measurement-error models. Correlations (raw r, 95% CI): development time -0.07 (-0.21 to 0.07); body size at 25 °C -0.03 (-0.18 to 0.12); viability -0.14 (-0.28 to -0.005), -0.14 to -0.18 across models but mainly from one of three labs; thorax length at 17 °C +0.19 (0.05 to 0.32), +0.10 to +0.19 across models. Across phenotypes, 0 to 4 passed a 10% false discovery rate depending on the model, with a slight excess of nominal associations in three of five models (borderline in a fourth). Elasticity (percent trait change per 1% more DNA) of development time was -0.32 (-0.96 to 0.31) and -0.40 (-1.59 to 0.80) in two labs, so full scaling of development time with DNA content is excluded. The published earlier pupation of large-genome lines (elasticity -3.7) is opposite in sign to a Y-chromosome addition experiment (+0.25) and was not seen in related development-time data, although no independent study measured pupation time itself.\n\nA scaling argument shows the limit of this design: true genome size varies by 1.4% between lines, so a pure cell-volume effect predicts r of about 0.07 to 0.19 for size traits, below the 0.20 that 200 lines detect; about 1,400 lines would be necessary.\n\nLimits: genome size was measured once; the weak associations depend on the error model; phenotypes come from different labs and conditions; the composition of the variable DNA was not measured; temperature analyses were exploratory.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "genome size",
+  "nucleotype",
+  "non-coding DNA",
+  "junk DNA",
+  "Drosophila melanogaster",
+  "DGRP",
+  "DGRPool",
+  "replication",
+  "measurement error",
+  "regression calibration",
+  "development time",
+  "body size",
+  "phenome-wide association",
+  "C-value",
+  "elasticity",
+  "statistical power"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_replication_forest.png",
+   "caption": "Correlation of genome size with independently measured traits in DGRP lines (mixed model, all lines). Blue: raw genome size (pre-registered) with 95% CI; gray bar: range over four other measurement-error models; orange: Ellis et al. 2014 effect rescaled to all lines assuming perfect cross-lab transfer. Light band: |r| below the 80%-power detection limit."
+  },
+  {
+   "path": "files/figures/fig2_elasticity.png",
+   "caption": "Elasticity (percent trait change per 1% more DNA) with 95% CI (raw genome size, corrected for reliability; hollow: calibrated estimate). Gray: range expected if DNA acts only through cell volume (lighter: monolayer extension). Squares: XXY vs XX females (Makovec et al. 2025). Ellis minimum pupation time at 25 °C is opposite in sign."
+  },
+  {
+   "path": "files/figures/fig3_phewas.png",
+   "caption": "Phenome-wide scan (1,944 columns, 1,572 phenotypes, 144 studies, 205 lines) against 1,000 random heritable exposures, for raw and calibrated genome size, and the study-level count of associations at p < 0.01 for all five measurement-error models with the null 95% range."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1371/journal.pgen.1004522",
+   "relations": [
+    "uses",
+    "challenges"
+   ],
+   "reason": "Source of the genome sizes and of the life-history claims that we test; we reuse its Table S1. Its pupation-time effect did not reproduce."
+  },
+  {
+   "target": "doi:10.1101/gr.171546.113",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "DGRP genome architecture paper: genome sizes, inversion status, and earlier small correlations of genome size with six traits."
+  },
+  {
+   "target": "doi:10.7554/eLife.88981",
+   "relations": [
+    "uses"
+   ],
+   "reason": "DGRPool, source of the harmonized line-mean phenotypes."
+  },
+  {
+   "target": "doi:10.1534/genetics.115.174664",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Drosophila Genome Nexus consensus sequences for the DGRP lines."
+  },
+  {
+   "target": "doi:10.1093/molbev/msw195",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Drosophila Genome Nexus 1.1."
+  },
+  {
+   "target": "doi:10.1038/nature10811",
+   "reason": "The DGRP resource."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1011703",
+   "relations": [
+    "uses"
+   ],
+   "reason": "XXY vs XX females: development time and mass effects of adding heterochromatin; experimental reference for elasticities."
+  },
+  {
+   "target": "doi:10.1289/ehp.1510513",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Viability and development time on control food."
+  },
+  {
+   "target": "doi:10.1534/g3.118.200260",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Viability and development time on control food."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0110375",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Eclosion rate on control food."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1007686",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Thorax length at 17 and 28 °C."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1005616",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Thorax length and wing area at 25 °C."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1005030",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Male wet mass (DGRPool phenotype 7068)."
+  },
+  {
+   "target": "doi:10.1016/j.cub.2020.12.023",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Pupal case length."
+  },
+  {
+   "target": "doi:10.1038/s41437-023-00603-y",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Pupal area."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-29183-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Pupation, eclosion and development time on six diets."
+  },
+  {
+   "target": "doi:10.1093/evolut/qpad163",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Larva-to-adult viability."
+  },
+  {
+   "target": "doi:10.1111/evo.13408",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Cold survival; top raw phenome-wide association."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000645",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Lifespan at 18, 25 and 28 °C (temperature contrasts)."
+  },
+  {
+   "target": "doi:10.1111/evo.13391",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Cold tolerance after development at 17-29 °C."
+  },
+  {
+   "target": "doi:10.3389/fgene.2020.00573",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Male fertility at 25-29 °C."
+  },
+  {
+   "target": "doi:10.1111/mec.17294",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Pigmentation at 17 and 28 °C."
+  },
+  {
+   "target": "doi:10.1111/mec.17697",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Heat knock-down time at 37-40 °C."
+  },
+  {
+   "target": "doi:10.3390/biology15141157",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Wing and leg size at 17, 25 and 28 °C."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1012012",
+   "reason": "Inversions have large effects on DGRP traits; motivates inversion covariates."
+  },
+  {
+   "target": "doi:10.3390/genes11020218",
+   "reason": "Hjelmen et al. 2020: selection on body size and development time and genome size in flies."
+  },
+  {
+   "target": "doi:10.1098/rspb.2015.1421",
+   "reason": "Genome size correlates with reproductive fitness in seed beetles (other species, not tested here)."
+  },
+  {
+   "target": "doi:10.1098/rsbl.2022.0450",
+   "reason": "Larger genomes and buffering of adult fitness in seed beetles (other species, not tested here)."
+  },
+  {
+   "target": "doi:10.1038/s42003-021-02131-z",
+   "reason": "Within-species genome size and phenotype in a rotifer."
+  },
+  {
+   "target": "doi:10.1017/S1464793100005595",
+   "reason": "Review of the nucleotype theory (Gregory 2001)."
+  },
+  {
+   "target": "doi:10.1006/anbo.1998.0725",
+   "reason": "Critical reassessment of intraspecific genome-size variation (Greilhuber 1998)."
+  },
+  {
+   "target": "https://www.preslia.cz/article/223",
+   "reason": "Šmarda & Bureš 2010, review of intraspecific genome-size variation in plants."
+  },
+  {
+   "target": "doi:10.1098/rspb.1972.0042",
+   "reason": "Bennett 1972, DNA content and minimum generation time."
+  },
+  {
+   "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+   "reason": "Tests why genome size varies (mutational hazard); this work tests whether the variation matters."
+  },
+  {
+   "target": "sci:sha256:156af082da5a238f7b9d11becda20559d3b89e925bf62f6575557d6a0256f600",
+   "reason": "Related test of the amount of a repeat (human rDNA copy number) on gene expression."
+  },
+  {
+   "target": "sci:sha256:9d0f6d98c9e2639f20539e346e720187661c3e48ede01a558af6b8e181f713d4",
+   "reason": "Sequence-level constraint of fly non-coding DNA; complementary to this bulk-DNA test."
+  }
+ ]
+}
