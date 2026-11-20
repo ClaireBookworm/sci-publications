@@ -1,0 +1,126 @@
+{
+  "title": "In Plasmodium knowlesi, a placebo contrast removes half of the apparent requirement for non-coding DNA; what remains is about a tenth of it, in introns and the kilobase before a gene",
+  "abstract": "The usual way to measure how much non-coding DNA an organism needs from a transposon screen is to compare DNA beside genes it needs with DNA beside genes it does not; we show that this comparison is biased, measure the bias with a placebo, and give a corrected answer for the malaria parasite Plasmodium knowlesi. This matters because such figures are among the few direct, perturbation-based answers to how much of a genome an organism needs, and the same comparison has been published for fission yeast.\n\nThe placebo repeats the comparison with target genes that the parasite also does not need. It should return nothing; it returns 8.05% of the sites between genes as under selection, three quarters of the 10.74% that the real comparison returns, and more than that at long distance. The false signal is nearly flat with distance from the gene while the real one decays, so each comparison can be read against its own level far from the gene. Corrected this way, 5.6% of the DNA between genes is under selection (3.2-8.6%), not 10.7%, and almost all of it lies in the first kilobase in front of a gene the parasite needs: an insertion there is two thirds as damaging as one in coding DNA (0.67, interval 0.51-0.82), falling to nothing by one kilobase. The apparent requirement behind a gene does not survive the correction (0.11, interval -0.25 to 0.47). Introns are nearly as costly as coding DNA (0.93), so over all non-coding DNA the figure is 1.22 Mb, 9.7% of it, 5.0% of the genome. Insertions that read into a needed gene outnumber those reading away at 77-78% of sites within 300 bases of it, against 54% beside genes that are not needed, and only within that kilobase. Intergenic DNA far from genes that carries RNA-seq reads loses no more insertions over time than intergenic DNA without them.\n\nAll numbers come from 1.55 billion raw read pairs re-called by us. Limits: one life stage in culture; the size of the shortfall falls from 0.67 to 0.30 if the genes are labelled from the time course instead of from insertion counts; the bias is measured but not explained.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "functional fraction",
+    "transposon insertion sequencing",
+    "piggyBac",
+    "Plasmodium knowlesi",
+    "malaria parasite",
+    "placebo test",
+    "estimator bias",
+    "promoter",
+    "intergenic DNA",
+    "fitness",
+    "insertion bias",
+    "Apicomplexa",
+    "genome function",
+    "introns"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig6_placebo.png",
+      "caption": "The placebo test. Each quartile of coding insertion density in turn is the target group, always against the top quartile as the control. Q1 holds the genes the parasite most needs; Q3 holds genes it does not need, so its curve should be flat at zero. It is 0.40 at the start codon, rises to 0.64, and is still 0.18 at 1500-2000 bases, where Q1 has returned to zero. The part that does not decay with distance is bias; the part that does is signal. B: what each target returns as a genome-wide total, where the placebo returns more than the genes that are actually needed."
+    },
+    {
+      "path": "files/figures/fig1_footprint.png",
+      "caption": "Insertion density against distance to the nearest coding base, beside genes whose own coding DNA is nearly free of insertions (the parasite needs them) and beside genes whose coding DNA is full of them, on the 5-prime side (A) and the 3-prime side (B). C: the shortfall of a distance bin divided by the shortfall of coding DNA, matched on local GC content, TTAA density and the length of the intergenic run, before the placebo correction. The 5-prime shortfall halves about every 250-300 bases and is gone by one kilobase."
+    },
+    {
+      "path": "files/figures/fig3_calibration.png",
+      "caption": "A: the screen separates the genes the parasite needs. Housekeeping genes have a median coding insertion density of 13.8 fragments per TTAA site, antigen and exported proteins 423.5. B: inside one flank of one gene, the first 300 bases hold 11.5 times fewer insertions than the same flank at 1000-2000 bases when the gene is needed, and 1.37 times fewer when it is not."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1126/science.adq6241",
+      "relations": [
+        "uses"
+      ],
+      "reason": "The transposon libraries, the RNA-seq and the time course re-analysed here come from this study, whose supplementary figure S9 already shows the upstream shortfall stratified by essentiality over a 1 kb window, and whose main text already reports the orientation bias."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1116591",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Raw sequencing reads of the insertion libraries and of the RNA-seq."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000006355.2/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Reference genome and annotation of Plasmodium knowlesi strain H."
+    },
+    {
+      "target": "sci:sha256:3bda8d30259fe755605e719c4d5838b4265e8de331ce655a771bdd4eb564a3bc",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Closest prior work: the same neighbour-gene test in fission yeast, with the gene-linked share we also report. Our result agrees that most non-coding DNA tolerates insertions, and finds a several times larger upstream footprint in a genome with longer spacers, which that work named as an open question."
+    },
+    {
+      "target": "sci:sha256:c0893ef4b28bd1149025047c481b39e70fd380849b8d258c6d9d0989898b1386",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Time-course test of insertion depletion in fission yeast; we use the same idea of a second time point and a retention statistic."
+    },
+    {
+      "target": "doi:10.1093/molbev/msz113",
+      "reason": "Grech et al. 2019, the fission-yeast study whose functional-fraction claim motivated this line of work; it raises the neighbour-disruption objection that our placebo quantifies and leaves it unquantified."
+    },
+    {
+      "target": "doi:10.1126/science.adq7347",
+      "reason": "The companion supersaturation screen of the same parasite, which scores genes."
+    },
+    {
+      "target": "doi:10.1126/science.aap7847",
+      "reason": "The earlier piggyBac saturation screen of Plasmodium falciparum."
+    },
+    {
+      "target": "doi:10.1093/bioinformatics/bty191",
+      "relations": [
+        "uses"
+      ],
+      "reason": "minimap2, through the mappy package, maps the RNA-seq reads."
+    },
+    {
+      "target": "doi:10.1186/s12864-020-06787-5",
+      "reason": "Published transcript boundaries in Plasmodium falciparum, used to judge our own estimates of 5' leader length."
+    },
+    {
+      "target": "doi:10.1093/gbe/evag104",
+      "reason": "A 2026 discussion of whether pervasive transcription marks function; we test that idea with growth data in intergenic DNA."
+    },
+    {
+      "target": "doi:10.1038/msb.2011.58",
+      "reason": "Christen et al. 2011 measured essential promoter regions in Caulobacter from lethal antisense insertions, median 41 bases; the same effect, ten to twenty times shorter than ours."
+    },
+    {
+      "target": "doi:10.1073/pnas.1519220112",
+      "reason": "Rubin et al. 2015 measured a 52-base upstream depletion in Synechococcus with a distance profile; the closest published equivalent of our figure 1."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.3003184",
+      "reason": "Billmyre et al. 2025 bounded the upstream effect experimentally in Cryptococcus between 77 and 296 bases."
+    },
+    {
+      "target": "doi:10.7554/eLife.04106",
+      "reason": "Caro et al. 2014 published per-stage median 5-prime leader lengths in Plasmodium falciparum, against which our lower bound is judged."
+    }
+  ]
+}
