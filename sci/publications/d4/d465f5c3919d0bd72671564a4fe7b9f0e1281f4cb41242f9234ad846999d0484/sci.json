@@ -1,0 +1,160 @@
+{
+  "title": "In curated mouse knockouts, 21 of 77 lncRNA genes had a phenotype like the nearest gene's knockout, 2.7 times the gene-pair rate, mostly lncRNAs named after that gene",
+  "abstract": "In the mouse knockout record, the defects of mice that lose a long non-coding RNA (lncRNA) gene resemble those of mice that lose the nearest protein-coding gene about 2.7 times more often than in pairs of neighbouring protein-coding genes, and the excess comes mostly from lncRNAs named after that neighbour. This matters because papers often use a lncRNA knockout defect as evidence that the RNA itself has a function; a defect that copies the neighbour's defect is also consistent with an effect on the neighbouring gene, or with investigators looking first for the neighbour's phenotype.\n\nWe used all single-gene mouse genotypes with curated phenotypes in Mouse Genome Informatics (MGI, November 2026). For each locus we measured how similar its knockout phenotype is to that of its nearest protein-coding gene (information-weighted overlap of Mammalian Phenotype ontology terms) and ranked this similarity against protein-coding genes with equally rich records; 'copying' means the neighbour ranks in the top 5%. With annotations from single-locus studies and no shared papers, 21 of 77 lncRNA genes copied (27.3%, 95% CI 18.6-38.1%), against 8.8% for 1,950 neighbouring gene pairs (10.0% after reweighting; Mantel-Haenszel odds ratio 3.4, 2.0-5.8). Enhancers and other regulatory elements copied at 33%. The excess held in eleven sensitivity analyses, including removal of loci within 2 kb of the gene and a required specific shared term.\n\nThe pattern fits ascertainment at least as well as local regulation. lncRNAs named after their neighbour copied in 13 of 28 cases (46%), the other 49 in 8 (16%; not significantly above baseline, p = 0.07). MicroRNA genes inside protein-coding genes, whose products act elsewhere, copied their host as often as lncRNAs did (26%), and protein-coding genes next to the same neighbours copied at 20%. Distance and allele design did not separate the explanations, although at Hand2os1 and Lncenc1 only the polyA-insertion alleles copied. The systematic IMPC pipeline cannot test ascertainment, because its gene pairs copy at chance level. We give a locus table and laboratory tests, including a cis-trans test.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "lncRNA",
+    "non-coding DNA",
+    "junk DNA",
+    "mouse knockout",
+    "Mouse Genome Informatics",
+    "Mammalian Phenotype ontology",
+    "cis regulation",
+    "semantic similarity",
+    "allele design",
+    "enhancer deletion",
+    "microRNA host gene",
+    "ascertainment bias",
+    "IMPC",
+    "meta-research"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_neighbour_copying.png",
+      "caption": "a: Fraction of loci whose knockout phenotype is in the top 5% of similarity to the knockout phenotype of the nearest protein-coding gene (matched analysis; 95% Wilson intervals), with the gene-pair baseline (dashed, 8.8%) and chance (dotted). microRNA genes inside protein-coding genes copy their host as often as lncRNAs copy their neighbour. b: Other lncRNA genes (orange) and protein-coding gene pairs (blue) in ten analysis variants; the excess is absent only for the second-nearest gene."
+    },
+    {
+      "path": "files/figures/fig2_naming_position.png",
+      "caption": "a: Copying by naming: lncRNAs named after their neighbour copy far more often than other lncRNAs; protein-coding genes next to the same neighbours (same-neighbour control) copy at 20%. b: Copying by position relative to the nearest gene (exploratory; no distance trend)."
+    },
+    {
+      "path": "files/figures/fig3_design_pipeline.png",
+      "caption": "Copying by lncRNA allele design (other lncRNA genes, single-locus alleles, gene level) and by how the mouse line was made (allele level). Designs do not differ significantly. The 11 IMPC/KOMP lines do not copy, but IMPC-scored gene pairs copy only at chance level, so this check has no power."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1093/genetics/iyae031",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mouse Genome Informatics is the source of all marker, allele and phenotype data."
+    },
+    {
+      "target": "https://www.informatics.jax.org/downloads/reports/index.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MGI report files downloaded 2026-11-19 (checksums in files/data/provenance.tsv)."
+    },
+    {
+      "target": "doi:10.1186/gb-2004-6-1-r7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mammalian Phenotype ontology used for phenotype profiles."
+    },
+    {
+      "target": "doi:10.1186/1471-2105-9-S5-S4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "simGIC semantic similarity measure."
+    },
+    {
+      "target": "doi:10.1038/nature20149",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Cell-line evidence that lncRNA promoters and transcription regulate neighbouring genes; the in vivo copying pattern is consistent with it."
+    },
+    {
+      "target": "doi:10.1038/nature20128",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Upperhand/Hand2: transcription of the locus regulates the neighbour; a top-ranked locus here."
+    },
+    {
+      "target": "doi:10.1016/j.devcel.2012.12.012",
+      "reason": "Fendrr/Foxf1 knockout, an example locus."
+    },
+    {
+      "target": "doi:10.7554/eLife.01749",
+      "reason": "Velocigene lincRNA knockouts included in the data."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0125522",
+      "reason": "Twenty lincRNA knockout lines included in the data."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1005691",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Targeted alleles change expression of neighbouring genes, one mechanism for copying."
+    },
+    {
+      "target": "doi:10.7554/eLife.03058",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Earlier consensus that lncRNA knockouts can act through the locus rather than the RNA; this study quantifies it database-wide."
+    },
+    {
+      "target": "doi:10.1038/s41576-019-0184-5",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Review of cis-acting lncRNAs."
+    },
+    {
+      "target": "doi:10.1186/s13059-020-01994-5",
+      "reason": "Review of lncRNA reverse-genetics studies, including phenotypes not attributed to the lncRNA."
+    },
+    {
+      "target": "doi:10.7554/eLife.40815",
+      "reason": "Zebrafish lncRNA mutants: few overt phenotypes."
+    },
+    {
+      "target": "doi:10.1186/s13059-018-1619-6",
+      "reason": "C. elegans lincRNA knockouts with cis effects on neighbours."
+    },
+    {
+      "target": "doi:10.1038/s41576-021-00427-8",
+      "reason": "Review of lncRNA knockout strategies (deletion, transcription stop, rescue)."
+    },
+    {
+      "target": "doi:10.1038/nature19356",
+      "reason": "IMPC systematic phenotyping pipeline used in the ascertainment check."
+    },
+    {
+      "target": "sci:sha256:3bbf04a7940d133b8f3610d2a90b93fd8d34ba87e9d5154e464bb2571bab691f",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Human knock-down screens show excess effects at small-RNA host lncRNA loci; here such hosts do not copy the neighbour, consistent with the small RNA carrying the effect."
+    },
+    {
+      "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+      "reason": "Related audit of lncRNA function claims from a Cas13d screen."
+    },
+    {
+      "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+      "reason": "Related: no selection at human lncRNA splice sites."
+    },
+    {
+      "target": "sci:sha256:52b9a8754254d769528350d28fa20acdc2ee3a6863c362887e286aeef9a10563",
+      "reason": "Related test of local (spacer) roles of non-coding DNA near genes."
+    }
+  ]
+}
