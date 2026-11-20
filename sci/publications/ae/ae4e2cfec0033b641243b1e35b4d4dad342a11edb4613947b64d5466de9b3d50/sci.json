@@ -1,0 +1,183 @@
+{
+  "title": "Mouse lncRNA knockouts resemble genes their papers name on other chromosomes nearly as much as named nearby genes, so phenotype resemblance in curated data is not evidence of local action",
+  "abstract": "In the curated mouse knockout record, the phenotype of a long non-coding RNA (lncRNA) knockout resembles the knockout phenotype of a gene that its paper names on another chromosome nearly as much as that of a named gene next to the lncRNA; enhancer and other regulatory-region knockouts show most of the same pattern. This matters because papers often argue that a non-coding knockout acts through its neighbouring gene when the two phenotypes are similar, and knockout phenotypes are the main whole-organism evidence that lncRNA loci have functions.\n\nWe used Mouse Genome Informatics (MGI) phenotype annotations (release of 2026-11-19). A resemblance score is the percentile of a target gene's knockout profile among 13,153 phenotyped protein-coding genes (0.5 = no resemblance); independent alleles of one gene score 0.762 and neighbouring protein-coding genes 0.510. Genes named in the titles or abstracts of lncRNA knockout papers score 0.841 (95% CI 0.758-0.913, 29 loci) when they lie within 1 Mb and 0.803 (0.739-0.860, 33 loci) when they lie on another chromosome. For regulatory-region knockouts the values are 0.904 and 0.780. Within loci that name both, near minus far is -0.015 (-0.20 to +0.14, 9 lncRNA loci) and +0.047 (-0.05 to +0.14, 19 regulatory loci); a modest position effect is therefore not excluded. lncRNA knockouts without a named nearby gene resemble their nearest gene slightly more than the protein-coding baseline (registered test +0.086, +0.010 to +0.163) and not clearly more than microRNA knockouts (+0.024, -0.083 to +0.131; +0.058 after removing microRNA host genes and Hox-cluster microRNAs).\n\nIn fission yeast, where lincRNA deletions were measured in the same conditions, the deletion profiles of 107 lincRNAs show no detectable resemblance to the deletion profiles of their neighbouring genes (0.474, 0.434-0.516; same gene in two screens 0.703), but this test has low sensitivity.\n\nLimitations: 9 to 39 loci per comparison; curated data follow the authors' interests; the score ignores the direction of effects.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "lncRNA",
+    "non-coding DNA",
+    "junk DNA",
+    "knockout mice",
+    "cis regulation",
+    "neighbouring gene",
+    "investigator focus",
+    "Mouse Genome Informatics",
+    "Mammalian Phenotype ontology",
+    "phenotype similarity",
+    "enhancer deletion",
+    "microRNA",
+    "selection cassette",
+    "fission yeast",
+    "phenomics",
+    "re-analysis"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_mouse_named.png",
+      "caption": "Mouse knockouts: mean resemblance score (percentile of the target gene among 13,153 phenotyped protein-coding genes; 0.5 = no resemblance). Filled markers: a gene near the locus; open markers: genes the same papers name on other chromosomes. Near/far rows use exact mouse-symbol matching in titles and abstracts; the two \"no gene named\" rows use loci with no gene named within 1 Mb (symbol, upper case or synonym) scored against the nearest gene, without microRNA host genes and Hox-cluster microRNAs. Grey rows: same-gene ceiling and protein-coding neighbour baseline. Bars: 95% bootstrap intervals over loci."
+    },
+    {
+      "path": "files/figures/fig2_mouse_paired.png",
+      "caption": "Loci whose papers name both a gene within 1 Mb and genes on other chromosomes (exact symbol matching). Each line joins the score of the named nearby gene (filled) and the mean score of the named genes on other chromosomes (open) for one locus. The mean difference and its 95% bootstrap interval are in each panel title."
+    },
+    {
+      "path": "files/figures/fig3_yeast.png",
+      "caption": "Fission yeast. (a) Mean percentile of the target gene's 2023 deletion-library profile among 3,451 genes, for 2022 deletion profiles over 37 matched conditions. The same coding gene scores 0.70; lincRNA deletions against their neighbouring genes score 0.47, near the coding-neighbour level. (b) Probability that a strain with no real effect gets at least one hit in 133 conditions, by per-test false-positive rate; blue line: share of lincRNA deletions with at least one published stress hit."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.7554/eLife.76000",
+      "relations": [
+        "uses",
+        "reviews"
+      ],
+      "reason": "Source of the fission-yeast lincRNA deletion, coding deletion and over-expression phenotype tables that we re-analyse; also reports the independent-mutant concordance we cite."
+    },
+    {
+      "target": "doi:10.7554/eLife.88229",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source of the 2023 deletion-library phenomics table used as the neighbour and same-gene reference in yeast."
+    },
+    {
+      "target": "doi:10.1093/genetics/iyae031",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mouse Genome Informatics, source of all mouse genotype-phenotype annotations, allele attributes and coordinates."
+    },
+    {
+      "target": "https://www.informatics.jax.org/downloads/reports/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MGI report files (MGI_PhenoGenoMP.rpt, MGI_PhenotypicAllele.rpt, MRK_List2.rpt, MPheno_OBO.ontology) downloaded 2026-11-19."
+    },
+    {
+      "target": "doi:10.1002/wsbm.44",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mammalian Phenotype ontology used for phenotype profiles and information content."
+    },
+    {
+      "target": "doi:10.1093/genetics/iyae007",
+      "relations": [
+        "uses"
+      ],
+      "reason": "PomBase, source of fission-yeast gene coordinates and gene types."
+    },
+    {
+      "target": "doi:10.7554/eLife.55160",
+      "reason": "pyphe pipeline that produced the yeast colony-size effect sizes and hit calls."
+    },
+    {
+      "target": "doi:10.7554/eLife.01749",
+      "reason": "Systematic mouse lincRNA knockouts; earlier evidence on phenotypes and neighbouring-gene effects."
+    },
+    {
+      "target": "doi:10.1038/nature20149",
+      "reason": "Local regulation by lncRNA promoters, transcription and splicing in cell lines; the cellular counterpart of our question."
+    },
+    {
+      "target": "doi:10.1038/s41576-019-0184-5",
+      "reason": "Review of cis-acting lncRNAs."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2018.01.011",
+      "reason": "Review of lncRNA functional classes and experimental dissection, including the neighbour confound."
+    },
+    {
+      "target": "doi:10.1126/science.aah7111",
+      "reason": "CRISPRi lncRNA screen in which 169 of 499 hits lie next to essential genes."
+    },
+    {
+      "target": "doi:10.1038/s41592-024-02190-0",
+      "reason": "Shows that CRISPRi lncRNA hits are enriched near essential coding genes; the screen-level counterpart of our mouse result."
+    },
+    {
+      "target": "doi:10.1038/nature25461",
+      "reason": "Enhancer knockout phenotypes and redundancy; context for the regulatory-region class."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2017.12.017",
+      "reason": "Ultraconserved enhancer knockout phenotypes; context for the regulatory-region class."
+    },
+    {
+      "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+      "reason": "SCI calibration of a Cas13d lncRNA essentiality screen; a complementary test of lncRNA function claims with different data."
+    },
+    {
+      "target": "sci:sha256:c0893ef4b28bd1149025047c481b39e70fd380849b8d258c6d9d0989898b1386",
+      "reason": "SCI estimate of the share of fission-yeast non-coding DNA where transposon insertions reduce growth; context for the yeast part."
+    },
+    {
+      "target": "sci:sha256:3bda8d30259fe755605e719c4d5838b4265e8de331ce655a771bdd4eb564a3bc",
+      "reason": "SCI analysis of fission-yeast non-coding DNA near essential genes; context for neighbour effects in yeast."
+    },
+    {
+      "target": "doi:10.1073/pnas.1411263112",
+      "reason": "Follow-up of 13 mouse lincRNA knockouts; 4 changed neighbouring genes in cis."
+    },
+    {
+      "target": "doi:10.1093/jmcb/mjy003",
+      "reason": "Twelve mouse lncRNA knockouts; promoter deletions changed neighbouring genes."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0125522",
+      "reason": "Twenty mouse lincRNA knockout lines; source of several alleles in the MGI data."
+    },
+    {
+      "target": "doi:10.1038/nature20128",
+      "reason": "Upperhand transcription controls Hand2; a named locus in our data."
+    },
+    {
+      "target": "doi:10.7554/eLife.03058",
+      "reason": "Considerations for lncRNA function in vivo, including neighbour effects."
+    },
+    {
+      "target": "doi:10.1186/s13059-020-01994-5",
+      "reason": "Review of reverse-genetics studies of lncRNAs."
+    },
+    {
+      "target": "doi:10.1038/s41576-021-00427-8",
+      "reason": "Review of the genetics of mammalian lncRNAs in vivo."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.0040034",
+      "reason": "Knockouts can unintentionally delete intronic microRNAs; relevant to the microRNA reference class."
+    },
+    {
+      "target": "doi:10.1073/pnas.93.23.13090",
+      "reason": "Selection cassettes disrupt distant gene expression; relevant to the allele-type result."
+    },
+    {
+      "target": "doi:10.1016/s0092-8674(00)81073-9",
+      "reason": "Know your neighbors: cassette effects on neighbouring genes in knockouts."
+    },
+    {
+      "target": "doi:10.1038/ncomms6576",
+      "reason": "nc-tgp1 represses tgp1 by transcriptional interference; the documented yeast cis case our test misses."
+    }
+  ]
+}
