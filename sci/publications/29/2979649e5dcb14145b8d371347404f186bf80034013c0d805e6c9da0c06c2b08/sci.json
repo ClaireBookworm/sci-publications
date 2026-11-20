@@ -1,0 +1,155 @@
+{
+ "title": "In 76,215 human genomes, the X chromosome adds ten times more variant deficit at conserved coding than at conserved non-coding sites, so strong recessive selection acts on few non-coding bases",
+ "abstract": "On the X chromosome, which males carry in one copy, conserved protein-coding sites have many fewer variants than on other chromosomes, but conserved non-coding sites have only slightly fewer. This matters because conserved non-coding DNA shows weak selection in human samples, and hidden recessive selection, which rare autosomal variants cannot see but males expose on the X, was a possible reason; the data limit strong recessive selection to a few percent of these bases.\n\nWe used gnomAD v4.1 (76,215 genomes) on chrX (132.6 Mb callable) and chr4, 7, 8 and 13 (543 Mb). The deficit is 1 minus observed/expected single-nucleotide variants, with expected counts from neutral bases of the same 3-base context, repeat state and 1-Mb window. Conserved means a 241-mammal phyloP score of 2.27 or more. Conserved missense sites: deficit 0.465 on X and 0.273 on autosomes (extra 0.192, 95% CI 0.167-0.222). Conserved non-coding sites: 0.122 and 0.104 (extra 0.018, 0.011-0.027); with a neutral reference near genes the extra is 0.006 (-0.005 to 0.015), while coding stays near 0.2. The singleton excess is amplified on X by a similar factor for both (1.29 and 1.27). A pre-registered test found non-coding mutations not more recessive than missense. In a population-genetic model of eight statistics, a purely additive model is rejected for conserved non-coding bases; uniform partial dominance (h about 0.2-0.3) and an additive majority with 1-3% strongly recessive bases fit equally well, and a fully recessive subclass with fitness cost of 0.03 or more includes at most 3-7.5% of bases. The model splits the autosomal deficit into a lower mutation rate (0.05-0.06) and selection (0.048), in agreement with a de novo calibration (0.045). Conserved regulatory elements show more X amplification of common-variant loss than additivity allows, a hint of weak recessive selection.\n\nLimits: absolute dominance is not identified (h moves from 0.1 to 1.0 for a 2% difference in X mutation rate); the model does not fit strongly selected coding sites; X and autosomal genes differ in content; four autosomes were used.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "dominance",
+  "X chromosome",
+  "hemizygous exposure",
+  "purifying selection",
+  "gnomAD",
+  "phyloP",
+  "candidate cis-regulatory elements",
+  "mutation rate",
+  "distribution of fitness effects",
+  "population genetics",
+  "linked selection",
+  "mixture model"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_x_vs_autosome_deficit.png",
+   "caption": "(a) Variant deficit on the X chromosome against the deficit on four autosomes for conserved bases (phyloP >= 2.27), by class; large symbols pool all conserved bins (95% bootstrap intervals), small points are single phyloP bins; lines are model expectations for dominance h = 0.5, 0.25 and 0.1. (b) Zoom on non-coding classes and synonymous sites, with model lines without (faint) and with (solid) the fitted mutation-rate offset of 0.06. (c) Extra X deficit (X minus autosomes) at conserved and non-conserved bases with 95% bootstrap intervals."
+  },
+  {
+   "path": "files/figures/fig2_frequency_and_dominance.png",
+   "caption": "(a) Singleton excess on X divided by singleton excess on autosomes, for conserved bases of each class (95% bootstrap intervals). (b) Dominance h from joint fits of eight statistics under six model variants (fitted or theoretical X population size; shared mutation offset, female mosaic dominance, or allele-frequency statistics only), with 95% profile intervals scaled for model misfit. Missense and stop-gain fits are poor."
+  },
+  {
+   "path": "files/figures/fig3_mutation_offset_and_recessive_bound.png",
+   "caption": "(a) Split of the autosomal deficit of conserved non-coding bases into a mutation-rate offset (grey, 95% profile) and a selective deficit (orange) from joint fits, compared with the selective deficit from an independent de novo calibration (green). (b) Largest fraction of conserved non-coding bases that can be fully recessive, by fitness cost of that subclass, with the rest additive or h = 0.3. (c) Largest fraction of non-conserved cCRE bases with fully recessive selection, from singleton shares alone (dashed) or singleton and common-variant shares (solid)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "Its de novo calibrated selective deficit at mammal-conserved non-coding bases (4.5%, 2.2-6.6) motivates the question; our X-based split of mutation and selection (selective deficit 0.048) agrees with it."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We adapted its gnomAD VCF token parser (vcfx.c) and build on its finding of near-zero rare-variant excess in non-conserved cCREs."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "Constrained non-coding DNA outside accessible chromatin; context for conserved non-coding selection."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "reason": "phyloP error rates in neutral DNA; part of the near-neutral conserved bases in our fit may be phyloP false positives."
+  },
+  {
+   "target": "sci:sha256:69ea33c89abf1818cae6b26c494d761a61bf094d569b15c75ed6d8048b7ce02c",
+   "reason": "Upper bound on weak selection in non-conserved regulatory DNA across great apes; our X test addresses the recessive case."
+  },
+  {
+   "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+   "reason": "Deletion-based test of conserved and non-conserved non-coding DNA in gnomAD."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome variant data."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP scores."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE candidate cis-regulatory elements (registry V4)."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE gene annotation (V46)."
+  },
+  {
+   "target": "doi:10.1126/science.1219240",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Demographic model backbone."
+  },
+  {
+   "target": "doi:10.1093/molbev/msu166",
+   "reason": "X-versus-autosome selection in human coding sequence."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1011198",
+   "reason": "Dominance of human nonsynonymous mutations (h > 0.15)."
+  },
+  {
+   "target": "doi:10.1038/s41467-018-05281-7",
+   "reason": "Joint estimation of dominance and selection from polymorphism data."
+  },
+  {
+   "target": "doi:10.1086/284724",
+   "reason": "Theory of selection on X-linked versus autosomal genes."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2019.12.015",
+   "reason": "Transcription-coupled lowering of germline mutation rates; candidate explanation for the X-specific genic offset."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "reason": "Base-pair mammalian constraint and human variation."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/downloads",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome sites VCFs, LCR and segmental duplication intervals."
+  },
+  {
+   "target": "doi:10.1038/ng.877",
+   "reason": "X-linked versus autosomal diversity and linked selection near genes; candidate source of the gene-region X offset."
+  },
+  {
+   "target": "doi:10.1101/023234",
+   "reason": "Lower divergence near conserved regulatory elements on the X."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8570791",
+   "reason": "Partly recessive deleterious alleles and enhanced purifying selection on the Drosophila X."
+  }
+ ]
+}
