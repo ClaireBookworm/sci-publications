@@ -1,0 +1,154 @@
+{
+ "title": "Mouse papers reporting one enhancer deletion found a defect in 73% of deletions, papers reporting several in 41% (53% without 3 redundancy studies); conservation showed no detectable link",
+ "abstract": "Deleting one enhancer from the mouse genome caused a reported defect in 58% of 226 published cases: in 73% when the paper reported only that deletion and in 41% when it reported two or more (53% without three studies of redundant enhancers); among these deletions, the evolutionary conservation of the deleted DNA showed no detectable link to a defect. This matters because papers that report one deletion probably give a too-high success rate for planning deletion experiments, and because conservation, the main evidence used to say which non-coding DNA has a function, did not separate deletions with and without a defect among the conserved candidates that investigators choose. An enhancer is a non-coding DNA region that increases transcription of a target gene. We took all 359 enhancers with a mutant allele in Mouse Genome Informatics (MGI, November 2026). Agent curators, blind to conservation, read the 293 linked papers and recorded whether mice that lose the enhancer had an organismal defect (death, malformation, or changed tissues, cell numbers, physiology, behaviour or fertility) beyond a change in target-gene expression. Their calls agreed with MGI's own curation in 91% of 74 shared cases (kappa 0.49), and an independent audit of 16 calls found no error. After removal of compound records that contain other deleted enhancers, 132 of 226 deletions (159 papers) had a defect (95% CI 49-68%, bootstrap over papers). The gap between single- and multi-deletion papers (odds ratio 3.8, 1.8-7.8) was smaller but held without the three redundancy studies (73% vs 53%; odds ratio 2.3, 1.2-4.4), after adjustment for loss of target expression, and without long or super-enhancer records; its cause (selective publication, choice of strong candidates, or study design) cannot be separated. Deleted enhancers were far more conserved than random annotated mouse enhancers; among them, the odds ratio for a defect was 1.06 per SD of phastCons coverage (0.74-1.51), so effects up to about 1.7 per SD are not excluded. Target-gene dosage sensitivity and nearby-enhancer number showed no clear link. Loss of target expression did go with a defect (71% vs 12% when expression was unchanged), and 32 of 94 deletions without a defect gave one in combination with other deletions. Limits: published deletions only, mostly targeted phenotyping, agent curation, narrow conservation range. We release the curated table with evidence quotes, 84 unphenotyped deletion lines, and testable predictions.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.QM"
+  }
+ ],
+ "keywords": [
+  "enhancer deletion",
+  "non-coding DNA function",
+  "junk DNA",
+  "mouse knockout",
+  "Mouse Genome Informatics",
+  "evolutionary conservation",
+  "phyloP",
+  "enhancer redundancy",
+  "publication bias",
+  "meta-research",
+  "dosage sensitivity",
+  "gene regulation",
+  "CRISPR deletion",
+  "phenotype"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig3_what_predicts.png",
+   "caption": "Fraction of single-enhancer loss alleles with an organismal defect (95% Wilson intervals; numbers are defects/deletions). (a) Papers that report one deletion (orange) against papers that report two or more (blue), for all deletions and split by whether target-gene expression fell. (b) By conservation tertile (mean phyloP of the best 50-bp window, 35 vertebrates). (c) By the reported loss of target-gene expression (52 deletions with a percentage)."
+  },
+  {
+   "path": "files/figures/fig1_outcomes_selection.png",
+   "caption": "(a) Outcomes of single-enhancer loss alleles after adjudication (compound records and multi-enhancer blocks excluded). (b) Deleted enhancer features of 100-5,000 bp (orange) are far more conserved than length-matched random annotated mouse enhancers (blue): cumulative distribution of the mean phyloP in the best 50-bp window."
+  },
+  {
+   "path": "files/figures/fig2_predictors.png",
+   "caption": "Univariable odds ratios (95% CI; standard errors clustered by paper) for an organismal defect after loss of one enhancer. Only the paper type (single- vs multi-enhancer paper) is clearly associated; conservation, target-gene dosage sensitivity and regulatory context show no detectable link. Loss of target expression (not shown; odds ratio 17 against unchanged expression) is the strongest correlate."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:d465f5c3919d0bd72671564a4fe7b9f0e1281f4cb41242f9234ad846999d0484",
+   "reason": "Analysed MGI lncRNA knockouts (and noted enhancer knockouts) for phenotype resemblance and ascertainment; we use the same database for enhancer deletion outcomes."
+  },
+  {
+   "target": "sci:sha256:ae4e2cfec0033b641243b1e35b4d4dad342a11edb4613947b64d5466de9b3d50",
+   "reason": "Related MGI knockout meta-research on non-coding loci and ascertainment."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "CRISPRi-validated human enhancers: conservation related to target dosage sensitivity; we test conservation and dosage against in vivo deletion outcomes in mice."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "reason": "Reports that phyloP error rates vary with sequence composition, a limit of our conservation measures."
+  },
+  {
+   "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+   "reason": "Population evidence that deletions of conserved non-coding DNA are selected against in humans; complements in vivo deletion outcomes."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.0050234",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ultraconserved element deletions; part of the curated set."
+  },
+  {
+   "target": "doi:10.1038/nature25461",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "Systematic limb enhancer deletions; redundancy; part of the curated set."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2017.12.017",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ultraconserved enhancer deletions with phenotypes; part of the curated set."
+  },
+  {
+   "target": "doi:10.1038/s41576-020-00311-x",
+   "reason": "Review of enhancer redundancy."
+  },
+  {
+   "target": "doi:10.1093/genetics/iyae031",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Mouse Genome Informatics, source of alleles and phenotype curation."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD loss-of-function constraint (LOEUF)."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons conserved elements."
+  },
+  {
+   "target": "doi:10.1038/nature11247",
+   "reason": "ENCODE biochemical definition of function."
+  },
+  {
+   "target": "doi:10.1073/pnas.1318948111",
+   "reason": "Evolutionary, biochemical and genetic definitions of functional DNA."
+  },
+  {
+   "target": "https://www.informatics.jax.org/downloads/reports/index.html",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MGI public reports (November 2026)."
+  },
+  {
+   "target": "https://api.genome.ucsc.edu/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC mm39 phyloP35way and phastConsElements35way; liftOver chains."
+  },
+  {
+   "target": "https://ftp.clinicalgenome.org/ClinGen_gene_curation_list_GRCh38.tsv",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ClinGen haploinsufficiency scores."
+  },
+  {
+   "target": "doi:10.1038/s41576-021-00424-x",
+   "reason": "Review that tallies single ultraconserved-enhancer deletions (4 of 8 with phenotypes); closest prior tally."
+  },
+  {
+   "target": "doi:10.1038/nature03022",
+   "reason": "Megabase deletions of conserved gene deserts gave viable mice: conservation without a detectable deletion phenotype."
+  },
+  {
+   "target": "doi:10.1038/s41588-021-00812-3",
+   "reason": "Ultraconserved enhancer function does not require perfect conservation."
+  }
+ ]
+}
