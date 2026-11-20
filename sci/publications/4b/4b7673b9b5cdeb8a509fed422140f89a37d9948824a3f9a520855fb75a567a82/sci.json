@@ -1,0 +1,182 @@
+{
+ "title": "After 777 gene losses in 18 mammal species, conserved non-coding DNA near the lost gene kept an estimated 87-90% of its constraint, while the gene's coding sequence decayed most of the way to neutral",
+ "abstract": "When a mammal lineage loses a protein-coding gene, the conserved non-coding DNA next to that gene keeps an estimated 87-90% of its constraint, while the gene's own coding sequence decays most of the way to neutral. This matters because conserved non-coding elements (CNEs) are usually assigned to their nearest gene and read as its enhancers; for genes that mammals can lose, only a small part of the constraint on such elements follows the gene.\n\nWe used gene losses from TOGA (gene-inactivating mutations in 91 mammals) that at least two related species share. For 777 losses of 607 genes in 18 losing species we streamed alignment chains and genomes of the losing species (A), its nearest relative that kept the gene (B) and an outgroup (O), and counted base changes on the A and B lineages at 13,258 CNEs assigned to the lost genes (nearest transcription start site within 500 kb), relative to 1,500 genes that no mammal has lost.\n\nCNEs of lost genes had 20% more A-lineage changes than expected (odds ratio 1.20, 95% CI 1.12-1.29; two-stage over species and genes 1.07-1.35); relative to neutral DNA of the same loci it was 1.16 (1.04-1.30). The decay fraction phi (extra change as a share of the change expected if neutral for the whole lineage branch) was 0.09 for CNEs and 0.92 for the coding sequence of the same genes, which serves as a positive control. Their ratio, the share of CNE constraint lost, was 0.10 (0.04-0.16; variants 0.11-0.13; likely an underestimate), from -0.02 in narwhal to 0.26 in rabbit. CNEs of the intact genes next to a lost gene had about half the excess (1.08, 1.00-1.19), and the difference was not significant, so part of the decay may be regional. The lost genes' CNEs in lineages where the genes are intact had none (0.98). We list 29 decayed and 297 retained elements as predictions for deletion experiments.\n\nLimits: only aligned bases are tested; loci with disturbed synteny show a larger excess (1.36 vs 1.12 at intact loci); the calibration assumes that coding and non-coding decay started together; the public chain server stalled after 20 of 76 needed genomes, so 53% of the planned losses were tested. An independent review found a corrupt genome (excluded) and an artefactual result (removed); details are in the README.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "conserved non-coding elements",
+  "gene loss",
+  "natural experiment",
+  "positive control",
+  "TOGA",
+  "relative rate test",
+  "enhancer-gene assignment",
+  "comparative genomics",
+  "mammals",
+  "purifying selection",
+  "regulatory decay",
+  "pseudogenization",
+  "cCRE"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_lost_vs_controls.png",
+   "caption": "A: odds ratio of A-lineage vs B-lineage base changes (relative to control genes) after a gene loss, for neutral DNA, unconstrained flanks and CNE classes. Blue: lost gene; orange: adjacent intact gene; green: same gene in lineages where it is intact. B: alignment retention of the same bases. Bars: 95% bootstrap intervals over genes."
+  },
+  {
+   "path": "files/figures/fig2_distance_and_robustness.png",
+   "caption": "A: CNE odds ratio relative to neutral DNA at the same distance from the lost gene's TSS. B: the same ratio for subsets (intact or disturbed synteny, losses shared by 3 or more species, with and without cetaceans) and lost species with at least 25 losses."
+  },
+  {
+   "path": "files/figures/fig3_decay_fraction.png",
+   "caption": "A: decay fraction phi (0 = constraint kept; 1 = neutral for the whole lineage branch) of the lost genes' coding sequence (positive control, orange) and of their CNEs (blue). B: calibrated share of CNE constraint lost, phi(CNE)/phi(coding sequence), by lost species and for all events."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1126/science.abn3107",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TOGA gene-loss calls, orthology classes and hg38 chains for the mammal assemblies."
+  },
+  {
+   "target": "https://genome.senckenberg.de/download/TOGA/human_hg38_reference/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download site of the TOGA tables and hg38 chain files (streamed)."
+  },
+  {
+   "target": "https://ftp.ncbi.nlm.nih.gov/genomes/all/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Genome sequences of the same assemblies (streamed) and GRCh38.p14."
+  },
+  {
+   "target": "https://ftp.ensembl.org/pub/release-115/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ensembl 115 GTF, GERP constrained elements of the 92-mammal EPO-Extended alignment, species tree."
+  },
+  {
+   "target": "doi:10.1093/nar/gkae1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Ensembl 2025 release paper."
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.1001025",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GERP++ constrained elements define the CNEs."
+  },
+  {
+   "target": "doi:10.1101/gr.076554.108",
+   "relations": [
+    "uses"
+   ],
+   "reason": "EPO multiple alignment underlying the constrained elements and species tree."
+  },
+  {
+   "target": "https://www.encodeproject.org/files/ENCFF420VPZ/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE v4 cCRE registry used to classify CNEs."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE registry of candidate cis-regulatory elements."
+  },
+  {
+   "target": "doi:10.1093/nar/gks905",
+   "reason": "Independent losses of conserved non-coding elements in mammals; closest earlier genome-wide work."
+  },
+  {
+   "target": "doi:10.1038/s41467-018-07122-z",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Regulatory-landscape decay after trait loss; we find decay after gene loss, but small."
+  },
+  {
+   "target": "doi:10.7554/eLife.76911",
+   "reason": "Coding and non-coding decay with hairlessness; trait-based design."
+  },
+  {
+   "target": "doi:10.7554/eLife.25884",
+   "reason": "Subterranean mammals: eye-specific enhancers decay with lost vision, broadly used ones do not."
+  },
+  {
+   "target": "doi:10.1093/molbev/msaa123",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Regulatory blocks keep conserved regulatory DNA while bystander genes are lost after genome duplication."
+  },
+  {
+   "target": "doi:10.1101/gr.6086307",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Genomic regulatory blocks: CNEs can serve genes other than their nearest gene, consistent with retained constraint."
+  },
+  {
+   "target": "doi:10.1126/sciadv.aaw6671",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Known cetacean gene losses recovered by our event definition."
+  },
+  {
+   "target": "doi:10.1038/nature25461",
+   "reason": "Enhancer redundancy as one explanation for constraint without a single dedicated target."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Estimate of constrained fraction of the human genome."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "reason": "Zoonomia constraint across placental mammals."
+  },
+  {
+   "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+   "reason": "Related SCI study of enhancer-gene spacing across mammals with chain alignments."
+  },
+  {
+   "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+   "reason": "Related SCI study: conservation of CRISPRi-validated enhancers depends on target dosage sensitivity."
+  },
+  {
+   "target": "sci:sha256:d8b470cc340f626485ffdf91ac50dee5a39236466beaac28b545cc204fbc6942",
+   "reason": "Related SCI study of enhancer conservation across species by synteny projection."
+  },
+  {
+   "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+   "reason": "Related SCI study of selection on conserved DNA far from accessible chromatin."
+  },
+  {
+   "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+   "reason": "Related SCI study of deletions of conserved non-coding DNA in human populations."
+  }
+ ]
+}
