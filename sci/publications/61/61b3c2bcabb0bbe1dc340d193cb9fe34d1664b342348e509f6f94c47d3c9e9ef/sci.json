@@ -1,0 +1,226 @@
+{
+  "title": "In 76,215 human genomes, predicted conserved RNA structures in non-coding DNA show no strong pair-specific selection; primate substitution tests are biased and leave weak selection unresolved",
+  "abstract": "Human variation gives no evidence that base pairs predicted in conserved RNA structures of human non-coding DNA are under strong selection to stay paired. This matters because such predictions support claims that a large part of the dark genome works as structured RNA (13.6% of the genome, or about 516,000 regions), and they are used to rank non-coding variants. A change at a paired base either keeps the pair (G-C to G-U) or breaks it (G-C to A·C). Test T compares the same mutation (G>A or U>C) at the same base type where it breaks a Watson-Crick pair or keeps a G-U pair, with a within-site control, so mutation rate and sequence constraint cancel; it measures selection on G-U pairs. Test W compares pair-breaking transversions with the wobble-forming transition at the C of G-C and the A of A-U pairs, relative to unpaired bases and to a control; it measures selection on Watson-Crick pairs. For both, 1 means no pair-specific selection. In gnomAD v4.1 (76,215 genomes, non-CpG sites), 127,972 CMfinder structures (CRS) in introns and intergenic DNA give T = 0.996 (95% CI 0.982-1.010) and W = 0.995 (0.986-1.004); RNAfold pairs in random non-conserved DNA give 0.994 and 0.998. Splice-site alleles of loss-of-function-intolerant genes reach an observed/expected ratio of 0.089, so at most 2% of predicted pairs can have splice-like effects, at most 4% effects that halve the ratio, and at most 18-19% effects of 10%. EvoFold gives T = 0.988 and W = 0.967 (0.942-0.992); such 1-4% deficits could be weak selection on a minority of pairs or the choice of slowly mutating columns. Species differences seemed to give strong support (T = 0.31-0.61 in human, chimpanzee and macaque lineages), but the predictors had used these genomes, and random DNA folded on the human sequence still gives T = 0.76 in chimpanzee. We describe three biases and controls: circularity, choice of columns by mutation rate, and polymorphism shared by great apes or orthology differences. In lineages the predictors never saw, T is 0.80-0.99 (0.71-0.79 relative to matched random-DNA controls); these tests see only G-U pairs, so weak selection on a minority of them is not excluded. Limitations: tRNA and microRNA hairpins are too few to act as positive controls; human variation detects only fairly strong selection; the 13.6% set is no longer available.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "RNA secondary structure",
+    "conserved RNA structures",
+    "CMfinder",
+    "EvoFold",
+    "gnomAD",
+    "purifying selection",
+    "G-U wobble pair",
+    "compensatory evolution",
+    "circularity",
+    "ascertainment bias",
+    "incomplete lineage sorting",
+    "bonobo",
+    "CpG methylation",
+    "functional fraction",
+    "variant interpretation",
+    "negative control"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_gnomad_pair_test.png",
+      "caption": "A: T (G-U pairs) and B: W (Watson-Crick pairs) in gnomAD v4.1 (76,215 genomes), non-CpG sites, 95% bootstrap CI over structures. T compares G>A (U>C) where it breaks a G-C (A-U) pair with where it keeps a G-U pair, divided by the same ratio for the other alleles at those bases. W compares pair-breaking transversions with the wobble-forming transition at the C of G-C and the A of A-U pairs, relative to unpaired bases. 1 = no pair-specific selection. Dotted line: value expected if every pair-breaking allele were as harmful as a canonical splice-site loss (observed/expected 0.089)."
+    },
+    {
+      "path": "files/figures/fig2_divergence_circularity.png",
+      "caption": "T for lineage-specific substitutions at predicted pairs. Orange: genomes that the structure predictor used (circular). Blue: genomes it did not use. Green: RNAfold pairs in random non-conserved DNA folded on the human sequence (no function), which show the size of the biases. New base absent: only alleles absent from that column in all other genomes of the CRS alignment. Strict: human also carries the ancestral pair. Panel A reads chimpanzee and gorilla from the CRS alignment; panel B reads all genomes through UCSC pairwise chains."
+    },
+    {
+      "path": "files/figures/fig3_fraction_bounds.png",
+      "caption": "Largest fraction of predicted pairs in introns and intergenic DNA that is compatible with the 95% interval of T (G-U pairs, solid) or W (Watson-Crick pairs, dashed) in human variation, as a function of the observed/expected ratio of pair-breaking alleles at a selected pair. Blue: CRS; violet: EvoFold. Weak selection (ratio near 1) is not excluded."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1093/nar/gkt596",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Claims that conserved RNA structures cover 13.6% of the human genome; its prediction files are no longer available, and the logic is tested here on CRS and EvoFold."
+    },
+    {
+      "target": "doi:10.1101/gr.208652.116",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "Source of the CRS structures and alignments (rth.dk CRS v2.1); we find no strong pair-specific selection in them."
+    },
+    {
+      "target": "https://rth.dk/resources/crs/vert/v2.1/pages/supplement.php",
+      "relations": [
+        "uses"
+      ],
+      "reason": "CRS Supplemental Data 1-3, hg38 patch 2020-07-28."
+    },
+    {
+      "target": "doi:10.1371/journal.pcbi.0020033",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "EvoFold structures (UCSC hg19 table evofold)."
+    },
+    {
+      "target": "doi:10.1038/nmeth.4066",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Covariation tests found no support for conserved structure in lncRNAs; our population tests agree for the genome-wide sets at the level of strong selection."
+    },
+    {
+      "target": "doi:10.1186/s12915-016-0283-0",
+      "reason": "Earlier paired-vs-unpaired SNP comparison in lncRNAs, which mixes structure with composition."
+    },
+    {
+      "target": "doi:10.1093/gigascience/giab023",
+      "reason": "Population constraint on synonymous variants that disrupt predicted mRNA structure."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06045-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD genomes (76,156/76,215) used for human variation."
+    },
+    {
+      "target": "https://gnomad.broadinstitute.org/downloads",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v4.1 genome sites VCFs and constraint metrics."
+    },
+    {
+      "target": "doi:10.1073/pnas.1801240115",
+      "reason": "tRNA genes have elevated mutation rates, which affects tRNA as a positive control."
+    },
+    {
+      "target": "doi:10.1111/evo.13360",
+      "reason": "Mutation-accumulation fitness study used to judge the power of candidate C3."
+    },
+    {
+      "target": "doi:10.1093/nar/gkv1309",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GtRNAdb tRNA gene structures."
+    },
+    {
+      "target": "https://mirgenedb.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MirGeneDB 3.0 human microRNA precursors."
+    },
+    {
+      "target": "https://www.mirbase.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "miRBase human hairpins."
+    },
+    {
+      "target": "doi:10.1186/1748-7188-6-26",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ViennaRNA RNAfold."
+    },
+    {
+      "target": "https://www.gencodegenes.org/human/release_44.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE v44 basic annotation."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/downloads.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "hg38, panTro6, gorGor6, panPan3, rheMac10, calJac4 genomes, liftOver chains, CpG islands, EvoFold table."
+    },
+    {
+      "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows that conservation scores select DNA with a low mutation rate shared by humans, the mechanism behind bias 2 here."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Conserved non-coding bases mutate less, so part of the sequence-level variant deficit of CRS need not be selection."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "reason": "Comparative conservation scores have composition-dependent error rates in neutral DNA."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "reason": "Related allele-class contrast (motif creation vs shuffled controls) in non-functional DNA."
+    },
+    {
+      "target": "sci:sha256:809b233c92ad98412186497c9d33755320b22b8a4ce6ac1d04f8be3ff5c76825",
+      "reason": "Related allele-class test (nucleosome-positioning signals) in non-functional DNA."
+    },
+    {
+      "target": "doi:10.1073/pnas.92.20.9047",
+      "reason": "Population-genetic evidence of epistatic selection on pre-mRNA secondary structure in Drosophila (prior single-element test)."
+    },
+    {
+      "target": "doi:10.1093/genetics/154.2.909",
+      "reason": "Covariation and compensatory evolution in RNA secondary structures (prior work)."
+    },
+    {
+      "target": "doi:10.1093/genetics/159.1.389",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Selection against pair-breaking mutations is weak (Ns about 1) even in functional structures, consistent with our limitation on weak selection."
+    },
+    {
+      "target": "doi:10.1038/nature12946",
+      "reason": "Human riboSNitches are depleted relative to structurally neutral variants (structure-probing data)."
+    },
+    {
+      "target": "doi:10.1186/1471-2105-8-33",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Comparative screens for structured RNA give many false positives with poor null models."
+    },
+    {
+      "target": "doi:10.1186/1471-2105-9-248",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Dinucleotide-controlled null models for comparative RNA gene prediction."
+    },
+    {
+      "target": "doi:10.1093/bioinformatics/btaa080",
+      "reason": "Power of covariation tests for conserved RNA structure."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004525",
+      "reason": "Independent estimate of the constrained fraction of the human genome (8.2%)."
+    }
+  ]
+}
