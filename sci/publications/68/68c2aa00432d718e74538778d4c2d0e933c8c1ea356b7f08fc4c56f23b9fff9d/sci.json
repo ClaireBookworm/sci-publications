@@ -1,0 +1,232 @@
+{
+  "title": "Puffin-D predicts excess transcription initiation in native over shuffled human DNA mostly at promoters and cCREs; outside them the excess is small or absent against 4-mer-preserving nulls",
+  "abstract": "The extra transcription start sites that the Puffin-D sequence model predicts in the native human genome, compared with shuffled or reversed DNA, are mostly at gene promoters and candidate regulatory elements (cCREs); outside them the excess becomes small or disappears when the null keeps the local 4-base composition. This matters because a 2026 study (Adey et al., Genome Biology and Evolution) used this native-versus-random excess as evidence that pervasive transcription exceeds noise. Of the 2.19 million start sites that the study published, 75% lie within 1 kb of an annotated gene start and 19.5% in ENCODE cCREs; 0.21% lie in background DNA (40.6% of the genome; no annotated element nearby). In 350 windows from chromosomes that the model did not train on, 98-108% of the native-minus-null excess was in promoters, cCREs, exons and conserved elements. The excess was about 400-fold against reversal, 3.6-fold against a local dinucleotide shuffle and 1.6-fold against a local 4-mer shuffle (a shuffle that keeps the count of every 4-base word). In all DNA outside promoters, exons and conserved elements, native/4-mer-shuffle ratios were 1.21 (95% CI 0.86-1.75) for start-site clusters and 1.30 (0.98-1.72) for total signal (1.53, 1.10-2.09, with lncRNA and other gene promoters included). Background DNA alone had less predicted initiation than its own shuffles (0.31, 0.21-0.45), but this is expected because background DNA is defined by the absence of biochemical marks. On training chromosomes the model over-predicts cCRE initiation relative to measured GRO-cap data (held-out chromosomes rank lowest 3 of 22; P = 1/1540), which inflates the genome-wide count by about 15%. Measured data agree on location: background DNA holds 0.5% of measured start sites with at least 6 reads. Measured start sites in background DNA are as conserved in 241 mammals as matched control DNA (mean phyloP difference +0.003, -0.007 to +0.014). Thus the native-versus-shuffled contrast mostly measures known promoter and enhancer signals and the composition the null removes; it does not show initiation above composition-level noise outside annotated elements. Limitations: apart from GRO-cap comparisons the values are model predictions; annotation-defined compartments bias tests inside background DNA; thresholds were chosen after first results. We give a laboratory test with designed DNA.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "junk DNA",
+    "pervasive transcription",
+    "transcription initiation",
+    "non-coding DNA",
+    "Puffin-D",
+    "sequence model",
+    "null model",
+    "k-mer shuffle",
+    "neutral mutation",
+    "GRO-cap",
+    "cCRE",
+    "memorization",
+    "held-out chromosomes",
+    "phyloP",
+    "background DNA"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_where_tss_fall.png",
+      "caption": "Where transcription start sites (TSSs) fall in the hg38 autosomes. A: share of genome bases, of the 2.19 million Puffin-D TSS positions published by Adey et al. 2026 for the native genome (lifted from T2T-CHM13), and of 4.32 million measured GM12878 GRO-cap TSS positions, in six compartments. Background DNA is 40.6% of the genome but holds 0.2% of predicted and 2.9% of measured TSSs. B: TSS positions per kb by compartment for Puffin-D on held-out chromosomes 8-10, on training chromosomes, and for measured GRO-cap (log scale)."
+    },
+    {
+      "path": "files/figures/fig2_native_vs_nulls.png",
+      "caption": "Native versus null sequences in Puffin-D held-out windows. A: share of the native-minus-null excess of predicted TSS positions (GRO-cap output, at least 1 pseudo-read) by compartment, for reversal and local dinucleotide shuffle (the nulls of Adey et al.) and a local 4-mer shuffle; 350 windows from test chromosomes 8-9. B-D: native/null ratio of predicted TSS clusters (at least 0.5 pseudo-reads) with 95% window-bootstrap intervals in protein-coding promoters (B), in all DNA outside promoters, exons and conserved elements (C), and in background DNA (D). Background-only nulls in D pool 350 main and 1,000 background-rich held-out windows; the depletion in D is expected because background DNA is defined by the absence of biochemical marks. A ratio below 1 means less predicted initiation in the native sequence than in the null."
+    },
+    {
+      "path": "files/figures/fig3_conservation.png",
+      "caption": "Conservation in 241 mammals (Zoonomia phyloP, aligned bases) within 40 bp of TSS sites relative to control spans of the same compartment, G+C and repeat status within 50 kb, for Puffin-D sites published by Adey et al. 2026 (blue) and measured GM12878 GRO-cap sites with at least 2 reads (orange). Left: mean phyloP difference. Right: ratio of the fraction of bases with phyloP of at least 2.27. Bars: 95% intervals from a bootstrap over 1-Mb blocks. Measured sites in background DNA are about as conserved as matched background DNA; sites in cCREs are more conserved; measured sites in protein-coding promoters are less conserved than other promoter DNA."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1093/gbe/evag042",
+      "relations": [
+        "challenges",
+        "uses"
+      ],
+      "reason": "We test its inference that predicted initiation in the native genome above shuffled genomes shows that pervasive transcription exceeds noise; we reuse its published TSS positions and chain file."
+    },
+    {
+      "target": "doi:10.6084/m9.figshare.28405775",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Puffin-D TSS positions of the native T2T genome (forward_positions.bed) and the chm13v2-hg38 chain."
+    },
+    {
+      "target": "https://genome-2026.p.asnevents.com.au/days/2026-02-17/abstract/133188",
+      "reason": "Ganley, Adey et al. 2026 conference abstract: random Arabidopsis DNA in human cells as an experimental baseline for background transcription; complementary to our proposed test."
+    },
+    {
+      "target": "doi:10.1093/gbe/evag104",
+      "reason": "Highlight that presents the Adey et al. result in the junk-versus-dark-DNA debate."
+    },
+    {
+      "target": "doi:10.1126/science.adj0116",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Puffin-D model and its training split (chromosomes 8-9 test, 10 validation)."
+    },
+    {
+      "target": "https://github.com/jzhoulab/puffin",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Puffin-D code, commit 9bc81eb."
+    },
+    {
+      "target": "doi:10.1101/gr.108795.110",
+      "reason": "Neutral indel model estimates of constrained DNA across species; considered as an alternative question."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.0030042",
+      "reason": "Weaker non-coding constraint in hominids; considered as an alternative question."
+    },
+    {
+      "target": "doi:10.1073/pnas.0705658104",
+      "reason": "Life-history traits and non-coding constraint; considered as an alternative question."
+    },
+    {
+      "target": "https://zenodo.org/record/7941729",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Puffin-D weights."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Filtered table of 299,670 human de novo mutations; we derive the trinucleotide mutation spectrum for the neutral-mutation null."
+    },
+    {
+      "target": "sci:sha256:e506f19c9b51e02b2be3dc814e2ac9811d4eca899ef1979e0de077ad3eb7d633",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Found no selection against alleles that add reporter activity to non-functional DNA; agrees with our reading of the background depletion."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Found no selection on new transcription-factor motif matches in non-functional DNA."
+    },
+    {
+      "target": "sci:sha256:809b233c92ad98412186497c9d33755320b22b8a4ce6ac1d04f8be3ff5c76825",
+      "reason": "Related test of a biochemical signal (nucleosome positioning) in non-functional DNA."
+    },
+    {
+      "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+      "reason": "Related evidence on lncRNA function (no constraint at lncRNA splice sites)."
+    },
+    {
+      "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+      "reason": "Related evidence on lncRNA function (knockdown screen calls near control rates)."
+    },
+    {
+      "target": "doi:10.1038/s41586-024-07128-2",
+      "reason": "Measured default transcription of reversed human DNA in yeast and mouse cells."
+    },
+    {
+      "target": "doi:10.1038/s41594-024-01235-4",
+      "reason": "Regulatory activity is the default state of random DNA; selection can repress detrimental activity."
+    },
+    {
+      "target": "doi:10.1038/nsmb0207-103",
+      "reason": "Transcriptional noise view of pervasive initiation."
+    },
+    {
+      "target": "doi:10.3389/fgene.2015.00002",
+      "reason": "Junk view of non-coding RNA."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.1000371",
+      "reason": "Most dark-matter transcripts are associated with known genes."
+    },
+    {
+      "target": "doi:10.1038/ng.3142",
+      "reason": "Promoters and enhancers share initiation architecture (GRO-cap)."
+    },
+    {
+      "target": "doi:10.1038/nature11247",
+      "reason": "ENCODE 2012 claim of pervasive biochemical activity."
+    },
+    {
+      "target": "doi:10.1093/gbe/evt028",
+      "reason": "Critique of the ENCODE definition of function."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2493-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE Registry of cCREs (we use Registry V4)."
+    },
+    {
+      "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE Registry V4 cCREs, hg38."
+    },
+    {
+      "target": "doi:10.1093/nar/gkac1071",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GENCODE annotation (release 47)."
+    },
+    {
+      "target": "doi:10.1126/science.abn3943",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal phyloP."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "relations": [
+        "uses"
+      ],
+      "reason": "phastCons conserved elements."
+    },
+    {
+      "target": "doi:10.1126/science.abj6987",
+      "reason": "T2T-CHM13 genome used by Adey et al."
+    },
+    {
+      "target": "doi:10.1186/1471-2105-9-192",
+      "relations": [
+        "uses"
+      ],
+      "reason": "k-let preserving shuffle method."
+    },
+    {
+      "target": "https://www.encodeproject.org/experiments/ENCSR719WNF/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "GM12878 GRO-cap (ENCFF799JUK, ENCFF368RBW)."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "hg38 genome, phastCons elements and Zoonomia phyloP bigWig."
+    },
+    {
+      "target": "https://sandwalk.blogspot.com/2026/05/pervasive-transcription-genes-noise.html",
+      "reason": "Qualitative critique of Adey et al. 2026 without re-analysis."
+    }
+  ]
+}
