@@ -1,0 +1,254 @@
+{
+ "title": "In vertebrate genomes enlarged by transposons to 3.7-40 Gb, introns of immediate-early genes stayed compact while the introns of matched genes grew many-fold",
+ "abstract": "When transposable elements enlarged vertebrate genomes to 3.7-40 billion bases (Gb), the introns of most immediate-early genes stayed far shorter than those of comparable genes, and the intergenic intervals around them (tens to hundreds of kb) grew almost normally. This identifies non-coding DNA whose amount, not only its sequence, behaves as if it is constrained; if this reflects selection rather than a local mutational bias, it is a kind of function that sequence conservation cannot detect. Introns are non-coding DNA inside genes; immediate-early genes are genes that cells transcribe within 30 minutes of a growth signal. We matched 172,543 coding introns of 17,083 human genes by exon structure to their counterparts in 22 other vertebrates, predicted each intron length if its conserved bases kept their length and its other bases grew like other introns, and compared each gene with 20 genes of similar intron number, intron length, conserved content and expression. Introns of 15-34 immediate-early genes per species (29-34 except in bichir and coelacanth) grew 1.4 to 13 times less than those of matched genes in all 11 enlarged genomes and in the coelacanth (log2 difference: axolotl, 29 Gb, -2.11, 95% CI -2.57 to -1.62; African lungfish, 40 Gb, -3.72, -4.23 to -3.15); 300 placebo gene sets drawn from the matched genes gave about -0.1 (SD 0.3). About half of the immediate-early genes grew less than 2-fold in axolotl and lungfish, against 4-10% of matched genes. Delayed primary-response genes of the same signal and homeobox developmental genes also grew less than matched genes, but less strongly in the two largest genomes. The intergenic intervals next to immediate-early genes grew slightly less than those of matched genes (mean -0.16, about 13% of the intron effect; significant only in the newt), so the effect is not regional at the scale of tens of kb; HOX clusters were the only class whose whole region grew less. Conserved elements kept their length while the DNA between them grew almost freely. The results held with strict exon matching, GC matching, human-only reference lengths and expression measured in the species itself. Limits: the evidence is comparative, so a mutational bias that acts within a few kb of very active genes is not excluded, and some immediate-early genes (SRF, NR4A3) gained more than 100 kb. Prediction: 20-30 kb of neutral DNA inserted into a Fos or Egr1 intron will delay and lower the induced mRNA peak.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "intron length",
+  "genome size",
+  "giant genomes",
+  "axolotl",
+  "lungfish",
+  "transposable elements",
+  "immediate-early genes",
+  "intron delay",
+  "transcriptional timing",
+  "segmentation clock",
+  "mRNA half-life",
+  "comparative genomics",
+  "natural experiment"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_matched_introns_vs_flanks.png",
+   "caption": "Log2 length difference from 20 matched genes (95% bootstrap CI) for the introns of a gene (blue circles) and for the intergenic intervals next to it (orange squares; tens to hundreds of kb). Rows are species ordered by assembly size; genomes below the dotted line became smaller. Introns of immediate-early genes, of homeobox transcription-factor genes outside HOX clusters and of genes with the least stable mRNAs grew less in most enlarged genomes; their flanking intervals did not show a comparable decrease. In HOX clusters the whole region grew less."
+  },
+  {
+   "path": "files/figures/fig3_total_intron_scatter.png",
+   "caption": "Summed intron length per gene in axolotl (29 Gb) and African lungfish (40 Gb) against the reference length (geometric mean of six vertebrates). Gray: all genes. Blue: immediate-early genes; orange: delayed primary-response genes. Solid line: median gene; dashed line: no change. Many immediate-early genes stay near the no-change line."
+  },
+  {
+   "path": "files/figures/fig2_halflife_deciles.png",
+   "caption": "Mean residual log2 growth of introns (blue) and flanking intergenic intervals (orange) by decile of human mRNA half-life (1 = least stable), after control for expression level and breadth, intron length and number, conserved fraction, loss-of-function tolerance and testis expression. Bands: 95% CI. Only the least stable decile differs clearly; about half of its effect comes from transcription-factor and developmental genes."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+   "reason": "Related test of spacer DNA length between enhancers and genes in mammals; we test intronic spacer under up to 13-fold genome growth."
+  },
+  {
+   "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+   "reason": "Found no extra selection on deletions of element-free intronic DNA of dosage-sensitive human genes; our result locates length constraint in fast-response genes instead."
+  },
+  {
+   "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+   "reason": "Related SCI work on the causes of genome-size variation (mutational-hazard test in insects)."
+  },
+  {
+   "target": "doi:10.1038/nature25458",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reported smaller intron growth of developmental genes in axolotl; we confirm it for homeobox genes and show that conserved content does not explain it."
+  },
+  {
+   "target": "doi:10.1186/s12864-022-08760-w",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Intron size minimisation in teleosts; reversal of developmental-gene intron length in axolotl and lungfish."
+  },
+  {
+   "target": "doi:10.1074/jbc.M702044200",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source of the immediate-early and delayed primary-response gene sets (transcribed from Fig. 1)."
+  },
+  {
+   "target": "doi:10.1186/s13059-022-02811-x",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human mRNA half-life consensus (first principal component)."
+  },
+  {
+   "target": "https://github.com/vagarwal87/saluki_paper",
+   "relations": [
+    "uses"
+   ],
+   "reason": "File Fig2_S3/all_HLs_human_PC1.txt."
+  },
+  {
+   "target": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "NCBI RefSeq GFF3 annotations, assembly-gap tables and RNA-seq expression tables for 23 species (accessions in files/data/assemblies.tsv)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/phastConsElements100way.txt.gz",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Vertebrate conserved elements in hg38."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cpgIslandExt.txt.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Streamed to compute GC content of introns and intergenic intervals."
+  },
+  {
+   "target": "https://storage.googleapis.com/adult-gtex/bulk-gex/v8/rna-seq/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.01.029",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human transcription factor list."
+  },
+  {
+   "target": "https://storage.googleapis.com/gcp-public-data--gnomad/release/2.1.1/constraint/gnomad.v2.1.1.lof_metrics.by_gene.txt.bgz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://current.geneontology.org/annotations/goa_human.gaf.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1038/ng940",
+   "reason": "Economy hypothesis for short introns in highly expressed genes."
+  },
+  {
+   "target": "doi:10.1186/1471-2148-8-154",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Time-cost hypothesis for short introns."
+  },
+  {
+   "target": "doi:10.1016/j.tig.2008.05.006",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Rapidly regulated genes are intron poor."
+  },
+  {
+   "target": "doi:10.1016/j.devcel.2008.02.002",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Intron delay hypothesis."
+  },
+  {
+   "target": "doi:10.1073/pnas.1014418108",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Intronic delay is essential for segmentation clock oscillation."
+  },
+  {
+   "target": "doi:10.1093/molbev/msu226",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Artieri & Fraser 2014: transcript length mediates developmental timing in Drosophila."
+  },
+  {
+   "target": "doi:10.1016/j.celrep.2013.12.030",
+   "relations": [
+    "supports"
+   ]
+  },
+  {
+   "target": "doi:10.1186/1471-2105-12-S9-S16"
+  },
+  {
+   "target": "doi:10.1093/molbev/msw151"
+  },
+  {
+   "target": "doi:10.1038/s41586-021-03198-8",
+   "reason": "Lungfish genome; reported smaller growth of developmental-gene introns."
+  },
+  {
+   "target": "doi:10.1073/pnas.2017176118"
+  },
+  {
+   "target": "doi:10.1186/1471-2164-10-19"
+  },
+  {
+   "target": "doi:10.1038/s41588-022-01089-w"
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1038/nrg.2016.150",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Core circadian clock gene list."
+  },
+  {
+   "target": "doi:10.1126/science.aaz1776",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1080/15384101.2016.1234550",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Gene length sets the timing of serum-induced transcription in human fibroblasts."
+  },
+  {
+   "target": "doi:10.1101/gr.4624306",
+   "reason": "Transposon-free regions around developmental genes; fits the regional HOX result."
+  },
+  {
+   "target": "doi:10.1007/s00239-025-10261-9",
+   "reason": "Discusses transcriptional constraints of enormous introns in salamander and lungfish genomes."
+  },
+  {
+   "target": "doi:10.1093/iob/obae021",
+   "reason": "Models of the amphibian segmentation clock in which longer introns, slower degradation and larger nuclei slow the axolotl clock."
+  }
+ ]
+}
