@@ -1,0 +1,261 @@
+{
+ "title": "In 773 Arabidopsis thaliana accessions, each doubling of 45S rDNA copy number goes with about 2-3% less CHG DNA methylation across the genome; the link is observational and its direction is unresolved",
+ "abstract": "Arabidopsis thaliana accessions that carry more copies of the 45S ribosomal RNA genes (rDNA) have slightly less CHG DNA methylation on transposons, genes and intergenic DNA across the genome. This matters because it is a population-scale plant test of the idea that large repeat arrays change gene silencing elsewhere by using up a limited pool of silencing proteins (the heterochromatin sink), an idea with experimental support in yeast and fruit flies but no test in plant populations. I counted rDNA copies with exact 25-base probes in short reads of 1,130 accessions of the 1001 Genomes collection and compared them with leaf methylomes of 773 accessions, in a mixed model that controls for genetic relatedness and methylome batch. Each doubling of rDNA went with 2.8% less CHG methylation of pericentromeric transposons (95% CI 1.5-4.1%; Bonferroni-corrected p = 7e-4 among 12 pre-registered tests; 3.5% in the pre-registered model, which had no batch term; 2.0%, CI 0.7-3.3%, when the three methylome batches are fitted separately and pooled). CHG methylation fell by 2.7-4.2% per doubling in all transposon groups, in gene bodies and in intergenic DNA; CG methylation changed little. The result held with control for DNA sequencing centre, geography and flowering time, with GC-corrected copy number, and with one accession per group of near-identical lines; all 12 rDNA probes alone gave negative estimates. It was clear in the largest methylome batch (585 accessions) but absent in a batch of 97. It is about one quarter of the change that full titration by rDNA base pairs predicts, and rDNA explains about 2% of the variation. The direction of cause is unresolved: natural alleles that change CHG methylation did not detectably change rDNA, but this test cannot exclude reverse causation, and the estimate within groups of closely related accessions agreed but was imprecise. Transposon expression did not change, but it also did not change with natural alleles of similar CHG effect, so this null is not informative. Probes for centromeric and 5S satellites counted sequence variants, not array size, and a genome-size association with flowering time disappeared after control for sequencing centre. Terms: CHG is a cytosine followed by any base and then G. If rDNA dosage is causal, existing Arabidopsis lines with 90% fewer rDNA copies should have about 7-10% more CHG methylation.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "junk DNA",
+  "ribosomal DNA",
+  "rDNA copy number",
+  "heterochromatin sink",
+  "DNA methylation",
+  "CHG methylation",
+  "transposable elements",
+  "centromeric satellite",
+  "Arabidopsis thaliana",
+  "1001 Genomes",
+  "1001 Epigenomes",
+  "nucleotype",
+  "genome size",
+  "flowering time",
+  "mixed model",
+  "titration"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_forest.png",
+   "caption": "The 12 pre-registered tests in 773 accessions, from the model with methylome batch: change in transposon methylation per doubling of copy number (kinship mixed model, 95% CI; filled = Bonferroni p < 0.05) and the change that full titration by repeat base pairs predicts (orange diamonds). Only rDNA is measured well; the CEN178 and 5S probes count sequence variants and the TE index counts Col-0 fragments."
+  },
+  {
+   "path": "files/figures/fig2_rdna_contexts.png",
+   "caption": "(a) rDNA copy number and pericentromeric TE CHG methylation after removal of covariates and 10 kinship principal components (display only; line = mixed-model estimate; dashed = full titration). (b) Change in methylation per doubling of rDNA in each genome category and cytosine context: CHG falls in every category, CG changes little."
+  },
+  {
+   "path": "files/figures/fig3_measurement.png",
+   "caption": "Read-based copy number (exact 25-mer probe counts in SRA reads) against the Fiscus & Koenig (2026) 12-mer index: the two agree for rDNA (Spearman 0.79; the index is compressed at high copy number) but not for CEN178 (0.02), where neither measure is validated."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:156af082da5a238f7b9d11becda20559d3b89e925bf62f6575557d6a0256f600",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Human rDNA copy number had no reproducible genome-wide expression effect; here rDNA also gave no TE-expression effect, but did go with lower non-CG methylation in plants."
+  },
+  {
+   "target": "sci:sha256:f215529947ea3607ce2cd0cd67063ab969d46530a2265a2cf86ff027ea5065f3",
+   "reason": "Fruit-fly within-species genome-size (nucleotype) test; this study gives the plant counterpart."
+  },
+  {
+   "target": "sci:sha256:e6ffffe5dfcf48e8dfad3cb67fe276527c3b3a6ec601bb116dab1aaa66ceedb3",
+   "reason": "Fruit-fly genome size vs development; compared with the Arabidopsis flowering-time result."
+  },
+  {
+   "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+   "reason": "Other SCI test of a theory of why junk DNA persists (mutational hazard)."
+  },
+  {
+   "target": "doi:10.7554/eLife.108238",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Their 12-mer repeat indices are used as a comparison predictor; their rDNA index agrees with read-based counts (Spearman 0.81)."
+  },
+  {
+   "target": "doi:10.1093/plcell/koab020",
+   "reason": "Arabidopsis lines with about 90% fewer rDNA copies; main experimental test of the prediction."
+  },
+  {
+   "target": "doi:10.1101/gad.340205",
+   "reason": "Yeast rDNA deletions release Sir2 and increase silencing elsewhere (sink precedent)."
+  },
+  {
+   "target": "doi:10.1080/15592294.2026.2633818",
+   "reason": "Human newborn rDNA copy number and CpG methylation."
+  },
+  {
+   "target": "https://doi.org/10.6084/m9.figshare.29422016",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Fiscus & Koenig k-mer table."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2016.06.044",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1001 Epigenomes leaf methylomes and RNA-seq (GEO GSE43857, GSE80744)."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE43857",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Per-cytosine methylation calls."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE80744",
+   "relations": [
+    "uses"
+   ],
+   "reason": "RNA-seq raw gene counts."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2016.05.063",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1001 Genomes reads (PRJNA273563), SNP matrix and kinship."
+  },
+  {
+   "target": "https://1001genomes.org/data/GMI-MPI/releases/v3.1/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Imputed SNP matrix and IBS kinship."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/bioproject/PRJNA273563",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Short reads streamed with fastq-dump."
+  },
+  {
+   "target": "https://arapheno.1001genomes.org/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Flowering time, growth and stomata phenotypes."
+  },
+  {
+   "target": "doi:10.1534/g3.117.040204",
+   "relations": [
+    "uses"
+   ],
+   "reason": "rDNA copy number of mutation-accumulation lines and cross parents (File S2)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1010345",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CHG-modifier SNPs used as instruments for the reverse-causation test."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1008492",
+   "reason": "CMT2/NRPE1 positive-control loci."
+  },
+  {
+   "target": "doi:10.1073/pnas.0906811106",
+   "reason": "rDNA and global chromatin regulation in Drosophila."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1001376",
+   "reason": "rDNA deletions and genome-wide expression in Drosophila."
+  },
+  {
+   "target": "doi:10.1126/science.1148861",
+   "reason": "Y-chromosome regulatory variation in Drosophila."
+  },
+  {
+   "target": "doi:10.1073/pnas.1010383107",
+   "reason": "Y chromosomes modulate chromatin components."
+  },
+  {
+   "target": "doi:10.1093/molbev/msaa082",
+   "reason": "Y chromosome and heterochromatin integrity genome-wide."
+  },
+  {
+   "target": "doi:10.1038/ng.2678",
+   "reason": "Genome size variation from rDNA in Swedish lines."
+  },
+  {
+   "target": "doi:10.1186/1471-2229-7-44",
+   "reason": "Repeat polymorphism and genome size in A. thaliana."
+  },
+  {
+   "target": "doi:10.1126/science.abi7489",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Col-0 CEN178 copy number used to scale CEN178 base pairs."
+  },
+  {
+   "target": "doi:10.1098/rspb.1972.0042",
+   "reason": "Nucleotype: DNA content and generation time."
+  },
+  {
+   "target": "doi:10.1073/pnas.49.6.897",
+   "reason": "Affine relation of DNA content and mitotic cycle time."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1007162",
+   "reason": "Within-species genome size and flowering in maize."
+  },
+  {
+   "target": "doi:10.1111/mec.14838",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Stomata phenotypes."
+  },
+  {
+   "target": "doi:10.1073/pnas.1709141115",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Growth phenotypes."
+  },
+  {
+   "target": "doi:10.1093/molbev/msab270",
+   "reason": "Selection on accessible chromatin in Capsella (candidate E, set aside)."
+  },
+  {
+   "target": "doi:10.1111/evo.13360",
+   "reason": "Mutation-accumulation fitness by genomic region (candidate C)."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000192",
+   "reason": "DFE of spontaneous mutations (candidate C)."
+  },
+  {
+   "target": "doi:10.1105/tpc.110.076182",
+   "reason": "fas mutants lose 45S rDNA (experimental prediction 1)."
+  },
+  {
+   "target": "doi:10.1111/tpj.13257",
+   "reason": "FAS-restored lines with reduced rDNA (experimental prediction 1)."
+  },
+  {
+   "target": "doi:10.1038/nature10555",
+   "reason": "Methylomes of Col-0 mutation-accumulation lines (experimental prediction 2)."
+  },
+  {
+   "target": "doi:10.1126/science.1212959",
+   "reason": "Methylomes of Col-0 mutation-accumulation lines (experimental prediction 2)."
+  },
+  {
+   "target": "doi:10.1073/pnas.97.12.6634",
+   "reason": "Lyon repeat hypothesis (candidate D)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.0020151",
+   "reason": "Repeat environment and X inactivation (candidate D)."
+  },
+  {
+   "target": "doi:10.1101/2020.12.04.412197",
+   "reason": "Cross-species X-inactivation escape (candidate D)."
+  }
+ ]
+}
