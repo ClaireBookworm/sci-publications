@@ -1,0 +1,151 @@
+{
+  "title": "In 33 bacteria and 4,956 fitness assays, insertions between genes reduced growth half as often as insertions in genes, mostly together with a nearby gene; replicated gene-independent effects were rare",
+  "abstract": "In 33 bacteria, transposon insertions into the DNA between genes reduced growth in at least one of about 150 laboratory assays per species for 8.7% of tested intergenic regions, half the rate for gene segments with the same number of insertions (18.7%), and most of these effects occurred together with an effect of a nearby gene. This matters because a common argument for wide function of non-coding DNA is that it can be needed in conditions nobody has tested; a large panel of conditions measures this directly. We reanalysed public Fitness Browser data: 5.6 million barcoded transposon mutants in 4,956 pooled growth assays. An intergenic region is the DNA between two annotated features; 53,097 of 135,757 regions had enough insertions to test. A defect call needed at least a 2-fold drop in mutant abundance, agreement between two halves of the insertions, and a threshold that 1% of size-matched noise groups (held-out insertions from genes without phenotypes) passed. The intergenic rate was below the gene rate in all 33 species (median ratio 0.43) and lowest between convergent genes (3.6%). After correction for chance, 75-78% of defect calls in regions with a promoter side coincided with a same-sign effect of a gene within 3 genes. Insertions 0-25 bp upstream of a start codon gave 56% of the gene knockout effect when the transposon marker was on the opposite strand and 31% on the same strand, as expected when a gene is separated from its promoter and read-through from the transposon partly rescues it. Defects that no nearby gene explains occurred in 2.8% of regions (1.6% outside regions next to essential or RNA genes) and replicated within one condition in 83 regions. A noise null of scattered insertions predicts 0.6% and 3 regions; a null of clustered insertions in genes without phenotypes predicts 1.8% and 78 regions. So gene-independent large effects are not distinguishable from noise in aggregate, and they did not level off within 100 assays per species. Eighteen variants (thresholds, nulls, coverage, species, explanation rule, replicate definition, seed, 150-bp windows) gave intergenic rates of 5.1-11.4% against 13.7-23.7% for genes. Limits: the assays detect only large effects (selection of roughly 0.07-0.17 per generation), not the weak selection that population genetics detects at bacterial intergenic sites; 61% of regions could not be tested; most replicate assays share a start day.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "intergenic regions",
+    "bacteria",
+    "transposon insertion sequencing",
+    "RB-TnSeq",
+    "Fitness Browser",
+    "promoter",
+    "polar effects",
+    "read-through",
+    "small RNA",
+    "condition-dependent function",
+    "mutant fitness",
+    "reanalysis"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_phenotype_rates.png",
+      "caption": "Share of tested regions with a fitness defect in at least one assay, pooled over 33 bacteria. Intergenic bars are split into defects that coincide with a same-sign effect of a nearby gene (blue), defects next to essential or RNA genes (orange) and defects that no gene explains (aqua; dark inset = replicated). Grey: gene segments with the same insertion counts, pseudogenes, and the clustered and scattered noise nulls. Right: each point is one species."
+    },
+    {
+      "path": "files/figures/fig2_promoter_footprint_orientation.png",
+      "caption": "Insertion effect as a share of the knockout effect of the adjacent gene, by distance to the start codon (A) or to the gene end (B) and by strand of the transposon marker; 95% bootstrap intervals over species. (C) Strand bias of defect calls in co-directional regions: gene-explained calls and calls next to essential genes are stronger with opposite-strand insertions; gene-independent calls are not."
+    },
+    {
+      "path": "files/figures/fig3_accumulation.png",
+      "caption": "Share of regions with a defect as assays are added in random order (27 species with at least 100 assays): gene segments, all intergenic defects, intergenic defects that no gene explains, and the scattered (solid grey) and clustered (dashed) noise nulls at the fixed full-panel threshold."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.6084/m9.figshare.5134840.v2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source of all per-strain fitness values, gene annotations, assay metadata and published gene fitness (Fitness Browser, June 2017 release, CC BY 4.0)."
+    },
+    {
+      "target": "doi:10.1038/s41586-018-0124-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Publication of the RB-TnSeq libraries and most assays that we reanalyse."
+    },
+    {
+      "target": "doi:10.1128/mBio.00306-15",
+      "relations": [
+        "uses"
+      ],
+      "reason": "RB-TnSeq method and fitness definition."
+    },
+    {
+      "target": "doi:10.1101/072470",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Preprint of the gene-level analysis of the same assays."
+    },
+    {
+      "target": "https://fit.genomics.lbl.gov/cgi-bin/help.cgi",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Documents the strand convention of the strain data."
+    },
+    {
+      "target": "sci:sha256:c0893ef4b28bd1149025047c481b39e70fd380849b8d258c6d9d0989898b1386",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Fission-yeast transposon time course: about 10% of non-coding DNA carries growth costs, mostly through genes. Our bacterial panel finds a gene-linked majority across many conditions."
+    },
+    {
+      "target": "sci:sha256:3bda8d30259fe755605e719c4d5838b4265e8de331ce655a771bdd4eb564a3bc",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Fission-yeast insertion depletion is mostly gene-linked; we find a gene-linked majority of intergenic phenotypes in 33 bacteria."
+    },
+    {
+      "target": "doi:10.1093/database/baae089",
+      "reason": "Notes that polar effects in the Fitness Browser data usually occur only for insertions in the opposite orientation."
+    },
+    {
+      "target": "doi:10.1038/msb.2011.58",
+      "reason": "Essential promoters and non-coding elements in Caulobacter; strand-dependent tolerance upstream of essential genes."
+    },
+    {
+      "target": "doi:10.1128/mBio.02096-17",
+      "reason": "Orientation-dependent insertion effects in the E. coli essential genome."
+    },
+    {
+      "target": "doi:10.1128/JB.00185-19",
+      "reason": "Polar effects of transposon insertions."
+    },
+    {
+      "target": "doi:10.1101/gr.254391.119",
+      "reason": "Transposon with an outward promoter used to over-express and silence genes."
+    },
+    {
+      "target": "doi:10.1038/s44320-025-00133-1",
+      "reason": "Regulatory and structural fitness map of a reduced genome from transposon data."
+    },
+    {
+      "target": "doi:10.1038/s41564-024-01642-9",
+      "reason": "RNA atlas combined with RB-TnSeq data to predict conditionally important small RNAs."
+    },
+    {
+      "target": "doi:10.1099/mgen.0.001796",
+      "reason": "Recent review of transposon-insertion sequencing, polar effects and promoter mapping."
+    },
+    {
+      "target": "doi:10.1534/genetics.116.195784",
+      "reason": "Population-genetic evidence that most bacterial intergenic sites are under purifying selection; our assays detect only much stronger effects."
+    },
+    {
+      "target": "doi:10.1101/gr.6759507",
+      "reason": "Purifying selection at noncoding positions in bacteria."
+    },
+    {
+      "target": "doi:10.1126/science.1150021",
+      "reason": "Gene-level form of the untested-condition argument: 97% of yeast deletion strains have a phenotype in some condition."
+    },
+    {
+      "target": "doi:10.1093/nar/gkt148",
+      "reason": "Essential small RNAs in Salmonella transposon libraries."
+    },
+    {
+      "target": "doi:10.1126/sciadv.1501363",
+      "reason": "Bacterial antisense RNAs are mainly transcriptional noise."
+    },
+    {
+      "target": "doi:10.1093/molbev/msz113",
+      "reason": "Claim of wide fitness effects of insertions in fission-yeast non-coding DNA."
+    },
+    {
+      "target": "doi:10.1038/s41586-018-0859-7",
+      "reason": "Candidate question B (intron function claim) considered and not chosen."
+    }
+  ]
+}
