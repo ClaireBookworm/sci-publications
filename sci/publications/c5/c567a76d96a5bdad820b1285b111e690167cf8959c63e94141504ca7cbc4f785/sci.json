@@ -1,0 +1,212 @@
+{
+ "title": "Public X-inactivation data give no corrected evidence that LINE-1 repeats help Xist silence nearby genes; a published L1 link fails a spatial test, and L1 cannot be separated from base composition",
+ "abstract": "Public data do not give evidence, after correction for spatial clustering and multiple tests, that LINE-1 (L1) repeat DNA near a gene helps Xist RNA silence that gene. This matters because the Lyon repeat hypothesis, that L1 copies help X inactivation (XCI) spread, is a well-known proposed function of repeat (junk) DNA, and because the gene-level repeat-density test that supported it is common in genomics and can give false positives when genes and repeats cluster in large regions.\n\nWe re-analysed allele-specific RNA of mouse stem-cell clones with an inducible Xist transgene on the X or chromosome 12 (10 clones, 2,462 gene-clone pairs), RNA of human trisomy-21 stem cells with XIST on chromosome 21 (122 genes), and XCI calls for 483 human and 396 mouse X genes (genes that stay active escape XCI). For each test we rotated all sequence maps (repeats, GC, gene positions) together along the chromosome 1,000 times and compared the observed t statistic with the rotated ones.\n\nOn the mouse X, genes near more L1 were silenced more (+0.041 per SD; a Wilcoxon test as published gives p = 5e-5), but rotated maps gave similar values (p = 0.22). With composition of the non-L1 DNA in the model the L1 effect was +0.002 (95% interval -0.084 to +0.089), which includes zero and the raw effect. The human transgene data were uninformative. Human escape genes had fewer young (human-lineage) L1 copies within 100 kb (odds ratio 0.35 per SD, 0.15-0.80, p = 0.011) but not older L1, as earlier work suggested; an independent 2025 GTEx call set gave 0.61 (p = 0.34). In a cross-species test on 395 orthologs, human-lineage L1 did not predict human status significantly better than mouse-lineage L1 at the mouse gene (p = 0.20), and mouse escape followed human-lineage L1 at the human ortholog (OR 0.49, p = 0.011), against the Lyon prediction. No test passed correction (0 of 32 primary tests; lowest q = 0.26). Because XCI attracts new L1 insertions to the inactive X, the human pattern can also be a consequence of XCI.\n\nLimits: escape calls are noisy and partly reuse earlier data; transgene silencing was measured after days; the rotation test has low power (about 25% at the published effect) and composition covariates can absorb a true L1 effect. We give lab tests, including an allelic test that holds composition fixed.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "LINE-1",
+  "transposable elements",
+  "X-chromosome inactivation",
+  "Xist",
+  "Lyon repeat hypothesis",
+  "escape from X inactivation",
+  "trisomy 21",
+  "chromosome silencing",
+  "circular shift permutation",
+  "spatial autocorrelation",
+  "base composition confounding",
+  "comparative genomics",
+  "lineage-specific repeats",
+  "allele-specific expression",
+  "reanalysis"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig3_transgene_experiments.png",
+   "caption": "Change in the silenced fraction of the Xist-bearing chromosome copy per SD of L1 (blue) or SINE (orange) density within 500 kb of the TSS, in four mouse data sets and one human data set. Left: unadjusted. Right: adjusted for distance to the transgene, expression and composition of the non-L1 DNA. Intervals: max(95% quantile of |t| over 1,000 joint rotations of all sequence maps, 1.96) x SE. The raw L1 association on the mouse X does not pass the rotation test (p = 0.22), and the adjusted L1 effect is not separable from zero or from the raw effect."
+  },
+  {
+   "path": "files/figures/fig1_x_escape_repeats.png",
+   "caption": "Odds ratio of XCI escape per SD of repeat density within 100 kb of the TSS (adjusted) for human (two call sets) and mouse (two call sets) X-linked genes, with rotation-based intervals. Young human-lineage L1 is lower near human escape genes in the 2015 consensus calls (OR 0.35, p = 0.011), not after correction for multiple tests; the independent 2025 GTEx calls and the mouse data are weaker."
+  },
+  {
+   "path": "files/figures/fig2_cross_species_lineage.png",
+   "caption": "Cross-species lineage test on human-mouse 1:1 orthologs. Left: young L1 near the human gene (human lineage) and near the mouse ortholog (mouse lineage) by XCI status. Right: joint logistic model (unadjusted); the Lyon hypothesis predicts that status follows its own lineage young L1 (blue below 1) and not the other lineage (orange at 1). No interval excludes 1 after rotation-based inflation."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1159/000014969",
+   "relations": [
+    "reviews"
+   ],
+   "reason": "The Lyon repeat hypothesis, which we test; public data do not decide it."
+  },
+  {
+   "target": "doi:10.1038/s41467-017-00528-1",
+   "relations": [
+    "uses",
+    "challenges"
+   ],
+   "reason": "We re-analyse its GEO allele counts (GSE92894). Its LINE-silencing association does not pass a studentized joint-rotation test and cannot be separated from base composition."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92894",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Allele-specific RNA-seq of Xist-transgene mouse ESC clones."
+  },
+  {
+   "target": "doi:10.1016/j.celrep.2022.111174",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human trisomy-21 XIST-transgene RNA-seq (GSE166849)."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE166849",
+   "relations": [
+    "uses"
+   ],
+   "reason": "CPM tables of XIST-transgene and control iPSC and endothelial cells."
+  },
+  {
+   "target": "doi:10.1038/nature12394",
+   "relations": [
+    "uses"
+   ],
+   "reason": "XIST transgene integration in DYRK1A on chr21."
+  },
+  {
+   "target": "doi:10.1186/s13293-015-0053-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Consensus human XCI status calls."
+  },
+  {
+   "target": "doi:10.7554/eLife.102701",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Independent 2025 GTEx-based human XCI calls (replication)."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1005079",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Mouse brain, spleen and ovary escape calls."
+  },
+  {
+   "target": "doi:10.7554/eLife.25125",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Mouse escape candidates across tissues."
+  },
+  {
+   "target": "doi:10.1073/pnas.97.12.6634",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Earlier report of fewer L1 near human escape genes; we find the same direction for young L1 at nominal significance only."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.0020151"
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.0020113"
+  },
+  {
+   "target": "doi:10.1186/1756-8935-3-10",
+   "reason": "Earlier autosomal Xist-transgene study that noted the L1 and gene-density confound."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2010.04.042"
+  },
+  {
+   "target": "doi:10.1126/science.1237973"
+  },
+  {
+   "target": "doi:10.1038/nature12719"
+  },
+  {
+   "target": "doi:10.1038/nature05805"
+  },
+  {
+   "target": "doi:10.1038/nature24265"
+  },
+  {
+   "target": "doi:10.1126/science.aaz1776",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v8 median expression used as covariates."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/rmsk.txt.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/rmsk.txt.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://www.gencodegenes.org/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE v44 (human) and vM25 (mouse) gene annotation."
+  },
+  {
+   "target": "https://www.ensembl.org/biomart/martservice",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Human-mouse 1:1 orthologs."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Candidate question B (not pursued)."
+  },
+  {
+   "target": "doi:10.1126/science.adz8081",
+   "reason": "XCI draws new L1 insertions to the inactive X; this predicts the human young-L1 pattern in reverse."
+  },
+  {
+   "target": "doi:10.1093/hmg/ddt553",
+   "relations": [
+    "supports"
+   ],
+   "reason": "X;autosome translocations support L1 in XCI spread; primate-specific L1 motifs denser at subject genes."
+  },
+  {
+   "target": "doi:10.1101/gr.245027.118",
+   "reason": "Earlier model of Xist silencing kinetics; distance to LINEs ranked after distance to Xist and gene density."
+  },
+  {
+   "target": "doi:10.1186/s13072-021-00386-8",
+   "reason": "12-species XCI comparison; repeat associations not consistent across species."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1000172",
+   "reason": "Selection for L1 on the X; old L1 near escape genes."
+  }
+ ]
+}
