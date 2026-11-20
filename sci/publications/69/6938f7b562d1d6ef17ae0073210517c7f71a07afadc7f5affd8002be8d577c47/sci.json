@@ -1,0 +1,117 @@
+{
+ "title": "Strain losses in the 2019 long-term pooled screen that tied most yeast introns to starvation survival do not predict the same laboratory's 2025 single-strain growth data; splicing change does",
+ "abstract": "Which intron-deletion strains were lost from the long-term pools of a 2019 yeast screen does not predict which strains grow worse alone in the same laboratory's 2025 measurements. This matters because the 2019 Nature study is a main example of a general fitness role for non-coding intron DNA, and its pooled per-strain results are still used to say which introns matter. An intron is a non-coding part of a gene that the cell cuts out of the RNA (splicing). The 2019 study mixed about 94 single-intron deletion strains with one wild-type strain per culture (a pool) and followed each strain by PCR. In 2025 the same laboratory published, for 214 of these deletions, the maximal density each strain reached alone in low glucose minus that of wild type (single-strain growth), and the change of each intron's splicing between growing and starved cells. (1) For 173 deletions in both data sets, loss from the 2019 pools after about 150 doublings did not correlate with single-strain growth (Spearman -0.07, 95% CI -0.22 to 0.08); lost and kept strains grew alike, and 9 of 10 non-ribosomal-protein strains that grew better than wild type alone were lost. (2) Outside ribosomal-protein genes, introns spliced more in starvation had larger single-strain deficits (Spearman -0.41, P = 8e-8; this extends a correlation the 2025 study showed for 64 selected introns), but they were not lost from the pools more often (50% vs 55%). (3) Pool loss differed from 0% to 80% between functional groups of host genes (P = 0.0004); single-strain growth did not (P = 0.66). (4) In the 2019 starvation assay, the published calls (64% impaired, 75% improved at re-growth) follow a common shift (median ratios 0.81 and 1.27, product 0.99). So the pooled per-strain calls should not be used to identify which introns matter. The single-strain data still show a broad, graded effect: 84% of deletion strains reached a lower maximal density than the wild-type control (median about 15% lower), more for introns spliced more in starvation; part of this may come from strain background, because there is one control. The deficits were not linked to intron conservation or to intron retention in 19 other yeasts. Limits: only per-strain summary values are public; the two studies measure different phenotypes in different conditions; the cross-study test was added after an independent review and was not pre-registered. We give predictions for a barcoded re-test.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "intron",
+  "junk DNA",
+  "non-coding DNA function",
+  "Saccharomyces cerevisiae",
+  "starvation",
+  "pooled competition",
+  "single-strain growth",
+  "splicing efficiency",
+  "UpSIes",
+  "replication",
+  "claim re-analysis",
+  "ribosomal protein genes",
+  "phastCons",
+  "intron retention"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_cross_study.png",
+   "caption": "The 2019 long-term pools against the 2025 single-strain data of the same laboratory. (a) 2025 single-strain growth (maximal OD660, deletion minus wild type) of strains kept in or lost from both 2019 long-term pools; bars = medians. (b) Single-strain growth against the change of splicing efficiency between log and stationary phase. (c) Per cent of strains lost from both pools by splicing class, with 95% bootstrap intervals."
+  },
+  {
+   "path": "files/figures/fig2_starvation_audit.png",
+   "caption": "The 2019 starvation and re-growth assay (244 strains). (a) Both steps are shifted as a block (medians 0.81 and 1.27); grey band = the study's no-effect range. (b) The steps are anticorrelated and cancel. (c) Per cent of strains outside the band in each published step and over the whole cycle (product, no centring)."
+  },
+  {
+   "path": "files/figures/fig3_pools_and_groups.png",
+   "caption": "(a) Ratios after about 150 doublings in low phosphate and low glucose; strains not detected in either pool sit at the bottom left. (b) For each functional group of host genes: per cent of strains lost from both pools against the median 2025 single-strain growth; point area = strains."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1038/s41586-018-0859-7",
+   "relations": [
+    "uses",
+    "challenges"
+   ],
+   "reason": "We re-analyse its per-strain source data; its long-term pooled per-strain losses do not agree with later single-strain growth of the same deletions."
+  },
+  {
+   "target": "doi:10.1093/nar/gkaf525",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "Source of the single-strain growth and splicing-change data; our re-analysis extends its splicing-growth correlation to all introns outside ribosomal-protein genes."
+  },
+  {
+   "target": "doi:10.1091/mbc.E07-12-1254",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Intron-deletion method and parent strain genotype."
+  },
+  {
+   "target": "doi:10.1093/gbe/evu196",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Presence or loss of each intron in 20 Saccharomycetaceae and R64 intron coordinates."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons method; UCSC sacCer3 7-way scores."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/phastCons7way/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons 7-way score files."
+  },
+  {
+   "target": "https://downloads.yeastgenome.org/curation/chromosomal_feature/SGD_features.tab",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Intron and snoRNA gene coordinates."
+  },
+  {
+   "target": "doi:10.1038/nbt.1551",
+   "reason": "Source of the log-phase RNA levels listed in the 2019 Table S1."
+  },
+  {
+   "target": "doi:10.1038/s41586-018-0828-1",
+   "reason": "Companion study on excised linear introns; not re-analysed."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2011.08.044",
+   "reason": "Known functions of ribosomal-protein gene introns."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2026.05.033",
+   "reason": "Reported intron-free yeast strain (read via news release only)."
+  },
+  {
+   "target": "sci:sha256:b9d97af4d09f71c2fcfe77c7117d075fbbd1ae490e1b844597571139d2e550a0",
+   "reason": "Related re-test of claimed requirements for non-coding DNA with a placebo contrast."
+  }
+ ]
+}
