@@ -1,0 +1,214 @@
+{
+  "title": "In 5,015 fly-mosquito ortholog pairs, gene-to-gene differences in non-repeat non-coding DNA carry proportional purifying selection: per-base constraint is diluted by at most about 10%",
+  "abstract": "When a gene of the malaria mosquito Anopheles gambiae has more non-coding DNA outside annotated repeats than the same gene of the fruit fly Drosophila melanogaster, compared with other genes, it also has proportionally more non-coding DNA under purifying selection. This matters because a common reading of genome size says that non-coding DNA can vary in amount without a change in function (junk DNA); if the gene-specific extra DNA were junk, constraint per base would fall in proportion, and it does not.\n\nConstraint (C) is the share of new mutations that purifying selection removes. We measured it from divergence to An. merus and D. simulans (primary) and from nucleotide diversity in 184 mosquito (Ag1000G) and 197 fly (DPGP3) genomes, against neutral short-intron sites in the same 1-Mb window. For 1:1 orthologs (gene pairs from one ancestral gene), the mosquito has on average 2.25 times more non-repeat non-coding DNA per gene (UTRs, introns, nearest intergenic DNA). Across pairs grouped by this length ratio (0.27 to 22), the log ratio of constrained bases rose with slope 1.05 (95% CI 1.03-1.06; 4,980 pairs) by divergence and 0.99 (0.98-1.01) by diversity; junk predicts 0, and a calibration shows that more than about 10% dilution of per-base constraint in the extra DNA would give a slope below 0.96. By divergence, the result held for introns alone, at fixed gene regulatory size, on inversion-free arms, with assembly-only divergence, and when all DNA without data was assumed to be junk (slope 1.00); the diversity estimator also gave about 1 with alternative references, a composition control and a second population that shares most variation. Divergence-based C of non-repeat non-coding DNA was 0.48 (mosquito) and 0.60 (fly); transposon fragments had -0.16 and -0.19, and DNA within 200 bp of transposons 0.27 and 0.23, so this estimator responds to junk-like DNA. The mosquito diversity estimator did not (old transposon fragments C = 0.53), so it is only a secondary check.\n\nLimits: the slope tests gene-to-gene deviations, not whether the genome-wide excess is constrained; for that excess the marginal C is 0.14-0.47 by divergence and the cross-species comparison is not secure. About half of the gene-specific extra mosquito DNA is inaccessible to short reads and untested. Constraint does not show what the DNA does. One species pair.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "onion test",
+    "genome size",
+    "purifying selection",
+    "evolutionary constraint",
+    "Anopheles gambiae",
+    "Drosophila melanogaster",
+    "Ag1000G",
+    "DPGP3",
+    "Anopheles merus",
+    "orthologs",
+    "introns",
+    "intergenic DNA",
+    "transposable elements",
+    "population genomics",
+    "short introns",
+    "malaria mosquito"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_ortholog_scaling.png",
+      "caption": "Main test. a, b: for 1:1 ortholog pairs grouped in tenths by the mosquito/fly ratio of non-repeat non-coding length (a, whole gene domain; b, introns only), the log2 ratio of constrained bases rises with slope about 1 (green: divergence to An. merus and D. simulans, primary; blue: diversity); a slope of 0 (dotted) is expected if the extra DNA were junk. c: divergence-based constraint per base in the same bins stays nearly flat; dashed lines show the constraint expected if the extra DNA of the longer species were unconstrained."
+    },
+    {
+      "path": "files/figures/figS3_transposon_controls.png",
+      "caption": "Negative controls. Divergence-based constraint (green) is negative for old transposon fragments and low for non-repeat DNA next to transposons in both species; diversity-based constraint responds in the fly (b) but not in the mosquito (a), so mosquito diversity-based values are not used for absolute amounts."
+    },
+    {
+      "path": "files/figures/fig1_class_constraint.png",
+      "caption": "a: constraint by site class from diversity (bars, 95% CI) and divergence (diamonds) in the mosquito (blue) and the fly (orange). b: non-repeat non-coding sites with outgroup data on the four autosomal arms and their constrained part by divergence."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:9d0f6d98c9e2639f20539e346e720187661c3e48ede01a558af6b8e181f713d4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We adapted its DPGP3 counting, annotation and short-intron constraint estimator (MIT code) and compare our fly numbers with its results."
+    },
+    {
+      "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+      "reason": "Related SCI test of the mutational-hazard model of junk DNA in butterflies and flies."
+    },
+    {
+      "target": "sci:sha256:e6ffffe5dfcf48e8dfad3cb67fe276527c3b3a6ec601bb116dab1aaa66ceedb3",
+      "reason": "Related SCI work on genome size and traits in fruit flies."
+    },
+    {
+      "target": "sci:sha256:eb105cb0d127cd21d17f80555493898b9a415b31a5b31578db1b68dade409d95",
+      "reason": "Related SCI work on how introns change when genomes grow by transposons."
+    },
+    {
+      "target": "sci:sha256:fde7b1f489459b407abfc248dc02ba23336ff4cc83a9d471409a69695e796f8f",
+      "reason": "SCI evidence that non-conserved non-coding DNA shows more selection in a species with a larger population (mouse) than in humans."
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "reason": "SCI evidence that comparable non-conserved regulatory DNA shows little constraint in humans."
+    },
+    {
+      "target": "doi:10.1101/gr.5022906",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Halligan and Keightley 2006: much fly non-coding DNA is constrained and constraint rises with intron and intergenic length; we find the same in the fly and in the mosquito."
+    },
+    {
+      "target": "doi:10.1186/gb-2005-6-8-r67",
+      "reason": "Haddrill et al. 2005: intron length and constraint in Drosophila."
+    },
+    {
+      "target": "doi:10.1101/gr.178701",
+      "reason": "Bergman and Kreitman 2001: conserved non-coding DNA in Drosophila introns and intergenic DNA."
+    },
+    {
+      "target": "doi:10.1038/nature04107",
+      "reason": "Andolfatto 2005: constrained and adaptive non-coding DNA in Drosophila."
+    },
+    {
+      "target": "doi:10.1093/molbev/msq046",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Short-intron sites as the neutral reference."
+    },
+    {
+      "target": "doi:10.1101/gr.3715005",
+      "reason": "Siepel et al. 2005: conserved non-coding fractions differ between insects and vertebrates."
+    },
+    {
+      "target": "doi:10.1186/gb-2004-5-4-r25",
+      "reason": "Nelson, Hersh and Carroll 2004: genes with complex regulation have more non-coding DNA."
+    },
+    {
+      "target": "doi:10.1101/gr.6669607",
+      "reason": "Engstrom et al. 2007: conserved genomic regulatory blocks shared by fly and mosquito; overlaps our length-correlation result."
+    },
+    {
+      "target": "doi:10.1007/PL00006561",
+      "reason": "Vinogradov 1999: intron size scales with genome size."
+    },
+    {
+      "target": "doi:10.1126/science.1089370",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Lynch and Conery 2003: genome-size differences as mostly non-adaptive; our result disagrees for gene-specific differences in non-repeat non-coding DNA in this species pair."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1004351",
+      "relations": [
+        "challenges"
+      ],
+      "reason": "Palazzo and Gregory 2014, the case for junk DNA and the onion test; our result disagrees for gene-specific differences in non-repeat non-coding DNA, not for repeats."
+    },
+    {
+      "target": "doi:10.1038/nature24995",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Ag1000G phase 1: data design and diversity by gene-architecture class (Extended Data Fig. 3c), without a constraint estimate."
+    },
+    {
+      "target": "doi:10.1101/gr.262790.120",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Ag1000G phase 2 data (allele counts and accessibility map)."
+    },
+    {
+      "target": "doi:10.1534/genetics.115.174664",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DPGP3 / Drosophila Genome Nexus genomes."
+    },
+    {
+      "target": "doi:10.1093/molbev/msw195",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Drosophila Genome Nexus 1.1 and the D. simulans alignment."
+    },
+    {
+      "target": "doi:10.1126/science.1258522",
+      "reason": "Neafsey et al. 2015, 16 Anopheles genomes including An. merus."
+    },
+    {
+      "target": "doi:10.1093/bioinformatics/bty191",
+      "relations": [
+        "uses"
+      ],
+      "reason": "minimap2 (mappy) for the An. merus alignment."
+    },
+    {
+      "target": "https://ngs.sanger.ac.uk/production/ag1000g/phase2/AR1/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Ag1000G phase 2 AR1 release files."
+    },
+    {
+      "target": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/473/845/GCA_000473845.2_Anop_meru_MAF_V1/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "An. merus assembly."
+    },
+    {
+      "target": "https://ftp.ensemblgenomes.ebi.ac.uk/pub/metazoa/release-63/gtf/anopheles_gambiae/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "AgamP4 gene models."
+    },
+    {
+      "target": "https://ftp.ensembl.org/pub/release-112/gtf/drosophila_melanogaster/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "D. melanogaster gene models."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/dm6/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "dm6 genome, repeats, phastCons elements and the dm3ToDm6 chain."
+    },
+    {
+      "target": "https://johnpool.net/genomes.html",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Drosophila Genome Nexus data and masks."
+    }
+  ]
+}
