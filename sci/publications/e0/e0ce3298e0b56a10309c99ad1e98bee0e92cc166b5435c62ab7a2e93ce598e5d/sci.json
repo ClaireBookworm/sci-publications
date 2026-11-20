@@ -1,0 +1,195 @@
+{
+  "title": "Fast-evolving human regions (HAQERs) carry an old human-specific excess of fixed changes beyond shared mutation hotspots, but published divergence-polymorphism tests cannot attribute it to selection",
+  "abstract": "Human ancestor quickly evolved regions (HAQERs) combine a mutation hotspot shared with chimpanzees and an extra human-specific excess of old, fixed changes; the published polymorphism tests cannot show that positive selection made that excess, because an old neutral burst that has stopped explains it as well. This matters because HAQERs are described as new brain enhancers that positive selection made from neutral DNA. HAQERs are 500-bp windows with the most changes between the human-chimpanzee ancestor and humans. We counted human- and chimpanzee-lineage substitutions (ancestor from gorilla and orangutan) and gnomAD v4.1 variants (76,215 genomes) in 1,479 Gapped and 1,167 Consensus HAQERs, their flanks, 20,000 random windows and placebo windows selected only for fast chimpanzee change. In well-called Gapped HAQER DNA, human-lineage divergence was 5.4 times the random rate, chimpanzee-lineage divergence 2.1 times and human polymorphism 1.8 times, so polymorphism followed the shared hotspot. The human lineage had 2.6 times (95% CI 2.4-2.9) more change than the chimpanzee lineage, or about 1.4-2.1 times after correction for window selection on noisy counts, which inflated rates 1.15-2.2 times in held-out halves. Divergence divided by polymorphism, a published sign of selection, is therefore inflated by an amount that cannot be measured for the published calls; in clean HAQERs it only restates the human-specific excess. The share of divergent sites still polymorphic in humans, a second published sign, was 0.62 of the random value (7.6% vs 12.2%), 0.65 (0.58-0.72) after matching for duplications, repeats and poor variant calls, 0.71 with failed calls counted, and 0.55 in clean sites; flanks and placebo windows showed no deficit. Within HAQERs this share fell from 1.12 to 0.44 of random as the human-specific excess rose, so both signs describe one old excess. The Consensus set is not a clean replication: a screen that counts only fixed differences gave 0.36-0.42 even in random DNA. In clean HAQERs, the excess of A/T to G/C changes rose with recombination (ratio up to 2.1-2.8; random 0.9), a sign of GC-biased gene conversion, but the deficit of polymorphic sites occurred in all substitution classes. Limits: chimpanzee polymorphism data and a divergence-matched null are needed to separate selection from an extinct recombination hot spot or other ended burst.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "HAQER",
+    "human accelerated regions",
+    "positive selection",
+    "GC-biased gene conversion",
+    "interlocus gene conversion",
+    "ascertainment bias",
+    "winner's curse",
+    "gnomAD",
+    "polymorphism divergence",
+    "mutation hotspot",
+    "segmental duplication",
+    "variant calling",
+    "human evolution",
+    "enhancers",
+    "chimpanzee",
+    "McDonald-Kreitman"
+  ],
+  "display": [
+    {
+      "path": "files/results/figures/fig1_rates_mirror.png",
+      "caption": "A: human-lineage divergence, chimpanzee-lineage divergence and human polymorphism relative to random DNA (95% bootstrap intervals), for all and for well-called (clean) HAQER DNA. In clean DNA, polymorphism follows the chimpanzee rate (a shared hotspot) and the human lineage has an extra excess. B: divergence divided by polymorphism, the published sign of selection; filled bars show the lineage used to select the windows (the placebo value falls to about 1.25 on held-out halves). C: winner's curse: rate in the half of each window used for selection divided by the rate in the held-out half."
+    },
+    {
+      "path": "files/results/figures/fig2_fixed_fraction.png",
+      "caption": "Share of divergent sites still polymorphic in humans, relative to random DNA. Below 1 means more fixed sites, the published sign of selection. The deficit in HAQERs stays after matching for duplications, repeats and poor calls, with or without failed variant calls, and in clean sites; flanks and placebo windows show none."
+    },
+    {
+      "path": "files/results/figures/fig3_mechanisms.png",
+      "caption": "A: A/T to G/C over G/C to A/T for clean human-lineage changes by local recombination tertile; the rise in HAQERs is the sign of GC-biased gene conversion. B: within HAQERs, the polymorphic share of divergent sites falls as the human-specific excess (D_h/D_c) rises; diamonds show the value expected if the whole excess were fixed."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1016/j.cell.2022.10.016",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "Defines Gapped HAQERs (coordinates used) and claims they evolved by positive selection; we test that evidence."
+    },
+    {
+      "target": "doi:10.1016/j.xgen.2026.101363",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "Defines Consensus HAQERs (Table S1 used) and reports fixed-site, divergence/polymorphism and divergence/mutation-rate signs of ancient positive selection; we confirm the fixed-site sign and show the ratio signs are not diagnostic."
+    },
+    {
+      "target": "doi:10.1101/2025.11.30.691411",
+      "reason": "Preprint proposing that GC-biased gene conversion and selection jointly fixed CpG gains in HAQERs."
+    },
+    {
+      "target": "doi:10.1093/molbev/msy109",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Lineage-specific accelerated regions occur in all five apes in similar numbers; our chimpanzee mirror agrees."
+    },
+    {
+      "target": "doi:10.1101/gr.6395807",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Clustered W->S substitutions tied to male recombination (biased gene conversion)."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-05895-y",
+      "reason": "Elevated mutation and interlocus gene conversion in segmental duplications."
+    },
+    {
+      "target": "doi:10.1126/sciadv.aed5260",
+      "reason": "Links HAQER variation to language ability; one reason the selection claim matters."
+    },
+    {
+      "target": "doi:10.1093/molbev/msr279",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Showed that GC-biased gene conversion explains part of the human accelerated regions; we find the same signature in HAQERs."
+    },
+    {
+      "target": "doi:10.1371/journal.pgen.1000960",
+      "relations": [
+        "supports"
+      ],
+      "reason": "GC-biased evolution near human accelerated regions."
+    },
+    {
+      "target": "doi:10.1016/j.tig.2007.03.011",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Proposed GC-biased gene conversion as part of the null hypothesis for accelerated evolution."
+    },
+    {
+      "target": "doi:10.1146/annurev-genom-082908-150001",
+      "reason": "Review of GC-biased gene conversion in mammals."
+    },
+    {
+      "target": "doi:10.1093/molbev/msad284",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Showed that ascertainment inflates genomic tests of positive selection on regulatory sequences."
+    },
+    {
+      "target": "doi:10.1126/science.aau1043",
+      "relations": [
+        "uses"
+      ],
+      "reason": "deCODE 2019 recombination map (UCSC recombAvg.bw) and evidence that recombination is mutagenic."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06045-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD genome variant resource."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/genomes/genomes.bb",
+      "relations": [
+        "uses"
+      ],
+      "reason": "gnomAD v4.1 genome variants queried by region."
+    },
+    {
+      "target": "https://vertgenlab.cloud.duke.edu/publications/haqer/regionsOfInterest/haqersByAssembly/haqer.hg38.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Gapped HAQER coordinates (hg38)."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/vsPanTro6/hg38.panTro6.net.axt.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human-chimpanzee net alignment."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/vsGorGor6/hg38.gorGor6.net.axt.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human-gorilla net alignment (outgroup)."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/vsPonAbe3/hg38.ponAbe3.net.axt.gz",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Human-orangutan net alignment (outgroup)."
+    },
+    {
+      "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ENCODE v4 candidate cis-regulatory elements."
+    },
+    {
+      "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "UCSC genomicSuperDups, simpleRepeat and rmsk tables."
+    },
+    {
+      "target": "sci:sha256:ca11abbdb35f08733bee01a44af644349327b2b6801ae2326275e4af66a0a1a5",
+      "reason": "Related SCI study that also uses within-locus and structure-free controls against gnomAD-based selection claims for non-coding DNA."
+    },
+    {
+      "target": "sci:sha256:af0c2a3278a5990bc6e05b4f8cfc8537e1477a72fcd273bbf2adfbb34c889e11",
+      "reason": "Related SCI study testing a claimed function of non-coding DNA (conserved RNA structures) with gnomAD v4.1."
+    }
+  ]
+}
