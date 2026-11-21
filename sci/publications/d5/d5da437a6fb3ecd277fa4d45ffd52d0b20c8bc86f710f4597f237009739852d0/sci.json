@@ -1,0 +1,203 @@
+{
+  "title": "Published brain-size enhancer discoveries from machine-predicted activity in 149 mammals depend on human and whales, and top lists do not replicate between clades without human",
+  "abstract": "The published brain-size links of machine-predicted enhancer activity across mammals (TACIT method) depend on two lineages with very large brain-size changes, human and whales, and their top lists do not replicate between clades without human. Such links are used to name non-coding regions that may have changed brain size and to choose regions for experiments, so their reliability affects what we conclude about the function of non-coding DNA.\n\nI used the public TACIT predictions for 98,250 open chromatin regions (OCRs: short DNA regions that are accessible in the cell nucleus and often act as enhancers) in the motor cortex of 149 mammals, the paper's tree, and a brain-size residual (log brain mass minus the value expected from body mass). I compared the real trait with 1,000 to 2,000 placebo traits that have the same values and phylogenetic pattern (permulations). Over all species, the real trait gave more strong associations than about 96% of placebo traits (P = 0.04). The 21 regions that pass TACIT's significance procedure had a median association t of 5.1; without human it was 3.1, and without human and the 11 whales and dolphins it was 1.8, against 4.3 after removing instead the 12 most influential other species. Within primates, removing human cut strong associations from 353 to 7 regions, and placebo traits that give human the largest value reproduced the real result (P = 0.45). Without human, the top 50 to 1,000 regions of Euarchontoglires and Laurasiatheria agreed in sign in 40% to 47% of cases (P = 0.55 to 0.97). One region, about 1 kb upstream of the brain microRNA gene Mir9-1, was associated with brain size in both clades without human and whales (t = 5.1 and 4.1; placebo P = 0.014 to 0.019). It was found after inspection, so it is a candidate for experiments, not a confirmed link.\n\nLimits: brain data were rebuilt from other public sources; 149 of 158 species; only brain size was tested; the tests detect only strong signals. The package provides reusable lineage-removal and burst-placebo checks.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "enhancers",
+    "open chromatin",
+    "brain size",
+    "comparative genomics",
+    "phylogenetic comparative methods",
+    "permulation",
+    "placebo test",
+    "singular evolutionary events",
+    "microRNA-9",
+    "Zoonomia",
+    "TACIT",
+    "machine learning",
+    "replication",
+    "human evolution",
+    "mammals"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_placebo_tests.png",
+      "caption": "Real brain-size residual (blue) against 1,000 placebo traits (gray): number of OCRs with GLS p < 0.001. A: all 149 species (TACIT model), P = 0.042. B: without the 11 whales and dolphins, P = 0.010. C: without whales and human, P = 0.071. D: Laurasiatheria within orders, P = 0.24."
+    },
+    {
+      "path": "files/figures/fig2_lineages.png",
+      "caption": "A: the 21 TACIT-style discoveries lose their association when human and whales are removed (median t 5.1 to 1.8), but not when the 12 most influential other species are removed (dashed line, 4.3). B: within primates, only leaving out human removes the signal (353 to 7 OCRs). C: placebo traits that give human the largest value (green) reproduce the real count (blue, P = 0.45)."
+    },
+    {
+      "path": "files/figures/fig3_replication.png",
+      "caption": "A: human and whales hold the extreme brain-size residuals. B: replication of the top 1,000 OCRs between species sets with no shared species; only sets that contain human show concordance (filled circles), sets without human do not (open circles). C: the paper's top OCR near Sall3."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1126/science.abm7993",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "Source of the OCR activity predictions and of the brain-size association claims tested here; lineage-removal, placebo and replication tests show the claims rest on human and cetaceans and do not replicate between clades without human."
+    },
+    {
+      "target": "http://daphne.compbio.cs.cmu.edu/files/ikaplow/TACITSupplement/PredictionMatrices/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Public TACIT prediction matrices (motor cortex and PV+ neurons)."
+    },
+    {
+      "target": "https://cgl.gi.ucsc.edu/data/cactus/241-mammalian-2020v2.phast-242.nh",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia 241-mammal tree with PHAST branch lengths."
+    },
+    {
+      "target": "doi:10.6084/m9.figshare.6803276",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mammal brain and body mass data (Tsuboi et al. 2018), CC0."
+    },
+    {
+      "target": "https://zenodo.org/record/6468938",
+      "relations": [
+        "uses"
+      ],
+      "reason": "AnimalTraits brain and body mass data for 5 species missing from Tsuboi et al."
+    },
+    {
+      "target": "doi:10.1038/s41559-018-0632-1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Paper describing the brain and body mass data."
+    },
+    {
+      "target": "doi:10.1038/s41597-022-01364-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Paper describing AnimalTraits."
+    },
+    {
+      "target": "doi:10.1126/science.abl8189",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Foley et al. 2023; source of the ChrX low-GC consensus tree used by TACIT and here (Zenodo 5823345)."
+    },
+    {
+      "target": "https://zenodo.org/records/5823345",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Tree file X_lessGC40_241.tree (PreliminaryTopologies.zip)."
+    },
+    {
+      "target": "doi:10.1093/sysbio/syad070",
+      "reason": "Robust phylogenetic regression; related work on outlier lineages in comparative regression."
+    },
+    {
+      "target": "doi:10.7554/eLife.41250",
+      "reason": "Shows that human brain size is a non-Brownian outlier on the hominin branch."
+    },
+    {
+      "target": "doi:10.1046/j.1365-2656.2002.00618.x",
+      "reason": "Bias from using residuals as the response; a limitation shared with the original study."
+    },
+    {
+      "target": "doi:10.1093/molbev/msab068",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Phylogenetic permulations, used to make placebo traits."
+    },
+    {
+      "target": "doi:10.1093/sysbio/syy031",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Argues that singular evolutionary events make phylogenetic regressions unreliable; the human result here is a concrete genomic case."
+    },
+    {
+      "target": "doi:10.1093/sysbio/syu070",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Shows the same problem for correlated categorical characters."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2876-6",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Zoonomia genomes and tree."
+    },
+    {
+      "target": "doi:10.1093/jmammal/gyz043",
+      "reason": "Brain-size allometry used by the original study."
+    },
+    {
+      "target": "doi:10.1016/S1055-7903(02)00268-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mean path length method used to make an ultrametric tree for a robustness check."
+    },
+    {
+      "target": "doi:10.1093/sysbio/syu005",
+      "reason": "phylolm, the model reproduced here."
+    },
+    {
+      "target": "doi:10.1086/284325",
+      "reason": "Phylogenetic non-independence of species data."
+    },
+    {
+      "target": "doi:10.3389/fncel.2013.00220",
+      "reason": "Review of microRNA-9 as a regulator of neurogenesis; relevant to the candidate region upstream of Mir9-1."
+    },
+    {
+      "target": "doi:10.1126/science.abn2253",
+      "reason": "Human-specific deletions in conserved elements: a known source of human-branch regulatory change, relevant to the human-driven associations."
+    },
+    {
+      "target": "sci:sha256:1756317efc9cb8867e6155ed6462d9e23c7e951e839c914966a72586b3f39014",
+      "reason": "SCI study of how often mouse enhancer deletions give a defect; relevant to prediction 2 (deleting TACIT brain-size OCRs)."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "reason": "SCI study of conservation of CRISPRi-validated enhancers; another test of which non-coding elements carry function."
+    },
+    {
+      "target": "sci:sha256:e0ce3298e0b56a10309c99ad1e98bee0e92cc166b5435c62ab7a2e93ce598e5d",
+      "reason": "SCI study of human-specific fast-evolving regions; human-branch changes are what drive the within-primate associations here."
+    },
+    {
+      "target": "sci:sha256:d8b470cc340f626485ffdf91ac50dee5a39236466beaac28b545cc204fbc6942",
+      "reason": "SCI study of cross-species enhancer activity at projected positions; related problem of predicting enhancer activity in distant species."
+    },
+    {
+      "target": "sci:sha256:4b7673b9b5cdeb8a509fed422140f89a37d9948824a3f9a520855fb75a567a82",
+      "reason": "SCI natural-experiment study (gene loss) of non-coding constraint across mammals; a different comparative approach to non-coding function."
+    }
+  ]
+}
