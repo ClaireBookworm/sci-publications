@@ -1,0 +1,143 @@
+{
+ "title": "In five primate alignments, insertions between closely spaced conserved non-coding blocks are rarer than at one-sided block edges, and indel lengths show no DNA helical-phase pattern",
+ "abstract": "In conserved human non-coding DNA, insertions that add DNA between two nearby conserved blocks are rare, and more so the closer the blocks are, while insertions next to a block but not between two blocks are much less rare; indel lengths show no preference for multiples of the DNA helical repeat (about 10.5 bp). This matters because substitution-based conservation scores do not measure length constraint, and a common model of gene control says binding sites must face the same side of the helix.\n\nI compared human with chimpanzee, gorilla, orangutan, macaque and marmoset alignments (52.2 million insertion and deletion events, indels). For each DNA class and indel length (1-60 bp), I divided observed indels by the number expected from a reference class with the same GC content, homopolymer context and transposon status (O/E), with bootstrap intervals over 10-Mb genome blocks.\n\nAt the same distance (1 bp) from the nearest conserved block, insertions of 3-60 bp had O/E relative to one-sided block edges of 0.59 [0.57, 0.62] when the two blocks were at most 10 bp apart, 0.72 for 11-30 bp, 0.82 for 31-100 bp and 0.94 for 101-300 bp, in this order in each species. Edges of blocks with another block within 30 bp on their far side showed a much weaker deficit (0.94 [0.88, 1.00]; per species 0.92-1.11), so most of the deficit belongs to DNA between blocks, not to conserved clusters.\n\nPositive controls worked: protein-coding DNA showed the 3-bp reading-frame signal (periodic coefficient a = 1.16 [1.13, 1.20]) and 5' untranslated regions a weaker one (a = 0.114). For conserved non-coding DNA the pre-specified 10.5-bp coefficient was negative (a = -0.025 [-0.031, -0.018]), but its size is typical of non-helical periods and the periodogram peaks are at 6-8 bp. In gaps between conserved blocks, helical-phase purging has a depth of at most 2-4% of half-turn indels, about one fifth of the frame effect in 5' untranslated regions. Non-conserved DNA in ENCODE enhancer-like elements had no detectable indel deficit (O/E 1.04; low sensitivity).\n\nLimits: alignments can misplace indels; phastCons borders come from substitutions in the same primates, so gap DNA may also carry weak sequence constraint; evidence is comparative. Prediction for reporter assays: 3-10 bp insertions into non-conserved gaps of 10 bp or less between conserved blocks reduce enhancer activity more than the same insertions just outside a block, and 10-bp insertions are not better tolerated than 5-bp ones.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "insertions and deletions",
+  "indel length spectrum",
+  "DNA helical repeat",
+  "spacer length constraint",
+  "regulatory grammar",
+  "phastCons",
+  "primate comparative genomics",
+  "ENCODE cCRE",
+  "evolutionary constraint"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig3_spacing_constraint.png",
+   "caption": "Spacing constraint between conserved blocks (human vs five primates). A: Insertions placed strictly between two conserved blocks, observed/expected relative to one-sided block edges, by insertion length and gap size (corrected for junction opportunity; not distance-matched). Dashed: insertions inside conserved blocks. B: At 1 bp from the nearest block, insertion O/E (3-60 bp, blue; 1-2 bp, green) falls as the two blocks get closer, while substitution O/E (orange) stays at 0.90-0.93. Control (separate reference: edges of isolated blocks): edges of blocks with another block within 30 bp on the far side show a much weaker deficit. Bars: 95% bootstrap intervals over 10-Mb genome blocks."
+  },
+  {
+   "path": "files/figures/fig2_periodogram_effects.png",
+   "caption": "No helical-phase signal. Left: periodograms of the indel length ratio against a smooth trend; dashed line: simulated white-noise 95% null for the maximum (too permissive for conserved DNA); shaded band: DNA helical repeat (10-11 bp). Coding DNA and 5' UTRs peak at 3 bp; conserved non-coding classes peak at 6-8 bp. Right: periodic coefficients a with block-bootstrap (thick) and length-level quasi-Poisson (thin) 95% intervals. Coefficients at arbitrary non-helical periods vary about as much as a(10.5) in conserved DNA; see README for revised bounds."
+  },
+  {
+   "path": "files/figures/fig1_length_spectra.png",
+   "caption": "Indel length spectra relative to context-matched neutral DNA (human vs five primates). A, B: Protein-coding DNA and 5' UTRs favour lengths that are multiples of 3 (blue). C: Conserved non-coding DNA (phastCons elements and gaps of 100 bp or less between them). D: Gaps between conserved blocks (non-repeat, isolated indels). In C and D, lengths within 1 bp of a multiple of 10.5 bp (blue) do not lie above the smooth trend. Bars: Poisson 95% intervals."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1371/journal.pcbi.0020005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Indel-based detection of functional DNA independent of substitutions, including sequence under heterogeneous selection; closest prior work on length constraint. This study places such constraint between nearby conserved blocks and tests helical phase."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Indel-based estimate of the constrained fraction of the human genome (8.2%)."
+  },
+  {
+   "target": "doi:10.1186/1471-2148-11-192",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Reported depletion of non-multiple-of-three indels in mammalian 5' UTRs; reproduced here as a positive control."
+  },
+  {
+   "target": "doi:10.1101/gr.3715005",
+   "relations": [
+    "uses"
+   ],
+   "reason": "phastCons conserved elements define the conserved blocks and spacers."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2493-4",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE candidate cis-regulatory elements (registry v4) used as annotation."
+  },
+  {
+   "target": "doi:10.1038/s41588-021-00782-6",
+   "reason": "Reported a 10.5-bp helical spacing preference in learned motif syntax; motivates the helical-phase test."
+  },
+  {
+   "target": "doi:10.7554/eLife.70878",
+   "reason": "Natural indels that change spacing between transcription-factor pairs are mostly tolerated at the level of binding and acetylation; consistent with spacing constraint concentrated in very short gaps."
+  },
+  {
+   "target": "doi:10.1038/ng.2713",
+   "reason": "Reporter assays support a flexible regulatory grammar; consistent with no helical-phase signal."
+  },
+  {
+   "target": "doi:10.1093/molbev/mst185",
+   "reason": "Indel mutation-rate heterogeneity can mimic selection; motivates the context matching and artifact checks."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1000829",
+   "reason": "Simulated spacer-length distortion by indels in binding-site evolution."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2018.10.004",
+   "reason": "Nucleosome-linked 10-bp mutation periodicity; a possible source of periodic mutation spectra."
+  },
+  {
+   "target": "doi:10.1016/0092-8674(95)90136-1",
+   "reason": "IFN-beta enhanceosome, a classic case of helical-phase dependence, cited as a known exception."
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC hg38 pairwise net alignments to five primates and annotation tables."
+  },
+  {
+   "target": "https://downloads.wenglab.org/Registry-V4/GRCh38-cCREs.bed",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ENCODE cCRE registry v4 file."
+  },
+  {
+   "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+   "reason": "Length constraint on enhancer-to-gene distances (kilobase scale); this study adds the 1-60 bp scale."
+  },
+  {
+   "target": "sci:sha256:52b9a8754254d769528350d28fa20acdc2ee3a6863c362887e286aeef9a10563",
+   "reason": "Natural deletions between genes and enhancers; spacing at a larger scale."
+  },
+  {
+   "target": "sci:sha256:eb105cb0d127cd21d17f80555493898b9a415b31a5b31578db1b68dade409d95",
+   "reason": "Length constraint on introns of immediate-early genes."
+  },
+  {
+   "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Little selection on regulatory elements without mammal conservation; consistent with no indel deficit in non-conserved cCRE DNA here."
+  },
+  {
+   "target": "sci:sha256:7376a36357816ce28662f49ef75e6aac59708989644747d1ce37be6e1e167642",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Weak amino-acid selection on ncORFs; consistent with no frame signal in lncRNA exons here."
+  }
+ ]
+}
