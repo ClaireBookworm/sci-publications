@@ -1,0 +1,168 @@
+{
+  "title": "In 2,007 mutagenized C. elegans strains, non-coding point mutations near essential genes caused death or sterility under a tenth as often as nonsense mutations, except at splice sites",
+  "abstract": "In the nematode C. elegans, single-base mutations in the non-coding DNA around essential genes seldom kill the animal or make it sterile: per mutation, they do this less than a tenth as often as nonsense mutations in the same genes, except at splice signals. This gives a direct, calibrated measure of strong effects in non-coding DNA, which conservation and population data cannot separate from weak effects.\n\nWe re-analysed the Million Mutation Project: 2,007 mutagenized strains, each propagated by self-fertilization from single animals to F10, so mutations that kill or sterilize homozygous animals are mostly absent. We compared 839,773 unique mutations with counts expected from a 96-type mutation-rate model. Sites around 3,981 genes that are lethal or sterile after RNA interference (\"essential\") were compared with sites around 13,655 other tested genes in the same 1-Mb bin and expression quintile. The deficit D is the fraction of expected mutations that is missing. The lethal-equivalent fraction f is D, corrected with synonymous sites, divided by the nonsense value.\n\nNonsense mutations had D = 0.48 (95% CI 0.44 to 0.52). Canonical splice sites had f = 0.49 (0.34 to 0.63), and highly conserved missense sites (phyloP 4 or more) had f = 0.17 (0.10 to 0.25). UTRs, introns and flanks (13.7 Mb; 106,334 expected mutations) had D = 0.010 (-0.001 to 0.022) and f = 0.00 (-0.04 to 0.06). Accessible promoters and enhancers, operon spacers and conserved non-coding bases had no detectable deficit. In a post hoc test, the 20 bp around trans-splice acceptor junctions, where the spliced-leader RNA joins most mRNAs, had f = 0.39 (0.12 to 0.61; weaker with finer expression strata), and a control window upstream had none. Across 10 analysis variants (for example EMS-only strains), the upper 95% limit of the non-coding f was 0.04 to 0.09; a placebo centred on 0.\n\nThompson et al. (2013) already reported that outside nonsense mutations the MMP counts are close to expectation; we add calibrated intervals, positive controls, regulatory and conserved classes, and the splice-signal exception. Limits: the bound is a per-site average and does not exclude concentrated effects; laboratory selection removes mainly lethal, sterile and visible effects; summed over 13.7 Mb, the non-coding total is not bounded (-1.3 to 1.8 removed non-coding mutations per removed truncating mutation); one compact genome; mostly G:C to A:T changes; heterozygous blocks could not be excluded.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.PE"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "junk DNA",
+    "Million Mutation Project",
+    "Caenorhabditis elegans",
+    "induced mutations",
+    "EMS mutagenesis",
+    "essential genes",
+    "lethal mutations",
+    "distribution of fitness effects",
+    "regulatory elements",
+    "UTR",
+    "introns",
+    "promoters",
+    "operons",
+    "conservation",
+    "phyloP",
+    "RNAi",
+    "placebo test",
+    "trans-splicing"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_lethal_fraction_by_class.png",
+      "caption": "Lethal-equivalent fraction f by site class around 3,981 RNAi-essential genes (main analysis): the deficit of induced mutations in 2,007 MMP strains, relative to non-essential genes in the same 1-Mb bin and expression quintile, corrected with synonymous sites and divided by the nonsense deficit. 0 = no deficit; 1 = removed as often as a nonsense mutation. Dots: estimates; bars: 95% bootstrap intervals (genes; elements and operon spacers: elements). Blue: coding and cis-splice sites; orange: non-coding classes; green: trans-splice acceptor windows (post hoc) and their upstream control."
+    },
+    {
+      "path": "files/figures/fig2_robustness.png",
+      "caption": "Robustness of f for the pooled non-coding classes (orange), missense (green) and canonical splice sites (blue) across 10 variants: essential-gene definitions (RNAi; at least 2 RNAi experiments; RNAi and allele; allele only), strata (chromosome x expression; 1-Mb bin only; expression deciles), mutagen subsets and exclusion of the 54 strains with most mutations. Only the variant that ignores expression gives a non-coding f above 0. Bars: 95% bootstrap intervals."
+    },
+    {
+      "path": "files/figures/fig3_aggregate.png",
+      "caption": "Estimated number of MMP mutations removed by selection around essential genes, by class (corrected deficit x expected count; 95% paired bootstrap intervals). Per site, non-coding mutations are seldom removed, but because non-coding DNA is large (106,334 expected mutations) the total number of removed non-coding mutations is not bounded well: -1.3 to 1.8 per removed truncating mutation."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1101/gr.157651.113",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Million Mutation Project: source of the 2,007 mutagenized strains and their mutation calls. Its Figure 5 already reported that, outside nonsense mutations, observed counts by feature were close to expectation; we quantify and extend this."
+    },
+    {
+      "target": "https://genome.science.sfu.ca/mmp/mmp_mut_strains_data_Mar14.txt",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MMP variant table (870,227 variants) analysed here."
+    },
+    {
+      "target": "doi:10.1534/genetics.110.116616",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Describes the MMP parental strain and mutation detection."
+    },
+    {
+      "target": "doi:10.7554/eLife.37344",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Accessible promoter and enhancer annotation (ce11) used for the element analysis."
+    },
+    {
+      "target": "doi:10.1093/genetics/iyae050",
+      "relations": [
+        "uses"
+      ],
+      "reason": "WormBase (release WS297): genome, gene models, RNAi and allele phenotypes, expression, variation IDs, operons."
+    },
+    {
+      "target": "https://ftp.ebi.ac.uk/pub/databases/wormbase/releases/WS297/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "WormBase WS297 files (EBI mirror)."
+    },
+    {
+      "target": "https://hgdownload.soe.ucsc.edu/goldenPath/ce11/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "UCSC ce11 phyloP 26-way, phastCons 26-way elements, RepeatMasker and simple repeats."
+    },
+    {
+      "target": "doi:10.1038/nature01278",
+      "reason": "Genome-wide RNAi screen that contributes to the RNAi-essential gene set."
+    },
+    {
+      "target": "doi:10.1038/nature03353",
+      "reason": "Genome-wide RNAi screen of early embryogenesis that contributes to the RNAi-essential gene set."
+    },
+    {
+      "target": "doi:10.1111/evo.13360",
+      "reason": "Mutation-accumulation lines of Chlamydomonas in which coding but not non-coding mutation counts predicted fitness decline; the closest prior direct test."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.3000192",
+      "reason": "Distribution of fitness effects of spontaneous mutations from the same Chlamydomonas lines."
+    },
+    {
+      "target": "doi:10.1038/s41592-024-02216-7",
+      "reason": "Per-base estimate of regulatory function from CRISPRi screens in human cells, a complementary perturbation measure."
+    },
+    {
+      "target": "doi:10.7554/eLife.100574",
+      "reason": "Literature check: test of the mutational-hazard explanation of genome size across 807 animals (candidate approach not chosen)."
+    },
+    {
+      "target": "sci:sha256:c0893ef4b28bd1149025047c481b39e70fd380849b8d258c6d9d0989898b1386",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Fission-yeast transposon screen: growth costs in about 10% of non-coding DNA; our point-mutation data agree that strong effects are concentrated and rare."
+    },
+    {
+      "target": "sci:sha256:3bda8d30259fe755605e719c4d5838b4265e8de331ce655a771bdd4eb564a3bc",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Fission-yeast insertion depletion near essential genes mostly in introns and slightly in UTRs and upstream DNA; same essential vs non-essential logic, here applied to point mutations in an animal."
+    },
+    {
+      "target": "sci:sha256:b9d97af4d09f71c2fcfe77c7117d075fbbd1ae490e1b844597571139d2e550a0",
+      "reason": "Plasmodium insertion screen with a placebo contrast; we also use a placebo test."
+    },
+    {
+      "target": "sci:sha256:e6abf71b0321c520bad623b4399ed691e3951f3777a6ff97073e87c4a33b4ed2",
+      "reason": "Bacterial insertion screens: intergenic effects mostly through a nearby gene."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Human conserved non-coding bases carry much smaller calibrated variant deficits than conserved coding bases; we find the same contrast for lethal effects in C. elegans."
+    },
+    {
+      "target": "sci:sha256:2979649e5dcb14145b8d371347404f186bf80034013c0d805e6c9da0c06c2b08",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Human X-chromosome analysis concluding that strong recessive selection acts on few non-coding bases; our homozygous lethality data agree."
+    },
+    {
+      "target": "sci:sha256:1756317efc9cb8867e6155ed6462d9e23c7e951e839c914966a72586b3f39014",
+      "reason": "Mouse enhancer deletions often show no defect; consistent with the robustness of accessible elements to single-base changes found here."
+    },
+    {
+      "target": "doi:10.1002/advs.202510034",
+      "reason": "Rice EMS lines analysed by homozygous vs heterozygous calls; related design, aimed at mutagenesis bias; relevant to our Prediction 4."
+    }
+  ]
+}
