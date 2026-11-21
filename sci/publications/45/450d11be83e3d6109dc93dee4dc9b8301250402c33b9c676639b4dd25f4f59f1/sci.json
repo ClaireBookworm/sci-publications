@@ -1,0 +1,236 @@
+{
+ "title": "Testis transcription of human lincRNA genes leaves a strand-specific mark on new germline mutations but no detectable decrease of their non-CpG mutation rate",
+ "abstract": "Long intergenic non-coding RNA (lincRNA) genes that the human testis transcribes get as many new germline mutations at non-CpG sites as silent lincRNA genes, although transcription changes which DNA strand gets them. This matters because one proposed function of the widespread transcription of non-coding DNA in the testis is genome protection: the transcriptional scanning hypothesis says that transcription lets repair enzymes remove DNA damage, so transcribed DNA mutates less.\n\nWe used 217,000 de novo mutations (new mutations in a child that are absent in both parents) from 3,458 whole-genome trios and 27.7 million 1000 Genomes singletons (variants seen once in 2,504 people). We compared lincRNA gene bodies expressed in testis with silent ones and with intergenic DNA, matched on 1-Mb region, three-base context, GC content and repeat status. At non-CpG sites, bodies expressed at 1 TPM (transcripts per million) or more had 1.05 (95% CI 0.97-1.14) times the de novo rate of silent bodies (5,539 mutations in the contrast); singletons gave 1.00 (0.985-1.011). This excludes a decrease larger than about 3%. With germ-cell-stage expression from single-cell data the estimates were similar but only decreases above 5-15% are excluded. Each large study, repeat status and removal of gene starts gave the same result. At CpG sites, which depend on DNA methylation, the ratio was 0.90 (0.78-1.04) and is not interpreted.\n\nTranscription did leave a strand mark. The T>C rate with the T on the coding (non-template) strand, divided by the rate with the T on the template strand, was 0.78 (0.76-0.80) in expressed lincRNA bodies with singletons, 0.94 in silent ones, 0.99 in DNA upstream of the same genes (an orientation placebo) and 0.65 in introns of expressed protein-coding genes; with de novo mutations alone the mark did not separate expressed from silent lincRNAs. Against intergenic DNA, one strand lost mutations and the other gained them, which fits transcription-coupled repair plus damage with no net change.\n\nThus lincRNA transcription in the germline is visible in the mutation spectrum but gives no detectable protection at non-CpG sites; this does not support a genome-protective role of testis lincRNA transcription. Other kinds of pervasive transcription were not tested. Limitations: mutations are not phased by parent, and expression only approximates the germ-cell stages where mutations arise.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "long non-coding RNA",
+  "lincRNA",
+  "pervasive transcription",
+  "transcriptional scanning",
+  "germline mutation",
+  "de novo mutations",
+  "transcription-coupled repair",
+  "transcription-coupled damage",
+  "strand asymmetry",
+  "mutation rate",
+  "testis",
+  "spermatogenesis",
+  "1000 Genomes",
+  "denovo-db",
+  "GTEx",
+  "mutational signature"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_net_rate.png",
+   "caption": "De novo mutation rate of lincRNA bodies and protein-coding introns by testis expression, relative to intergenic DNA of the same 1-Mb blocks (a), and the primary contrast, testis-expressed vs silent lincRNA bodies, for each expression source and estimator (b). Non-CpG sites; bars are 95% bootstrap intervals. Scanning predicts values below 1."
+  },
+  {
+   "path": "files/figures/fig2_strand_asymmetry.png",
+   "caption": "Transcription-strand asymmetry: rate with the pyrimidine on the coding strand divided by the rate with it on the template strand, for six mutation types, by testis expression. Filled: 1000 Genomes singletons; open: de novo mutations. Intergenic DNA (placebo orientation) gives 1.00."
+  },
+  {
+   "path": "files/figures/fig3_strand_decomposition.png",
+   "caption": "Strand-resolved rate ratios against intergenic DNA for testis-expressed lincRNA bodies and protein-coding introns. One strand rises and the other falls; the total (grey) stays near 1 for lincRNA bodies."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1016/j.cell.2019.12.015",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Proposes the transcriptional scanning hypothesis (testis transcription lowers germline mutation rates); we test its prediction for non-coding transcripts and find no net reduction."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7825000/",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Liu and Zhang 2020 (Mol Biol Evol): higher germline mutagenesis of genes with stronger testis expression; our protein-coding and lincRNA results also show no reduction."
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/34482438/",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Xia and Yanai 2021 (Hum Genet): repair and damage both act; our strand decomposition shows both in lincRNA bodies with no net gain."
+  },
+  {
+   "target": "doi:10.1101/2025.09.18.677082",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Wyman et al. 2025: no male expression effect on protein-coding mutation rates with phased de novo mutations; we extend the test to lincRNA transcripts, which they excluded."
+  },
+  {
+   "target": "doi:10.1038/ng1103",
+   "reason": "Transcription-associated mutational asymmetry in mammals (Green et al. 2003)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5586376",
+   "reason": "Chen et al. 2017: higher germline mutation rates in testis-expressed genes."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2963814",
+   "reason": "McVicker and Green 2010: strand asymmetry tracks germline gene expression."
+  },
+  {
+   "target": "doi:10.1126/science.aau1043",
+   "reason": "Halldorsson et al. 2019: parent-phased de novo mutations that could remove our phasing limitation."
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/18974087/",
+   "reason": "Mugal et al. 2009: deamination on the coding strand and repair on the template strand both shape the bias."
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/18463301/",
+   "reason": "Polak and Arndt 2008: transcription-induced strand-specific mutations at gene 5' ends."
+  },
+  {
+   "target": "doi:10.1126/science.aba7408",
+   "reason": "Seplyarskiy et al. 2021: compendium of germline mutational processes including transcription-associated asymmetries."
+  },
+  {
+   "target": "doi:10.1016/j.cell.2015.12.050",
+   "reason": "Haradhvala et al. 2016: strand asymmetries reveal damage and repair mechanisms."
+  },
+  {
+   "target": "doi:10.1038/nature11233",
+   "reason": "Djebali et al. 2012: pervasive transcription of the human genome."
+  },
+  {
+   "target": "doi:10.1016/j.celrep.2013.05.031",
+   "reason": "Soumillon et al. 2013: high transcriptome complexity of the testis."
+  },
+  {
+   "target": "doi:10.1093/nar/gkw865",
+   "relations": [
+    "uses"
+   ],
+   "reason": "denovo-db, source of the de novo mutations."
+  },
+  {
+   "target": "doi:10.1038/nature24018",
+   "relations": [
+    "uses"
+   ],
+   "reason": "deCODE de novo mutations (Jonsson et al. 2017)."
+  },
+  {
+   "target": "doi:10.1038/nn.4524",
+   "relations": [
+    "uses"
+   ],
+   "reason": "MSSNG de novo mutations (Yuen et al. 2017)."
+  },
+  {
+   "target": "doi:10.1038/ng.3292",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GoNL de novo mutations (Francioli et al. 2015)."
+  },
+  {
+   "target": "doi:10.1038/nature15393",
+   "relations": [
+    "uses"
+   ],
+   "reason": "1000 Genomes phase 3 variants."
+  },
+  {
+   "target": "doi:10.1038/nature24277",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GTEx v7 expression."
+  },
+  {
+   "target": "doi:10.1101/gr.135350.111",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE gene annotation."
+  },
+  {
+   "target": "doi:10.1038/s41422-018-0099-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Adult human testis single-cell data (Guo et al. 2018), GEO GSE112013."
+  },
+  {
+   "target": "https://denovo-db.gs.washington.edu/denovo-db.non-ssc-samples.variants.tsv.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://storage.googleapis.com/adult-gtex/bulk-gex/v7/rna-seq/GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_median_tpm.gct.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE112nnn/GSE112013/suppl/GSE112013_Combined_UMI_table.txt.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://s3.amazonaws.com/1000genomes/release/20130502/ALL.wgs.phase3_shapeit2_mvncall_integrated_v5b.20130502.sites.vcf.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "http://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/hg19.2bit",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_19/gencode.v19.annotation.gtf.gz",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We follow its de novo mutation filtering design (duplicate children, inherited calls) on the same denovo-db source; it showed that mutation-rate differences can mimic constraint in non-coding DNA."
+  },
+  {
+   "target": "sci:sha256:eac6ec260df06486b728132989676c5438dc8e7f3c8f646a21debab815fe46b8",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Found transcription-linked strand-specific mutation in introns; we show the same type of strand mark in lincRNA bodies and that it does not change the total rate."
+  },
+  {
+   "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+   "reason": "Related test of lncRNA function by population constraint."
+  },
+  {
+   "target": "sci:sha256:3bbf04a7940d133b8f3610d2a90b93fd8d34ba87e9d5154e464bb2571bab691f",
+   "reason": "Related test of lncRNA function claims in perturbation screens."
+  },
+  {
+   "target": "sci:sha256:68c2aa00432d718e74538778d4c2d0e933c8c1ea356b7f08fc4c56f23b9fff9d",
+   "reason": "Related: how much transcription initiation non-coding DNA has against shuffled nulls."
+  }
+ ]
+}
