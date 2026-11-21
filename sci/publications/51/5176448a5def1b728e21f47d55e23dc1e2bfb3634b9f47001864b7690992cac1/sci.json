@@ -1,0 +1,188 @@
+{
+  "title": "In K562 CRISPRi screens, enhancers with active neighbors are needed more often than other enhancers of the same gene, mainly at tiled loci, not across genes; a 5-kb neighbor feature adds no accuracy",
+  "abstract": "When CRISPR interference (CRISPRi) silences candidate enhancers of the same gene, the ones with more active DNA 1-10 kb around them, or inside a super-enhancer, have 1.5 to 2.2 times the odds of reducing the gene; across all tested pairs this link is absent or reversed, because genes in promoter-dense regions have fewer detectable enhancers. This matters because a widely used enhancer-gene model (ENCODE-rE2G, Nature 2026) uses the activity of other elements within 5 kb as a feature and reads its weight as enhancer-enhancer synergy, and because super-enhancers (clusters of strong enhancers) are often treated as a special class of non-coding DNA.\n\nWe used 12,233 element-gene pairs from six public CRISPRi screens in K562 cells (560 with a significant decrease of the gene), ENCODE DNase-seq, H3K27ac (together: activity) and Hi-C contact, and the published ENCODE-rE2G features. All models adjust for the element's own signal, distance and contact. Within genes (conditional logistic regression, 147 genes), the odds ratio (OR) per interquartile range was 2.0 (95% CI 1.1-3.6) for active DNA 1-10 kb away, 1.5 (1.0-2.1) for separate DNase elements 1-10 kb away, and 2.2 (1.2-4.2) for super-enhancer membership; most of this came from 21 genes in tiling screens, and held-out screens had too few informative genes to test it. Across pairs the same terms gave 0.58 (0.44-0.75), 0.98 and 0.98, and the number of promoters within 1 Mb gave 0.43 (0.32-0.57; held-out 0.26). Active DNA within 0.5 kb of the element edge predicted effects in every analysis (OR 3.8 per interquartile range), most likely the element's own extent. With the published features and training method (exact coefficients recovered), removing the 5-kb feature changed cross-validated AUPRC (area under the precision-recall curve) by -0.0006 (95% CI -0.005 to 0.004) and held-out AUPRC by +0.003.\n\nThus CRISPRi data support the idea that clustered enhancers matter more only in comparisons inside one gene, mostly at tiled loci; regional promoter density hides this link across genes, so one 5-kb feature cannot capture it. Limits: one cell line, CRISPRi only, binary significance calls, few tiled genes, no independent within-gene replication, and 3D contact hubs that 5-kb Hi-C may miss.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "non-coding DNA",
+    "enhancer",
+    "super-enhancer",
+    "CRISPRi",
+    "enhancer synergy",
+    "enhancer clusters",
+    "activity-by-contact",
+    "ENCODE-rE2G",
+    "promoter density",
+    "Simpson's paradox",
+    "K562",
+    "enhancer-gene prediction",
+    "H3K27ac",
+    "DNase-seq",
+    "junk DNA",
+    "claim test"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_contrast.png",
+      "caption": "Odds ratios that CRISPRi of an element reduces its gene, for neighbor terms estimated across all pairs (blue, pooled logistic regression clustered by gene) and within genes (orange, conditional logistic regression). A: all 11,274 K562 pairs with Hi-C contact. B: the Nasser 2021 tiling screens. Within genes, active DNA 1-10 kb away, separate DNase elements 1-10 kb away and super-enhancer membership raise the odds; across pairs they do not, while promoter density lowers them. Active DNA within 0.5 kb of the element raises the odds in both comparisons. All models adjust for element DNase and H3K27ac, distance and Hi-C contact. Bars: 95% CI."
+    },
+    {
+      "path": "files/figures/fig2_nearby_feature.png",
+      "caption": "A: change in AUPRC when the published ENCODE-rE2G nearby feature (activity of other elements within 5 kb), or DNase in the 0-0.5 kb or 1-5 kb flanks, is added to the other seven published features (blue: leave-one-chromosome-out on training screens; orange: held-out K562 screens). No addition changes accuracy. B: across pairs, the coefficient of the 5-kb nearby sum is positive with element activity and distance only, and goes to zero or below when activity 0-0.5 kb from the element is added."
+    },
+    {
+      "path": "files/figures/fig3_pooled_ring_profile.png",
+      "caption": "Across all 12,233 K562 pairs: change in log-odds per 10-fold more active DNA at each distance from the element edge. A: one ring at a time gives a positive link out to about 2 kb and a negative one beyond 10 kb. B: with all rings and the gene's ABC denominator in one model, only the first 0.25 kb stays positive. Grey band: 5-kb window of the ENCODE-rE2G nearby feature; dashed line: 12.5-kb super-enhancer stitching distance. Bars: 95% CI clustered by gene."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41586-026-10781-4",
+      "relations": [
+        "uses",
+        "challenges"
+      ],
+      "reason": "ENCODE-rE2G (Nature 2026). We use its CRISPR benchmark and published K562 features, and test its claim that the nearby-activity feature reflects enhancer-enhancer synergy; our within-gene result agrees with synergy at tiled loci, but the feature adds no accuracy."
+    },
+    {
+      "target": "doi:10.1101/2023.11.09.563812",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Preprint of ENCODE-rE2G with the same synergy analysis."
+    },
+    {
+      "target": "https://github.com/EngreitzLab/CRISPR_comparison",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source of the training and held-out CRISPRi element-gene pairs."
+    },
+    {
+      "target": "https://github.com/EngreitzLab/ENCODE_rE2G",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Feature definitions, training method, and TSS reference."
+    },
+    {
+      "target": "https://www.encodeproject.org/files/ENCFF970QAX/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Published ENCODE-rE2G DNase-only K562 predictions with features and Hi-C contact."
+    },
+    {
+      "target": "https://www.encodeproject.org/experiments/ENCSR000EOT/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "K562 DNase-seq (peaks ENCFF185XRG, signal ENCFF414OGC)."
+    },
+    {
+      "target": "https://www.encodeproject.org/experiments/ENCSR000AKP/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "K562 H3K27ac ChIP-seq (peaks ENCFF864OSZ, signal ENCFF849TDM)."
+    },
+    {
+      "target": "https://www.encodeproject.org/experiments/ENCSR000AEM/",
+      "relations": [
+        "uses"
+      ],
+      "reason": "K562 RNA-seq gene expression covariate."
+    },
+    {
+      "target": "doi:10.1093/bioinformatics/btae367",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Barth et al. 2024 found enhancer and promoter density important for predicting pairs in the Gasperini data; our promoter-density result agrees."
+    },
+    {
+      "target": "doi:10.1038/s41588-019-0538-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ABC model; we test its denominator and find it is mostly promoter density."
+    },
+    {
+      "target": "doi:10.1016/j.xgen.2024.100672",
+      "reason": "Single-cell CRISPRi analysis finding multiplicative enhancer combination."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2018.11.029",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Gasperini 2019 CRISPRi screen in the benchmark."
+    },
+    {
+      "target": "doi:10.1038/s41586-021-03446-x",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Nasser 2021 CRISPRi tiling screens in the benchmark."
+    },
+    {
+      "target": "doi:10.1038/s41592-020-0837-5",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schraivogel 2020 TAP-seq screen in the benchmark."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2013.03.035",
+      "reason": "Super-enhancer definition (ROSE); within genes we find constituents more often needed, across genes not."
+    },
+    {
+      "target": "doi:10.1016/j.cell.2013.09.053",
+      "reason": "Super-enhancers in cell identity and disease."
+    },
+    {
+      "target": "doi:10.1038/ng.3167",
+      "reason": "Critique of super-enhancers as a distinct class."
+    },
+    {
+      "target": "doi:10.1038/ng.3605",
+      "reason": "Alpha-globin super-enhancer constituents act independently and additively."
+    },
+    {
+      "target": "doi:10.1101/gr.210930.116",
+      "reason": "Enhancers and super-enhancers have an equivalent regulatory role in embryonic stem cells."
+    },
+    {
+      "target": "doi:10.1038/nmeth.3630",
+      "reason": "dCas9-KRAB heterochromatin at targeted enhancers; spreading range."
+    },
+    {
+      "target": "doi:10.1038/s41592-024-02216-7",
+      "reason": "Multicenter analysis of noncoding CRISPRi screens; guide and element design."
+    },
+    {
+      "target": "doi:10.1098/rstb.2019.0146",
+      "reason": "Prior answer to a rejected candidate question (genome size and metabolic rate)."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "reason": "Related SCI analysis of the same CRISPRi benchmark (conservation of validated enhancers)."
+    },
+    {
+      "target": "sci:sha256:d2d00c41fb2b053bba0b7d1179b5fdf4a9e420e836c95e052bc1d075ef42ad44",
+      "reason": "Related SCI analysis of the same benchmark; we follow its point that screen power should not be a covariate."
+    },
+    {
+      "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+      "reason": "Related SCI analysis of DNA between CRISPRi-validated enhancers and genes."
+    }
+  ]
+}
