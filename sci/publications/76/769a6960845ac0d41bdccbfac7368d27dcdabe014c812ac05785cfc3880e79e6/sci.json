@@ -1,0 +1,185 @@
+{
+ "title": "Human variants that break Watson-Crick pairs of 483,913 predicted conserved RNA structures are not rarer than pair-keeping variants; an apparent signal at G-U pairs is the same on both DNA strands",
+ "abstract": "In human genetic variation, the base pairs of predicted conserved RNA structures in non-coding DNA show no sign of natural selection on pairing. This matters because genome-wide structure predictions were used to claim that a large part of the human genome is under selection for RNA structure.\n\nWe tested 483,913 conserved RNA structures (CRSs, Seemann et al. 2017) and 34,159 EvoFold structures against single-nucleotide variants (SNVs) in 76,215 genomes (gnomAD v4.1). At each predicted pair we compared SNVs that break the pair with SNVs that keep it (for example C to U opposite G, which makes a G-U pair). Logistic models matched SNVs for 192 RNA-strand mutation classes and mammalian conservation; decoy pairs moved along the same structures gave the baseline. The odds ratio (real / decoy) is below 1 if pair-breaking SNVs are missing.\n\nAt Watson-Crick pairs (G-C, A-U; 86% of pairs), non-coding CRSs gave 1.000 (95% interval 0.996-1.005; 1.001 at non-CpG sites): 1.002 where a gene is transcribed from the predicted strand, 0.999 where only the other strand is transcribed, 0.999 without a gene. At CpG sites the ratio was 1.039, the opposite direction to selection. At G-U pairs they gave 0.956 (0.942-0.969) on both strands alike, through an excess of transitions that make the pair Watson-Crick; this excess grows with the share of other species that carry that Watson-Crick pair (odds ratio 1.29 at 75-100% vs under 25%), while pair-breaking SNVs do not change, which marks recurrent mutability. Selection on RNA pairing acts only on the transcribed strand, and a pair-keeping change on one strand is pair-breaking on the other, so this is not RNA-level selection; it makes a naive all-pairs test report 2% selection on structure. For CRSs inside one gene, the predicted strand is the gene strand in only 52.8%. RNA folds of random intron DNA gave 1.015 (0.996-1.035). Known structured RNAs gave 0.84-0.93 with wide intervals (tRNA genes, 0.81, reflect hypermutation), so a share of selected pairs cannot be bounded.\n\nThus any extra loss of pair-breaking SNVs at CRS Watson-Crick pairs is below about 0.5%. Population tests of predicted RNA structure should treat G-U pairs and CpG sites apart and use a strand control. Limits: gnomAD detects only selection of about 1e-3 or stronger per site, so weak selection on some pairs is not excluded; two of four controls were chosen after first results; the set of Smith et al. (2013) that covers 13.6% of the genome was not tested directly.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.GN"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.PE"
+  }
+ ],
+ "keywords": [
+  "non-coding DNA",
+  "junk DNA",
+  "RNA secondary structure",
+  "conserved RNA structure",
+  "CRS",
+  "EvoFold",
+  "base pairing",
+  "G-U wobble",
+  "gnomAD",
+  "purifying selection",
+  "population genetics",
+  "transcribed strand",
+  "strand control",
+  "ascertainment bias",
+  "decoy structure",
+  "negative control",
+  "functional fraction"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_pairing_by_pair_type.png",
+   "caption": "Pairing tests by pair type. Odds ratio of being observed in gnomAD v4.1 for pair-breaking vs pair-keeping SNVs, real / decoy structure, from logistic models matched for 192 RNA-strand mutation classes and mammalian conservation; below 1 means pair-breaking SNVs are missing. (a) Watson-Crick pairs: CRSs in all transcription contexts are at 1.0. (b) G-U pairs: CRSs are below 1 on both strands alike. Orange: known structured RNAs (pre-specified or post hoc controls); blue: CRS by context; green: EvoFold; grey: RNA folds of random intron DNA (grey band: its interval). Bars: 95% delete-one-chromosome jackknife intervals, t(21)."
+  },
+  {
+   "path": "files/figures/fig2_gu_artifact.png",
+   "caption": "The G-U artifact. (a) At predicted G-U pairs, transitions that make the pair Watson-Crick are in excess relative to decoys at non-CpG sites, equally on the transcribed strand and on the other strand, and not in random folds. (b) At Watson-Crick pairs, pair-keeping and pair-breaking SNVs are equally rare relative to unpaired bases in CRSs; in EvoFold structures on small ncRNA genes, pair-breaking SNVs are rarer. (c) At human G-U pairs, pair-keeping transitions become more common the more other species carry a Watson-Crick pair in the same columns; pair-breaking SNVs at the same bases do not change (jackknife 95% intervals)."
+  },
+  {
+   "path": "files/figures/fig3_strand.png",
+   "caption": "Strand tests. (a) Ratios of Watson-Crick pairing effects between CRSs on the transcribed strand and CRSs on the other strand or outside genes are all near 1; dashed orange lines mark the point estimates of two controls. (b) The predicted CRS strand matches the strand of the overlapping gene in only 51-54% (EvoFold 54-60%)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1101/gr.208652.116",
+   "relations": [
+    "uses",
+    "challenges"
+   ],
+   "reason": "Source of the predicted conserved RNA structures (CRS v2.1) that we test. At Watson-Crick pairs our population data show no selection on their pairing, and their strand calls barely match gene strands."
+  },
+  {
+   "target": "doi:10.1093/nar/gkt596",
+   "reason": "Claim that predicted conserved structures cover 13.6% of the human genome and show widespread purifying selection; motivation; this set was not available to us."
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.0020033",
+   "relations": [
+    "uses"
+   ],
+   "reason": "EvoFold predictions used as a second structure set."
+  },
+  {
+   "target": "https://gnomad.broadinstitute.org/news/2024-04-gnomad-v4-1/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "gnomAD v4.1 genome variants (76,215 genomes)."
+  },
+  {
+   "target": "https://hgdownload.soe.ucsc.edu/gbdb/hg38/gnomAD/v4.1/genomes/",
+   "relations": [
+    "uses"
+   ],
+   "reason": "UCSC bigBed copy of gnomAD v4.1 genomes read by remote range queries."
+  },
+  {
+   "target": "doi:10.1038/s41586-020-2308-7",
+   "reason": "gnomAD methods."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06045-0",
+   "reason": "Genome-wide human constraint from gnomAD genomes."
+  },
+  {
+   "target": "doi:10.1126/science.abn2937",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Zoonomia 241-mammal phyloP scores for conservation strata."
+  },
+  {
+   "target": "doi:10.1126/science.abn3943",
+   "reason": "Mammalian constraint estimates of the functional fraction."
+  },
+  {
+   "target": "doi:10.1093/nar/gkv1309",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GtRNAdb tRNA genes and structures (positive control)."
+  },
+  {
+   "target": "doi:10.1186/1748-7188-6-26",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ViennaRNA RNAfold for miRNA hairpins and random-fold negative control."
+  },
+  {
+   "target": "doi:10.1093/nar/gkac1071",
+   "relations": [
+    "uses"
+   ],
+   "reason": "GENCODE gene models (release 46) for region classes and small RNA genes."
+  },
+  {
+   "target": "doi:10.1038/nmeth.4066",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Found no covariation support for structure in several lncRNAs; our population result agrees that most predicted structure lacks evidence of selection."
+  },
+  {
+   "target": "doi:10.1093/gigascience/giab023",
+   "reason": "Related human population test of predicted mRNA structure at synonymous sites."
+  },
+  {
+   "target": "doi:10.1093/molbev/msaf126",
+   "reason": "Related population test of pair-changing SNPs in Arabidopsis genes."
+  },
+  {
+   "target": "doi:10.1186/s12915-016-0283-0",
+   "reason": "Related: fewer SNPs in paired regions of human lncRNAs."
+  },
+  {
+   "target": "doi:10.1073/pnas.1801240115",
+   "reason": "tRNA genes are mutation hotspots; explains the weak tRNA control."
+  },
+  {
+   "target": "doi:10.1371/journal.pgen.1004525",
+   "reason": "Estimate of the constrained fraction of the human genome."
+  },
+  {
+   "target": "doi:10.1101/2025.08.18.670923",
+   "reason": "Related: natural ncRNA structures resemble random-sequence structures."
+  },
+  {
+   "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+   "reason": "Conserved non-coding bases get fewer new mutations; mutability differences can mimic selection in population tests, as for our G-U artifact."
+  },
+  {
+   "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+   "reason": "Related gnomAD v4.1 test with a shuffled-motif null; similar design of a real-minus-null contrast."
+  },
+  {
+   "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+   "reason": "phyloP errors depend on composition; reason for matching on conservation bins and checking a GC stratum."
+  },
+  {
+   "target": "doi:10.1186/1471-2164-9-520",
+   "reason": "Earlier population test: lower SNP density in EvoFold structures and their stems (no pair-breaking vs pair-keeping split)."
+  },
+  {
+   "target": "doi:10.1038/s41467-021-22549-7",
+   "reason": "Pairing-aware population test of conserved intronic long-range base pairings; prior work closest to ours."
+  },
+  {
+   "target": "doi:10.1186/1748-7188-2-6",
+   "reason": "RNAstrand: G-U pairs inform the reading direction of predicted structures; relevant to our strand test."
+  },
+  {
+   "target": "doi:10.1038/nature12946",
+   "reason": "riboSNitch variants and RNA structure across the human transcriptome."
+  },
+  {
+   "target": "doi:10.1093/bioinformatics/btaa080",
+   "reason": "Power of covariation for detecting conserved RNA structure."
+  }
+ ]
+}
