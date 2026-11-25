@@ -1,0 +1,31 @@
+{
+  "title": "Late expiratory volume fraction and wheeze: incremental cross-cycle prediction",
+  "abstract": "Late expiratory volume fraction did not establish incremental wheeze prediction beyond conventional spirometry, forced expiratory time and demographics: independent-cycle Brier difference -0.000177, added minus baseline (joint source/target bootstrap 95% interval [-0.000663, 0.000551]).",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "FEV6",
+    "spirometry",
+    "wheeze",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1183/09031936.06.00136905"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
