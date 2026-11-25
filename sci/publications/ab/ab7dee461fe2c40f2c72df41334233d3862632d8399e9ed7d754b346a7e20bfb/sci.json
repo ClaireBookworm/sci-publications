@@ -1,0 +1,32 @@
+{
+  "title": "RDW\u2013MCV coupling does not improve cross-cycle prediction of elevated CRP beyond flexible routine measures",
+  "abstract": "Adding RDW \u00d7 MCV/100 to a fixed flexible routine-measure model did not improve CRP >3 mg/L prediction when transferred from NHANES 2007\u201308 (n=5239) to independently sampled 2003\u201304 adults (n=4395): weighted Brier improvement -0.0000248, joint survey-PSU bootstrap 95% interval [-0.0004541, 0.0003259].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "RDW",
+    "MCV",
+    "inflammation",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.5858/133.4.628"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3860736/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    }
+  ]
+}
