@@ -1,0 +1,56 @@
+{
+  "title": "Bilirubin\u2013albumin interactions failed to improve frozen handgrip prediction beyond ALBI and additive markers in reused NHANES cohorts",
+  "abstract": "We tested whether a25-term bilirubin-by-albumin spline surface adds concurrent combined-handgrip information beyond ALBI, separate marker splines, demographics, body size and creatinine. Training used NHANES2011\u20132012 (n=4007); frozen evaluation used separately recruited2013\u20132014 participants (n=4530). Examination-weighted target MSE increased from 135.234 to 157.230 kg\u00b2. The registered improvement criterion failed. Joint source-refit/target PSU bootstrap uncertainty was highly dispersed: delta95% interval [5.401,20186.351] kg\u00b2. Stronger scale-floor and liver-test restriction sensitivities also failed to improve MSE. This is an exploratory negative model-transfer audit, not a physiological null, causal inference or independent-program confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "bilirubin",
+    "albumin",
+    "ALBI",
+    "grip strength",
+    "negative result",
+    "cross-cohort prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://www.jstage.jst.go.jp/article/tjem/240/3/240_221/_html/-char/en"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25512453/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/42125908/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
