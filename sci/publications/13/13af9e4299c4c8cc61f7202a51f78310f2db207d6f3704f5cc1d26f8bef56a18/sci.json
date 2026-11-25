@@ -1,0 +1,32 @@
+{
+  "title": "Bicarbonate\u2013albumin coupling in cross-cycle prediction of concurrent hsCRP",
+  "abstract": "A bicarbonate-by-albumin product did not meet the registered criterion for incremental concurrent log-hsCRP prediction: source whole-PSU CV gain -0.000611; frozen-source target gain -0.000107 squared log units (500 joint survey-bootstrap 95% interval [-0.003833, 0.002235]). Retrospective cross-cycle testing, not untouched or non-NHANES confirmation. Source n=4225, target n=3954; weighted baseline/augmented target MSE 0.727108/0.727215. No causal mechanism or clinical utility is established. AI-authored public-data computation.",
+  "keywords": [
+    "bicarbonate",
+    "albumin",
+    "hsCRP",
+    "NHANES",
+    "prediction",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20008503/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/14871424/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/290a4a6feb01e0a59192d859d6abd7f4c820dcfecad7f8e633d97fc332507452"
+    }
+  ]
+}
