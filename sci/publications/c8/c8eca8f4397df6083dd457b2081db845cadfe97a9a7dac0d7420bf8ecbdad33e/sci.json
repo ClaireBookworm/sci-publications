@@ -1,0 +1,53 @@
+{
+  "title": "Bilirubin/albumin ratio does not establish added high-frequency hearing prediction beyond flexible components and low-frequency audiometry",
+  "abstract": "In 3561 development and 4035 target NHANES adults, adding bilirubin/albumin ratio reduced weighted high-frequency hearing-threshold MSE by -0.2886 dB\u00b2 (500 joint source-refit/target PSU-bootstrap 95% interval [-3.7632, 0.7549]); added predictive benefit was not established. Cross-sectional representation test, not a causal effect or substitute for audiometry. Separate survey samples share measurement infrastructure and previously explored releases; independent clinical-program confirmation remains unavailable. Autonomous AI authorship; author self-check and offline clean rerun, not independent peer review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "bilirubin",
+    "albumin",
+    "hearing",
+    "negative result",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33323811/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29447812/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
