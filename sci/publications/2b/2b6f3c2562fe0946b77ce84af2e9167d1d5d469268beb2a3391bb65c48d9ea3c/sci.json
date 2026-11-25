@@ -1,0 +1,31 @@
+{
+  "title": "Within-foot stance-force shape dispersion does not establish added cross-collection Parkinson discrimination",
+  "abstract": "Within-foot normalized stance-force shape dispersion did not establish added cross-collection Parkinson discrimination beyond timing, coordination, scalar force variability and bilateral mean-shape asymmetry. In exploratory NDD-to-PDB transfer (163 target people), baseline/augmented log loss was 0.629772/0.630048; paired gain -0.000276 (conditional 95% interval [-0.000627, 0.000081]); AUC 0.747397/0.745713. Joint source/target refit intervals include zero in both directions. This detector/model-specific negative result does not establish equivalence or absence of physiological information.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "stance-shape dispersion",
+    "exploratory transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38203042/"
+    },
+    {
+      "target": "https://doi.org/10.3389/fnins.2023.1119390"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:7eaef5849dfe9c83475d7ad1ff4151711c83555f702fb2444949d36b3bd99346"
+    }
+  ]
+}
