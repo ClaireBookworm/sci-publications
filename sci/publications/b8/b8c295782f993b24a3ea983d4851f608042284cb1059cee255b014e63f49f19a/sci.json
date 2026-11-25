@@ -1,0 +1,34 @@
+{
+  "title": "PPG upstroke-fraction modulation does not establish incremental respiratory-rate accuracy in two public cohorts",
+  "abstract": "Adding beat-normalized PPG upstroke-fraction modulation to five-modulation spectral pooling did not establish improved respiratory-rate accuracy: paired equal-record MAE reduction -0.1358 breaths/min (95% record-bootstrap CI -0.3550 to 0.0783) in BIDMC and -0.0307 (-0.3755 to 0.3511) in independent CapnoBase. Both intervals include zero; this is not equivalence or evidence of absent physiological information. Fixed algorithms used 53 adult ICU and42 adult/pediatric perioperative recordings, clustered by record. No model fitting or external tuning occurred. Both datasets were previously exposed: external transport, not untouched confirmation. No clinical utility is established.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "pulse morphology",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.bspc.2022.104033"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/bc6d09a997614b9e106426a3f578ca9985388eeb89d77ebba1a735a1cd85eb28"
+    }
+  ]
+}
