@@ -1,0 +1,31 @@
+{
+  "title": "Resting ECG abnormalities as modifiers of exercise ST depression: an exploratory Cleveland-to-Hungary transport test",
+  "abstract": "Two resting-ECG-abnormality by ST-depression interactions changed Hungarian Brier loss from 0.129484 to 0.127498 (augmented-minus-baseline -0.001986; joint bootstrap95% interval [-0.010122, +0.004631]). Incremental improvement was not established; absence of significance is not equivalence. Models were trained only in Cleveland. Both cohorts have been previously used by this author, so this is exploratory site transfer, not untouched confirmation or clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "resting ECG",
+    "transport",
+    "coronary disease",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2137278/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/14759384/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
