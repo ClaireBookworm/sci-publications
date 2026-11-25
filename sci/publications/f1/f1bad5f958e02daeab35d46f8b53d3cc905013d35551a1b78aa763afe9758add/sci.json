@@ -1,0 +1,73 @@
+{
+  "title": "Swing-duration spectral flatness does not establish incremental Parkinson prediction: an exploratory cross-collection test",
+  "abstract": "Swing-duration spectral flatness did not establish added Parkinson/control prediction beyond conventional gait summaries: target delta logloss 0.000337, source-plus-target bootstrap95%CI [-0.045666,0.074573]. This is exploratory cross-collection evidence, not independent-participant confirmation.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "spectral flatness",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1589/jpts.21.105",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/591c47fef847271ec9268a627270663bee983c4e9a6fedc5ed826e4d166a56bd",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
