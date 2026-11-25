@@ -1,0 +1,35 @@
+{
+  "title": "Optical-pulse derivative-energy modulation does not establish incremental respiratory-rate accuracy across two public cohorts",
+  "abstract": "Beat-normalized PPG derivative-energy modulation did not establish incremental respiratory-rate accuracy beyond five modulation spectra. Equal-record MAE gains were -0.1524 breaths/min (95% record-bootstrap CI -0.3183 to 0.0038) in BIDMC and -0.0288 (-0.3561 to 0.3647) in independent CapnoBase. Both point estimates favor the baseline; both intervals include zero. This does not establish equivalence or absence of physiological information. Fixed algorithms were compared in 53 ICU and42 independent perioperative records. Both benchmarks were previously exposed, so external transport is exploratory rather than untouched confirmation.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "derivative energy",
+    "pulse morphology",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30441529/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22996834/"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/7e2e39be46836b170703b62611f76142cf00754321b15bd338014ef308e1f006"
+    }
+  ]
+}
