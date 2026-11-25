@@ -1,0 +1,25 @@
+{
+  "title": "Age context for exercise-induced angina: a negative exploratory cross-center prediction test",
+  "abstract": "A source-centered continuous age-by-exercise-angina term did not improve Cleveland-to-Hungary angiographic-disease prediction beyond flexible additive standard measurements: target Brier difference 0.001697, joint bootstrap95% [-0.005953, 0.013819].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise angina",
+    "age",
+    "cross-center prediction",
+    "negative result",
+    "exploratory analysis"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3751902/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
