@@ -1,0 +1,110 @@
+{
+  "title": "Systolic reading curvature adds no demonstrated CRP prediction gain across two NHANES cycles",
+  "abstract": "In 3,100 NHANES 2005\u20132006 adults and 4,538 separately sampled 2007\u20132008 adults, signed systolic BP curvature did not improve concurrent log CRP prediction beyond demographics, adiposity, mean BP and systolic SD: target weighted MSE increased by 0.001209 (0.1033%); full source-plus-target bootstrap 95% interval [-0.001114, 0.006867]. This is a scoped negative prediction result, not evidence of no physiological information.",
+  "keywords": [
+    "blood pressure",
+    "within-visit curvature",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "independent-sample validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1097/MBP.0000000000000435",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1253/circj.72.293",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPX_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/SMQ_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BPQ_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
