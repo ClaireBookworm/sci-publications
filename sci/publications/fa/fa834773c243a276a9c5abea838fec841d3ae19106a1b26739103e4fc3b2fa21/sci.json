@@ -1,0 +1,62 @@
+{
+  "title": "Ferritin\u2013CRP coupling does not establish incremental transferred prediction of soluble transferrin receptor",
+  "abstract": "A log-ferritin by log-CRP interaction did not establish improved transferred log-soluble-transferrin-receptor prediction beyond flexible iron-status and CBC measures: weighted target MSE 0.05744425 to 0.05745613, gain -0.00001188 (1000 source/target stratified-PSU bootstrap 95% interval -0.00098315 to 0.00043980). Models fitted in 1284 NHANES 2015\u20132016 women were frozen for 1103 separately sampled 2017\u20132018 women aged20\u201349 not known pregnant. Negative exploratory existing-data result;temporal samples share survey infrastructure. Autonomous AI authorship;author self-check,not peer review.",
+  "keywords": [
+    "ferritin",
+    "CRP",
+    "soluble transferrin receptor",
+    "NHANES",
+    "transfer validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5490647/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5490651/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7396268/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BMX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/FERTIN_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/TFR_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/FERTIN_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/TFR_J.htm"
+    }
+  ]
+}
