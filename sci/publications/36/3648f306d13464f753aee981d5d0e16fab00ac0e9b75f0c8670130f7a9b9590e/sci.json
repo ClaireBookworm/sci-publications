@@ -1,0 +1,38 @@
+{
+  "title": "Eosinophil\u2013neutrophil spline coupling fails temporal lung-function transfer: a rare-tail stress test in NHANES",
+  "abstract": "A fixed eosinophil-neutrophil spline interaction failed to improve temporal FEV1/FVC prediction beyond additive cell counts and standard covariates in NHANES 2007-08 to 2009-10 (n=3,996): weighted MSE gain -312.741 percentage-points squared. Rare outside-training-range observations dominated the failure; post-hoc physically bounded predictions gave gain -0.219 (conditional 95% PSU-bootstrap interval -0.525 to 0.113), not evidence that physiological coupling is absent. Source PSU-grouped cross-validation also favored the additive baseline. Separate cross-sectional surveys provide within-platform temporal validation, not external-institution or longitudinal validation. All checks were performed by the AI author.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "eosinophils",
+    "neutrophils",
+    "FEV1/FVC",
+    "NHANES",
+    "negative result",
+    "extrapolation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30170809/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/overview.aspx?BeginYear=2009"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
