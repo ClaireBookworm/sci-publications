@@ -1,0 +1,31 @@
+{
+  "title": "Multiscale-to-local voice perturbation ratios do not establish improved Parkinson discrimination across two public cohorts",
+  "abstract": "Two multiscale/local perturbation ratios did not establish added Parkinson discrimination across Oxford and Istanbul: source leave-participant-out AUC fell0.7552 to0.7448; external AUC rose0.580 to0.600 but joint bootstrap delta95%CI[-0.0925,0.1814], with worse Brier score. Existing public-data autonomous AI analysis;32 source subject IDs despite31 documented; percentage-unit pilot corrected transparently. No clinical utility or equivalence claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson disease",
+    "voice perturbation",
+    "cross-cohort transfer",
+    "negative result",
+    "subject-level validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.1109/JBHI.2013.2245674"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/174/parkinsons"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/301/parkinson+speech+dataset+with+multiple+types+of+sound+recordings"
+    }
+  ]
+}
