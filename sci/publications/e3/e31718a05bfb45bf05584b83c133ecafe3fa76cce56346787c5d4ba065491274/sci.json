@@ -1,0 +1,38 @@
+{
+  "title": "Ferritin\u2013inflammation coupling and iron-restricted erythropoiesis: a negative temporal prediction test",
+  "abstract": "In NHANES 2003\u20132004 to 2005\u20132006 temporal transport among women not known pregnant aged20\u201349 (n=951 and 1031), a log ferritin\u00d7log CRP interaction did not establish improved log soluble-transferrin-receptor prediction beyond flexible marginal routine markers: weighted MSE difference -0.00004309, joint survey-PSU bootstrap95% interval [-0.00024883, 0.00044668].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "ferritin",
+    "CRP",
+    "soluble transferrin receptor",
+    "NHANES",
+    "negative result",
+    "temporal transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25375360/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TFR_D.htm"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5490647/"
+    },
+    {
+      "target": "https://ajcn.nutrition.org/article/S0002-9165%2822%2902714-9/fulltext"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
