@@ -1,0 +1,42 @@
+{
+  "title": "Glucose\u2013ST-depression coupling did not improve cross-site coronary-disease prediction",
+  "abstract": "A literature-motivated fasting-glucose-threshold by continuous ST-depression interaction was added to flexible additive standard predictors of angiographic coronary disease. Models trained in Cleveland (303 patients) transferred without target fitting to Hungary (261 complete cases). Brier score changed from 0.157613 to 0.157725; augmented-minus-baseline change +0.000112, source-and-target refit-bootstrap 95% interval [-0.002508,0.007123]. Source cross-validation also did not improve. Only 19 target patients had the elevated-glucose flag. The result is a narrow negative incremental-prediction test in historically reused institutional datasets, not equivalence, clinical validation, or an untouched confirmation.",
+  "keywords": [
+    "exercise ECG",
+    "glucose",
+    "transportability",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17552288/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "sci:sha256:00800e439821b6152fdc2ff347d6760ab69d28d0ca0cb5269512a6c468a5c926",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
