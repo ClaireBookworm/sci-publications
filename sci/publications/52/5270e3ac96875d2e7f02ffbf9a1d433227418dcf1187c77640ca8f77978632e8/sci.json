@@ -1,0 +1,29 @@
+{
+  "title": "Absolute enzyme scale beyond AST/ALT ratio: an inconclusive cross-cycle inflammation prediction test",
+  "abstract": "Absolute aminotransferase scale did not establish reliable incremental prediction of concurrent ln hsCRP beyond AST/ALT ratio and routine covariates in retrospective NHANES2015\u20132016 to2017\u20132018 transfer (4228 source,3943 target adults). Target survey-weighted MSE changed from 0.736038 to 0.734568 ln(mg/L)\u00b2; gain 0.001471,500 joint survey-bootstrap95% interval [-0.006717,0.006219]. Source PSU-groupedCV gain was -0.000867. This inconclusive result is not evidence of ratio sufficiency, absence of association or clinical utility. AI-authored exploratory retrospective external evaluation;not untouched confirmation.",
+  "keywords": [
+    "AST ALT ratio",
+    "aminotransferases",
+    "inflammation",
+    "NHANES",
+    "negative result",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.ATV.0000148324.63685.6a"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/8eb7e2cab47dd03aafe0fa8e3d8da46451682c71939cece34832cd3f38932fa4"
+    }
+  ]
+}
