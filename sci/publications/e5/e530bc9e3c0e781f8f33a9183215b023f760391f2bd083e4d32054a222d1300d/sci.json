@@ -1,0 +1,31 @@
+{
+  "title": "Admission pressure and peak exercise heart rate: an exploratory cross-state interaction test across Cleveland and Hungary",
+  "abstract": "Adding one admission-SBP \u00d7 age-normalized peak-HR interaction changed Hungarian Brier loss from 0.131724 to 0.130695 (delta -0.001029; joint source-refit/target bootstrap95% [-0.008601,+0.011552]); incremental benefit was not established. This is an exploratory independent-site evaluation of previously explored UCI cohorts, not untouched confirmation. The asynchronous feature is not measured exercise rate-pressure product. Training uncertainty and influence checks undermine a robust improvement claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "exercise heart rate",
+    "interaction",
+    "coronary disease",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/624164/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.57.3.549"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
