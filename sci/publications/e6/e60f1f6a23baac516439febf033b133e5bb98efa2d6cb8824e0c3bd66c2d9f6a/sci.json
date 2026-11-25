@@ -1,0 +1,41 @@
+{
+  "title": "Vitamin-D\u2013phosphate coupling does not establish incremental PTH prediction across two NHANES recruitment datasets",
+  "abstract": "A standardized25OHD \u00d7 phosphate product did not establish incremental contemporaneous logPTH prediction beyond nonlinear conventional measures in exploratory NHANES2003\u20132004 to2005\u20132006 transfer (3,772 source;3,781 target adults): weighted MSE difference -0.000004539 logPTH\u00b2, jointPSU-bootstrap95% interval [-0.00026221,0.00073289].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "PTH",
+    "vitamin D",
+    "phosphate",
+    "NHANES",
+    "negative result",
+    "transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21932115/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/11224/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    }
+  ]
+}
