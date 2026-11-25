@@ -1,0 +1,35 @@
+{
+  "title": "Urinary concentration beyond albumin/creatinine ratio: an inconclusive cross-cycle pulse-pressure prediction test",
+  "abstract": "Adding spot urinary creatinine to flexible albumin/creatinine ratio and routine covariates did not establish reliable concurrent pulse-pressure prediction benefit in retrospective NHANES2015\u20132016 to2017\u20132018 transfer (4226 source,3875 target adults). Target weighted MSE changed from 171.006 to 170.559 mmHg\u00b2; paired gain 0.447,500 joint survey-bootstrap95% interval [-1.741,1.307]. Source PSU-groupedCV gain was -0.701. This is not evidence of ACR sufficiency, clinical utility or no biological association. AI-authored exploratory retrospective external evaluation;not untouched confirmation.",
+  "keywords": [
+    "albumin creatinine ratio",
+    "urinary concentration",
+    "pulse pressure",
+    "NHANES",
+    "negative result",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1053/j.ajkd.2013.05.010"
+    },
+    {
+      "target": "https://doi.org/10.1002/clc.24012"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALB_CR_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BPX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/5609424d2d44c13ad0e1f32efe05870db8ef9c097d06dc18dc1f8e3bcca8725e"
+    }
+  ]
+}
