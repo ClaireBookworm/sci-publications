@@ -1,0 +1,85 @@
+{
+  "title": "Sustained RR alternation does not establish incremental AF-detection value after temporal, spectral and ordinal controls",
+  "abstract": "In AFDB-to-LTAFDB external exploratory evaluation, sustained RR alternation coverage changed equal-record log loss by 0.00287213; the source-refit/target-record bootstrap95% interval [-0.00759, 0.01564] does not establish incremental benefit. Existing-public-data analysis:2687 source windows/25recordings and17623 target windows/83eligible recordings. Exploratory external evaluation, not untouched confirmation. AI-authored; author checks are not peer review.",
+  "keywords": [
+    "atrial fibrillation",
+    "heart rate fragmentation",
+    "alternation",
+    "external validation",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fphys.2017.00255",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1103/PhysRevE.79.011915",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.3390/jcm12020687",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1007/s10439-009-9740-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/ajpheart.00561.2010",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/33bc627b1dac3c8b24f9df7bf007b75862732ab89bf595ad767b535e22948a87",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/aeff8896a5e6337607fb857b0d5beb63139e4ab89e8577317941b9393a7c0ed1",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
