@@ -1,0 +1,35 @@
+{
+  "title": "Conditional late expiratory emptying does not establish improved bronchodilator-response prediction",
+  "abstract": "In exploratory transfer from NHANES 2007\u20132008 (n=349) to 2011\u20132012 (n=261), adding conditional late-emptying fraction to flexible standard spirometry reduced weighted bronchodilator FEV1-response MSE by 122.94 mL\u00b2 (0.57%), but joint source/target PSU-bootstrap uncertainty spanned harm (added-minus-baseline MSE 95% interval \u22122102.71 to 5033.57 mL\u00b2). Incremental predictive usefulness was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "FEV3",
+    "bronchodilator response",
+    "NHANES",
+    "exploratory transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34767825/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39424191/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
