@@ -1,0 +1,40 @@
+{
+  "title": "Glucose\u2013RDW coupling does not establish incremental HbA1c prediction across two NHANES surveys",
+  "abstract": "Adding a fasting-glucose \u00d7 RDW interaction to a flexible additive model did not establish improved HbA1c prediction transported from NHANES III (n=6,827) to 2017\u20132018 (n=2,371): weighted MSE 0.215458 to 0.215682, delta +0.000224, approximate joint PSU bootstrap95% [-0.001885,+0.003726] percentage-points squared. Source PSU cross-validation also worsened. Restricted and race-specific comparator estimates changed sign, emphasizing representation sensitivity rather than absence of erythrocyte biology. This exploratory analysis predicts measured HbA1c, not true glycemia, and is not untouched confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "HbA1c",
+    "fasting glucose",
+    "red cell distribution width",
+    "transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28844449/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18694998/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/default.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GHB_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
