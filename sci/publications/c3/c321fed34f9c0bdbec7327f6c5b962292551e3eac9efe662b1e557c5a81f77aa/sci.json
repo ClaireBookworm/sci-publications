@@ -1,0 +1,52 @@
+{
+  "title": "A nonlinear alkaline-phosphatase/phosphate ratio did not improve grip-strength prediction across reused NHANES cohorts",
+  "abstract": "We evaluated whether log(ALP/phosphate) splines improve concurrent combined-handgrip prediction beyond flexible separate ALP and phosphate measures and conventional demographic, anthropometric, renal, mineral and hepatic covariates. NHANES2011\u20132012 provided 4010 training participants and separately recruited2013\u20132014 provided 4502 evaluation participants. Frozen-model examination-weighted MSE was 133.836 versus 135.901 kg\u00b2 (added minus baseline +2.065; joint source-refit/target PSU bootstrap95% interval -0.690 to 5.180). The registered predictive-improvement criterion failed. This negative result is neither equivalence nor a causal or diagnostic claim. Both cohorts were reused, not untouched confirmation; validation in an independent study program remains incomplete.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip",
+    "alkaline phosphatase",
+    "phosphate",
+    "negative result",
+    "cross-cohort prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12891-025-08408-2"
+    },
+    {
+      "target": "https://doi.org/10.1038/s41598-018-21784-1"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
