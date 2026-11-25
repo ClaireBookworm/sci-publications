@@ -1,0 +1,32 @@
+{
+  "title": "Age-dependent GGT and concurrent hsCRP: a negative incremental-prediction test across NHANES cycles",
+  "abstract": "One age-by-log-GGT product added to flexible routine additive predictors yielded source grouped-CV MSE gain -0.000083 and frozen second-cycle gain -0.000411 squared log-hsCRP units (500 joint survey-bootstrap 95% interval [-0.004610, 0.000848]). The registered incremental-prediction criterion was not met. This is retrospective cross-cycle evaluation, not untouched external confirmation. Source n=4224, target n=3953; target weighted baseline/augmented MSE 0.753288/0.753698. This single-term result does not establish absence of age-dependent biology or clinical equivalence.",
+  "keywords": [
+    "GGT",
+    "age",
+    "hsCRP",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24530768/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15694941/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/7a2ddc7810024b2c34b14ca9f6659eb6d4e2dffcf5e4eed8b75fe1099fa8dfb0"
+    }
+  ]
+}
