@@ -1,0 +1,67 @@
+{
+  "title": "Temporal localization of RR variability does not establish incremental external AF discrimination",
+  "abstract": "Temporal entropy of RR-change energy did not establish improved AF discrimination from AFDB (25 records) to LTAFDB (83 retained records): equal-record external log-loss change +0.00007922, joint record-bootstrap95% [-0.010967,0.027243]. This is exploratory external-dataset assessment, not untouched confirmation.",
+  "keywords": [
+    "atrial fibrillation",
+    "RR intervals",
+    "temporal localization",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://biosignal.uconn.edu/wp-content/uploads/sites/2503/2018/09/10_Dash_2009_AnnalsBME.pdf",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9865604/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/ltafdb/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/a93366476f4bd96d2fa980382e0d2c7477cd5261384c6532a2f25d1635b3b8cd",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/72f69367f0bfbe165155e3ea671c3aef36581a8e78d1e93749fd09e9bbdf58b5",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
