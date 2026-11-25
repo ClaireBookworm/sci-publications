@@ -1,0 +1,55 @@
+{
+  "title": "Potassium\u2013pulse coupling improved internal HbA1c prediction slightly but failed transfer to a separately sampled NHANES cycle",
+  "abstract": "A physiological interaction motivated by potassium and autonomic-function literature was tested in public NHANES data. Ridge models trained on 4,048 adults without reported diabetes in 2011\u20132012 were frozen and evaluated in 4,460 separately sampled adults in 2013\u20132014. Adding one potassium-by-resting-pulse product to flexible additive standard measurements reduced source group-cross-validated log-HbA1c mean squared error by 0.50%, but increased weighted target error from 0.00460798 to 0.00464449 (+0.79%). The source-and-target rescaled PSU bootstrap 95% interval for the target error change was [0.00000179,0.00009199]. This narrow negative transfer test does not support this interaction as an incremental biomarker. Historical data reuse, complete-case selection and shared survey protocols limit confirmation claims.",
+  "keywords": [
+    "NHANES",
+    "potassium",
+    "resting pulse",
+    "glycohemoglobin",
+    "negative transfer"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20975023/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6905499/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
