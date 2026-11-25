@@ -1,0 +1,32 @@
+{
+  "title": "Calcium\u2013albumin coupling did not improve PTH prediction beyond flexible conventional measures across two NHANES cycles",
+  "abstract": "A total-calcium \u00d7 albumin product did not establish improved logPTH prediction beyond corrected calcium, flexible individual biomarkers and conventional covariates in exploratory NHANES2003\u20132004 to2005\u20132006 transfer (3,772 source; 3,781 target adults): weighted MSE difference 0.00017611 log(pg/mL)\u00b2 (0.126%), jointPSU-bootstrap95% interval [-0.00055493,0.00465242].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "PTH",
+    "calcium",
+    "albumin",
+    "NHANES",
+    "transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21932115/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2976699/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
