@@ -1,0 +1,49 @@
+{
+  "title": "Signed diastolic pressure decline adds negligible resting-pulse prediction beyond BP level and dispersion across NHANES cycles",
+  "abstract": "We tested whether first-minus-third diastolic blood pressure adds information about resting pulse beyond mean pressures, within-exam dispersion, systolic decline and demographic measures. Weighted spline-ridge models were trained on 4,660 NHANES 2011\u20132012 adults and frozen for 4,922 separately sampled 2013\u20132014 adults. Adding a single signed diastolic decline worsened source group-cross-validated log-pulse MSE by 0.0388% and reduced target MSE by only 0.0064% (0.02282165 to 0.02282020). Source-and-target PSU-refit bootstrap 95% limits for augmented-minus-baseline MSE were [-0.00005389, 0.00008730]. Target mean absolute error worsened. This test supplies no convincing evidence of useful incremental physiological information for this feature and baseline. It is not evidence of equivalence or absence of autonomic physiology. Historical dataset reuse and shared survey protocols limit confirmation.",
+  "keywords": [
+    "NHANES",
+    "blood pressure",
+    "measurement order",
+    "resting pulse",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2426112/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2856755/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
