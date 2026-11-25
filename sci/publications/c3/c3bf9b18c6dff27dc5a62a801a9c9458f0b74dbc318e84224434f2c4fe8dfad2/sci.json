@@ -1,0 +1,41 @@
+{
+  "title": "Calcium\u2013albumin interaction fails to add PTH prediction across two NHANES cycles",
+  "abstract": "A calcium-by-albumin interaction did not improve log-PTH prediction beyond additive nonlinear standard measurements: source PSU-grouped cross-validation MSE reduction -0.00035928; frozen transfer from 4,358 NHANES 2003\u201304 adults to 4,394 adults in 2005\u201306 gave reduction -0.00021916 (fixed-fit PSU-bootstrap 95% interval [-0.00065501, 0.00019184]; two-sample refit interval [-0.00215058, 0.00057972]). These independent-cycle, within-program results do not demonstrate incremental value; external-program confirmation and ionized-calcium inference remain unavailable.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "calcium",
+    "albumin",
+    "parathyroid hormone",
+    "NHANES",
+    "negative result",
+    "independent-cycle transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39836424/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/vitamind/analyticalnote.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
