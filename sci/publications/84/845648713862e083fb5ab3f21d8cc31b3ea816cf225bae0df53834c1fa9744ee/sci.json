@@ -1,0 +1,56 @@
+{
+  "title": "Signed grip-trial drift does not improve cross-cycle HbA1c prediction beyond strength summaries",
+  "abstract": "In 4,400 NHANES 2011\u20132012 complete-case adults and 4,890 separately sampled 2013\u20132014 adults, signed bilateral grip-trial drift did not convincingly improve concurrent HbA1c prediction beyond standard strength, anthropometry, demographics and order-invariant grip summaries. Target weighted MSE changed +0.00012317 (+0.0166%), conditional95% PSU bootstrap [\u22120.00060627,+0.00090536], source-plus-target refit95% [\u22120.00074832,+0.00158109]; source grouped-CV also worsened. This limits one linear trial-direction feature, not all endurance or glycemic-state information.",
+  "keywords": [
+    "NHANES",
+    "grip strength",
+    "trial order",
+    "HbA1c",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16192898/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
