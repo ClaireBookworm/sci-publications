@@ -1,0 +1,38 @@
+{
+  "title": "Folate\u2013B12 coupling adds uncertain predictive value for homocysteine across two NHANES cycles",
+  "abstract": "In exploratory transfer from NHANES 2003\u20132004 (4,159 adults) to 2005\u20132006 (3,976), a log-folate \u00d7 log-B12 interaction reduced weighted log-homocysteine MSE by 0.0001352 (0.24%). The joint source/target PSU-bootstrap 95% interval for added-minus-baseline MSE was -0.0005566 to +0.0003529; incremental predictive benefit was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "homocysteine",
+    "folate",
+    "vitamin B12",
+    "NHANES",
+    "predictive transport",
+    "inconclusive result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18056804/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19106325/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06NB_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/HCY_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
