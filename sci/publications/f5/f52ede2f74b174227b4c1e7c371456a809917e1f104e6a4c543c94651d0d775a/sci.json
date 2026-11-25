@@ -1,0 +1,52 @@
+{
+  "title": "TSH\u2013free-thyroxine coupling does not establish incremental non-HDL cholesterol prediction across NHANES cycles",
+  "abstract": "Adding a logTSH \u00d7 logFT4 interaction to flexible individual thyroid-hormone and conventional predictors did not establish improved non-HDL cholesterol prediction in exploratory NHANES2007\u20132008 to2009\u20132010 transfer (4,620 source and 1,709 target adults): weighted MSE difference 0.911732 (mg/dL)\u00b2 (0.059% worse), jointPSU-bootstrap95% interval [-11.654964,12.075954].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "thyroid",
+    "non-HDL cholesterol",
+    "NHANES",
+    "transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20516204/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32328967/"
+    },
+    {
+      "target": "https://www.mdpi.com/2077-0383/8/6/758"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19226261/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/TCHOL_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HDL_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/THYROD_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/TCHOL_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HDL_F.htm"
+    }
+  ]
+}
