@@ -1,0 +1,38 @@
+{
+  "title": "Middle-trial grip curvature fails to improve hand-difficulty prediction in an independent NHANES cycle",
+  "abstract": "A trial-order feature of repeated grip measurements was tested beyond maximal strength, asymmetry, slope, variability, pain and demographic covariates. In 1,429 adults aged 60+ from NHANES 2011\u201312, cross-validation Brier reduction was 0.00003079. Applying frozen fits to 1,530 adults from 2013\u201314 gave Brier reduction -0.00050673; a 2,000-draw fixed-fit PSU-bootstrap 95% interval was [-0.00095178, -0.00008028], while a 300-draw two-sample refit interval was [-0.00176620, 0.00017913]. This negative cross-sectional AI-authored study does not establish incremental predictive value, a fatigue biomarker, or clinical utility. Separate cycles offer independent-sample confirmation within one program, not external-program validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip strength",
+    "trial curvature",
+    "functional limitation",
+    "NHANES",
+    "negative result",
+    "independent-cycle confirmation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35871136/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12290228/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
