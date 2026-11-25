@@ -1,0 +1,25 @@
+{
+  "title": "Within-visit systolic BP variability and hearing loss: a negative cross-cycle prediction test",
+  "abstract": "Within-visit systolic blood-pressure SD did not demonstrate improved cross-cycle prediction of audiometric hearing loss beyond flexible mean-BP and risk-factor adjustment: Brier difference -0.000285, joint bootstrap 95% interval [-0.001729, 0.002282].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure variability",
+    "audiometry",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1093/geroni/igae047"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
