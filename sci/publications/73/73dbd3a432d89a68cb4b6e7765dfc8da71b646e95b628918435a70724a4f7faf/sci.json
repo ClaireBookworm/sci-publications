@@ -1,0 +1,58 @@
+{
+  "title": "Five-part leukocyte entropy does not establish incremental CRP prediction in a frozen NHANES temporal transport test",
+  "abstract": "We tested whether Shannon entropy of five-part leukocyte composition adds prediction of same-visit CRP>3mg/L beyond nonlinear conventional blood counts, neutrophil-to-lymphocyte ratio, adiposity and demographics. Weighted logistic models fit in NHANES2007\u20132008(n=5019) were frozen and evaluated in separately recruited2017\u20132018(n=4600). Target weighted Brier score changed from 0.17667940 to 0.17660443; delta -0.00007497, joint source/target rescaled-PSU bootstrap95% interval [-0.00027507,+0.00035049]. The registered improvement criterion was not met. Using reported differential percentages rather than rounded absolute counts reversed the point-estimate direction. This exploratory existing-data result does not support the proposed entropy term as a robust improvement over standard summaries; it neither proves absence of composition information nor evaluates future clinical outcomes.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "leukocyte composition",
+    "Shannon entropy",
+    "CRP",
+    "temporal transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636256/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9944442/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/DEMO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    }
+  ]
+}
