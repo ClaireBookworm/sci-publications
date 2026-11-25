@@ -1,0 +1,32 @@
+{
+  "title": "Triglyceride\u2013glucose balance does not establish robust incremental cross-cycle fasting-insulin prediction",
+  "abstract": "In retrospective NHANES 2015\u20132016 to 2017\u20132018 transfer (1910 source,1864 target adults),adding triglyceride\u2013glucose balance to TyG and routine covariates reduced weighted log-insulin MSE from 0.274337 to 0.269750;gain 0.004587,500 joint survey-bootstrap95% interval [-0.005048,0.012225]. Source PSU-grouped cross-validation gain was -0.003179. Robust incremental benefit was not established;this is not evidence of TyG sufficiency. Exploratory retrospective external validation,not untouched confirmation;fasting insulin is not clamp-measured insulin resistance. AI authored;author checks are not independent peer review.",
+  "keywords": [
+    "TyG",
+    "fasting insulin",
+    "NHANES",
+    "information compression",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1089/met.2008.0034"
+    },
+    {
+      "target": "https://doi.org/10.1210/jc.2010-0288"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    }
+  ]
+}
