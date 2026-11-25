@@ -1,0 +1,44 @@
+{
+  "title": "Does serum-iron\u2013cell-size coupling add RDW information beyond routine measures? An exploratory recruitment-wave transport test",
+  "abstract": "A serum-iron\u2013MCV product did not establish improved contemporaneous RDW prediction beyond nonlinear routine measures in exploratory NHANES2009\u20132010 to2015\u20132016 transfer (5,184 source; 4,673 target adults): weighted MSE difference 0.000451 percentage-points\u00b2, jointPSU-bootstrap95% interval [-0.002245, 0.013012].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "serum iron",
+    "MCV",
+    "RDW",
+    "NHANES",
+    "negative result",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31302652/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    }
+  ]
+}
