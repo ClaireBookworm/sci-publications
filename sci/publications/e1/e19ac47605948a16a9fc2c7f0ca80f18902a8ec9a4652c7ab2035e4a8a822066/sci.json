@@ -1,0 +1,32 @@
+{
+  "title": "Sodium\u2013glucose context for potassium prediction: an inconclusive independent-cohort transport test",
+  "abstract": "Sodium \u00d7 log-glucose context did not establish improved external potassium prediction beyond flexible additive chemistry: NHANES-to-UCI added-minus-base MSE -0.00355 (mmol/L)\u00b2; joint-bootstrap 95% interval [-0.02127, 0.01387].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "potassium",
+    "sodium",
+    "glucose",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1507/endocrj.46.75"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5G020"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
