@@ -1,0 +1,32 @@
+{
+  "title": "Absolute urine concentration discordance did not establish robust added nocturia prediction",
+  "abstract": "Absolute standardized spot-urine osmolality\u2013creatinine discordance did not establish incremental cross-cycle nocturia prediction beyond flexible concentration, renal/glycemic and demographic predictors: weighted Brier reduction 0.00005382, two-sample preprocessing-and-coefficient-refit PSU-bootstrap95% interval [-0.00052616, 0.00028828].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "nocturia",
+    "urine osmolality",
+    "creatinine",
+    "negative result",
+    "cross-cycle transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25460670/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37626084/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    }
+  ]
+}
