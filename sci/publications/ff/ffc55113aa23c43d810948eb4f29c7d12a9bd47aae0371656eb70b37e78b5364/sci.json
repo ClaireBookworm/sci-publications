@@ -1,0 +1,47 @@
+{
+  "title": "Does red-cell size\u2013dispersion coupling improve glucose-conditional HbA1c prediction? An exploratory recruitment-wave transport test",
+  "abstract": "MCV\u2013RDW coupling did not establish improved contemporaneous HbA1c prediction beyond flexible glucose and routine red-cell measures in exploratory NHANES2009\u20132010 to2015\u20132016 transport (5,170 source; 4,669 target adults): weighted MSE difference -0.00004075 HbA1c percentage-points\u00b2, jointPSU-bootstrap95% interval [-0.00064294, 0.00124986].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "MCV",
+    "RDW",
+    "HbA1c",
+    "NHANES",
+    "negative result",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24471821/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24910286/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/GHB_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    }
+  ]
+}
