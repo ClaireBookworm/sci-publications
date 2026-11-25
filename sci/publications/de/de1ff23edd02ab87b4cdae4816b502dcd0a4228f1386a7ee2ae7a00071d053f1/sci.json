@@ -1,0 +1,59 @@
+{
+  "title": "Eosinophil\u2013neutrophil co-elevation does not improve frozen prediction of expiratory airflow ratio across NHANES cycles",
+  "abstract": "A prespecified centered log-count interaction did not improve FEV1/FVC prediction over flexible marginal eosinophil and neutrophil counts and standard covariates: 2009\u201310 NHANES n=3996, paired weighted MSE gain -0.048557 percentage-points squared, target-PSU 95% interval -0.134868 to 0.023964. Source cross-validation also failed to improve. This negative test does not exclude inflammatory associations or other interactions, and is not a diagnostic study.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "eosinophils",
+    "neutrophils",
+    "incremental prediction",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30170809/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29099614/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    }
+  ]
+}
