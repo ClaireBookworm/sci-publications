@@ -1,0 +1,38 @@
+{
+  "title": "Eosinophil\u2013neutrophil context and CRP prediction: an exploratory independent-cycle test",
+  "abstract": "Eosinophil\u2013neutrophil interaction changed independent-cycle log-CRP prediction MSE by 0.000187 (baseline minus interaction; two-sample PSU-refit 95% interval [-0.002149, 0.001810]); no reliable improvement is demonstrated. Exploratory transfer, not clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "eosinophils",
+    "neutrophils",
+    "CRP",
+    "independent-cycle transfer",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1002/clt2.12036"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38559751/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
