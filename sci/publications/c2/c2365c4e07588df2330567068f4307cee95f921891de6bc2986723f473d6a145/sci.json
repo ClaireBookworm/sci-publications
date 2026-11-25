@@ -1,0 +1,32 @@
+{
+  "title": "Albumin\u2013glucose coupling does not improve cross-cycle prediction of concurrent hsCRP",
+  "abstract": "A source-standardized albumin-by-glucose product did not improve concurrent log-hsCRP prediction over flexible additive routine measures: source whole-PSU CV MSE gain -0.000129, second-cycle frozen-model gain -0.000340 squared log units (500 joint survey-bootstrap 95% interval [-0.004964, 0.001421]). This is a retrospective cross-cycle negative result, not evidence against glycation biology or untouched external confirmation. Source n=4225, target n=3954; weighted baseline/augmented target MSE 0.766777/0.767117. AI-authored public-data analysis; no clinical utility or causal mechanism established.",
+  "keywords": [
+    "albumin",
+    "glucose",
+    "hsCRP",
+    "NHANES",
+    "prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10470798/"
+    },
+    {
+      "target": "https://www.mdpi.com/2218-273X/14/12/1492"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/fe2c8ce05294e9783433ff810cba8000cb65846753d40f4cbfa28ce18623d225"
+    }
+  ]
+}
