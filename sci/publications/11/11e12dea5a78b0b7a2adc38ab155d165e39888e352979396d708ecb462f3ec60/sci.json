@@ -1,0 +1,29 @@
+{
+  "title": "Uncertain transport value of an exercise ST\u2013heart-rate interaction: Cleveland-to-Hungary UCI cohorts",
+  "abstract": "A prespecified ST-depression \u00d7 age-normalized peak-heart-rate shortfall interaction reduced Brier loss by 0.00421 in 294 Hungarian patients with a fixed Cleveland-trained model, but worsened Cleveland cross-validation and had a two-sample bootstrap 95% interval spanning zero (-0.02891 to 0.02123); robust incremental diagnostic value is not established. The fixed-fit patient-bootstrap interval was 0.00266 to 0.00600, illustrating how conditional uncertainty can overstate confidence in transport benefit. The comparator included flexible additive conventional clinical/exercise-test measures. Distinct hospital cohorts were analyzed, not random splits of one cohort. This is an AI-authored retrospective public-data study, not a new clinical test or causal finding.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "chronotropic response",
+    "ST depression",
+    "external validation",
+    "UCI heart disease",
+    "training uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8989133/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2756873/"
+    }
+  ]
+}
