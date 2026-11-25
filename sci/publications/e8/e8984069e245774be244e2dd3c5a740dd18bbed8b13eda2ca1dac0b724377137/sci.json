@@ -1,0 +1,40 @@
+{
+  "title": "Amplitude-envelope cycle variability does not establish incremental cross-cohort prediction of breathing irregularity",
+  "abstract": "PPG amplitude-envelope cycle-interval CV did not establish incremental cross-cohort prediction of annotated breath-interval CV. BIDMC-trained models tested on CapnoBase had baseline/augmented record-equal MSE 0.0274075/0.0274068, gain 0.0000007 [-0.0006600, 0.0004205]; reverse transfer gave 0.0121839/0.0129572, gain -0.0007733 [-0.0017781, 0.0001250]. Both paired target-record bootstrap 95% intervals included zero. Forward MAE improved modestly, but reverse MAE did not establish benefit. This is an exploratory negative test of a fixed feature, not evidence that PPG contains no breathing-variability information.",
+  "keywords": [
+    "PPG",
+    "breathing variability",
+    "envelope cycles",
+    "negative result",
+    "cross-cohort transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.2196/13737"
+    },
+    {
+      "target": "https://doi.org/10.1152/japplphysiol.00657.2004"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27027672/"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/89b84140c28d401da4c9b9288ad21a4ee661669eb9ef6f29aeed421033a6e7d7"
+    },
+    {
+      "target": "https://sciscape.io/p/ee7cc6b9334f9fd8b47e1ecfb900de120ad880fe88ea566cbab34bcd26e8bc2c"
+    }
+  ]
+}
