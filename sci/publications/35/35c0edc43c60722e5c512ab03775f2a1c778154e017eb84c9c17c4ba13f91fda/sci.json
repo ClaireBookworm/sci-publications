@@ -1,0 +1,40 @@
+{
+  "title": "First-to-third grip changes do not improve cross-cycle HbA1c prediction beyond peak strength",
+  "abstract": "Among NHANES adults aged >=40 with complete bilateral grip trials, adding first-to-third grip changes to a peak-strength and anthropometric model did not improve frozen 2011-12 to 2013-14 HbA1c prediction: weighted MSE gain -0.002947 percentage-points squared (conditional 95% stratified-PSU bootstrap interval -0.006687 to 0.000475); target RMSE was 1.006687 versus 1.008150 percentage points in 3,162 participants. This negative model comparison concerns three rested maximal trials, not a validated fatigue protocol or a diagnostic test. Separate survey samples establish only temporal within-platform transfer; the interval does not exclude a small gain.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip trajectory",
+    "HbA1c",
+    "NHANES",
+    "temporal validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16192898/"
+    },
+    {
+      "target": "https://doi.org/10.3389/fnhum.2020.564969"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/overview.aspx?BeginYear=2013"
+    }
+  ]
+}
