@@ -1,0 +1,50 @@
+{
+  "title": "A calcium\u2013phosphate spline surface does not establish incremental PTH prediction across two NHANES samples",
+  "abstract": "A fixed nonlinear calcium-phosphate surface did not establish incremental cross-cycle PTH prediction beyond flexible standard measures, product and a low-calcium/high-phosphate hinge: target MSE gain 0.00000497 log-PTH-squared units, joint PSU-bootstrap 95% interval [-0.00000841, 0.00001881]. Frozen development used 4,358 adults in 2003\u20132004 and evaluation used 4,394 separately sampled adults in 2005\u20132006. Temporal within-program validation, not external clinical validation; an exploratory negative representation test, not equivalence.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "parathyroid hormone",
+    "calcium",
+    "phosphate",
+    "tensor splines",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/5475987/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31619668/"
+    },
+    {
+      "target": "https://sciscape.io/p/25713eac78c9d18cc124035e75b812d841c7e7b7b2c36aeb496db4094f9c61d7"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L11_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/VID_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/VID_D.htm"
+    }
+  ]
+}
