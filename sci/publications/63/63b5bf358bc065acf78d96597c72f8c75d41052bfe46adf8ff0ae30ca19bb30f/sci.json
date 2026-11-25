@@ -1,0 +1,38 @@
+{
+  "title": "Information discarded by urinary albumin normalization: an exploratory negative test for grip-strength prediction",
+  "abstract": "In exploratory NHANES 2011\u20132012 to 2013\u20132014 temporal transport (n=3905 and 4386), retaining spot urine creatinine alongside UACR did not establish improved combined-grip prediction beyond flexible standard anthropometric and serum measures: weighted MSE difference -0.086190 kg\u00b2, joint survey-PSU bootstrap 95% interval [-1.257478, 3.977860].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urine creatinine",
+    "UACR",
+    "grip strength",
+    "NHANES",
+    "negative result",
+    "temporal transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34363689/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
