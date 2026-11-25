@@ -1,0 +1,40 @@
+{
+  "title": "Frequency-irregular interaural mismatch did not improve cross-cycle prediction of dizziness, balance or falling complaints",
+  "abstract": "In independently recruited NHANES 1999\u20132000 to 2001\u20132002 complete-case cohorts (n=921/1032), adding frequency-irregular interaural mismatch changed weighted log loss for past-year dizziness/balance/falling complaints from 0.487112 to 0.489636, delta +0.002523 (joint PSU-bootstrap 95% [-0.002160,+0.020925]). The registered predictive-improvement criterion failed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiometry",
+    "interaural mismatch",
+    "balance",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22371929/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38351499/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/AUX1.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BAQ.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAQ_B.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
