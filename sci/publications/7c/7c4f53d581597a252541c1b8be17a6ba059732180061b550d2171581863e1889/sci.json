@@ -1,0 +1,35 @@
+{
+  "title": "Age\u2013lymphocyte coupling does not establish improved CMV serostatus prediction in a separately recruited public survey sample",
+  "abstract": "An age-by-lymphocyte product changed validation CMV IgG Brier score from 0.195985546 to 0.196051276; baseline-minus-augmented gain -0.000065731 (two-sample stratified-PSU bootstrap 95% interval -0.002122960 to 0.001649294). Incremental predictive value was not demonstrated. Source2213 and validation1990 adults20\u201349 in separately recruited NHANES2001\u20132002/2003\u20132004 samples. Development association and source CV improvement did not establish transported gain. AI-authored and author-self-checked, not independently peer reviewed.",
+  "keywords": [
+    "CMV",
+    "lymphocytes",
+    "age interaction",
+    "external validation",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/j.1365-2249.2008.03785.x"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20426575/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/SSCMV_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/SSCMV_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L25_C.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
