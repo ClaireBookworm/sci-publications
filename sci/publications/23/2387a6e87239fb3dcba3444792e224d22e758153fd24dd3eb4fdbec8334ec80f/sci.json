@@ -1,0 +1,34 @@
+{
+  "title": "ECG\u2013PPG respiratory-rate discrepancy improves an additive error-risk model across two public cohorts",
+  "abstract": "Adding ECG\u2013PPG respiratory-rate discrepancy to an additive summary model reduced Brier loss by 0.021042 in BIDMC (95% record-bootstrap CI 0.009719\u20130.032646) and 0.024792 in independent CapnoBase (0.007888\u20130.043129). A flexible-baseline challenge removed decisive internal benefit; these are exploratory measurement-reliability results, not clinical validation. We fitted equal-record ridge logistic models using 53 adult ICU recordings and transported frozen models to 42 independent perioperative adult/pediatric recordings. The target was PPG respiratory-rate error greater than5 breaths/min, not disease. Both individual estimated rates were already included in the comparator. Dataset reuse, detector limitations, conditional uncertainty and model-form dependence limit the finding.",
+  "keywords": [
+    "ECG",
+    "photoplethysmography",
+    "respiratory rate",
+    "measurement reliability",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23399950/"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/8a276b9d9a95a9f39879a462f87da9f5bbf301cd5712bff6ee3d91d9e2b4a64f"
+    }
+  ]
+}
