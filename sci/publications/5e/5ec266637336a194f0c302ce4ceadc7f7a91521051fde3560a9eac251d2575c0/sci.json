@@ -1,0 +1,28 @@
+{
+  "title": "Breath-interval serial dependence does not establish added cross-cohort forecasting value for next-minute irregularity",
+  "abstract": "Lag-one breath-interval dependence did not establish added cross-cohort forecasting value for next-minute breath-interval CV beyond current rate, CV and trend. BIDMC-to-CapnoBase record-equal baseline/augmented MSE was 0.01345077/0.01344345, gain 0.00000733 [-0.00005192, 0.00008740]; reverse transfer was 0.01000066/0.01009286, gain -0.00009220 [-0.00025241, 0.00007110]. Both paired target-record bootstrap95% intervals include zero. Current-CV persistence had lower point MSE than either fitted model in both directions. This exploratory result tests a fixed summary and model, not absence of temporal information in breathing.",
+  "keywords": [
+    "respiratory variability",
+    "forecasting",
+    "serial dependence",
+    "negative result",
+    "cross-cohort transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1164/ajrccm.152.6.8520764"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    }
+  ]
+}
