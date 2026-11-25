@@ -1,0 +1,55 @@
+{
+  "title": "Serum sodium\u2013potassium coupling does not establish incremental cross-cycle pulse prediction",
+  "abstract": "A centered serum sodium\u2013potassium interaction did not establish incremental resting-pulse prediction from NHANES2005\u201306 to2009\u201310 (3557 source,4967 target): augmented-minus-baseline weighted MSE0.095604 bpm\u00b2; joint-PSU-bootstrap95% [-0.067402,0.663980]. This is exploratory cross-cycle evidence, not untouched independent-program confirmation.",
+  "keywords": [
+    "sodium",
+    "potassium",
+    "resting pulse",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29949407/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/33236098/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
