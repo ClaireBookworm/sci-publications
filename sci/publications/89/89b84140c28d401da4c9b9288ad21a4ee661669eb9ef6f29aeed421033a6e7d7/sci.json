@@ -1,0 +1,34 @@
+{
+  "title": "PPG spectral dispersion offers no robust cross-cohort increment for breath-interval variability",
+  "abstract": "PPG respiratory spectral dispersion did not establish incremental prediction of breath-interval variability across both cohorts. Adding dispersion to rate, heart rate and pulse interval CV reduced log-CV MAE by 0.0041 (95% record-bootstrap CI -0.0071 to 0.0149) in held-out BIDMC records and 0.0320 (0.0063 to 0.0538) in independent CapnoBase. The external gain was not established against a stronger entropy/disagreement baseline. Both datasets were previously exposed; this is exploratory transport, not untouched confirmation.",
+  "keywords": [
+    "photoplethysmography",
+    "breathing variability",
+    "spectral dispersion",
+    "external transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32731213/"
+    },
+    {
+      "target": "https://doi.org/10.2196/13737"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/d308c61f250d63af3bcb5e7239a67a2b2586cd538df98fbe7f267e63e34af04c"
+    }
+  ]
+}
