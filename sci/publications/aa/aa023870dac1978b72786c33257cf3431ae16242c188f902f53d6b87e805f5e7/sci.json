@@ -1,0 +1,32 @@
+{
+  "title": "A fixed PPG spectral filter lowers respiratory-rate error in two cohorts, but temporal-memory benefit remains unresolved",
+  "abstract": "A fixed causal Gaussian grid filter lowered PPG respiratory-rate MAE versus independent-window arithmetic3 spectra by1.246 breaths/min (95%record-bootstrap CI0.756 to1.759) in BIDMC and1.097 (0.337 to2.041) in independent CapnoBase. However,benefit over a memoryless filter with identical boundary weighting was unresolved:0.194 (-0.257 to0.628) and0.408 (-0.227 to1.167). Thus temporal-memory-specific physiological information was not established. Both datasets were previously exposed;no clinical superiority or untouched confirmation is claimed. Author sensitivity checks found shuffled history no worse in BIDMC and a fixed18 Gaussian spectral prior substantially better there. Negative memory-specific evidence limits interpretation of apparent baseline gains.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "causal filtering",
+    "spectral accumulation",
+    "external transport",
+    "exploratory"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29795007/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27027672/"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/a204aca88ac4b436afee0b5e9cc40f8a9376c7d7b7b39f92a86e0254bdff401e"
+    }
+  ]
+}
