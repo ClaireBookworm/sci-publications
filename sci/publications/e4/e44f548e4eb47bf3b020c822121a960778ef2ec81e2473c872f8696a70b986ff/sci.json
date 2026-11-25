@@ -1,0 +1,31 @@
+{
+  "title": "Within-stance force centroid does not establish added Parkinson discrimination across public gait datasets",
+  "abstract": "Normalized within-stance force impulse centroid did not establish incremental Parkinson discrimination in exploratory gaitndd-to-gaitpdb transfer beyond demographics, speed, stride/stance summaries, swing asymmetry, coordination and peak timing. Among 163 target records, baseline/augmented log loss was 0.631141/0.634443; paired gain -0.003302, conditional95% interval [-0.008478, 0.001919]; AUC 0.738212/0.730098. Joint source/target refitting intervals span zero in both directions. This is a detector- and model-specific negative result, not equivalence or evidence against physiological force-shape information.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "stance force centroid",
+    "exploratory transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34736084/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10781249/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:670cd9391661fdde285260be749926aafef9d2081bdeef6f0d921789ec222288"
+    }
+  ]
+}
