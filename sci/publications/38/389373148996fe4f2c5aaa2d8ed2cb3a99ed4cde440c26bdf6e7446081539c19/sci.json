@@ -1,0 +1,32 @@
+{
+  "title": "Does heart-rate\u2013ST-depression coupling transfer? An uncertain incremental prediction result across two angiography cohorts",
+  "abstract": "In Cleveland-to-Hungary independent-center transport (303 training,293 target records), adding a peak-heart-rate\u00d7ST-depression product to flexible marginal clinical/exercise predictors reduced Brier score by 0.001658, but joint patient-bootstrap95% interval for added-minus-baseline error [-0.022725,0.020365] did not establish incremental benefit.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "heart rate",
+    "ST depression",
+    "external validation",
+    "negative result",
+    "training uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8989133/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1729320/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
