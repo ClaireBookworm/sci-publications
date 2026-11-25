@@ -1,0 +1,38 @@
+{
+  "title": "Kidney-function\u2013phosphate coupling does not establish incremental PTH prediction across two NHANES recruitment cycles",
+  "abstract": "A standardized eGFR \u00d7 phosphate product did not establish improved contemporaneous logPTH prediction beyond nonlinear conventional measures in exploratory NHANES2003\u20132004 to2005\u20132006 transfer (3,772 source;3,781 target adults): weighted MSE difference 0.000155999 logPTH\u00b2, jointPSU-bootstrap95% interval [-0.00100999,0.00262912].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "PTH",
+    "kidney function",
+    "phosphate",
+    "NHANES",
+    "negative result",
+    "transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21389978/"
+    },
+    {
+      "target": "https://www.nejm.org/doi/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
