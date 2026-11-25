@@ -1,0 +1,36 @@
+{
+  "title": "Joint ALT\u2013GGT nonadditivity gives no clear gain in cross-sample CRP prediction",
+  "abstract": "Among adults20+ without known pregnancy and CRP\u226410mg/L, NHANES2005\u20132006 to2007\u20132008 transfer of a centered logGGT\u00d7logALT term beyond additive flexible enzyme/anthropometric predictors gave Brier improvement 0.00012860 (95% joint PSU-bootstrap interval -0.00046746 to 0.00060330) for CRP>3mg/L; no clear incremental evidence.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "ALT",
+    "GGT",
+    "inflammation",
+    "CRP",
+    "NHANES",
+    "temporal transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16405892/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    }
+  ]
+}
