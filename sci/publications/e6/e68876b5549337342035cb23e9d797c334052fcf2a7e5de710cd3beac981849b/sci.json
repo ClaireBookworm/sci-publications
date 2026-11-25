@@ -1,0 +1,28 @@
+{
+  "title": "Cholesterol-dependent ST depression does not establish incremental cross-hospital angiographic CAD prediction",
+  "abstract": "A cholesterol-by-exercise-ST-depression term did not establish incremental angiographic CAD prediction: Cleveland cross-validated Brier gain -0.002185; independent-institution Hungarian gain 0.001286 (500 joint source-refit/target bootstrap 95% interval [-0.010506, 0.007040]). Flexible additive routine predictors were compared with the same ridge logistic model plus one prespecified product. Source n=303; target n=261/294 records. The slight external gain reversed under linear and richer spline baselines. Distinct institutional cohorts provide a retrospective external test, not pristine prospective confirmation. This negative result does not establish physiological equivalence.",
+  "keywords": [
+    "exercise ECG",
+    "cholesterol",
+    "coronary artery disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8222108/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10966131/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/85b9f0d48d4f75abb7097b2a8ad7e4c494770874eb04660e61e4953ec64298ec"
+    }
+  ]
+}
