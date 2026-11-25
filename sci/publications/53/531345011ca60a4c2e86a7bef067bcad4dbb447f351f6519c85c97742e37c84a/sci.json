@@ -1,0 +1,40 @@
+{
+  "title": "Does joint serum total CO2 and hemoglobin encoding improve albuminuria prediction across NHANES cycles?",
+  "abstract": "In exploratory NHANES 2009\u20132010 to 2015\u20132016 transfer (n=4510/4208), a serum total-CO2-by-hemoglobin spline surface changed weighted log-UACR MSE from 0.800271 to 0.844003, delta +0.043732 (joint PSU-bootstrap 95% [+0.014426,+1.863358]). The registered improvement criterion failed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "hemoglobin",
+    "total CO2",
+    "albuminuria",
+    "NHANES",
+    "transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25066359/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30348535/"
+    },
+    {
+      "target": "https://doi.org/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
