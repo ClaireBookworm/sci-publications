@@ -1,0 +1,49 @@
+{
+  "title": "A joint AST\u2013ALT surface does not establish incremental grip-strength prediction beyond enzyme levels and the De Ritis ratio across two NHANES cohorts",
+  "abstract": "We tested whether joint AST\u2013ALT spline interactions improve concurrent combined-handgrip prediction beyond additive enzyme levels, the De Ritis ratio, and conventional covariates. Models fitted in NHANES2011\u20132012 (n=4008) were frozen before evaluation in separately recruited2013\u20132014 participants (n=4531). Adding25 centered tensor-product terms changed examination-weighted mean squared error by +0.05274 kg\u00b2 (joint source/target PSU-bootstrap95% interval [-0.26053,+9.20289]). The registered improvement criterion failed. This reused-data negative prediction audit does not establish physiological absence, equivalence, or external clinical utility. Independent-program validation remains incomplete.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "AST",
+    "ALT",
+    "grip strength",
+    "negative result",
+    "cross-cohort prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37822616/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
