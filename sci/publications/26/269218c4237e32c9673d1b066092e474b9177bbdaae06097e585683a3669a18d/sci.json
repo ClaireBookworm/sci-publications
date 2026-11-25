@@ -1,0 +1,35 @@
+{
+  "title": "Pulse-arrival-time modulation did not establish improved ECG\u2013PPG respiratory-rate fusion across two clinical datasets",
+  "abstract": "Adding ECG-to-PPG peak-arrival-time modulation to fixed five-modulation respiratory-rate fusion did not establish reduced error: BIDMC gain -0.251 breaths/min (95% CI -0.528 to 0.020); independent CapnoBase gain 0.003 (-0.156 to 0.161). A label-free fixed algorithm was evaluated on 50 of 53 intensive-care and all 42 independent perioperative records with eligible windows. Baseline fusion included PPG intensity, amplitude and interval plus ECG amplitude and interval. Paired record-level bootstrap intervals and window, frequency-band, lag and annotation checks did not support consistent improvement. This limits this timing surrogate and fusion rule, not all respiratory information in pulse arrival time.",
+  "keywords": [
+    "respiratory rate",
+    "pulse arrival time",
+    "ECG",
+    "photoplethysmography",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28269218/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16937198/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2013.2246160"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/7567cbae40d6903643b8a61d409536c61f8667626e4e102b303ac137748d8910"
+    }
+  ]
+}
