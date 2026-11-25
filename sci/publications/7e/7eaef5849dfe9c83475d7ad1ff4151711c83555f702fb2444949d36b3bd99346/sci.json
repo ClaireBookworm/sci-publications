@@ -1,0 +1,32 @@
+{
+  "title": "Bilateral stance-force shape distance does not establish added cross-dataset Parkinson discrimination",
+  "abstract": "Bilateral normalized stance-force shape distance did not establish added Parkinson discrimination in exploratory NDD-to-PDB transfer beyond gait timing, coordination and force-shape summaries/asymmetries. In 163 target people, baseline/augmented log loss was 0.629665/0.629871; paired gain -0.000206, conditional95% interval [-0.001821, 0.001415]; AUC 0.740661/0.745560. Joint-refit intervals include zero in both directions. An age>=50 sensitivity is conditionally favorable but is not untouched confirmation. This is a model/detector-specific negative primary result, not equivalence.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "Wasserstein distance",
+    "force asymmetry",
+    "exploratory transfer",
+    "negative primary result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3800620/"
+    },
+    {
+      "target": "https://doi.org/10.3389/fnins.2023.1119390"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:e44f548e4eb47bf3b020c822121a960778ef2ec81e2473c872f8696a70b986ff"
+    }
+  ]
+}
