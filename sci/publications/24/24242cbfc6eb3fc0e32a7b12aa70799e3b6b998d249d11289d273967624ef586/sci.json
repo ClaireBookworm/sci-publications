@@ -1,0 +1,35 @@
+{
+  "title": "RDW\u2013adiposity geometry improves source cross-validation but not transferred airflow-ratio prediction",
+  "abstract": "An RDW-by-BMI tensor spline changed transferred weighted FEV1/FVC MSE from 0.00468366 to 0.00471045 (delta +0.00002679; joint PSU bootstrap95% [-0.00016907,+0.00065241]); incremental prediction was not established. Exploratory nonoverlapping-cycle transfer, not untouched confirmation or external-study validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "RDW",
+    "BMI",
+    "spirometry",
+    "NHANES",
+    "negative transfer",
+    "tensor spline"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fmed.2025.1503142"
+    },
+    {
+      "target": "https://doi.org/10.3109/15412555.2014.933955"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
