@@ -1,0 +1,57 @@
+{
+  "title": "Nonlinear BUN\u2013creatinine imbalance does not establish added anemia prediction in a separate NHANES sample",
+  "abstract": "In 5,546 NHANES 2009\u201310 complete-case adults, adding a log(BUN/creatinine) spline to flexible renal, nutritional and demographic predictors gave a weighted Brier gain of 0.00003060 (conditional-source 95% PSU-bootstrap interval -0.00019606 to 0.00025881); added value was not established. Models were fitted in 5,168 NHANES 2007\u201308 adults and frozen before evaluation in a separate 2009\u201310 sample. The ratio supplies nonlinear structure, not information absent from its components. Subgroup gains changed sign; no biomarker novelty, causal mechanism, equivalence or clinical utility is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "anemia",
+    "BUN",
+    "creatinine",
+    "NHANES",
+    "nonlinear feature",
+    "negative result",
+    "sample transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0257305"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12076240/"
+    },
+    {
+      "target": "https://www.kidney.org/ckd-epi-creatinine-equation-2021"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    }
+  ]
+}
