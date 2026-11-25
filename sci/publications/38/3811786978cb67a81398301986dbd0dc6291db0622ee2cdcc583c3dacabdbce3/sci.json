@@ -1,0 +1,28 @@
+{
+  "title": "Resting ECG context for exercise ST depression: uncertain incremental prediction across two angiography centers",
+  "abstract": "Adding abnormal-resting-ECG \u00d7 exercise-ST-depression to standard additive predictors in Cleveland-to-Hungary angiography transport (303 source,269 target) changed Brier error by -0.002493 (joint bootstrap95% [-0.011343,0.006351]); benefit was not established and abnormal-ECG target predictions worsened.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "resting ECG",
+    "exercise ST depression",
+    "interaction",
+    "independent-center transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2137278/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10758962/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
