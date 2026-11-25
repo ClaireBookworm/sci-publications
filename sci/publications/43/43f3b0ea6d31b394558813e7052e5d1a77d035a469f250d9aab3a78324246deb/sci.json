@@ -1,0 +1,37 @@
+{
+  "title": "A sex-specific ST-depression interaction failed to improve cross-hospital coronary prediction",
+  "abstract": "A fixed female-by-exercise-ST-depression interaction did not improve angiographic CAD prediction: Hungarian target Brier loss increased from 0.153235 to 0.156411 after Cleveland training; joint-refit 95% interval for improvement [-0.012176, 0.001956]. Source fivefold cross-validation also worsened slightly. This is an existing-public-data negative result in historical referral cohorts, not evidence against all sex-specific exercise ECG interpretation. Independent hospital validation was performed, but these public cohorts were historically reused and not lifetime untouched. Author self-checks and isolated clean reruns are not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "ST depression",
+    "sex interaction",
+    "negative result",
+    "transportability"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1161/01.CIR.92.5.1209",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
