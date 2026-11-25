@@ -1,0 +1,56 @@
+{
+  "title": "Signed within-visit pulse-pressure drift does not improve cross-cycle DSST prediction in NHANES",
+  "abstract": "In 1265 NHANES 2011\u20132012 adults aged 60+ and 1373 separately sampled 2013\u20132014 adults, signed first-to-third pulse-pressure change did not improve frozen-model DSST prediction beyond demographics, body size, average blood pressure, pressure variability, MAP drift and pulse. Target weighted MSE increased from 161.670 to 161.918 (+0.153%); source-and-target PSU-refit bootstrap limits for the MSE difference were [-0.564, 3.705]. This is a negative test of one linear feature in reused cross-sectional cohorts, not evidence that cuff dynamics contain no cognitive information.",
+  "keywords": [
+    "NHANES",
+    "blood pressure",
+    "pulse pressure",
+    "DSST",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30739535/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23900315/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
