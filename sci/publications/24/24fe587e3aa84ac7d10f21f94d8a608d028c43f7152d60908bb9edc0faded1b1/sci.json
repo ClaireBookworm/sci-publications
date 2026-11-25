@@ -1,0 +1,35 @@
+{
+  "title": "Thresholded cardiac reversals show asymmetric, calibration-sensitive age transfer between two public ECG collections",
+  "abstract": "A fixed 20-ms hard RR reversal feature gave asymmetric, calibration-sensitive cross-collection age classification gains. Fantasia-to-NSR2 log loss fell from 0.839743 to 0.633772 (gain 0.205971; joint-refit 95% interval [0.017106,0.516023]), but AUC changed only 0.876744 to 0.879070 and reverse-transfer loss increased by 0.047961. Oracle target-intercept recalibration reduced forward gain to 0.009504; timestamp rounding and comparator choice materially changed the result. This does not establish a portable aging or clinical biomarker; participant overlap is unverified.",
+  "keywords": [
+    "heart rate variability",
+    "fragmentation",
+    "aging",
+    "dataset shift",
+    "calibration",
+    "public ECG"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fphys.2017.00255"
+    },
+    {
+      "target": "https://doi.org/10.3389/fphys.2017.00827"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8898003/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
