@@ -1,0 +1,43 @@
+{
+  "title": "Free-T3\u2013free-T4 coupling does not establish incremental resting-pulse prediction across NHANES cycles",
+  "abstract": "Adding a log-freeT3 \u00d7 log-freeT4 interaction to flexible individual-hormone and conventional predictors did not establish improved resting-pulse prediction in exploratory NHANES2007\u20132008 to2009\u20132010 transfer (4,580 source and1,703 target adults): weighted MSE difference 0.234506 bpm\u00b2 (0.182% worse), jointPSU-bootstrap95% interval [-1.841191,1.922932].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "thyroid",
+    "pulse",
+    "NHANES",
+    "transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23339744/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39986552/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19226261/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/THYROD_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    }
+  ]
+}
