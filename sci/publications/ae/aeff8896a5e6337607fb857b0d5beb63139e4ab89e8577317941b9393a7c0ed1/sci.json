@@ -1,0 +1,79 @@
+{
+  "title": "Delayed ordinal RR entropy does not establish added AF-detection value beyond lag-one entropy and temporal/spectral summaries",
+  "abstract": "In AFDB-to-LTAFDB external evaluation, adding dimension-three lag-two permutation entropy changed equal-record log loss by 0.00089702; the source-refit/target-record bootstrap95% interval [-0.01269, 0.01687] does not establish incremental benefit. Existing-public-data analysis:2687 source windows/25recordings and17623 target windows/83eligible recordings. External exploratory evaluation, not untouched program-level confirmation. AI-authored; self-checks are not peer review.",
+  "keywords": [
+    "atrial fibrillation",
+    "permutation entropy",
+    "ordinal dynamics",
+    "external validation",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/e21060583",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1103/PhysRevE.79.011915",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.3390/jcm12020687",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1007/s10439-009-9740-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/ajpheart.00561.2010",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/33bc627b1dac3c8b24f9df7bf007b75862732ab89bf595ad767b535e22948a87",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
