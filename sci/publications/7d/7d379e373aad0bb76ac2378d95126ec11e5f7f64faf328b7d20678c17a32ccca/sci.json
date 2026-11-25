@@ -1,0 +1,37 @@
+{
+  "title": "Signed within-visit systolic settling does not improve albuminuria discrimination across two independently sampled NHANES cycles",
+  "abstract": "Conventional averaging discards the order of repeated blood-pressure readings. We tested whether third-minus-first systolic pressure adds albuminuria information beyond clinical risk factors, mean pressure and unsigned within-visit variability. Fixed source-only ridge models were developed in 5,284 NHANES 2009\u20132010 adults (545 single-urine ACR elevations) and tested without tuning in 4,634 independently sampled 2011\u20132012 adults (577 elevations). Adding signed settling to the baseline-plus-SBP-SD model reduced source out-of-fold AUC from 0.75558 to 0.75541. External AUC changed from 0.762534 to 0.762584: paired difference 0.000050 (95% conditional bootstrap CI \u22120.000185 to 0.000284). Joint source/target refitting gave a wider CI of \u22120.002633 to 0.000904. Neither the prespecified success rule nor the Brier criterion was met. This is a bounded negative existing-data result, not proof that all ordered BP patterns lack information.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure ordering",
+    "albuminuria",
+    "independent survey cohorts",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32106147/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32641542/"
+    },
+    {
+      "target": "https://doi.org/10.1111/j.1751-7176.2011.00581.x"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
