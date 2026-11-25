@@ -1,0 +1,38 @@
+{
+  "title": "ALP\u2013GGT context and PTH prediction: an exploratory independent-cycle test",
+  "abstract": "ALP-by-GGT context changed independent-cycle log-PTH prediction MSE by 0.0000910 (baseline minus interaction; two-sample PSU-refit 95% interval [-0.0005811, 0.0004158]); no reliable incremental benefit was established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "alkaline phosphatase",
+    "GGT",
+    "PTH",
+    "independent-cycle transfer",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.2215/CJN.12031111"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26241325/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/vitamind/analyticalnote.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
