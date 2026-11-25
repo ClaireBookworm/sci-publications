@@ -1,0 +1,35 @@
+{
+  "title": "Mixed blood granulocyte geometry does not establish incremental airflow-ratio prediction across NHANES cycles",
+  "abstract": "A nonlinear blood eosinophil\u2013neutrophil surface changed transferred weighted FEV1/FVC MSE from 0.00463198 to 0.00464669 (delta +0.00001470; joint PSU bootstrap95% [-0.00002557,+0.00024925]); predictive improvement was not established. Exploratory transfer between separately recruited NHANES cycles, not untouched confirmation or external-study validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "eosinophil",
+    "neutrophil",
+    "spirometry",
+    "NHANES",
+    "negative result",
+    "tensor spline"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.rmed.2018.07.011"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.jaip.2022.11.025"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
