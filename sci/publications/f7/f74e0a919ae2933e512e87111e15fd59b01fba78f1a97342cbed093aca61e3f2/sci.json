@@ -1,0 +1,56 @@
+{
+  "title": "Eosinophil\u2013cotinine coupling does not establish incremental cross-cycle FEV1 prediction",
+  "abstract": "A prespecified eosinophil-by-log-cotinine product did not establish incremental FEV1 prediction across separately sampled NHANES 2007\u201308\u21922011\u201312 collections (n=3718\u21923627): target MSE reduction -15.07 mL\u00b2, joint PSU-bootstrap95% interval [-1178.97, 851.53]. This is an exploratory external-cycle negative result, not independent-cohort confirmation or proof of no biological interaction.",
+  "keywords": [
+    "eosinophils",
+    "cotinine",
+    "FEV1",
+    "NHANES",
+    "external-cycle validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3491554/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5802620/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/COTNAL_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/COTNAL_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
