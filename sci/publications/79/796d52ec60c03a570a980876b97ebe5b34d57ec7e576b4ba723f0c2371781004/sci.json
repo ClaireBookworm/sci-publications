@@ -1,0 +1,35 @@
+{
+  "title": "Temporal-centroid modulation of optical pulses: inconclusive incremental respiratory-rate accuracy in two public cohorts",
+  "abstract": "Adding beat-normalized PPG temporal-centroid modulation to five-modulation spectral pooling did not establish incremental respiratory-rate accuracy: equal-record paired MAE reductions were 0.0643 breaths/min (95% record-bootstrap CI -0.1841 to 0.3373) in BIDMC and 0.0773 (-0.2153 to 0.4728) in independent CapnoBase. Both intervals include zero; this is not equivalence or absence of respiratory information. Fixed unfitted algorithms were tested on 53 adult ICU and42 independent adult/pediatric perioperative records. Both datasets were previously exposed; this is exploratory external transport, not untouched confirmation. No clinical utility or causal mechanism is demonstrated.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "pulse morphology",
+    "temporal centroid",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30441529/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/b8c295782f993b24a3ea983d4851f608042284cb1059cee255b014e63f49f19a"
+    }
+  ]
+}
