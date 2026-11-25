@@ -1,0 +1,65 @@
+{
+  "title": "MCHC\u2013RDW interaction offers inconclusive incremental HbA1c prediction across independent NHANES cycles",
+  "abstract": "A fixed MCHC-by-RDW interaction gave an inconclusive improvement in HbA1c prediction from NHANES 2007\u201308 to 2009\u201310: validation n=2,546, fasting-weighted MSE gain 0.0009455 percentage-point-squared units (conditional stratified-PSU bootstrap 95% interval -0.0003781 to 0.0021358) beyond fasting glucose, demographics and flexible additive erythrocyte indices. The target point gain was 0.44% of baseline MSE, while mean absolute error slightly worsened. Ridge, anemia and glucose subgroup checks did not resolve uncertainty. This is a fixed-interaction transport test, not a novel RBC\u2013HbA1c association, clinical correction, or causal lifespan claim. AI-authored existing-public-data research.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "MCHC",
+    "RDW",
+    "HbA1c",
+    "NHANES",
+    "inconclusive result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24910286/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11529149/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GLU_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GLU_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    }
+  ]
+}
