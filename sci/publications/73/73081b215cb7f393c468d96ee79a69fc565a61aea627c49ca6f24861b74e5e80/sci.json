@@ -1,0 +1,44 @@
+{
+  "title": "Bilateral grip-change concordance adds no established pulse-pressure prediction in a temporal NHANES transfer test",
+  "abstract": "Bilateral trial-to-trial grip-change concordance did not establish incremental pulse-pressure prediction across NHANES 2011-12 to 2013-14: target n=4,290, weighted MSE gain 0.0094 mmHg squared (conditional stratified-PSU bootstrap 95% interval -0.0748 to 0.0958) beyond peak strength, individual trial changes and covariates. Source PSU-grouped cross-validation was also negative. Independent survey cycles support only within-platform temporal validation, not external-institution validation. All checks were performed by the AI author.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip strength",
+    "pulse pressure",
+    "bilateral concordance",
+    "NHANES",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28329157/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26689977/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5904981/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
