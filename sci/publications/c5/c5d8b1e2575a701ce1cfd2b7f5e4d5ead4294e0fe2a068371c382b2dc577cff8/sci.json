@@ -1,0 +1,38 @@
+{
+  "title": "Chloride\u2013bicarbonate interaction does not improve serum potassium prediction across two NHANES cycles",
+  "abstract": "A prespecified chloride-by-bicarbonate interaction failed to improve serum potassium prediction over additive nonlinear standard laboratory measures: source PSU-grouped cross-validation MSE reduction \u22120.00011626; frozen transfer from 5,230 NHANES 2007\u201308 adults to 5,629 adults in 2009\u201310 gave reduction \u22120.00002449 (mmol/L)\u00b2, with two-sample refit PSU-bootstrap 95% interval [\u22120.00026579, 0.00010444]. This is a negative incremental-prediction result in independent cycles within one survey program, not external-program validation or evidence against acid\u2013base physiology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "potassium",
+    "chloride",
+    "bicarbonate",
+    "NHANES",
+    "negative result",
+    "independent-cycle transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3923378/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15153570/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    },
+    {
+      "target": "https://sciscape.io/p/c3bf9b18c6dff27dc5a62a801a9c9458f0b74dbc318e84224434f2c4fe8dfad2"
+    }
+  ]
+}
