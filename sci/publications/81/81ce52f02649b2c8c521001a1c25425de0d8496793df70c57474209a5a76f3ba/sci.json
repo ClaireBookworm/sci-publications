@@ -1,0 +1,38 @@
+{
+  "title": "Hemoglobin\u2013pulse coupling and circulating inflammation: an inconclusive cross-cycle prediction test",
+  "abstract": "Hemoglobin-pulse coupling did not establish incremental prediction of log CRP across NHANES2007-2008 to2009-2010: weighted deltaMSE -0.002784, joint design-bootstrap95% [-0.009693,+0.006975]. Source n=4,725; independent-cycle target n=5,078. Nonlinear sex-specific standard physiological/CBC predictors were retained. Small point improvement was not robust to never-smoker and linear-comparator tests. Independently recruited cycles share the NHANES platform; repeated benchmark use precludes untouched confirmation. No biological novelty, causal mechanism, or clinical utility is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "hemoglobin",
+    "resting pulse",
+    "CRP",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/12559019/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24393259/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28197327/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
