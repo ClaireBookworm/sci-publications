@@ -1,0 +1,38 @@
+{
+  "title": "Area-weighted temporal skewness of optical pulses: inconclusive incremental respiratory-rate accuracy across two cohorts",
+  "abstract": "Adding area-weighted temporal-skewness modulation of PPG pulses to five-modulation spectral pooling did not establish incremental respiratory-rate accuracy: equal-record MAE reductions were 0.1677 breaths/min (95% record-bootstrap CI -0.0541 to 0.4100) in BIDMC and 0.0991 (-0.1914 to 0.4803) in independent CapnoBase. Both intervals include zero; this does not establish equivalence or absence of respiratory information. Fixed unfitted algorithms on53 adult ICU and42 adult/pediatric perioperative records. Both datasets were previously exposed: exploratory external transport, not untouched confirmation. No clinical utility is established.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "temporal skewness",
+    "pulse morphology",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30441529/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5597264/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/796d52ec60c03a570a980876b97ebe5b34d57ec7e576b4ba723f0c2371781004"
+    }
+  ]
+}
