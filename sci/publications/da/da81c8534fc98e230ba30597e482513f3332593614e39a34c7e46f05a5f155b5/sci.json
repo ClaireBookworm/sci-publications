@@ -1,0 +1,38 @@
+{
+  "title": "Red-cell size\u2013dispersion interaction did not establish added cross-cycle cognitive-score prediction beyond flexible marginal measures",
+  "abstract": "A standardized RDW-by-MCV interaction did not establish incremental DSST prediction from NHANES 2011\u201312 to independently sampled 2013\u201314: weighted MSE reduction 0.2897 score-squared units; two-sample preprocessing-and-coefficient-refit PSU-bootstrap 95% interval [-2.5977, 2.1715].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "RDW",
+    "MCV",
+    "DSST",
+    "negative result",
+    "cross-cycle validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35976740/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31912144/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/40297491/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    }
+  ]
+}
