@@ -1,0 +1,43 @@
+{
+  "title": "Harmonic competition provides qualified external evidence for PPG respiratory-error prediction",
+  "abstract": "Harmonic competition improved CapnoBase respiratory-error prediction by 0.007399 Brier units (95% record-bootstrap CI 0.000259 to 0.014834), but BIDMC held-out evidence was inconclusive and the 64-second external interval included zero. This is exploratory transport evidence, not clinical validation. A fixed harmonic-height feature was added to conventional entropy, modulation disagreement, estimated rate and peak-concentration features in ridge logistic error-risk models. We trained only on 53 BIDMC records and tested on 42 independent CapnoBase records. No clinical outcomes were predicted. Dataset reuse, limited baselines, conditional uncertainty and subgroup heterogeneity prevent strong generalization claims.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "harmonic competition",
+    "measurement reliability",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6022083/"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.bspc.2024.107006"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39184965/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23399950/"
+    },
+    {
+      "target": "https://doi.org/10.1007/s40846-022-00700-z"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://sciscape.io/p/1aa9f783f2c25504fb295d530d38ed77d1066b99d51c700885f1ebac9dfc4da1"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
