@@ -1,0 +1,86 @@
+{
+  "title": "Calcium\u2013albumin interaction fails to improve DSST prediction across two NHANES samples",
+  "abstract": "In 1,290 NHANES 2011\u20132012 adults aged 60+ and 1,497 separately sampled 2013\u20132014 adults, adding a calcium\u2013albumin interaction to flexible standard chemistry, albumin-adjusted calcium and demographic predictors changed validation weighted MSE by +0.034508 score\u00b2 (+0.0208%). The source-refit/target PSU-bootstrap 95% interval was [-0.452328, 1.006493]. This does not demonstrate incremental benefit or equivalence and does not rule out calcium\u2013cognition associations.",
+  "keywords": [
+    "calcium",
+    "albumin",
+    "DSST",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/j.1532-5415.2007.01418.x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1001/jamanetworkopen.2024.55251",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
