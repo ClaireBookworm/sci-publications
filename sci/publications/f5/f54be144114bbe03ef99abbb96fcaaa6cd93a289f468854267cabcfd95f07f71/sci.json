@@ -1,0 +1,35 @@
+{
+  "title": "Preserving irregular pulse timing with classic Lomb\u2013Scargle does not improve pooled PPG respiratory estimates in two cohorts",
+  "abstract": "Classic Lomb\u2013Scargle pooling of three irregularly timed PPG respiratory modulations did not improve respiratory-rate estimation over interpolated rectangular Fourier pooling in two independent cohorts. Equal-record MAE was 4.381 versus 3.948 breaths/min in BIDMC and 3.599 versus 2.800 in CapnoBase. Comparator-minus-Lomb gains were -0.432 (95% record-bootstrap CI -0.863 to -0.003) and -0.799 (-1.845 to 0.214), respectively. These previously exposed datasets support an exploratory negative implementation result, not rejection of all uneven-sampling methods.",
+  "keywords": [
+    "PPG",
+    "respiratory rate",
+    "Lomb\u2013Scargle",
+    "irregular sampling",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.heliyon.2024.e26036"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/a204aca88ac4b436afee0b5e9cc40f8a9376c7d7b7b39f92a86e0254bdff401e"
+    }
+  ]
+}
