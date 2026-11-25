@@ -1,0 +1,65 @@
+{
+  "title": "Short-window coarse-grained RR entropy: an exploratory incremental-prediction audit across AF databases",
+  "abstract": "In exploratory AFDB-to-LTAFDB evaluation, adding mean coarse-grained RR entropy at scales2\u20134 to19 controls changed equal-record logloss by -0.00003124; source-refit/target-record bootstrap95% interval [-0.01144, 0.01024]. External exploratory evaluation, not untouched confirmation. AI-authored existing-public-data analysis; author checks are not peer review.",
+  "keywords": [
+    "atrial fibrillation",
+    "multiscale entropy",
+    "external evaluation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1103/PhysRevLett.89.068102",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1103/PhysRevE.71.021906",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/ltafdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/0d3e12bfc597ae41b30db83c1ca36481fe7a121d3ce910878aabc271f525389f",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
