@@ -1,0 +1,38 @@
+{
+  "title": "Late-diastolic pulse-area modulation does not establish an incremental respiratory-rate benefit in two public cohorts",
+  "abstract": "Adding late-diastolic pulse-area fraction to five conventional PPG respiratory-modulation spectra did not establish a transferable improvement in respiratory-rate estimation. Equal-record MAE changed from 4.554 to 4.720 breaths/min in BIDMC and from 2.890 to 2.780 in independent CapnoBase. Baseline-minus-augmented gains were -0.167 [-0.367, 0.013] and 0.110 [-0.174, 0.437], respectively (95% paired-record bootstrap intervals). Both intervals include zero; this exploratory negative implementation result is not evidence that diastolic morphology lacks respiratory information.",
+  "keywords": [
+    "PPG",
+    "respiratory rate",
+    "diastolic morphology",
+    "pulse area",
+    "negative result",
+    "cross-cohort validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30441529/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/31/3/009"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/a204aca88ac4b436afee0b5e9cc40f8a9376c7d7b7b39f92a86e0254bdff401e"
+    }
+  ]
+}
