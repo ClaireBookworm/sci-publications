@@ -1,0 +1,33 @@
+{
+  "title": "Joint red-cell dispersion and size does not clearly improve low-ferritin detection across NHANES samples",
+  "abstract": "In nonpregnant women aged20\u201349 with CRP\u22645mg/L, NHANES2005\u20132006 to2007\u20132008 transfer of an RDW\u00d7MCV interaction beyond flexible CBC main effects gave Brier improvement 0.00064160 (95% joint PSU-bootstrap interval -0.00358195 to 0.00481645), without clear incremental evidence; AUC changed -0.00057394.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "RDW",
+    "MCV",
+    "ferritin",
+    "iron status",
+    "NHANES",
+    "temporal transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://stacks.cdc.gov/view/cdc/115718/cdc_115718_DS1.pdf"
+    },
+    {
+      "target": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00051880.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/FERTIN_E.htm"
+    }
+  ]
+}
