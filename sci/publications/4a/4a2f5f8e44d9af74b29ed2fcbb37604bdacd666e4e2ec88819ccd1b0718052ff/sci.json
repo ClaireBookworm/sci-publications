@@ -1,0 +1,65 @@
+{
+  "title": "Pulse-pressure \u00d7 pulse gives a small, uncertain log-CRP prediction gain beyond conventional hemodynamic measures",
+  "abstract": "In 4,723 NHANES 2007\u201308 adults, we fit nonlinear blood-pressure/pulse models with and without a pulse-pressure-by-pulse interaction, then evaluated frozen models in 5,225 independently sampled 2009\u201310 adults. Weighted target mean squared log-CRP error decreased by 0.001258 (approximate 95% source-refit/target PSU-bootstrap interval -0.000669 to 0.002945), a 0.103% point improvement. Cubic and post-hoc confounder/curvature challenges retained only small point gains. The interval crosses zero: these data do not establish a reliable added inflammation marker. This is concurrent prediction, not future disease prediction or clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "pulse pressure",
+    "resting pulse",
+    "CRP",
+    "NHANES",
+    "independent sample validation",
+    "uncertain incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.cir.57.3.549"
+    },
+    {
+      "target": "https://doi.org/10.1161/hy0202.104270"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
