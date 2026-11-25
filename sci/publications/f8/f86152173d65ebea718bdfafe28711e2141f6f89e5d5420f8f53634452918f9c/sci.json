@@ -1,0 +1,35 @@
+{
+  "title": "Joint neutrophil and monocyte ratios did not improve cross-cycle depression-screen prediction beyond flexible marginal measures",
+  "abstract": "A standardized log-NLR-by-log-MLR interaction did not establish added prediction of PHQ-9 >=10 from NHANES 2005\u201306 to independently sampled 2011\u201312: weighted Brier reduction -0.00000256; two-sample preprocessing-and-coefficient-refit PSU-bootstrap 95% interval [-0.00105703, 0.00005411].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "neutrophil-to-lymphocyte ratio",
+    "monocyte-to-lymphocyte ratio",
+    "PHQ-9",
+    "negative result",
+    "independent-cycle validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35932936/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35439466/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/42629730/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DPQ_G.htm"
+    }
+  ]
+}
