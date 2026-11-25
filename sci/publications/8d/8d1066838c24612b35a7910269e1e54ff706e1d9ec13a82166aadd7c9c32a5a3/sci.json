@@ -1,0 +1,43 @@
+{
+  "title": "Peripheral basophil\u2013eosinophil coupling did not improve frozen FeNO prediction: an outlier-sensitive two-sample test",
+  "abstract": "In NHANES2007\u20132008 adults (n4036), we fitted a basophil-by-eosinophil absolute-count interaction beyond nonlinear component effects and conventional airway covariates. Frozen evaluation in NHANES2009\u20132010 adults (n4658) changed log-FeNO MSE by baseline-minus-augmented -1.670964 (1000 source/target participant-refit bootstrap95% interval -14.407951 to 0.912630). An extreme-count target observation dominates this worsening; source-defined count trimming/refit gave gain -0.000321. Benefit is not established; no claim of equivalence, causality or clinical utility. Exploratory AI-authored analysis with author checks, not independent peer review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "CDC",
+    "Centers for Disease Control and Prevention",
+    "FeNO",
+    "basophils",
+    "eosinophils",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28474352/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23890753/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/NhanesCitation.aspx"
+    }
+  ]
+}
