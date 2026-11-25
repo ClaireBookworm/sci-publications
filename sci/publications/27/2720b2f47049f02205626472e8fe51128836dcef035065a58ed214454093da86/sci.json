@@ -1,0 +1,32 @@
+{
+  "title": "Iron relative to hemoglobin did not establish improved cross-cycle prediction of airflow physiology",
+  "abstract": "In exploratory NHANES 2007\u20132008 to 2011\u20132012 transfer (n=3534/3469), adding log(serum iron/hemoglobin) splines changed survey-weighted FEV1/FVC MSE from 0.00468788 to 0.00469448 (delta +0.00000659; joint stratified PSU-bootstrap 95% [-0.00004212, +0.00019475]). Incremental predictive benefit was not established; the interval permits benefit and harm. Source-only cross-validation and penalty selection did not establish improvement. Exploratory independently recruited cycle evaluation, not untouched confirmation or causality.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "serum iron",
+    "hemoglobin",
+    "spirometry",
+    "negative result",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10727669/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29629039/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    }
+  ]
+}
