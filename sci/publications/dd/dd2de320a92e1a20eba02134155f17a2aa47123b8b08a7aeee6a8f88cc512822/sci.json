@@ -1,0 +1,35 @@
+{
+  "title": "Blood eosinophil\u2013neutrophil interaction does not establish incremental prediction of bronchodilator response across NHANES cycles",
+  "abstract": "In an exploratory NHANES2007\u20132008 to2011\u20132012 transfer among selected bronchodilator-tested adults (340 source;255 target), adding a blood eosinophil\u2013neutrophil interaction changed weighted FEV1-response MSE by -44.5 mL\u00b2 (joint PSU-bootstrap95% interval -678.2 to 1032.9). Incremental predictive benefit was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "bronchodilator response",
+    "eosinophils",
+    "neutrophils",
+    "NHANES",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30170809/"
+    },
+    {
+      "target": "https://doi.org/10.1164/rccm.202308-1436OC"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
