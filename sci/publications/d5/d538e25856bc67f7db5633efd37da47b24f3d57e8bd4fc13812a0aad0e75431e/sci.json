@@ -1,0 +1,61 @@
+{
+  "title": "Between-phonation perturbation dispersion does not improve fixed-model Parkinson classification across two public voice cohorts",
+  "abstract": "A fixed model trained on 32 Oxford voice subject codes was applied to 80 independent Extremadura participants. Adding three-phonation log RAP/APQ3 dispersion to mean conventional and nonlinear acoustic measures increased Brier loss by 0.010235; source-refit/target-bootstrap 95% interval [-0.017390, 0.059527]. This test does not support incremental cross-cohort utility. Both models transferred poorly.",
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "repeated phonation",
+    "cross-cohort validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1016/j.eswa.2015.10.034",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1016/j.cmpb.2017.02.019",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1186/s12911-020-01250-7",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s41746-019-0178-x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
