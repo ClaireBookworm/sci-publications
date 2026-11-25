@@ -1,0 +1,38 @@
+{
+  "title": "Within-visit systolic\u2013diastolic covariance adds no demonstrated albuminuria prediction benefit across two NHANES cycles",
+  "abstract": "Adding signed-log systolic\u2013diastolic covariance to mean BP, marginal BP variability and clinical covariates did not improve transferred albuminuria prediction: weighted Brier improvement -0.00001141, 95% joint PSU-bootstrap interval [-0.00019545, 0.00003354]. Independent temporal NHANES samples of 4552 and 4974 adults; negative result for the specified single-feature model.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure",
+    "covariance",
+    "albuminuria",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32641542/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22372776/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35360932/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.htm"
+    }
+  ]
+}
