@@ -1,0 +1,31 @@
+{
+  "title": "Resting-to-peak heart-rate reserve does not establish improved cross-hospital angiographic disease discrimination in two public cohorts",
+  "abstract": "An omitted resting-rate field enabled calculation of achieved heart-rate reserve in public UCI Hungary and independent Long Beach VA data. A conventional clinical/exercise ridge logistic baseline improved source OOF AUC0.8909 to0.8945 but external AUC fell0.7574 to0.7525 (n146; paired delta95%CI[-0.01974,0.01069]; joint refitCI[-0.03346,0.00822]). A small Brier improvement was uncertain. Medication, complete-case, resting-HR, regularization and duplicate-record checks do not establish incremental transfer. AI-performed existing-public-data negative result; not a novel biomarker or clinical recommendation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate reserve",
+    "angiographic disease",
+    "cross-hospital transport",
+    "negative result",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8608620/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8989133/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9149(89)90524-9"
+    }
+  ]
+}
