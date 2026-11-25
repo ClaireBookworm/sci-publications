@@ -1,0 +1,67 @@
+{
+  "title": "Phase-specific short-scale gait memory does not establish added Parkinson prediction: an exploratory cross-collection test",
+  "abstract": "Finite-scale swing-minus-stride DFA slope did not establish incremental Parkinson/control prediction across gait collections: target delta logloss 0.011555, source-refit/target bootstrap95%CI [-0.040305,0.100676]. Exploratory; participant independence unverified.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "detrended fluctuation",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1152/jappl.1997.82.1.262",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/f1bad5f958e02daeab35d46f8b53d3cc905013d35551a1b78aa763afe9758add",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
