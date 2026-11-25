@@ -1,0 +1,37 @@
+{
+  "title": "Hemoglobin\u2013leukocyte coupling and elevated CRP: an exploratory transfer test between NHANES III and 2017\u20132018",
+  "abstract": "A source-centered hemoglobin \u00d7 WBC interaction changed transported weighted Brier loss from 0.179007 to 0.179204 (delta +0.000197; approximate joint source/target PSU bootstrap95% [-0.000179,+0.000500]). Incremental improvement was not established. Models trained only on NHANES III were transported to separately recruited NHANES 2017\u20132018 adults. The comparator uses flexible additive conventional CBC and adiposity measures. This tests a statistical interaction, not a new biomarker or causal mechanism; previously explored public surveys are not untouched confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "hemoglobin",
+    "white blood cells",
+    "inflammation",
+    "NHANES",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16271918/"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.amjmed.2005.06.039"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/default.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
