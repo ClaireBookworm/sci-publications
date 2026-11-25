@@ -1,0 +1,32 @@
+{
+  "title": "Age\u2013albumin coupling in cross-cycle prediction of concurrent hsCRP",
+  "abstract": "Adding a source-standardized age-by-serum-albumin product to flexible additive routine measures yielded source whole-PSU CV MSE gain -0.000638 and second-cycle frozen-model gain -0.002060 squared log-hsCRP units (500 joint survey-bootstrap 95% interval [-0.011362, 0.002411]). The registered incremental-prediction criterion was not met. This is retrospective cross-cycle evaluation, not untouched external confirmation. Source n=4225, target n=3954; weighted baseline/augmented target MSE 0.766777/0.768836. AI-authored existing-public-data analysis; no causal mechanism, biological age measurement or clinical utility established.",
+  "keywords": [
+    "albumin",
+    "age",
+    "hsCRP",
+    "NHANES",
+    "prediction",
+    "cross-cycle evaluation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37653773/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16980573/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/c2365c4e07588df2330567068f4307cee95f921891de6bc2986723f473d6a145"
+    }
+  ]
+}
