@@ -1,0 +1,41 @@
+{
+  "title": "Longer-scale deceleration structure does not establish robust incremental age transfer across public RR collections",
+  "abstract": "A four-beat-scale deceleration-anchor contrast did not establish robust incremental age prediction across two public RR collections. Fantasia-to-NSR2 loss improved by 0.022080 (joint-refit 95% interval [-0.020030, 0.074992]), but AUC improved only 0.002326 and reverse loss worsened by 0.001567. After target-label oracle intercept recalibration the forward gain became -0.003660. The result is exploratory, calibration-sensitive and not a validated physiological-aging biomarker; participant overlap remains unknown.",
+  "keywords": [
+    "PRSA",
+    "deceleration capacity",
+    "HRV",
+    "aging",
+    "dataset shift",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1063/1.2430636"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20339014/"
+    },
+    {
+      "target": "https://www.robots.ox.ac.uk/~gari/papers/campanaJAP2010.pdf"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8898003/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/24fe587e3aa84ac7d10f21f94d8a608d028c43f7152d60908bb9edc0faded1b1"
+    }
+  ]
+}
