@@ -1,0 +1,45 @@
+{
+  "title": "Localized audiogram slope excess and past-year tinnitus: an exploratory cross-cohort incremental-prediction test",
+  "abstract": "Audiogram steepness is associated with tinnitus in prior clinical studies. We tested whether localized slope excess adds to ordinary hearing summaries, global slope, noise exposure and demographics. Models were fitted only in 3815 NHANES2011\u20132012 adults and frozen for 4262 separately recruited2015\u20132016 adults. Localized octave-slope excess changed target weighted tinnitus Brier score from 0.123346 to 0.123870, difference +0.000524, joint95% interval [-0.000149,+0.002081]. The registered improvement criterion was not met. This is exploratory same-program cross-cohort evidence, not untouched independent-program confirmation or causal physiology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiogram slope",
+    "tinnitus",
+    "cross-cohort prediction",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16962270/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32176119/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    }
+  ]
+}
