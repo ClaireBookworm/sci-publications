@@ -1,0 +1,36 @@
+{
+  "title": "A sodium\u2013urea interaction does not reliably improve spot urine osmolality prediction across independent NHANES samples",
+  "abstract": "In 4,631 held-cycle NHANES adults, adding one prespecified serum sodium-by-log(BUN) interaction to nonlinear blood chemistry and demographic predictors reduced survey-weighted urine-osmolality MSE by 26.71 (mOsm/kg)\u00b2 (95% paired source-refit/target PSU-bootstrap interval -234.40 to 243.09); the interval crosses zero and a cubic baseline reverses the gain. No reliable incremental marker was established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "urine osmolality",
+    "sodium",
+    "urea",
+    "hydration",
+    "negative result",
+    "independent sample confirmation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/nu11030657"
+    },
+    {
+      "target": "https://doi.org/10.1046/j.1523-1755.2001.060002748.x"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/UCOSMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
