@@ -1,0 +1,37 @@
+{
+  "title": "Joint urea\u2013total-CO2 encoding for independent-cycle albuminuria prediction",
+  "abstract": "Adding a sex-specific BUN\u2013total-CO2 tensor spline changed independent-cycle weighted log-UACR MSE from 0.793547 to 0.834649 (delta +0.041102; joint PSU-bootstrap95% [+0.008974,+0.223891]). The registered improvement criterion was not met. Exploratory cross-cycle prediction, not untouched confirmation or evidence of causality.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "BUN",
+    "total CO2",
+    "albuminuria",
+    "NHANES",
+    "exploratory independent-cycle prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736774/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24691012/"
+    },
+    {
+      "target": "https://doi.org/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
