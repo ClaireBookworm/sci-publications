@@ -1,0 +1,58 @@
+{
+  "title": "Within-visit systolic pressure decline fails to improve transferred handgrip prediction beyond mean hemodynamics and body size",
+  "abstract": "We tested whether the difference between the first systolic cuff reading and the mean of the next two predicts concurrent handgrip strength beyond conventional measures. Sex-specific spline models trained in NHANES 2011\u20132012 (n=3605) were frozen and evaluated in separately recruited NHANES 2013\u20132014 (n=4013). Adding a flexible systolic-decline term increased examination-weighted MSE from 127.7225 to 128.3416 kg\u00b2: delta +0.6191, joint source/target PSU-bootstrap 95% interval [-0.2532, +2.6635]. The registered improvement criterion failed. Adjustment for arm circumference and comparison against within-visit systolic SD did not produce favorable point differences. This exploratory negative result does not exclude other information in blood-pressure dynamics, establish equivalence, or validate an autonomic biomarker. Transfer across recruitment cohorts in one survey program is not external-program confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip",
+    "within-visit blood pressure",
+    "measurement order",
+    "negative result",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://www.ijpp.com/IJPP%20archives/2015_59_2/189-193.pdf"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32308044/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm"
+    }
+  ]
+}
