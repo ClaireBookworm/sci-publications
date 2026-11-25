@@ -1,0 +1,56 @@
+{
+  "title": "Ferritin\u2013CRP interaction adds no clear cross-cycle prediction benefit for soluble transferrin receptor beyond flexible routine measures",
+  "abstract": "We tested a prespecified log-ferritin by log-CRP interaction for predicting log soluble transferrin receptor (sTfR) in women age 20\u201349 not known to be pregnant. A weighted additive-spline model was trained on 951 NHANES 2003\u20132004 participants and transported without target fitting to 1031 participants from 2005\u20132006. Adding the interaction changed weighted target log-MSE by \u22120.0000775 (0.11% reduction); source-refit/target design-bootstrap 95% interval \u22120.000573 to 0.000721. The result does not establish incremental utility; sensitivity specifications changed the sign. These are independent survey samples from one measurement system, not validation in an independent health system. The result concerns one functional representation, not all iron\u2013inflammation biology.",
+  "keywords": [
+    "ferritin",
+    "C-reactive protein",
+    "soluble transferrin receptor",
+    "NHANES",
+    "negative result",
+    "transport validation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28615259/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28615256/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L06TFR_C.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/TFR_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
