@@ -1,0 +1,31 @@
+{
+  "title": "Numbered-repeat shimmer drift does not establish incremental cross-cohort Parkinson voice classification",
+  "abstract": "A numbered-repeat log-shimmer contrast did not establish added Parkinson classification value beyond averaged acoustic measures and marginal repeat variability: source speaker-CV log-loss gain -0.029976; frozen second-cohort gain 0.013124 nats/speaker, joint bootstrap95% interval [-0.045884,0.127917]. Repeat-number chronology is unverified and both datasets were previously inspected. Source80 speakers(40cases),target32(24cases). Target baseline/augmented logloss 0.900174/0.887050,AUC 0.739583/0.750000. This negative incremental test is not clinical equivalence or a test of verified vocal fatigue.",
+  "keywords": [
+    "Parkinson",
+    "voice",
+    "replicated phonation",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15655339/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12614394/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/174/parkinsons"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/489/parkinson+dataset+with+replicated+acoustic+features"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    }
+  ]
+}
