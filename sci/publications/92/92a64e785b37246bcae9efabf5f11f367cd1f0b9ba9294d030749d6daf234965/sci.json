@@ -1,0 +1,43 @@
+{
+  "title": "Arm-muscle circumference and serum creatinine beyond body size: a frozen NHANES temporal transport test",
+  "abstract": "We tested the established mid-arm muscle circumference estimate (arm circumference minus pi times triceps thickness) as an additional predictor of log standardized serum creatinine beyond flexible age, BMI, waist, height, sex and ethnicity. Source models fit in NHANES III (n=13189) were frozen and applied to separately recruited NHANES2001\u20132002 (n=3586). Target weighted mean squared error fell from 0.040920 to 0.040142, delta -0.000778, joint rescaled-PSU bootstrap95% interval [-0.001168,-0.000445], about1.9% relative improvement. Separate flexible arm and triceps terms eliminated the derived-feature advantage. Selection excluded a substantially higher-BMI group. This exploratory existing-data study supports a small transported association beyond conventional body-size summaries, not a new biomarker, direct muscle measurement, improved GFR estimation, causal mechanism or clinical benefit.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "arm muscle circumference",
+    "serum creatinine",
+    "temporal transport",
+    "incremental prediction",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8025365/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20947789/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/data/nhanes3/1a/lab-acc.pdf"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BMX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L40_B.htm"
+    }
+  ]
+}
