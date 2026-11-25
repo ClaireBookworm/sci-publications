@@ -1,0 +1,51 @@
+{
+  "title": "Three-trial handgrip sequence shape and stair difficulty: an exploratory cross-cohort prediction test",
+  "abstract": "We tested whether curvature and interhand change disagreement in six existing grip trials add to conventional strength and demographics for concurrent stair difficulty. NHANES2011\u20132012 provided 1160 adults aged60+ for training; independently recruited2013\u20132014 provided 1235 for frozen evaluation. Adding grip-sequence curvature and interhand slope disagreement changed cross-cohort Brier score from 0.116410 to 0.116226 (difference -0.000184; joint PSU-bootstrap95% interval -0.001592 to +0.003815). The registered improvement criterion was not met; this does not establish equivalence or absence of physiological information. Both cohorts were previously inspected for other questions, not untouched confirmation. Independent-study-program validation remains incomplete.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip",
+    "sequence shape",
+    "stair difficulty",
+    "cross-cohort prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1177/02692155251355881"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17331228/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    }
+  ]
+}
