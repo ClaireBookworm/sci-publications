@@ -1,0 +1,38 @@
+{
+  "title": "Creatinine\u2013urea nonadditivity provides no clear incremental cross-sample grip prediction",
+  "abstract": "In adults aged\u226540, a centered log-creatinine \u00d7 log-BUN term beyond flexible additive renal/body-size measures gave NHANES2011\u201312\u21922013\u201314 weighted grip-strength MSE improvement 0.042858 kg\u00b2 (95% joint PSU-bootstrap interval -0.365995 to 0.206033); this does not establish incremental predictive value.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "creatinine",
+    "urea nitrogen",
+    "grip strength",
+    "NHANES",
+    "negative result",
+    "cross-sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9575765/"
+    },
+    {
+      "target": "https://www.nejm.org/doi/full/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
