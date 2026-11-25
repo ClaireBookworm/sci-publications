@@ -1,0 +1,79 @@
+{
+  "title": "AST/ALT ratio does not demonstrate incremental cognitive-score prediction across two NHANES samples",
+  "abstract": "In 1,287 NHANES 2011\u20132012 adults aged 60+ and 1,505 separately sampled 2013\u20132014 adults, AST/ALT ratio added to flexible separate enzymes and clinical/demographic predictors did not demonstrate improved concurrent DSST prediction: target weighted MSE difference +0.129069 (+0.0757%), with source-refit/target PSU-bootstrap 95% interval [-0.473677, 1.804713] score-squared units. This is not evidence of equivalence or absence of an enzyme\u2013cognition association.",
+  "keywords": [
+    "AST/ALT",
+    "DSST",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1001/jamanetworkopen.2019.7978",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
