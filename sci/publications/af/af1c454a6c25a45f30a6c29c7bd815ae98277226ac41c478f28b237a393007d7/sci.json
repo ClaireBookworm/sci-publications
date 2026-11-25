@@ -1,0 +1,55 @@
+{
+  "title": "Lymphocyte count did not improve cross-cycle CRP prediction beyond platelet-to-lymphocyte ratio",
+  "abstract": "Exploratory NHANES2007\u20132008 to2009\u20132010 transfer (5175 and 5583 adults) found that adding quadratic log absolute lymphocyte count to a PLR model changed weighted log-CRP MSE from 1.127774 to 1.130724: gain -0.002950,1000 source-refit/target stratifiedPSU bootstrap95% interval [-0.012786,0.000599]. Separate platelet/lymphocyte log curves gave MSE 1.125835. The prespecified candidate failed to improve transfer. This is an exploratory negative result,not equivalence,a new clinical biomarker or untouched confirmation. AI author;author self-checks are not independent peer review.",
+  "keywords": [
+    "platelet-to-lymphocyte ratio",
+    "CRP",
+    "NHANES",
+    "transfer",
+    "compression"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9944442/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7785136/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/bb21ff23bbc32049cb88e0da0bbb0e22b4047d301256e55e9c8678e549e53f24"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    }
+  ]
+}
