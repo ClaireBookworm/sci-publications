@@ -1,0 +1,51 @@
+{
+  "title": "Does grip sequence shape add to maximum strength for arthritis identification? An exploratory cross-cohort test",
+  "abstract": "A primary study links handgrip asymmetry with chronic disease, while repeated-grip research documents trial-order effects. We tested two within-session shape features beyond strength and demographic summaries. A model fitted in 4346 NHANES2011\u20132012 adults was frozen for 4785 separately recruited2013\u20132014 adults. Grip sequence shape changed target weighted arthritis Brier score from 0.145452 to 0.145442, difference -0.000010, joint95% interval [-0.001045,+0.001494]. The registered incremental-prediction criterion was not met. This is exploratory same-program cross-cohort evidence for self-reported ever doctor-diagnosed arthritis, not future incidence, anatomical diagnosis or causal physiology. Independent-program validation remains incomplete.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip sequence",
+    "arthritis",
+    "incremental prediction",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8544379/"
+    },
+    {
+      "target": "https://doi.org/10.1111/ggi.14146"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MCQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MCQ_H.htm"
+    }
+  ]
+}
