@@ -1,0 +1,32 @@
+{
+  "title": "Hemoglobin\u2013RDW interaction did not establish improved cross-cycle depression-screen prediction",
+  "abstract": "A source-standardized hemoglobin-by-RDW interaction did not establish added cross-cycle prediction of PHQ-9 >=10 beyond flexible component, demographic and biochemical measures: weighted Brier reduction -0.00002185, two-sample preprocessing-and-coefficient-refit PSU-bootstrap 95% interval [-0.00027461, 0.00013724].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "hemoglobin",
+    "RDW",
+    "PHQ-9",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37832737/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37481473/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DPQ_F.htm"
+    }
+  ]
+}
