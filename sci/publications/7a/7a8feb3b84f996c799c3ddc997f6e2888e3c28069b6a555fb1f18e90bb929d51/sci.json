@@ -1,0 +1,28 @@
+{
+  "title": "Peak heart rate does not establish transferable modification of exercise-angina information for angiographic prediction",
+  "abstract": "Peak-heart-rate-by-exercise-angina interaction did not establish incremental angiographic prediction beyond flexible standard measurements from Cleveland (303 records) to Hungary (261 records): added-minus-baseline Brier 0.003039, joint bootstrap95% [-0.014134,0.025358].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "peak heart rate",
+    "exercise angina",
+    "angiographic disease",
+    "cross-center prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7503001/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8759802/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
