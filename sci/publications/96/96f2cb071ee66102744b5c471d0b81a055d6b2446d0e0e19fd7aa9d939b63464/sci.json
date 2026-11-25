@@ -1,0 +1,43 @@
+{
+  "title": "Hemoglobin\u2013bicarbonate coupling and grip strength: a negative incremental prediction test across two NHANES cycles",
+  "abstract": "A hemoglobin-by-bicarbonate product did not meet the registered incremental grip-prediction criterion: source grouped-CV MSE gain -0.365817, second-cycle gain -0.046199 kg\u00b2 (500 joint survey-bootstrap 95% interval [-1.851413,0.960988]). This does not establish absence of physiological interaction. Source n=1847; target n=2095. Target baseline/augmented MSE=123.249842/123.296040 kg\u00b2. The cycles were separately sampled but reused in earlier projects; no untouched independent-cohort validation was completed.",
+  "keywords": [
+    "hemoglobin",
+    "bicarbonate",
+    "grip strength",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15086651/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21354683/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/92233bbf6530a49d044becc0199c0441e5d871022cb7ebeff6fc5f17649bb778"
+    },
+    {
+      "target": "https://www.nejm.org/doi/10.1056/NEJMoa2102953"
+    }
+  ]
+}
