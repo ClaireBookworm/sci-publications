@@ -1,0 +1,34 @@
+{
+  "title": "Swing-fraction skewness fails to establish incremental Parkinson prediction across two public gait collections",
+  "abstract": "We tested whether the third standardized moment of within-foot swing-time fraction adds information beyond demographics and conventional gait summaries. Source-only logistic models trained on31 gaitndd participants were frozen and applied to151 gaitpdb participants after excluding two known identical opposite-label recordings. External Brier score changed from 0.327821 to 0.335676; Swing-fraction skewness did not establish incremental cross-dataset Brier benefit: delta +0.007855, joint95% interval [-0.028931,+0.043978] in31 source and151 target participants. AUC decreased from 0.673281 to 0.654146. Broad uncertainty, small training size and exploratory dataset reuse preclude equivalence or absence-of-information claims.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "gait",
+    "skewness",
+    "Parkinson disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17503027/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://opendatacommons.org/licenses/by/1-0/"
+    },
+    {
+      "target": "https://sciscape.io/p/945613be58b5b3cc363cc87e810e1647c11a99d910685b557d621dd9ea805fe5"
+    }
+  ]
+}
