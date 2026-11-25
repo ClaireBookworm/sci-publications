@@ -1,0 +1,53 @@
+{
+  "title": "Bilateral 4-kHz audiogram curvature does not establish incremental HbA1c prediction across two NHANES samples",
+  "abstract": "Bilateral 4-kHz audiometric curvature did not establish incremental HbA1c prediction across NHANES samples: target weighted MSE gain -0.00074735 percentage-point-squared units; joint source-refit/target PSU-bootstrap 95% interval [-0.00559748, 0.00096714]. Development used 1,751 adults in 2001\u20132002, and evaluation used 1,667 separately sampled adults in 2003\u20132004. A fixed linear curvature term was compared with flexible demographic, BMI and conventional hearing-summary models. This is an exploratory negative representation test with temporal within-program validation, not equivalence or external clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "audiometry",
+    "HbA1c",
+    "audiogram curvature",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18559825/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/11119634/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BMX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L10_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/DEMO_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BMX_C.htm"
+    }
+  ]
+}
