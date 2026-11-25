@@ -1,0 +1,37 @@
+{
+  "title": "Geometric spectral pooling did not improve PPG respiratory-rate estimates across intensive-care and perioperative cohorts",
+  "abstract": "Geometric PPG spectral pooling did not establish lower respiratory-rate error than arithmetic pooling: BIDMC gain -0.015 breaths/min (95% CI -0.179 to 0.143); independent CapnoBase gain 0.047 (-0.145 to 0.272). Fixed label-free estimators were tested in53 BIDMC and42 CapnoBase records. Geometric pooling also failed to improve over a median of three modulation peak rates. Subdominant spectral information may be useful, but this fixed consensus rule did not establish an accuracy benefit. Independent-cohort testing used previously examined datasets, not untouched confirmation.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "spectral fusion",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23399950/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/7567cbae40d6903643b8a61d409536c61f8667626e4e102b303ac137748d8910"
+    },
+    {
+      "target": "https://sciscape.io/p/269218c4237e32c9673d1b066092e474b9177bbdaae06097e585683a3669a18d"
+    }
+  ]
+}
