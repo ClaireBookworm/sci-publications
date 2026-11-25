@@ -1,0 +1,33 @@
+{
+  "title": "Does RDW add grip-strength prediction beyond flexible routine measures? A two-cycle NHANES test",
+  "abstract": "Adding sex-specific nonlinear RDW terms did not meet the registered incremental grip-prediction criterion: source grouped-CV MSE gain -1.122817, second-cycle gain 0.372636 kg\u00b2 (500 joint survey-bootstrap 95% interval [-6.644499,4.930078]). No independent non-NHANES validation was completed. Complete-case adults aged\u226560: source n=1193, target n=1363. Target baseline/augmented MSE=116.157181/115.784546 kg\u00b2. RDW association is already known; this retrospective test evaluates incremental prediction, not biomarker novelty.",
+  "keywords": [
+    "RDW",
+    "grip strength",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9883053/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CBC_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/96f2cb071ee66102744b5c471d0b81a055d6b2446d0e0e19fd7aa9d939b63464"
+    },
+    {
+      "target": "https://www.nejm.org/doi/10.1056/NEJMoa2102953"
+    }
+  ]
+}
