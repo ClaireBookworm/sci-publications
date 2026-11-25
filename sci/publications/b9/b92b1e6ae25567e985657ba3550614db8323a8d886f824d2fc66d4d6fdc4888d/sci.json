@@ -1,0 +1,35 @@
+{
+  "title": "ALT\u2013waist coupling does not establish improved cross-cycle prediction of fasting insulin",
+  "abstract": "In exploratory transfer from NHANES 2015\u20132016 (1,682 adults) to 2017\u20132018 (1,722), an ALT\u2013waist interaction reduced weighted log-insulin prediction MSE by 0.002773 (1.23%); the joint source/target PSU-bootstrap 95% interval for added-minus-baseline MSE was -0.008293 to +0.003337. Incremental benefit was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "ALT",
+    "waist circumference",
+    "fasting insulin",
+    "NHANES",
+    "exploratory transfer",
+    "inconclusive result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17429060/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15448093/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/INS_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
