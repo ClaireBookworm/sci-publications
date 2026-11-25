@@ -1,0 +1,64 @@
+{
+  "title": "Posterior tooth-pair laterality adds no demonstrated grip-strength prediction benefit across NHANES recruitment cohorts",
+  "abstract": "Tooth counts discard the distribution of remaining teeth. We tested whether left-right imbalance of anatomically opposing natural posterior tooth pairs improves concurrent handgrip prediction beyond total teeth, total opposing posterior pairs and conventional predictors. A frozen sex-interacted spline ridge baseline trained in NHANES2011-2012 (n=2798) transferred to separately recruited2013-2014 (n=3218). Adding imbalance and its sex interaction changed examination-weighted MSE from 125.653 to 125.897 kg\u00b2; difference +0.244, joint source/target PSU-bootstrap95% interval [-0.286,+2.053]. The registered improvement criterion failed; every sensitivity point comparison also worsened. This exploratory negative result tests a specific anatomical proxy, not measured bite contact, causal mastication mechanisms or equivalence. Validation is across recruitment cohorts within one survey program, not across independent programs.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "dentition",
+    "laterality",
+    "grip strength",
+    "negative result",
+    "cohort transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0260927"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20492437/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/OHXDEN_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/OHXDEN_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/SMQ_H.htm"
+    }
+  ]
+}
