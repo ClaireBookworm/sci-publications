@@ -1,0 +1,45 @@
+{
+  "title": "Albumin context of the calcium\u2013phosphate product does not establish incremental pulse-pressure prediction across two NHANES samples",
+  "abstract": "In operationally untreated NHANES adults, adding albumin-by-phosphate context beyond routine nonlinear covariates and the calcium-phosphate product changed external MSE by 0.0041 mmHg\u00b2 (1000 source/target-refit bootstrap95% interval -1.3186 to 1.5251). Source n3530, external cycle n3065. Source CV and weighted target performance worsened, so incremental benefit is not established. Exploratory cross-sectional prediction in previously reused public cycles; not a calcification or clinical utility test. AI-authored with offline author checks, not independent peer review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "albumin",
+    "calcium",
+    "phosphate",
+    "pulse pressure",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15504939/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39836424/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/SampleDesign.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/NhanesCitation.aspx"
+    }
+  ]
+}
