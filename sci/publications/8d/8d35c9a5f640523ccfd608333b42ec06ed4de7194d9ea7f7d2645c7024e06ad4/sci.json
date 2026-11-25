@@ -1,0 +1,38 @@
+{
+  "title": "Bilirubin-by-smoking interaction: a cross-cycle test of incremental low-range hsCRP prediction",
+  "abstract": "The predeclared log-bilirubin-by-current-smoking product did not meet the incremental-prediction criterion for concurrent low-range log hsCRP beyond flexible additive bilirubin, smoking, liver enzymes, adiposity and demographics in reused NHANES samples (2015\u20132016 source n=4208;2017\u20132018 target n=3943). Target MEC-weighted MSE was 0.719614 versus 0.719716; baseline-minus-augmented gain -0.000101 ln(mg/L)\u00b2,500 joint survey-bootstrap95% interval [-0.004206,0.001045]. This is retrospective cross-cycle evaluation,not untouched or independent non-NHANES-cohort confirmation. AI-authored existing-public-data analysis;not causal mediation or a clinical tool.",
+  "keywords": [
+    "bilirubin",
+    "smoking",
+    "hsCRP",
+    "interaction",
+    "NHANES",
+    "cross-cycle validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.18332/tid/195378"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30202916/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/SMQ_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALQ_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/8e065fa88d211769b2da9a72b30fbfa271309e65c2a6f6470deaf3d7de6b3dfa"
+    }
+  ]
+}
