@@ -1,0 +1,35 @@
+{
+  "title": "Does GGT\u2013urate context add diastolic-pressure information? An exploratory cross-wave prediction test",
+  "abstract": "In exploratory temporal transport from NHANES2009\u20132010 to2015\u20132016 adults (n=4,799 and4,434), a logGGT\u00d7urate product did not establish improved diastolic-pressure prediction beyond flexible routine measures: added-minus-baseline weighted MSE=-0.041377mmHg\u00b2, joint survey-PSU bootstrap95% interval[-0.342672,0.225509].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "GGT",
+    "urate",
+    "diastolic blood pressure",
+    "NHANES",
+    "temporal transport",
+    "exploratory"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9152940/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22821008/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
