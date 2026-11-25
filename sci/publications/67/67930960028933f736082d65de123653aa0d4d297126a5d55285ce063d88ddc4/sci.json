@@ -1,0 +1,25 @@
+{
+  "title": "Age-dependent exercise ST depression: an exploratory Cleveland-to-Hungary prediction test",
+  "abstract": "An age-by-exercise-ST-depression product did not meet the registered exploratory cross-center improvement criterion over flexible additive clinical measurements: Cleveland-to-Hungary Brier difference -0.000774, joint bootstrap 95% interval [-0.009792, 0.011181].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ST depression",
+    "age",
+    "cross-center prediction",
+    "angiographic disease",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/14975471/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
