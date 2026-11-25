@@ -1,0 +1,32 @@
+{
+  "title": "Does potassium\u2013bicarbonate context improve systolic-pressure prediction? An exploratory cross-wave null result",
+  "abstract": "In exploratory temporal transport between separately recruited NHANES2009\u20132010 and2015\u20132016 adults (n=4,800 and4,435), a serum potassium\u00d7bicarbonate product did not establish improved systolic-pressure prediction beyond flexible routine measures: added-minus-baseline weighted MSE=0.219805mmHg\u00b2, joint survey-PSU bootstrap95% interval[-0.590929,2.212013].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "potassium",
+    "bicarbonate",
+    "blood pressure",
+    "NHANES",
+    "negative result",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://ueaeprints.uea.ac.uk/id/eprint/30185/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BPX_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
