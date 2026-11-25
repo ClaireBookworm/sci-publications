@@ -1,0 +1,56 @@
+{
+  "title": "Five-part leukocyte entropy does not establish incremental airflow-obstruction prediction in a separate NHANES sample",
+  "abstract": "Adding five-part leukocyte entropy to a flexible clinical/count baseline did not establish improved prebronchodilator obstruction prediction in 2,473 NHANES 2009\u201310 adults: weighted Brier gain -0.00012727 (conditional-source 95% target-PSU bootstrap interval -0.00063013 to 0.00049558). Frozen models fitted in 2,252 NHANES 2007\u201308 adults were evaluated without refitting in the separately sampled 2009\u201310 cycle. Stronger count-interaction baselines and smoking/illness subgroup checks did not establish improved prediction. This is a cross-sectional negative feature-engineering experiment, not COPD diagnosis, equivalence or evidence of clinical utility.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "leukocyte differential",
+    "entropy",
+    "airflow obstruction",
+    "NHANES",
+    "negative result",
+    "sample transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.heliyon.2024.e31524"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
