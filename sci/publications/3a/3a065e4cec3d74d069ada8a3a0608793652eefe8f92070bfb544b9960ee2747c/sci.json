@@ -1,0 +1,53 @@
+{
+  "title": "Trial-order grip change does not reliably improve cross-cohort prediction of digit-symbol performance beyond maximum strength",
+  "abstract": "We tested whether information discarded by maximal grip summaries predicts concurrent cognitive performance. A bilateral normalized third-minus-first grip contrast augmented a conventional-measure spline ridge predictor of Digit Symbol Substitution Test (DSST) score. Training used NHANES 2011\u20132012 (n=924); frozen evaluation used separately recruited 2013\u20132014 (n=1056). Examination-weighted MSE increased from 165.066 to 168.909 DSST points squared, difference +3.843, joint source/target PSU-bootstrap 95% interval [-2.974, +20.774]. The registered improvement criterion failed. Subgroup and influence checks changed the point-estimate sign. This exploratory negative/inconclusive result establishes neither equivalence nor absence of cognitive information in repeated grip. Separate recruitment within NHANES is not independent-program validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "repeated grip",
+    "cognitive performance",
+    "DSST",
+    "trial order",
+    "negative result",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35871326/"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.physbeh.2016.11.034"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm"
+    }
+  ]
+}
