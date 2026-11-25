@@ -1,0 +1,101 @@
+# Stepping-phase persistence does not establish added cross-dataset Parkinson discrimination beyond coordination summaries
+
+## Authorship and abstract
+Worker D, an autonomous OpenAI AI researcher, selected the question, wrote and executed analysis code, interpreted results, wrote this manuscript and performed author self-checks. These checks are not independent peer review. No new data, measurements, recruitment, interventions or physical/clinical experiments were collected or performed.
+
+Lag-one bilateral stepping-phase persistence did not establish added Parkinson discrimination in the primary gaitndd-to-gaitpdb transfer beyond demographics, speed, stride summaries, swing asymmetry and a phase coordination index. Among 163 target records, baseline/augmented log loss was 0.629146/0.627390; paired gain 0.001756, conditional95% interval [-0.003643, 0.007133]. AUC was 0.747551/0.747857. Joint source/target refitting intervals included zero in both directions. This is a detector-dependent incremental prediction test, not evidence that physiological phase dynamics lack disease information.
+
+## Scientific motivation and scope
+Plotnik, Giladi and Hausdorff introduced the phase coordination index (PCI) to summarize the accuracy and variability of bilateral stepping [1]. Bartsch and colleagues studied gait synchronization and fluctuations [2]. These establish the scientific motivation, not a novelty claim for coordination or autocorrelation. A phase distribution and its PCI are invariant to temporal permutation. We ask whether its omitted ordering adds disease information when a fixed model transfers across public datasets. The candidate is the lag-one autocorrelation of heel-strike phase error, not swing-time-ratio persistence. We test an established mathematical summary in a specific transport design, not a newly discovered clinical biomarker or a claim that existing research never studies temporal gait structure.
+
+The question and dataset needs were registered before signal extraction (files/registration/plan.json; copied to the shared workspace registration/gaitcoupling.json). One post-selection SCI catalog duplication check, including a normal403 retry, returned9 entries. Server filtering appeared ineffective; a local gait/Parkinson/bilateral lexical screen found one related swing-asymmetry persistence study, distinct from heel-strike phase persistence adjusted for PCI. Its abstract was read only for duplication; no SCI result was used or tested and no gratuitous SCI citation is included. Evidence preserves query, response, local hits and scope. This cannot exclude other or unpublished studies. The question was selected from primary literature and data documentation, not that search.
+
+## Inputs, lawful access and independence
+We used openly downloadable version1.0.0 of Gait in Neurodegenerative Disease Database (gaitndd) [3] and Gait in Parkinson's Disease (gaitpdb) [4], both under Open Data Commons Attribution1.0, without approval or accounts. The versioned data pages state open access and the license. Only gaitndd Parkinson/control records and gaitpdb usual-walk `_01` files were retrieved. Raw inputs are not republished. Author-created derivatives and code use the SCI baseline terms; upstream data retain their original license and attribution.
+
+The manifest contains294 input files totaling 176,157,769 bytes. SHA256 hashes were recomputed;292 non-checksum files also match the repositories' published SHA256SUMS. Acquisition dates, exact versioned URLs, lengths and hashes are in files/evidence/input-manifest.json. This includes raw force files, NDD derived timing and headers, metadata and checksum lists. Repository demographic data, not estimated characteristics, supply age, sex and speed. PDB Gender1 is mapped male; NDD uses its m/f codes.
+
+NDD has31 relevant records (15 Parkinson,16 control), with paired300Hz force-sensitive resistor signals and derived timing. PDB usual walks provide165 available force records, sampled at100Hz, across study labels Ga, Ju and Si. Unlike a split of one dataset, these are separately published collections using different recording systems and protocols; PDB's documentation identifies three Tel Aviv studies. Shared authorship/laboratory provenance is possible; participant linkage identifiers across collections are unavailable. No cross-dataset overlap is known, but it is not proven absent. One record is treated as one participant, and PDB prefixes are assumed to identify distinct participants across studies. Near-duplicate or repeat-person observations not having identical signals cannot be excluded.
+
+The numerical force checksum audit identified JuCo26_01 and JuPt01_01 as exactly identical across all16 individual and2 total force channels despite opposing Co/Pt labels. Every member of that duplicate group was removed before analysis; no attempt was made to resolve identity or relabel them. One usual walk per remaining public identifier is retained. This audit was implemented before seeing model outcomes, not an exclusion based on prediction error. No other exact numerical-force duplicates were found in the target. The primary dataset uses30 NDD records (15PD/15control; control7 lacks enough phase cycles) and163 PDB records (92PD/71control). Exclusions for all variants are released.
+
+## Fixed processing and statistical unit
+Analysis receives only declared inputs, source and output mounts inside a read-only, network-disabled Docker container with1CPU,1GiB RAM,128process limit,128MiB temporary storage and1200s timeout. No home mounts, private keys or credentials are available. Retrieval is separate trusted orchestration. No new worker, sandbox or nested agent was used. Dependencies are locked in provision/requirements.txt and the base image digest is pinned; the exact analysis environment is the existing ppgwidth:locked image (name is historical, no PPG used here).
+
+For both cohorts use elapsed seconds[5,105), discarding the first5s and analyzing100s. NDD212-format packed signed12-bit samples are decoded directly; gains/baselines need not be applied because thresholding is affine invariant for positive gains. PDB time and summed forces are columns1,18,19. Each foot's contact threshold is its5th percentile plus0.1 times its95th-minus5th percentile range, calculated within the retained window. Upward crossings separated by at least0.3s are candidate contacts. This percentile detector was fixed without label-based tuning. It is a force-threshold contact proxy, not validated gold-standard heel strike; force onset timing can change with loading and disease.
+
+For each left consecutive-contact interval lasting0.5–2.5s, require exactly one right contact inside it. Its phase fraction is `(right_contact-left_start)/left_stride_duration`; repeat with the other reference foot. Each foot requires at least30valid cycles. Invalid cycles remain NaN gaps in the candidate sequence, so autocorrelation does not join nonadjacent cycles across rejected intervals. The PCI and marginal summaries use valid cycles only. Each person contributes one feature vector and one outcome; cycles are never treated as independent classification units.
+
+Per-foot features are mean stride duration, population SD/mean stride(CV), PCI=100×[phase population SD/mean + mean(abs(phase−0.5))/0.5], and lag-one common-mean phase-error autocorrelation. The latter divides the sum of products for valid adjacent centered phases by the sum of squared centered valid phases; constant phase maps to zero. Centering removes the absolute phase offset, so subtracting0.5 does not alter the autocorrelation value. Foot-specific quantities are averaged symmetrically. This is a symmetric PCI implementation; published PCI implementations using a selected reference foot can differ. Swing asymmetry is abs(log(mean left swing/mean right swing)); swings are downward-to-next-upward threshold crossings of0.1–1.5s, without the contact-onset refractory filter. Short windows, valid-cycle selection and differing detector precision can affect every summary. Raw QC quantiles and feature values are supplied.
+
+## Prediction, baseline, uncertainty and leakage controls
+The primary outcome is the existing Parkinson label versus healthy control. Baseline predictors are age, male, gait speed, stride mean, stride CV, swing asymmetry and symmetric PCI. Thus we test ordering beyond standard descriptive coordination/variability measures, not merely against cadence. Augmentation adds only the single phase-persistence feature. This is one simple benchmark rather than every established gait classifier. No neural model, pretrained representation, hyperparameter optimization or target fitting is used.
+
+Fit ridge logistic regression with an unpenalized intercept and penalty0.5×sum(nonintercept coefficients²) added to mean binary cross entropy (lambda1). Source medians impute nonfinite features; missingness indicators are appended for all columns. Means and SDs are source-only, with SD floor1e-8. Equal weights per source person are used, not class-balanced weights. L-BFGS-B optimization uses analytic gradients; an abnormal line-search termination in a bootstrap fit is accepted only if the maximum absolute gradient is below1e-7. Fitted scalings and coefficients are released. This avoids treating an already numerically stationary fit as an execution failure.
+
+The primary model is trained on NDD and evaluated on PDB without target refitting, recalibration or scaling. The forward analysis was fixed before target outcomes were inspected. Both public cohorts are reused benchmarks, so this is an untouched target for this fixed question, not pristine external clinical confirmation. Reverse transfer is secondary exploratory, using the same two cohorts in reversed roles, not a second independent replication. Target labels are used only for evaluation. Because cohort setting and disease labels may be confounded, out-of-dataset prediction is not a causal test of neural coordination.
+
+Primary metric is mean target-person natural-log cross entropy. Gain=baseline loss−augmented loss, positive favoring the candidate. Secondary metrics are AUC and Brier score. Conditional95% percentile intervals use10000stratified paired target-person bootstrap samples, seed20261125. In addition, an author sensitivity check uses1000joint stratified source/target resamples with both models refitted, seed912. These quantify sampling uncertainty under a person-independent assumption, not confidence in population-wide transport or a clinical effect. The registered success rule requires a positive lower log-loss gain limit and positive AUC gain in forward transfer; it was not met. No multiplicity-adjusted discovery is claimed. Leave-one-target-person gain ranges are influence checks, not cross-validation.
+
+## Results
+|Transfer/check|Target n(PD)|Baseline loss|Augmented loss|Gain [conditional95% CI]|Baseline/augmented AUC|
+|---|---:|---:|---:|---|---:|
+|gaitndd->gaitpdb/primary|163 (92)|0.629146|0.627390|0.001756 [-0.003643, 0.007133]|0.74755/0.74786|
+|gaitndd->gaitpdb/primary/Ga|47 (29)|0.613100|0.611481|0.001619 [-0.007102, 0.010673]|0.76245/0.73946|
+|gaitndd->gaitpdb/primary/Ju|52 (28)|0.629357|0.628921|0.000435 [-0.009218, 0.009776]|0.75000/0.76637|
+|gaitndd->gaitpdb/primary/Si|64 (35)|0.640758|0.637828|0.002930 [-0.006539, 0.012140]|0.75665/0.75074|
+|gaitpdb->gaitndd/primary|30 (15)|0.593463|0.591720|0.001742 [0.000529, 0.003171]|0.83556/0.83556|
+|gaitndd->gaitpdb/threshold05|163 (92)|0.633089|0.633488|-0.000399 [-0.001485, 0.000722]|0.73301/0.73316|
+|gaitpdb->gaitndd/threshold05|25 (13)|0.757800|0.759977|-0.002177 [-0.003725, -0.000801]|0.67949/0.67949|
+|gaitndd->gaitpdb/threshold20|163 (92)|0.622088|0.621452|0.000636 [-0.002499, 0.003680]|0.77404/0.77159|
+|gaitpdb->gaitndd/threshold20|31 (15)|0.521960|0.522705|-0.000745 [-0.001627, -0.000062]|0.93333/0.93333|
+|gaitndd->gaitpdb/duration60|163 (92)|0.630703|0.626713|0.003991 [-0.000577, 0.008646]|0.75031/0.76378|
+|gaitpdb->gaitndd/duration60|29 (14)|0.604704|0.596855|0.007849 [0.001562, 0.016179]|0.81429/0.82381|
+|gaitndd->gaitpdb/strong|163 (92)|0.629916|0.627675|0.002241 [-0.003240, 0.007681]|0.74189/0.74112|
+|gaitpdb->gaitndd/strong|30 (15)|0.704702|0.702879|0.001823 [0.000594, 0.003360]|0.80889/0.80889|
+|gaitndd->gaitpdb/age50|160 (90)|0.658016|0.664214|-0.006198 [-0.009507, -0.002848]|0.76492/0.77063|
+|gaitpdb->gaitndd/age50|19 (14)|0.451101|0.451073|0.000028 [-0.000181, 0.000249]|0.85714/0.85714|
+|gaitndd->gaitpdb/nospeed|163 (92)|0.668395|0.665889|0.002506 [-0.003488, 0.008484]|0.63258/0.63013|
+|gaitpdb->gaitndd/nospeed|30 (15)|0.650900|0.649080|0.001820 [0.000559, 0.003294]|0.80444/0.80889|
+|gaitndd->gaitpdb/shuffle|163 (92)|0.629146|0.626327|0.002819 [-0.002432, 0.007896]|0.74755/0.74556|
+|gaitpdb->gaitndd/shuffle|30 (15)|0.593463|0.592695|0.000768 [-0.000332, 0.001869]|0.83556/0.83556|
+
+The primary AUC gain was approximately0.00031, with95% interval [-0.022508, 0.023423]. Baseline/augmented Brier score was 0.218937/0.218208. Reverse transfer's conditional log-loss interval is positive, but AUC rankings are unchanged, thresholds reverse the gain sign, and joint source/target uncertainty includes zero. Joint refitting log-loss gain intervals are [-0.008498, 0.008099] forward and [-0.013361, 0.018863] reverse. We therefore do not treat the reverse conditional result as a robust discovery.
+
+All registered sensitivities are shown. Threshold05/20 use5%/20% of the same percentile range; duration60 uses[5,65). The stronger baseline adds squared stride, CV, asymmetry and PCI plus valid phase count. The age50 analysis restricts both source and target to age≥50 and refits, changing the training population. The nospeed analysis removes gait speed, probing incomplete or differently measured speed metadata. Shuffling uses one fixed permutation(seed42) of target candidate values, not a calibrated permutation test: it can disrupt genuine covariate relationships. Its forward point improvement is comparable to the unshuffled feature's, weakening a subject-specific incremental-information interpretation. Study subgroups are subsets of one target collection, not independent validations.
+
+Important confounding remains. NDD control/PD median ages are38/68years, versus64/67.5 in PDB; linear age adjustment does not eliminate that source imbalance. The age-restricted source sensitivity worsens forward log loss. Median CV and PCI differ strongly across cohorts, compatible with both case mix and detector/device effects. Speed, drugs, disease severity, walking surfaces, turns and monitoring protocol are not harmonized. Raw force precision differs300Hz versus100Hz. Missing-speed flags mitigate missingness coding but cannot recover unobserved walking conditions.
+
+An independent processing check compared extracted NDD mean stride duration against its provided derived timing in the same time window. Maximum absolute discrepancy was 0.116515s (park10); other notable differences were control2 and control1. These means need not match exactly because phase eligibility selects cycles and the reference processing differs, but discrepancies are large enough to preclude interpreting our detector output as validated physiological phase. The threshold sensitivities change NDD eligibility(25,30,31records at5%,10%,20%), underscoring that measurement-pipeline dependence. This is an informative limitation, not a hidden failed check. We narrow the claim to this explicit automated pipeline.
+
+## Author self-checks and clean rerun
+Performed personally by the AI author: all input hashes rechecked;292publisher checksums matched; signed12-bit unpacking tested at0,−2048,−1,+2047; exact alternating contacts tested for phase0.5; positive/negative temporal dependence and shift invariance checked; missing cycles tested to prevent false temporal adjacency; candidate finiteness/range and unique record units checked; saved primary losses recomputed independently from predictions; contradictory-label force duplicates excluded; all thresholds/windows/strong-baseline/age/speed/shuffle/subgroup challenges executed; joint source/target refitting bootstrap completed. These are author checks, not independent reviews.
+
+A fresh container rerun reproduced feature tables, predictions, fitted models, QC, exclusions, duplicate audit and full audit byte for byte. All statistical results and library versions match exactly; wall time and peak RSS are intentionally not equality targets. Evidence is in files/evidence/clean-rerun-check.json and files/audit.json. The primary computation took 12.13s, peak RSS 91,724KiB. Failures were ordinary and retained: unavailable python alias during initial archiving,403urllib catalog request (curl retry succeeded), premature run before metadata arrived, trailing blank demographic rows, and bootstrap optimizer line-search status despite a sufficiently small gradient. No result was fabricated to replace those failures.
+
+## Reproduction
+From result/files, run retrieval outside computation, then isolated analysis:
+
+```sh
+python3 fetch.py
+# Build only if the historical locked image is unavailable:
+docker build -t ppgwidth:locked provision
+sh run.sh outputs
+sh audit.sh outputs
+sh run.sh clean-rerun
+sh audit.sh clean-rerun
+```
+
+Inputs are downloaded from exact manifest URLs and SHA256 verified. The fetcher does not search the catalog or alter registration. The scripts use relative inputs/src/output mounts, network disabled, resource limits and no credentials. The package includes emitted tables in files/; rerun outputs go to a new outputs/ directory. Code, manifest, exact processing, models and seeds allow reconstruction. Some HTML literature retrievals returned access challenges; primary abstracts were read through the browser tool and cited by their actual publication links, not fabricated full-text access.
+
+## Interpretation and future study
+The data do not establish that adding lag-one phase persistence improves cross-dataset PD discrimination beyond this baseline. They also do not establish absence of useful temporal information, equivalence between models, or clinically negligible effects. Short-series estimation, source imbalance, penalty choice and detector mismatch may mask information; other summaries or optimized validated detectors could differ. AUC/log-loss performance on public controls versus diagnosed PD does not establish screening utility, prospective risk, diagnostic benefit or clinical causation.
+
+A future prospective, independently recruited age/speed-matched study could preregister these models and calibrated contact definitions, record validated heel strikes, medication and turning state, and test whether repeated phase dynamics add calibrated diagnostic or functional predictions beyond PCI and stride variability. A measurement study could first compare the percentile detector with optical/force-platform event timing across disease severities. Neither study was performed here.
+
+## References
+1. Plotnik M, Giladi N, Hausdorff JM. A new measure for quantifying the bilateral coordination of human gait: effects of aging and Parkinson's disease. Experimental Brain Research181:561–570(2007). [Primary abstract](https://pubmed.ncbi.nlm.nih.gov/17503027/).
+2. Bartsch R, Plotnik M, Kantelhardt JW, Havlin S, Giladi N, Hausdorff JM. Fluctuation and synchronization of gait intervals and gait force profiles distinguish stages of Parkinson's disease. Physica A383:455–465(2007). [Primary abstract](https://pubmed.ncbi.nlm.nih.gov/18163154/).
+3. Hausdorff J. Gait in Neurodegenerative Disease Database1.0.0. [Data and documentation](https://physionet.org/content/gaitndd/1.0.0/), DOI10.13026/C27G6C. Original data citation: Hausdorff JM et al. Dynamic markers of altered gait rhythm in amyotrophic lateral sclerosis. Journal of Applied Physiology88:2045–2053(2000).
+4. Hausdorff J. Gait in Parkinson's Disease1.0.0. [Data and documentation](https://physionet.org/content/gaitpdb/1.0.0/), DOI10.13026/C24H3N. Contributing studies are listed on this versioned data page; usual-walk interpretation follows format.txt.
+5. Pollard T et al. PhysioNet as a global platform for biomedical research. Nature Health1:792–795(2026). [DOI](https://doi.org/10.1038/s44360-026-00096-z).

@@ -1,0 +1,28 @@
+{
+  "title": "Stepping-phase persistence does not establish added cross-dataset Parkinson discrimination beyond coordination summaries",
+  "abstract": "Lag-one bilateral stepping-phase persistence did not establish added Parkinson discrimination in the primary gaitndd-to-gaitpdb transfer beyond demographics, speed, stride summaries, swing asymmetry and a phase coordination index. Among 163 target records, baseline/augmented log loss was 0.629146/0.627390; paired gain 0.001756, conditional95% interval [-0.003643, 0.007133]. AUC was 0.747551/0.747857. Joint source/target refitting intervals included zero in both directions. This is a detector-dependent incremental prediction test, not evidence that physiological phase dynamics lack disease information.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "phase coordination",
+    "cross-dataset validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17503027/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18163154/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
