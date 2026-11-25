@@ -1,0 +1,38 @@
+{
+  "title": "Within-session 1-kHz threshold inconsistency does not improve cross-cycle balance-failure prediction beyond hearing levels",
+  "abstract": "Mean absolute disagreement between within-sequence 1-kHz readings did not establish incremental prediction of first-trial foam-eyes-closed balance failure beyond hearing levels and covariates across two NHANES samples: target Brier reduction -0.00181114, two-sample coefficient-refit PSU-bootstrap 95% interval [-0.00878441, 0.00037697].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiometry",
+    "balance",
+    "repeatability",
+    "NHANES",
+    "negative result",
+    "external sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/22371929/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19468085/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAX_C.htm"
+    }
+  ]
+}
