@@ -1,0 +1,38 @@
+{
+  "title": "Sodium\u2013azotemia context does not improve cross-cycle serum urate prediction",
+  "abstract": "Sodium-by-log(BUN/creatinine) context changed target serum-urate MSE by -0.0004567 (baseline minus interaction, two-sample PSU-refit 95% interval [-0.0063438, 0.0023938]); the small development-CV improvement did not transfer.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "urate",
+    "sodium",
+    "BUN creatinine ratio",
+    "negative transfer",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1007/BF00583520"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7955571/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/L40_C.htm"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021"
+    }
+  ]
+}
