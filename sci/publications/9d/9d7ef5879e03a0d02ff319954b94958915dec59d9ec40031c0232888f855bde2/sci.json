@@ -1,0 +1,34 @@
+{
+  "title": "Does red-cell heterogeneity modify the predictive value of eosinophils for airflow? A cross-cycle interaction test",
+  "abstract": "Adding a sex-specific centered RDW-by-eosinophil product to flexible standard-measure models changed NHANES2011-2012 FEV1/FVC weighted MSE by -0.000001899; joint bootstrap95% [-0.000024126,+0.000042651], after fitting NHANES2007-2008. The registered incremental-prediction criterion was not met; this is not an equivalence test. This tests joint representation of known markers, not a new biological measurement. Independent recruitment cycles share a platform; the reused target is not untouched confirmation. No clinical utility or causal mechanism is established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "RDW",
+    "eosinophils",
+    "spirometry",
+    "incremental prediction",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34044292/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30170809/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
