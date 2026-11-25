@@ -1,0 +1,37 @@
+{
+  "title": "BMI-dependent FeNO interpretation: incremental cross-cycle asthma prediction",
+  "abstract": "BMI-by-FeNO spline interactions did not establish incremental current-asthma prediction across NHANES cycles: weighted Brier difference 0.001086 (added minus additive baseline; joint bootstrap 95% interval [0.000045, 0.003709]).",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "FeNO",
+    "BMI",
+    "asthma",
+    "NHANES",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17437645/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24712499/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35260034/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
