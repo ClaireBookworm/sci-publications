@@ -1,0 +1,40 @@
+{
+  "title": "Does skinfold distribution add to conventional adiposity summaries? A frozen NHANES temporal transport test",
+  "abstract": "We tested whether log(subscapular/triceps skinfold) adds information about elevated HbA1c beyond flexible age, BMI, waist, height and total skinfold thickness, sex and ethnicity. Models trained in NHANES III (1988\u20131994; n=12873) were applied without refitting to separately recruited NHANES 2001\u20132002 (n=3057). For HbA1c\u22655.7%, weighted target Brier score changed from 0.100140 to 0.099255; added-minus-baseline delta -0.000885, joint rescaled-PSU bootstrap95% interval [-0.001769,-0.000128]. AUC delta was +0.002215; its joint95% interval included zero. The registered probability-score improvement criterion was met in this temporal transport. Adding the ratio after separate flexible component skinfolds changed Brier by only +0.0000007. Complete-case selection excluded a higher-BMI, higher-HbA1c group. Skinfold ratios are established measures; this exploratory study tests incremental transport, not a new biomarker, causal mechanism, future diabetes prediction or clinical utility.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "skinfold distribution",
+    "glycated hemoglobin",
+    "transport validation",
+    "survey bootstrap",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2021139/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8401745/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/DEMO_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BMX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.htm"
+    }
+  ]
+}
