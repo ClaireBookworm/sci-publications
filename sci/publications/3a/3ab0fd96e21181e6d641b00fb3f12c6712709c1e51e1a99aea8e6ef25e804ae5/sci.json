@@ -1,0 +1,56 @@
+{
+  "title": "Frequency-dependent stride\u2013swing coupling: an underpowered cross-database Parkinson prediction test",
+  "abstract": "A fixed stride-duration/swing-fraction spectral-coherence contrast did not establish added Parkinson case-status prediction across gaitpdb\u2192gaitndd: among 36 source and 24 target eligible participants, target delta log loss was 0.006553 nats (joint bootstrap 95% interval [-0.221617, 0.111513]). Severe eligibility selection and prior dataset reuse limit this to an exploratory cross-database test, not evidence of equivalence or proven participant-independent confirmation.",
+  "keywords": [
+    "gait",
+    "Parkinson",
+    "coherence",
+    "cross-dataset validation",
+    "selection bias",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18163154/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18412621/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
