@@ -1,0 +1,25 @@
+{
+  "title": "ST-depression\u2013chronotropic coupling: a conditional Hungarian gain without robust two-site confirmation",
+  "abstract": "A frozen ST-depression \u00d7 age-predicted peak-HR-shortfall interaction improved Brier score in Hungary by 0.00432 versus additive clinical features, but not clearly at Long Beach VA; both joint source-and-target resampling intervals included zero, so robust cross-institutional improvement was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "chronotropic response",
+    "coronary disease",
+    "external validation",
+    "training uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.94.12.3226"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
