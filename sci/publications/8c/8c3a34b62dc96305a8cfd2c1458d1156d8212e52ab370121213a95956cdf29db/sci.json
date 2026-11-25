@@ -1,0 +1,49 @@
+{
+  "title": "A four-stride Allan contrast does not establish incremental cross-collection Parkinson gait prediction",
+  "abstract": "A four-stride swing-fraction Allan contrast did not establish improved Parkinson/control prediction from gaitpdb to gaitndd (162 source,31 target): augmented-minus-baseline log loss 0.002895, joint-bootstrap95% [-0.011136,0.033107]. This is a repeatedly reused, exploratory external-collection negative result with unresolved participant overlap, not untouched independent-cohort confirmation.",
+  "keywords": [
+    "gait",
+    "Allan variance",
+    "Parkinson disease",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1188069/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2719464/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
