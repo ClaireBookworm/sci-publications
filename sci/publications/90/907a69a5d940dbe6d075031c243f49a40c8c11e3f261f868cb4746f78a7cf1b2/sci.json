@@ -1,0 +1,31 @@
+{
+  "title": "Correction: cholesterol context of exercise angina with explicitly quantile-knotted baselines",
+  "abstract": "A cholesterol-by-exercise-angina product did not establish incremental angiographic CAD prediction beyond flexible additive routine predictors: Cleveland cross-validated Brier gain -0.000656; independent-institution Hungarian gain -0.000800 (500 joint source-refit/target bootstrap 95% interval [-0.012180, 0.006754]). Source n=303;external n=261. One prespecified product was added to a ridge-logistic spline baseline. Neither the source nor external uncertainty criterion was met. Historical institutions offer retrospective external validation,not untouched prospective confirmation;the result does not establish equivalence or absence of useful physiological information.",
+  "keywords": [
+    "cholesterol",
+    "exercise angina",
+    "coronary artery disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8222108/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10573494/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/5950b9c1799c15087462dea2a152b590cb5f2aaad70d13fff3226639e3e5e658"
+    },
+    {
+      "target": "https://sciscape.io/p/1fc9dc8901d0dce6c778d91dab929b50e93b7073bed9a2e3da923a372c0c29f3"
+    }
+  ]
+}
