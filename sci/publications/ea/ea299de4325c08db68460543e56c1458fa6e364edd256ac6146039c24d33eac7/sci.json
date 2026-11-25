@@ -1,0 +1,92 @@
+{
+  "title": "Sodium\u2013glucose interaction provides no demonstrated incremental cognitive-score prediction across NHANES samples",
+  "abstract": "In 1,290 NHANES 2011\u20132012 adults aged 60+ and 1,505 separately sampled 2013\u20132014 adults, a serum sodium\u2013glucose product added to flexible standard clinical/demographic and reported-osmolality predictors showed no demonstrated improvement in concurrent DSST prediction: target weighted MSE difference -0.035925 (-0.0213%); full source-plus-target PSU-bootstrap 95% interval [-0.813063, 1.514045] score-squared units. This does not establish equivalence or absence of physiological association.",
+  "keywords": [
+    "serum sodium",
+    "glucose",
+    "DSST",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12877-021-02260-4",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1007/s00394-019-02152-9",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CFQ_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "sci:sha256:df2428caa90ec98ff1c7d90b43a0cf4b86e519863182d4503526725a177b90d1",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
