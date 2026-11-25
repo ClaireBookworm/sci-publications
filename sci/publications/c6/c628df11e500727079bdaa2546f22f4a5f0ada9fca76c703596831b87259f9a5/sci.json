@@ -1,0 +1,59 @@
+{
+  "title": "AST/ALT ratio does not improve held-cohort HbA1c classification beyond separate enzymes and metabolic risk factors",
+  "abstract": "We tested whether a source-winsorized AST/ALT ratio improves classification of single-visit HbA1c>=6.5% beyond demographics, BMI, waist, blood pressure and log AST/ALT. NHANES2007-08 supplied 5057 adults (562 cases); separately sampled2009-10 supplied 5399 (572 cases). Fivefold source out-of-fold deltaAUC was-0.000817. Frozen target AUC was0.819969 versus0.818677, delta-0.001292 (paired95%CI[-0.002055,-0.000564]). Joint refit uncertainty included zero. Standard glucose and flexible-enzyme challenges did not reveal a gain. This is a bounded negative test of representation, not evidence against liver-metabolic biology or a study of incident diabetes.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "AST/ALT",
+    "De Ritis ratio",
+    "HbA1c",
+    "NHANES",
+    "negative result",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/36408044/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35654736/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    }
+  ]
+}
