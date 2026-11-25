@@ -1,0 +1,43 @@
+{
+  "title": "A raw free-T3/free-T4 ratio term adds no robust cross-cycle pulse prediction beyond marginal thyroid measures",
+  "abstract": "Can a joint thyroid-hormone representation recover pulse information missed by marginal hormone models? In separately sampled NHANES 2007\u201308 and 2011\u201312 adults, a source-fitted free-T3/free-T4 ratio term changed target weighted resting-pulse MSE from 131.370583 to 131.359698 bpm\u00b2, a -0.0083% change. The source-refit/target-PSU 95% interval for augmented-minus-baseline MSE was [-0.315690, 0.518605]. Source group cross-validation worsened and euthyroid-restricted results changed sign. A post-primary spline ratio improved target MSE by 0.479 bpm\u00b2, but source-refit uncertainty included harm and euthyroid restriction worsened performance. These exploratory data provide no robust incremental predictive evidence for the primary ratio specification; they do not prove equivalence or absence of thyroid physiology.",
+  "keywords": [
+    "thyroid",
+    "pulse",
+    "incremental prediction",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23339744/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/THYROD_E.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/THYROD_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
