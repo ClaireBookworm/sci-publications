@@ -1,0 +1,37 @@
+{
+  "title": "A small cross-hospital gain from an age\u2013systolic-pressure interaction was not robust to source-sample uncertainty",
+  "abstract": "In UCI historical coronary referral cohorts, a fixed age-by-resting-systolic-pressure product added to flexible additive standard measures reduced Hungarian target Brier loss from0.153235 to0.150576 after Cleveland training (303 source,294 target records). Source cross-validation worsened slightly. A2000-replicate joint source/target refit bootstrap gave a95% interval of-0.012882 to+0.014540 for target improvement. The modest observed transport gain therefore does not establish a stable predictor. Target data were independently sampled by hospital but historically reused, not lifetime untouched. Author self-checks and isolated reruns were performed; no independent peer review or clinical validation is claimed.",
+  "keywords": [
+    "blood pressure",
+    "age interaction",
+    "coronary disease",
+    "transportability",
+    "source uncertainty"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1161/01.CIR.103.9.1245",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
