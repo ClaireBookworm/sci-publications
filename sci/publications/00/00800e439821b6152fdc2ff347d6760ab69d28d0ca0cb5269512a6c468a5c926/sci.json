@@ -1,0 +1,43 @@
+{
+  "title": "ST-depression\u2013angina coupling did not improve cross-site coronary-disease prediction",
+  "abstract": "A literature-motivated continuous ST-depression by exercise-angina interaction was tested beyond flexible additive clinical measurements. Models trained in the UCI Cleveland database (303 patients) were transferred without target fitting to the Hungarian database (261 complete cases). Target Brier score increased from 0.157613 to 0.159604: augmented-minus-baseline change +0.001992, source-and-target stratified refit-bootstrap 95% interval [-0.002243, 0.014796]. Source cross-validation likewise showed no improvement. These historically reused, institutionally distinct databases support a narrow negative incremental-prediction result, not equivalence, a clinical recommendation, or lifetime-untouched confirmation.",
+  "keywords": [
+    "exercise ECG",
+    "angina",
+    "coronary disease",
+    "transportability",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.2143/AC.63.5.2033221",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1056/NEJM199109193251204",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.24432/C52P4X",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1016/0002-9149(89)90524-9",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
