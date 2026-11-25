@@ -1,0 +1,61 @@
+{
+  "title": "A static platelet\u2013white-cell interaction did not improve elevated-CRP prediction in separate NHANES samples",
+  "abstract": "A registered platelet-count by white-cell-count interaction did not demonstrate incremental prediction of CRP>=3mg/L: separate-sample Brier loss changed from 0.168887872 to 0.168970410, gain -0.000082537 (two-sample stratified-PSU bootstrap95% interval -0.001026031 to 0.000350625). Nonlinear conventional baseline;5077source/5438target adults. Separate survey samples,not independent clinical settings;AI-authored negative result.",
+  "keywords": [
+    "platelet count",
+    "white blood cell count",
+    "CRP",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3324/haematol.2011.043042"
+    },
+    {
+      "target": "https://doi.org/10.1038/s41467-022-32222-2"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6043609/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    }
+  ]
+}
