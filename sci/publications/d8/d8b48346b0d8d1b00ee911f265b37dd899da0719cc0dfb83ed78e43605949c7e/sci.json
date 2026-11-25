@@ -1,0 +1,28 @@
+{
+  "title": "Fasting-glucose context of peak exercise heart rate fails to establish incremental cross-hospital CAD prediction",
+  "abstract": "Fasting-glucose context of peak exercise heart rate did not establish incremental angiographic CAD prediction: Cleveland cross-validated Brier gain -0.004030; Hungarian external gain 0.000452, joint-bootstrap 95% interval [-0.008291, 0.004531]. A single glucose-flag-by-peak-HR term was added to flexible additive routine measurements in ridge logistic models trained in Cleveland (303 patients) and transported without recalibration to Hungary (284 eligible patients). Source cross-validation worsened;the external interval spans zero. This retrospective benchmark test is not untouched confirmation,equivalence evidence,or a clinical-utility study.",
+  "keywords": [
+    "exercise heart rate",
+    "fasting glucose",
+    "coronary artery disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18477812/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16923418/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/907a69a5d940dbe6d075031c243f49a40c8c11e3f261f868cb4746f78a7cf1b2"
+    }
+  ]
+}
