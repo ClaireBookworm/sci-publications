@@ -1,0 +1,58 @@
+{
+  "title": "Small and baseline-dependent predictive value of platelet count\u2013volume interaction for elevated CRP across NHANES cycles",
+  "abstract": "A source-frozen log platelet count \u00d7 mean platelet volume interaction gave only a small, uncertain improvement for CRP>3mg/L in an independent NHANES cycle: deltaAUC +0.000340, paired95%CI [-0.000136,+0.000836]. Survey-weighted discrimination was slightly positive, but nonlinear-baseline and source-refit checks did not establish robust added prediction. Source n5225/1903 cases; target n5646/2012. Fivefold source deltaAUC +0.000015 with worse Brier; target AUC0.774452 versus0.774792. A bounded negative robustness test, not proof that platelet physiology lacks information. No clinical utility or global novelty claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelet interaction",
+    "CRP",
+    "NHANES",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32313453/"
+    },
+    {
+      "target": "https://doi.org/10.3324/haematol.2011.043042"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    }
+  ]
+}
