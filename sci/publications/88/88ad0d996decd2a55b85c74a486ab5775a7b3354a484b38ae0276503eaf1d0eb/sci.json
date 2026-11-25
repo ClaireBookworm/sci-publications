@@ -1,0 +1,76 @@
+{
+  "title": "Plateletcrit adds no clear albuminuria discrimination beyond its components: a two-cycle NHANES test",
+  "abstract": "Plateletcrit may represent platelet mass, but association does not establish incremental prediction. We added count times mean platelet volume to a fixed ridge-logistic model containing both components, their squares, demographics, BMI, blood pressure, HbA1c and serum creatinine. Training used 4834 NHANES2007-08 adults20+ (637 albuminuria cases); untouched source-trained confirmation used 5375 independently sampled2009-10 adults (570 cases). Source fivefold out-of-fold deltaAUC was-0.000139. Target AUC was0.747887 versus0.747929; paired95%CI for the gain was[-0.000143,0.000227]. Joint refit and survey-weighted sensitivity did not resolve an improvement. This bounded negative result concerns incremental representation in one model, not absence of platelet-kidney biology or persistent kidney disease.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "plateletcrit",
+    "albuminuria",
+    "NHANES",
+    "negative result",
+    "independent cohorts"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7282629/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32579406/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11079161/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30731389/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ALB_CR_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    }
+  ]
+}
