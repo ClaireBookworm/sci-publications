@@ -1,0 +1,32 @@
+{
+  "title": "Glucose-status modification of exercise ST depression: no established incremental CAD prediction across Cleveland and Hungary",
+  "abstract": "Adding a fasting-glucose-flag \u00d7 exercise-ST-depression term changed Hungarian Brier loss from 0.147639 to 0.148029 (delta +0.000390; source-refit/target bootstrap95% interval [-0.002110, +0.005158]); incremental benefit was not established. Source-only fitting used303 Cleveland patients and external evaluation262 Hungarian patients. The glucose flag is not a diabetes diagnosis. Reused cohorts make this exploratory independent-site evaluation, not untouched confirmation. The result is not equivalence or evidence against metabolic modification of ischemia.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "fasting glucose",
+    "ST depression",
+    "interaction",
+    "CAD",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8925577/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/1892078/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
