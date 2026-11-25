@@ -1,0 +1,38 @@
+{
+  "title": "Albumin\u2013globulin synergy does not improve cross-cycle CRP prediction beyond conventional protein measures",
+  "abstract": "Adding (4-albumin)*(globulin-3) to a flexible albumin/globulin-ratio comparator did not improve log-CRP prediction from NHANES 2007-08 to 2009-10: target MSE reduction -0.0007040, two-sample PSU-refit 95% interval [-0.0123963, 0.0034704].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "albumin",
+    "globulin",
+    "CRP",
+    "negative result",
+    "cross-cycle transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26629820/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37653773/"
+    },
+    {
+      "target": "https://academic.oup.com/eurheartjsupp/article-pdf/12/suppl_A/S3/1709350/sup042.pdf"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    }
+  ]
+}
