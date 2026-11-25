@@ -1,0 +1,38 @@
+{
+  "title": "Temporal kurtosis of area-weighted optical pulses: no established incremental respiratory-rate accuracy in two cohorts",
+  "abstract": "Area-weighted temporal-kurtosis modulation did not establish incremental respiratory-rate accuracy beyond five PPG modulation spectra: equal-record MAE gain was -0.0920 breaths/min (95% record-bootstrap CI -0.3274 to 0.1267) in BIDMC and 0.2063 (-0.1292 to 0.6137) in independently collected CapnoBase. Both intervals include zero; this is inconclusive, not equivalence or absence of physiological information. Unfitted algorithms compared on53 ICU and42 perioperative records. Both datasets previously exposed: exploratory external transport, not untouched confirmation. No clinical utility established.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "temporal kurtosis",
+    "pulse morphology",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30441529/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28952584/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/a8aeace323f6f9bb5a16e26784d150130fc821d696a5e9fe093142a09135b7bc"
+    }
+  ]
+}
