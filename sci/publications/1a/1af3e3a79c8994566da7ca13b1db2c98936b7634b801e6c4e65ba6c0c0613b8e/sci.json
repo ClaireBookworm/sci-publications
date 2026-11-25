@@ -1,0 +1,31 @@
+{
+  "title": "Little incremental albuminuria information in the order of three clinic systolic-pressure readings",
+  "abstract": "Ordered first-to-third systolic pressure change did not establish incremental concurrent albuminuria detection in NHANES 2009\u20132010 beyond mean/SD blood pressure and conventional risk factors: delta AUROC +0.000005, paired 95% interval [-0.000494, 0.000543]. A bounded negative predictive result in adjacent independently sampled NHANES cycles; not a causal or clinical-utility claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "within-visit blood pressure",
+    "alarm reaction",
+    "albuminuria",
+    "independent-cycle validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1038/jhh.2012.39"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
