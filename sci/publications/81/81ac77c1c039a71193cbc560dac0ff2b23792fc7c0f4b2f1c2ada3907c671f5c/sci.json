@@ -1,0 +1,28 @@
+{
+  "title": "Paired cuff-pressure covariance and albuminuria: an exploratory cross-cycle prediction challenge",
+  "abstract": "Paired within-visit systolic\u2013diastolic BP covariance did not establish incremental cross-cycle albuminuria prediction beyond marginal BP means/SDs, serum creatinine and risk factors: Brier difference -0.000048, joint bootstrap 95% interval [-0.000200, 0.000444].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure covariance",
+    "albuminuria",
+    "NHANES",
+    "external validation",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1097/MBP.0000000000000383"
+    },
+    {
+      "target": "https://doi.org/10.1161/HYPERTENSIONAHA.119.13422"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
