@@ -1,0 +1,25 @@
+{
+  "title": "Admission blood pressure does not establish transferable modification of exercise ST depression for angiographic prediction",
+  "abstract": "Admission blood-pressure-by-exercise-ST-depression interaction did not establish incremental angiographic prediction beyond flexible standard measurements from Cleveland (303 records) to Hungary (261 records): added-minus-baseline Brier 0.002166, joint bootstrap95% [-0.008042,0.017538].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ST depression",
+    "admission blood pressure",
+    "angiographic disease",
+    "cross-center prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10631222/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
