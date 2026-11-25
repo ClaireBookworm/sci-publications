@@ -1,0 +1,34 @@
+{
+  "title": "PPG spectral tail mass improves external high-rate ranking but fails a two-cohort criterion with sparse source events",
+  "abstract": "Integrated PPG respiratory spectral mass above24 breaths/min did not establish improved high-rate discrimination in both cohorts. Relative to dominant spectral rate, record-balanced AUROC increased by0.474 (95% record-bootstrap CI -0.274 to0.591) in BIDMC and0.159 (0.029 to0.322) in independent CapnoBase. Only3 BIDMC records contained positive windows. Both datasets were previously exposed; this is exploratory transport, not untouched confirmation or a clinical tachypnea detector.",
+  "keywords": [
+    "PPG",
+    "respiratory rate",
+    "spectral tail",
+    "external transport",
+    "sparse events"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0249843"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/d308c61f250d63af3bcb5e7239a67a2b2586cd538df98fbe7f267e63e34af04c"
+    }
+  ]
+}
