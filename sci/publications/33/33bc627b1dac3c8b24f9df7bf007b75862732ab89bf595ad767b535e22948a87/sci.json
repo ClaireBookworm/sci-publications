@@ -1,0 +1,73 @@
+{
+  "title": "Compensatory short\u2013long RR pairing does not establish incremental AF-detection benefit in external-database testing",
+  "abstract": "In AFDB-to-LTAFDB transfer, adding near-compensatory adjacent short-long RR pair frequency to nine flexible interval descriptors changed equal-record log loss by -0.0009247; source-refit/target-record bootstrap95% interval [-0.01650, 0.01940] does not establish incremental benefit. Existing-public-data analysis:2687 source windows/25 recordings,17623 external windows/83 recordings. Quality-filter sensitivity and prior target exposure limit confirmation. Pairing is not a validated ectopy measure. AI authorship and author self-checks disclosed.",
+  "keywords": [
+    "atrial fibrillation",
+    "RR pairing",
+    "external validation",
+    "compensatory intervals",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fphys.2022.890139",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.3390/jcm12020687",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1007/s10439-009-9740-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/ajpheart.00561.2010",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/bae2f82d81635e670118b66aac6fd7e5f8d7e39ef81c46d4e494499e23c9ff12",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
