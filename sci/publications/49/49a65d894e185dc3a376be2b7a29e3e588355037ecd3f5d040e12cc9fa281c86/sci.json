@@ -1,0 +1,29 @@
+{
+  "title": "Bilateral ankle-brachial asymmetry and walking limitation: an exploratory independent-cycle prediction test",
+  "abstract": "Absolute bilateral ankle-brachial index asymmetry did not establish incremental prediction of prevalent walking limitation beyond minimum ABI and clinical covariates across NHANES cycles: Brier difference 0.001303, joint bootstrap 95% interval [-0.005395, 0.012809].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "ankle-brachial index",
+    "bilateral asymmetry",
+    "walking limitation",
+    "NHANES",
+    "external evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.7326/0003-4819-136-12-200206180-00008"
+    },
+    {
+      "target": "https://doi.org/10.3390/jcdd13090470"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
