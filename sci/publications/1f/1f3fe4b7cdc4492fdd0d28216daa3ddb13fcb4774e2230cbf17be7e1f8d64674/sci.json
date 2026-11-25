@@ -1,0 +1,58 @@
+{
+  "title": "Serum urate improves source-cycle HbA1c prediction but fails frozen transfer to a second NHANES cycle",
+  "abstract": "In complete-case NHANES adults aged 20\u201379, adding a serum-urate spline and urate\u2013glucose interaction lowered 2005\u201306 cross-validated HbA1c MSE by 0.008459, but did not improve frozen prediction in 2007\u201308 (n=4874; weighted MSE 0.281627 baseline versus 0.291741 augmented; paired gain -0.010114, target-PSU 95% interval -0.022697 to 0.002679). This is failure to confirm incremental predictive benefit in a second survey sample, not proof of no urate\u2013glycemia association or universal harm.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urate",
+    "HbA1c",
+    "NHANES",
+    "negative transfer",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18390895/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/36464722/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/GHB_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GHB_E.htm"
+    }
+  ]
+}
