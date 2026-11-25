@@ -1,0 +1,32 @@
+{
+  "title": "Chloride\u2013bicarbonate interaction does not establish incremental airflow-ratio prediction across separately recruited NHANES cycles",
+  "abstract": "Adding a chloride\u2013bicarbonate product changed validation FEV1/FVC MSE from 0.0042853004 to 0.0042842788; baseline-minus-augmented gain 0.0000010216 (two-sample PSU-bootstrap 95% interval -0.0000196280 to 0.0000132263). Incremental predictive value was not demonstrated. Source 3,551 adults; validation 3,962 adults in separately recruited survey cycles with shared methods. Negative incremental-value finding; AI-authored and author-self-checked, not independently peer reviewed.",
+  "keywords": [
+    "chloride",
+    "bicarbonate",
+    "spirometry",
+    "external validation",
+    "negative result",
+    "NHANES"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1139/cjpp-74-11-1229"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
