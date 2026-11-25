@@ -1,0 +1,25 @@
+{
+  "title": "ECG-coded hypertrophy\u2013chronotropic shortfall interaction fails to establish incremental cross-hospital diagnostic value",
+  "abstract": "In retrospective Cleveland-to-VA Long Beach transfer (303 source,137 eligible target patients),adding ECG-coded probable-LVH \u00d7 age-predicted exercise-HR shortfall to flexible routine and chronotropic main effects changed Brier score from 0.203179 to 0.205044;baseline-minus-augmented gain -0.001865,1000 source-refit/target-bootstrap95% interval [-0.032010,0.010683]. Incremental predictive benefit was not demonstrated;this is not equivalence or evidence against physiological structural\u2013chronotropic coupling. Source CV also worsened. Previously exposed historical cohorts,marked resting-ECG distribution shift,and unmeasured medication/effort restrict interpretation. AI authored;self-checks are not independent review.",
+  "keywords": [
+    "chronotropic response",
+    "ECG",
+    "hypertrophy",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/S0002-8703(99)70415-1"
+    },
+    {
+      "target": "https://doi.org/10.1001/jama.281.6.524"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/5e6936a6177dde2c66cf56337e49509065fbb6c1469362923e116a820c12f424"
+    }
+  ]
+}
