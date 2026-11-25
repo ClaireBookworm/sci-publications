@@ -1,0 +1,55 @@
+{
+  "title": "A nonlinear immune-inflammation index fails to improve frozen FEV1 prediction beyond its component counts across NHANES cohorts",
+  "abstract": "We tested whether nonlinear systemic immune-inflammation index (SII) structure improves prediction beyond flexible individual blood counts. Source-fitted spline ridge models used age, height, BMI, log platelet, log neutrophil and log lymphocyte counts, sex interactions, race/ethnicity and smoking. Adding log-SII spline terms was evaluated across separately recruited NHANES2007\u20132008 (n=3560) and2011\u20132012 (n=3553) cohorts. Target examination-weighted FEV1 MSE was 0.22604484 versus 0.22890882 L\u00b2, delta +0.00286398 L\u00b2 (joint source/target PSU-bootstrap95% interval [-0.00549140,+0.04872791]). The registered improvement criterion failed; influence diagnostics showed instability. This exploratory inconclusive negative result does not establish equivalence, causal effects, or absence of immune\u2013lung association. Cohorts share a survey program and were previously used in published literature; validation in a separate study program remains unperformed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "SII",
+    "blood counts",
+    "FEV1",
+    "cross-cohort prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0303286"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    }
+  ]
+}
