@@ -1,0 +1,55 @@
+{
+  "title": "Successive urine-flow change does not establish added serum-sodium prediction across NHANES cycles",
+  "abstract": "In adults with two timed urine voids, adding log second/first urine flow to an additive demographic, renal and collection-timing model did not establish improved serum-sodium prediction from NHANES2011\u201312 to2013\u201314: weighted delta MSE 0.082925 (mmol/L)^2, joint source/target bootstrap95% interval [-0.134220,0.589999]. Exploratory, not a clinical hydration test.",
+  "keywords": [
+    "urine flow",
+    "serum sodium",
+    "NHANES",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1046/j.1523-1755.2001.060002748.x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1042/cs0750171",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCFLOW_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/UCFLOW_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/UCOSMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data/nhanes/NHANES-survey-content-508.pdf",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
