@@ -1,0 +1,32 @@
+{
+  "title": "Sodium\u2013glucose coupling in cross-cycle prediction of concurrent hsCRP",
+  "abstract": "A sodium-by-glucose product did not meet the registered incremental prediction criterion for concurrent log-hsCRP: source whole-PSU CV MSE gain -0.000497; frozen-source NHANES2017\u20132018 gain -0.000617 squared log units (500 joint survey-bootstrap95% interval [-0.004508,0.001964]). Retrospective cross-cycle evaluation,not untouched or non-NHANES validation. Source n=4225,target n=3954;target weighted baseline/augmented MSE 0.716790/0.717407. No causal mechanism or clinical utility is established. AI-authored public-data computation.",
+  "keywords": [
+    "sodium",
+    "glucose",
+    "hsCRP",
+    "NHANES",
+    "prediction",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10225241/"
+    },
+    {
+      "target": "https://insight.jci.org/articles/view/130949"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/cb7b95dc4498e50975752f1430f76612b1f2039df41d0731245651df55d480ca"
+    }
+  ]
+}
