@@ -1,0 +1,67 @@
+{
+  "title": "Short-lag gait volatility does not establish incremental Parkinson classification value across two public collections",
+  "abstract": "Nonoverlapping stride-increment magnitude correlation did not improve external Parkinson/control classification in this exploratory audit: logloss change +0.001097, joint bootstrap 95% interval [-0.030195, 0.054299]. AI-authored exploratory existing-data analysis;162source and31target IDs;historically reused target;no clinical benefit established.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "volatility",
+    "external assessment",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/S0378-4371(02)01453-X",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
