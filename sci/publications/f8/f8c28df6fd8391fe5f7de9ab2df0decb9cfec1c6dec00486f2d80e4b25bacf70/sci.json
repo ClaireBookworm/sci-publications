@@ -1,0 +1,29 @@
+{
+  "title": "Cross-modulation coherence weighting failed to improve a fixed PPG respiratory-rate estimator in two clinical cohorts",
+  "abstract": "Cross-modulation coherence weighting did not improve this fixed multitaper PPG respiratory-rate estimator: BIDMC gain -0.133 breaths/min (95% CI -0.512 to 0.246); independent CapnoBase gain -0.312 (-0.538 to -0.100). The registered label-free estimator weighted pooled intensity, amplitude and interval modulation spectra by their pairwise multitaper coherence. Analysis retained 53 ICU BIDMC records and42 independent perioperative CapnoBase records. Equal-record errors, paired record bootstrap, matched power-only control, phase-randomized control and sensitivity analyses do not support an accuracy benefit. Cohorts were previously examined; this is not untouched dataset-level confirmation. The finding limits this rule, not all respiratory phase information.",
+  "keywords": [
+    "respiratory rate",
+    "photoplethysmography",
+    "coherence",
+    "multitaper",
+    "independent validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27027672/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29989939/"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/1285669dad8232a8c2b9f2aab3252d0d8efb888efed8ea85e3bff4379cd2249f"
+    }
+  ]
+}
