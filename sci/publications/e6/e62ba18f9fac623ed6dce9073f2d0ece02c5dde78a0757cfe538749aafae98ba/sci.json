@@ -1,0 +1,32 @@
+{
+  "title": "Unsigned bilateral force cyclogram area fails an exploratory cross-collection Parkinson discrimination test",
+  "abstract": "Unsigned normalized bilateral force cyclogram swept area did not improve the specified Parkinson/control transfer model beyond timing, double-support and force summaries. NDD-to-PDB target log loss was 0.632620 baseline and 0.633705 augmented (gain -0.001085, conditional95% interval [-0.003039, 0.000818]); reverse gain was -0.017332. Joint source/target refit intervals include zero in both directions. This is exploratory, model-specific negative evidence, not equivalence or absence of physiological information; participant-disjointness is unverified.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "cyclogram",
+    "force geometry",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35324809/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:2b6f3c2562fe0946b77ce84af2e9167d1d5d469268beb2a3391bb65c48d9ea3c"
+    },
+    {
+      "target": "sci:sha256:0272b845beb7d991cd028280fd639ba9b3059500273662072b04fc51ce109064"
+    }
+  ]
+}
