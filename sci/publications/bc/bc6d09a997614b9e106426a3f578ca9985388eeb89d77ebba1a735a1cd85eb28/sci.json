@@ -1,0 +1,34 @@
+{
+  "title": "No clear incremental prediction of breathing irregularity from ECG respiratory-band spectral width in two public cohorts",
+  "abstract": "ECG interbeat-interval respiratory-band spectral width showed no clear incremental prediction of log1p interbreath-interval CV beyond short-window HRV and PPG summaries: equal-record MSE gain 0.00003583 (95% record-bootstrap CI -0.00009468, 0.00017109) in BIDMC and 0.00001801 (-0.00030249, 0.00030905) in independent CapnoBase. Both intervals include zero; this is not equivalence or evidence of absence of respiratory information. Record-grouped cross-validation used 53 adult ICU recordings; frozen models were transported to42 adult/pediatric perioperative recordings. Registered checks did not establish improvement. These previously used datasets provide external transport, not untouched confirmation. No clinical outcome was tested.",
+  "keywords": [
+    "ECG",
+    "respiratory variability",
+    "spectral bandwidth",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7315987/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.101.23.e215"
+    },
+    {
+      "target": "https://sciscape.io/p/6d1fa3200d25168368fc95b36c681a9f6b82769f4e4a8efb176fa6ee86951576"
+    }
+  ]
+}
