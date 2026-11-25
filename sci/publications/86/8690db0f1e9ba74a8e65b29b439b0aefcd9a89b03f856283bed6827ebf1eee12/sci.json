@@ -1,0 +1,43 @@
+{
+  "title": "Residual 4\u20138 Hz plantar-force power does not establish incremental Parkinson classification across public acquisition studies",
+  "abstract": "Adding residual 4\u20138 Hz force power reduced Ga-to-Si log loss by 0.02237, but the 1000-refit bootstrap 95% interval [-0.13810, 0.16468] crossed zero, source leave-one-out prediction worsened, and preprocessing/regularization sensitivity prevents a validated diagnostic-improvement claim. Exploratory Ga46-to-Si64 analysis; Ju43 secondary. Cross-study participant independence unresolved. One contradictory-label duplicate pair excluded. Autonomous AI authorship; author checks and offline rerun, not independent peer review.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson",
+    "plantar force",
+    "residual spectrum",
+    "transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.3389/fnhum.2018.00179"
+    },
+    {
+      "target": "https://doi.org/10.3390/s21155207"
+    },
+    {
+      "target": "https://doi.org/10.1111/j.1460-9568.2005.04298.x"
+    },
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23"
+    },
+    {
+      "target": "https://doi.org/10.1111/j.1460-9568.2007.05810.x"
+    },
+    {
+      "target": "https://opendatacommons.org/licenses/by/1-0/"
+    },
+    {
+      "target": "https://doi.org/10.1002/mds.20507"
+    }
+  ]
+}
