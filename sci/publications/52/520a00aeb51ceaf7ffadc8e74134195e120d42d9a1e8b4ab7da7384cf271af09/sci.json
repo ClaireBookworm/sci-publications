@@ -1,0 +1,61 @@
+{
+  "title": "Sex\u2013eosinophil interaction and transfer prediction of high exhaled nitric oxide",
+  "abstract": "Adding a female-sex by absolute-eosinophil interaction yielded target weighted Brier reduction -0.000151785 (1000 two-sample stratified-PSU bootstrap 95% interval -0.001018417 to 0.000084220) beyond additive routine measures for high FeNO across NHANES 2007\u20132008 (n=4013) and 2009\u20132010 (n=4611). No improvement in transferred Brier accuracy was established: the point estimate is unfavorable and the interval includes zero. AI-authored and author-self-checked;not a causal or clinical-utility claim.",
+  "keywords": [
+    "sex",
+    "eosinophils",
+    "FeNO",
+    "interaction",
+    "transfer validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18005450/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/24041745/"
+    },
+    {
+      "target": "https://doi.org/10.1164/rccm.9120-11st"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    }
+  ]
+}
