@@ -1,0 +1,62 @@
+{
+  "title": "Pulse-pressure\u2013pulse interaction does not improve transferred handgrip prediction beyond flexible conventional measures",
+  "abstract": "We tested whether a sex-specific interaction between pulse pressure and resting pulse adds predictive information for concurrent combined handgrip strength beyond flexible additive hemodynamics and body size. Models trained in NHANES 2011\u20132012 (n=3848) were frozen and tested in separately recruited 2013\u20132014 (n=4334). Target examination-weighted MSE increased from 128.3894 to 128.5488 kg\u00b2, delta +0.1594; joint source/target rescaled-PSU bootstrap 95% interval [-0.3600, +1.4680]. The registered improvement criterion failed. Point MSE also worsened against a comparator including flexible systolic rate-pressure product. Small favorable MAE and subgroup differences do not establish a useful biomarker. This exploratory negative result concerns two recruitment cohorts in one survey program, not external-program validation or absence of vascular\u2013muscle biology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "handgrip",
+    "pulse pressure",
+    "resting pulse",
+    "interaction",
+    "negative result",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32308044/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10935154/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/624164/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm"
+    }
+  ]
+}
