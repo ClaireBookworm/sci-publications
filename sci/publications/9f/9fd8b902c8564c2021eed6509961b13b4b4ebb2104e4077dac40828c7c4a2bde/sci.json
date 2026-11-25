@@ -1,0 +1,25 @@
+{
+  "title": "Glucose-conditioned cholesterol does not establish incremental angiographic prediction across Cleveland and Hungary",
+  "abstract": "A glucose-conditioned total-cholesterol term did not establish incremental angiographic prediction from Cleveland (303 records) to Hungary (261 records): Brier added-minus-additive = 0.005262, joint bootstrap95% [-0.007729,0.012907].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "glucose",
+    "cholesterol",
+    "angiographic disease",
+    "independent-center evaluation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.HYP.0000124918.30897.55"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
