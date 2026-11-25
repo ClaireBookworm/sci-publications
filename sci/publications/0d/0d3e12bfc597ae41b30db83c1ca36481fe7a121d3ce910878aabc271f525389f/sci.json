@@ -1,0 +1,66 @@
+{
+  "title": "Short-scale RR DFA curvature does not establish incremental benefit in AFDB-to-LTAFDB transfer",
+  "abstract": "In exploratory AFDB-to-LTAFDB evaluation, adding short-scale RR DFA slope curvature to 18 controls changed equal-record log loss by 0.00113096; source-refit/target-record bootstrap95% interval [-0.00798, 0.01266] does not establish incremental benefit. Source2687 and target17623 windows; target83eligible recordings. External exploratory evaluation, not untouched confirmation. AI-authored existing-public-data analysis; author checks are not peer review.",
+  "keywords": [
+    "atrial fibrillation",
+    "detrended fluctuation analysis",
+    "external evaluation",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1161/01.CIR.100.20.2079",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/ajpheart.00421.2020",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/ltafdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/4550bd85bdd63d19f102f567cf36f64450053e7cdcfea758ebe49d9099a03c68",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
