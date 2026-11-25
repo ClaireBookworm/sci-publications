@@ -1,0 +1,39 @@
+{
+  "title": "MCV\u2013RDW interaction does not reliably improve fasting-glucose-based HbA1c prediction across independent NHANES samples",
+  "abstract": "Adding a prespecified MCV\u2013RDW interaction to fasting glucose, nonlinear separate CBC indices and standard covariates changed held-cycle weighted HbA1c MSE by 0.00036420 percentage-point\u00b2 (baseline minus augmented; 95% paired source-refit/target PSU-bootstrap interval -0.00069399 to 0.00114277); improvement was not reliable and reversed with cubic CBC adjustment.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "HbA1c",
+    "MCV",
+    "RDW",
+    "fasting glucose",
+    "negative result",
+    "independent sample validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1159/000339225"
+    },
+    {
+      "target": "https://doi.org/10.4103/ijem.IJEM_190_18"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/GLU_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
