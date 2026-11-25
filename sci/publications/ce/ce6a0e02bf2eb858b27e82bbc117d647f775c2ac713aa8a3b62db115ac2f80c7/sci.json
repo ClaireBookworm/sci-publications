@@ -1,0 +1,78 @@
+{
+  "title": "Directed horizontal-visibility asymmetry of short RR windows: an exploratory external incremental-prediction audit",
+  "abstract": "Adding directed horizontal-visibility degree Jensen-Shannon asymmetry to 22 RR controls changed external equal-record AF logloss by -0.0009321 (source-refit/target-record bootstrap95% interval [-0.010771452767666627, 0.025035694324271635]). Exploratory external evaluation,not untouched confirmation.AI-authored public-data analysis.",
+  "keywords": [
+    "atrial fibrillation",
+    "horizontal visibility graph",
+    "time irreversibility",
+    "external evaluation"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1140/epjb/e2012-20809-8",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1103/PhysRevE.92.022817",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/ltafdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1016/S0140-6736(06)68735-7",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/df74f55f0b496aad8793369ceb528dac0843ae621bc77900e60928c9bbedb6e1",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/72f69367f0bfbe165155e3ea671c3aef36581a8e78d1e93749fd09e9bbdf58b5",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
