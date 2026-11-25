@@ -1,0 +1,29 @@
+{
+  "title": "Double-support load-share backtracking does not improve exploratory cross-collection Parkinson discrimination",
+  "abstract": "Within-double-support normalized load-share backtracking did not improve Parkinson/control transfer beyond gait timing, double-support duration and force summaries in two previously explored public collections. NDD-to-PDB (163 target people) baseline/augmented log loss was 0.632620/0.633664, paired gain -0.001044 (conditional95% interval [-0.001833, -0.000210]); reverse gain -0.002476. Joint source/target refit intervals include zero in both directions. This is a detector/model-specific negative result, not equivalence or evidence that physiological information is absent.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "double support",
+    "load share",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30513798/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "sci:sha256:2b6f3c2562fe0946b77ce84af2e9167d1d5d469268beb2a3391bb65c48d9ea3c"
+    }
+  ]
+}
