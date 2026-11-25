@@ -1,0 +1,44 @@
+{
+  "title": "Signed repeated-grip change does not demonstrate incremental walking-disability discrimination across independently sampled NHANES cycles",
+  "abstract": "Peak grip measures discard trial order. We tested signed first-to-third bilateral change, normalized by the sum of hand-specific maxima, against a strong baseline of demographics, BMI, combined peak strength, asymmetry, mean and unordered dispersion. Source-only ridge models used 1453 NHANES2011\u201312 adults aged60+ (277 reporting difficulty walking without special equipment); untouched2013\u201314 confirmation included1550 adults and300 cases. Source fivefold out-of-fold deltaAUC was\u22120.000657. Target baseline AUC0.742651 versus candidate0.739963 gave delta\u22120.002688 (2000 paired bootstrap95%CI\u22120.006396 to0.000819); Brier loss worsened by0.000377. Joint source/target refitting also included zero. The prespecified incremental-prediction criterion failed. This is a bounded negative result for this feature and fixed model, not evidence that repeated-grip dynamics never contain physiological information.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip strength",
+    "trial ordering",
+    "walking disability",
+    "NHANES",
+    "negative result",
+    "independent cohorts"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30915969/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32384713/"
+    },
+    {
+      "target": "https://doi.org/10.1111/ggi.14146"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/PFQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/PFQ_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
