@@ -1,0 +1,36 @@
+{
+  "title": "Renal chemistry context and hemoglobin: a negative NHANES-to-Indian-cohort transport test",
+  "abstract": "A source-standardized log-urea-nitrogen \u00d7 log-creatinine interaction did not demonstrate better external hemoglobin prediction than flexible additive chemistry: NHANES-to-UCI added-minus-base MSE +0.1004 (g/dL)\u00b2, joint-bootstrap 95% interval [-0.2701, 1.2673].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "hemoglobin",
+    "urea nitrogen",
+    "creatinine",
+    "external validation",
+    "NHANES",
+    "chronic kidney disease",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1371/journal.pone.0257305"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5G020"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
