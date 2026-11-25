@@ -1,0 +1,31 @@
+{
+  "title": "Resting rate-pressure product did not improve grip prediction in a prespecified cross-cycle spline test",
+  "abstract": "An existing cardiac workload representation, pulse times systolic pressure, was tested for incremental combined handgrip prediction in separately sampled NHANES 2011\u201312 (n=4209) and 2013\u201314 (n=4635). Adding its spline beyond flexible standard demographic, body-size, pulse and blood-pressure predictors changed target weighted MSE from135.45019 to135.46439 kg2: reduction -0.01420, approximate95% joint PSU-bootstrap interval[-0.91818,+0.35827]. Source groupedCV also worsened; linear baseline, tensor baseline and reverse-transfer checks had favorable signs. This is a fixed-estimator negative point result, not equivalence, mechanistic evidence or proof of universal redundancy. Same-platform cross-cycle confirmation does not establish external clinical transfer. Author self-checks and clean offline reruns passed; no independent peer review claimed.",
+  "keywords": [
+    "handgrip",
+    "rate-pressure product",
+    "NHANES",
+    "cross-cycle validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1161/01.cir.35.6.1073",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1002/acr.24385",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
