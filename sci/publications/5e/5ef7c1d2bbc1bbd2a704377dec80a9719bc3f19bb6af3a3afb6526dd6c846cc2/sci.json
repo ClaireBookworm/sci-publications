@@ -1,0 +1,38 @@
+{
+  "title": "Urate\u2013albumin coupling does not establish incremental log-CRP prediction across NHANES recruitment datasets",
+  "abstract": "A serum-urate \u00d7 albumin product did not establish incremental contemporaneous log-CRP prediction beyond flexible conventional predictors in exploratory NHANES2009\u20132010 to2015\u20132016 transfer (5,187 source;4,674 target adults): weighted MSE difference -0.000475 log(mg/L)\u00b2, jointPSU-bootstrap95% interval [-0.006631,0.007346].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urate",
+    "albumin",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32676920/"
+    },
+    {
+      "target": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2021.689219/full"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34307206/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    }
+  ]
+}
