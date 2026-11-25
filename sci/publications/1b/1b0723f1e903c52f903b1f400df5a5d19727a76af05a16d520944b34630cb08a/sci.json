@@ -1,0 +1,31 @@
+{
+  "title": "Exercise symptom\u2013electrical interactions in coronary disease prediction: a Cleveland-to-Hungary transport test",
+  "abstract": "Exercise chest pain and electrical ST depression can be discordant. We tested whether two prespecified interactions improve frozen predictions of angiographic coronary disease beyond flexible additive noninvasive predictors in UCI Cleveland-to-Hungary transfer. Adding two exercise-angina by ST-depression interaction terms changed external Brier error from 0.130995 to 0.133031 (delta +0.002035; joint source-refit/target bootstrap 95% interval [-0.002220, +0.011101]). Incremental diagnostic improvement was not established; this is not an equivalence result. Both public cohorts were previously used by this author; this is exploratory site-transfer analysis, not untouched confirmation or clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "silent ischemia",
+    "coronary disease",
+    "external evaluation",
+    "interactions"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3825930/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2003711/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
