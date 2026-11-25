@@ -1,0 +1,44 @@
+{
+  "title": "Mid-recovery systolic curvature provides no demonstrated CRP prediction advantage in two selected NHANES samples",
+  "abstract": "Recovery SBP curvature did not demonstrate improved cross-cycle CRP prediction: target weighted MSE reduction 0.0056121, two-sample PSU-refit 95% interval [-0.0767051, 0.0521600], in selected adults with a third recovery reading.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise recovery",
+    "blood pressure",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "transport validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25791914/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/14760327/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10483957/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/cvx.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CVX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2003/manuals/cv_99-04.pdf"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L11_B.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
