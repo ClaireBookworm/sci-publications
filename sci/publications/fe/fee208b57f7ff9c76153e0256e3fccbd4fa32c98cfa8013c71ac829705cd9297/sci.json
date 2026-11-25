@@ -1,0 +1,31 @@
+{
+  "title": "Mid-to-peak expiratory flow fraction and wheeze: independent-cycle incremental prediction",
+  "abstract": "Mid-to-peak expiratory flow fraction did not establish incremental wheeze prediction: independent-cycle Brier difference 0.000468 (added minus baseline; joint source/target bootstrap 95% interval [-0.000380, 0.001705]) beyond conventional spirometric and demographic predictors.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "spirometry",
+    "wheeze",
+    "flow fraction",
+    "NHANES",
+    "external evaluation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1183/09031936.00128113"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/RDQ_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
