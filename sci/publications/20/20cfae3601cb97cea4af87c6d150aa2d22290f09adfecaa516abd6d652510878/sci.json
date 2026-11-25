@@ -1,0 +1,61 @@
+{
+  "title": "Swing-fraction serial memory does not establish incremental Parkinson prediction across two public gait collections",
+  "abstract": "In gaitpdb-to-gaitndd transfer (162 source IDs;31 target participants), adding lag-one swing-fraction memory increased logloss by 0.02814; joint bootstrap95% interval [-0.01081,0.10085]. Incremental benefit not established. AI-authored public-data computational study; no incremental clinical benefit established.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "swing fraction",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
