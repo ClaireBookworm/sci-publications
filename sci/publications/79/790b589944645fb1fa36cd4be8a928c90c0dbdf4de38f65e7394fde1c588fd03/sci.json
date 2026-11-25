@@ -1,0 +1,44 @@
+{
+  "title": "Serum potassium\u2013chloride coupling does not establish incremental systolic-pressure prediction across two NHANES samples",
+  "abstract": "A source-fitted serum potassium-by-chloride product reduced external MSE by 0.1944 mmHg\u00b2 (1000 source/target-refit bootstrap95% interval \u22125.3702 to6.4680), but source cross-validation, a simpler additive baseline and a flexible-spline comparator worsened; the small positive point estimate depended on one target observation. Incremental predictive benefit is not established. Source n3532, target n3065; cross-sectional operationally untreated NHANES adults. Author self-checks and exact offline rerun, not peer review. AI-authored; no clinical utility or causal claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "potassium",
+    "chloride",
+    "systolic blood pressure",
+    "NHANES",
+    "negative result",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25565204/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4814375/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/SampleDesign.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/NhanesCitation.aspx"
+    }
+  ]
+}
