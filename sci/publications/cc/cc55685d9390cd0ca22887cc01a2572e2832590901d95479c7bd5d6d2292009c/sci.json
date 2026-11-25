@@ -1,0 +1,43 @@
+{
+  "title": "Potassium\u2013bicarbonate coupling fails to improve cross-cycle resting-pulse prediction beyond flexible marginal measures",
+  "abstract": "In NHANES 2005\u201306 to 2009\u201310 adult complete cases, a potassium \u00d7 bicarbonate term worsened target resting-pulse MSE by 0.354548 bpm\u00b2; source-refit/target-PSU 95% interval [-0.104818, 1.466802]. This does not support incremental predictive utility.",
+  "keywords": [
+    "potassium",
+    "bicarbonate",
+    "resting pulse",
+    "NHANES",
+    "negative transfer"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1172/JCI103352",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
