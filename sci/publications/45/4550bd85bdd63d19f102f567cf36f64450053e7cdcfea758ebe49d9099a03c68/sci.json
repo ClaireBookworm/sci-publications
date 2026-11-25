@@ -1,0 +1,78 @@
+{
+  "title": "Model-dependent incremental value of RR recurrence determinism in AFDB-to-LTAFDB transfer",
+  "abstract": "In exploratory AFDB-to-LTAFDB external evaluation, RR recurrence determinism changed equal-record log loss by 0.00297560; source-refit/target-record bootstrap95% interval [-0.00971, 0.03710] does not establish primary-model benefit. A registered forest diagnostic improves log loss by0.00540, but its post-hoc target-only interval excludes source-training uncertainty. Source2687 windows/25recordings; target17623windows/83eligible recordings. External exploratory evaluation, not untouched confirmation. Existing-public-data analysis; AI-authored; author checks are not peer review.",
+  "keywords": [
+    "atrial fibrillation",
+    "recurrence determinism",
+    "external validation",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/32/8/010",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1103/PhysRevE.79.011915",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.3390/jcm12020687",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1007/s10439-009-9740-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/ajpheart.00561.2010",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/64b0bf22fb8137d7a481a4c46a8955a5932e99ac69e7078e5dc1e2cebb3c50d2",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
