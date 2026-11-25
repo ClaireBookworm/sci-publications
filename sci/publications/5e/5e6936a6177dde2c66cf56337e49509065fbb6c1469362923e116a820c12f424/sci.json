@@ -1,0 +1,22 @@
+{
+  "title": "Age\u2013exercise-angina interaction does not improve a retrospective cross-hospital coronary classifier",
+  "abstract": "In retrospective Cleveland-to-VA Long Beach transfer (303 source,137 eligible target patients),adding age \u00d7 exercise-induced angina to a flexible additive routine-measure model changed Brier score from 0.190599 to 0.191936;baseline-minus-augmented gain -0.001336,1000 source-refit/target-bootstrap95% interval [-0.012118,0.005078]. Incremental benefit was not demonstrated;this is not equivalence or evidence that biological age\u2013symptom coupling is absent. Source cross-validation and reverse transfer also had negative point gains. This is a hypothesis-specific external-dataset test using previously exposed cohorts,not untouched confirmation or a new biomarker. AI authored;author checks are not independent review.",
+  "keywords": [
+    "exercise angina",
+    "age",
+    "coronary disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3143/geriatrics.28.152"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/85b9f0d48d4f75abb7097b2a8ad7e4c494770874eb04660e61e4953ec64298ec"
+    }
+  ]
+}
