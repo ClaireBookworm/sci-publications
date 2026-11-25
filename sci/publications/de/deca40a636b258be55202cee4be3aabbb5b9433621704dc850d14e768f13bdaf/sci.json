@@ -1,0 +1,64 @@
+{
+  "title": "FeNO trial disagreement does not improve frozen current-asthma prediction beyond mean FeNO and spirometry across two NHANES cycles",
+  "abstract": "We tested whether within-session FeNO disagreement carries incremental current-asthma information beyond its standard mean and conventional predictors. Logistic models fitted in NHANES2007\u20132008 (n=3446) were frozen and evaluated in separately recruited2009\u20132010 (n=4063). Adding absolute and signed log ratios of the first two numeric readings changed target weighted Brier score from 0.055180 to 0.055314: delta +0.000134, joint source/target rescaled-PSU bootstrap95% interval [-0.000406,+0.000997]. All registered sensitivity point estimates were nonbeneficial on Brier score. This negative transfer result does not exclude other biological information in breath variability, establish equivalence, or justify reducing clinical repeat measurements.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exhaled nitric oxide",
+    "asthma",
+    "repeatability",
+    "temporal transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19061091/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29180311/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/MCQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/MCQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SMQ_F.htm"
+    }
+  ]
+}
