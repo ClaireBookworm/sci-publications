@@ -1,0 +1,37 @@
+{
+  "title": "Short-collection urinary albumin flux did not improve cross-cycle systolic-pressure prediction beyond flexible components",
+  "abstract": "In separately sampled NHANES2013-14 (n=4399) and2015-16 (n=4203), a log urinary albumin flux spline was tested beyond flexible ACR, urinary creatinine, flow, serum creatinine and standard clinical covariates. Target weighted MSE changed from201.47144 to201.56566mmHg2: reduction -0.09422, approximate95% joint PSU-bootstrap interval[-1.42031,+0.63978]. Source PSU-grouped CV also worsened. Several registered sensitivities favored augmentation, excluding universal redundancy claims. This is a negative fixed-estimator representation test, not equivalence, causal evidence or clinical validation. Cross-cycle testing shares a survey platform and historically reused data. Author self-checks and offline reruns were performed; no independent peer review is claimed.",
+  "keywords": [
+    "albuminuria",
+    "urine flow",
+    "systolic blood pressure",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1161/01.hyp.0000197953.91461.95",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1097/md.0000000000000511",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "sci:sha256:13826f60c4095b4ae5868e60370a88fbf45208566fa6041a188044f0a043fc70",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
