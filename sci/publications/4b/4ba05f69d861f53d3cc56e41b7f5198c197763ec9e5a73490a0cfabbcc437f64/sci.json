@@ -1,0 +1,47 @@
+{
+  "title": "Beyond gamma gap and albumin/globulin ratio: an exploratory cross-survey protein-coupling test",
+  "abstract": "Adding a source-centered albumin \u00d7 globulin term beyond flexible conventional measures, gamma gap and albumin/globulin ratio changed transported weighted Brier loss from 0.168734 to 0.168753 (delta +0.000020; approximate joint source/target PSU bootstrap95% [-0.000063,+0.000134]). Incremental improvement was not established. NHANES III source models were transported without target tuning to NHANES2017\u20132018 adults. This is a functional-representation test on previously explored surveys, not untouched confirmation or a new biomarker.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "albumin",
+    "globulin",
+    "gamma gap",
+    "CRP",
+    "NHANES",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31940353/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31153707/"
+    },
+    {
+      "target": "https://academic.oup.com/eurheartjsupp/article-pdf/12/suppl_A/S3/1709350/sup042.pdf"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/default.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
