@@ -1,0 +1,62 @@
+{
+  "title": "Left\u2013right swing-memory asymmetry fails to improve cross-collection Parkinson gait classification",
+  "abstract": "Swing-fraction memory asymmetry did not improve Parkinson/control prediction across two public gait collections: external logloss rose 0.043833 and AUC fell from 0.9125 to 0.8917; the joint-bootstrap95% loss-change interval was [-0.01487541408018509, 0.1494605828521292]. Split-window correlations were near zero.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "asymmetry",
+    "autocorrelation",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16972073/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
