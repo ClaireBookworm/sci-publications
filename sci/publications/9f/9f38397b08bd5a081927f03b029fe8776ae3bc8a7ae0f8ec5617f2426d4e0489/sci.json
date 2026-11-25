@@ -1,0 +1,25 @@
+{
+  "title": "ECG hypertrophy and admission pressure: no established incremental angiographic prediction across Cleveland and VA Long Beach",
+  "abstract": "Adding ECG-hypertrophy-conditioned admission blood pressure changed Cleveland-to-VA Long Beach angiographic disease Brier error by -0.000060 (joint bootstrap95% [-0.006281,0.008508];303 source,99 target). Incremental prediction was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "ECG hypertrophy",
+    "admission pressure",
+    "angiographic disease",
+    "independent-center test",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1093/ajh/hpx067"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
