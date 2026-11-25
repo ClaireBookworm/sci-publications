@@ -1,0 +1,74 @@
+{
+  "title": "Abdominal-depth replicate disagreement provides no robust incremental HbA1c prediction across NHANES cycles",
+  "abstract": "In 4,590 NHANES 2011–2012 adults and 4,939 separately sampled 2013–2014 adults, absolute disagreement between the first two sagittal abdominal diameter readings was tested beyond demographics, BMI, waist, height and reported mean abdominal depth. Target weighted MSE decreased by 0.00008960 (0.01235%), but source PSU cross-validation worsened, target MAE worsened and source-plus-target refit uncertainty included harm. This is a narrowly scoped negative robustness result, not a physiological discovery or equivalence test.",
+  "keywords": [
+    "NHANES",
+    "sagittal abdominal diameter",
+    "replicate disagreement",
+    "HbA1c",
+    "negative result",
+    "cross-cycle prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1155/2018/3604108",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2011/manuals/anthropometry_procedures_manual.pdf",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
