@@ -1,0 +1,40 @@
+{
+  "title": "Directional stride\u2013swing coupling fails to establish incremental Parkinson prediction across public gait collections",
+  "abstract": "We tested a signed cross-variable timing statistic: the difference between forward and backward lag-one correlations of stride duration and swing fraction, averaged across feet. Source-only logistic models trained on31 gaitndd participants were applied without recalibration to151 gaitpdb participants, excluding both known identical opposite-label recordings. Signed lagged stride/swing-fraction cross-correlation asymmetry did not establish incremental external Brier benefit: delta +0.001792, joint95% interval [-0.014985,+0.013820], in31 source and151 target participants. AUC changed from 0.673281 to 0.646704. This exploratory reused-data analysis does not establish equivalence or absence of physiological information.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "gait",
+    "cross-correlation",
+    "Parkinson disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://opendatacommons.org/licenses/by/1-0/"
+    },
+    {
+      "target": "https://sciscape.io/p/0f2f4d264d7cc8e8119d270e4dca23ed889995a11ce7a07983409b2b90820863"
+    }
+  ]
+}
