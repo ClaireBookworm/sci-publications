@@ -1,0 +1,46 @@
+{
+  "title": "Interear audiometric notch-depth disagreement does not improve cross-cohort tinnitus prediction in a prespecified model",
+  "abstract": "We tested whether the absolute interear difference of 4-kHz notch depth adds predictive information for concurrent past-year tinnitus beyond conventional hearing summaries and notch indicators. NHANES2011\u20132012 supplied 3815 adults aged20\u201369 for model fitting; separately recruited2015\u20132016 supplied 4262 for frozen evaluation. Adding interear 4-kHz notch-depth disagreement changed cross-cohort Brier score from 0.124650 to 0.124877 (difference +0.000227; joint PSU-bootstrap95% interval -0.000439 to +0.001557). Source five-fold out-of-fold Brier improved slightly, but the registered cross-cohort criterion was not met. This is a specification-specific negative result, not equivalence or absence of physiological information. Both cycles were previously explored for other outcomes; no untouched or independent-study-program confirmation is claimed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "audiometry",
+    "tinnitus",
+    "interear notch disagreement",
+    "cross-cohort prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23516088/"
+    },
+    {
+      "target": "https://doi.org/10.15585/mmwr.mm6605e3"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    }
+  ]
+}
