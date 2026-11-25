@@ -1,0 +1,65 @@
+{
+  "title": "Extreme-quantile RR clustering: an exploratory external incremental AF-prediction audit",
+  "abstract": "Adding lag-one extreme-quantile RR clustering to 33 controls changed external equal-record AF logloss by 0.0014173; source-refit/target-record 95% interval [-0.009929919439863977, 0.012379730383439504]. Exploratory reused-target assessment, not untouched confirmation. AI-authored public-data study.",
+  "keywords": [
+    "atrial fibrillation",
+    "RR tail clustering",
+    "external assessment"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1046/j.1540-8167.2004.03686.x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2003273",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/a93366476f4bd96d2fa980382e0d2c7477cd5261384c6532a2f25d1635b3b8cd",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/72f69367f0bfbe165155e3ea671c3aef36581a8e78d1e93749fd09e9bbdf58b5",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
