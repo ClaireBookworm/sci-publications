@@ -1,0 +1,77 @@
+{
+  "title": "Upper versus lower RR-tail clustering: an exploratory external incremental AF-prediction audit",
+  "abstract": "Adding upper-minus-lower RR-tail covariance to30 controls changed external AF logloss by 0.0023945; source-refit/target-record bootstrap95% interval [-0.013215473307042033, 0.017119982294295958]. Exploratory external assessment,not untouched confirmation.AI-authored existing-data study.",
+  "keywords": [
+    "atrial fibrillation",
+    "RR tail covariance",
+    "external assessment"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/j.1540-8159.1997.tb05442.x",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1088/1361-6579/ab42d5",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/ltafdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1016/S1350-4533(01)00120-5",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/f87fb482bb7b2d2931f2dea86b8d03e218f8ca3f1abd1d81e84457c58eef2ae3",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/72f69367f0bfbe165155e3ea671c3aef36581a8e78d1e93749fd09e9bbdf58b5",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
