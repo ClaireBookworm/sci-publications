@@ -1,0 +1,31 @@
+{
+  "title": "Pulse-width modulation did not establish improved respiratory-rate fusion across BIDMC and CapnoBase",
+  "abstract": "Adding half-prominence pulse-width modulation to fixed three-modulation PPG fusion did not establish lower respiratory-rate error: BIDMC gain 0.028 breaths/min (95% CI -0.321 to 0.365); independent CapnoBase gain -0.056 (-0.602 to 0.493). A fixed, label-free estimator was evaluated on 53 intensive-care and 42 independent perioperative recordings using equal-record mean absolute error and paired record bootstrap intervals. Longer windows, a wider frequency band and a second BIDMC annotator did not establish benefit. This negative result concerns this width definition and fusion rule, not all respiratory information in pulse morphology.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "pulse width",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1007/s11517-012-0954-0"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2013.2246160"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
