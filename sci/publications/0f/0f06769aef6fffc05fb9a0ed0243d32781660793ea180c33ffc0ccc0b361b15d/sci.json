@@ -1,0 +1,35 @@
+{
+  "title": "Smoking context and blood eosinophils: a negative cross-cycle lung-function prediction test",
+  "abstract": "Smoking-context interactions of blood eosinophils did not demonstrate improved cross-cycle prediction of pre-bronchodilator FEV1/FVC beyond flexible additive measurements: weighted MSE difference +0.1696 percentage-points squared, joint PSU-bootstrap95% [-0.1335, 0.7459] (NHANES2007-2008 to2011-2012).",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "eosinophils",
+    "smoking",
+    "spirometry",
+    "NHANES",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/9519227/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38636990/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
