@@ -1,0 +1,35 @@
+{
+  "title": "Urate\u2013adiposity coupling beyond sex-specific reference curves: exploratory inflammatory-state prediction across surveys",
+  "abstract": "A source-centered urate \u00d7 BMI product changed transported weighted Brier loss from 0.176200 to 0.176599 (delta +0.000399; approximate joint PSU bootstrap95% [-0.000001,+0.001041]); improvement was not established under the registered criterion. Exploratory independent-recruitment transfer with sex-specific conventional-measure baseline, not untouched confirmation or causal inference.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urate",
+    "BMI",
+    "CRP",
+    "NHANES",
+    "transport",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fpubh.2021.689219"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/default.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
