@@ -1,0 +1,35 @@
+{
+  "title": "BMI\u2013airflow-ratio coupling fails to improve transferred wheeze prediction beyond conventional spirometry",
+  "abstract": "A BMI-by-FEV1/FVC product changed validation Brier loss from 0.092824969 to 0.093106103; baseline-minus-augmented gain -0.000281134 (two-sample stratified-PSU bootstrap 95% interval -0.001505023 to 0.000028996). Incremental predictive benefit was not demonstrated. Source3712 and validation4161 adults20\u201379 from separately recruited NHANES2007\u20132008/2009\u20132010. Slight source CV improvement did not transfer. Author-self-checked and AI-authored; not independent peer review.",
+  "keywords": [
+    "spirometry",
+    "BMI",
+    "wheeze",
+    "interaction",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1111/resp.13478"
+    },
+    {
+      "target": "https://doi.org/10.1183/09031936.05.00104504"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/SPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/RDQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/RDQ_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
