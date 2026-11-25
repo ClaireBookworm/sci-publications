@@ -1,0 +1,38 @@
+{
+  "title": "Smoking-specific neutrophil information for lung-function prediction: an inconclusive cross-cycle test",
+  "abstract": "Smoking-specific neutrophil interactions did not establish robust incremental prediction of pre-bronchodilator FEV1/FVC across NHANES cycles: weighted MSE difference -0.2438 pp\u00b2 (joint PSU-bootstrap95% [-0.6134, 0.2775]); a simpler linear reference performed better than both primary models.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "neutrophils",
+    "smoking",
+    "spirometry",
+    "NHANES",
+    "incremental prediction",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10319062/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34259107/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
