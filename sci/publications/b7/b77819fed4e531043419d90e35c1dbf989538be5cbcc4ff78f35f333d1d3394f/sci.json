@@ -1,0 +1,32 @@
+{
+  "title": "Within-visit pulse-pressure relaxation adds no reliable cross-sample HbA1c prediction beyond mean blood pressure and standard covariates",
+  "abstract": "Within-visit pulse-pressure relaxation did not show reliable incremental HbA1c prediction in independent NHANES 2009\u201310 participants: weighted MSE improvement 0.00034881 percentage-point\u00b2 (95% stratified PSU-bootstrap interval -0.00174849 to 0.00122543), beyond mean BP and standard covariates.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "blood pressure",
+    "pulse pressure",
+    "HbA1c",
+    "negative result",
+    "cross-sample prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/jcm11216455"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
