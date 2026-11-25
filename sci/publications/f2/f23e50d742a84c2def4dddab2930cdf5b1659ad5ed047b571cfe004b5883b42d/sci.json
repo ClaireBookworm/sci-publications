@@ -1,0 +1,38 @@
+{
+  "title": "Beyond plateletcrit and MPV/count ratio: a cross-survey test of log-scale platelet size\u2013count coupling",
+  "abstract": "Adding a log(MPV) \u00d7 log(platelet count) interaction to flexible conventional indices changed transported weighted Brier loss from 0.175636 to 0.175682 (delta +0.000046; approximate joint PSU bootstrap95% [-0.000045,+0.000287]); incremental improvement was not established under the registered criterion. Source: NHANES III; target: separately recruited NHANES2017\u20132018. Additive spline baselines include plateletcrit and MPV/count ratio. An exploratory functional-representation test on previously explored surveys, not untouched confirmation or a new biomarker.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelet",
+    "MPV",
+    "plateletcrit",
+    "CRP",
+    "NHANES",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/7282629/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/32313453/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/default.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
