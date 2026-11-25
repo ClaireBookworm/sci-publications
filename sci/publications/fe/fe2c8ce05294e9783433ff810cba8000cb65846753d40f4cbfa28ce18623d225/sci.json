@@ -1,0 +1,32 @@
+{
+  "title": "Chloride\u2013bicarbonate coupling in cross-cycle prediction of concurrent hsCRP",
+  "abstract": "A chloride-by-bicarbonate product did not meet the registered incremental concurrent log-hsCRP prediction criterion: source whole-PSU CV gain -0.000431; frozen-source target gain -0.002543 squared log units (500 joint survey-bootstrap 95% interval [-0.016800, 0.006606]). Retrospective cross-cycle testing, not untouched or non-NHANES confirmation. Source n=4225, target n=3954; weighted baseline/augmented target MSE 0.766777/0.769319. No causal mechanism or clinical utility is established. AI-authored public-data computation.",
+  "keywords": [
+    "chloride",
+    "bicarbonate",
+    "hsCRP",
+    "NHANES",
+    "prediction",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/20008503/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38896370/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/13af9e4299c4c8cc61f7202a51f78310f2db207d6f3704f5cc1d26f8bef56a18"
+    }
+  ]
+}
