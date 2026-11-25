@@ -1,0 +1,41 @@
+{
+  "title": "Serum iron\u2013bilirubin interaction did not establish improved cross-cycle CRP prediction beyond flexible marginal measures",
+  "abstract": "A standardized serum iron-by-bilirubin interaction did not establish incremental log-CRP prediction from NHANES 2007\u20132008 to separately sampled 2009\u20132010 adults: weighted MSE reduction -0.004458 log-squared units; two-sample preprocessing-and-coefficient-refit PSU-bootstrap 95% interval [-0.013801, 0.001771].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "iron",
+    "bilirubin",
+    "CRP",
+    "negative result",
+    "cross-cycle validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21726166/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4267003/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37838477/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    }
+  ]
+}
