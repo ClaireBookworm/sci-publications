@@ -1,0 +1,35 @@
+{
+  "title": "Half-window respiratory spectral drift failed to consistently improve PPG error-risk prediction across two cohorts",
+  "abstract": "Half-window spectral drift did not consistently improve PPG respiratory-error prediction: BIDMC held-out Brier gain -0.003122 (95% CI -0.004533 to -0.001826); independent CapnoBase gain 0.000035 (0.000007 to 0.000063), reversing at the 8-breath/min threshold and in-band restriction. Fixed ridge logistic models predicted >5 breaths/min errors beyond spectral entropy, modulation disagreement and estimated rate. BIDMC used record-group cross-validation; all external models used BIDMC labels only. Tiny external primary gain was smaller than a shuffled-drift control. Both cohorts had been examined previously, so transfer is not untouched confirmation. This negative result concerns one feature and model, not all temporal respiratory information.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "error prediction",
+    "spectral drift",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23399950/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29989939/"
+    },
+    {
+      "target": "https://doi.org/10.1007/s40846-022-00700-z"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11342923/"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/f8c28df6fd8391fe5f7de9ab2df0decb9cfec1c6dec00486f2d80e4b25bacf70"
+    }
+  ]
+}
