@@ -1,0 +1,49 @@
+{
+  "title": "Raw tympanogram asymmetry fails to improve hearing-difficulty prediction across NHANES recruitment cycles and an instrument change",
+  "abstract": "We tested whether pressure-weighted raw-tympanogram skewness improves self-reported hearing-difficulty prediction beyond conventional tympanometric scalars, audiometric averages and demographics. Source-only models in NHANES2011\u20132012 (n=3582) were evaluated in separately recruited2015\u20132016 (n=3840), after prefit harmonization of Earscan and Titan pressure grids. Adding mean bilateral absolute skewness changed target MEC-weighted Brier score from 0.122102 to 0.122883, delta +0.000781; joint rescaled-PSU bootstrap95% interval [-0.000910,+0.002096]. The registered benefit criterion was not met. This negative result applies to a specific shape statistic under joint recruitment/instrument transfer, not to all raw-curve information or within-instrument performance.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "tympanometry",
+    "curve shape",
+    "hearing difficulty",
+    "instrument shift",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/34953248/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/AUXTYM_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/DEMO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUX_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUQ_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/AUXTYM_I.htm"
+    }
+  ]
+}
