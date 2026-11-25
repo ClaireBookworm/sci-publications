@@ -1,0 +1,37 @@
+{
+  "title": "Renal-context bicarbonate information and grip strength: a negative incremental prediction test in two NHANES cycles",
+  "abstract": "Adding a bicarbonate-by-log-creatinine product to a flexible sex-specific routine-measure model did not improve combined grip prediction: source grouped-CV MSE gain -0.042307, second-cycle gain -0.214648 kg\u00b2 (500 joint survey-bootstrap 95% interval [-2.932830,0.384457]). The registered improvement criterion was not met. Source n=1849; target n=2096. Target baseline/augmented MSE=122.297729/122.512378 kg\u00b2. This retrospective cross-cycle analysis does not establish equivalence, causal effects, or untouched external validation.",
+  "keywords": [
+    "bicarbonate",
+    "creatinine",
+    "grip strength",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21354683/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7012673/"
+    },
+    {
+      "target": "https://www.nejm.org/doi/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/a5cd3efc4f16105a60f3f161b41ec29e8bb8b8d6312d5b9c35a12bd60a2b5843"
+    }
+  ]
+}
