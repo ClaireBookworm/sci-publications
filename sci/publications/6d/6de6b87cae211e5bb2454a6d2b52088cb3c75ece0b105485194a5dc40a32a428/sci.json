@@ -1,0 +1,35 @@
+{
+  "title": "Temporal amplitude\u2013interval phase inconsistency failed to improve cross-cohort PPG respiratory-error prediction",
+  "abstract": "Temporal amplitude\u2013interval respiratory phase inconsistency did not improve transferable prediction of PPG respiratory-rate errors exceeding3breaths/min under fixed ridge logistic models. BIDMC-trained models evaluated on independent CapnoBase had Brier scores0.136418 baseline and0.137893 augmented, a gain of-0.001476 [-0.002605, -0.000445]. Reverse transfer gave0.194200 and0.194195, gain0.000005 [-0.000892, 0.000939]. Intervals are95% paired target-record bootstrap conditional on fitted source models. This exploratory negative result does not exclude useful phase information under other estimators.",
+  "keywords": [
+    "PPG",
+    "respiratory rate",
+    "phase consistency",
+    "error risk",
+    "negative result",
+    "cross-cohort transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28126420/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29989939/"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://sciscape.io/p/61b7c6b33d91f3b366c18bf287198e3e35a3fbdebca9a9e8e33f1e3ba3dc956d"
+    }
+  ]
+}
