@@ -1,0 +1,35 @@
+{
+  "title": "Platelet count\u2013volume interaction does not improve cross-cycle prediction of C-reactive protein",
+  "abstract": "In an exploratory NHANES 2007\u20132008 to 2009\u20132010 evaluation (4,850 source; 5,230 target adults), adding one platelet count\u2013volume interaction to a flexible additive baseline changed weighted log-CRP MSE by 0.002019 (joint stratified PSU-bootstrap 95% interval -0.000706 to 0.011267). Incremental predictive benefit was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelets",
+    "mean platelet volume",
+    "C-reactive protein",
+    "NHANES",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1080/08998280.2019.1710658"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/21546503/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
