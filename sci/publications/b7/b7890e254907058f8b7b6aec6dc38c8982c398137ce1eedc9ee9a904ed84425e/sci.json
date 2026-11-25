@@ -1,0 +1,58 @@
+{
+  "title": "Paired office blood-pressure covariance does not improve cross-cohort grip-strength prediction beyond means and marginal variability",
+  "abstract": "We tested whether covariance of paired systolic and diastolic office blood-pressure readings adds information about concurrent grip strength beyond conventional pressure means, separate variability, demographics and anthropometry. NHANES2011\u20132012 supplied 3601 participants for fitting and separately recruited2013\u20132014 supplied 4008 for frozen evaluation. Adding paired systolic\u2013diastolic covariance changed cross-cohort grip-strength MSE from 127.488748 to 127.488753 kg\u00b2 (difference +0.000005; joint PSU-bootstrap95% interval -0.480825 to +2.524937). The registered improvement criterion failed. This is a model-specific negative result, not equivalence or evidence against all physiological information in repeated pressures. Both cycles were previously explored; no untouched confirmation or independent-study-program validation is claimed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood pressure covariance",
+    "grip strength",
+    "NHANES",
+    "cross-cohort prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12944-018-0734-4"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28096150/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm"
+    }
+  ]
+}
