@@ -1,0 +1,35 @@
+{
+  "title": "GGT\u2013alkaline-phosphatase interaction adds no established cross-cycle detection of unrecognized hyperglycemia",
+  "abstract": "A frozen log-GGT \u00d7 log-ALP interaction did not establish incremental detection of concurrent HbA1c \u22656.5% in adults without reported diabetes across independent NHANES cycles: target delta AUROC -0.000010, paired conditional 95% interval [-0.000069, +0.000046]. A bounded negative independent-sample predictive comparison, not a causal or clinical-utility claim.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "GGT",
+    "alkaline phosphatase",
+    "statistical interaction",
+    "NHANES",
+    "independent-cycle validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1038/s41598-017-04631-7"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
