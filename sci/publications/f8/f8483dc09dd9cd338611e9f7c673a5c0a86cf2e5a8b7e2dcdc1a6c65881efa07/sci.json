@@ -1,0 +1,32 @@
+{
+  "title": "Platelet count\u2013volume coupling adds no established HbA1c prediction benefit beyond flexible routine measures: an exploratory recruitment-wave transport test",
+  "abstract": "Platelet count\u2013volume coupling did not establish incremental glucose-conditional HbA1c prediction in exploratory NHANES2009\u20132010 to2015\u20132016 transport (5,170 source;4,669 target adults): weighted MSE added-minus-baseline 0.00000615 HbA1c percentage-points\u00b2, joint survey-PSU bootstrap95% interval [-0.00062396,0.00158775].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelet",
+    "MPV",
+    "HbA1c",
+    "NHANES",
+    "negative result",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28838851/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25249479/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/CBC_I.htm"
+    }
+  ]
+}
