@@ -1,0 +1,55 @@
+{
+  "title": "Hemoglobin\u2013cotinine coupling adds no reproducible resting-pulse prediction in a cross-cycle NHANES test",
+  "abstract": "In NHANES 2005\u201306 to 2009\u201310 adult complete cases, a hemoglobin \u00d7 log(1+cotinine) term added no reproducible resting-pulse prediction beyond flexible conventional measures: target MSE change -0.001016 bpm\u00b2, source-refit/target-PSU 95% interval [-0.083875, 0.290372].",
+  "keywords": [
+    "hemoglobin",
+    "cotinine",
+    "resting pulse",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2395196/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1006/pmed.1995.1031",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1016/S0735-1097(01)01616-3",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/COT_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/COTNAL_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
