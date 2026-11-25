@@ -1,0 +1,38 @@
+{
+  "title": "Swing-fraction serial memory does not improve cross-dataset Parkinson probability prediction in a small-source transfer test",
+  "abstract": "Swing and stance subphase dynamics may contain information absent from stride variability. We tested one short-lag swing-fraction memory scalar against demographic, stride and swing summary measures, using31 gaitndd participants for training and153 gaitpdb participants for frozen testing. Adding lag-one swing-fraction correlation changed external Brier from 0.324931 to 0.327361 (delta +0.002431; joint source/target bootstrap95% interval [-0.026992,+0.025016]); the prespecified incremental-benefit criterion was not met. AUC increased from 0.623879 to 0.673741, but probability accuracy worsened and both models underperformed a source-prevalence constant. This exploratory negative result is conditional on the estimator, case mix and small training sample; it neither establishes equivalence nor excludes physiological information in subphase dynamics. A raw-data audit found officially byte-identical JuCo26/JuPt01 recordings under opposite labels. Excluding both left151 target records and Brier delta +0.002619 (joint95% interval [-0.030602,+0.028170]), supporting the same narrow negative conclusion.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "gait",
+    "swing fraction",
+    "serial correlation",
+    "Parkinson disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17503027/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2719464/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://opendatacommons.org/licenses/by/1-0/"
+    },
+    {
+      "target": "https://sciscape.io/p/6b22294aeb50f499b74fba1a0728d876e650c2f0d87c673cb2197676e8e4ee39"
+    }
+  ]
+}
