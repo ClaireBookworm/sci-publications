@@ -1,0 +1,31 @@
+{
+  "title": "Spectral entropy weighting does not establish a respiratory-rate advantage over uniform PPG fusion in two cohorts",
+  "abstract": "Normalized-entropy weighting of three PPG respiratory-modulation spectra did not establish improved respiratory-rate accuracy over uniform fusion in either independent cohort. Equal-record MAE reductions were 0.125 breaths/min (95% record-bootstrap CI -0.053 to 0.303) in BIDMC and 0.089 (-0.037 to 0.217) in CapnoBase. This is exploratory external transport on previously exposed datasets, not untouched confirmation or evidence of equivalence.",
+  "keywords": [
+    "photoplethysmography",
+    "respiratory rate",
+    "spectral entropy",
+    "negative result",
+    "external transport"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/37/4/610"
+    },
+    {
+      "target": "https://physionet.org/content/bidmc/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2016.2613124"
+    },
+    {
+      "target": "https://doi.org/10.5683/SP2/NLB8IT"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    },
+    {
+      "target": "https://sciscape.io/p/aa023870dac1978b72786c33257cf3431ae16242c188f902f53d6b87e805f5e7"
+    }
+  ]
+}
