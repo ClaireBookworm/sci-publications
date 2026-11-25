@@ -1,0 +1,40 @@
+{
+  "title": "Platelet count\u2013volume coupling does not improve cross-cycle HbA1c prediction over additive blood indices",
+  "abstract": "Nonlinear platelet count-volume coupling did not improve frozen 2007-08 to 2009-10 NHANES HbA1c prediction beyond additive platelet/red-cell indices and metabolic risk factors: target weighted MSE gain -0.002032 percentage-points squared (conditional 95% stratified-PSU bootstrap interval -0.003954 to 0.000045; n=5,457). This is a negative representation-specific temporal transfer test, not evidence that all platelet information is uninformative. Target RMSE was 0.779748 versus 0.781050 HbA1c percentage points. Source cross-validation and a serum-glucose-adjusted sensitivity also showed no improvement. Separate survey samples provide within-platform temporal validation only; the interval allows a small benefit.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "platelet count-volume coupling",
+    "HbA1c",
+    "NHANES",
+    "temporal validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28838851/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3329806/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/GHB_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/overview.aspx?BeginYear=2009"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
