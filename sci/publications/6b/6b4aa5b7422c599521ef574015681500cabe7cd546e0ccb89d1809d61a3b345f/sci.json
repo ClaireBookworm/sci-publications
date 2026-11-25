@@ -1,0 +1,46 @@
+{
+  "title": "Albumin\u2013RDW coupling beyond the RDW/albumin ratio: exploratory inflammation-prediction transport",
+  "abstract": "Adding a source-centered albumin \u00d7 RDW term beyond flexible conventional measures and RDW/albumin changed transported weighted Brier loss from 0.173758 to 0.173708 (delta -0.000050; approximate joint source/target PSU bootstrap95% [-0.000207,+0.000202]). Incremental improvement was not established. Models trained on NHANES III were transported without target tuning to separately recruited2017\u20132018 adults. Previously explored surveys are not untouched confirmation; this is a representation test, not a new biomarker or causal finding.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "albumin",
+    "RDW",
+    "CRP",
+    "NHANES",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3387573/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37653773/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11668568/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/default.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/CBC_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BMX_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
