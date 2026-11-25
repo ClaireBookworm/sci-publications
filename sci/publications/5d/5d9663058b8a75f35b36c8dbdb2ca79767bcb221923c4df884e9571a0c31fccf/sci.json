@@ -1,0 +1,26 @@
+{
+  "title": "A group-conditioned lipid ratio did not improve temporal transfer of fasting-insulin prediction",
+  "abstract": "A prespecified non-Hispanic-Black-indicator by log(triglyceride/HDL) interaction was tested beyond flexible additive clinical measurements. Survey-weighted ridge models trained in NHANES 2011\u20132012 (n=1762) were applied without target fitting to a different NHANES 2013\u20132014 sample (n=1852), with CDC insulin-assay harmonization. Target log-insulin MSE was 0.236368 versus 0.236474; improvement was -0.000106, joint-refit rescaled-PSU bootstrap 95% interval [-0.001292, 0.000371]. Source grouped cross-validation also showed no gain. These historically reused survey samples provide independent-participant temporal validation, not lifetime-untouched or cross-study confirmation. This negative result does not refute lipid\u2013insulin heterogeneity or establish equivalence. Author checks and clean reruns are not independent peer review.",
+  "keywords": [
+    "insulin",
+    "lipids",
+    "prediction",
+    "NHANES",
+    "negative result",
+    "transportability"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1186/1475-2840-7-4",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
