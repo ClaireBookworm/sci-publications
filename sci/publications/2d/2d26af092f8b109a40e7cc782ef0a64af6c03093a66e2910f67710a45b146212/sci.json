@@ -1,0 +1,41 @@
+{
+  "title": "Early diastolic\u2013heart-rate recovery coupling fails to improve HbA1c prediction across two NHANES cycles",
+  "abstract": "The prespecified HR-recovery \u00d7 early diastolic-rebound interaction did not improve cross-cycle HbA1c prediction in selected treadmill completers: weighted MSE reduction -0.00011006 percentage-points squared (two-sample PSU-refit 95% interval -0.00745858 to 0.00371537).",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise recovery",
+    "diastolic blood pressure",
+    "HbA1c",
+    "NHANES",
+    "negative result",
+    "transport validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/10673252/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25791914/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/CVX.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/CVX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB10.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L10_B.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    }
+  ]
+}
