@@ -1,0 +1,28 @@
+{
+  "title": "ST-depression\u2013chronotropic interactions did not establish incremental diagnostic value across Cleveland and Hungarian cohorts",
+  "abstract": "We tested four interactions between exercise ST depression and age-normalized peak heart rate against conventional noninvasive predictors with flexible additive terms. Logistic models trained on303 Cleveland patients were frozen and evaluated on293 Hungarian patients from a separately named clinical cohort. Target Brier error decreased from0.130995 to0.126343, but the joint source-refit/target-bootstrap95% interval for the difference was[-0.034404,0.023021]. A simpler linear baseline performed better than either primary model, and complete-case performance reversed the apparent advantage. Incremental diagnostic improvement was not established. These summary-field interactions do not implement the established ST/HR index, and historical selected angiography cohorts cannot establish clinical utility.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "exercise ECG",
+    "coronary artery disease",
+    "cross-cohort validation",
+    "negative result",
+    "missingness"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/2644054/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    }
+  ]
+}
