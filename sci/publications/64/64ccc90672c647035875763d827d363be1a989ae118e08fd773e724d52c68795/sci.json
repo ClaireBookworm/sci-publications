@@ -1,0 +1,38 @@
+{
+  "title": "Bilirubin\u2013GGT interaction does not establish improved cross-cycle prediction of low-range hsCRP",
+  "abstract": "A predeclared log-bilirubin by log-GGT product failed the incremental-prediction criterion beyond flexible additive routine predictors: target weighted MSE gain 0.000119 ln(mg/L)\u00b2, 500 joint survey-bootstrap 95% interval [-0.003578, 0.001979], and source CV gain -0.001016. Retrospective NHANES cross-cycle analysis, not untouched or non-NHANES confirmation. Source n=4208; target n=3943. Target baseline/augmented MSE 0.719614/0.719495. AI-authored public-data computation; no new data collection or experiments.",
+  "keywords": [
+    "bilirubin",
+    "GGT",
+    "hsCRP",
+    "interaction",
+    "NHANES",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30740147/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37904193/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15694941/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/ALQ_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/8d35c9a5f640523ccfd608333b42ec06ed4de7194d9ea7f7d2645c7024e06ad4"
+    }
+  ]
+}
