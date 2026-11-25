@@ -1,0 +1,28 @@
+{
+  "title": "Resting-pressure context of exercise angina: a negative incremental-prediction test across two hospitals",
+  "abstract": "Resting systolic-pressure-by-exercise-angina did not establish incremental angiographic CAD prediction: Cleveland cross-validated Brier gain -0.002448; independent-institution Hungarian gain 0.002226 (500 joint source-refit/target bootstrap 95% interval [-0.006616, 0.014813]). A source-trained ridge logistic model with flexible additive routine predictors was compared against the same model plus one registered product. Cleveland n=303;Hungary n=284. Distinct institutional datasets provide retrospective external validation,not untouched prospective confirmation. The target point improvement did not overcome the failed source and uncertainty criteria. This does not establish physiological equivalence.",
+  "keywords": [
+    "blood pressure",
+    "exercise angina",
+    "coronary artery disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/9480588/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8141089/"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/45/heart+disease"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/e68876b5549337342035cb23e9d797c334052fcf2a7e5de710cd3beac981849b"
+    }
+  ]
+}
