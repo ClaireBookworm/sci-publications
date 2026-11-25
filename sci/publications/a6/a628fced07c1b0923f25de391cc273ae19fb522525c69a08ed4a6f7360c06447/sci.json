@@ -1,0 +1,48 @@
+{
+  "title": "Sodium\u2013chloride gap by filtration interaction adds no established albuminuria prediction in an independent NHANES cycle",
+  "abstract": "A prespecified sodium-minus-chloride gap by eGFR interaction did not improve log urine albumin-creatinine ratio prediction across NHANES 2007-08 to 2009-10: target n=5,010, weighted MSE gain -0.0000585 log-squared units (conditional rescaled stratified-PSU bootstrap 95% interval -0.0002122 to 0.0000713) beyond flexible additive renal, electrolyte and metabolic measures. Source PSU-grouped cross-validation was also negative. Independent cross-sectional cycles give within-platform temporal validation, not independent-institution validation. This is an AI-authored negative-result study, not evidence against acid-base kidney physiology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "chloride",
+    "sodium-chloride gap",
+    "albuminuria",
+    "eGFR",
+    "NHANES",
+    "negative result",
+    "temporal validation"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30168046/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11481662/"
+    },
+    {
+      "target": "https://www.nejm.org/doi/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/analyticguidelines.aspx"
+    }
+  ]
+}
