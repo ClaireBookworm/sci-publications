@@ -1,0 +1,49 @@
+{
+  "title": "A ferritin\u2013CRP interaction does not robustly improve cross-cycle resting-pulse prediction in women aged 20\u201349",
+  "abstract": "In NHANES 2005\u201306 to 2009\u201310 women aged 20\u201349 complete cases, one log-ferritin \u00d7 log-CRP term did not improve resting-pulse prediction beyond flexible marginal hematology and demographic measures: target MSE change +0.0466 bpm\u00b2, with source-refit/target-PSU 95% interval \u22120.9188 to +2.5759.",
+  "keywords": [
+    "ferritin",
+    "CRP",
+    "pulse",
+    "NHANES",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3164/jcbn.24.99",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/28615259/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/FERTIN_D.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/FERTIN_F.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
