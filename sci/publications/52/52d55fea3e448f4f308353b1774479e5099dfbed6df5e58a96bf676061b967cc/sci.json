@@ -1,0 +1,61 @@
+{
+  "title": "Resting pulse-pressure\u2013pulse product adds no demonstrated albuminuria discrimination beyond its components across two NHANES cycles",
+  "abstract": "We tested whether resting pulsatile stress, pulse pressure times radial pulse, improves cross-sectional albuminuria classification beyond demographics, BMI, separate systolic/diastolic pressure and pulse, diabetes and BP treatment. Source NHANES 2009\u201310 included 5647 adults/598 cases; independent-cycle2011\u201312 included 4928/625. Source fivefold out-of-fold deltaAUC was\u22120.000156. Frozen target AUC was 0.761814 versus 0.761866, delta+0.000052 (paired95%CI[\u22120.000192,+0.000282]); Brier change+0.000004. Joint refit uncertainty and survey sensitivity included zero. The product alone discriminated better than pulse pressure alone but did not demonstrate improvement over joint standard risk factors. This bounded negative prediction test does not refute longitudinal pulsatile injury or establish clinical equivalence.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "pulsatile stress",
+    "albuminuria",
+    "NHANES",
+    "incremental prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678770/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DEMO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ALB_CR_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BMX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BPQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/DIQ_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPQ_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DIQ_G.htm"
+    }
+  ]
+}
