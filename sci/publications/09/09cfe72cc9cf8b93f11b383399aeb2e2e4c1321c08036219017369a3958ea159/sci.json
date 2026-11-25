@@ -1,0 +1,25 @@
+{
+  "title": "Sex-dependent cholesterol and coronary disease: no established incremental prediction across independent angiography centers",
+  "abstract": "A sex-by-total-cholesterol term added to flexible additive standard predictors changed Cleveland-to-Hungary angiography Brier error by -0.000773 (joint bootstrap95% [-0.012072,0.015597];303 source,269 target). Incremental benefit was not established; a linear additive baseline transported better.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "cholesterol",
+    "sex interaction",
+    "angiographic disease",
+    "independent-center validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25216757/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    }
+  ]
+}
