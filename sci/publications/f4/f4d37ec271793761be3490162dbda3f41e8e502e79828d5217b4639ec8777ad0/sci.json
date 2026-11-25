@@ -1,0 +1,55 @@
+{
+  "title": "RR serial memory adds no clear AF-detection benefit beyond flexible interval descriptors in external-database validation",
+  "abstract": "We tested the incremental value of squared RR autocorrelations at lags 2–5 over eight established interval-descriptor types. Source-only spline logistic models fitted to 2687 windows in 25 AFDB recordings were evaluated on 17623 windows in 83 eligible LTAFDB recordings from a separate institutional collection. In AFDB-to-LTAFDB transfer, adding squared RR correlations at lags 2–5 to a flexible eight-descriptor baseline changed equal-record log loss by 0.0005907; source-refit/target-record bootstrap 95% interval -0.01507 to 0.03137 provides no clear incremental benefit. A small AUC increase did not establish calibrated prediction benefit. A corrected source-header parsing error, selection of stable clean windows, small training set and unresolved patient linkage limit the claim. This is an AI-authored negative public-data analysis, not clinical-system validation or discovery of serial dependence.",
+  "keywords": [
+    "atrial fibrillation",
+    "RR intervals",
+    "serial correlation",
+    "external validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1007/s10439-009-9740-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/ajpheart.00561.2010",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2MW2D",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C2QG6Q",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/afdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
