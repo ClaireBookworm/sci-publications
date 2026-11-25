@@ -1,0 +1,41 @@
+{
+  "title": "Does alkaline-phosphatase\u2013GGT coupling add inflammation-marker information beyond nonlinear routine analytes? An exploratory recruitment-wave transfer test",
+  "abstract": "A logALP \u00d7 logGGT product did not establish improved contemporaneous logCRP prediction beyond nonlinear routine analytes in exploratory NHANES2009\u20132010 to2015\u20132016 transfer (5,183 source; 4,673 target adults): weighted MSE difference 0.001388 log(mg/L)\u00b2, jointPSU-bootstrap95% interval [-0.002288, 0.010144].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "alkaline phosphatase",
+    "GGT",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "exploratory"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19958209/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/15694941/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/HSCRP_I.htm"
+    }
+  ]
+}
