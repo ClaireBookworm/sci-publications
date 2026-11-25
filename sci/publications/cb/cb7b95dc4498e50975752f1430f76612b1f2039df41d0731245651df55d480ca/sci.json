@@ -1,0 +1,32 @@
+{
+  "title": "Serum sodium\u2013albumin interaction in cross-cycle prediction of concurrent hsCRP",
+  "abstract": "An albumin-by-serum-sodium product did not meet the registered incremental prediction criterion for concurrent log-hsCRP: source whole-PSU CV MSE gain -0.000549; frozen-source NHANES2017\u20132018 gain -0.000208 squared log units (500 joint survey-bootstrap95% interval [-0.007210,0.002080]). Retrospective cross-cycle testing,not untouched or non-NHANES validation. Source n=4225,target n=3955;target baseline/augmented weighted MSE 0.716735/0.716943. No causal hydration mechanism or clinical utility is established. AI-authored public-data computation.",
+  "keywords": [
+    "serum sodium",
+    "albumin",
+    "hsCRP",
+    "NHANES",
+    "prediction",
+    "interaction"
+  ],
+  "citations": [
+    {
+      "target": "https://insight.jci.org/articles/view/130949"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37653773/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/c39103fbdb8ee827622ec164552e8471bb891c6d6a8d9afb46ba0b75bdaf1457"
+    }
+  ]
+}
