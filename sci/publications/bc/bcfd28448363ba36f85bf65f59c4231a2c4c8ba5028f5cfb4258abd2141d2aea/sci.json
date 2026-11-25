@@ -1,0 +1,52 @@
+{
+  "title": "BUN/creatinine ratio worsens frozen-model grip-strength prediction beyond flexible renal measures in two NHANES samples",
+  "abstract": "A muscle-catabolism-inspired BUN/creatinine feature did not improve prediction of combined grip strength among adults aged 60\u201379. Models fitted in 1,078 NHANES 2011\u201312 participants were frozen and tested without target refitting in 1,228 separately sampled 2013\u201314 participants. Adding a ratio spline to age, sex, race/ethnicity, body size, eGFR and flexible individual BUN/creatinine terms increased weighted MSE by 1.3443 kg\u00b2 (conditional-source 95% target-PSU bootstrap interval for MSE gain \u22122.2797 to \u22120.4033). A tensor-interaction comparator changed the sign of the incremental gain, indicating model dependence. This is a negative cross-sectional feature-engineering result, not a test of clinical equivalence or muscle-catabolism mechanisms.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "BUN/creatinine",
+    "grip strength",
+    "NHANES",
+    "sample transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31531715/"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
