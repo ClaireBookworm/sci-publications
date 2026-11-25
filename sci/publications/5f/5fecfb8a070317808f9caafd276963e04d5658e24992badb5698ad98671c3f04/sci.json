@@ -1,0 +1,34 @@
+{
+  "title": "Glucose\u2013creatinine coupling for potassium prediction: small source gains do not transport to an independent hospital cohort",
+  "abstract": "Log-glucose \u00d7 log-creatinine context did not establish improved external potassium prediction beyond flexible additive routine chemistry: NHANES-to-UCI added-minus-base MSE 0.00099 (mmol/L)\u00b2, joint-bootstrap 95% interval [-0.01470, 0.01786].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "potassium",
+    "glucose",
+    "creatinine",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3296457/"
+    },
+    {
+      "target": "https://doi.org/10.1016/0002-9343(93)90081-y"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5G020"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
