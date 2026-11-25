@@ -1,0 +1,38 @@
+{
+  "title": "Magnitude-weighted cardiac asymmetry does not establish incremental age transfer beyond count asymmetry and standard HRV",
+  "abstract": "Squared-increment RR asymmetry (Guzik index) did not establish incremental age-group prediction beyond count asymmetry and conventional HRV in two public collections. Fantasia-to-NSR2 logloss gain was -0.007770 (source-refit 95% interval [-0.076156, 0.042487]); reverse gain was -0.004186 [-0.099552, 0.054016], with unchanged AUC in both directions. This exploratory negative result is not equivalence; participant overlap is unknown and no untouched confirmation was available.",
+  "keywords": [
+    "heart rate asymmetry",
+    "Guzik index",
+    "HRV",
+    "age",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17061956/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17322593/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/36769867/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8898003/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
