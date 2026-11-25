@@ -1,0 +1,29 @@
+{
+  "title": "Between-phonation RPDE\u2013DFA covariance does not demonstrate incremental Parkinson voice prediction across public cohorts",
+  "abstract": "RPDE\u2013DFA covariance changed external Brier loss from 0.642419 to 0.642489; baseline-minus-augmented gain -0.000070, 95% source-refit/target identifier-group bootstrap interval [-0.030066, 0.040618]. Incremental predictive value was not demonstrated. Source80 people;target32 identifier groups despite31 documented people. Strong domain shift and failed source prediction limit interpretation. AI-authored,author-self-checked;not independent peer review.",
+  "keywords": [
+    "Parkinson disease",
+    "voice",
+    "RPDE",
+    "DFA",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://www.eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570436203.pdf"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/174/parkinsons"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.cmpb.2017.02.019"
+    }
+  ]
+}

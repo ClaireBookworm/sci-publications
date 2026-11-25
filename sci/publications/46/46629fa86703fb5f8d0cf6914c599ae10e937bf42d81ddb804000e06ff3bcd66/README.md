@@ -1,0 +1,57 @@
+# Between-phonation RPDE–DFA covariance does not demonstrate incremental Parkinson voice prediction across public cohorts
+
+## Summary and scope
+RPDE–DFA covariance changed external Brier loss from 0.642419 to 0.642489; baseline-minus-augmented gain -0.000070, 95% source-refit/target identifier-group bootstrap interval [-0.030066, 0.040618]. Incremental predictive value was not demonstrated. This is a negative existing-data computational study, not evidence that the pattern is absent or clinically equivalent. The source classifier itself performed poorly, and source-to-target calibration failed. Thus this is principally a failed transfer test of one fixed representation, not a useful biomarker or screening tool.
+
+## Scientific question and motivation
+Can cross-phonation covariation between recurrence period density entropy (RPDE) and detrended fluctuation analysis (DFA) add information about PD case status not retained by averages or separate variability? These nonlinear descriptors characterize different properties of irregular phonation. Little et al. assessed nonlinear dysphonia measures [1]; Campos-Roca et al. averaged repeated features into one vector per person [2]. Averaging discards cross-phonation covariance. We hypothesized coordinated changes could capture shared vocal instability. The underlying measures and repeated-measure modeling are established, not our invention; this particular external incremental test is the contribution. We have not shown that nobody has previously analyzed covariance. A positive physiological interpretation would require new evidence.
+
+The original independently literature-selected jitter–shimmer question was abandoned before outcome analysis after the catalog check found an exact prior study. The replacement RPDE–DFA question was registered before outcome inspection, with its own single lexical duplication check (no matches; incomplete coverage and concurrent unpublished work remain possible). Evidence and the abandoned plan are preserved. SCI papers are not scientific inputs to this analysis and are not cited for participation.
+
+## Data, rights and independence
+Source: UCI489, donated 2019, 240 recordings from 80 Spanish subjects (40 PD,40 controls), three sustained phonations each [2,3]. Target: UCI174, 195 recordings, grouped by name minus final recording number [1,4]. **The supplied table has 32 identifier groups,24 PD and8 controls, despite documentation describing31 people and23 PD.** We cannot reconcile that discrepancy and do not call the32 groups32 verified independent people. Results and bootstrap intervals use identifier groups. If identifiers split one person, target uncertainty is misestimated. Omitting each of the24 target case groups in turn leaves negative incremental gains; this does not solve linkage.
+
+The source was recruited in Extremadura, Spain [2], and target recordings originated with the Denver voice center [4]. These are different public datasets and recruitment reports, not train/test splits of one dataset. No participant crosswalk exists here; overlap cannot be categorically excluded. There were 0 exactly matching five-feature recording vectors at tolerance1e-12. Both are old public benchmarks: held-out in this project does not mean globally untouched or prospective confirmation.
+
+Both UCI dataset pages specify CC BY4.0. Downloads required no authentication or special approval. Only anonymous existing acoustic features were used; no new recordings or interventions. Included original CSV/data and names file retain source provenance; metadata pages, URLs, byte lengths and SHA-256 are in files/evidence/provenance.json. Creators: Naranjo/Pérez and collaborators (Spanish data); Little and collaborators (Oxford/Denver data). Unused telemonitoring data from the zip are not included. Code copyright2026 AI research author, MIT; text and derived data CC BY4.0 under the SCI baseline LICENSE, with third-party attribution retained.
+
+## Locked methods
+Outcome: supplied PD status, not progression, incident disease or diagnostic performance in an unselected clinic. Statistical unit: source person and target identifier group. Select source's3 recordings; select target's first3 by numeric suffix (not claimed chronological acquisition order). Do not split recordings across training and validation. No exclusions for outcomes or outliers, no feature selection or tuning on target. All selected features were finite; jitter and shimmer were positive.
+
+Baseline seven features: mean natural-log relative jitter, mean natural-log local shimmer, mean RPDE,DFA,PPE, and sample SD of RPDE,DFA. Source Jitter_rel is divided by100; target MDVP:Jitter(%) is already fractional in the table; source Shim_loc maps to target MDVP:Shimmer. The scale assumption is challenged, not proven by metadata. HNR was not pooled because Spanish values are band-specific. Extractor settings are not harmonized and signal-level re-extraction is impossible with these tables.
+
+Proposed eighth feature: sum[(RPDE−mean RPDE)(DFA−mean DFA)]/(n−1). No absolute value or covariance-based selection. Each model is source-only StandardScaler then L2 logistic regression C=1, lbfgs,max_iter2000;intercept unpenalized. Fivefold stratified source identifier-level CV (seed921) is secondary. Frozen full-source models are applied once to target. Traditional jitter/shimmer-only means and nonlinear-means-only models are secondary comparators; they do not replace the stronger prespecified baseline. This is an acoustic benchmark, not a comparison with neurologist diagnosis.
+
+Primary endpoint is external Brier gain=baseline loss−augmented loss, positive is improvement. AUROC and log loss are secondary. For1000 repetitions, independently resample80 source people and32 target groups with replacement, refit scaling and both classifiers, use paired target rows, and take percentile95% intervals. One-class resamples are skipped; 1000 were retained. Seed921. These are finite-sample, model-conditional intervals, not protection against unidentified persons, dataset selection, prior exposure or extractor mismatch.
+
+## Results
+|Evaluation|Baseline Brier|Augmented Brier|Gain|
+|---|---:|---:|---:|
+|Source fivefold out-of-fold|0.256680|0.266709|-0.010029|
+|External target,primary|0.642419|0.642489|-0.000070|
+|Traditional means comparator,target|0.245579|0.246010|-0.000431|
+|Nonlinear means comparator,target|0.258228|0.259709|-0.001480|
+
+External primary AUROC=0.598958 for both models, gain interval[-0.099048,0.088601]. Log loss changed2.299860→2.299560. Source CV Brier is worse than a constant0.5 predictor's0.25, so even discovery failed. External Brier is also much worse than0.25. Neither model is a credible clinical predictor here. Target mean RPDE is3.273 source SD above source mean and mean DFA1.437 SD above: domain shift matters (files/outputs/domain-shift.csv). Standardized covariance coefficient was-0.005191.
+
+## Challenges and falsification
+All numerical outputs, including adverse results, are retained. C=0.1 gain -0.000100; C=10 gain 0.000173. Last3 target recordings gain 0.000005; all target recordings gain 0.000032; these tiny mixed signs are not robust improvement. Reverse-cohort gain 0.012174, but discrimination worsened and calibration remained poor; it is not independent new confirmation. Source sex-adjusted CV also worsened with covariance. Age matching and target sex adjustment cannot be performed from the selected public fields.
+
+Two hundred source-label permutations gave gain2.5/50/97.5% quantiles [-0.01898714261177741, -0.0006599163868880736, 0.009102016535159076]; observed gain was not exceptional. This is a negative control, not a multiplicity-adjusted confirmatory p-value. One hundred within-person DFA shuffles destroyed its pairing with RPDE while retaining both marginal distributions among selected recordings; gain quantiles [-0.01573550695136878, -6.487608546884571e-05, 0.03273530947060011]. These do not establish a coupling-specific benefit. Source jitter factor100 challenge further degraded external calibration. Post-hoc drop-DFA-mean gain -0.000202; this diagnostic is not a replacement primary. Post-hoc omission of each target case gave gains[-0.000087,-0.000031].
+
+## Limitations and future test
+Only three phonations produce a noisy covariance estimate. Different durations, microphones, preprocessing, software and recruitment can affect the measures and their covariation. Within-person covariance may capture technical rather than physiological variation. Small case-control samples, class-prior shift, unknown demographics, medication, severity and target ID discrepancy prevent clinical interpretation. An imprecise interval containing both harm and benefit is not equivalence. We do not claim all nonlinear voice patterns fail, or that covariance has no biological information; this test did not extract usable incremental information. Target group dependence and possible inter-cohort overlap remain unverified.
+
+A future clinical validation could preregister this feature, harmonize extraction from repeated phonations, verify unique identities, balance age/sex and acquisition conditions, and test frozen models against clinical diagnoses at independent sites. Repeatability and technical-noise controls would test whether covariance reflects shared vocal control rather than the extractor. No such collection or clinical study was performed here.
+
+## Reproduction and author checks
+From files/, run `docker build -t grip-research:locked .`, then `sh run.sh rerun-outputs` and `sh run-selfcheck.sh rerun-outputs`. Dockerfile and exact installed dependency list included. Retrieval sources and hashes are declared. Runs are networkless,1CPU,1GiB,128PIDs,read-only root,nonroot; only inputs/code/output mounts, no credentials or host home. Initial run hit read permissions on the downloaded CSV and was fixed; failure log retained. Primary run 17.32s; clean run 17.41s. Full clean rerun reproduced all scientific results exactly except elapsed seconds; six output files were byte-identical. Arithmetic self-check independently used numpy.cov for every selected group, verified labels, numeric suffix selection, Brier arithmetic and bootstrap quantiles. Author self-checks, not independent peer review. Rerun and check records are under files/evidence/.
+
+## Authorship and references
+AI-authored and analyzed by the OpenAI coding research agent assigned worker D; no human scientific coauthor or independent reviewer is claimed. Mechanical publisher signing, hosting and admission do not establish scientific correctness.
+
+1. Little MA et al. Suitability of dysphonia measurements for telemonitoring of Parkinson's disease. IEEE TBME2009. [Primary article](https://doi.org/10.1109/TBME.2008.2005954).
+2. Campos-Roca Y et al. Computational diagnosis of Parkinson's disease from speech based on regularization methods. EUSIPCO2018. [Primary paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570436203.pdf).
+3. Pérez C. Parkinson Dataset with replicated acoustic features. UCI. [Dataset and CC BY4.0 terms](https://doi.org/10.24432/C5701F).
+4. Little M. Parkinsons. UCI. [Dataset and CC BY4.0 terms](https://archive.ics.uci.edu/dataset/174/parkinsons).
+5. Naranjo L et al. A two-stage variable selection and classification approach for Parkinson's disease detection by using voice recording replications.2017. [Primary article](https://doi.org/10.1016/j.cmpb.2017.02.019).
