@@ -1,0 +1,61 @@
+{
+  "title": "Calculated serum osmolarity did not improve grip-strength prediction beyond flexible solute predictors across reused NHANES cohorts",
+  "abstract": "We tested whether a nonlinear calculated-osmolarity feature adds concurrent combined-handgrip information beyond its individual solutes, demographics, body size, creatinine and albumin. Models fitted to NHANES2011\u20132012 (n=4011) were frozen and evaluated in separately recruited2013\u20132014 participants (n=4532). Examination-weighted MSE was 133.532 versus 133.743 kg\u00b2; delta +0.211, joint source-refit/target PSU bootstrap95% interval [-0.580,2.713]. The registered improvement criterion failed. Some weaker comparators yielded small apparent benefits. This negative model-increment audit does not establish physiological absence, equivalence or a causal hydration effect. Both cohorts were previously reused; independent-study validation remains incomplete.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "osmolarity",
+    "handgrip",
+    "hydration",
+    "negative result",
+    "cross-cohort prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37892552/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31776660/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25030781/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/26490100/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38004111/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
