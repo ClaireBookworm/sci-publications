@@ -1,0 +1,59 @@
+{
+  "title": "An eosinophil\u2013neutrophil interaction does not reliably improve cross-cohort FEV1 prediction beyond additive blood counts",
+  "abstract": "We tested an eosinophil-by-neutrophil product as a representation of joint inflammatory state beyond conventional additive counts. A source-fitted spline ridge predictor of concurrent FEV1 used age, height, BMI, sex, race/ethnicity, smoking and both absolute counts. Training used NHANES2007\u20132008 (n=3560); frozen evaluation used separately recruited NHANES2011\u20132012 (n=3553). Examination-weighted MSE was 0.21877434 L\u00b2 without versus 0.21877880 with the interaction, difference +0.00000446 L\u00b2; joint source/target PSU-bootstrap95% interval [-0.00072631,+0.00186017]. The registered improvement criterion failed, and sensitivity signs varied. This exploratory inconclusive negative result does not establish equivalence or absence of joint inflammatory information. Transfer between recruitment cohorts in the same survey program is not independent-program validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "blood counts",
+    "spirometry",
+    "FEV1",
+    "interaction",
+    "negative result",
+    "public data"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/30170809/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7082214/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/CBC_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    }
+  ]
+}
