@@ -1,0 +1,38 @@
+{
+  "title": "Sodium\u2013albumin interaction did not establish improved elevated-CRP prediction across independently recruited US health surveys",
+  "abstract": "In complete-case adults from NHANES III (n=14,402) and NHANES 2017\u20132018 (n=4,593), adding a sodium-by-albumin spline interaction to a flexible additive model changed weighted Brier score for CRP>3 mg/L from 0.172372 to 0.172771, delta +0.000398 (joint source-target PSU-bootstrap 95% [-0.000212,+0.003199]). The registered improvement criterion failed. Stronger source-selected regularization produced a small exploratory improvement without confirmatory uncertainty. These findings neither establish a useful new biomarker nor exclude small predictive benefit.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "sodium",
+    "albumin",
+    "CRP",
+    "NHANES",
+    "negative result",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27193532/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/31751531/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/nchs/nhanes/nhanes3/datafiles.aspx"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HSCRP_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
