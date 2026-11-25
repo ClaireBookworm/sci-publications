@@ -1,0 +1,53 @@
+{
+  "title": "Calcium\u2013albumin interaction adds no clear frozen prediction gain for grip strength across two NHANES cycles",
+  "abstract": "A source-centered total calcium \u00d7 albumin interaction had target weighted MSE gain 0.021724 kg\u00b2 (95% target-PSU interval -0.076395 to 0.133665) over flexible marginal chemistry and demographic predictors in 4,582 NHANES 2013\u201314 adults; no clear incremental benefit was established. Source 2011\u201312 cross-validation also failed to improve; adding nonlinear corrected calcium to the comparator reversed the target point gain. This negative functional prediction test is not an ionized-calcium assay validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "calcium",
+    "albumin",
+    "grip strength",
+    "NHANES",
+    "negative result",
+    "frozen transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/39836424/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11951309/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    }
+  ]
+}
