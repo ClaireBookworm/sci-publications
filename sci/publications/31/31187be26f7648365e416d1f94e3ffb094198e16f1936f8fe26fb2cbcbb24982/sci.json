@@ -1,0 +1,41 @@
+{
+  "title": "FeNO\u2013eosinophil interaction did not improve cross-cycle current-asthma prediction beyond additive biomarkers and spirometry",
+  "abstract": "In NHANES 2007\u20132008 to separately recruited 2009\u20132010 adults (n=3755/4354), adding a FeNO-by-blood-eosinophil spline interaction changed weighted current-asthma Brier score from 0.056793 to 0.056964, delta +0.000170 (joint PSU-bootstrap 95% [-0.000543,+0.001734]). The registered improvement criterion failed.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "FeNO",
+    "eosinophils",
+    "asthma",
+    "NHANES",
+    "negative result",
+    "transport"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23890753/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/29575336/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/ENX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/ENX_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CBC_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
