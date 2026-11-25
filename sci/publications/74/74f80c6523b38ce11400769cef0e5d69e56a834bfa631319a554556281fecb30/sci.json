@@ -1,0 +1,73 @@
+{
+  "title": "Asymmetric swing-duration tail persistence does not establish added Parkinson prediction across gait collections",
+  "abstract": "Swing-duration upper-minus-lower tail persistence did not establish added Parkinson/control prediction: cross-collection delta logloss 0.005773, source-refit/target bootstrap95%CI [-0.044790,0.111728]. Exploratory; participant nonoverlap unverified.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "tail persistence",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1063/1.3147408",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1186/1743-0003-2-23",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/6cb884f185855a64a34d562b32fef5211cad37a7c0f3771d206c6ed6e3df0e7d",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
