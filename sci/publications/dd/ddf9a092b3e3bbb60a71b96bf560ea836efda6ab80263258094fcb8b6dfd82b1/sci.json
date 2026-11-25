@@ -1,0 +1,38 @@
+{
+  "title": "Filtration-dependent urate encoding in independent-cycle urinary albumin prediction",
+  "abstract": "Adding a sex-specific urate\u2013eGFR tensor spline changed independent-cycle weighted log-UACR MSE from 0.805069 to 0.811902 (delta +0.006833; joint PSU-bootstrap95% [+0.000714,+0.052086]). The registered improvement criterion was not met. Exploratory transfer, not untouched confirmation or causal evidence.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "urate",
+    "eGFR",
+    "albuminuria",
+    "NHANES",
+    "independent-cycle evaluation",
+    "exploratory prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12882-015-0207-1"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8803667/"
+    },
+    {
+      "target": "https://doi.org/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
