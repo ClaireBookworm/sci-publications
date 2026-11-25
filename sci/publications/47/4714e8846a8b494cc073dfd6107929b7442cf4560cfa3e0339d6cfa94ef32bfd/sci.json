@@ -1,0 +1,36 @@
+{
+  "title": "A BUN\u2013creatinine response surface fails its registered renal-marker transfer test, with regularization-dependent results",
+  "abstract": "A registered BUN\u2013creatinine tensor-spline model (ridge alpha1) failed to improve transferred log-UACR prediction: weighted MSE 0.795411 to 0.813722, delta +0.018311 (joint PSU bootstrap95% [0.000933,0.314267]). Stronger source-selected regularization gave a small exploratory point improvement, so this is a negative result for the registered model, not evidence against all joint physiology. Exploratory transfer from NHANES2009\u20132010 to independently recruited2015\u20132016; not untouched confirmation or external-health-system validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "BUN",
+    "creatinine",
+    "albuminuria",
+    "NHANES",
+    "transfer",
+    "negative result",
+    "regularization"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12882-017-0591-9"
+    },
+    {
+      "target": "https://doi.org/10.1056/NEJMoa2102953"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/BIOPRO_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2015/DataFiles/BIOPRO_I.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
