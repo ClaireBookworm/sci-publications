@@ -1,0 +1,32 @@
+{
+  "title": "Vitamin D\u2013BMI coupling adds no established predictive benefit for PTH beyond flexible conventional measures across two NHANES cycles",
+  "abstract": "A vitaminD \u00d7 BMI product did not establish improved logPTH prediction beyond flexible conventional biomarkers in exploratory NHANES2003\u20132004 to2005\u20132006 transfer (3,772 source; 3,781 target adults): weighted MSE difference -0.0000001202 log(pg/mL)\u00b2, jointPSU-bootstrap95% interval [-0.00026033,0.00049464].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "PTH",
+    "vitamin D",
+    "BMI",
+    "NHANES",
+    "transfer",
+    "inconclusive result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23509103/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/PTH_D.htm"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/40578598/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
