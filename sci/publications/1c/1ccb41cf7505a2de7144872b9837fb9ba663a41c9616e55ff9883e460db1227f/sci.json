@@ -1,0 +1,62 @@
+{
+  "title": "Cross-hand grip-change discordance has baseline-dependent DSST prediction gains across NHANES cycles",
+  "abstract": "Among 1245 NHANES 2011\u20132012 adults aged 60+ and 1397 separately sampled 2013\u20132014 adults, we tested cross-hand discordance in first-to-third grip-strength changes. A frozen weighted spline-ridge model added this single feature to demographics, body size, maximal and mean strength, asymmetry, dispersion and common change. Source group-cross-validated MSE fell 0.21%, but target DSST MSE rose from 157.973 to 158.950 (+0.62%). Source-and-target PSU-refit bootstrap limits for the MSE difference were [-0.939, 4.745]. A post-hoc conventional strength/asymmetry baseline instead showed a 0.71% target MSE reduction with opposite feature coefficient. Dependence on baseline representation, uncertain estimates and historical dataset reuse preclude a robust incremental biomarker claim. This is cross-sectional prediction of a cognitive test score, not diagnosis or cognitive decline.",
+  "keywords": [
+    "NHANES",
+    "grip strength",
+    "trial order",
+    "DSST",
+    "negative result",
+    "prediction"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35871326/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27894796/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/CFQ_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/35629029/",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
