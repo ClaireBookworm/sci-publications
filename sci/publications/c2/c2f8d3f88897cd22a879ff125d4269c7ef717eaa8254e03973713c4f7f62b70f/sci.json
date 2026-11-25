@@ -1,0 +1,45 @@
+{
+  "title": "Monocyte\u2013HDL context and CRP prediction: failed spline transfer and a stabilized cross-cycle sensitivity analysis",
+  "abstract": "The prespecified unregularized spline model failed transfer (target MSE 5918.131 versus linear 1.141). A posthoc stabilized monocyte\u2013HDL interaction did not improve prediction: target log-CRP MSE reduction -0.000825 beyond a nonlinear-plus-MHR baseline, with Rao\u2013Wu two-sample-refit 95% interval [-0.008054, 0.001256]; this is exploratory, not untouched confirmation or a clinical biomarker validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "monocytes",
+    "HDL",
+    "CRP",
+    "model instability",
+    "negative result",
+    "exploratory transfer"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/s12944-025-02755-8"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/HDL_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/HDL_F.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2009/DataFiles/CRP_F.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/nhanes/about/"
+    },
+    {
+      "target": "https://sciscape.io/p/1ee5f3e5c0ed712617f121db2d2cfa96c3331e3cd8e00905248a5c879b2a00a3"
+    }
+  ]
+}
