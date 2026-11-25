@@ -1,0 +1,73 @@
+{
+  "title": "Bilateral grip asymmetry does not improve frozen-model prediction of log albuminuria across two NHANES samples",
+  "abstract": "We tested whether handgrip asymmetry adds predictive value beyond combined grip and renal/metabolic measures in adults aged 40\u201379. Models fitted in 2,425 NHANES 2011\u201312 participants were frozen and tested in 2,781 separately sampled 2013\u201314 participants. Adding a spline of absolute bilateral maximum-grip difference divided by their sum increased MEC-weighted mean squared error for natural-log urinary albumin/creatinine from 0.844480 to 0.848913. Gain (baseline minus augmented) was -0.004433, with a conditional-source 95% target-PSU bootstrap interval of [-0.007110, -0.001762]. Source out-of-fold results and all specified target sensitivity point estimates also favored omission. This negative feature-engineering result neither establishes biological absence of association nor evaluates persistent kidney disease or clinical utility.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "grip asymmetry",
+    "albuminuria",
+    "NHANES",
+    "independent sample transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://www.mdpi.com/2411-5142/6/4/79"
+    },
+    {
+      "target": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1353881/full"
+    },
+    {
+      "target": "https://www.kidney.org/professionals/ckd-epi-creatinine-equation-2021"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/MGX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BIOPRO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/GHB_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/ALB_CR_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/DEMO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BMX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/MGX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/GHB_H.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/ALB_CR_H.htm"
+    }
+  ]
+}
