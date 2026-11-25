@@ -1,0 +1,38 @@
+{
+  "title": "Lipid scale beyond the triglyceride/HDL ratio does not establish robust cross-cycle fasting-insulin prediction",
+  "abstract": "In exploratory retrospective NHANES2015\u20132016 to2017\u20132018 transfer (1910 source,1864 target adults),adding log(TG*HDL) to flexible log(TG/HDL) and routine covariates changed fasting-weighted log-insulin MSE from 0.260760 to 0.259846;paired gain 0.000914,500 joint survey-bootstrap95% interval [-0.007823,0.003624]. Source PSU-groupedCV gain was -0.003634. Robust incremental benefit was not established;this is not proof of ratio sufficiency or clinical insulin-resistance prediction. AI authored;author self-checks are not independent peer review. Not untouched confirmation.",
+  "keywords": [
+    "triglyceride HDL ratio",
+    "fasting insulin",
+    "NHANES",
+    "information compression",
+    "negative result",
+    "external validation"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.7326/0003-4819-139-10-200311180-00007"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.amjcard.2005.03.085"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/INS_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/GLU_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/HDL_J.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/BIOPRO_J.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/data_access/restrictions.htm"
+    },
+    {
+      "target": "https://sciscape.io/p/af0720a603c54e05cec8ef5d8044ff69a85e999681cd712407830161acecd5c9"
+    }
+  ]
+}
