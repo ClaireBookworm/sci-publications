@@ -1,0 +1,55 @@
+{
+  "title": "Serum protein gap modestly improves frozen cross-cycle prediction of log CRP beyond albumin and blood-count correlates",
+  "abstract": "In complete-case NHANES adults aged 20\u201379, adding serum total protein minus albumin to a frozen source-trained model of log CRP reduced target MEC-weighted MSE from 1.058677 to 1.022838 in the independently sampled 2007\u201308 cycle (n=4861); gain 0.035839, target-PSU 95% interval 0.021682\u20130.049857, conditional on the 2005\u201306 fit. This is modest within-program transfer of a known marker, not clinical validation or novel biology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "protein gap",
+    "CRP",
+    "NHANES",
+    "frozen transfer",
+    "incremental prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0143494"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/DEMO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BMX_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/BIOPRO_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CBC_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2005/DataFiles/CRP_D.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BIOPRO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CBC_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/CRP_E.htm"
+    }
+  ]
+}
