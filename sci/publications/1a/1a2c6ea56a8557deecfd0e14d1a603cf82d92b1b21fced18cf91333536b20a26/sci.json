@@ -1,0 +1,52 @@
+{
+  "title": "Waist-to-height splines do not reliably improve cross-cohort FVC prediction beyond flexible waist and height",
+  "abstract": "We evaluated whether height-normalized waist supplies transferable predictive structure beyond conventional anthropometry. A source-fitted spline ridge predictor of concurrent forced vital capacity (FVC) used age, height, BMI, waist, sex, race/ethnicity and smoking. Adding waist-to-height spline terms and their sex interactions was tested in separately recruited NHANES cohorts:2007\u20132008 training (n=3662) and2011\u20132012 frozen evaluation (n=3603). Examination-weighted target MSE was 0.26740501 versus 0.26754998 L\u00b2, difference +0.00014497 L\u00b2, joint source/target PSU-bootstrap95% interval [-0.00118708,+0.00342865]. Ratio augmentation improved a weaker BMI-based comparator descriptively, but failed the registered improvement criterion beyond flexible waist. This exploratory inconclusive negative result does not establish equivalence or disprove abdominal-adiposity information. Different recruitment cohorts within one survey program do not establish independent-program validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "anthropometry",
+    "waist-to-height ratio",
+    "FVC",
+    "cross-cohort prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16608930/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/27938399/"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/DEMO_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/BMX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SPX_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2007/DataFiles/SMQ_E.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/DEMO_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/BMX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SPX_G.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2011/DataFiles/SMQ_G.htm"
+    }
+  ]
+}
