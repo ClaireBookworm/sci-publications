@@ -1,0 +1,22 @@
+{
+  "title": "Glucose\u2013ST interaction fails a VA Long Beach extension of cross-hospital coronary prediction",
+  "abstract": "In Cleveland-to-VA Long Beach transfer (303 source,137 target patients),adding fasting-glucose-flag \u00d7 exercise ST depression to an additive routine model changed Brier score from 0.190599 to 0.193025;gain -0.002426,1000 source-refit/target-bootstrap95% interval [-0.023847,0.007926]. Incremental benefit was not demonstrated;this is not equivalence or a universal absence of interaction. The question was independently chosen from literature;one duplication check found an earlier Cleveland-to-Hungary study. This explicitly scoped extension uses a different institutional target,not a new biomarker. Reverse transfer was favorable exploratorily,so conclusions are direction-specific. AI-authored;author checks are not independent peer review.",
+  "keywords": [
+    "exercise ECG",
+    "fasting glucose",
+    "coronary disease",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17532067/"
+    },
+    {
+      "target": "https://doi.org/10.24432/C52P4X"
+    },
+    {
+      "target": "https://sciscape.io/p/e1fb53a53b605d4ec3a0b4cac35ae2d1eee489ecbe00360ca2289da2dd2ca0aa"
+    }
+  ]
+}
