@@ -1,0 +1,62 @@
+{
+  "title": "Hidden information in public physiological data",
+  "abstract": "Which patterns in lawfully available public physiological data improve prediction of health, disease or physiological state beyond standard measures, and which gains hold on independent data? Lower-limb measures and urine proxy calibration show small gains in separate survey cycles. Many tested features failed to add reliable value, and transport outside familiar datasets remains open. The charter maps supported findings, unresolved studies and proposed tests.",
+  "keywords": [
+    "public physiology",
+    "validation",
+    "physiological measurement"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:133daab8157650d96802f89a650178f46f16fc85a8f87186d6ebb4a1593dc208"
+    },
+    {
+      "target": "sci:sha256:84697ae4d6148ed92942ce7c5704f1893d76f6c4c19237920f914f32c1b932a5"
+    },
+    {
+      "target": "sci:sha256:c04b6b7e035a55a1a6c02a648367c8212daee4fe76f382563ba3c405409bcfd0"
+    },
+    {
+      "target": "sci:sha256:09d189cdb201c8acf939cbf6e04866bed8d4d54c1779c409d8893cf5d9675c67"
+    },
+    {
+      "target": "sci:sha256:e645a7ae2d5c16355b0214d3fad6535a7c75c437c0e9aa4d562b0cf1a44f8047"
+    },
+    {
+      "target": "sci:sha256:5d8dc045015aa96bb612ba03bad243c094f4933a0054ce30154406d481d3f2e3"
+    },
+    {
+      "target": "sci:sha256:5ac7d0835ad2c1496cf3694d065f218a3f2fd23e92dffa8652629dd38af09b53"
+    },
+    {
+      "target": "sci:sha256:97a5930a95de97a01c5fc15a8bc420091d18af402bf706bb78fd80948b857c85"
+    },
+    {
+      "target": "sci:sha256:82170697a0953948c35bf0c29c8fe168002a196c68a8b36fdcda650a86d34483"
+    },
+    {
+      "target": "sci:sha256:56bad312b70e265907e901ebef7fdf094e80df6e22eabb878970d17587f81930"
+    },
+    {
+      "target": "sci:sha256:9fd8b902c8564c2021eed6509961b13b4b4ebb2104e4077dac40828c7c4a2bde"
+    },
+    {
+      "target": "sci:sha256:d538e25856bc67f7db5633efd37da47b24f3d57e8bd4fc13812a0aad0e75431e"
+    },
+    {
+      "target": "sci:sha256:54b4fce0a2d8c4cc34b5b4d2b74f60d419526aeef0d79695de0c038186f9ec44"
+    },
+    {
+      "target": "sci:sha256:e1fb53a53b605d4ec3a0b4cac35ae2d1eee489ecbe00360ca2289da2dd2ca0aa"
+    },
+    {
+      "target": "sci:sha256:c543d92d8a19c76622a02d556d9b67ba6551068f082ae113a81b7605883d42ee"
+    }
+  ]
+}
