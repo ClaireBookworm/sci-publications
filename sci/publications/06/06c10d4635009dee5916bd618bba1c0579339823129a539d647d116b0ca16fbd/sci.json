@@ -1,0 +1,42 @@
+{
+  "title": "Magnitude-stratified cardiac deceleration capacity: an exploratory incremental cross-database test",
+  "abstract": "Magnitude-stratified deceleration capacity changed external CHF-versus-normal Brier loss by -0.00976 (joint source/target record bootstrap 95% [-0.02412, 0.00082]) beyond conventional HRV and DC/AC. Incremental benefit was not established in this exploratory dataset comparison.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "deceleration capacity",
+    "external validation",
+    "heart failure"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16714188/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/17411269/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804298/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
