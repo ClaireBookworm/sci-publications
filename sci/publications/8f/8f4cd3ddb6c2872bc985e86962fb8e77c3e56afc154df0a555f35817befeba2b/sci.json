@@ -1,0 +1,31 @@
+{
+  "title": "Multiscale signed heartbeat asymmetry does not establish robust incremental age prediction across two public collections",
+  "abstract": "Adding mean normalized cubic RR-increment asymmetry at lags 1, 2 and 4 to conventional HRV and low-order linear-dependence predictors reduced age-group transfer logloss by 0.021436 from Fantasia to NSR2 and 0.013373 in reverse. Source-and-target bootstrap 95% intervals were [-0.137972, 0.191465] and [-0.123578, 0.163397]. Sensitivity to recording duration, regularization and a single-lag asymmetry comparator prevents a robust incremental-biomarker claim. This is exploratory separate-collection transfer with historically reused data and unknown participant overlap.",
+  "keywords": [
+    "heart rate variability",
+    "time asymmetry",
+    "aging",
+    "cross-dataset transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1103/PhysRevLett.95.198102"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8898003/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
