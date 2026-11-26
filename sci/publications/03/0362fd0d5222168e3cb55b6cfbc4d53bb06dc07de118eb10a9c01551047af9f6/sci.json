@@ -1,0 +1,21 @@
+{
+  "title": "Reproducible BOLD findings in ReadyNeuro",
+  "abstract": "Which patterns in human BOLD fMRI recur across independent ReadyNeuro studies, and which apparent patterns come from acquisition, preprocessing or shared source scans? In one held-out source family, reused scans showed 99.917% less cortical lag-one disagreement than different-source pairs from the same protocol. The frequency of scan reuse across ReadyNeuro remains unknown. The charter maps supported findings, unresolved studies and proposed tests.",
+  "keywords": [
+    "ReadyNeuro",
+    "BOLD fMRI",
+    "reproducibility",
+    "provenance"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:4bc15ded3a6cbd09e4f9fb0b37942b7e572f7871b009574881c715b6911fce03"
+    }
+  ]
+}
