@@ -1,0 +1,381 @@
+{
+  "title": "Campaign: which non-coding DNA functions depend on the base sequence?",
+  "abstract": "Subcampaign of 'what does non-coding (junk) DNA do?'. It covers functions where a change of bases is predicted to change the function, tested either by selection signatures (fewer variants or substitutions than expected) or by measured effects of perturbation and natural variation. Findings so far: in humans, active non-conserved regulatory DNA carries a small share of the selection signal of conserved DNA yet is enriched for causal eQTLs; conservation calls overstate per-base selection; proposed RNA-structure, splice-site, small-ORF, G-quadruplex and nucleosome signals showed no selection of the strength seen at controls; insertion screens in fission yeast and Plasmodium find costs in about 7-12% of non-coding DNA, mostly in introns and just upstream of needed genes; several lncRNA claims did not hold. Each branch lists its papers, status and a proposed next test.",
+  "keywords": [
+    "non-coding DNA",
+    "research campaign",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:66a8d253046202fff45914d87b4a9736ac0aab7862bd8e1753b1e37ae0374d15"
+    },
+    {
+      "target": "sci:sha256:eb65b2ab7895dfff795230c26bc7e464a2045692813a2ef8287d69e571149fec",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Singleton excess of tier-0 cCREs is ~1.5-1.9% of the conserved non-coding excess under block-matched transposon controls (0.1-3.7% CI); with simple controls ~14%, close to Ward & Kellis 11.5%, and mappability and transposon age explain most of the difference. Flank negative controls deviate -7% to +7%, so true value is judged 2-7%; all non-conserved cCRE bases ~35-55 Mb conserved-equivalent vs 129 Mb claimed. Residual signal in young-transposon and CTCF-only tier-0 elements."
+    },
+    {
+      "target": "sci:sha256:9fea2b609cc5449ecc39ca27e36e3f6ba78d9ba8a71f226510b6a5765d2b3a3c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: After local composition matching, deletion-minus-substitution deficit: cCREs <=5% conserved +2.1 pp [1.2, 2.9]; no-conserved-base cCREs -1.8 [-3.7, -0.1]; CTCF-only +8.0 [5.8, 10.0]; coding frameshift control +45. Overall deficits ~2.0% [0.4,3.8] deletions and 2.0% [1.5,2.5] substitutions in no-conserved-base cCREs vs 42-69% in conserved non-coding. Systematic floor ~+-5 pp from repeats."
+    },
+    {
+      "target": "sci:sha256:d8b470cc340f626485ffdf91ac50dee5a39236466beaac28b545cc204fbc6942",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: 63% (CI 60-67%) of IC '+' calls are expected by chance (control points 3-20 kb away are near a peak 13.9% of time). Beyond chance, 8.0% (7.0-9.1%) of IC enhancers have open chromatin at the projected point vs 18.7% for directly conserved and 3.1% for non-conserved; chain-aligned IC (2,237) give 18.5% (same as DC), positional-only IC (7,925) give 5.0% (4.0-6.1%), and -2.7% to +3.2% under anchor-distance-matched nulls. Promoters show strong positional conservation (47.1% beyond chance)."
+    },
+    {
+      "target": "sci:sha256:04a7a4b121955cd1fd3b4b966e78a5a88f8d41b65af5f66f836e5ba9c100f213",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Active TE bases not mammal-conserved had a higher fraction of AF<0.1% variants by 0.097 pp (95% CI 0.069-0.124; 27.3M variants), about 6.7% of the missense-vs-synonymous effect; random split of inactive copies gave -0.004. About half remains when compared within the same 100-kb (+0.043, CI 0.022-0.064) or 1-Mb block (+0.051, CI 0.018-0.085); active segment vs its own flank +0.031 (CI -0.005 to 0.067, n.s.). Excess in enhancer-like/TF-bound cCREs, not DNase-only (-0.001) or CTCF-only (+0.029, n.s.); only AluY significant alone."
+    },
+    {
+      "target": "sci:sha256:af5831441480eac64dddb0615bab61e7ccc6dda23482ca7bbff6f75aa5ec4e31",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Marked copies had 5.6% fewer variant sites than unmarked (RR 0.944, CI 0.940-0.948), but flanks 0-5 kb away had the same deficit (0.942-0.944), so relative to flanks there was no extra deficit (1.001, CI 0.996-1.005). Conserved TE bases (positive control) had 14% fewer variants (0.863); position-level difference-in-differences and motif positions also null (1.002; 1.000). Replication of Du et al.: TE-derived enhancer-like cCREs no deficit (1.006, CI 0.965-1.053), CTCF-only cCREs small deficit (0.938, CI 0.883-0.997 at mappable non-CpG)."
+    },
+    {
+      "target": "sci:sha256:6f21710dfe405df3e983d215607b36720ed3df30140c6a22e370bfe8b7724a26",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Median excess +0.020 (primate) / +0.013 (mammal) phyloP per site, about 1-3% of a highly conserved site's score; grows with family age and is large in 12 ancient families (1.75% of copies). The authors state effects this size also occur as artefacts in their negative control; at A/T sites the excess turns negative in GC-rich, high-recombination regions, consistent with (not proven to be) GC-biased gene conversion."
+    },
+    {
+      "target": "sci:sha256:69ea33c89abf1818cae6b26c494d761a61bf094d569b15c75ed6d8048b7ce02c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Within genera the diversity deficit slope vs background diversity is +0.002 (-0.006 to +0.009) for the class and -0.002 (-0.010 to +0.006) for its transposon part, vs +0.048 predicted by the mouse weak-selection model; at most 5% of bases can carry s=2.5e-5 (5-20% over s 5e-6 to 2e-4). Positive controls (conserved non-coding +0.045, missense +0.041) show the rise. Exploratory +0.041 in GC-rich transposon-free elements (Holm p=0.13) is unresolved because context matching fails for GC-rich DNA."
+    },
+    {
+      "target": "sci:sha256:fde7b1f489459b407abfc248dc02ba23336ff4cc83a9d471409a69695e796f8f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Enhancer-like aligned non-conserved cCREs: D = 0.160-0.176 in mice vs 0.046-0.063 in humans (>=500 bp from conserved DNA: 0.118-0.145 vs 0.026-0.047). Within-mouse Ne trend modest (CAST minus GER 0.016, CI 0.000-0.032). A lower mouse mutation rate of 0.1-0.15 cannot be excluded."
+    },
+    {
+      "target": "sci:sha256:f1c6bca37ef65adbec63541fa6795438d06fb5256fe8ddb8c577d8cb468b13f0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: In strictly non-conserved old cCREs, flank-relative diversity loss D rises AFG 0.039, IRA 0.070, CAS 0.108 (human 0.009, CI -0.042 to 0.061); CAS-IRA +0.038 (0.029-0.048). With GC-conservative SNVs the signal shrinks (IRA -0.004, CAS 0.045) and musculus is negative. 69% of mouse cCREs called non-conserved contain bases conserved in deeper human alignments."
+    },
+    {
+      "target": "sci:sha256:5f2b4de8759c58949609f14f333be09ee3ed56eed5def67df9f9e1c5e5074ed5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: In 23.6M ancestral-repeat bases the realised conserved-call rate exceeds nominal by 1.9x at threshold 1, 5.9x at 2.27 and 39.9x at 4; the rate varies 11.4-fold (conserved) and 20-fold (accelerated) across 3-mer contexts. Accelerated-call rate rises 1.53-fold with recombination after context/GC standardisation (replicates on 447-way); conserved-DNA counts are robust to composition matching but not to the choice of neutral proxy."
+    },
+    {
+      "target": "sci:sha256:a8e07f60105cbd67e4db5364720897b55c30e5b7ccb889f74f7654c8190428e8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Conserved non-coding bases mutate less than usual controls (mammal-conserved 0.898, CI 0.873-0.923 vs control A; 0.971, CI 0.942-0.999 vs control B). After mutation-rate calibration the left-over deficit is 3.3% (1.0-5.3) at primate-specific and 4.5% (2.2-6.6) at mammal-conserved bases vs 25-48% at conserved coding; mutation rate explains ~2/3 of the deficit vs control A."
+    },
+    {
+      "target": "sci:sha256:09e71f6a53f4cb183379d7ad20eceb2326e05c61cdb38df2244ece34ad94987b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Score-matched neutral windows reproduce 72-92% of the singleton excess (intervals 39-141%) and 80-133% of the variant-site deficit of primate-only DHS cores; primate score selects low-mutation-rate DNA (neutral deficit rises from -2.4% to 10-13% with score). Per-base primate calls occur at 0.99x (0.98-1.00) the neutral rate in unannotated DNA and 1.15x (1.13-1.17) in cCREs. Positive control fails: same correction removes all signal from mammal-constrained M cores, so residual P-core signal is uninterpretable (sign design-dependent)."
+    },
+    {
+      "target": "sci:sha256:2979649e5dcb14145b8d371347404f186bf80034013c0d805e6c9da0c06c2b08",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Extra X deficit is 0.192 (0.167-0.222) at conserved missense sites but 0.018 (0.011-0.027) at conserved non-coding sites (0.006, -0.005 to 0.015 with neutral reference near genes); pre-registered test found non-coding not more recessive than missense. Models fit h~0.2-0.3 or 1-3% fully recessive bases; fully recessive subclass with cost >=0.03 limited to 3-7.5% of conserved non-coding bases; non-conserved cCREs allow fully recessive selection (cost >=0.001) at no more than 6-7% of bases (15-21% on singletons alone). Model attributes conserved non-coding autosomal deficit to mutation-rate drop (0.05-0.06) plus selection (0.048)."
+    },
+    {
+      "target": "sci:sha256:e672def1d7b4fa33e7ac391314145eb88cb350bde1a428959faff21b1272b363",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Selection index 0.11 (0.07-0.15) for dark constrained bases overall, vs 0.25 in DHSs and 0.55 coding; within 1 kb of exons dark = 0.29 (0.19-0.39), equal to DHS, but >1 kb from exons only 0.08 (0.04-0.12) vs 0.22 in DHS. Added cCRE v4/CATlas DNA far from DHSs is only 2.0-2.5% constrained (genome ~3%); fetal neural tissue is the exception (7.4-12.9%)."
+    },
+    {
+      "target": "sci:sha256:9d0f6d98c9e2639f20539e346e720187661c3e48ede01a558af6b8e181f713d4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Constraint C_D: never-open non-coding 0.53 (0.52-0.55; 29.1 Mb) vs open non-coding 0.66 and 4-fold synonymous 0.28; never-open conserved 0.82 (16.4 Mb) vs never-open non-conserved 0.16 (0.14-0.18); fully dark 0.48. About half of constrained non-coding sites are outside all maps (72% at ~79 experiments to 50% at 1,345, not saturated); mostly conserved DNA within 1 kb of peaks."
+    },
+    {
+      "target": "sci:sha256:8f0a2b205e77f1c63e76203862e5704112483e14f268e732bd41931e7ec70504",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: In 1-10 kb deletions, removing 512-2,047 conserved non-coding bases raises singleton probability by +8.3 (1.8-14.7) / +4.1 (1.3-6.9) points, comparable to deleting coding sequence of weakly constrained genes (+6.9 / +4.0). Non-conserved cCRE DNA of equal amount gives +2.0 (0.9-3.1) / +0.7 (-0.5-2.0) points (ratio to conserved 0.02-0.42, model-dependent). Element-free spacer DNA between validated enhancer and gene: +0.0 (-2.9 to 3.0); lncRNA exon extra bases +0.2 (-1.2 to 1.6)."
+    },
+    {
+      "target": "sci:sha256:234f62506ba53421d124d87c203b379a41b68b856f720700ee10166c8f0cfacf",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: UCEs are depleted vs neutral windows (deletions RR 0.60, 0.48-0.75; duplications 0.73, 0.56-0.95) but conservation-matched non-UCE windows are depleted similarly (0.64, 0.64); UCE vs non-UCE pooled 0.91 (0.61-1.36); all 8 pooled estimates 0.65-0.92 and non-significant. At 80% power only rate ratios <=0.56 are detectable, so a modest UCE-specific effect is not excluded."
+    },
+    {
+      "target": "sci:sha256:4b7673b9b5cdeb8a509fed422140f89a37d9948824a3f9a520855fb75a567a82",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: CNEs of lost genes had 20% more lineage substitutions (OR 1.20, 1.12-1.29; CNE-specific 1.16, 1.09-1.24) while the gene's coding sequence decayed phi=0.92 (0.81-1.02) vs CNE phi=0.09 (0.05-0.13); estimated share of CNE constraint lost f=0.098 (0.057-0.142; two-stage 0.038-0.160), ~87-90% retained. Neighbouring intact genes' CNEs show smaller excess (1.08); lost-vs-neighbour difference not significant (1.07, 0.98-1.15), so part may be regional. Excess 1.36 at disturbed-synteny loci vs 1.12 intact."
+    },
+    {
+      "target": "sci:sha256:6e1ab1d51f8171fbcf64e7becc017a4d80fa77f5929525152515bfa8265a1eb9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Watson-Crick pair-breaking vs pair-keeping SNV odds ratio (real/decoy) 1.000 (0.996-1.005) for non-coding CRSs; G-U pairs 0.956 (0.942-0.969), attributed to recurrent mutability, not selection. Extra pair-breaking loss limited to <~0.5%, but known RNAs show weak signal too (EvoFold on small ncRNA 0.84, miRNA bases 0.93), so power for single pairs is low."
+    },
+    {
+      "target": "sci:sha256:af0c2a3278a5990bc6e05b4f8cfc8537e1477a72fcd273bbf2adfbb34c889e11",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: At conserved CRS bases paired vs unpaired O/E ratio is 0.995 (0.977-1.014); pairing depletion in CRS is 0.9% (-1.7 to 3.8) vs 47% (14-66) in tRNA stems (positive control); EvoFold -3.7% (-20 to 11). Bound: at most ~7.5% of CRS pairs under tRNA-like selection, ~21% if selection is as weak as on conserved CRS bases. Pre-registered presence-of-allele outcome failed its own tRNA control; a derived-reference artefact was identified."
+    },
+    {
+      "target": "sci:sha256:0e3a73d4d8e7920854a3cb76f3e507ad5744cd15619da400dd8c9633d362bb57",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: lncRNA GT/AG depletion -0.2% (95% CI -2.3 to 1.7; 38,650 sites, 5,722 genes, chr1,10,11,part of 12) vs 54.3% at coding-CDS and 22.6% at UTR-intron splice sites; rare-allele -0.9%. Upper 95% bound: <=2.5% of sites under coding-like selection (about 10% with 4-pt systematic allowance). Exploratory post hoc: junctions used in >=1000 GTEx samples show 31% (5-55) depletion at AF 1e-3 to 1e-2."
+    },
+    {
+      "target": "sci:sha256:7376a36357816ce28662f49ef75e6aac59708989644747d1ce37be6e1e167642",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Frame-specific missense depletion was 0.004 (CI -0.006 to 0.016) vs 0.255 in canonical proteins <=150 aa: 1.7%, upper limit ~6% (11% vs proteins <=100 aa). Small signals only in ORFs <=50 aa (0.016) and 581 non-uORF ORFs with codon-like conservation (one-sided p=0.04, post hoc); about a third from codons beside start/stop and not significant without them."
+    },
+    {
+      "target": "sci:sha256:5a9f830a9f815c0e170ae5cc3156e6425017e57583a2acf8ed544840170b39a7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Raw 3'UTR/CDS substitution ratio 0.94 reproduces the 2018 result, but after removing CpG history and using O/E the ratio is 0.998 (0.985-1.012) in 20-way divergence, 1.017 (0.969-1.065) on the human lineage and 0.999 (0.991-1.006) in gnomAD. Expressed pseudogenes (TPM>=1) O/E 0.991 (0.954-1.028); intact MRE sites 0.972 (0.941-1.007), neither showing nor excluding a parent-sized deficit."
+    },
+    {
+      "target": "sci:sha256:eac6ec260df06486b728132989676c5438dc8e7f3c8f646a21debab815fe46b8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: 1,062 of 2,016 word pairs differ between strands at FDR 5% in protein-coding introns vs 0 in the intergenic null (split-half r=0.86), but the differences track strand-specific mutation plus recurrence (slope -6.4 +/- 0.7 vs about -35 expected for selection). Only ACGTAA passes the route test; new AATAAA shows no selection (D -0.14 pp, SE 0.08); deep-intronic splice-gain positive control +5.1 pp."
+    },
+    {
+      "target": "sci:sha256:ca11abbdb35f08733bee01a44af644349327b2b6801ae2326275e4af66a0a1a5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: With 3-base context, G4-breaking alleles look 29% depleted (R=0.71) but A-run controls show the same (0.67); with 7-base context no depletion (R=1.15, CI 1.13-1.17 for AF>=1e-4; 1.02 for ape substitutions). Control-corrected C ranged 0.81-1.14, median 1.01 across 9 designs; a G4-specific 20-25% depletion cannot be excluded."
+    },
+    {
+      "target": "sci:sha256:809b233c92ad98412186497c9d33755320b22b8a4ce6ac1d04f8be3ff5c76825",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Naive selection index looks like selection (SI -0.035 +-0.008 at dAF>=0.5%, -0.256 +-0.016 >50%; substitutions -0.386), but arises from map conditioning: alleles carried by donors of one map show SI -0.068 only on their own map (+0.002 +-0.014 on the other). Selection coefficient bound sigma<1.8e-6 (95%; 4Ne*sigma<0.1). GC-barrier statistic -0.082 +-0.013 on hg38 vs +0.012 +-0.014 on ancestral sequence."
+    },
+    {
+      "target": "sci:sha256:74358334abb24eb37da542cd93d3c7682f57ceba7bb7f0c7a134f4e9fb25320e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Level-1 motif gains were not different from shuffled-motif gains: singleton test +0.04 pp (CI -0.23 to +0.30), depletion -0.018 pp (CI -0.078 to +0.043), excluding effects >~10% of splice-site excess or ~37-39% of conserved-site signal; strong gains imprecise. Motif losses showed signal (+0.20 pp singleton, CI +0.05 to +0.35; depletion -0.062 pp), ~1/4-1/3 of conserved-site level, suggesting some constrained TF sites outside cCREs."
+    },
+    {
+      "target": "sci:sha256:e506f19c9b51e02b2be3dc814e2ac9811d4eca899ef1979e0de077ad3eb7d633",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Gain minus loss derived-allele-frequency difference in non-functional DNA is -0.0030 (SE 0.0043, p=0.48; 7,062 raQTLs), about 0.32x (-0.58 to 1.29) the missense-minus-synonymous yardstick; excludes differences >~1.3x missense size, but a missense-sized effect is not excluded (power 0.59). No robust signal in DHS/promoter DNA either. Published raQTL gain fraction varies 0.36-0.85 with donor genotype configuration, and the SuRE44 lib2 labelled HG01241 contains NA18983 DNA."
+    },
+    {
+      "target": "sci:sha256:450d11be83e3d6109dc93dee4dc9b8301250402c33b9c676639b4dd25f4f59f1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Non-CpG DNM rate ratio expressed vs silent lincRNA bodies 1.05 (0.97-1.14; 5,539 DNMs); 1000G singletons 1.00 (0.985-1.011); together exclude reduction >~3%. CpG sites unresolved (0.90, 0.78-1.04). Strand mark present: T>C coding/template ratio 0.78 (0.76-0.80) in expressed, 0.94 silent, 1.00 intergenic; with DNMs 0.80 vs 0.82 (does not separate groups)."
+    },
+    {
+      "target": "sci:sha256:68c2aa00432d718e74538778d4c2d0e933c8c1ea356b7f08fc4c56f23b9fff9d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: 75% of published native start sites are within 1 kb of gene starts and 19.5% in cCREs; only 0.21% (0.64% held-out chromosomes) in background DNA. Outside promoters/exons/conserved elements native/4-mer-shuffle ratio is 1.21 (0.86-1.75) for clusters and 1.30 (0.98-1.72) for total signal, vs ~400x against reversal and 3.6x against dinucleotide shuffle. Model over-predicts cCRE initiation on training chromosomes (~15% inflation). Measured GRO-cap background start sites are ~0.5-0.6% and not more conserved than matched DNA (phyloP diff +0.003, -0.007 to +0.014)."
+    },
+    {
+      "target": "sci:sha256:e0ce3298e0b56a10309c99ad1e98bee0e92cc166b5435c62ab7a2e93ce598e5d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Gapped HAQER human-lineage divergence 5.04x random (4.81-5.27), chimp-lineage 2.95x (2.77-3.16), polymorphism 1.70x; in 479 clean HAQERs human-specific excess 2.62x (2.40-2.86) over chimp lineage, 1.4-2.1x after winner's-curse correction. Placebo chimp-selected windows give published D/P of 2.56 (2.40-2.73), falling to ~1.25 on held-out halves. Fixed-site polymorphic share 7.6% vs 12.2% random (0.62x), ratio 0.65 (0.58-0.72) after stratification. Cannot separate positive selection from old neutral burst (e.g. PRDM9 hotspot, gBGC)."
+    },
+    {
+      "target": "sci:sha256:89f75c79ea5e42c643ec9c632000904759a43b1fca9604cb02eabf35ce5ae3e2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Conserved-equivalent fraction of tier-0 cCREs was -0.06 (Fieller CI -0.39 to 0.24) by S-LDSC, upper limits 0.14-0.27 across six models, -0.04 (-0.10 to 0.02) by fine-mapping at 5,324 loci; tier-2 (conserved) cCREs 12.0x enriched. Same pattern as trait heritability (difference 0.06, SE 0.14)."
+    },
+    {
+      "target": "sci:sha256:d5da437a6fb3ecd277fa4d45ffd52d0b20c8bc86f710f4597f237009739852d0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Real trait gives more strong associations than ~96% of placebo traits (P~0.04); the 21 discoveries have median |t| 5.1, falling to 3.1 without human and 1.8 without human and cetaceans (4/21 keep t>3), vs 4.3 after removing 12 other influential species. Without human, top-N lists in Euarchontoglires vs Laurasiatheria agree in sign in 40-47% (placebo P 0.55-0.97). One region upstream of Mir9-1 replicates in both clades (t=5.1, 4.1; P 0.014-0.019), found post hoc."
+    },
+    {
+      "target": "sci:sha256:3bda8d30259fe755605e719c4d5838b4265e8de331ce655a771bdd4eb564a3bc",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Gene-linked share of insertion depletion: introns 1.10 (1.05-1.15), 5'UTR 0.14, 3'UTR 0.10, 300nt upstream 0.08, lncRNA/ncRNA 0.01 (-0.06-0.07), other intergenic 0.01 (-0.10-0.12); weighted 15.5% (12.9-19.0) of non-coding DNA within 1 kb of genes. Time-resolved: established 2019-S2 non-coding insertions fell 0.12x (0.03-0.19 per culture) as fast as slow-growth gene insertions vs ~7x predicted if the density deficit were all cost."
+    },
+    {
+      "target": "sci:sha256:c0893ef4b28bd1149025047c481b39e70fd380849b8d258c6d9d0989898b1386",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Retention ratio in all non-coding DNA is 0.933 (0.862-1.042) vs 0.498 for essential-gene coding DNA; HMM-depleted non-coding 0.945 (0.886-1.016). Best estimate 7.5-12% of non-coding bases carry gene-sized costs (95% upper bounds 18-27%), mostly in introns of essential genes (RR 0.512); intergenic 0.921, 3'UTR 0.981."
+    },
+    {
+      "target": "sci:sha256:b9d97af4d09f71c2fcfe77c7117d075fbbd1ae490e1b844597571139d2e550a0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: The placebo contrast (genes not needed) returns 8.05% of non-genic sites 'under selection' vs 10.74% in the real contrast. Corrected, 5.58% (3.18-8.62%) of non-genic DNA, nearly all within ~1 kb upstream of needed genes (0-100 bp shortfall 0.67, 0.51-0.82), plus introns (25.7%); total 1.22 Mb, 9.7% of non-coding DNA, 5.0% of the genome. Shortfall behind genes (0.11, -0.25 to 0.47) does not survive."
+    },
+    {
+      "target": "sci:sha256:e6abf71b0321c520bad623b4399ed691e3951f3777a6ff97073e87c4a33b4ed2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Defect in >=1 assay: 8.7% of tested intergenic regions vs 18.7% (16.8-20.4) of gene segments with matched insertion counts (ratio 0.46). 80-82% of defect calls in promoter-side regions co-occurred with a nearby gene defect; insertions 0-25 bp upstream of start gave 56% (46-65%) of knockout effect (opposite strand) vs 31% (same strand). Gene-independent replicated defects in 0.16% (0.09-0.24; 83 regions), within the range of noise nulls (3 to 78 expected)."
+    },
+    {
+      "target": "sci:sha256:067a087f862afef6b191ac07374ea7a6960fe537e35584a2ab2d44d6681233eb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Pooled UTR/intron/flank mutations (13.7 Mb) have lethal-equivalent fraction f=0.00 (-0.04 to 0.06) relative to nonsense=1; canonical cis-splice sites f=0.49 (0.34-0.63); trans-splice junctions (post hoc) 0.39 (0.12-0.61); accessible promoters -0.03 (-0.11 to 0.04), enhancers 0.02 (-0.06 to 0.10); minimum detectable f 0.07-0.19 per class."
+    },
+    {
+      "target": "sci:sha256:6938f7b562d1d6ef17ae0073210517c7f71a07afadc7f5affd8002be8d577c47",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Pool depletion vs 2025 single-strain growth: Spearman -0.07 (95% CI -0.22 to 0.08; n=173). Splicing change predicts single-strain growth (Spearman -0.41, P=8e-8 outside ribosomal-protein genes) but not pool loss (50% of 58 UpSIes vs 55% of 33 DownSIes). Pool loss varies 0-80% by gene group (permutation P=0.0004) while single-strain growth does not (KW P=0.66)."
+    },
+    {
+      "target": "sci:sha256:a6399f0c08daa69ba94c61b2ac53b5a7853b25d9aa970d6758e65b3c29ed58a9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Validated (n=545) vs negative (n=3,735) elements differ little in constrained bases (6.6% vs 5.8%; adjusted +1.2 pts, p=0.050; +1.8 pts only after adding DHS breadth as post hoc covariate). Constraint of positive elements rises with target s_het (Spearman 0.28, p=2e-11); DHS breadth explains more variance (R2 gain 0.029) than CRISPRi status (0.001); gnomAD-SV deletions 27% fewer at positives (p=0.02, uncorrected); Gnocchi shows no group difference."
+    },
+    {
+      "target": "sci:sha256:1756317efc9cb8867e6155ed6462d9e23c7e951e839c914966a72586b3f39014",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: 132/226 (58%; 49-68%) show a defect: 73% in single-deletion papers vs 41% in multi-enhancer papers (OR 3.8, 1.8-7.8; 73% vs 53%, OR 2.3, 1.2-4.4 without three redundancy-dissection papers). Conservation not detectably linked (OR 1.06, 0.74-1.51 per SD phastCons; 1.18, 0.75-1.84 phyloP; tertile rates 52/60/59%), with ORs up to ~1.7-1.9 not excluded. Loss of target expression strongly linked (71% vs 12%, OR 18, 5-56)."
+    },
+    {
+      "target": "sci:sha256:664c3bee776d0388a6d881ae48e3200b7e12a2818759d43252654f8fba1669b5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Per-peak effect on probability of response (mean 2.1%): promoter conserved +0.146 pp (0.065-0.221) vs non-conserved +0.029 (-0.060-0.142); difference -0.117 (-0.23 to +0.02; P=0.07) in the pre-specified main model; significant only in strongest-signal third and down-regulated subsets. Distal (10-100 kb) both classes null (upper limit ~0.07 pp). Placebo TF-swap gives 0.000. ENCODE bulk knockdown replication found no binding effect in any class with opposite point-estimate order."
+    },
+    {
+      "target": "sci:sha256:8308b0567814e9a9982209a87e7ed9d192a1ca0950c50a6bf29fba1a2b0f9843",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: A variant in tier-0 cCREs is 1.60 (GTEx; 1.46-1.77) / 1.54 / 1.37 times as likely to be the causal eQTL as other non-coding variants (tier-2: 4.41/3.13/2.47) and 1.30 (0.94-1.70) for disease; non-conserved share R of excess 0.17-0.25 (eQTL), 0.11 (-0.03-0.24) disease. This is ~5-15x the selection share (1.5-1.9%) from the companion study, i.e. expression effects with little fitness effect. Broadly open promoter-proximal tier-0 cCREs are as enriched as tier 2; narrow distal tier-0 (78%) show no GTEx excess (-0.1%, -1.1 to +0.8)."
+    },
+    {
+      "target": "sci:sha256:dda77b70249a8a4d24d4705c0d859a99f04c54465eb85a300b123fd359a35bc5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Tier-0 cCRE odds of being a causal trait variant OR 1.66 (1.19-2.14) vs non-conserved non-cCRE DNA (conserved classes 3-40x); 72% of tier-0 is TE and without repeat covariate OR was 1.04 (0.88-1.19, mean-PIP rule). Conserved-equivalent fraction for traits ranges 1.7% to 34% depending on yardstick (selection-based estimate 1.5-1.9%); eQTL OR for tier-0 2.03 (1.88-2.18)."
+    },
+    {
+      "target": "sci:sha256:d2d00c41fb2b053bba0b7d1179b5fdf4a9e420e836c95e052bc1d075ef42ad44",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: lentiMPRA: TE-derived tiles active 46.0% vs 38.4% (adjusted OR 1.54, 1.37-1.72; LTR 2.06). CRISPRi: TE-derived positive 3.7% vs 4.7%, adjusted OR 0.83 (0.60-1.17, p=0.29); 0.95 (0.68-1.33) with gene type; pooled with held-out cells 0.96 (0.70-1.31). The authors call the main CRISPRi estimate inconclusive."
+    },
+    {
+      "target": "sci:sha256:5176448a5def1b728e21f47d55e23dc1e2bfb3634b9f47001864b7690992cac1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Within genes (3,071 pairs, 147 genes) active DNA 1-10 kb away OR 2.0 per IQR (1.1-3.6), separate DNase elements OR 1.5 (1.0-2.1), super-enhancer OR 2.2 (1.2-4.2), mostly from 21 tiled genes; across all pairs the same terms are 0.58 (0.44-0.75), 0.98, 0.98 because promoter-dense regions have fewer enhancers (OR 0.43 per IQR). Removing the published sumNearbyEnhancers feature changes held-out AUPRC by +0.003 (-0.005 to 0.012)."
+    },
+    {
+      "target": "sci:sha256:b83b722b4f77b763455bd31af80ec12ef773be05564e75c0687b9a4d9ffbc4d7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Single-line calls: 626 observed vs 521 expected from controls (false-discovery proportion 0.83, 0.74-0.93); calls in >=2 lines: 138 vs 42 expected (FDP 0.32). About 198 (126-271) of 764 gene-level calls supported; only 33 survive BH q<0.05. Single-line calls do not replicate in CasRx (OR 1.2, P=0.62); multi-line do (OR 4.8). Enrichment concentrates in small-RNA host loci (snoRNA/miRNA hosts); after removing them, conserved-base excess at q<0.05 set is n.s. Published age-conservation claim shrinks (OR 1.92 -> 1.29 -> 1.19 after expression and guide-count adjustment). Guide count per gene confounds call rate 160-fold."
+    },
+    {
+      "target": "sci:sha256:6011854fb759ee84ba35535942b2751ef7da7e47722017524496b4b218272107",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Median sponge fraction f is 3.0e-5 for 805 claims naming a cell line; 0 reach the 12% threshold, 5 (0.6%) reach 2.8%, 20 (2.5%) reach 0.9% (a deliberately generous construct). MALAT1, PVT1 and RMRP are under-counted by poly(A) RNA-seq, so many MALAT1 claims could approach thresholds. In 40% of claims the lncRNA is <1 TPM in every named line."
+    },
+    {
+      "target": "sci:sha256:d465f5c3919d0bd72671564a4fe7b9f0e1281f4cb41242f9234ad846999d0484",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: 21 of 77 non-imprinted, non-host lncRNAs (27.3%, CI 18.6-38.1%) copy the neighbour's phenotype (top 5%) vs 8.8% for protein-coding gene pairs (Mantel-Haenszel OR 3.4, CI 2.0-5.8, p=2e-6). Excess is concentrated in lncRNAs named after the neighbour (46.4% vs 16.3%, p=0.007); intragenic miRNAs copy their host at 26%, so copying does not prove cis action."
+    },
+    {
+      "target": "sci:sha256:ae4e2cfec0033b641243b1e35b4d4dad342a11edb4613947b64d5466de9b3d50",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: lncRNA KO resembled named genes on other chromosomes (0.803, CI 0.739-0.860, n=33) almost as much as named genes within 1 Mb (0.841, CI 0.758-0.913, n=29); paired difference -0.015 (-0.20 to +0.14, 9 loci). Regulatory-region KOs: 0.904 near vs 0.780 elsewhere. Unnamed lncRNA KOs resembled nearest gene above baseline (+0.086, CI +0.010 to +0.163) but not clearly above microRNA KOs."
+    },
+    {
+      "target": "sci:sha256:3bbf04a7940d133b8f3610d2a90b93fd8d34ba87e9d5154e464bb2571bab691f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Claimed loci drop out more than expression-matched controls (Cas13d, 186 pairs: mean percentile 0.435, CI 0.389-0.482; 2.2x expected hits), but claimed direction does not predict the outcome (difference -0.012, CI -0.102 to +0.078). lncRNA claims are not weaker than protein-coding claims (-0.017, CI -0.086 to +0.053; with the abstract's cell line -0.134, CI -0.252 to -0.013, driven largely by MALAT1). Authors say the screens cannot be shown to test claim truth, and the data cannot exclude full directional validity."
+    }
+  ]
+}
