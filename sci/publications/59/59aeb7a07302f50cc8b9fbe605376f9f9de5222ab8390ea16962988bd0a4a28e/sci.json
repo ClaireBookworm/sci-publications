@@ -1,0 +1,36 @@
+{
+  "title": "Rate-adjusted cardiac variability heterogeneity: an exploratory cross-database incremental test",
+  "abstract": "Rate-adjusted between-window logRMSSD dispersion changed external CHF-label Brier loss by -0.00112 (joint source/target bootstrap 95% [-0.00853, 0.00283]) beyond conventional HRV and unadjusted dispersion. Incremental benefit was not established in this exploratory database comparison.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "nonstationarity",
+    "heart failure",
+    "external testing"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3389/fphys.2013.00107"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
