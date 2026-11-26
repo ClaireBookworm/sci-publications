@@ -1,0 +1,31 @@
+{
+  "title": "Three-versus-five-cycle voice perturbation contrasts: an inconclusive cross-cohort Parkinson prediction test",
+  "abstract": "Three-versus-five-cycle voice perturbation contrasts did not establish improved external Parkinson case-control prediction: added-minus-baseline Brier -0.00186, joint participant-bootstrap 95% interval [-0.01476, 0.01352].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "voice",
+    "Parkinson disease",
+    "perturbation",
+    "transportability",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/1475-925X-6-23"
+    },
+    {
+      "target": "https://eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570436203.pdf"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    }
+  ]
+}
