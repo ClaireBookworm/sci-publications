@@ -1,0 +1,56 @@
+{
+  "title": "Calcium\u2013phosphate coupling does not establish incremental pulse-pressure prediction across NHANES cycles",
+  "abstract": "Across separately recruited NHANES2011\u201312 and2013\u201314 complete-case adults, a source-trained calcium\u2013phosphate interaction changed target weighted MSE by -0.045452mmHg\u00b2 (baseline-minus-augmented; positive is improvement), with joint source-refit/target rescaled-PSU bootstrap95% interval [-1.118442,0.628282]; incremental prediction is not established.",
+  "keywords": [
+    "NHANES",
+    "pulse pressure",
+    "calcium",
+    "phosphorus",
+    "external-cycle validation",
+    "negative result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/18760141/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25562577/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BIOPRO_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2013/DataFiles/BPX_H.htm",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/d591c379714331783527c9ca310f1930132cc085614e2ec95984bf1d51102f30",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
