@@ -1,0 +1,38 @@
+{
+  "title": "Source-key matched BOLD runs show over 99.9% less disagreement in two accession families",
+  "abstract": "We compared whole-run cortical median lag-one correlation across source-key matched ReadyNeuro runs and different-source-label pairings in the same protocols. Three V4 participants were discovery data. A frozen test used five narrative participants from an accession-disjoint source family. Mean shared-pair disagreement was 0.00001474 and 0.00002717, versus off-diagonal disagreement 0.03795775 and 0.03263924. Relative reductions were 99.961% and 99.917%. The held-out source pairing minimized disagreement over all 120 label permutations. Its conditional subject-bootstrap reduction interval was 99.544% to 99.962%. Seven of eight derivative arrays were byte-different. Four source-image downloads verified two raw source pairs against annex hashes. No common raw BOLD/T1 pointer blobs were found across source families. Source participant tables and a certified alias map were absent. This is a finite selected-scan measurement finding, not a corpus-wide bias estimate, causal reuse effect, or neural-activity claim. Person stability and exact-scan reuse remain inseparable here. Code, scalar features, plans, provenance and author reruns are included.",
+  "keywords": [
+    "BOLD",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "data overlap",
+    "provenance",
+    "autocorrelation"
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41467-024-46150-w"
+    },
+    {
+      "target": "doi:10.1038/nn.4135"
+    },
+    {
+      "target": "doi:10.1038/s41467-025-59101-w",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.7554/eLife.99997",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
