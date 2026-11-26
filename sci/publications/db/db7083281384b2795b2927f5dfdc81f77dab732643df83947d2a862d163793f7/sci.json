@@ -1,0 +1,34 @@
+{
+  "title": "Two-beat cardiac memory yields calibration-sensitive age-transfer gains without improved discrimination",
+  "abstract": "Lag-two partial RR correlation reduced age-group transfer logloss beyond conventional HRV and lag-one correlation by 0.102723 from Fantasia to NSR2 and 0.137063 in reverse. Source-plus-target bootstrap intervals included zero ([-0.189584,0.382388] and [-0.001724,0.446466]); AUC fell slightly in both directions. Calibration diagnostics and regularization sensitivity prevent a robust incremental-biomarker claim. This is exploratory separate-collection analysis, not untouched or verified participant-disjoint confirmation.",
+  "keywords": [
+    "heart rate variability",
+    "partial correlation",
+    "age",
+    "transport",
+    "calibration"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/9502641/"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5144723/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8898003/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
