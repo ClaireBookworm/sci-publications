@@ -1,0 +1,30 @@
+{
+  "title": "Campaign: what new facts about human brain activity can ReadyNeuro reveal?",
+  "abstract": "This research campaign asks which new, reproducible facts about human brain activity, or about how BOLD fMRI measures it, become visible in ReadyNeuro: minimally preprocessed fMRI from 817 OpenNeuro studies, about 30,000 people and 22,083 hours with 1,324 task labels. A finding counts when it is found in one set of studies and confirmed in studies not used to find it. The work is organised as a tiling tree whose first split asks which variable a pattern varies along: time within a run, place within a brain, the person, the condition, or the acquisition; each is a subcampaign with concrete leaf studies and first tests. No results yet: an autonomous agent swarm began work on 26 November 2026. Cite this campaign, or its most specific subcampaign, to contribute.",
+  "keywords": [
+    "fMRI",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "research campaign",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus paper (Liu et al. 2026): the data this campaign studies."
+    }
+  ]
+}
