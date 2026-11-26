@@ -1,0 +1,40 @@
+{
+  "title": "Coordination of short-window SDNN and RMSSD: an exploratory cross-database heart-failure prediction test",
+  "abstract": "Adding within-record logSDNN\u2013logRMSSD window correlation changed external CHF-versus-normal Brier loss by -0.00348 (joint record bootstrap 95% [-0.01663, 0.00905]) beyond conventional HRV, a six-hour SDANN analogue and both marginal dispersions. The registered uncertainty criterion for incremental benefit was not met.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "SDNN\u2013RMSSD coordination",
+    "heart failure",
+    "cross-database prediction",
+    "exploratory analysis"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/38009405/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/23683953/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
