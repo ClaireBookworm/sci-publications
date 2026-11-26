@@ -1,0 +1,24 @@
+{
+  "title": "Campaign: ReadyNeuro, patterns along time within one run",
+  "abstract": "Subcampaign of 'what new facts about human brain activity can ReadyNeuro reveal?'. Scope: Patterns that vary with time inside a single run, with no external labels. How it splits: Is the pattern's timescale under 20 s (one hemodynamic response and faster) or 20 s and longer (state changes, drift)? It holds 3 leaf studies with first tests (rare-transients, physio-from-bold, time-in-scan). No results yet.",
+  "keywords": [
+    "fMRI",
+    "ReadyNeuro",
+    "research campaign"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e"
+    }
+  ]
+}
