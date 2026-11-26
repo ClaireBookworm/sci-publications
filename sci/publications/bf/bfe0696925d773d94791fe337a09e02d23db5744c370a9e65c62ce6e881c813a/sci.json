@@ -1,0 +1,32 @@
+{
+  "title": "Repeated-phonation jitter\u2013shimmer correlation does not establish better cross-cohort Parkinson prediction",
+  "abstract": "Within-person log-jitter/log-shimmer correlation across three phonations did not establish improved external Parkinson classification beyond acoustic means and separate dispersions: Brier difference +0.00111, joint participant-bootstrap95% interval [-0.00985, 0.01562].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "voice",
+    "Parkinson disease",
+    "repeated measurements",
+    "correlation",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3051371/"
+    },
+    {
+      "target": "https://eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570436203.pdf"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    }
+  ]
+}
