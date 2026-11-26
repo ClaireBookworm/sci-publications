@@ -1,0 +1,30 @@
+{
+  "title": "Harmonic-noise discordance does not improve exploratory cross-cohort Parkinson voice prediction",
+  "abstract": "Squared harmonic-noise discordance did not establish improved Parkinson prediction from Oxford UCI174 to independent Istanbul UCI301: external Brier change 0.002316, joint bootstrap95% interval [-0.009562, 0.042714]. Both datasets were previously explored; this is not untouched confirmation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "harmonic-noise discordance",
+    "Parkinson",
+    "cross-cohort prediction",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    },
+    {
+      "target": "https://doi.org/10.1109/JBHI.2013.2245674"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/174/parkinsons"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/301/parkinson+speech+dataset+with+multiple+types+of+sound+recordings"
+    }
+  ]
+}
