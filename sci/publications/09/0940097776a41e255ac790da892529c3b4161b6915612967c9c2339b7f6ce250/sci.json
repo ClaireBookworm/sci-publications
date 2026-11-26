@@ -1,0 +1,43 @@
+{
+  "title": "Within-band heartbeat spectral entropy does not establish incremental cross-database CHF prediction",
+  "abstract": "Adding within-HF-band RR spectral entropy changed external CHF-versus-normal Brier loss by -0.00204 (source-and-target record bootstrap 95% [-0.01337, 0.00465]) beyond time-domain HRV and LF/HF powers. Incremental benefit was not established; target entropy permutation produced similar apparent improvements.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "spectral entropy",
+    "external validation",
+    "negative result",
+    "congestive heart failure"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1103/PhysRevE.79.011915"
+    },
+    {
+      "target": "https://arxiv.org/abs/0810.1404"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
