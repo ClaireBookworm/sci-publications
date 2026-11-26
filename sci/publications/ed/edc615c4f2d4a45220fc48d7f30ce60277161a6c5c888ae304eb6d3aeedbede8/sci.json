@@ -1,0 +1,43 @@
+{
+  "title": "Multibeat cubic heartbeat asymmetry: an exploratory incremental cross-database prediction test",
+  "abstract": "Adding a four-minus-one-beat normalized cubic RR-increment contrast changed external CHF-versus-normal Brier loss by -0.00946 (source-and-target record bootstrap 95% [-0.02370, 0.00410]) beyond time-domain HRV and single-scale asymmetry. The registered incremental prediction criterion was not met; this study does not establish added predictive value.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "time irreversibility",
+    "cubic moments",
+    "external validation",
+    "exploratory analysis"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1152/ajpheart.1998.275.5.H1577"
+    },
+    {
+      "target": "https://doi.org/10.1007/s10558-007-9049-1"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19324713/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
