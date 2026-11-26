@@ -1,0 +1,37 @@
+{
+  "title": "Short-lag heartbeat magnitude persistence does not establish incremental heart-failure prediction across Holter databases",
+  "abstract": "Adding non-overlapping lag-two absolute RR-increment correlation to short-window HRV improved the external Brier point estimate by 0.00733, but uncertainty crossed zero (added-minus-baseline -0.00733; joint bootstrap95% [-0.02752, 0.01474]) and penalty sensitivity reversed its direction.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart rate variability",
+    "heart failure",
+    "magnitude correlation",
+    "cross-database transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1103/PhysRevLett.86.1900"
+    },
+    {
+      "target": "https://www.escardio.org/static-file/Escardio/Guidelines/Scientific-Statements/guidelines-Heart-Rate-Variability-FT-1996.pdf"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
