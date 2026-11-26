@@ -1,0 +1,36 @@
+{
+  "title": "Recurrence\u2013fractal interaction in Parkinson voice classification: an inconclusive cross-cohort test",
+  "abstract": "Adding an RPDE\u2013DFA interaction beyond additive acoustic markers and quadratic marginals did not establish improved external Parkinson classification: Brier difference +0.00373, joint participant-bootstrap95% interval [-0.03422, 0.05424].",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "voice",
+    "Parkinson disease",
+    "RPDE",
+    "DFA",
+    "interaction",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1186/1475-925X-6-23"
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3051371/"
+    },
+    {
+      "target": "https://eurasip.org/Proceedings/Eusipco/Eusipco2018/papers/1570436203.pdf"
+    },
+    {
+      "target": "https://doi.org/10.24432/C59C74"
+    },
+    {
+      "target": "https://doi.org/10.24432/C5701F"
+    }
+  ]
+}
