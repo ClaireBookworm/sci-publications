@@ -1,0 +1,43 @@
+{
+  "title": "Relative timing of daily heart-rate and RMSSD rhythms does not improve exploratory heart-failure transfer across Holter databases",
+  "abstract": "Adding the signed sine of the 24-hour harmonic phase lag between log mean NN and log RMSSD changed external heart-failure-label Brier loss by +0.00025 (joint bootstrap 95% [-0.00253, 0.01074]); incremental predictive benefit was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart rate variability",
+    "harmonic phase",
+    "heart failure",
+    "external transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1253/jcj.64.39"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/3950244/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
