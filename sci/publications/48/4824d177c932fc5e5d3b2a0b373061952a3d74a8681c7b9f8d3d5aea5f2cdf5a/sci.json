@@ -1,0 +1,67 @@
+{
+  "title": "Signed stride shocks and subsequent variability: an inconclusive cross-collection Parkinson gait assessment",
+  "abstract": "Signed stride-change/next-magnitude coupling had exploratory external logloss change -0.022592 from gaitpdb (162 IDs) to gaitndd (31 IDs), but joint source-refit/target-bootstrap95% [-0.11110771149744891, 0.039941413017950934] included no improvement; incremental Parkinson classification value is not established.",
+  "keywords": [
+    "gait",
+    "Parkinson disease",
+    "directional volatility",
+    "exploratory transfer",
+    "inconclusive result"
+  ],
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1016/j.humov.2023.103152",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C24H3N",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.13026/C27G6C",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/view-license/1.0.0/",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://sciscape.io/p/1d0e2ca3e4aaa149b7f69f16dfa600ce6c193cc709f66fcb87d8dc47a12d0c85",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
