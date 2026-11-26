@@ -1,0 +1,41 @@
+{
+  "title": "Raw bioimpedance frequency dispersion gave an uncertain, small hemoglobin prediction gain across two NHANES cycles",
+  "abstract": "In complete-case NHANES2001\u20132002 adults20\u201349 (n1784), adding log(R5/R200) to a model trained in NHANES1999\u20132000 (n1507) improved weighted hemoglobin MSE by 0.004201(g/dL)^2; joint stratum-PSU-refit95% interval[-0.008048,0.012900] crosses zero. This does not establish reliable predictive gain beyond 50kHz phase angle, impedance index and covariates.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "bioimpedance",
+    "hemoglobin",
+    "frequency dispersion",
+    "NHANES",
+    "external validation",
+    "uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/37057050/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8068989/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/BIX.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BIX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LAB25.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/L25_B.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
