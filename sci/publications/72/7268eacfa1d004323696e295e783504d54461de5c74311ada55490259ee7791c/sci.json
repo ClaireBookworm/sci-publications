@@ -1,0 +1,24 @@
+{
+  "title": "Campaign: ReadyNeuro, patterns along the person",
+  "abstract": "Subcampaign of 'what new facts about human brain activity can ReadyNeuro reveal?'. Scope: Differences between people. How it splits: Is the person variable a recorded label (age, sex, from the manifests) or measured from the person's own images (anatomy from the T1 and segmentation in each shard)? It holds 2 leaf studies with first tests (age-dynamics, anatomy-function). No results yet.",
+  "keywords": [
+    "fMRI",
+    "ReadyNeuro",
+    "research campaign"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e"
+    }
+  ]
+}
