@@ -1,0 +1,36 @@
+{
+  "title": "Does RR-increment energy concentration transfer beyond conventional HRV? An exploratory CHF-label test",
+  "abstract": "Adding RR-increment energy concentration to seven conventional HRV summaries changed external CHF-label Brier loss by -0.00108 (joint bootstrap 95% [-0.01274, 0.02104]). Incremental benefit was not established in exploratory external testing.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "increment concentration",
+    "heart failure",
+    "external testing"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1002/ehf2.14593"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
