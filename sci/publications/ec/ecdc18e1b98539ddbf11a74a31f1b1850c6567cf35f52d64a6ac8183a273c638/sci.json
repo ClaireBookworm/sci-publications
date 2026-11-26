@@ -1,0 +1,37 @@
+{
+  "title": "Does tie-aware stride ordinal entropy transfer beyond standard gait summaries? An exploratory Parkinson-label test",
+  "abstract": "Tie-aware three-stride ordinal entropy changed external Parkinson-label Brier loss by -0.01350 (joint bootstrap 95% [-0.05672, 0.01071]); incremental benefit was not established, and both models performed worse than a source-prevalence constant.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "gait",
+    "ordinal entropy",
+    "Parkinson disease",
+    "external testing",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.3390/s20092631"
+    },
+    {
+      "target": "https://www.sciencedirect.com/science/article/pii/S1746809416301239"
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
