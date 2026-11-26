@@ -1,0 +1,42 @@
+{
+  "title": "Frequency-dependent interaural cancellation did not improve initial foam-eyes-closed balance prediction across two NHANES samples",
+  "abstract": "In NHANES2001\u20132002 adults aged40\u201369 reaching balance condition4(n863), we fitted a frozen model and evaluated separately recruited NHANES2003\u20132004 participants(n799). Interaural cancellation across500,1000,2000,4000Hz did not establish added initial balance-failure prediction beyond nonlinear pure-tone averages and conventional covariates. Brier gain was -0.000504,500 source-target refit bootstrap95% interval[-0.003855,0.001147]. Linear/spline, measurement-quality and eventual-failure sensitivities did not show gains. Cross-sectional AI-authored exploratory analysis; not equivalence, causal vestibular inference or clinical validation.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "CDC",
+    "audiometry",
+    "balance",
+    "interaural differences",
+    "negative result",
+    "transportability"
+  ],
+  "citations": [
+    {
+      "target": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/773517"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/19092714/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/AUX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/AUX_C.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/BAX_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2003/DataFiles/BAX_C.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    }
+  ]
+}
