@@ -1,0 +1,25 @@
+{
+  "title": "Residual heartbeat volatility does not establish robust incremental age prediction across two public collections",
+  "abstract": "Absolute adjacent AR(2) heartbeat-innovation correlation reduced age-group transfer logloss by 0.069623 from Fantasia to NSR2 and 0.007273 in reverse, beyond conventional HRV and linear serial dependence. Source-plus-target bootstrap 95% intervals included zero ([-0.108810,0.287552] and [-0.146262,0.133273]); reverse-transfer AUC declined. This exploratory separate-collection analysis does not establish a robust incremental aging biomarker or verified participant-disjoint confirmation.",
+  "keywords": [
+    "heart rate variability",
+    "volatility",
+    "aging",
+    "cross-dataset transfer",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1103/PhysRevLett.86.1900"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
