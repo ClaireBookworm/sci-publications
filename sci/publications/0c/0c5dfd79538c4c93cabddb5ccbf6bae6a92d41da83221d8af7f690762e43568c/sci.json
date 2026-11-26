@@ -1,0 +1,122 @@
+{
+  "title": "Campaign: does the amount or length of non-coding DNA have a function?",
+  "abstract": "Subcampaign of 'what does non-coding (junk) DNA do?'. It covers functions predicted to depend on how much DNA there is (total or local amount, the length of specific segments, repeat copy number), not on its exact sequence. Findings so far: introns of immediate-early genes grew less than those of matched genes in all 11 transposon-enlarged genomes tested and short gaps between conserved blocks resist insertions, but enhancer-gene spacer length showed no reliable effect; genome size did not fall with heterozygosity in moths and butterflies and showed no proportional trait effects in Drosophila; large trans effects of rDNA copy number on human gene expression were excluded and the Lyon repeat hypothesis found no support, but a modest LINE-1 role in X silencing and a link between rDNA copy number and genome-wide DNA methylation in Arabidopsis remain open. Each branch lists its papers, status and a proposed next test.",
+  "keywords": [
+    "non-coding DNA",
+    "research campaign",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.GN"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:66a8d253046202fff45914d87b4a9736ac0aab7862bd8e1753b1e37ae0374d15"
+    },
+    {
+      "target": "sci:sha256:554c398c615f7ed31191b97d0c875cc19966f4ad616a5d8c3adf1035968761f1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Per +1 pct-point heterozygosity, genome size change: Lepidoptera (1,397 spp, 325 genera) +0.8% (-1.2 to +2.8) assembly, -0.6% (-2.6 to +1.6) k-mer; Diptera (206 spp, 65 genera) -4.8% (-8.9 to -0.4) assembly, -10.5% (-15.1 to -6.1) k-mer; pooled 8 orders -0.1% (-2.0 to +1.9). MHH with 10 hazard sites predicts -3%; moth data allow at most ~5-10 hazard sites per insertion under the main error model; fly signal is tentative."
+    },
+    {
+      "target": "sci:sha256:e6ffffe5dfcf48e8dfad3cb67fe276527c3b3a6ec601bb116dab1aaa66ceedb3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Development time pooled partial r = -0.03 (CI -0.10 to 0.06; expected +0.19 if proportional), body size 0.03 (-0.08 to 0.11), survival -0.04 (-0.16 to 0.11; post hoc large-study analysis -0.16, CI -0.29 to -0.02). Phenome scan 35 vs 18 expected hits at P<0.01 (P=0.034) but within heritable-trait stand-ins, none at FDR 5%."
+    },
+    {
+      "target": "sci:sha256:f215529947ea3607ce2cd0cd67063ab969d46530a2265a2cf86ff027ea5065f3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Development time r=-0.07 (-0.21 to 0.07, n=203) and +0.03 (-0.12 to 0.17, n=196); body size 25C r=-0.03; viability r=-0.14 (-0.28 to -0.005, p=0.043); thorax 17C r=+0.19 (0.05-0.32, p=0.010); phenome-wide 0-4 hits at FDR 10%. Elasticity 1 (full scaling) for development time excluded. True genome-size CV only 1.4%; ~1,400 lines needed for r=0.09."
+    },
+    {
+      "target": "sci:sha256:4d6cc92bdc9d8dc4ad6b4bd2daf1125e3489b241723834840a6b16a54e2331d4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Log-log slope of aligned non-coding DNA on genome size was 0.12-0.36 (upper 95% limits 0.40-0.72); wheat A (41x Arabidopsis) had only 1.9-5.5x more aligned non-coding DNA. Proportional growth within grasses is excluded (needs >=273 Mb in wheat A vs 170-251 Mb alignable at divergence 0.20), but the margin is only 9% in the most permissive case. Pairwise conservation tests were too weak to quantify conserved DNA."
+    },
+    {
+      "target": "sci:sha256:aca43caa94778065311506732b233730ceead29c154892de77d197de0aa9b9a5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Elasticity of enhancer-mark count to DNA length: 0.45 (0.21-0.70) in clean windows (12 human-vs-species comparisons), 0.69 (0.51-0.87) in strictest windows. Aligned DNA elasticity -0.07 (-0.27 to 0.12); unaligned DNA 0.75 (0.60-0.89); unaligned DNA has 0.44x (0.39-0.50) the mark density of aligned DNA. Naive comparisons overstate (0.72 genes, 0.90 introns). Marks do not show function; expression link untestable."
+    },
+    {
+      "target": "sci:sha256:2f0fcdac45ee5f16d8f9d8aa794626a997f00f4276398d4d282cd95c04fbf9a1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Slope of log2 constrained-base ratio on log2 length ratio was 1.05 (CI 1.03-1.06) by divergence and 0.99 (0.98-1.01) by diversity; slope 1 means constraint per base is undiluted (diluted by at most ~10%). The genome-wide 2.25-fold excess itself is not shown constrained (estimators disagree)."
+    },
+    {
+      "target": "sci:sha256:eb105cb0d127cd21d17f80555493898b9a415b31a5b31578db1b68dade409d95",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: IEG introns grew less than matched genes in all 11 enlarged genomes (log2 difference -0.51 to -1.12 in most; axolotl -2.11, CI -2.57 to -1.62, z=-6.8; lungfish -3.72, CI -4.23 to -3.15, z=-10.7); about half of IEGs grew <2-fold vs 4-10% of matched genes. 6 of 35 axolotl IEGs gained >100 kb, so not universal."
+    },
+    {
+      "target": "sci:sha256:bad18fb51af00da4b29f10a3c7c929a41445ecfcd96456a4fac6b386e99e273a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Insertions of 3-60 bp between blocks <=10 bp apart had O/E 0.59 (CI 0.57-0.62), 0.72 at 11-30 bp, 0.82 at 31-100 bp, 0.94 at 101-300 bp, consistent in all five species. No helical-phase signal: a = -0.025 (CI -0.031 to -0.018) at 10.5 bp; upper bound on phased purging 1.0-4.1% in gaps, about a fifth of the 5'UTR frame effect."
+    },
+    {
+      "target": "sci:sha256:f4ca7e6d1d67e13882b6ab27fec91ee61566076388ed3e3693a03223070f642c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Link interval changed 9-15% less than matched controls in non-primate mammals (adjusted ratio 0.855, CI 0.715-0.993, p=0.039; unadjusted 0.91, CI 0.77-1.05, p=0.19; pre-specified test 0.90, p=0.13). No dosage gradient (-0.012 +/- 0.014 per 10-fold s_het) versus a model-predicted ~48% reduction; reductions >~30% are excluded."
+    },
+    {
+      "target": "sci:sha256:52b9a8754254d769528350d28fa20acdc2ee3a6863c362887e286aeef9a10563",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Spacer slope (observed vs predicted change; 1 = model right) is -0.69 (-1.83 to 0.44) pre-specified and -0.55 (-1.28 to 0.19) eQTL-adjusted (4,761 clean deletions, 52,861 pairs); all 27 adjusted variants exclude slope 1 (adjusted upper bounds -0.03 to 0.26), but only 5 of 9 unadjusted do. Positive control (deletions removing enhancers) slope 1.31 (0.45-2.08). Tightest bounds rely on ~150 pairs within 5 kb of TSS; without them adjusted slope -0.24 (-1.10 to 0.60) excludes full but not half the model."
+    },
+    {
+      "target": "sci:sha256:156af082da5a238f7b9d11becda20559d3b89e925bf62f6575557d6a0256f600",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: 2014 pipeline gives 1,809 genes with real CN vs median 1,784 with shuffled CN (P=0.47). In two 30x-CN panels, gene-wise profiles do not agree (r=0.03; null +-0.10); MAGE shows no excess (120 genes P<0.01 vs null median 107); named gene sets within -0.08 to +0.08; rDNA-mtDNA CN not inversely related (n=2,414, partial r=+0.05). Replicated exceptions: TEKT4P2 (r=-0.45 MAGE, -0.36 Geuvadis) in a segmental-duplication family adjacent to arrays in T2T, and a 17p11.2 gene family."
+    },
+    {
+      "target": "sci:sha256:14712b2c8075775617b733c10111a1846b2c97107fb631da6781ccee83f4e0e0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Each doubling of rDNA copy number goes with 2.8% less CHG methylation of pericentromeric TEs (95% CI 1.5-4.1%; Bonferroni p=7e-4 of 12 pre-registered tests); batch-stratified pooled 2.0% (0.7-3.3%, heterogeneity p=0.056). Present in 2016 GAIIx batch (-0.046, p=2e-4, n=585), weaker in 2013 (-0.023, n=91, n.s.), absent in HiSeq batch (+0.013, n=97). CG unchanged; TE expression unchanged (+0.5%, CI -2.5 to 3.7, uninformative)."
+    },
+    {
+      "target": "sci:sha256:8e204c7086127c48cbf08302a55ee638b99eba27e9184e2be4facf0ca294e2c5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: Eutherian X LINE excess median 1.54-fold (E=0.62, CI 0.54-0.73) vs neognath bird Z CR1 1.48-fold (0.57, CI 0.52-0.66); difference +0.05 log2 (CI -0.08 to +0.18), equivalent within +/-0.10 log2 (TOST p=0.038). Marsupial X 1.25-fold, squamate Z 1.04."
+    },
+    {
+      "target": "sci:sha256:c567a76d96a5bdad820b1285b111e690167cf8959c63e94141504ca7cbc4f785",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Finding: The naive Wilcoxon test gives p=5e-5, but joint chromosome-rotation tests give mouse ESC Xist-on-X +0.041 (-0.021 to +0.104, p=0.22), +0.002 after composition adjustment (p=0.96); 0 of 32 primary and 0 of 340 tests pass BH (lowest q=0.26). Human trisomy-21 iPSC (122 genes) +0.012 (-0.072 to +0.096)."
+    }
+  ]
+}
