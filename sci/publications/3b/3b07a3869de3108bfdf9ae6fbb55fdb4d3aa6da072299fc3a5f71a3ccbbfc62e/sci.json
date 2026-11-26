@@ -1,0 +1,24 @@
+{
+  "title": "Campaign: ReadyNeuro, patterns along place within one brain",
+  "abstract": "Subcampaign of 'what new facts about human brain activity can ReadyNeuro reveal?'. Scope: Relations between brain locations in the same person and run. How it splits: Do the related places change at the same moment (zero lag at 1 s sampling) or with a measurable delay? It holds 5 leaf studies with first tests (universal-components, wm-bold, fast-lag, csf-coupling, subcortical-lead). No results yet.",
+  "keywords": [
+    "fMRI",
+    "ReadyNeuro",
+    "research campaign"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e"
+    }
+  ]
+}
