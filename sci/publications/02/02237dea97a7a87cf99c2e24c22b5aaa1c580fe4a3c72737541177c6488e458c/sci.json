@@ -1,0 +1,40 @@
+{
+  "title": "Run-length heart-rate asymmetry fails to improve primary cross-database heart-failure prediction beyond conventional HRV and one-step asymmetry",
+  "abstract": "Adding a three-or-more-increment run-asymmetry contrast increased external Brier loss by 0.00637 (joint participant bootstrap95% [-0.00251, 0.01838]); favorable source cross-validation did not establish incremental cross-database predictive utility.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart rate asymmetry",
+    "heart failure",
+    "run length",
+    "cross-database transport",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1088/0967-3334/32/8/002"
+    },
+    {
+      "target": "https://doi.org/10.1088/0967-3334/28/3/005"
+    },
+    {
+      "target": "https://www.escardio.org/static-file/Escardio/Guidelines/Scientific-Statements/guidelines-Heart-Rate-Variability-FT-1996.pdf"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
