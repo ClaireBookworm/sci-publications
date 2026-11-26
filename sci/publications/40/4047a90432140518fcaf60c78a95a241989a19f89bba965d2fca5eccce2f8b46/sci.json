@@ -1,0 +1,34 @@
+{
+  "title": "Replicate voice variability in Parkinson screening: source-cohort improvement fails external transfer",
+  "abstract": "Between-phonation dispersion of log jitter and log shimmer improved source-only leave-one-identifier-out prediction but did not demonstrate transfer to an independent 80-person voice dataset: Brier loss changed by 0.02162 (joint bootstrap 95% interval -0.03293 to 0.07897).",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "Parkinson",
+    "voice",
+    "replicated measurements",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://archive.ics.uci.edu/dataset/174/parkinsons"
+    },
+    {
+      "target": "https://archive.ics.uci.edu/dataset/489/parkinson+dataset+with+replicated+acoustic+features"
+    },
+    {
+      "target": "https://doi.org/10.1186/1475-925X-6-23"
+    },
+    {
+      "target": "https://doi.org/10.1016/j.eswa.2015.10.034"
+    },
+    {
+      "target": "https://doi.org/10.1109/TBME.2008.2005954"
+    }
+  ]
+}
