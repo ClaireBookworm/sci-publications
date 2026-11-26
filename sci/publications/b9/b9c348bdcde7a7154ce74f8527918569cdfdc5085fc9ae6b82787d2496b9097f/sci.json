@@ -1,0 +1,24 @@
+{
+  "title": "Campaign: ReadyNeuro, patterns along the condition",
+  "abstract": "Subcampaign of 'what new facts about human brain activity can ReadyNeuro reveal?'. Scope: Effects of the task or of events within the run. How it splits: Does the test use only the task label of a run, or the timing of events within the run (OpenNeuro events files)? It holds 4 leaf studies with first tests (task-space, timescale-task, event-hrf, prestim-state). No results yet.",
+  "keywords": [
+    "fMRI",
+    "ReadyNeuro",
+    "research campaign"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e"
+    }
+  ]
+}
