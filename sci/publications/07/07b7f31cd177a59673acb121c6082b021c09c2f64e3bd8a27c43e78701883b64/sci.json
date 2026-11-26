@@ -1,0 +1,31 @@
+{
+  "title": "Adjacent heartbeat-increment magnitude correlation improves age-transfer point estimates but does not establish robust incremental prediction",
+  "abstract": "Adding adjacent absolute RR-increment correlation to conventional HRV and linear-dependence controls reduced age-group transfer logloss by 0.110820 from Fantasia to NSR2 and 0.124884 in reverse. Source-plus-target bootstrap95% intervals were [-0.024051, 0.409800] and [-0.199841, 0.550636]. Both crossed zero; winsorization reversed the reverse-transfer gain. This exploratory reused-data analysis does not establish a robust aging biomarker or verified participant-disjoint validation.",
+  "keywords": [
+    "heart rate variability",
+    "magnitude correlation",
+    "aging",
+    "cross-dataset transfer",
+    "uncertainty"
+  ],
+  "citations": [
+    {
+      "target": "https://doi.org/10.1103/PhysRevLett.86.1900"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/fantasia/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    },
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/8898003/"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
