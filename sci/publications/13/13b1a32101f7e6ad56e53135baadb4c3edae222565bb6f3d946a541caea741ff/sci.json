@@ -1,0 +1,33 @@
+{
+  "title": "Bilateral stride-time skewness asymmetry beyond conventional gait summaries: an exploratory cross-release Parkinson-label test",
+  "abstract": "Adding absolute bilateral stride-time skewness difference changed external Parkinson-label Brier loss by -0.00104 (joint bootstrap 95% [-0.03228, 0.01104]); incremental benefit was not established.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "gait",
+    "bilateral skewness asymmetry",
+    "Parkinson disease",
+    "exploratory cross-release prediction"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/16972073/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitndd/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/gaitpdb/1.0.0/"
+    },
+    {
+      "target": "https://doi.org/10.1152/jappl.2000.88.6.2045"
+    },
+    {
+      "target": "https://doi.org/10.1038/s44360-026-00096-z"
+    }
+  ]
+}
