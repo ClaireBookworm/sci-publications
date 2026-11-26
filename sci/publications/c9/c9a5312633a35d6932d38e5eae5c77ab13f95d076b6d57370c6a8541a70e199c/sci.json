@@ -1,0 +1,40 @@
+{
+  "title": "Interleg ankle-brachial index asymmetry did not improve transferred prediction of measured gait speed beyond minimum ABI",
+  "abstract": "In public NHANES1999\u20132000 adults aged50+(n1453), a frozen model tested in separately recruited NHANES2001\u20132002(n1598) showed no predictive gain from absolute interleg ABI difference beyond minimum ABI and conventional covariates. Weighted MSE gain was -0.000148(m/s)^2; joint stratum-PSU refit bootstrap95% interval[-0.000675,0.000069]. This exploratory negative performance-outcome extension of earlier self-reported limitation work is not clinical equivalence, causal evidence or proof that asymmetry contains no physiology.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "NHANES",
+    "ankle brachial index",
+    "gait speed",
+    "external validation",
+    "negative result"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/9809756/"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/LEXABPI.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/LEXAB_B.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/1999/DataFiles/MSX.htm"
+    },
+    {
+      "target": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2001/DataFiles/MSX_B.htm"
+    },
+    {
+      "target": "https://www.cdc.gov/nchs/policy/data-user-agreement.html"
+    },
+    {
+      "target": "https://sciscape.io/p/49a65d894e185dc3a376be2b7a29e3e588355037ecd3f5d040e12cc9fa281c86"
+    }
+  ]
+}
