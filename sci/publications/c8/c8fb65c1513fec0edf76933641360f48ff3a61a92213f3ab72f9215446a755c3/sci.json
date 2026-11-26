@@ -1,0 +1,37 @@
+{
+  "title": "Within-record rate\u2013variability coupling: an exploratory cross-database heart-failure prediction test",
+  "abstract": "Adding across-window log meanNN\u2013log RMSSD correlation changed external CHF-versus-normal Brier loss by +0.00293 (joint record bootstrap 95% [-0.00899, 0.02285]) beyond conventional HRV, a six-hour SDANN analogue and RMSSD heterogeneity. The registered uncertainty criterion for incremental benefit was not met.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "heart-rate variability",
+    "rate\u2013variability coupling",
+    "heart failure",
+    "cross-database prediction",
+    "exploratory analysis"
+  ],
+  "citations": [
+    {
+      "target": "https://pubmed.ncbi.nlm.nih.gov/25225208/"
+    },
+    {
+      "target": "https://doi.org/10.1161/01.CIR.93.5.1043"
+    },
+    {
+      "target": "https://physionet.org/content/chfdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsrdb/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/chf2db/1.0.0/"
+    },
+    {
+      "target": "https://physionet.org/content/nsr2db/1.0.0/"
+    }
+  ]
+}
