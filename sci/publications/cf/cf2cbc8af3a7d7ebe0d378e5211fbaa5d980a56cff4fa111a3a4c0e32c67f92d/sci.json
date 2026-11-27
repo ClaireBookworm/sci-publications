@@ -1,0 +1,191 @@
+{
+ "title": "In 741 OpenNeuro fMRI studies, connectivity is mostly person-specific once 10 s are trimmed from each run end, but tSNR, DVARS and local voxel correlation are study-specific",
+ "abstract": "After we removed the first and last 10 s of each run, connectivity between brain regions varied more between people in a study than between studies, in 741 OpenNeuro fMRI studies; signal-quality measures (tSNR, DVARS, local voxel correlation) varied mostly between studies. This tells which fMRI measures a meta-analysis or a pooled analysis of open data can compare between studies. We used minimally preprocessed ReadyNeuro data (4 people per study, up to 2 runs each) and 28 measures of connectivity, signal amplitude and signal timescale. For each measure we estimated the study share (the fraction of the total variance that is between studies) with a nested random-effects model. We set tests in 314 discovery studies and ran them in 403 held-out studies. On untrimmed runs the pre-registered tests passed, and raw connectivity looked study-dominated (study share of global connectivity 0.60; median over 7,021 edges 0.49). An independent review then showed that this came mostly from a brain-wide transient at the start of 18% of runs (very probably volumes recorded before steady state; about half of GE-scanner runs) and from run-end artifacts in a few studies. With 10 s trimmed at each end, the study share of global connectivity was 0.19, 0.17 and 0.11 in the discovery, held-out and 24 fresh validation studies (person share 0.53, 0.48, 0.70), and the person share exceeded the study share in 99%, 99% and 94% of edges. We pre-registered four validation tests after the review; all passed, including the two that react to trimming. In contrast, cortical tSNR (0.69-0.75), DVARS (0.88-0.89) and the correlation of neighbouring voxels (0.91-0.95) stayed mostly study-specific; the 1-s autocorrelation did too (0.89-0.94), but only 0.50-0.70 within one TR, because ReadyNeuro interpolates to 1 s frames. A metadata and data-quality model fit in discovery predicted 82% of the held-out study variance of the 1-s autocorrelation and 77% of DVARS (mainly TR) and 63% of the neighbour correlation (mainly voxel size). Network segregation kept a study share of 0.28-0.43 that the few available covariates did not predict. Limitations: one pipeline, no motion traces, 4 people per study, approximate intervals, some accessions that share people, and a study effect that mixes scanner, protocol, population and task.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.IV"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "site effects",
+  "between-study variance",
+  "variance components",
+  "meta-analysis",
+  "harmonization",
+  "functional connectivity",
+  "global signal",
+  "non-steady-state volumes",
+  "scanner vendor",
+  "temporal SNR",
+  "autocorrelation",
+  "intrinsic timescale",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "pre-registration",
+  "run trimming"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_partition.png",
+   "caption": "Share of the variance of 28 fMRI measures between studies (blue), between people in a study (orange) and between runs of a person (green), with 10 s trimmed at each run end. Bars: 314 discovery studies, with approximate 95% cluster-bootstrap intervals. Diamonds: 403 held-out studies; black squares: 24 fresh validation studies; red circles: held-out studies without trimming. Starred measures are voxel summaries of full runs."
+  },
+  {
+   "path": "files/figures/fig2_scale.png",
+   "caption": "(a) Variance components of global connectivity, raw and after white-matter/CSF regression, with and without trimming 10 s at each run end (left bar discovery, right bar held-out). (b) Median and IQR over 7,021 edges of the study share (blue) and person share (orange). (c) Study share of the voxel autocorrelation at 1-8 s in all studies and within TR strata."
+  },
+  {
+   "path": "files/figures/fig4_onset.png",
+   "caption": "(a) Cortex-mean signal in the first 90 s of the runs, averaged per study, by scanner vendor (solid: discovery; dashed: confirmation; band: SE over studies). GE studies start with a large brain-wide transient. (b) Between-study variance of global connectivity with all frames and with the first 30 s removed."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:8fbbc9bace8b9abf9fbcf6301dd46db4578bc4a7d821dffff6cb8bd89a0c79d0",
+   "reason": "Campaign: ReadyNeuro, patterns along the acquisition (leaf study-variance, A5b)."
+  },
+  {
+   "target": "sci:sha256:2877c142369c2e01cccac5975b997ce009ca802abb17d8908722acd8fa5cd741",
+   "relations": [
+    "uses",
+    "supports"
+   ],
+   "reason": "We used its checked grid facts (LAS BOLD grid) and its affine T1 registration approach; our edge-level study share after GSR (0.17-0.19) agrees with its 12% study-specific FC shape."
+  },
+  {
+   "target": "sci:sha256:750d524e3de2923652d327d21598c0f9348b2dfaeaa7806860274f73cc1ce1e1",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Rest vs task predicts slow autocorrelation measures between studies, in the same direction as its within-person result."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro data (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Manifests and shard URL helper."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies, BIDS sidecars and NIfTI headers."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer-2018 atlas."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg labels in the shards."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow templates."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.10.020",
+   "reason": "Traveling-subject site vs person variance of FC."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2010.09.076",
+   "reason": "Multisite reliability of task BOLD."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2017.01.072",
+   "reason": "Site effects in multisite resting-state FC."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000042",
+   "reason": "Measurement and sampling bias across sites."
+  },
+  {
+   "target": "doi:10.1016/j.dcn.2019.100706",
+   "reason": "Scanner-manufacturer effects on FC in ABCD."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.04.081",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Standardization reduces site variation; our GSR and WM/CSF results agree."
+  },
+  {
+   "target": "doi:10.1002/hbm.24241",
+   "reason": "ComBat harmonization of FC."
+  },
+  {
+   "target": "doi:10.1089/brain.2013.0156",
+   "reason": "Global correlation (GCOR)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.09.038",
+   "reason": "Sources of whole-brain fMRI signals."
+  },
+  {
+   "target": "doi:10.1038/s41592-018-0235-4",
+   "reason": "fMRIPrep detects non-steady-state volumes."
+  },
+  {
+   "target": "doi:10.7554/eLife.42256",
+   "reason": "Intrinsic neural timescale from the autocorrelation."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116091",
+   "relations": [
+    "supports"
+   ],
+   "reason": "ABCD discards a vendor- and software-specific number of initial frames (GE DV26: 16); our run-start transient prevalence by GE software version agrees."
+  },
+  {
+   "target": "https://docs.abcdstudy.org/latest/documentation/imaging/type_rsfmri.html",
+   "reason": "ABCD rs-fMRI documentation of initial frames removed per vendor and software."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.03.035",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Functional networks are dominated by stable group and person factors."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0184661",
+   "reason": "MRIQC: image-quality metrics cluster by site."
+  },
+  {
+   "target": "doi:10.1089/brain.2016.0465",
+   "relations": [
+    "supports"
+   ],
+   "reason": "White-matter signal regression acts partly as global signal regression."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-09230-w",
+   "reason": "fMRI autocorrelation depends on TR and acquisition."
+  }
+ ]
+}
