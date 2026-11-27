@@ -1,0 +1,133 @@
+{
+ "title": "Slow fluctuations of breathing and heart rate grow over fMRI runs in rest and task, and breathing slows at the end of task runs: pre-registered tests in held-out OpenNeuro studies",
+ "abstract": "Over the course of an fMRI run, the slow fluctuations of breathing and heart rate become larger, in rest runs and also in task runs. This matters because slow body signals drive much of the slow brain-wide BOLD (blood-oxygen-level-dependent) signal, so changes over a run that studies assign to drowsiness or to brain activity may partly come from the body. We used the heart and breathing recordings stored next to fMRI runs on OpenNeuro (14 discovery studies; held out: 25 confirmation studies and 11 further datasets; up to 30 people per study) and ReadyNeuro BOLD data. In 60-s windows we measured the amplitude of slow (0.01-0.1 Hz) fluctuations of respiratory variation (RV, the 6-s standard deviation of the breathing-belt trace), heart rate and the global BOLD signal (mean cortical signal). Pre-registered held-out tests passed: slow RV amplitude rose by 0.039 log units per minute in rest runs (13 studies, p = 0.002) and by 0.029 in task and film runs (26 studies, p < 0.0001); slow heart-rate amplitude rose by 0.019 and 0.032 (secondary tests); slow global BOLD amplitude rose by 0.082 per minute in rest runs (23 studies, p = 0.0004). Because the window filter biased the first and last windows, we repeated the analysis post hoc with an edge-free measure: slow RV amplitude still grew between the run edges (task +0.015, rest +0.047 log units per minute; random effects +0.015 and +0.019), and the low first and high last minute matched this trend. For BOLD, the growth inside runs could not be separated from the growth of DVARS (head motion and spikes), and a pre-registered test in 41 new studies found neither a first-minute deficit (-0.007, p = 0.46) nor interior growth (+0.018 per minute, p = 0.16). We detected no drift of mean heart rate (95% CI within +/-0.09 beats/min per minute). Breathing slowed in the last 40-90 s of task runs (confirmed in a third set, -0.85 breaths/min, p = 0.024). Korponay et al. (2024) showed growth of slow BOLD fluctuations over scans; new are the direct multi-study body measurements, which show the growth in task runs as in rest. Limits: few rest studies have breathing belts; equal study weighting gives larger effects than random effects; we had no EEG, CO2 or head-motion parameters.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "time in scan",
+  "respiration",
+  "heart rate",
+  "physiological noise",
+  "global signal",
+  "drowsiness",
+  "vigilance",
+  "resting state",
+  "task fMRI",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "pre-registration"
+ ],
+ "display": [
+  {
+   "path": "files/figs/fig1_edges_start_end.png",
+   "caption": "Edge-free slow (0.017-0.1 Hz) amplitude per 60-s window of respiratory variation, heart rate and the global BOLD signal, as deviation from the run interior, aligned to the run start (left) and to the run end (right). Runs of at least 6 min; mean +/- SE over studies; held-out studies solid, discovery dashed; blue rest, orange task and film runs. Breathing variation grows through the run. The BOLD first-minute deficit seen here did not replicate in 41 new studies (section 7)."
+  },
+  {
+   "path": "files/figs/fig3_study_slopes.png",
+   "caption": "Pre-registered measure: change per minute of slow-fluctuation amplitude (log units), per study (dots) and mean +/- 95% CI, discovery (gray) and held-out (black)."
+  },
+  {
+   "path": "files/figs/fig2_breathing_rate_start_end.png",
+   "caption": "Breathing rate relative to the run middle, aligned to the first volume (left) and to the run end (right), in discovery, confirmation and stage-2 studies. Breathing slows in the last 40-90 s of task runs; no such change was detected in rest runs."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bae945760f3c1560cf09a5b1c6f34f1acdaf7d7d5446adc539cdf33dbd8734cc",
+   "reason": "Campaign branch A1 (time within one run) of the ReadyNeuro mission."
+  },
+  {
+   "target": "sci:sha256:59074be38feadd2e7a34754d97e8025cc6cbbc01653f87da4c7f08ec824d474f",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Earlier study of the same leaf (global-signal and deep-brain coupling trends with time in run, no physiological data). We add heart and breathing measurements. Our whole-run rest global-signal slope agrees in sign with its pooled held-out estimate; a first-minute deficit of global BOLD amplitude seen in one held-out set did not replicate (pre-registered stage 3), and the interior BOLD growth followed DVARS, consistent with that study's link to head motion."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus paper (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing code."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies and their physiological recordings (BIDS _physio.tsv.gz files)."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer 2018 cortical parcellation (100 parcels, 7 networks) used for region time series."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2014.03.020"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.07.057"
+  },
+  {
+   "target": "doi:10.3389/fnins.2020.00321"
+  },
+  {
+   "target": "doi:10.1073/pnas.1520613113"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2006.02.048"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2009.04.048"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2008.09.029"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2007.07.037"
+  },
+  {
+   "target": "doi:10.1038/s42003-019-0659-0"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.09.038"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116234",
+   "reason": "HCP rest: respiratory measures change systematically over 14.4-min scans; our study extends this to many studies and to task runs."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2017.07.014"
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000602"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.119424"
+  },
+  {
+   "target": "doi:10.1038/s41598-024-59476-8"
+  },
+  {
+   "target": "doi:10.1162/imag_a_00287"
+  },
+  {
+   "target": "doi:10.1038/s41562-024-01908-6",
+   "reason": "Korponay et al. 2024: systemic low-frequency BOLD signals and connectivity grow over rest and task scans. Our pre-registered whole-run BOLD slope agrees; our body-signal measurements extend it."
+  }
+ ]
+}
