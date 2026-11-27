@@ -1,0 +1,155 @@
+{
+  "title": "In 74 held-out OpenNeuro fMRI studies (TR ≤ 1 s), the slow global BOLD signal has the same regional lag order in every study, cerebellum about 1 s last; tasks keep most of the order with smaller lags",
+  "abstract": "In fast fMRI from 74 held-out public studies, the slow brain-wide BOLD signal reaches the brain regions in the same time order in every study; task runs keep most of this order, change it somewhat, and make the delays smaller. This order is mostly the known delay map of the global (systemic and arousal-related) BOLD fluctuation; because it is the same across studies, scanners and tasks, lagged-connectivity results must be checked against it, and tasks mainly change the size of the delays rather than reversing their order.\n\nData: ReadyNeuro (minimally preprocessed OpenNeuro fMRI; no slice-timing correction, no nuisance regression), runs with a repetition time (TR) of 1 s or less, 71 regions. The lag projection of a region is its mean time delay relative to all other regions, from the 0.01-0.1 Hz cross-covariance (positive = later); without global-signal regression (GSR) it is nearly the same as the delay relative to the global signal (median r = 0.95). A template from 15 discovery studies (20 people) was frozen and nine tests were pre-registered on held-out data: 31 studies with rest runs (48 people) and 43 task-only studies (52 people). All nine passed; one (a dorsal-attention shift in task) only weakly.\n\nEach held-out rest map correlated with the template (median r = 0.65, 31 of 31 studies; pooled map r = 0.95; with GSR r = 0.26). Putamen, amygdala, somatomotor and dorsal-attention cortex came first; cerebellum and brainstem came a median 0.96 s after cortex in 31 of 31 studies. Task maps kept the order (median r = 0.48, 20 of 20 studies; 0.59 in 43 of 43 task-only studies; 98 distinct task labels across the held-out sets); time-reversed task runs gave r = -0.48. The lag pattern was smaller in task: ratio 0.73 with the pre-registered rest template (p < 0.001), 0.88 by the template-free map SD (p = 0.016), 0.92 by split-half covariance (p = 0.053); not significant with GSR. Task maps also fit the rest template less well than rest maps. Correlational checks did not link it to motion (DVARS) or global-signal amplitude. An arterial transit time template matched part of the cortical order (median r = 0.31) but shows no cerebellar delay. New is the scale and the many-task test; a largely vascular lag map, its persistence in one task and a late cerebellum were known from single cohorts. Limits: 1-3 people per study, coarse regions after rigid alignment, no physiological recordings, partial volume and slice timing not corrected, run order not controlled.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD lag structure",
+    "lag projection",
+    "resting state",
+    "task fMRI",
+    "cerebellum",
+    "arterial transit time",
+    "global signal",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "reproducibility",
+    "pre-registration"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_lag_order.png",
+      "caption": "Rest lag order. A: lag projection of the 71 regions (dots) by network, held-out confirmation studies pooled, without (blue) and with (orange) global-signal regression; bars are network means. B: pooled confirmation map against the frozen discovery template (r = 0.95). C: per-study correlation with the template (discovery: leave-one-study-out; confirmation: frozen template); bars are medians."
+    },
+    {
+      "path": "files/figures/fig2_rest_task.png",
+      "caption": "Rest versus task (raw signals). A: correlation of study maps with the rest template for rest maps, task maps of the same studies, task maps of task-only studies, and the time-reversed control. B: rest-half versus task-half correlation against the within-condition split-half correlation (noise ceiling); crosses are the time-reversed control. C: amplitude of the rest template in the task map versus the rest map, per study (dashed line = no change); template-free measures give a smaller reduction (files/figures/fig4_compression_measures.png). D: dorsal attention network shift (task minus rest) without and with global-signal regression, and after injecting a 0.5 s delay into the task runs."
+    },
+    {
+      "path": "files/figures/fig3_att.png",
+      "caption": "Raw rest lag projection (confirmation pool) against arterial transit time from the BATS ASL template. A: 52 cortical regions. B: subcortical structures, brainstem and cerebellum (orange: subcortex; green: brainstem and cerebellum); the square is the cortical mean."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+      "reason": "Campaign for branch A2 (place within one brain) of the ReadyNeuro mission; this work is on leaf fast-lag."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026), the data source."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests and shard access."
+    },
+    {
+      "target": "doi:10.1152/jn.00804.2013",
+      "relations": [
+        "uses",
+        "supports"
+      ],
+      "reason": "Lag projection method (Mitra et al. 2014); our data also put the cerebellum latest."
+    },
+    {
+      "target": "doi:10.1073/pnas.1503960112",
+      "reason": "Lag threads in resting-state fMRI (Mitra et al. 2015)."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9058887",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Single-study finding that task moves lags toward zero (Mash et al. 2022); generalized here to 20 studies and many tasks."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhab064",
+      "reason": "Propagating waves along the cortical hierarchy (Gu et al. 2021)."
+    },
+    {
+      "target": "doi:10.1126/sciadv.abf2709",
+      "reason": "Global waves and arousal (Raut et al. 2021)."
+    },
+    {
+      "target": "doi:10.1038/s41593-022-01118-1",
+      "reason": "Spatiotemporal patterns and lag projection (Bolt et al. 2022)."
+    },
+    {
+      "target": "doi:10.3389/fnins.2020.596084",
+      "reason": "Haemodynamic origin of global-signal lags (Amemiya et al. 2020)."
+    },
+    {
+      "target": "doi:10.1111/jon.13042",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BATS arterial transit time template (Taso et al. 2022)."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhx179",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schaefer-2018 cortical parcellation."
+    },
+    {
+      "target": "https://www.templateflow.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Atlas and template files (MNI152NLin2009cAsym)."
+    },
+    {
+      "target": "https://openneuro.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source studies, BIDS sidecars and events files."
+    },
+    {
+      "target": "doi:10.3389/fnins.2017.00256",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Raw lag maps are mostly vascular and are kept under a visuomotor task and breath-hold (Aso et al. 2017, one cohort); our multi-study result agrees."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0222787",
+      "reason": "Axial (deoxyhaemoglobin) variation as a source of BOLD lag structure (Aso et al. 2019); relevant to our head-to-foot profile."
+    },
+    {
+      "target": "doi:10.3389/fnhum.2016.00311",
+      "reason": "Blood arrival time in the global signal (Erdogan et al. 2016)."
+    },
+    {
+      "target": "doi:10.3389/fnsys.2019.00065",
+      "reason": "Lag maps of global components in HCP (Amemiya et al. 2019)."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2018.10.010",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Cerebellar signals lag cerebral cortex by 125-380 ms (Marek et al. 2018); our GSR value (0.25 s) is in this range."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2021.117827",
+      "reason": "Propagation along macroscale gradients (Yousefi and Keilholz 2021), discussed with our null gradient result."
+    }
+  ]
+}
