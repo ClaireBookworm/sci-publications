@@ -1,0 +1,180 @@
+{
+  "title": "Campaign: non-invasive brain measurement, applied current and weak magnetic fields",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Methods that apply low-frequency electric current or weak magnetic fields and measure the tissue response: electrical impedance tomography, conductivity estimation and magnetic susceptometry. 22 papers. Status: bounds. Electrical impedance tomography of fast neural changes is blurred to 7 mm or more at 1 mA drive in a four-shell model and needs very long averaging; conductivity estimation from scalp data is often non-identifiable without extra information. Weak-field magnetic susceptometry fails with the scalp in air but could detect visual and hand-motor blocks in 10 min with tissue-matched water, 0.2 mm head motion and nanometre coil stability.",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:bafb341709ab284bfdcfdf5efb54ec3cf0dc3e3831ce8fd98a18928f336ce82f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much can optimized currents beat dipolar drive at equal body power for focal sensitivity?."
+    },
+    {
+      "target": "sci:sha256:7b9fb30a3feb695847ad1ef77e00e7d2f913076274e244a77b2c6accfd7276a6",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How tightly do real conductivity data fix tissue phase?."
+    },
+    {
+      "target": "sci:sha256:824384dead85c81a992d0cd82017b9bef31e9fb9e5428b269033a580ed4bbe09",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can small matrices bound skull conductivity in image blocks?."
+    },
+    {
+      "target": "sci:sha256:b282fbc7de4fe7514f56ed6b2736b1ab92db1b8ad11222569c0f23fd7f745a34",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do response ratios recover relative tissue admittivities?."
+    },
+    {
+      "target": "sci:sha256:4c3322cd67fe18a3391ee2a6dfee815ccb6113d160f4955bf8a051986b324312",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a diffusion tensor fix electrical tensor?."
+    },
+    {
+      "target": "sci:sha256:aac0948ef0ad3c116a89326149eafb8a4e50b7473609c9f4f1b8b7e0f07bfb68",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can small passive models reproduce bidomain voltage responses?."
+    },
+    {
+      "target": "sci:sha256:5c980cb974f88dfc9f36307e0e1a313304e4110fc9a3d3cd25506cc9dac05cd4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can weak-field magnetometers detect cortical blood oxygen change via deoxyhemoglobin susceptibility?."
+    },
+    {
+      "target": "sci:sha256:759ddd42eeea0e5eb66b46cb598548779e67757722a3885ce75b92e07edaa540",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can small periodic capacitance changes preserve information about a hidden electric source?."
+    },
+    {
+      "target": "sci:sha256:f667c2cedc3323e404092e31115acc0e559e5ad374c5e6199e6e1c7acb954716",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do three independent current maps plus power maps determine local fields and full directional conductivity?."
+    },
+    {
+      "target": "sci:sha256:653c78eda7b300bdd449b86efe60d9d4f087d512e3360869f22a49deafc7cd8d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do electrical and magnetic data determine first-order directional conductivity changes in spherical heads?."
+    },
+    {
+      "target": "sci:sha256:7c391fa310094cefe96a477f45c48f99ac17338de96b5945f5722361ea678199",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scalp-driven impedance imaging resolve mm detail of fast brain activity?."
+    },
+    {
+      "target": "sci:sha256:1729ac0ee5d1fdf96ee117ea17d2a333d5a8cbfbb3c65b2e47507fc0ee378010",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can conductance increase bound static field error?."
+    },
+    {
+      "target": "sci:sha256:2dd8a615d91f72be677113e65ab11136602ef20b2a3ac60b7f912421151d8a6f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can central induction sensitivity scale with target volume in uniform unequal-axis ellipsoids?."
+    },
+    {
+      "target": "sci:sha256:6a3bede6e0e98ec355c500469b06545be2bf2fadfc81ea55d46bf51acdffc907",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a uniform current trial bound the normal response of a conductive cylinder in a resistive layer?."
+    },
+    {
+      "target": "sci:sha256:4bd9dd337c7592854d3ec26afed37f57f90494fc965fe9c5f8328702e5daa820",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can eight surface current patterns separate a central brain conductivity rise from bounded scalp changes?."
+    },
+    {
+      "target": "sci:sha256:f8db734b7770e01faf07443b1864fa351b8dd49b71dd17d4d567d8c4bedfce0c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How long must non-invasive impedance imaging of fast human cortical activity average?."
+    },
+    {
+      "target": "sci:sha256:2ba8900e9a74d36a35a05d3b4e1cd84ab374fdda332a0a3aadf45b7d4bdf4263",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do magnetic measurements add information about conductivity changes beyond EIT in a spherical head?."
+    },
+    {
+      "target": "sci:sha256:fa0125444e1a6c5b84b61784c7e2ab20afcf71893a03e858517bfdcf0430617c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scalp impedance data plus conductivity bounds give guaranteed error regions for EEG prediction?."
+    },
+    {
+      "target": "sci:sha256:1b1a474fca06b078f9b458ed4cb6c15b0f69194362d60b038dda39e6f49cdf89",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can one scalar factor describe cancellation of intra/extracellular signals in ultrasound-tagged electrical recording?."
+    },
+    {
+      "target": "sci:sha256:01fcbddae5c3129b2c6482f4ef04238d5102d1c610205dd8acad220f983b9050",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can RF-band tissue property fits certify low-frequency EEG conductivity?."
+    },
+    {
+      "target": "sci:sha256:394f34c9ea7da0e8b85e136d97d6f3ae8b2252236ec83e7c6d31622139fdebb1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much does unknown tissue conductivity change inflate EIT local standard error for a central brain change?."
+    },
+    {
+      "target": "sci:sha256:3997d17f24e674fdc2157c201ea1fc3e3f77001fdc6920331a083d9ea945c672",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a zero-phase-at-top-frequency rule bias fitted resistance in brain impedance spectra?."
+    }
+  ]
+}
