@@ -1,0 +1,411 @@
+{
+  "title": "Campaign: non-invasive brain measurement, coupled methods: one energy modulates another",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Methods in which one form of energy marks or modulates another before detection: photoacoustics (light in, sound out), ultrasound-tagged light, acoustoelectric imaging, ultrasound-tagged electrical recording, and MR or ultrasound elastography. 55 papers. Status: confounds dominate, with one narrow gain. In simulated transcranial photoacoustics the signal is dominated by scalp (median scalp/brain ratio 56 in one calibrated model; 85-96% of apparent-brain voxel signal in another; cortical changes diluted to a few percent). With continuous ultrasound tagging 61-99% of tagged light comes from scalp, but gated pulsed tagging takes 33-72% from cortex under the beam. In a four-shell sphere model, scalp acoustoelectric imaging needs about 40 minutes to 9 hours of activity per 1.6 mm voxel (about tenfold uncertainty). Reported functional MR elastography effects need 13-35% intrinsic stiffening against an estimated 3.7-13%, and same-run voxel selection inflates means 1.6-5x.",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:99dcea1ef37e3041fe5e4574aed946dd33227c1d2e0f70b71b08e42805c3157f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How long must scalp acoustoelectric imaging integrate to detect typical cortical currents within FDA ultrasound limits?."
+    },
+    {
+      "target": "sci:sha256:4606bce395ab68827b96910fce713132b2bf1a2058c51612b8e30056d27fc932",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can different passive porous materials give identical solid motion, limiting fluid-mobility inference in brain elastography?."
+    },
+    {
+      "target": "sci:sha256:a8f60969f343a2854b039777a70494454a166a8d05dd4536640b1cb03c8cca26",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Could scalp blood changes mimic reported transcranial photoacoustic brain responses?."
+    },
+    {
+      "target": "sci:sha256:a75a62cbc801a9cc9edec7f283eb8f76b2fc42ec82de6e93039b830c00def0f9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is a shaped sound focus optimal for acoustoelectric mapping at fixed energy?."
+    },
+    {
+      "target": "sci:sha256:5fa637a44f2f0bf3a63c59849bcec8c27d035c6d4322dc8b1181e01c5039eec5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can filters bound amplitude error for a known cortical photoacoustic pattern despite scalp sources?."
+    },
+    {
+      "target": "sci:sha256:bb3897f74b71290ff3662968b0f15cf25889cb55553e828928e7d2d1fc534837",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is cortex ultrasound-tagged light detectable within safety limits?."
+    },
+    {
+      "target": "sci:sha256:80b118d550ece4a3696265d1883bb1e947fb68680f008ba0f8bdb83e11a73cd0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can early pressure and reflection data reduce scalp sound?."
+    },
+    {
+      "target": "sci:sha256:8e26ed72463c5497acca87043fb2e3bae45d46da7c2d02bd466b907ebd04f322",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can lateral skull variation reveal hidden sound patterns?."
+    },
+    {
+      "target": "sci:sha256:8ff6948b45149118b4f1ef1e69ee5662ceff57a35656916258e0b42bc7d33a66",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a thin no-slip fluid layer leave a finite curl term in averaged motion as viscosity goes to zero, biasing MRE inversions?."
+    },
+    {
+      "target": "sci:sha256:d4a689f07f9925a3a51790208faf095fc889961517203ffe2683d2e32dc58bad",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do cortical voxels in transcranial 1 MHz photoacoustic images contain more scalp than brain signal using the published processing?."
+    },
+    {
+      "target": "sci:sha256:19251f5e0cbbfff4c1fce402babcd4515cd3496fa78a283ce4c23d5e3d8f163e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a dense early receiver core predict later scalp sound so it can be removed from brain photoacoustic signals?."
+    },
+    {
+      "target": "sci:sha256:b3a2c2b28f912821f90039ece2b9db34f31f0f0c07029f37428f4b0a7893f560",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do the published fMRE studies isolate a neural stiffness change?."
+    },
+    {
+      "target": "sci:sha256:f4a550fc55c5eeac9c2e2318460025aa3b3b40d5ea58e36925252923e9be4f02",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can ultrasound-tagged light measure cortical activation within safety limits?."
+    },
+    {
+      "target": "sci:sha256:b50a819c2b78f2653dc1f98874ce90c36ac41e61d737fc6486f7083bdecfafc0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do equal MRE motion summaries (brain-skull rotation ratio, normalized strain) imply equal interface loss?."
+    },
+    {
+      "target": "sci:sha256:88b8715e40fc3dd13bd5a47790e7bf2c59708eb1d4cd44ab745c81699566aff9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a shared gain map short-pulse sound fields to long-pulse fields through human skulls?."
+    },
+    {
+      "target": "sci:sha256:014c4086164952392ed3780a504d390a494abd3f6b57be7d4b3f2ce84909811d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a finite-band complex-modulus fit determine the first loss crossing frequency?."
+    },
+    {
+      "target": "sci:sha256:b9eb7a48e457454d53ad8555d799dd48bb36e43089aee9896ab420f5bc67784e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do gain and delay corrections explain differences between paired photoacoustic phantom records through a skull?."
+    },
+    {
+      "target": "sci:sha256:85c7f7bd718e058210611a8fd62c04da6781eb1d55e2bde3427f745617d24d74",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can spatial scans of ultrasound-tagged light recover a local motion coefficient without a full head model?."
+    },
+    {
+      "target": "sci:sha256:e8ceb26e96075839bfc4180cdb0de424c294066f9439918be9c51329d3954fa0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is light tagged in a 13-17 mm cortical focus separable from light tagged by echoes in skull and scalp?."
+    },
+    {
+      "target": "sci:sha256:e8fc45fd638a95962edefa94e0d5f8cbab266f3e43ec470a7911396db9545593",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can symmetric six-pulse light cycles recover source changes through elastic skull layers with linear drift?."
+    },
+    {
+      "target": "sci:sha256:5188033146a8f1666b58823d0f3b33cf8974d7696673738e045a0a0b8bda504f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can voxel selection alone produce published fMRE effect sizes?."
+    },
+    {
+      "target": "sci:sha256:7eb13a18ac716a6d19d4621ca2fdd863bb1e54b85ab8a591c29b026ce8df140c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How long must transcranial acoustoelectric imaging average to detect evoked cortical currents at head thermal noise and ultrasound safety limits?."
+    },
+    {
+      "target": "sci:sha256:9669e39c53ff562294949543fdeabe05ff0f84c730a885a554ca81cf15bdd1b4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can transcranial acoustoelectric recording of human cortex reach mm resolution in practical time at safe ultrasound intensity?."
+    },
+    {
+      "target": "sci:sha256:683fffac29c19cbe25c9fc776e608a1bd07c72cf15493cb586005d7c65ccd400",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the smallest cortical blood-volume cell ultrasound-tagged light can detect through adult skull?."
+    },
+    {
+      "target": "sci:sha256:44d62e488be862f39f2912179bd4adea7dce42847ddb15a480d5f0cf945bf09d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can two sound waves encode a hidden internal electric potential invisible to ordinary scalp voltage?."
+    },
+    {
+      "target": "sci:sha256:63c39421f5ec4450eb7209c25a5012fa71a46176f57dec5b90b80d8df5d0e507",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do shear waves determine all 15 directional stiffness coefficients?."
+    },
+    {
+      "target": "sci:sha256:5d685a9db0486dc9c0a3cd5507b15544142e7caefbcfb0c9de86b5542ad48544",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a confidence set give valid coverage for shear stiffness?."
+    },
+    {
+      "target": "sci:sha256:4178c675cc7ce505fcf9c931e535afae5cd004e50c023335eb3d9a9181277a47",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can added frequencies reduce slow stress uncertainty in MRE?."
+    },
+    {
+      "target": "sci:sha256:c569019fe6e7277a738f2abbfcaabac81a88afb77348bac355dd78032bc8ed92",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does real skull halo erase the 1 MHz vs 0.5 MHz contrast advantage?."
+    },
+    {
+      "target": "sci:sha256:9cc43c0f791b4b2b399699ee4087a0ad6f0a1efa56999708ad644bde995902f1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How does joint skull uncertainty affect cortical amplitude estimation?."
+    },
+    {
+      "target": "sci:sha256:ecbca9f2e9e566c5338ef1958ab8207279de3ccfc9f3f93db47142e238b12c77",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scalp-electrode transcranial acoustoelectric imaging detect normal cortical currents in practical time within a 2 K skull heating limit?."
+    },
+    {
+      "target": "sci:sha256:8e08a98e8578aabf9e226272cef856d6031c992a2e9d249f4c4fac32c399e53f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can through-skull photoacoustic imaging (arXiv 2610.17504) separate cortical from scalp responses?."
+    },
+    {
+      "target": "sci:sha256:fc8175dbd8eadfb0d27d43b3aca9edc50cf53994fbcc72ca6c61fa636206439a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can ultrasound tagging make near-infrared brain measurement cortex-specific at safe levels?."
+    },
+    {
+      "target": "sci:sha256:4b32be46d06eaf9362eb4d545cdd8f813f2cbe934db52d3952f556f12cb2b61e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scalp acoustoelectric recording of human cortex be practical at diagnostic ultrasound intensity?."
+    },
+    {
+      "target": "sci:sha256:e0d1e4631e8e6e5bb5e4b31502e5484212f4bb6d925da1f0b7c23f4cf402066f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can dynamic calibration recover silent current patterns in a dispersive head sphere with known sound?."
+    },
+    {
+      "target": "sci:sha256:a890990c25ce4fe0188f4c3516417c25a7299d42f1eb874d2f2b4aa9f4fb3c7d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can motion variation within a voxel hide a twofold fluid mobility change in a two-component shear model?."
+    },
+    {
+      "target": "sci:sha256:077ffa6b4648e081efe3c9d0031308a83219eed3f18f444799f471d7a678eb25",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can normal and oblique waves recover layer thickness and shear modulus within one voxel?."
+    },
+    {
+      "target": "sci:sha256:40e85f46fc205628b1155ed61126d9d99c4da2c457439987de8e0e6aa21c4e98",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can joint scalp and brain sound fits recover cortical source changes in flat three-layer skull models?."
+    },
+    {
+      "target": "sci:sha256:62c64e4698dce5c63cbaf6f72203b759ae9f28a937251aec5d339f72dd6443b3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do multiple sound frequencies lower ideal noise costs for silent potential maps?."
+    },
+    {
+      "target": "sci:sha256:6c9a7f56d3056cda9af656b8b8a861ecd4885ded112ace11e9f3f0ce790745a9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do storage and loss responses identify two fibre axes in a uniform two-family model?."
+    },
+    {
+      "target": "sci:sha256:61295250879dd8c554a7b4e70d8f6d878ef0177a13d3dd3ed13c65223ccc9b2c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do smooth light ports reduce cortical amplitude error bounds under unknown scalp absorption?."
+    },
+    {
+      "target": "sci:sha256:080d98877dea9efd121bf9078077911df8bfa37393ef90e48867ce173d50f1cf",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do direct-inversion fMRE pipelines recover stiffness changes confined to thin activated visual cortex, and what true change do reported 7.6%/5.8% values imply?."
+    },
+    {
+      "target": "sci:sha256:7779d0b40098211ec0c82f31cc3823e4252b7c96b962be1573cda3b50781eb69",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How large are skull-surface echoes of scalp signals relative to cortical signal in transcranial photoacoustic CT?."
+    },
+    {
+      "target": "sci:sha256:c8c938da77c31a5e259305d2bf059a4c4657db0f4bfcd30931b9de589e318455",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do skull-reflected scalp signals exceed cortical signals at cortical depth in transcranial PACT (independent model)?."
+    },
+    {
+      "target": "sci:sha256:00289115a18ce916908e6ea9ce4a1f05e65153d9d2d3857d5741eb9345aa9879",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does angle subsampling predict omitted recordings equally well with and without a skull?."
+    },
+    {
+      "target": "sci:sha256:4c7326b7c9ca11c30e8ecb686e22e5de384714d2038218f056ce1845857ae549",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can different thin layers give identical voxel-averaged shear wave motion?."
+    },
+    {
+      "target": "sci:sha256:1500cf7ed9bd48abf186ddc4bcb06597b4ca725eb8516dd647f7c48e92b2a04a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What can local conductivity calibration with a tag establish about electric field power?."
+    },
+    {
+      "target": "sci:sha256:2e3d8b9d3fa88b2b8cbc5225b04c2a079d0dd0af69ac7bbe44842bbdbe4b2f80",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can pairs of sound fields calibrate sound transmission through electrical probes?."
+    },
+    {
+      "target": "sci:sha256:1364fed21f2b29209fee27181bb01a62b9f911713eaa6eabb421cc00a1b5424c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can photoacoustic imaging through intact parietal skull detect cortical blood changes at mm voxels?."
+    },
+    {
+      "target": "sci:sha256:503f8f40fcca3d4d116a45ac2007f7ec6803f6de8326c480587307786c0d8e7a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does ultrasound-tagged light provide brain-specific sensing through the adult head?."
+    },
+    {
+      "target": "sci:sha256:57a4f37481957313098251c4a7d4553a066de7d5e0c5c61c1ebcefda77369c99",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is ultrasound-tagged light photon-limited or scalp-limited for cortical sensing?."
+    },
+    {
+      "target": "sci:sha256:c7d07cfa441ce23fe61ee0507958de89138fc65a0ef8b8c2d14f16103663c5cb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a second motion-encoding strength reduce wave bias in brain MR elastography?."
+    },
+    {
+      "target": "sci:sha256:7960e69a8468c81492dc072ff1f7712d3463c3b1fd8c356507d380ce1d61dcf6",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a material-model ensemble inverse benefit from late sound in photoacoustic shell tests?."
+    },
+    {
+      "target": "sci:sha256:a9b52004ca9f3cedb157b3d97c91280281c8e5f3bd3c39efcc7e4e425662565b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can fine sound patterns be read through elastic skull strips with known transfer?."
+    },
+    {
+      "target": "sci:sha256:840eaea64a6833846960c6282b430fe63b037d5b7b462e2c3050d43067408927",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can blind separation learn photoacoustic skull responses from four uncorrelated sources?."
+    }
+  ]
+}
