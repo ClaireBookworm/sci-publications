@@ -1,0 +1,383 @@
+{
+  "title": "Campaign: non-invasive brain measurement, probing with diffuse light",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Near-infrared light sent into the head and detected after scattering: continuous, frequency- and time-domain diffuse optics, diffuse correlation and speckle methods. 51 papers. Status: mostly bounds. Published fast optical signals need 0.3-19% cortical scattering changes, far above 0.02-0.1% from animal data, and physiological (not photon) noise limits detection. Time gating keeps most depth information with few gates (six gates within 8% of the full record in one model). Corrections for CSF layers reduce errors in brain-flow estimates (maximum error from 2.91 to 0.91 points) but leave absolute flow biased. Many results hold only in flat or spherical layered models.",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:6be71628f02d640c66c2f4d2b50c082c49107c290786e2677c586493289d4fe7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do tested white-matter rates and diffusion fix a reciprocal light transport law?."
+    },
+    {
+      "target": "sci:sha256:b00cb7bd6adc32be691b5a8be4c00ad51865eef3aee2627cdb404e01fa9e9a2b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a reciprocal photon sampler exist for every positive diffusion tensor?."
+    },
+    {
+      "target": "sci:sha256:951c85cd85ede90177f05ec5403cee5c035426268083c4164ab2232339810b7b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How many calibration photons are needed to bound information loss for an unknown timing response?."
+    },
+    {
+      "target": "sci:sha256:00e7040d7a67eb6cde6de5138d162ee06d6a848ea7064ea97b144d7f0a47d039",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a single modulation frequency match the best precision for two-layer light models?."
+    },
+    {
+      "target": "sci:sha256:c82d65d49a6d34fcd2a1c0ca3e4c6ac48231f12e4a63b918fdb69427e0531052",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a gamma count model bias speckle decay rate fits?."
+    },
+    {
+      "target": "sci:sha256:3244057e7a94fd311d5a093d271d8f054977a6620b3d50cf9aca2c3c3c12f44f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can six time gates preserve deep absorption accuracy?."
+    },
+    {
+      "target": "sci:sha256:8a03af96490bc4e2ee2c14a9a5d6c44a52e9f9efc7e150b3758b5d20333feff6",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does equal mean squared motion give equal fitted rates with directional motion?."
+    },
+    {
+      "target": "sci:sha256:e9791d6967bdd2634a11b84f8975b29dc54f9f9eb95bf538aa08c1c1e5b173a4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does pooling time bins reduce log-count bias?."
+    },
+    {
+      "target": "sci:sha256:9ebc9ec76b32bc67e68ca285db97f0fef4f40bc752cdbee404aafeb838b8508c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can DCS identify spatial length of shared motion?."
+    },
+    {
+      "target": "sci:sha256:4c8e5234930c1910d22ffd04c17da39638767a2bd7804bd8cca8cb67515d5b3e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a shared cavity receiver retain flow information?."
+    },
+    {
+      "target": "sci:sha256:59029802346402aa49c362a10f84ce06f25e024a871cae36d905264c32c72afd",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can photon splitting estimate rare central absorption responses?."
+    },
+    {
+      "target": "sci:sha256:e0967fc68be52f044e94febf52c06195e10d672aeb388a06ba2e9eafa9fb491d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do shallow changes limit cortical light error?."
+    },
+    {
+      "target": "sci:sha256:ed519ad630ffb67aa3a561e500d50a4ccb40f361bf11ff3b078984f123b8397f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do eyelid probes see more orbitofrontal cortex?."
+    },
+    {
+      "target": "sci:sha256:f68cdb29eb7d7d80805591d39b0f0d025dfce253bc1f370bd9e4f85be51e8291",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a diffusion model with free effective CSF properties, fitted to steady light, predict brain absorption sensitivity?."
+    },
+    {
+      "target": "sci:sha256:1fb2288640bf54114695e4c2ce3ed6f5f0036fa452caa219bcf405ef704093f0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a lower effective CSF reduced scattering (0.15 vs 0.30 /mm) reduce errors in diffusion-based flow estimates from correlation data?."
+    },
+    {
+      "target": "sci:sha256:b9ae2289a42b87e6daf2419031bfcdab4eecaed3d5aa5fad05450cc1cb0b17a2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: At fixed photon arrival time, how does distance change relative absorption sensitivity to a layer with different diffusion coefficient?."
+    },
+    {
+      "target": "sci:sha256:72cdcc420d2dc5f6dfbc698a0e3d88622030875eb1cea08e013b92ce8e1e3185",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does averaging over hidden particle labels improve precision per CPU time in correlation Monte Carlo?."
+    },
+    {
+      "target": "sci:sha256:6939d2cf6e720910ea0b60f6a2990c51184388cbcc0dc7efbb940d091381328a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can delayed-reference interference retain deep brain flow information when unknown contrast is fitted at each delay?."
+    },
+    {
+      "target": "sci:sha256:ec2886541fe629464a1d5b5349cd94c0791567fac684333d2b2f53c51903c9e5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does an eyelid-to-forehead NIR channel sample more orbitofrontal cortex than a forehead channel?."
+    },
+    {
+      "target": "sci:sha256:b0614dc9000488bf21eb29f03e0c1a92ab358472c33627131dd115da3f8dea68",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can 32 positive delays approximate light transit through a clear CSF-like layer?."
+    },
+    {
+      "target": "sci:sha256:8e36f156cb5a4369abf55c992497d6a1f6ca405cfe34061a1d8de8a95ac52c11",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a scalar diffuse interface replace directional light transfer through a clear CSF layer?."
+    },
+    {
+      "target": "sci:sha256:ed76e16ef6bdb0f3f974a0311c655d8eb15f6623135113b76537e578c51fef40",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How heavy is the path-length tail of light in a flat low-index clear layer?."
+    },
+    {
+      "target": "sci:sha256:e16a9b394d411e54ead373f0f03816830ccabbb528fb6b82c9e44f1a027eb472",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does unknown detector gain destroy late-photon information on deep absorption in multi-distance time-resolved measurements?."
+    },
+    {
+      "target": "sci:sha256:ef5723d6c1d5d89a418b526a847654388579dd60d19e1a56587014e0967e2d91",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does haemoglobin crosstalk explain functional cytochrome-c-oxidase signals in broadband NIRS?."
+    },
+    {
+      "target": "sci:sha256:646d4eb55373e35f6522d749adce8dd3b28e5b913646ec93f01581a01d40ff2e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do three shared gate settings per detector retain information on brain absorption?."
+    },
+    {
+      "target": "sci:sha256:bc95d39822a231b41bda71ba7d6d0875c9ff33951093160b4704f66c23bd8985",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can ear-canal optodes sense cortex?."
+    },
+    {
+      "target": "sci:sha256:07acac25e4a7dfe77aab87591587d1c65e1109d3040fdf214792cc3c19736807",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do a few Fourier components of pulsed light carry more brain-absorption information per photon than sinusoidal modulation?."
+    },
+    {
+      "target": "sci:sha256:f9d491b0bdec6cdea9b805298969d44215aef27d437156bf1a4557ab9d07682e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a direction-dependent scattering-rate model with Henyey-Greenstein law satisfy optical reciprocity?."
+    },
+    {
+      "target": "sci:sha256:7296af748114240f93728533de9eba253dea22985411456bffe12c558ea3fc26",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does unknown surface absorption remove information about brain absorption in late time gates?."
+    },
+    {
+      "target": "sci:sha256:d8b9d1cc5b3c12fac6f6d40fb998d1cf2dcd81a7137e56fce5bd47529457cec8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are published human fast optical phase delays consistent with the in vivo primate bound on cortical scattering change?."
+    },
+    {
+      "target": "sci:sha256:74b9a34a0a0c246b6bc92ad384556a09b5f4f071c539c826f54b943e02b0f93c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What cortical scattering change do published fast optical signals require, compared with animal data?."
+    },
+    {
+      "target": "sci:sha256:783513cea098ab9fe4eb6f99f6d5d9f07f1edb115e6c1dd371179164d5e6c157",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can one transmitted light mode hide opposite motion tilts below a flat cover?."
+    },
+    {
+      "target": "sci:sha256:469511f867c39aec1b6e1a832fc47dd3ef9afe7e02c5b17124f23f8ce9323189",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a net light direction correction improve fluid absorption sensitivity in flat heads?."
+    },
+    {
+      "target": "sci:sha256:8627cc13f8cbce58161cc97d74a8a18962073a94cdb403175c2f1c5ed7752dd0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a narrow detector aperture change brain absorption sensitivity by more than 5% beyond the photon-count change?."
+    },
+    {
+      "target": "sci:sha256:5721e18eee58c08e2776a6db12557d943737c9fe42e6735bc1d2ab72f90adf51",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does ordinary light-path reversal give correct absorption sensitivity when scattering depends on direction?."
+    },
+    {
+      "target": "sci:sha256:56eb6c1310f199b974bc7d16a41836846db60a1de213d3647f76f74424dece34",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does matching uniform-input light transfer reproduce spatial transfer through a clear refractive CSF-like layer?."
+    },
+    {
+      "target": "sci:sha256:37077eb257fec5eca30961fb801e3cb5d3c21c386efbc0536a0cbd25ac7e85ad",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does assigning CSF the tissue refractive index change brain absorption sensitivity?."
+    },
+    {
+      "target": "sci:sha256:3a434351ca21bb2c9c152adcbdb4380f599e69ac30fc3f1b8107d4ec110006bb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does late-arriving light become brain-sensitive if the deep layer absorbs more than the upper layer?."
+    },
+    {
+      "target": "sci:sha256:26b6292ecb05187781af891962e10cfc1c6f55cc7abc29c9deef9e905cb5a847",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a product of gate and coherence factors give correct contrast for time-gated coherent pulses?."
+    },
+    {
+      "target": "sci:sha256:5804699a3f604406293fc67966999d1ae4a2829aa63f91b9922340c8c78b5d19",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a diffusion model fitted to steady light retain modulation response and brain sensitivity near nearly clear CSF?."
+    },
+    {
+      "target": "sci:sha256:78f0f67932d8e59b37200ce476f7b0918294d80922bcc087b1a81698826c604c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a single cosine tilt correction recover diffusion rates from surface light spots in tilted anisotropic tissue?."
+    },
+    {
+      "target": "sci:sha256:c15d61fda519dd04a96ebee737afc1964bd5c8fb98f6d993857733accb0e4cf1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a constant scalar diffusion coefficient reproduce spatial light transfer across a clear gap?."
+    },
+    {
+      "target": "sci:sha256:394180ecbda596af32938f2c7f40d5620364d44a583a16d5a7bac203015224c8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scattering counts and angle sums bound error in DCS correlation models without saving every event?."
+    },
+    {
+      "target": "sci:sha256:9538ac5783c9a7c2784e3745f9d7e4b74ceae9c7ea89373eafc02b4a7839f537",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can bounded ballistic scatterer motion mimic Brownian DCS decay?."
+    },
+    {
+      "target": "sci:sha256:b195e3ed0cc97c73a91d45b9e8f8407ec4bfc28cc47060d37be3cff9fad2af60",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does sharing light between two modulation frequencies improve robust precision for deep absorption changes?."
+    },
+    {
+      "target": "sci:sha256:a7310f6759bf526198966bba85d5248dffe75795f3c650ac815a20eb46772655",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do light path mixtures cut cost of DCS correlation curves?."
+    },
+    {
+      "target": "sci:sha256:1df9f9a70833a99d864f5eb55dfa92317a8b60e0d75ff6f113802f43e5b5e084",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can matched diffuse surface data identify the sign of motion tensor tilt?."
+    },
+    {
+      "target": "sci:sha256:78cd03fd79c08c717c2ac217166a3641763b78083a5c29606df2d6e75b5def2d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does joint field and intensity correlation resolve shared motion length in diffuse optics?."
+    },
+    {
+      "target": "sci:sha256:66afd779234275a94658049ddc4832fe6e90025d25f6e296b545903ebaa0cb4b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can nanometre neural deformation be read through the adult head despite brain motion?."
+    },
+    {
+      "target": "sci:sha256:9c0489bbd66504bdcca6795356b4886160c237728c0290985bf4b6ef4cd75222",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can complete diffuse data hide motion depth?."
+    },
+    {
+      "target": "sci:sha256:accd3534e364ff1ddf959c5375cbc17c4ed5d911232553a930586d9a31c1b236",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the scattering phase function matter beyond first two moments for brain sensitivity?."
+    }
+  ]
+}
