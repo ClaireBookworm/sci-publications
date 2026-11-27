@@ -1,0 +1,96 @@
+{
+  "title": "Campaign: connectomes, from wiring to activity and behaviour",
+  "abstract": "Subcampaign of 'what do connectomes reveal about how nervous systems are built?'. Scope: Tests of whether wiring predicts measured activity, response properties or behaviour. 10 papers. Status: mixed. Wiring matched receptor expression (histamine receptors best); a flyvis model and FlyWire counts correlate (r 0.71); passive cable models match receptive fields of some large visual types; but predicted transmitter signs did not improve ON/OFF polarity prediction, a whole-brain model gave different responses for left and right inputs, and C. elegans perturbation predictions only partly repeat across datasets. Diffusion tractography adds little to the prediction of individual functional connectivity (own structural connectivity explains about 0.15% of reliable individual variance).",
+  "keywords": [
+    "connectome",
+    "connectomics",
+    "research campaign",
+    "FlyWire",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:c6fef5a19cfdc10222ff79abeab6bc3903cb22958f27a5f1b79d3a0b96ff8700"
+    },
+    {
+      "target": "sci:sha256:d2978ae3f8157bcb633ce4cc0e6a215f34f0781454f433e564f0c73d13de57b7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the transmitter mix of a type's synaptic input predict its receptor gene expression?."
+    },
+    {
+      "target": "sci:sha256:2b71bbf1dcf3e7b5ea43d7140af0c5449ea964f69f1ef587850ee6fdfdd29b27",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do predicted transmitter signs improve connectome prediction of ON/OFF polarity beyond the unsigned L1-vs-L2 rule?."
+    },
+    {
+      "target": "sci:sha256:8f698f912cb2d2e458429c227614a842ef38b12af73766ac0c2b9d1159ea31e1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How sensitive is the whole-brain LIF model to transmitter sign errors?."
+    },
+    {
+      "target": "sci:sha256:819205d27e2bd8a837f6f40379364711efd96a97fc820ce947717bad028df0fe",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do connectome-constrained flyvis models stay stable when FlyWire counts replace FIB-25 counts?."
+    },
+    {
+      "target": "sci:sha256:1fb8406863354dbf0ba5ed65c05f2281c68e97f7a943ac3004027cf9a8c10189",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can passive cables on connectome arbors explain small receptive fields of large medulla cells?."
+    },
+    {
+      "target": "sci:sha256:f0c8c8f2564b1efae7bdbf9826987398a8ca60dcc0b8443e1afc8774f821484e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How reproducible are whole-brain LIF predictions when the same sensory input is given to the left versus right copy?."
+    },
+    {
+      "target": "sci:sha256:2099675ae49bd4ed2464eee2630c92424b93664f27e755fdd0536ce7c242bc43",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do Yan et al. network-control predictions for muscles hold in the Cook 2019 connectome, and what produces them?."
+    },
+    {
+      "target": "sci:sha256:0995d53ffba85ae0c7ecbe881c042b7a4d703ba6284e22799584f09454a3685d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do axons of ligand-producing neurons end where cognate receptor mRNA is expressed?."
+    },
+    {
+      "target": "sci:sha256:5193165a57b3318ab090526970fb5dfdd5a271bd5908f1655cb7201961cd2294",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much held-out FC variance does structural connectivity explain beyond geometry?."
+    },
+    {
+      "target": "sci:sha256:1153fcb42f71df59261e891e8318d31bd02a4a40d08d0086d9ba86ea70470e89",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a person's own structural connectome predict their own resting functional connectivity better than others' after geometry controls?."
+    }
+  ]
+}
