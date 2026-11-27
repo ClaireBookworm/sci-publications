@@ -1,0 +1,604 @@
+{
+ "title": "In 24 held-out OpenNeuro studies, task runs had a 20% shorter cortical BOLD timescale than rest runs after evoked-response removal, with weaker slow fluctuations",
+ "abstract": "In fMRI task runs, the ongoing BOLD signal of the cortex lost its memory faster than in rest runs of the same people, and the responses that the task stimuli evoke did not explain most of this. This matters because task-rest differences in signal dynamics are often read as evoked activity or as global-signal change, and no study had separated these parts across many tasks and scanners. We used ReadyNeuro, minimally preprocessed fMRI from OpenNeuro, and compared task and rest runs of each person at the same repetition time (TR), cut to the same length. The intrinsic timescale is the sum of the autocorrelation of a region signal over its first positive lobe, in seconds, averaged over 200 cortical regions. To remove evoked responses, we regressed the event design out of each task run and the same design out of the paired rest run (a sham), so both runs lost the same signal band. Studies were split at random into discovery and confirmation sets; tests were written down before confirmation data were downloaded. In 24 confirmation studies (133 people), the timescale was 0.48 s shorter in task runs after evoked-response removal (95% CI 0.33 to 0.63; rest 2.50 s; Cohen d -1.33; 88% of studies), and 0.42 s shorter after the global signal was also removed (d -1.78; 96% of studies). The median task/rest ratio was 0.80. FIR models, white-matter and CSF regressors and motion-spike regressors did not remove the change, and a bias simulation showed biases much smaller than the effect. A post-hoc analysis showed that power below 0.05 Hz fell by about a quarter, while power at 0.08-0.20 Hz did not change significantly. Before global-signal regression, CSF and white matter changed about as much as cortex; after it, cortex changed 0.28 s more than CSF, about 14% of the rest value. In raw data, block designs hid the change. A predicted link to the regional rest timescale did not replicate. Limitations: rest is not a neutral baseline (eye state and drowsiness are unknown), no physiological recordings, and events files for 24 of 39 confirmation studies.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "intrinsic timescale",
+  "autocorrelation",
+  "task versus rest",
+  "evoked response",
+  "global signal",
+  "sham regression",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "pre-registration",
+  "cross-study replication"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_acf_and_change.png",
+   "caption": "Cortex-mean autocorrelation of rest (solid) and task (dashed) runs of the same people in the confirmation set, for raw data, evoked responses removed (sham regression in rest) and evoked responses plus global signal removed; right: change of the intrinsic timescale per study with mean and 95% CI in discovery and confirmation."
+  },
+  {
+   "path": "files/figures/fig2_spectrum.png",
+   "caption": "Log10 ratio of task to rest normalized (relative) power of the cortical signal, study means with 95% CIs. Relative power moves from below about 0.05 Hz to above it, with and without removal of evoked responses or the global signal; in absolute units the change is mainly a loss below 0.05 Hz."
+  },
+  {
+   "path": "files/figures/fig4_tissue.png",
+   "caption": "Change of the intrinsic timescale by tissue compartment. Before global-signal regression, CSF and white matter shorten about as much as cortex (a systemic part); after it, the cortex keeps most of its change."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f"
+  },
+  {
+   "target": "sci:sha256:750d524e3de2923652d327d21598c0f9348b2dfaeaa7806860274f73cc1ce1e1",
+   "relations": [
+    "supports",
+    "challenges"
+   ],
+   "reason": "We confirm its main result (shorter BOLD autocorrelation in task runs) and test its two leading explanations, evoked responses and the global signal; neither explains the change."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (data source)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Shard format and preprocessing description."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer-2018 parcellation."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow atlas files."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg labels in the shards."
+  },
+  {
+   "target": "doi:10.1073/pnas.1608282113",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Principal gradient map (NeuroVault collection 1598)."
+  },
+  {
+   "target": "https://neurovault.org/collections/1598/",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1523/JNEUROSCI.2111-11.2011",
+   "relations": [
+    "supports"
+   ]
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0006626"
+  },
+  {
+   "target": "doi:10.1038/srep30895"
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10473260/"
+  },
+  {
+   "target": "doi:10.7554/eLife.42256",
+   "reason": "Intrinsic timescale definition."
+  },
+  {
+   "target": "doi:10.1073/pnas.2003383117"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2020.117141"
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.1007983",
+   "relations": [
+    "supports"
+   ]
+  },
+  {
+   "target": "doi:10.1038/s42003-021-01785-z"
+  },
+  {
+   "target": "doi:10.7554/eLife.61277"
+  },
+  {
+   "target": "doi:10.1038/s41467-023-37613-7"
+  },
+  {
+   "target": "doi:10.1038/s41593-023-01299-3"
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000030",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001771",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002158",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002316",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002549",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002643",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002738",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002785",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002790",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002872",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003085",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003404",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003424",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003445",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003481",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003495",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003548",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003659",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003701",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003798",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003831",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003835",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003849",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004109",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004144",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004182",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004299",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004349",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004469",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004597",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004630",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004636",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004718",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004856",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005017",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005038",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005069",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005072",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005073",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005226",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005230",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005237",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005270",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005339",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005345",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005346",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005454",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005464",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005559",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005598",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005613",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005623",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005795",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005850",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005874",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005875",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005896",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005901",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006148",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006395",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006515",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006623",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006683",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006686",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006893",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006948",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006952",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007036",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007063",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007116",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007231",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007286",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007386",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007388",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds008055",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds008162",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1002/hbm.20601"
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2014.03.020"
+  }
+ ]
+}
