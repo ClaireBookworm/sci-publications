@@ -1,0 +1,145 @@
+{
+  "title": "Campaign: connectomes, whole-network organisation",
+  "abstract": "Subcampaign of 'what do connectomes reveal about how nervous systems are built?'. Scope: Statistics of the whole wiring diagram: degree and weight distributions, wiring cost and layout, scaling laws, structure-function relations of whole networks. 17 papers. Status: supported. Heavy-tailed synapse-count distributions are mixtures of cell types (type predicts 89-90% of variance); the Rent exponent is 0.53-0.54 in two fly brains; recorded neuropil layouts are within 1.3-4% of the best layouts once cell bodies are fixed in a wire-length model (a null with real neuropil strengths reproduces 88-100% of the free-exchange saving); the strongest connections match across copies far more than a prune-and-regrow model predicts.",
+  "keywords": [
+    "connectome",
+    "connectomics",
+    "research campaign",
+    "FlyWire",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:c6fef5a19cfdc10222ff79abeab6bc3903cb22958f27a5f1b79d3a0b96ff8700"
+    },
+    {
+      "target": "sci:sha256:42d7e91ae52e182dc8e20009c60dd0584bf6418a3d5e4336259bbcc22bd1b288",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the fly neuropil layout wire-minimal (component placement optimisation)?."
+    },
+    {
+      "target": "sci:sha256:97fd3260eafc95ef081bd289b52b010354f7506b415a08c45f75a0bb11b2c32a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much of the wire saved by exchanging neuropils comes from a simple strength+distance rule rather than specific wiring?."
+    },
+    {
+      "target": "sci:sha256:e852740acc81c87cefbbfb1f1cde3c22ad138f0a4ee302ed1be1ff89580aa96e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How often does a pooled type-level two-step path have no matching neuron-level route?."
+    },
+    {
+      "target": "sci:sha256:71c69e18cc02baf9014853caf3dcca0fa5e6cec1461f2af33dad1059feca4668",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the apparent power-law tail of synapses per neuron a mixture of narrow cell-type distributions?."
+    },
+    {
+      "target": "sci:sha256:bd4e4f6d949c85100cab022a5c9bd31b531aa72983a13270d9ade0910895ce80",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much wiring information is shared between two flies (bits per edge)?."
+    },
+    {
+      "target": "sci:sha256:bb0460321bbfef0327d434bf073e91d92a0bb5e6f22be439e8b5cf2177309603",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How many bits of the wiring code do cell-type rules, neuropil and synapse overlap remove?."
+    },
+    {
+      "target": "sci:sha256:cd923482b828fc4c178a246e72c01e0825b144020bb7cfd70ab75336dfd9ae8b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the arrangement of neuropils near the minimum total wire length once cell bodies are fixed?."
+    },
+    {
+      "target": "sci:sha256:bbfd96b54e1791a09dc0ab1f593ae700c726d9244d46d34f34ffe42194f81a19",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much of the C. elegans versus P. pacificus head connectivity difference exceeds within-species variation at matched annotation depth?."
+    },
+    {
+      "target": "sci:sha256:873a5ba397c512b8458942159d006105fe3a5efabcc32d1790542f89cb7f8b59",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the male nerve ring differ from hermaphrodites more than hermaphrodites differ from each other?."
+    },
+    {
+      "target": "sci:sha256:9f7a924026a3a0fc9da9cff0c71cf28d30fad055bc615be5326b7752fc497268",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can the Lynn et al. 2024 prune-regrow model explain heavy-tailed connection strengths given strengths repeat across body sides and animals?."
+    },
+    {
+      "target": "sci:sha256:92ca5104120907451c2e7808eee2a062623b2652fffd97d5d5a3aa3a83d67b92",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much of the directed-simplex excess in connectomes comes from undirected cliques, reciprocal-pair placement, or edge direction?."
+    },
+    {
+      "target": "sci:sha256:5113283c0b1e7b98567ea91c34f7029374b705c2029bc5443ca8fa3328b8c8d7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do homologous macaque and marmoset connection weights agree after controlling for white-matter distance and area terms?."
+    },
+    {
+      "target": "sci:sha256:d5b7e03a9dd61089016d53d30566f9657d8cdd582be3357f6e85ca011bcc3147",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much of the route-support loss in type-level graphs changes with updated type and side labels?."
+    },
+    {
+      "target": "sci:sha256:c99aff76bac1d229b69cfb8639e12a09a6c494d2d689ef14356ff0b50b07bf28",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much reproducible cross-animal SLN variance does a single cortical hierarchy explain, after tracer correction?."
+    },
+    {
+      "target": "sci:sha256:9b324d495d7e89a99867107b2b3eef8275637f6a242f1535f768bc9f09397667",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are motor neurons farther above sensory neurons (trophic height) than degree- and role-matched random graphs imply?."
+    },
+    {
+      "target": "sci:sha256:e5f20268719ae11738905f31fd9b713323c62eeb36a07d39f17204320ebfb013",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the layout near wire-optimal when region exchanges are limited by volume ratio?."
+    },
+    {
+      "target": "sci:sha256:586ea1451fda143695ee5bb8ce93a57a7178b5267e17eafc1f029d727145f5e9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do whole fly brains follow Rent's rule at synapse resolution?."
+    }
+  ]
+}
