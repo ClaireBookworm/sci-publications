@@ -1,0 +1,170 @@
+{
+ "title": "In 177 OpenNeuro subjects, the putamen leads the cortex by 0.7-1.5 s more in rare whole-brain BOLD dips, which mostly follow deep breaths, than in rare whole-brain BOLD rises",
+ "abstract": "In rare, large drops of the whole-brain fMRI signal, most of which follow a deep breath, the putamen (a deep grey-matter nucleus) reaches its trough 0.7-1.5 s earlier, relative to the cerebral cortex, than it reaches its peak in rare, large rises of the same signal. This shows that the regional timing of brain-wide BOLD events is not one fixed lag map: in the striatum it depends on the kind of event. We searched ReadyNeuro, minimally preprocessed OpenNeuro fMRI at 1 s per frame with one subject per study, for frames where the cortical global signal (GS, the mean of all cortical parcels, standardised per run) was at least 3 standard deviations from its mean; event peaks are 0.25-0.28 % of frames. We fixed the study split before reading data, found the pattern in 86 discovery studies, pre-registered the tests, and repeated them in 91 other studies (73.7 h, 208 task labels). Narrow events (at most 3 s wide) came with frame-to-frame jumps and slice-wise changes, the signs of head motion. Wide negative events (3.9 per hour) were longer than wide positive events (2.1 per hour; median width 8 vs 5 s), followed an edge-of-brain motion signal 6-16 s earlier, and followed a recorded deep breath in 56 % of cases in an 8-study physiological pool (positive events 17 %, random times 16 %). In confirmation the pre-registered median putamen-minus-GS peak lag was -1.56 s in negative events (n = 282) and -0.10 s in positive events (n = 142); 37 of 46 studies with both kinds showed the difference (Wilcoxon p = 1.4e-5). Other estimates of the difference: 1.19 s (mixed model within studies, 95 % CI 0.81-1.57), 1.08 s after adjustment for event width and shape, 0.66 s by cross-correlation, and 0.65 s for events of the same width in the same study (p = 0.014). The difference is a property of wider events; events 4-5 s wide show little or none. After recorded deep breaths the putamen also led (median 0.77-1.33 s), but not significantly when grouped by subject. Limits: no slice-timing correction, so only the sign difference within runs is free of acquisition effects; sign and width are confounded; physiological pools are small; the cause of the positive events is unknown, and the lag does not classify single events better than width.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "global signal",
+  "rare transients",
+  "deep breath",
+  "putamen",
+  "hemodynamic lag",
+  "respiration",
+  "head motion",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "pre-registered replication"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig2_striatal_lead.png",
+   "caption": "Putamen timing in rare wide global BOLD events. A: mean sign-adjusted signal of cortex (solid) and putamen (dashed), each scaled to its peak, for negative (blue) and positive (orange) events in the confirmation set; the putamen leads only in negative events. B: putamen peak time minus cortical GS peak time per event, discovery and confirmation. C: study means for studies with both signs."
+  },
+  {
+   "path": "files/figures/fig1_families.png",
+   "caption": "Two families of extreme global-signal frames (confirmation set). A: event width vs maximum DVARS; narrow events come with frame-to-frame jumps (motion or slice artefacts). B: mean event time course by family and sign. C: edge-shell DVARS; negative wide events follow a bump 6-16 s earlier (grey band, breath-related apparent motion)."
+  },
+  {
+   "path": "files/figures/fig3_physiology.png",
+   "caption": "Physiology in the confirmation pool (8 studies). A: respiratory variation around wide negative and positive events and random times; deep breaths come about 11 s before negative events. B: finger-pulse amplitude. C: cortical GS and putamen after recorded deep breaths (positive control); the putamen trough comes first."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bae945760f3c1560cf09a5b1c6f34f1acdaf7d7d5446adc539cdf33dbd8734cc",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Campaign branch A1 (patterns along time within one run); this work answers its leaf rare-transients."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026): minimally preprocessed OpenNeuro BOLD data used for all analyses."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing code."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies and physiological recordings (physio.tsv.gz)."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer 2018 200-parcel 7-network cortical atlas."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow, source of the atlas in MNI152NLin2009cAsym space."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2009.05.026",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Bright et al. 2009: the putamen responds seconds earlier than cortex to cued deep breathing and breath-holds; our negative events and recorded deep breaths show a putamen lead, our positive events do not."
+  },
+  {
+   "target": "doi:10.3389/fnins.2020.596084",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Amemiya et al. 2020 found one lag map for global, network and evoked signals; we find a similar cortical lag map for both event signs but a different striatal lag."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.09.038",
+   "reason": "Power et al. 2017: deep breaths and motion as sources of whole-brain signals."
+  },
+  {
+   "target": "doi:10.1073/pnas.1720985115",
+   "reason": "Power et al. 2018: global signal changes follow breathing changes."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116041",
+   "reason": "Power et al. 2019: real and apparent motion at deep breaths."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-18974-9",
+   "reason": "Lynch et al. 2020: prevalence of deep breaths and bursts in resting fMRI."
+  },
+  {
+   "target": "doi:10.1038/s41467-017-02815-3",
+   "reason": "Liu et al. 2018: arousal-related positive global co-activation peaks."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.119720",
+   "reason": "Gu et al. 2022: fMRI cascade with autonomic and breathing correlates."
+  },
+  {
+   "target": "doi:10.1038/s41593-025-01945-y",
+   "reason": "Bolt et al. 2025: one shared spatiotemporal pattern for deep breaths, stimuli and sleep events; our cortical patterns agree but striatal timing differs by event sign."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.118888",
+   "reason": "Picchioni et al. 2022: global decrease after cued deep breath (1.9 %, 13.9 s)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2007.11.059",
+   "reason": "Birn et al. 2008: respiration response function."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2009.04.048",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Chang and Glover 2009: respiratory variation (RV) measure used here."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00787",
+   "reason": "Tong et al. 2019: systemic low-frequency oscillation lag mapping."
+  },
+  {
+   "target": "doi:10.3389/fnins.2017.00256",
+   "reason": "Aso et al. 2017: lag structure of BOLD behaves like a blood-borne tracer."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2017.11.044",
+   "reason": "Champagne et al. 2019: regional CO2 response delays."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.08.048",
+   "reason": "Power et al. 2014: motion-related global signal changes."
+  },
+  {
+   "target": "doi:10.1073/pnas.2005531117",
+   "reason": "Zamani Esfahlani et al. 2020: high-amplitude co-fluctuation events."
+  },
+  {
+   "target": "doi:10.1038/s42003-019-0659-0",
+   "reason": "Ozbay et al. 2019: sympathetic activity and fMRI global signal."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg segmentation shipped in ReadyNeuro shards (subcortical labels)."
+  }
+ ]
+}
