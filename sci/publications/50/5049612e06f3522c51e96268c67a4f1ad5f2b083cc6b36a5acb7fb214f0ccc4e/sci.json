@@ -1,0 +1,131 @@
+{
+  "title": "Campaign: connectomes, synapses and single neurons",
+  "abstract": "Subcampaign of 'what do connectomes reveal about how nervous systems are built?'. Scope: Properties of individual synapses, contacts and neurons: synapse size and placement, glia at contacts, neuron morphology and cable scaling. 15 papers. Status: several rules found. In human H01, synapses of one connection share size (correlation 0.27 against 0.07 for neighbouring synapses of other axons), and a connection-specific size term remains; glia (oligodendrocytes, OPCs, microglia) sit at neuron somata in mouse and human; neuron cable grows more slowly with synapse number than optimal wiring predicts, and distal spine synapses are not size-compensated.",
+  "keywords": [
+    "connectome",
+    "connectomics",
+    "research campaign",
+    "FlyWire",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:c6fef5a19cfdc10222ff79abeab6bc3903cb22958f27a5f1b79d3a0b96ff8700"
+    },
+    {
+      "target": "sci:sha256:8b80c88b43b51460d4c2e4e3c6313af8b139baa5031fc56fe6fc217e0507f9da",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do synapses of one axon on one neuron have more similar sizes than nearby synapses of other axons in human cortex?."
+    },
+    {
+      "target": "sci:sha256:810dd9944b6d50a4aaaead8c7d52c74d14c0cf833e3f1011bd4e65336bcb371c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do ascending axons of granule cells drive Purkinje cells more strongly than parallel fibres?."
+    },
+    {
+      "target": "sci:sha256:2c3642370c08469c9f0c208f5f5f89a06527ea12c226b9ae5023f57a919fd4e4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do complete axons trade wire against path length near the Pareto front?."
+    },
+    {
+      "target": "sci:sha256:62952699fcdc4798c87e3bdb90926b3ab05774759231bb7869f2940153d77540",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do glial types sit at neuron somata (satellite glia) more than local density predicts?."
+    },
+    {
+      "target": "sci:sha256:0b2e7db91b560398ba96f2906ebcb015d5d22dbe64bae8c8a7e93f2c69793d21",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How does size correlation of synapses from different axons on one dendrite vary with distance?."
+    },
+    {
+      "target": "sci:sha256:60480e177996e6c33df8816106bea237940c749c4a2ff8db9d53807e4590c4fc",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the shared size of synapses in one connection two-state (binary) or graded?."
+    },
+    {
+      "target": "sci:sha256:2157801884355d2800269a44fe61b457e9f0b09e786a84ea3ba35c9d2ec2f3f9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does arbor cable length follow the optimal wiring law with constant synapse density?."
+    },
+    {
+      "target": "sci:sha256:4694527a37755b3e38fb5edb121c58e92d590ac9aaa405a8f4b20bf2d44ce649",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Beyond contact area and class degree, does CeNGEN gene expression predict which touching neuron classes form synapses?."
+    },
+    {
+      "target": "sci:sha256:8593952a842cd59c26ffc3e432ee9c82dcc9e6aa6d59c2bbe23e315b37c71b23",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do neurons put more mitochondria where they have more synapses, and is the link stronger for output or input sites?."
+    },
+    {
+      "target": "sci:sha256:1551992d83ab325edaa2ae2623924af29ad79c7a8bd3fb19f82d24c4521324d5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do two synapses of one axon on one target have more similar sizes than additive axon and target effects predict?."
+    },
+    {
+      "target": "sci:sha256:7a6e377e9da9746c60f19a6c824ad0e3c38286fec4baeb1ae5d10de7e94db5cd",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does neuron cable follow the optimal-wiring 2/3 law L ~ V^(1/3) N^(2/3) when N is the real number of synapses?."
+    },
+    {
+      "target": "sci:sha256:f9e28959c699092fa1b838a747cc4916d739887739c2dd65e0591954e41faf77",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the FlyWire transmitter prediction of a synapse depend on the target neuron's own transmitter?."
+    },
+    {
+      "target": "sci:sha256:3be949fb1883f131274df0e3d3850696ad8d784e10aa217689f5f1c7e29acdda",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a satellite glial cell body touching a neuron soma remove somatic synapses?."
+    },
+    {
+      "target": "sci:sha256:21e0812a4c7e69500f171170f930bb84fa216337f957cc00e2b4be714a86bf17",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does input conductance scale with dendrite size as capacitance does, or do large neurons conserve input resistance?."
+    },
+    {
+      "target": "sci:sha256:4c0d18c59330f78bb5a0276bc7d4e080f409d8ba5bbeae1bc7b1ceacf53a40c2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does synapse size increase with distance along dendrites to offset passive attenuation (synaptic democracy)?."
+    }
+  ]
+}
