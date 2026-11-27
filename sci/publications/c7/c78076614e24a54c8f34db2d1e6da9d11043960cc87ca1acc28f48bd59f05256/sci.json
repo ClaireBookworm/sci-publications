@@ -1,0 +1,54 @@
+{
+  "title": "Campaign: connectomes, how reliable are connectome measurements?",
+  "abstract": "Subcampaign of 'what do connectomes reveal about how nervous systems are built?'. Scope: Errors and biases in the connectome data themselves: synapse detection and count noise, missing partners, proofreading and annotation artefacts. 4 papers. Status: supported. Left-right connection counts in FlyWire vary as 2.5 times Poisson plus an 11% proportional part (26% between hemibrain and FlyWire); the excess comes from clusters of nearby T-bars, and 2 um presynaptic clusters explain the left-right count dispersion. Only 44.7% of FlyWire synapses have a postsynaptic side attached to a proofread neuron; correcting for this reduces the variance of the shared neuron gain by 13-28%, but the gain remains in 115 of 124 tests.",
+  "keywords": [
+    "connectome",
+    "connectomics",
+    "research campaign",
+    "FlyWire",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:c6fef5a19cfdc10222ff79abeab6bc3903cb22958f27a5f1b79d3a0b96ff8700"
+    },
+    {
+      "target": "sci:sha256:50f0edfba4bdb169a42d2f1450be848c7bd9ff50eb8f2811800eef7d3ca466ac",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is Poisson noise enough to explain left-right differences in homologous synapse counts?."
+    },
+    {
+      "target": "sci:sha256:ebf0c4c0712abd51cdd178a36f9b078f6fc50870b300201664bd4f0d3d9b2895",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do repeated PSDs per T-bar cause the 2.5x super-Poisson variance in L/R synapse counts?."
+    },
+    {
+      "target": "sci:sha256:5b3e2ba90ef5baa6d27f5af81ea87581c955b6c80324ddf330f5e62007916354",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much column-to-column synapse count variance is reconstruction completeness (partner attachment)?."
+    },
+    {
+      "target": "sci:sha256:4f489a7ac66889233b567b10fbc87efea5ba642b4b373555097d117cb92be5b5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do synapses occur in independent groups (compound Poisson), which would explain 2.5x Poisson variance of homologous left/right connection counts?."
+    }
+  ]
+}
