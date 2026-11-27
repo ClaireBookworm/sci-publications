@@ -1,0 +1,264 @@
+{
+  "title": "Campaign: non-invasive brain measurement, magnetic resonance contrasts",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Nuclear magnetic resonance signals: BOLD and its physics, neural-current MRI (spin-lock), sodium and xenon MRI, susceptibility, diffusion, and electrical-property tomography. Elastography is in the coupled branch. 34 papers. Status: several proposed contrasts fail. In cortical models, neural-current fields are 14-1300 times below what published phase-agnostic spin-lock MRI tests at 3 T can detect, while a phase-referenced readout could detect alpha in about 1 h; in rodent cortex models one forepaw pulse changes the sodium MRI signal by about 0.02-0.25% (medians) against a reported 2-3%; an ADC decrease in BOLD-active cortex was not found and circular voxel selection and b-value ordering can produce the published decrease; bSSFP functional-conductivity phase is at most about one fifth explained by BOLD, and in folded-cortex models the functional EPT phase signal comes mostly from blood displacing CSF. Diffusion and exchange designs show vascular confounds that robust protocols reduce.",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:1a6617e558a8a105c92c9ac87a209c0f98bd886ea67c88eee617575e163b7d74",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a 2-3% 23Na MRI signal drop after one forepaw pulse (NARS fMRI) be explained by neuronal ion movement?."
+    },
+    {
+      "target": "sci:sha256:b9cdc63760c649f4bcf4597450b75c90f5d02c376ccc20ddf7016d1c9bda13e3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can one steady-state acquisition identify the cause of a functional conductivity MRI signal change?."
+    },
+    {
+      "target": "sci:sha256:0a148ebff8a4d2794e81e26560986aa3c149945fc21e45aa48cd763e48b00dc2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a zero polarity difference prove removal of vessel-field effects on apparent diffusion?."
+    },
+    {
+      "target": "sci:sha256:6fc4577547cccca715f9e6639321e25915413d726987cd4c15e9f4ed011363ae",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do exact B1+ maps and total power fix local SAR?."
+    },
+    {
+      "target": "sci:sha256:0d9eb1fdd576c07cf2fd4bad4b234f3395f6fae26e9fcfb3cc86b7b7eeed8235",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a tensor bound limit static MRI signal error for all field directions?."
+    },
+    {
+      "target": "sci:sha256:15b6ef9b791f6f1448a60fefb6866606387a1b9682aeb824130df036f9da5832",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How does phase averaging bound MRI signal error?."
+    },
+    {
+      "target": "sci:sha256:62c6f7cc1494d61e9f97c98c2bb84e2338a53377740e3665eef45d9389542d7f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does fEPT phase after brain activation reflect neural tissue conductivity change?."
+    },
+    {
+      "target": "sci:sha256:66b9fa602f5edb9dd1bce63502c091102758779879d19f5afc0425aed3426ee0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can one random distance plus a side choice give exact endpoints for diffusion across a membrane for MRI signal simulation?."
+    },
+    {
+      "target": "sci:sha256:06f2769771bcb19ae31ceb852ab506ec478183cae7c54140cbf8a62ebf659be5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What head-pose design minimises mean squared susceptibility tensor error under limited tilt?."
+    },
+    {
+      "target": "sci:sha256:c15d2c91d8168596938fef4c3b4f9063ae0830abff722edabe234de69a776324",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a five-element path tensor average spin phase over field directions without direction sampling?."
+    },
+    {
+      "target": "sci:sha256:6a977403237c79c3f425a15c5cb25b7cecf2c1865a107a91f9b9762ba8fc5842",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can spin-lock MRI (SIRS/REX) detect neural magnetic fields in human cortex?."
+    },
+    {
+      "target": "sci:sha256:42577b3bd0cf641ae4ab51034086833c5121d6e05e4e47e2fe1f92c69bca0d4b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do BOLD/vascular effects produce false diffusion-MRI membrane exchange changes during activation?."
+    },
+    {
+      "target": "sci:sha256:70f504f7b19e49a4bf84caea785cbcf07a8c7c18b41d6b37455ce2fff24029b3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What bounds MRI signal error when each step uses its mean phase in free diffusion?."
+    },
+    {
+      "target": "sci:sha256:250e388d8af6de3605308d2061503c0b8c25c806691ed93d28343ec555826afe",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can local blood flow explain HP-Xe MRI task responses?."
+    },
+    {
+      "target": "sci:sha256:38987a4f936c769e0d58b321455c1a3a57b323e10c09ae14ba57f4e69fa7ccf4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can published random-phase spin-lock MRI designs detect neuronal magnetic fields at 3 T, and does an EEG phase reference help?."
+    },
+    {
+      "target": "sci:sha256:6633e7a10717e2e49f6e21e112bb021fead4dfdcc807397b62c931581c8b800a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How large are neural magnetic fields in 3-mm MRI voxels and how long would spin-lock MRI need to detect alpha or SSVEP with and without a phase reference?."
+    },
+    {
+      "target": "sci:sha256:008d903dd6bb3bacababe592d807aef98f588b6e7115e7e6abdecd8e90ab0bac",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do three exact MRI echoes determine initial (zero-TE) phase for EPT conductivity mapping?."
+    },
+    {
+      "target": "sci:sha256:f6078d8022e8047de84cd9ccb431167e7b67d48e70b64dededb02febcb7fff87",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the wall-crossing rule in random-walk simulation change BOLD contrast around a single vessel at 0.2 ms steps?."
+    },
+    {
+      "target": "sci:sha256:6213863249d05cd35e227d8b0b4b19ade93680cec4c333a1a3611426f4abbc01",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do equal magnetic field maps and total power fix local absorption in passive slabs?."
+    },
+    {
+      "target": "sci:sha256:97c326eb63c234bfe3e8a00d374c4a4bd9de84408cfbd9f6f0ce00ad5d413269",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a susceptibility change with one axial wavelength give zero mean MRI field in an infinite cylinder?."
+    },
+    {
+      "target": "sci:sha256:0ce34128d9f2d836d1e479e6e353acdcd73d6372f7bc3cd153f5daf64c9b4449",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much of reported bSSFP functional-conductivity phase is explained by BOLD field changes?."
+    },
+    {
+      "target": "sci:sha256:8ca426bcd7f35395e35f041cddd776d66d007ff521280457691410e1dd001ec8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can rotary-echo spin-lock MRI detect brain magnetic fields per person in epilepsy/flicker studies?."
+    },
+    {
+      "target": "sci:sha256:b3e0f97d43d9a2223abfe667e15c8222bb51ecf34175d69fb1e43fb743bdc943",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can known mechanisms explain large reported sodium MRI responses to brain activity?."
+    },
+    {
+      "target": "sci:sha256:9d3bc6e6c3514b96cc89d7825ae7f91705ce073671ec42ea4a8c1e2051cd67ef",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does averaging grid directions remove coordinate error in a periodic MRI field formula?."
+    },
+    {
+      "target": "sci:sha256:e4eb24d69b4193013056d9d61b207983e591affec32aabf9b34565d3a77235e1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can signed spin patterns recover cancelling cortical magnetic signals within an MRI voxel?."
+    },
+    {
+      "target": "sci:sha256:c95cd049ebfcdb6cd772610d101f94eabe4c3da2deefb4436ce2aa917012b56f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What MR encoding minimizes the worst static diffusion range under bounded slow modes?."
+    },
+    {
+      "target": "sci:sha256:1b5e590166e6da36581c09447c5ea3b11403b72aff5908ebbf0c5587642ee0d3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does an independent model reproduce voxel field per unit source density and confirm spin-lock MRI cannot detect brain fields?."
+    },
+    {
+      "target": "sci:sha256:0284064bc4d24942c428556e845444d164cebe7a9b6ea8eace90b7977b733cf3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does ADC-fMRI show a diffusion decrease (cell swelling) in active cortex independent of BOLD, as Spencer et al. 2025 reported?."
+    },
+    {
+      "target": "sci:sha256:e7154100d44d5d9d2edea3fc534eeb9d9d70553cb313bdb959c4424ce6c798b2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can reduced local models give fast BOLD MRI signals with error bounds?."
+    },
+    {
+      "target": "sci:sha256:eeaf30e543e3b1c73e224803dc54a66af4987e0615799a7a1d6a7e28ccc97021",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do spin phase moments bound MRI signal across susceptibility changes?."
+    },
+    {
+      "target": "sci:sha256:06245ced46ad1ceef1d44e23fd12574080be5452d26aa40543f48a5256c7baae",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the maximum sensitivity of an MR signal to a passive transport rate?."
+    },
+    {
+      "target": "sci:sha256:d9a1ec07383bd30a9c1654acbf09a97e81906db34c0bcc20c269e3ea0dc764eb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the achievable quadratic MR readout for zero-mean fields under reversible Markov diffusion?."
+    },
+    {
+      "target": "sci:sha256:a0c00001aac3d223c77cdc29b50003c8c5d8072e751a85c562efa44b7676beef",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can normal glutamate release explain 11-22% event-related fMRS changes?."
+    },
+    {
+      "target": "sci:sha256:3c82f5f88fa238c29d869a8dfebefcb644afec688a472f6b498ea303d9a0e19c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the maximum linear MR signal from a sinusoidal field in uniform free diffusion with ideal gradients?."
+    }
+  ]
+}
