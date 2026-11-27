@@ -1,0 +1,128 @@
+{
+  "title": "In 64 OpenNeuro event-related studies, the pre-event BOLD level did not detectably change single-trial evoked responses, and an apparent slow drift in response size was mostly an analysis artifact",
+  "abstract": "The BOLD fMRI level in the 3 s before an event did not detectably change the size of the response to that event in 64 event-related OpenNeuro studies. This agrees with the additive model of ongoing and evoked activity, but the test is not very sensitive, because the pre-event BOLD level is a noisy measure of the underlying state. An apparent slow drift of response size from trial to trial passed its pre-registered test in held-out studies, but most of it came from the analysis. This matters because single studies disagree on whether ongoing and evoked activity add or interact, and because single-trial analyses use pre-event signals and shifted pseudo-event nulls, whose artifacts we measure. Data: ReadyNeuro, one person per study, 80 task labels, 16,623 events; 43 studies for discovery and 21 held-out studies for confirmation with a frozen plan. For each event we estimated the single-trial response (the fitted peak of a canonical hemodynamic response) in task regions chosen without the measured events. The null used pseudo-events: copies of the real event train shifted in time and fitted in the same model. Per standard deviation (SD) of the pre-event predictor, in % of the mean response (59 studies, 95% CI): local level -1.4 (-4.5 to 1.7), global signal -0.6 (-2.9 to 1.6), default-minus-attention balance -0.2 (-1.9 to 1.6), 30-s global-signal amplitude -1.6 (-4.6 to 1.5). A simulation through the same pipeline with a true 10%-per-SD interaction with the underlying pre-event level recovered 33% of it (95% CI 23-42%); the implied underlying interaction is -4% per SD (-21% to +14%) for the local-level term and +7% (-1% to +16%) for the simple slope, so large interactions are excluded but small ones are not. With parcel regions chosen from other runs, the local level gave -5.2% (-9.8 to -0.5), so a small negative interaction is possible. For the drift, the pre-registered excess serial correlation of response sizes was +0.091 (discovery) and +0.084 (confirmation, p = 0.003), but a simulation with constant response sizes gave +0.062 and +0.063. The corrected, time-matched test (real minus simulation, events 6-24 s apart) gave +0.024 (-0.008 to 0.057) in discovery and -0.003 (-0.036 to 0.031) in confirmation; a simulated drift with SD 30% of the response was detectable only in discovery. We withdraw the drift claim; the question is open. Limits: one person per study, a canonical response shape, and BOLD-only state measures.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD",
+    "pre-stimulus state",
+    "spontaneous activity",
+    "evoked response",
+    "trial-to-trial variability",
+    "single-trial estimation",
+    "global signal",
+    "additivity",
+    "null model",
+    "simulation",
+    "OpenNeuro",
+    "ReadyNeuro",
+    "pre-registered confirmation",
+    "negative result"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_prestate.png",
+      "caption": "Change of the response magnitude per SD of each pre-event predictor, in % of the mean response; random effects across studies, 95% CI. Grey band: the planned +-10% equivalence bound. Green: the discovery runs simulated with their own noise and response shape and a true 10%-per-SD interaction with the underlying pre-event level; the local-level estimate moves only from -0.7% (no interaction) to -2.7%."
+    },
+    {
+      "path": "files/figures/fig2_serial_checks.png",
+      "caption": "Checks of the apparent slow covariation of single-trial response sizes (activated region): the pre-registered measure, the same measure in a no-drift simulation of the same runs, their difference, the corrected time-matched test, and its drift positive control. Mean and 95% CI over studies."
+    },
+    {
+      "path": "files/figures/fig3_quintile.png",
+      "caption": "Mean single-trial response by quintile of the pre-event local baseline (discovery, activated region). Real events and pseudo-events have nearly the same slope; the evoked response adds an offset."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f",
+      "reason": "Campaign branch A4 (patterns along the condition); this work answers its leaf prestim-state."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026): the preprocessed BOLD data."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests and shard format."
+    },
+    {
+      "target": "doi:10.7554/eLife.71774",
+      "relations": [
+        "uses"
+      ],
+      "reason": "OpenNeuro: event files and source studies."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhx179",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schaefer 400-parcel atlas (TemplateFlow MNI152NLin2009cAsym)."
+    },
+    {
+      "target": "doi:10.1038/nn1616",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Fox et al. 2006, additive model of spontaneous and evoked activity; our pre-event results agree with it across many tasks."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.2922-12.2013",
+      "reason": "He 2013, negative interaction of pre-stimulus and evoked activity; we find no general effect on the measured scale but cannot exclude a small one."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhv288",
+      "reason": "Huang et al. 2017, nonadditive interaction in one sparse design."
+    },
+    {
+      "target": "doi:10.1101/2023.09.16.557985",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Nayak et al. 2023, no interaction in two event-related studies."
+    },
+    {
+      "target": "doi:10.7554/eLife.62376",
+      "reason": "Goodale et al. 2021, pre-trial fMRI arousal index predicts behaviour."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2011.08.076",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Mumford et al. 2012, single-trial (least squares all) estimation."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.09.026",
+      "reason": "Mumford et al. 2014, design-induced correlation of single-trial estimates, the confound behind our withdrawn drift claim."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.04.026",
+      "reason": "Henriksson et al. 2015, single-trial estimates dominated by intrinsic fluctuations."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhs261",
+      "reason": "Esterman et al. 2013, slow attention fluctuations tracked by BOLD."
+    },
+    {
+      "target": "doi:10.7554/eLife.77599",
+      "reason": "Prince et al. 2022, GLMsingle: correlated estimates of nearby trials."
+    },
+    {
+      "target": "doi:10.1038/s41467-025-57115-y",
+      "reason": "Nakuci et al. 2025, trial-to-trial variation of activation patterns."
+    }
+  ]
+}
