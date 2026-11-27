@@ -1,0 +1,165 @@
+{
+  "title": "Across 169 OpenNeuro fMRI studies the main connectivity axes kept their shape; in 19 held-out two-person studies, connectivity shape was 53% universal and 12% study-specific",
+  "abstract": "In many independent fMRI studies, the two main axes of spontaneous co-variation (sensorimotor-to-association, and visual-versus-somatomotor) had almost the same shape, but the map of the global signal was mostly specific to the person and the study. These numbers tell how much of a connectivity pattern one study can change without any effect of interest. Data: ReadyNeuro minimally preprocessed OpenNeuro fMRI, 169 studies, 220 people, 582 runs, 76 h, 196 task labels, TR 0.37-3.36 s; affine T1-to-MNI registration; Schaefer-200 parcels in each person's own SynthSeg cortex plus 19 subcortical regions. Universality rho is the correlation of a pattern from one person (or study) with the cross-study pattern. We divide it by the square root of the split-half reliability. Thus rho = 1 means no reliable difference in shape. A hash split gave 45 discovery and 124 held-out studies; the cross-study pattern was frozen from discovery, and two pre-registrations fixed the tests. In 70 held-out studies (global-signal regression), rho was 0.92 for each axis and 0.56 for the global-signal topography (difference 0.33, 95% CI 0.29-0.37, p = 2e-13). In 19 held-out studies with a person unit and a two-person unit, the reliable whole-connectivity shape of one person was 53% universal (CI 49-61), 12% study-specific (5-16) and 36% person-, session- or measurement-specific (28-42); the main axis was 80/4/16% and the global-signal map 24/27/49%. Post hoc, in held-out studies, global-signal universality fell with longer TR (Spearman -0.40), and better registration and higher tSNR went with higher universality; the direction was the same in discovery, but only the registration result was significant there. Region universality followed the strength of the universal profile (Spearman 0.68 in 23 fresh studies), as a constant-deviation model predicts (0.71). Absolute deviations were largest in attention, salience, control and default networks, but they also increased with regional tSNR. Limitations: session and registration effects are inside the person share; 1-3 people per study; affine registration only; slow downloads biased the sample toward short scans; task effects were not settled.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.QM"
+    }
+  ],
+  "keywords": [
+    "functional connectivity",
+    "resting-state networks",
+    "connectivity gradients",
+    "global signal",
+    "reproducibility",
+    "multi-study",
+    "OpenNeuro",
+    "ReadyNeuro",
+    "split-half reliability",
+    "pre-registration",
+    "BOLD fMRI",
+    "universality"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_universality_by_pattern.png",
+      "caption": "Universality rho of each pattern (GSR pipeline): components C1-C10 of the discovery universal FC, the global-signal topography and the whole FC matrix. Dots: median over studies of the person-level rho (agreement with the cross-study pattern divided by the square root of split-half reliability). Lines: bootstrap 95% CI over studies. Blue: 38 discovery studies (leave-one-study-out reference). Orange: 70 held-out studies (frozen discovery reference)."
+    },
+    {
+      "path": "files/figures/fig4_partition.png",
+      "caption": "Partition of the reliable shape of one person into a universal part (shared by all studies), a study-specific part (shared by two people of the same study, not by other studies) and a person-, session- or measurement-specific part. GSR pipeline; 19 held-out studies with a person unit and a two-person unit (16 for the global-signal map). Bootstrap CIs are in the README table."
+    },
+    {
+      "path": "files/figures/fig2_regional_universality.png",
+      "caption": "Top: universality rho of each cortical region's FC profile in 70 held-out studies (parcel centroids, lateral and medial views). Bottom left: rho vs position on the discovery sensorimotor-association axis (V shape; pre-registered H3 tested the monotonic part). Bottom middle: rho vs the strength (SD) of the region's universal FC profile in 23 fresh studies (pre-registered B2). Bottom right: discovery vs held-out regional maps. Orange diamonds: subcortical, cerebellar and brainstem regions."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+      "reason": "Campaign: ReadyNeuro, patterns along place within one brain (leaf universal-components)."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026), minimally preprocessed OpenNeuro fMRI shards."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Shard format and manifests."
+    },
+    {
+      "target": "https://openneuro.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source studies; accessions listed in files/notes/split.tsv."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhx179",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schaefer 2018 cortical parcellation."
+    },
+    {
+      "target": "doi:10.1038/s41592-022-01681-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "TemplateFlow templates and atlases."
+    },
+    {
+      "target": "doi:10.3389/fnhum.2012.00301",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Kalcher 2012: per-sample network recovery in 33 samples; we extend to 169 studies with noise-corrected universality."
+    },
+    {
+      "target": "doi:10.1073/pnas.1608282113",
+      "reason": "Margulies 2016 principal gradient."
+    },
+    {
+      "target": "doi:10.1038/s41593-022-01118-1",
+      "reason": "Bolt 2022: global and two further spatiotemporal patterns."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2012.12.028",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Mueller 2013: individual variability largest in association cortex; our absolute-deviation map agrees, while correlation-based maps mainly follow universal profile strength."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2018.03.035",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Gratton 2018: group and individual factors dominate FC; we add a study-level share."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2016.10.020",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Noble 2017: subject variance exceeds site variance in travelling subjects."
+    },
+    {
+      "target": "doi:10.1038/s41598-019-50750-8",
+      "reason": "Li 2019: global-signal topography."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2018.05.070",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Spin test."
+    },
+    {
+      "target": "doi:10.1073/pnas.2024448118",
+      "reason": "Dong 2021: gradient order in development (child question)."
+    },
+    {
+      "target": "sci:sha256:fe698faf0999a3e63f8913395e566c796fa70ceebcc7edce39353d017c5d8dce",
+      "reason": "Related ReadyNeuro multi-study replication of resting-state findings (different question)."
+    },
+    {
+      "target": "doi:10.1073/pnas.0911855107",
+      "reason": "Biswal 2010: universal functional architecture across 35 centres; our study-level partition extends it.",
+      "relations": [
+        "supports"
+      ]
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.3000042",
+      "reason": "Yamashita 2019: site measurement and sampling bias in FC."
+    },
+    {
+      "target": "doi:10.1038/nn.4135",
+      "reason": "Finn 2015: FC fingerprinting; explains why two halves of one person agree more than two people."
+    },
+    {
+      "target": "doi:10.1002/hbm.26517",
+      "reason": "Knodt 2023: reliability of connectivity gradients."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2020.117322",
+      "reason": "Hong 2020: reproducibility of connectivity gradients."
+    },
+    {
+      "target": "doi:10.1002/hbm.26472",
+      "reason": "Iraji 2023: replicable ICA networks in 100,000 people (pooled)."
+    }
+  ]
+}
