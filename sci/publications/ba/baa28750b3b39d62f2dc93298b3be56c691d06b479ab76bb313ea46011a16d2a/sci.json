@@ -1,0 +1,144 @@
+{
+ "title": "In awake fMRI from 133 public studies, CSF at the lower image edge tracks the negative rate of change of the cortical signal, so its lag in seconds depends on the frequency band",
+ "abstract": "In awake people, the fMRI signal of cerebrospinal fluid (CSF) in the lowest slices of the imaged volume rises when the cortical signal falls: it tracks the negative rate of change of the cortical signal, not a delayed copy of it. This matters because clinical studies use the \"gBOLD-CSF coupling\" as a marker of brain fluid clearance and report one lag in seconds, and that lag then depends on the filter band and on where the image edge lies. We used ReadyNeuro (minimally preprocessed BOLD fMRI from OpenNeuro), found the pattern in discovery studies, and tested it with a pre-registered plan in held-out studies. In the 87 held-out study families whose image edge cuts the posterior fossa (88 studies), the coherency between cortex and edge CSF had a median phase lag of 106 degrees (interquartile range 86-118) at 0.04-0.08 Hz, and its gain rose with frequency. Quadrature coupling q is the part of the coherency (a 0-1 measure of linear coupling at each frequency) that lags the cortex by 90 degrees. It was 0.35 (95% CI 0.31-0.39), 0.21 lower 10-14 mm higher up, and 0.09 lower in non-CSF tissue at the edge. Because the phase stays near 90-110 degrees, the CSF time lag fell from 10.8 s at 0.016-0.031 Hz to 3.9 s at 0.070-0.086 Hz; white matter instead had a fixed delay of 0.5 s. All four pre-registered tests passed (Holm-corrected p below 2e-8). A rise of lateral-ventricle coupling with time in rest runs, seen in discovery, did not replicate. Edge coupling differed by only +0.06 between rest and task runs of the same people (inside the pre-set bound of 0.10), but ventricle coupling was higher in rest (+0.07, p 1e-5, secondary). In a propofol study the coupling fell during sedation and came back at recovery. The core physiology (inflow follows the falling cortical signal) was known; what is new is its measured scale, edge profile and phase across many scanners, and the band dependence of the lag. Limits: no physiological recordings, and the image edge is visible only where it cuts the brain mask (55% of runs).",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "cerebrospinal fluid",
+  "CSF inflow",
+  "global signal",
+  "BOLD",
+  "phase lag",
+  "glymphatic",
+  "field of view",
+  "propofol",
+  "sleep deprivation",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "pre-registration",
+  "coherency phase"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_edge_profile.png",
+   "caption": "Quadrature coupling (|coherency| x sine of the phase lag behind the cortical grey-matter signal, 0.04-0.08 Hz) against height above the bottom of the field of view. Lines: median over accession families (not paired across heights); bands: bootstrap 95% CI. Left: 65 discovery families; right: 134 confirmation families (87 with a visible edge). CSF at the edge couples most; the coupling falls within about 10 mm; non-CSF tissue at the edge shows part of the rise."
+  },
+  {
+   "path": "files/figures/fig2_lag_vs_frequency.png",
+   "caption": "Confirmation set. A: phase lag behind cortex (median over families, band: interquartile range). Edge CSF stays near 90-110 degrees (a rate-of-change relation); white matter stays near 0-15 degrees. B: the same as time lag. Edge CSF follows the quarter-cycle curve 1/(4f), so its lag in seconds depends on frequency; white matter has a fixed 0.5 s delay."
+  },
+  {
+   "path": "files/figures/fig3_state.png",
+   "caption": "A: propofol sedation (ds003171, 16 people; thin lines: people; thick: medians) lowers lateral-ventricle coupling (and, less consistently, edge-CSF coupling), which returns at recovery. B: rest minus task in the same people (confirmation; diamonds: median and bootstrap 95% CI; grey band: pre-registered equivalence bound of 0.10). C: second minus first half of runs for the lateral-ventricle core; the discovery-stage rise in rest runs did not replicate."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+   "reason": "Campaign branch A2 (place within one brain); leaf csf-coupling."
+  },
+  {
+   "target": "sci:sha256:3cefc9dc66362b4603e19e64bcc6b4b621613737f000c51fb7572a08bdb0b92e",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We used its accession pairs with copied runs to remove leakage between discovery and confirmation and to define accession families."
+  },
+  {
+   "target": "sci:sha256:59074be38feadd2e7a34754d97e8025cc6cbbc01653f87da4c7f08ec824d474f",
+   "reason": "Related ReadyNeuro study of time-in-run changes of the global signal; our pre-registered time-in-run test of ventricle coupling also did not replicate."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Manifests and preprocessing description."
+  },
+  {
+   "target": "doi:10.1126/science.aax5440",
+   "reason": "Sleep CSF inflow follows the negative derivative of cortical BOLD (Fultz et al. 2019)."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3001233",
+   "reason": "Awake gBOLD-CSF coupling as a single-lag metric (Han et al. 2021)."
+  },
+  {
+   "target": "doi:10.1177/0271678x221074639",
+   "reason": "Awake hemodynamic-CSF coupling model (Yang et al. 2022)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.119424",
+   "reason": "Fourth-ventricle fluctuations as a drowsiness marker."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3002035",
+   "reason": "Sensory stimulation drives CSF flow in awake humans."
+  },
+  {
+   "target": "doi:10.1038/s41598-025-15842-8",
+   "reason": "Lateral ventricle volume anticorrelated with global BOLD."
+  },
+  {
+   "target": "doi:10.1038/s41593-025-02098-8",
+   "reason": "Sleep deprivation and CSF flow dynamics."
+  },
+  {
+   "target": "doi:10.1101/2023.04.02.535258",
+   "reason": "Age decline of gBOLD-CSF coupling in HCP-Aging."
+  },
+  {
+   "target": "doi:10.64898/2026.10.24.761584",
+   "reason": "Lateral ventricular volume oscillations, aging and vigilance."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003171",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Propofol sedation positive control."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000201",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Sleep deprivation and age-group positive control."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007847",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Fast-TR sleep data (geometry check)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12319909/",
+   "reason": "Inflow modelling: the inflow signal is brightest in the edge slice and depends on TR and flow speed (Ashenagar, Gomez, Lewis 2025)."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12061420/",
+   "reason": "Total cerebral blood volume changes drive CSF flux in humans (Zimmermann et al. 2025)."
+  },
+  {
+   "target": "doi:10.1097/aln.0000000000005360",
+   "reason": "Sevoflurane uncouples grey-matter and CSF signals in humans; our propofol result points the same way."
+  }
+ ]
+}
