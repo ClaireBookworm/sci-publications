@@ -1,0 +1,158 @@
+{
+ "title": "Time-in-run changes of the fMRI global signal and of deep-brain coupling to it were modest and differed between three sets of OpenNeuro studies; pre-registered held-out tests did not pass correction",
+ "abstract": "In resting and task fMRI runs from 177 public studies, slow brain-wide signals changed by modest amounts with time since the start of a run, and the size of the change was not the same in independent sets of studies. This matters because many studies compare rest and task runs, or runs of different length, and a strong drift with time in run (for example from drowsiness) would bias such comparisons. We used ReadyNeuro, minimally preprocessed BOLD (blood-oxygen-level-dependent) fMRI from 817 OpenNeuro studies. After motion censoring and a 0.01-0.1 Hz band-pass, we measured in each 60 s window the amplitude of the global signal (GS, the mean cortical signal) and the correlation of deep brain regions with the GS. In 63 discovery studies, the thalamus-GS correlation fell with time in rest runs (-0.025 per minute) and GS amplitude did not rise. Two pre-registered held-out stages did not confirm this robustly: stage 1 (73 studies) gave -0.021 per minute (one-sided p 0.021, Holm-corrected p 0.11), and stage 2 (41 studies, 38 with rest) gave -0.006 per minute (p 0.15). In stage 2, GS amplitude rose in rest (+0.060 log units per minute), which the first two sets did not show. Pooled over the 60 held-out rest studies, the thalamus-GS correlation fell by 0.012 per minute (95% CI 0.001 to 0.022; median study 0.005) and GS amplitude rose by 0.040 log units per minute (95% CI 0.019 to 0.060), but the GS-amplitude trend differed between sets more than chance allows. Without censoring, GS-amplitude trends followed head motion. Propofol sedation lowered the thalamus-GS correlation only marginally (p 0.054). We have no EEG, so drowsiness is not shown.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "time in scan",
+  "drowsiness",
+  "vigilance",
+  "thalamus",
+  "global signal",
+  "resting state",
+  "task fMRI",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "arousal",
+  "thalamocortical coupling"
+ ],
+ "display": [
+  {
+   "path": "files/figs/fig4_forest.png",
+   "caption": "Study-level estimates (mean, 95% CI) of three time-in-run measures for rest (blue) and task (orange) runs in the discovery set, two held-out confirmation sets, and pooled. Left: slope of global signal (GS) amplitude after motion censoring. Middle: slope of the thalamus-GS correlation. Right: thalamus-GS correlation in minutes 1-3 minus later. The sets disagree, most clearly for GS amplitude in rest."
+  },
+  {
+   "path": "files/figs/fig1_time_courses.png",
+   "caption": "Run-centred thalamus-GS correlation (top) and subcortex-GS correlation (bottom) by minute in run, for rest (blue) and task (orange) runs of at least 8 min; mean and SE over studies, for the three sets."
+  },
+  {
+   "path": "files/figs/fig2_region_step.png",
+   "caption": "GS correlation in minutes 1-3 minus later for every non-cortical region, rest (blue) and task (orange), mean and SE over studies. In discovery and confirmation 1, deep grey regions and ventricles lose coupling in rest; white matter and outer CSF do not; confirmation 2 shows little. The contrast was defined after the first two sets were seen."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bae945760f3c1560cf09a5b1c6f34f1acdaf7d7d5446adc539cdf33dbd8734cc",
+   "reason": "Campaign branch A1 (patterns along time within one run); this study is its leaf time-in-scan."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026): source of all BOLD data."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing code."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies, events files and acquisition times."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2014.03.020",
+   "reason": "Loss of wakefulness within minutes of rest scans."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.07.057",
+   "reason": "GS amplitude and EEG vigilance."
+  },
+  {
+   "target": "doi:10.3389/fnins.2020.00321",
+   "reason": "Review of vigilance effects in rest fMRI."
+  },
+  {
+   "target": "doi:10.1038/s41467-017-02815-3",
+   "reason": "Arousal-related GS events and thalamus/basal forebrain."
+  },
+  {
+   "target": "doi:10.1073/pnas.1520613113",
+   "reason": "fMRI arousal template, thalamus vs cortex."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2017.07.014",
+   "reason": "Within-scan amplitude increase in HCP sensory/motor networks."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000602",
+   "reason": "Time-of-day effect on GS fluctuation."
+  },
+  {
+   "target": "doi:10.1523/jneurosci.2015-10.2010",
+   "reason": "Network changes at NREM sleep onset."
+  },
+  {
+   "target": "doi:10.5665/sleep.3422",
+   "reason": "Thalamus-neocortex decoupling in NREM sleep."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0078830",
+   "reason": "Thalamocortical connectivity after sleep deprivation."
+  },
+  {
+   "target": "doi:10.1097/ALN.0b013e3181f697f5",
+   "reason": "Thalamocortical connectivity under propofol."
+  },
+  {
+   "target": "doi:10.1038/s41598-024-59476-8",
+   "reason": "Drowsiness during a rest scan and connectivity."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.119424",
+   "reason": "Fourth-ventricle marker of drowsiness."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer 100-parcel atlas."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg segmentation in the shards."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003171",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Propofol sedation study used as positive control."
+  },
+  {
+   "target": "sci:sha256:b3c11c4bc1ef27d9c69d3d16ec7014ce5496f3bca3f20fdb36cf8c7f627c7eb0",
+   "reason": "Reports that the top within-run axis of frozen ReadyNeuro rest embeddings follows time in run; our measures give a candidate physiological account."
+  },
+  {
+   "target": "sci:sha256:b83e743be7cbdb4e9816209f27347e1cf244fa66934b7c216b13fe8443d4f9f7",
+   "reason": "Time-of-day effect on GS amplitude in ReadyNeuro; our study is about time within a run."
+  },
+  {
+   "target": "doi:10.1038/s41598-017-06389-4",
+   "reason": "Wakefulness fluctuations within rest scans."
+  },
+  {
+   "target": "doi:10.7554/eLife.62376",
+   "reason": "fMRI-based alertness index during tasks."
+  },
+  {
+   "target": "doi:10.1016/j.jad.2019.07.066",
+   "reason": "Unstable wakefulness during rest fMRI and thalamic connectivity."
+  }
+ ]
+}
