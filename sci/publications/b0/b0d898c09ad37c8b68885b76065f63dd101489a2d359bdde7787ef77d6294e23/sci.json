@@ -1,0 +1,183 @@
+{
+  "title": "In 138 OpenNeuro fMRI studies, the putamen and pallidum became darker and lost temporal SNR with age, and the loss grew with echo time and field strength, as an iron-related R2* increase predicts",
+  "abstract": "In routine BOLD fMRI, the putamen and pallidum give less signal in older people, and their temporal signal-to-noise ratio (tSNR) relative to white matter falls by about 4 % per decade, while cortex and thalamus change by a third or less of this. This matters because age comparisons in these nuclei lose sensitivity, by an amount that depends on scanner settings. We read the per-run mean and standard-deviation images of 11,175 people in 369 OpenNeuro studies (ReadyNeuro), computed age slopes inside each of the 138 studies with an age range, and pooled them with random effects. We fixed a study split before we read the images and pre-registered the tests on held-out studies. Putamen intensity relative to deep white matter fell 3.8 % per decade in 53 discovery studies (95 % CI 3.2-4.3) and 3.7 % in 85 held-out studies (3.3-4.2; 95 % of studies negative); relative to cortex, thalamus or the whole brain it fell 2.6-3.1 %. The fluctuation amplitude did not change, so the tSNR loss comes from the signal. EPI signal is S = S0 exp(-TE R2*), where TE is the echo time and R2* (1/T2*) is a relaxation rate that increases with tissue iron. Across 72 held-out studies, the age slope became steeper with TE x field strength (b = -1.34e-3 per ms, one-sided p = 2e-8; intercept 0.0006, CI -0.014 to 0.015); a model fitted on discovery studies predicted held-out slopes 26 % better than a constant, and the effect held inside 56 single-echo 3 T studies (p = 0.004). In multi-echo scans of the same people (8 studies), the age slope grew with echo time (up to 70 ms) in every study, and absolute putamen R2* rose 1.9 per second per decade while white-matter R2* did not change significantly; this agrees with relaxometry of brain iron. In time series of 24 held-out studies, putamen voxels lost BOLD coupling relative to the thalamus with age, but the pallidum, which darkens as much, changed about half as much or less, so the T2* effect does not mainly explain this coupling decrease. The novelty is the cross-scanner size and the TE and field dependence; iron accumulation itself is known. Limits: no direct iron measure, clustered echo times, few 1.5 T and 7 T studies, few people over 70, and no motion parameters.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD",
+    "aging",
+    "lifespan",
+    "temporal SNR",
+    "brain iron",
+    "R2*",
+    "T2*",
+    "basal ganglia",
+    "putamen",
+    "echo time",
+    "field strength",
+    "multi-echo",
+    "meta-analysis",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "functional connectivity",
+    "pre-registration"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_dose.png",
+      "caption": "Within-study age slope of putamen/white-matter EPI intensity in each study against the T2* dose (echo time x field strength / 3 T). Blue: discovery; orange: held-out confirmation studies; marker size 1/SE; squares 1.5 T, circles 3 T, triangles 7 T. Dashed line: the proportional model fitted in discovery (R2* rate 1.28 per second per decade). Dose explains about half of the between-study variance in the held-out studies; one older 7 T cohort lies far above the line."
+    },
+    {
+      "path": "files/figures/fig3_multiecho.png",
+      "caption": "Left: in each multi-echo study, the age slope of putamen/white-matter intensity at each stored echo of the same scans; the slope grows with echo time (up to 70 ms) in every study. Right: pooled age slopes of absolute R2* per region from the echo decay of each person. Putamen and pallidum R2* rise with age; deep white matter does not change significantly."
+    },
+    {
+      "path": "files/figures/fig1_region_profile.png",
+      "caption": "Within-study age effects per decade pooled over 53 discovery (blue) and 85 confirmation (orange) studies: mean EPI intensity, fluctuation SD and 1/tSNR of each region relative to deep white matter (95 % CI). The putamen and pallidum become darker, their fluctuation SD does not change, and so their tSNR falls."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7268eacfa1d004323696e295e783504d54461de5c74311ada55490259ee7791c",
+      "reason": "Campaign A3 (the person) of the ReadyNeuro mission; this work is leaf age-dynamics."
+    },
+    {
+      "target": "sci:sha256:3cefc9dc66362b4603e19e64bcc6b4b621613737f000c51fb7572a08bdb0b92e",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We used its accession-pair table of duplicate runs to remove confirmation studies that share runs with discovery studies."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests and shard format."
+    },
+    {
+      "target": "https://openneuro.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source studies, participant files and BIDS sidecars (echo time, field strength)."
+    },
+    {
+      "target": "doi:10.1002/hbm.25569",
+      "relations": [
+        "supports"
+      ],
+      "reason": "R2* of deep grey matter from 5 to 90 years (Treit et al. 2021); our R2* values and rates agree."
+    },
+    {
+      "target": "doi:10.3174/ajnr.a0951",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Basal-ganglia T2* falls and white-matter T2* rises with age (Siemonsen et al. 2008); we see both in routine fMRI."
+    },
+    {
+      "target": "doi:10.1111/j.1471-4159.1958.tb12607.x",
+      "reason": "Age course of non-haem iron in the brain (Hallgren and Sourander 1958)."
+    },
+    {
+      "target": "doi:10.1002/mrm.1910290406",
+      "reason": "Field-dependent relaxation as a measure of tissue iron (Bartzokis et al. 1993)."
+    },
+    {
+      "target": "doi:10.1016/j.neurobiolaging.2008.04.013",
+      "reason": "Field-dependent relaxation and iron in aging deep grey matter (Pfefferbaum et al. 2010)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2008.10.029",
+      "reason": "R2* as a function of tissue iron at high field (Yao et al. 2009)."
+    },
+    {
+      "target": "doi:10.1016/j.mri.2004.10.001",
+      "reason": "Imaging iron stores with MRI (Haacke et al. 2005)."
+    },
+    {
+      "target": "doi:10.1016/j.dcn.2014.12.003",
+      "reason": "nT2* from fMRI as a striatal iron index in adolescence (Larsen and Luna 2015)."
+    },
+    {
+      "target": "doi:10.1002/hbm.24461",
+      "reason": "nT2* iron accrual in adolescence, compared with QSM (Peterson et al. 2019)."
+    },
+    {
+      "target": "doi:10.1038/s41467-020-14693-3",
+      "reason": "Striatal maturation with PET and quantitative MRI (Larsen et al. 2020)."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhx045",
+      "reason": "Striatal iron and frontostriatal under-activation in aging (Kalpouzos et al. 2017)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2018.08.036",
+      "reason": "Striatal iron and resting-state network coherence (Salami et al. 2018)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2020.116544",
+      "reason": "Striatal iron and fronto-striatal function in aging (Rodrigue et al. 2020)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2023.120478",
+      "reason": "Iron affects age differences in striatal fMRI activity (Petok et al. 2024)."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhq224",
+      "reason": "Oxygen extraction rises with age (Lu et al. 2011), another source of R2* change."
+    },
+    {
+      "target": "doi:10.1038/s41597-022-01231-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Multi-echo aging data release (Spreng et al. 2022), on OpenNeuro as ds003592; one of our multi-echo studies."
+    },
+    {
+      "target": "doi:10.1002/hbm.22768",
+      "reason": "Resting-state fluctuation amplitude and age (Tsvetanov et al. 2015)."
+    },
+    {
+      "target": "doi:10.1111/psyp.13714",
+      "reason": "Vascular factors explain the age effect on BOLD variability (Tsvetanov et al. 2021)."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.3408-16.2017",
+      "reason": "BOLD variability across the lifespan (Nomi et al. 2017)."
+    },
+    {
+      "target": "doi:10.1038/s41598-022-07578-6",
+      "reason": "Global-signal fluctuations decrease with age (Ao et al. 2022); we repeat this."
+    },
+    {
+      "target": "doi:10.1002/mrm.1240",
+      "reason": "Thermal and physiological noise in BOLD (Kruger and Glover 2001)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2005.01.007",
+      "reason": "Physiological noise at 1.5, 3 and 7 T (Triantafyllou et al. 2005)."
+    },
+    {
+      "target": "doi:10.1016/j.media.2023.102789",
+      "reason": "SynthSeg segmentation used by ReadyNeuro (Billot et al. 2023)."
+    }
+  ]
+}
