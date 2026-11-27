@@ -1,0 +1,238 @@
+{
+ "title": "On a common 1-s grid, the resampling of each study's TR sets study differences in lag-1 BOLD autocorrelation, while the scan protocol moves connectivity little (207 OpenNeuro studies)",
+ "abstract": "When fMRI from many studies is put on one 1-s time grid, the differences between studies in lag-1 s BOLD autocorrelation come mostly from the resampling of each study's sampling interval (repetition time, TR), while functional connectivity changes little when the same people are scanned with other protocols. Studies that pool fMRI across scanners need to know which measures follow the protocol. We used ReadyNeuro: OpenNeuro fMRI with the same minimal preprocessing on a 1-s grid. In 2 discovery studies, 47 people had 4 to 8 protocols each (TR 0.51-3.0 s). We measured the change of each measure per doubling of TR in the same person, fixed these slopes, and applied them to 102 new resting-state studies and to 9 new within-person studies (178 person-task units). The slopes predicted 75% (95% CI 67-82%) of the between-study variance of lag-1 s voxel autocorrelation and 34% for the voxel timescale (summed positive autocorrelation). But white noise passed through the ReadyNeuro resampler at each study's TR predicted 88% of the lag-1 variance without brain data, and between studies TR added nothing beyond it (slope -0.002 +- 0.027 per doubling); within person a smaller TR effect remained (0.078 +- 0.011). For the voxel timescale the resampler predicted only 26%. At lags of 4 s or more and for region-level timescales we found no TR effect. Functional connectivity (FC, correlation between 100 cortical regions, Fisher z) changed by 0.008 z per doubling of TR in the same people (random-effects 95% CI -0.020 to 0.036), except at one extreme protocol (multiband 8, TR 0.4 s, flip angle 20 degrees). Between studies, mean FC fell slightly with TR (pooled -0.033 z per doubling, 90% CI -0.064 to -0.003), and the study held at most about one third of the variance of mean FC (upper 95% bound 0.34); most variance was between people or runs. The pre-registered transfer test for temporal SNR (mean signal divided by its standard deviation) failed in the new resting-state studies (R2 -0.01; discovery 0.40); in a survey of 668 studies the slopes predicted 29-34% of tSNR variance, mostly through voxel size. 17 of 21 pre-registered tests passed; an independent review showed that the passed lag-1 autocorrelation test is explained by the resampler. 7% of all runs, and 39% of runs from GE scanners, keep non-steady-state volumes at the start, which dominate FC unless removed. Limits: TR changes with multiband factor and flip angle, and study values rest on 1-2 people.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "repetition time",
+  "multiband",
+  "temporal SNR",
+  "functional connectivity",
+  "intrinsic timescale",
+  "autocorrelation",
+  "harmonization",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "natural experiment",
+  "pre-registered replication"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_transfer.png",
+   "caption": "Left: share of between-study variance predicted by the within-person TR and voxel-size effects (discovery slopes fitted in the discovery half, blue; the same fixed slopes applied to new confirmation studies, orange; 95% bootstrap CI). Black diamonds: the same share for resampled white noise only, with no brain data. Right: SD between studies divided by the SD of protocol effects within a person. Lag-1 autocorrelation transfers, but the resampler alone predicts it better; for connectivity measures (grey band) the within-person TR effects are small and do not transfer (between studies, all FC slopes are slightly negative)."
+  },
+  {
+   "path": "files/figures/fig2_studies_vs_TR.png",
+   "caption": "Study medians (discovery blue, confirmation orange) against acquired TR for lag-1 s voxel autocorrelation, voxel timescale, cortical tSNR and mean FC. Black line: the within-person TR effect from the discovery studies, intercept fitted. Dashed line (first panel): white noise passed through the ReadyNeuro 1-s resampler at each TR, scaled; it predicts the curve and the dip at TR = 1.0 s, where runs are not resampled."
+  },
+  {
+   "path": "files/figures/fig3_within_person.png",
+   "caption": "Within-person change of each measure across protocols, relative to the person mean, in all 11 within-person studies (coloured: the three largest). Grey band: plus or minus 1 SD of study medians between discovery studies. TR moves autocorrelation and timescale by as much as the whole between-study spread; connectivity changes stay inside the band except for the TR 0.4 s, multiband 8, 20-degree protocol of ds004499."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:8fbbc9bace8b9abf9fbcf6301dd46db4578bc4a7d821dffff6cb8bd89a0c79d0",
+   "reason": "Campaign: ReadyNeuro, patterns along the acquisition (leaf acq-natural-experiment, A5a)."
+  },
+  {
+   "target": "sci:sha256:3cefc9dc66362b4603e19e64bcc6b4b621613737f000c51fb7572a08bdb0b92e",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We use its accession_pairs.tsv to merge accessions that share copied runs before the discovery/confirmation split."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026), the data source."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing code (value_preproc.py)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2021.117965",
+   "reason": "Risk et al. 2021: within-person multiband comparison (ds003540, our discovery study); reported that multiband noise lowers raw correlations."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2018.05.011",
+   "reason": "Demetriou et al. 2018: multiband protocol comparison (ds002603, our discovery study)."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00279",
+   "reason": "Huotari et al. 2019: sampling-rate effects on resting-state metrics by downsampling."
+  },
+  {
+   "target": "doi:10.1038/s41593-023-01299-3",
+   "reason": "Shinn et al. 2023: lag-1 temporal autocorrelation shapes network measures."
+  },
+  {
+   "target": "doi:10.7554/eLife.42256",
+   "reason": "Watanabe et al. 2019: intrinsic timescale estimator used here."
+  },
+  {
+   "target": "doi:10.7554/eLife.56151",
+   "reason": "Wengler et al. 2020: timescale study that handled TR with site covariates."
+  },
+  {
+   "target": "doi:10.1073/pnas.2003383117",
+   "reason": "Raut et al. 2020: timescale hierarchy and SNR."
+  },
+  {
+   "target": "doi:10.7554/eLife.75540",
+   "reason": "Manea et al. 2022: timescale measure mixes autocorrelation amplitude and decay."
+  },
+  {
+   "target": "doi:10.1002/mrm.1240",
+   "reason": "Kruger and Glover 2001: physiological noise model for tSNR."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2005.01.007",
+   "reason": "Triantafyllou et al. 2005: tSNR versus voxel size and field strength."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.10.020",
+   "reason": "Noble et al. 2017: multisite FC reliability, site versus subject variance."
+  },
+  {
+   "target": "doi:10.1038/s41597-019-0035-4",
+   "reason": "Esteban et al. 2019: crowdsourced MRI quality metrics."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer et al. 2018: 100-region 7-network atlas used for regions and networks."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.05.011",
+   "reason": "Afyouni et al. 2019: autocorrelation and FC inference."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2021.118617",
+   "reason": "Srirangarajan et al. 2021: multiband and tSNR effects on effect sizes."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003540",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002603",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004499",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006926",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003495",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004712",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003858",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001399",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005085",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004787",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004720",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Within-person protocol comparison study used in this work."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000042",
+   "reason": "Yamashita et al. 2019: traveling-subject separation of scanner measurement bias from participant effects in FC; prior work on within-person versus between-site differences."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116091",
+   "reason": "Hagler et al. 2019: ABCD processing; vendor-specific handling of initial frames (GE)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2017.10.043",
+   "reason": "Bollmann et al. 2018: TR dependence of BOLD autocorrelation in first-level models."
+  },
+  {
+   "target": "doi:10.1002/hbm.24218",
+   "reason": "Corbin et al. 2018: autocorrelation modelling across TR."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-09230-w",
+   "reason": "Olszowy et al. 2019: false positives from autocorrelation at short TR."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.03.035",
+   "reason": "Gratton et al. 2018: person versus session variance in functional networks."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116210",
+   "reason": "Badhwar et al. 2020: one person scanned at many sites."
+  }
+ ]
+}
