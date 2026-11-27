@@ -1,0 +1,149 @@
+{
+ "title": "In 776 fMRI studies, white-matter BOLD correlates more along template fibre directions 4-6 mm from other tissue, more so in studies with larger voxels; a deep-white-matter effect did not reproduce",
+ "abstract": "Near grey matter and CSF, the BOLD fMRI signal of a white-matter voxel correlates more with its neighbours along the local fibre direction than across it, and this effect is larger in studies with larger voxels; in deep white matter, a fibre effect did not reproduce. This is important because fMRI methods that map fibre pathways (functional correlation tensors) use this local anisotropy and assume that it comes from the fibres, also away from tissue boundaries.\n\nWe used 1,432 minimally preprocessed runs (ReadyNeuro corpus) from 776 OpenNeuro studies, one person per study, in four sets with no shared studies: discovery (121), confirmation (334), replication (271) and a final test (50). For white-matter voxels at least 4 mm from other tissue, we calculated the correlation with neighbours 4 mm away along each image axis. We removed the axis effects that are the same in all voxels of a run (voxel shape, interpolation) and compared the remainder with the fibre direction from a registered diffusion template. The fibre slope is the Fisher-z difference between the correlation along and across the fibre; the mean neighbour correlation is about 0.24.\n\nAt 4-6 mm from other tissue, the fibre slope was +0.007 to +0.010 with three axes in the three earlier sets and +0.008 to +0.018 with the two in-plane axes in all four sets, mostly from left-right fibres. It was 2 to 3 times larger next to CSF than next to grey matter, and it disappeared when the template was moved 20 mm. Its excess over deep white matter increased with native voxel volume (Spearman rho 0.31, 0.31, and 0.30 in the pre-registered replication), together with lower correlation across the boundary, a sign of partial-volume mixing. In deep white matter (6 mm or more from other tissue), the result depended on the analysis and on the study set. With three axes, the slope moved with residual slice-axis anisotropy, and two pre-registered tests failed. With the in-plane axes it was +0.011 in 726 studies (found after review), but a pre-registered test in 50 new studies gave -0.002 (95% CI -0.009 to +0.006), significantly lower (p = 0.003). Axis effects from the acquisition were 5 to 25 times larger than the fibre effect. Rest and task runs of the same people did not differ.\n\nLimitations: the fibre direction came from a population template, the segmentation was not corrected for EPI distortion, and voxel size was not assigned at random across studies.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  }
+ ],
+ "keywords": [
+  "white matter",
+  "BOLD fMRI",
+  "functional correlation tensor",
+  "partial volume",
+  "voxel size",
+  "fibre orientation",
+  "acquisition anisotropy",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "replication",
+  "pre-registration",
+  "negative result"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_depth_and_displacement.png",
+   "caption": "A: fibre slope (Fisher-z difference between correlation along and across the template fibre direction, 4 mm neighbours, all three axes) by distance from the nearest non-white-matter voxel, in three disjoint study sets (mean and 95% CI over studies). B: the same with only the two in-plane axes, including the final 50-study test (diamonds). C: slope along the tissue-boundary normal (negative = partial-volume sign). D: fibre slope when the registered template is displaced by 0-40 mm (4-6 mm zone: circles; 6 mm or more: squares)."
+  },
+  {
+   "path": "files/figures/fig2_voxel_size_and_tissue.png",
+   "caption": "A: fibre slope in the 4-6 mm zone (circles) and the deep zone (squares) by native voxel volume of the study. B: boundary-normal slope in the 4-6 mm zone by native voxel volume. C: 4-6 mm zone fibre slope for voxels whose nearest other tissue is grey matter or CSF. Mean and 95% CI over studies."
+  },
+  {
+   "path": "files/figures/fig3_positive_controls.png",
+   "caption": "A: increase of the fibre slope when a fibre-aligned signal (generated from a template with a 3 mm registration error) is added to real runs, against its share of voxel variance; horizontal lines show the observed slopes. B: acquisition anisotropy (z-axis minus x/y neighbour correlation at 2 mm) against the native slice-thickness to in-plane ratio, one point per run."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+   "reason": "Campaign: ReadyNeuro, patterns along place within one brain (leaf wm-bold)."
+  },
+  {
+   "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e",
+   "reason": "Root campaign of the ReadyNeuro mission."
+  },
+  {
+   "target": "sci:sha256:3cefc9dc66362b4603e19e64bcc6b4b621613737f000c51fb7572a08bdb0b92e",
+   "relations": [
+    "uses"
+   ],
+   "reason": "We used its accession-pair table of copied runs to remove confirmation and replication studies that share runs with earlier sets, and to merge linked studies into one unit."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (minimally preprocessed OpenNeuro fMRI)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Shard manifests and download addresses."
+  },
+  {
+   "target": "doi:10.7554/eLife.71774",
+   "relations": [
+    "uses"
+   ],
+   "reason": "OpenNeuro, the source of all studies and of the native NIfTI headers and BIDS sidecars."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0082107",
+   "reason": "Functional correlation tensors (prior work tested here)."
+  },
+  {
+   "target": "doi:10.1016/j.mri.2015.10.003",
+   "reason": "FCT pathways agree with diffusion tensors; boundary confound discussed; tested at scale here."
+  },
+  {
+   "target": "doi:10.1002/mrm.27512",
+   "reason": "HARFI functional tractography, which uses the same local anisotropy."
+  },
+  {
+   "target": "doi:10.1073/pnas.1711567115",
+   "reason": "White-matter tract BOLD synchrony at rest and with functional loading."
+  },
+  {
+   "target": "doi:10.1523/JNEUROSCI.3872-16.2017",
+   "reason": "Resting-state white-matter functional networks."
+  },
+  {
+   "target": "doi:10.1073/pnas.2103104118",
+   "reason": "Distinct white-matter BOLD power spectra."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6861686",
+   "reason": "Review of white-matter fMRI and resting connectivity."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851671",
+   "reason": "Latency structure of white-matter BOLD."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg segmentation used to define white matter, CSF and grey matter."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2011.09.015",
+   "relations": [
+    "uses"
+   ],
+   "reason": "FSL; HCP1065 DTI template and MNI152 T1 from FSL data_standard."
+  },
+  {
+   "target": "https://git.fmrib.ox.ac.uk/fsl/data_standard",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Download location of FSL_HCP1065_V1/FA_1mm and MNI152_T1_2mm_brain."
+  },
+  {
+   "target": "doi:10.1016/j.mri.2025.110596",
+   "reason": "Gore J, Li M, Schilling K et al. 2026 review of white-matter BOLD signals."
+  },
+  {
+   "target": "doi:10.1007/s11682-024-00914-6",
+   "reason": "FCT across age; notes that FCT reproducibility across brains was not established."
+  },
+  {
+   "target": "doi:10.1177/0271678x221106277",
+   "reason": "White-matter BOLD depends on fibre orientation relative to B0, an alternative orientation mechanism."
+  },
+  {
+   "target": "doi:10.1002/ima.20166",
+   "reason": "EPI neighbour correlations differ along readout, phase-encoding and slice axes."
+  }
+ ]
+}
