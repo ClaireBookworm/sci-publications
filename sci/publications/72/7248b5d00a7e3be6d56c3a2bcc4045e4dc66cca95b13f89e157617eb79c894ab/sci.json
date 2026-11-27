@@ -1,0 +1,208 @@
+{
+  "title": "Campaign: connectomes, cell types, circuits and repeated copies",
+  "abstract": "Subcampaign of 'what do connectomes reveal about how nervous systems are built?'. Scope: Groups of neurons: cell-type wiring, motifs, and how similar repeated copies are (left-right, serial homologs, columns, individuals). 26 papers. Status: supported for repeated copies, mixed elsewhere. Serial homologs in the fly nerve cord and in Platynereis are much less similar than left-right copies, mostly through partner types present in one segment only; mushroom-body glomerulus-pair structure repeats in all 21 hemisphere pairs; inhibitory outputs go mostly to same-level targets. Lineage and birth time add little after neuropil overlap: a raw 19.6-fold same-clone excess vanishes with control and reverses at 2 um. Fly wide-field visual neurons of one type share their field and partners (76 of 100 groups) and feed back to their own input types; function was not tested.",
+  "keywords": [
+    "connectome",
+    "connectomics",
+    "research campaign",
+    "FlyWire",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:c6fef5a19cfdc10222ff79abeab6bc3903cb22958f27a5f1b79d3a0b96ff8700"
+    },
+    {
+      "target": "sci:sha256:7610446b065494a807ae6917207e25309f5d4640d569f7c4adfcf6cff41dd085",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do one-sided (all-or-none) L/R connections arise from unbalanced local arbors?."
+    },
+    {
+      "target": "sci:sha256:4fb484ff27df614ad0a886e3a93f20bd4c405654d816519c69539cdbabad6a1c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do neurons with the same birth time connect preferentially beyond hemilineage and neuropil?."
+    },
+    {
+      "target": "sci:sha256:53d84c3bb448aeb8203a02d1bbe7f402996be30e651f506079b20723319a5428",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does cell lineage add synapse prediction beyond cell type once contact area is known?."
+    },
+    {
+      "target": "sci:sha256:b5bd2f8330678be25dbdd3f94cee424a03b62a518b3f5bef7866ed8e4f2543c4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do GABA/glutamate neurons send output forward in a hierarchy fitted on cholinergic wiring?."
+    },
+    {
+      "target": "sci:sha256:4be25677999ecfabb5dc5e36b5c4ff2732c8c2638702d1a688d22d34c2f7daae",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do serial (T1-T3) copies of neuron types share input partners as much as left-right copies?."
+    },
+    {
+      "target": "sci:sha256:71fcc009c08684bb979476833e7531291e22ea07a7407d9dfc33aad65b394b62",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much column-to-column variance in synapse counts is a shared map vs eye-specific?."
+    },
+    {
+      "target": "sci:sha256:c486036e825cbbd0066a2df6ad8038bd9edb34ff1154650fa224c2ea85d4349a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What shares variance of within-column synapse counts: column gain, cell factors or connection-specific parts?."
+    },
+    {
+      "target": "sci:sha256:9f3da37036e784e224c84f81dd8ef4542a7c18a292626925d2367f88071c2f7f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are deviations from random PN-to-KC wiring the same across hemispheres and flies?."
+    },
+    {
+      "target": "sci:sha256:b23bee36d8f94330879bbb74a0e5b1cb3ad2c0b433decb738ad9552ebe8baac7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do serial copies of neuron types differ more in wiring than left-right copies in an annelid?."
+    },
+    {
+      "target": "sci:sha256:dd5c2468ce2ffcf91b34245063fc04e5b4bc1b9b29c1ebb6f1daade4c63ed4ea",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the independence null produce false projection motifs when neurons differ in target number?."
+    },
+    {
+      "target": "sci:sha256:64d3d705ed307a54573dc51b0af4740ea7fe257c94cabb68f28b48e245bc2ef7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much of target-to-target axon variance is neuron fraction vs axon per reaching neuron?."
+    },
+    {
+      "target": "sci:sha256:846126f487c5fe9c83e63983544ac697d61be1a247997458710261ef3fd3fbaf",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: When a cell type has an extra neuron on one side, how many synapses does it add (elasticity)?."
+    },
+    {
+      "target": "sci:sha256:c5aa579d941e046089712817f85bf404167f60a74160888fd6ef6f90c1ffca13",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are tentative neuron names (bracketed) in the male nerve ring supported by partner profiles?."
+    },
+    {
+      "target": "sci:sha256:9e84e540ec08b40de06d533adef0e8789e1a8d7782c5f3b28724fcb2492197c1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do MERFISH neuron types predict where axons from a site go beyond CCF anatomy?."
+    },
+    {
+      "target": "sci:sha256:316e3533d7578352c242e9f68ba0a8c9c17ebad1e73464015b5524a8f93aef5f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do neurons of one hemilineage connect more than their 2 um synapse-location overlap (Peters rule) predicts?."
+    },
+    {
+      "target": "sci:sha256:c8a0f63cdff4fc807976f8bcb74fb9e6276a128805a8eb462210ec6131136b48",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do neurons keep their inhibitory input share more constant than random input sets (E/I compensation) across left-right pairs?."
+    },
+    {
+      "target": "sci:sha256:a64cf0f5be0228dbfe4889c6c4b380bd2e1bff874db1ce907a6fae44af2cdec7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Within a cell type, is the inhibitory input share more constant than matched random input sets?."
+    },
+    {
+      "target": "sci:sha256:d493bbff507f0d8a89269dc4765ea11f3783ce7d3cd6860d93678138697bf925",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the human/mouse ratio of the interneuron-to-interneuron synapse share 8.6-10x as reported by Loomba et al.?."
+    },
+    {
+      "target": "sci:sha256:290bdbfbd7d5831e9cb925389d80fb1cf7fbb5ca6536575e37dfc89cbb2c2175",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are serial-homolog leg neurons wired as similarly as left-right homologs, and are segment differences stereotyped between animals?."
+    },
+    {
+      "target": "sci:sha256:b0742ac548aa60b6ef2f19e403a55e21f4141ff2f35f101b5d30a1fb1bf8788e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much short-route reachability depends on assuming internal axon-to-dendrite transfer?."
+    },
+    {
+      "target": "sci:sha256:f06da18b851a04bebd68f29f6495ad650261721fe5d2a01d74816c87e844e4e7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Why does input to a serial cell type change between leg neuromeres: partner number, absent partners, or per-neuron synapse share?."
+    },
+    {
+      "target": "sci:sha256:50c9bf651e4cc08b5482b4cc5cf4941f7ff5a4f0dba3755ae8848d8b0ef3ae7b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do serial copies of trunk cell types have the same wiring as left-right copies, and are segment differences the same on both sides?."
+    },
+    {
+      "target": "sci:sha256:ed869ce2c81308828ac0a03131d13d3a9f6bfad06c34dee143c4166213801a15",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are reported co-projection motifs real once each neuron's number of targets (breadth) is held fixed?."
+    },
+    {
+      "target": "sci:sha256:68f8a4f48bc9333da8186b3d52103a5be4fcadddde278f4b1a2a906017c9c456",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does granule-cell input oversharing persist when bouton degrees are held exactly?."
+    },
+    {
+      "target": "sci:sha256:2dd9d5f8e0e99e494dbf8e669565566361775cb42ce43f761fa18a28bfb49909",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do multiple cells of a wide-field visual type divide labour (distinct fields/partners) or share field and partners?."
+    },
+    {
+      "target": "sci:sha256:52250f762461379e9a07059a8c42a750e0d8174454d215338f9b2aef492af2ec",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do wide-field visual neurons route local outputs back to their own input cell types?."
+    }
+  ]
+}
