@@ -1,0 +1,96 @@
+{
+  "title": "Campaign: non-invasive brain measurement, administered tracers and agents",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Methods that need an administered tracer or agent: PET, magnetic particle imaging, magnetoelectric nanoparticles, contrast-agent ultrasound and gas-vesicle reporters. 10 papers. Status: mixed. Functional magnetic particle imaging reaches 0.04-0.9 times BOLD sensitivity (approved tracers at the low end); magnetoelectric nanoparticle routes fail their budgets in physical models. Contrast-agent ultrasound and gas-vesicle reporters are placed here as administered agents. In public FDG-PET data a 64-s activation component was null (p=0.49), but in 9 adults visual-cortex FDG uptake rose too early in 10-min blocks for phosphorylation alone (p=0.004-0.008 across 8 variants), so a fast transport-like component is needed.",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:fc3f9b64ab35a3fb94e1fe3182d65ad295a665b11e00d3b1c603446f99847f94",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is functional MPI more sensitive than 3T BOLD fMRI for hand activation?."
+    },
+    {
+      "target": "sci:sha256:4379d46640fe8d9d4e0194aa2b672d66cad643e7103282d5b0eea9a56947d7ad",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can injected magnetoelectric nanoparticles report cortical activity to scalp magnetometers?."
+    },
+    {
+      "target": "sci:sha256:73ce879adc0ff882ec37ce375d17586b2455ab7cf5406f77a29fe6d5b994bd09",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can injected CoFe2O4-BaTiO3 magnetoelectric nanoparticles record sub-mm, ms human neural activity from outside the head?."
+    },
+    {
+      "target": "sci:sha256:87293c43f6e8d5b72085688fa12ba2875de72c0e00efed4e1730a11cb8867363",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does one-slab third-harmonic fMPI detect CBV?."
+    },
+    {
+      "target": "sci:sha256:ef2aa0af9b7b9c0068e45b55f25cb60301af000e8bd530ead4dd6b0f9e2bdac5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the FDG fPET visual-cortex response to checkerboard blocks follow the time course expected for a sustained hexokinase-only change?."
+    },
+    {
+      "target": "sci:sha256:31423221f2ef815a7501aff9b072c10f2e110d8989c19c35bcd7d43c3c752bb9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is contrast-based functional ultrasound or contrast-free Doppler faster for 2-5 mm adult cortical voxels at label doses?."
+    },
+    {
+      "target": "sci:sha256:36362bed71e9ebd6f08871bc5c4044a7e203129e8fc951d5c61c39ba85f0ac53",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is early rise of visual-cortex FDG uptake consistent with phosphorylation-only change?."
+    },
+    {
+      "target": "sci:sha256:0e9c10bdc65ba6fe9e2a59ae7b556915f9b798b5df1ad7f6bfc90a9fb9093f91",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can sub-minute functional FDG-PET signals reflect phosphorylation (metabolism) rather than blood-volume/transport terms, and is a 64-s visual response detectable in public fPET data?."
+    },
+    {
+      "target": "sci:sha256:b6e1b4fdb1dbec39c69cd21ce556081a0c681c686c524127349fe6888bba15f1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What voxel size can contrast microbubble functional ULM reach in human cortex under approved contrast doses?."
+    },
+    {
+      "target": "sci:sha256:0f788f833b444bdf2d8553a201493eb0e69cf1e65d5163ee23765e6812258321",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What sets the smallest voxel for reading gas-vesicle activity reporters through the adult skull?."
+    }
+  ]
+}
