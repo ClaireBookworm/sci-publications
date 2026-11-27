@@ -1,0 +1,184 @@
+{
+ "title": "In 96 held-out OpenNeuro studies of mostly task fMRI, whole thalamus, brainstem and ventral diencephalon signals peaked with or after the cortical global signal in cross-correlation, not before it",
+ "abstract": "In fMRI from many public studies, the signals of the whole thalamus, brainstem and ventral diencephalon (hypothalamus and nearby nuclei) peaked in cross-correlation at the same time as the brain-wide cortical signal or slightly after it, not before it. This matters because earlier studies proposed that these arousal-related regions lead the brain-wide (global) fMRI signal by 1-6 s, which would make them a simple arousal marker.\n\nWe used ReadyNeuro: minimally preprocessed OpenNeuro BOLD fMRI at 1 s per frame, without slice-timing correction. Regions came from each subject's segmentation. The reference was the mean cortical grey-matter signal (global signal, GS). We fixed the discovery studies before we read data, found the pattern in 17 studies, and pre-registered 15 tests. All passed in 68 held-out studies (Holm p <= 0.0033) and in all 96 held-out studies; a later stage of 28 studies passed 12 of 15 with the same signs but missed the pass criterion for the thalamus. Most runs (88 %) were task runs.\n\nPooled cross-correlation peak lags, corrected for slice timing (positive = later than cortex): thalamus +0.08 s, brainstem +0.21 s, ventral diencephalon +0.08 s, an approximate basal forebrain region -0.08 s. The putamen led by 0.49 s (positive control; not shown in rest-only runs). Post hoc phase analysis: at 0.01-0.03 Hz the thalamus, brainstem and ventral diencephalon were 6-18 degrees later; at 0.06-0.1 Hz their phase was not different from 0. The phase slope (\"group delay\") was negative (-0.3 to -0.9 s), so the timing is not one delay, and we do not claim a lag or lead in seconds.\n\nGlobal-signal regression (GSR) compressed the lags and made the brainstem early (+0.26 to -0.11 s). The thalamic dip 4-8 s before global peaks, earlier read as an arousal lead, was present but smaller than the cerebellar dip. After ventricle regression the broadband lags stayed at or above 0, but the 0.06-0.1 Hz phase of the ventral diencephalon became early. A slice-timing model recovered known delays in sequential acquisitions (slope 1.03); results without correction were the same.\n\nState effects were weak: the pre-registered rest-minus-task thalamic measure was +0.71 s (p = 0.08, 28 studies), and a pre-registered sleep test (EEG-scored, 7-11 subjects) did not pass.\n\nLimits: small nuclei (locus coeruleus, raphe, nucleus basalis) are not resolved, the basal forebrain region is approximate, there is no physiology in the main sets, and vascular timing was not measured.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "global signal",
+  "thalamus",
+  "brainstem",
+  "hypothalamus",
+  "basal forebrain",
+  "arousal",
+  "time lag",
+  "global signal regression",
+  "slice timing",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "pre-registered replication"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_delays.png",
+   "caption": "Left: broadband (0.01-0.1 Hz) lag of each region relative to the cortical global signal, slice-timing corrected; median and 95% bootstrap CI over 96 held-out studies (dots) and the 17 discovery studies (diamonds). The grey band shows the size of published thalamic and brainstem leads. Right: phase relative to the cortical global signal in three frequency bands (post hoc). Positive = later than cortex."
+  },
+  {
+   "path": "files/figures/fig2_curves.png",
+   "caption": "a: study-mean signals around cortical global-signal peaks. b: residual after removal of the part that follows the global signal and its derivative; the thalamic dip 4-8 s before the peak (grey band) is smaller than the cerebellar dip, and the putamen, which leads, also dips. c: full-run cross-correlation with the global signal. 96 held-out studies."
+  },
+  {
+   "path": "files/figures/fig5_state.png",
+   "caption": "a: rest minus task difference of the lag and of the 0.01-0.03 Hz phase-derived delay, within 28 held-out studies with both (secondary). b: lag by EEG-scored sleep stage in ds003768 (median over subjects; n per stage on the axis). No region led the cortex in any stage; the pre-registered N2-minus-wake test did not pass."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+   "reason": "Campaign branch A2 (place within one brain) of the ReadyNeuro mission; this work answers its leaf subcortical-lead."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus paper (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro data release, manifests and preprocessing code."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies, BIDS sidecars, NIfTI headers and ds003768 sleep-stage tables."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.119720",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Describes ds003768 (EEG-fMRI sleep data with scored stages) used for the sleep test."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg segmentation that defines the regions."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhab064",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Reports thalamic and brainstem deactivation 5-6.5 s before global peaks; we find the thalamic pre-peak dip, but it is smaller than the cerebellar dip, and whole-region lags show no lead. Their method (voxel level, trough-to-trough segments) differs."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2021.117827",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Reports a 2.9 s thalamic and 1.4-2.1 s brainstem lead in quasi-periodic patterns (after GSR); we find no lead of whole regions relative to the cortical global signal without GSR."
+  },
+  {
+   "target": "doi:10.7554/eLife.10781",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "Reports subcortex early in wake after GSR; in our data GSR also makes the brainstem early, while without GSR the brainstem is late relative to the cortical global signal."
+  },
+  {
+   "target": "doi:10.1073/pnas.1503960112",
+   "reason": "Lag threads after GSR; putamen early, cerebellum and caudate late."
+  },
+  {
+   "target": "doi:10.1152/jn.00804.2013",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Cerebellum late relative to cortex; we confirm a cerebellar lag."
+  },
+  {
+   "target": "doi:10.1038/s41467-017-02815-3",
+   "reason": "Nucleus basalis and thalamic decreases at global-signal peaks (HCP)."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-33010-8",
+   "reason": "Thalamic activation before behavioural arousal in fast fMRI; small vascular thalamus-cortex lead after breath holds."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.10.010",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Cerebellum lags cortex by 0.1-0.4 s."
+  },
+  {
+   "target": "doi:10.1177/0271678X16631755",
+   "reason": "Resting BOLD lag maps follow blood transit."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00787",
+   "reason": "Systemic low-frequency oscillations as a vascular source of BOLD lags."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0222787",
+   "reason": "Vascular source of low-frequency BOLD lag structure."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2009.05.026",
+   "reason": "Putamen responds early to CO2 changes."
+  },
+  {
+   "target": "doi:10.1126/sciadv.abf2709",
+   "reason": "Global waves linked to arousal begin with midline-thalamus suppression; phase, not time delay, is preserved across infra-slow frequencies."
+  },
+  {
+   "target": "doi:10.1073/pnas.1520613113",
+   "reason": "fMRI arousal template."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.11.052",
+   "reason": "Global signal regression consensus."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.01.032",
+   "reason": "Basal forebrain inactivation changes the global signal (causal link, not timing)."
+  },
+  {
+   "target": "doi:10.1002/hbm.22564",
+   "reason": "Systemic low-frequency oscillations travel with blood (vascular lag)."
+  },
+  {
+   "target": "doi:10.3389/fnhum.2016.00311",
+   "reason": "Blood arrival time and global mean regression."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2018.04.045",
+   "reason": "Systemic vascular effects and late white-matter BOLD."
+  },
+  {
+   "target": "doi:10.1038/s42003-019-0659-0",
+   "reason": "Global signal coupled to sympathetic vasoconstriction."
+  },
+  {
+   "target": "doi:10.3389/fnins.2020.596084",
+   "reason": "Lag reflects the local haemodynamic response rather than arrival."
+  },
+  {
+   "target": "doi:10.1126/science.aax5440",
+   "reason": "CSF signal follows the derivative of the global BOLD signal."
+  }
+ ]
+}
