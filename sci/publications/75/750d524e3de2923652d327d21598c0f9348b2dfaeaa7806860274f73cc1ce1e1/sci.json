@@ -1,0 +1,683 @@
+{
+ "title": "Across 66 OpenNeuro studies, task runs had lower 4-s BOLD autocorrelation than rest runs of the same people; a pre-registered local-coherence decrease did not replicate",
+ "abstract": "Across 66 independent OpenNeuro studies, fMRI task runs had a lower autocorrelation of the cortical BOLD signal at a lag of 4 s than rest runs of the same people. This matters because single studies disagree on how tasks change the timing and size of ongoing brain signals, and no study had compared the same within-person contrast across many scanners and task types. We used ReadyNeuro, minimally preprocessed OpenNeuro data. For each person, we subtracted rest-run features from task-run features at the same acquisition repetition time (TR), so scanner, TR and person cancel. Autocorrelation at 4 s is the correlation of a cortical parcel signal (0.008-0.15 Hz) with itself 4 s later; local coherence is the mean correlation between voxels inside a parcel. Studies were split at random into discovery and confirmation halves, and the confirmation tests were written down before the confirmation data were loaded. In 31 confirmation studies (36 people), the 4-s autocorrelation fell by 0.071 (95% CI 0.031 to 0.110; Cohen d -0.66; one-sided p 0.0005; lower in 74% of studies); in 26 discovery studies it fell by 0.080. The rest value is about 0.34. The primary hypothesis, a larger decrease of local than global coherence, held in discovery (d -0.84) but failed in confirmation (d -0.10, p 0.29). In exploratory analyses, the decrease was large for memory, reward, control and story tasks and near zero for working-memory, emotion and block-design sensory tasks, it depended on trial spacing, and it followed changes of the global signal; evoked responses and physiology are therefore leading explanations. Amplitude did not change significantly, but equivalence was not shown. A map of task families from 140 features was at chance in discovery and weakly above chance in confirmation, mostly for films and stories. Limitations: one to three people per study, task labels only, and a confirmation set built partly from shards that were already downloaded.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "autocorrelation",
+  "intrinsic timescale",
+  "task versus rest",
+  "local coherence",
+  "regional homogeneity",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "cross-study replication",
+  "pre-registration",
+  "task ontology"
+ ],
+ "display": [
+  {
+   "path": "files/results/fig1_shift_by_study.png",
+   "caption": "Task-minus-rest change per study (same person, same TR), discovery (blue; all 36 extracted studies, 26 at pre-registration) and confirmation (orange; 31 studies), with mean and 95% CI over studies. The 4-s autocorrelation fell in both halves; local coherence and its excess over global coherence fell only in discovery; amplitude did not change significantly. Top: controls (triangle CO2, square sleep, diamond sedation, open circle rest variants)."
+  },
+  {
+   "path": "files/results/fig2_parcel_maps.png",
+   "caption": "Mean task-minus-rest change per Schaefer parcel over all study entries of both halves (parcel centroids, axial and sagittal views). Autocorrelation at 4 s fell in all 100 parcels, but parcel changes are strongly correlated (one shared component carries 61%); local coherence fell in 94%."
+  },
+  {
+   "path": "files/results/fig3_by_family.png",
+   "caption": "Change of the 4-s autocorrelation and of amplitude by nominal task family, one dot per study and stage; bars are family means per stage. Exploratory: the size of the autocorrelation drop differs by family (Kruskal-Wallis p 0.049)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f",
+   "reason": "Campaign branch A4 (patterns along the condition); this work is its leaf task-space."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing code."
+  },
+  {
+   "target": "doi:10.7554/eLife.71774",
+   "relations": [
+    "uses"
+   ],
+   "reason": "OpenNeuro."
+  },
+  {
+   "target": "doi:10.1523/JNEUROSCI.2111-11.2011",
+   "relations": [
+    "supports"
+   ],
+   "reason": "He 2011: lower Hurst exponent and variance during a task in one study; we find the same direction for 4-s autocorrelation across 66 studies."
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.1007983",
+   "reason": "Ito et al. 2020: task quenches variability and correlations in HCP; we find no amplitude decrease when evoked signal is included."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhs055",
+   "reason": "Garrett et al. 2013: BOLD SD higher on task than fixation; not seen as a general rule here."
+  },
+  {
+   "target": "doi:10.1038/s42003-021-01785-z",
+   "reason": "Golesorkhi et al. 2021: MEG intrinsic timescales change in task-specific ways between rest and task."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2014.05.014",
+   "reason": "Cole et al. 2014: task-general connectivity changes."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.03.035",
+   "reason": "Gratton et al. 2018: networks dominated by group and individual factors."
+  },
+  {
+   "target": "doi:10.1038/s41593-023-01299-3",
+   "reason": "Shinn et al. 2023: temporal autocorrelation shapes network measures."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2003.12.030",
+   "reason": "Zang et al. 2004: regional homogeneity (local coherence)."
+  },
+  {
+   "target": "doi:10.1371/journal.pbio.3000733",
+   "reason": "Zhang et al. 2020: rest-task modulation of global-signal topography."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer 2018 parcellation."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow atlas file."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg labels in the shards."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000030",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000201",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000256",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001419",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001454",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001553",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001907",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002422",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002738",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002785",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002790",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002799",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002872",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003085",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003171",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003382",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003466",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003495",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003548",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003574",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003701",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003768",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003798",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003823",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003831",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003835",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003849",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003988",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004097",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004134",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004144",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004169",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004192",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004299",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004349",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004469",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004592",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004639",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004697",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004718",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004856",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005003",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005016",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005017",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005038",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005069",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005072",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005073",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005088",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005165",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005226",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005230",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005237",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005270",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005339",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005418",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005454",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005464",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005469",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005559",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005597",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005613",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005623",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005795",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005850",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005874",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005896",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005901",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005917",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006148",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006156",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006303",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006395",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006515",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006683",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006686",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006731",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006893",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006948",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006952",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007036",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007063",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007116",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007182",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007231",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007386",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds008055",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0006626",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Barnes et al. 2009: BOLD scale-free dynamics change with cognitive effort (single study)."
+  },
+  {
+   "target": "doi:10.1523/JNEUROSCI.1296-11.2011",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Baria et al. 2011: task shifts BOLD power to higher frequencies (single study)."
+  },
+  {
+   "target": "doi:10.3389/fphys.2012.00186",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Ciuciu et al. 2012: lower Hurst exponent during task."
+  },
+  {
+   "target": "doi:10.1038/srep30895",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Churchill et al. 2016: effort suppresses scale-free BOLD dynamics."
+  },
+  {
+   "target": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10473260/",
+   "reason": "Kardan et al. 2023: related single-dataset evidence on BOLD temporal dynamics and task."
+  },
+  {
+   "target": "https://research.tilburguniversity.edu/en/publications/less-head-motion-during-mri-under-task-than-resting-state-conditi/",
+   "reason": "Huijbers et al. 2017: less head motion during task than rest."
+  }
+ ]
+}
