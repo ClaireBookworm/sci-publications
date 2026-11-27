@@ -1,0 +1,227 @@
+{
+ "title": "Across 90 OpenNeuro studies with brief task events, regions with a later resting BOLD lag have later and longer event responses; the pattern held in 43 held-out studies",
+ "abstract": "Brain regions whose slow spontaneous BOLD signal arrives late at rest also have later and longer responses to brief task events. A resting delay map from other people therefore predicts a modest but consistent part of the regional timing of task fMRI responses, which analyses that assume one response timing for all regions ignore.\n\nWe used ReadyNeuro, minimally preprocessed OpenNeuro fMRI without slice-timing correction. For 115 study-tasks in 90 studies (702 people, about 105 task labels), we estimated the group event response of 226 regions with a finite impulse response (FIR) model. Latency is the time shift that aligns a region's whole response curve with the study's dominant response. We compared it with a resting lag map from 80 other studies (138 people): the delay of each region's slow (0.01-0.1 Hz) spontaneous signal behind the cortical mean.\n\nIn 47 discovery studies, the median per-study Spearman correlation was 0.33 (45 of 47 positive), and latency increased by 0.49 s per 1 s of resting lag. We then registered eight tests. In 43 confirmation studies, the correlation was 0.43 (39 of 43 positive, p = 4e-8), the slope was 0.50 (95% CI 0.41-0.58), and the discovery latency map predicted each new study (median 0.58). The correlations exceeded all 1,000 surrogate maps with the same spatial smoothness. Post hoc, per 1 s of resting lag the response rose 0.2-0.3 s later, peaked 0.4 s later and ended 0.6 s later, so late regions respond later and longer. The relation held in grey matter only, for deactivating regions, and after control for predicted slice-acquisition time and temporal signal-to-noise ratio. Thalamus, ventral diencephalon and brainstem responded 0.2-0.5 s earlier than the map predicts; putamen and cerebellum responded later. The pre-registered slice-timing positive control failed, because one study gives slice times in milliseconds; post hoc, without that study, the control was positive (slope -0.67; expected -1).\n\nLimits: coarse atlas regions after rigid alignment, 8 people per study, one response shape per run, and no physiological recordings.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.IV"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "hemodynamic response function",
+  "BOLD latency",
+  "resting-state lag",
+  "event-related fMRI",
+  "response width",
+  "slice timing",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "pre-registration",
+  "vascular delay",
+  "thalamus"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_main.png",
+   "caption": "(a) Group FIR responses of the earliest and latest third of parcels (by the rest map) in one discovery study; late parcels fall later. (b) Mean relative evoked latency per parcel against the independent rest lag map, discovery (blue) and confirmation (orange); dashed line slope 1. (c) Per-study Spearman rho with the rest map (both sets) and with the frozen discovery latency map (confirmation); bars are medians."
+  },
+  {
+   "path": "files/figures/fig2_maps.png",
+   "caption": "Parcel centroids seen from above and from the side. Left: resting lag map from 80 rest studies. Right: mean relative evoked latency over all included study-tasks. Blue is earlier and red is later, on one scale; the evoked map is paler because its shifts are about half as large."
+  },
+  {
+   "path": "files/figures/fig3_controls.png",
+   "caption": "(a) Slice-timing positive control: latency against predicted slice-acquisition offset (within-parcel deviations); dashed line is the slope -1 that SliceTiming predicts; the confirmation curve excludes one study with SliceTiming in milliseconds (post hoc). (b) Relative response width (FWHM) against the rest lag map."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f",
+   "reason": "Campaign for branch A4 (the condition) of the ReadyNeuro mission; this work is leaf event-hrf."
+  },
+  {
+   "target": "sci:sha256:a634fc0ab249502943632302b9458138002d2d3fc6fae144984ea57a04204df7",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Shows the same resting lag order in 74 held-out ReadyNeuro studies. Our independent rest map (80 other studies, split-half r 0.83) agrees with a stable order, and we extend it to event-evoked latency."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro shards, manifests and preprocessing description."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies, events files and BIDS sidecars."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer-2018 cortical parcellation."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow atlas files."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg labels shipped in ReadyNeuro."
+  },
+  {
+   "target": "doi:10.3389/fnins.2020.596084",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Nine-person study: visual task lag map matched the resting global-signal lag map; we generalise this across 90 studies and many tasks."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2008.06.030",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Breath-hold latency partly predicts task latency (n = 9)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2018.02.061",
+   "reason": "Whole-cortex HRF map in one task (prior work)."
+  },
+  {
+   "target": "doi:10.1177/0271678X251325413",
+   "reason": "Seven-task HCP HRF map; regional rank order across tasks not tested."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2003.11.029",
+   "reason": "HRF variation across subjects and regions."
+  },
+  {
+   "target": "doi:10.1006/nimg.2000.0568",
+   "reason": "Relative timing of regions in BOLD."
+  },
+  {
+   "target": "doi:10.1006/nimg.1998.0369",
+   "reason": "HRF variability across subjects."
+  },
+  {
+   "target": "doi:10.1002/hbm.26047",
+   "reason": "HRF timing stable across sessions."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2026.122318",
+   "reason": "Negative-BOLD HRFs across six tasks."
+  },
+  {
+   "target": "doi:10.7554/eLife.86453",
+   "reason": "Resting spectra carry HRF timing information."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2023.120120",
+   "reason": "Resting vs breathing-task delays."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2010.06.049",
+   "reason": "Systemic low-frequency oscillations travel with blood."
+  },
+  {
+   "target": "doi:10.1177/0271678X16631755",
+   "reason": "Perfusion information in resting fMRI lag."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00787",
+   "reason": "Review of systemic low-frequency BOLD signals."
+  },
+  {
+   "target": "doi:10.3389/fnins.2017.00256",
+   "reason": "Non-neuronal source of BOLD lag structure."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0222787",
+   "reason": "Deoxyhemoglobin and lag structure."
+  },
+  {
+   "target": "doi:10.1152/jn.00804.2013",
+   "reason": "Lag structure in resting fMRI."
+  },
+  {
+   "target": "doi:10.1073/pnas.1503960112",
+   "reason": "Lag threads."
+  },
+  {
+   "target": "doi:10.1002/mrm.1910330602",
+   "reason": "Large veins delay BOLD."
+  },
+  {
+   "target": "doi:10.1002/hbm.1026",
+   "reason": "Analysis of fMRI response delays."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2004.09.013",
+   "reason": "BOLD impulse response timing and veins."
+  },
+  {
+   "target": "doi:10.1038/s41592-020-0941-6",
+   "reason": "Early and late (venous) response components."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2018.06.056",
+   "reason": "Fast subcortical visual responses."
+  },
+  {
+   "target": "doi:10.3389/fnins.2022.1009295",
+   "reason": "Subcortical HRFs are faster and narrower."
+  },
+  {
+   "target": "doi:10.1038/s41467-019-09076-2",
+   "reason": "White-matter HRF."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2011.06.078",
+   "reason": "Slice-timing effects."
+  },
+  {
+   "target": "doi:10.1006/nimg.2001.0940",
+   "reason": "Latency estimation in event-related BOLD."
+  },
+  {
+   "target": "doi:10.1002/hbm.20307",
+   "reason": "Breath-hold latency did not reliably predict task latency (negative prior result)."
+  },
+  {
+   "target": "https://researchwith.njit.edu/en/publications/decoupling-of-the-hemodynamic-and-activation-induced-delays-in-fu/",
+   "reason": "Biswal et al. 2003: task delay split into transit and activation delays."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8327112",
+   "reason": "Yao et al. 2021: regional arrival times from low-frequency signals in a CO2 challenge."
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/39234985",
+   "reason": "Li, Lee & Lin 2024: LGN leads visual cortex after breath-hold latency correction."
+  }
+ ]
+}
