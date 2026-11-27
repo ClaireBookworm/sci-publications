@@ -1,0 +1,306 @@
+{
+  "title": "Campaign: non-invasive brain measurement, probing with ultrasound",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Ultrasound sent through the skull and detected as sound: functional ultrasound, Doppler, localization microscopy, and skull acoustics models. 40 papers. Status: bounds. Most papers model skull acoustics and inverse problems in plates and spheres; several find non-identifiability or audit failures of published skull parameter sets. Functional ultrasound through the skull is limited in parietal cortex (coarser than 3T fMRI in most simulated draws), while an endovascular array near a venous sinus may resolve smaller voxels than 7T fMRI within about 1.5-2 cm (minimally invasive).",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:766182abbe7ab5000a01b56e41130215c900acb2c3ac0b7d12e4f3c1594493de",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can an ultrasound array in a dural venous sinus resolve cortical blood-volume changes more finely than 7T fMRI?."
+    },
+    {
+      "target": "sci:sha256:9cbbe24e2f12f840dde83d6f2cf53327dc134b7ae3c85d6f027331756fa3c8da",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can one passive relaxation law fit printed skull wave speeds and attenuation?."
+    },
+    {
+      "target": "sci:sha256:76bd0b06b716bd6d8d0099b0463556363945abc43390e3931fd070b2d171ff7c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How does calibration uncertainty change optimal angles for estimating elastic skull properties?."
+    },
+    {
+      "target": "sci:sha256:dab5ff619a5333e0885d766b45c87e5a2aa8d344745ddabf13296fe17ce13a26",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does spatial versus local damping differ in weak absorption?."
+    },
+    {
+      "target": "sci:sha256:9a4442aee53789c21f66185c897ca1b5951bc101380a2ed22d95a6e004a22a17",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a symmetric spatial loss law preserve reciprocity and passivity where the usual fractional-loss law does not?."
+    },
+    {
+      "target": "sci:sha256:d4a28a0ce25fd911206482e397d866a6f19a6612c320e5a3a693e7d67531cbde",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do two spatial-moment correction terms reduce periodic-box error in a nonlocal damping calculation?."
+    },
+    {
+      "target": "sci:sha256:d0c80108ee17ce643d2911c055ccdd9c307a9283b1e34c50a6552ef175169c3a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do curved propagation steps reduce transmission error through spherical elastic shells compared with a flat-plate model?."
+    },
+    {
+      "target": "sci:sha256:686b12fff4076cb361028bb69e401269b3d8440de94dfd2408c92fc183f0728c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do equal principal sound speeds plus equal normal transmission fix oblique pulse transmission in an anisotropic plate?."
+    },
+    {
+      "target": "sci:sha256:04e412eea66bf5e112eaa623cb9d93486d2066b10d8d288b8967308fb6d1a961",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does matching outer transmission and echo fix inner echoes in passive flat plates?."
+    },
+    {
+      "target": "sci:sha256:1478dfa5c18636d9fd127bc788e0436ea0f08ceb5e0650f6a4ffc6992ae7560e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do plane-strain energy tests detect non-passivity of published skull elastic parameter sets?."
+    },
+    {
+      "target": "sci:sha256:d63c94e37c0ed8e1c6c2015b584ee68168971e49c4e126c2a762d9391f8b9069",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is a small incidence angle relative to critical angle sufficient for fluid skull models to stay within 5% error?."
+    },
+    {
+      "target": "sci:sha256:a7b9463495ba55049ff8a2fa96337310d9ebace0c2da7a5441adf71556348b34",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can five axial samples remove pressure averaging by a small disk sensor?."
+    },
+    {
+      "target": "sci:sha256:e1cd2ad649aacb125826b0aa124923eae4c88a1b04bf9d75d5d088cbec323931",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a fitted source correction beat depth interpolation for water-reference pulse scans?."
+    },
+    {
+      "target": "sci:sha256:4c3a7a64c219ca3fbdad7b749cd765872208301b4ed2c5d4101134901571fe56",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do two passive loss models with the same bulk dispersion root give the same layer transmission?."
+    },
+    {
+      "target": "sci:sha256:18553c0cf90df452c841d0daaa51842d669f7453b7d090a73a864e136151adaf",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a single waveform with per-point gain and delay represent skull transmitted pulse recordings within 10%?."
+    },
+    {
+      "target": "sci:sha256:b89e036a99d519cb3ad22bc38adf9e4c8752a7cc97fcacfb12f32cd48721f693",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do grid-position averages fix derivative errors for fluid layer interfaces?."
+    },
+    {
+      "target": "sci:sha256:088400d74cc5f97028b935f393f908910caf7a1f7fb865bc784d44883d1182fd",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a passive surface model replace volume skull solves?."
+    },
+    {
+      "target": "sci:sha256:9552e05728cd6dd198fdfb6a409345fd3f333362b453a38837ac75423d7f0ae8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do oblique modes increase target pressure?."
+    },
+    {
+      "target": "sci:sha256:409bcd18c9f12d7e7cfa9c00f8cee4792d3874614a18dd821ee2d6f02cbe47a8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can normal-incidence plane-wave transmission/reflection certify oblique-angle pressure through an elastic skull-like slab?."
+    },
+    {
+      "target": "sci:sha256:9dbb90a565c4c3ce5a126308b97eeb60156bde2a8500f120436eea6e0c35421d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do archived 500 kHz SALVUS skull-sound phase fields agree with an independent reference?."
+    },
+    {
+      "target": "sci:sha256:2aa20bba3493a95e1ea8c9d248f8ad44de2525b9dba63fe466867d67e3985b90",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a quadratic phase model describe transverse phase of recorded skull sound maps?."
+    },
+    {
+      "target": "sci:sha256:bfd25454c9087dcfd098d3f043258344f82192a2679728b75711f3adfcd6cd86",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do four echo matrices identify focusing patterns at hidden sites?."
+    },
+    {
+      "target": "sci:sha256:4ef8502c33cc3a3644e7c023a0bebc0d5d84e869ceb671458fc9cdb5e325e0a8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can functional ultrasound through the closed eyelid and orbital roof image orbitofrontal blood volume?."
+    },
+    {
+      "target": "sci:sha256:7d15692e90245b6eb14236167b0456eb55a1a8fecd9736dab14f6332a026ef71",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a reused mean skull parameter set pass a plane-strain loss check yet add energy in 3D?."
+    },
+    {
+      "target": "sci:sha256:e7baa3dbb3061d6a25da7a137abeba5eb7cc7466b619ca4abad80a8821de6785",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a fluid skull model matched at normal incidence give correct phase correction for focused beams?."
+    },
+    {
+      "target": "sci:sha256:755436e6c8e6df88fc06176c3a66536abe1bb874b714687d1e0c5614c71d7d5d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a source-spectrum-ratio rule calibrated at 55 mm predict water pulses at other depths in a human skull dataset?."
+    },
+    {
+      "target": "sci:sha256:de737c9804da455084629058ab59f5c380ff76541542becf14843261a3d66f0c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a single gain and lateral shift of the water-reference beam reproduce the field through a skull?."
+    },
+    {
+      "target": "sci:sha256:f86c96a2d9de3edf0e7d77d8d3357aeae08445b86770cf34bb79ed3a123bf903",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does the choice of phase reference change error bounds and best calibration angle for oblique calibration of a passive plate?."
+    },
+    {
+      "target": "sci:sha256:a5aa0026bafc961cb00bdcc18e52f227d33e7ae475039f1734279defa083ef59",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can nine correction terms after phase removal reproduce lossless fluid skull models within 10% at 500 kHz?."
+    },
+    {
+      "target": "sci:sha256:83606b9854be833257efabc4bfefc426a7ca9c99d885fb7af72df56be773b418",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a shared linear filter correct sound through skull plates with uncertain material?."
+    },
+    {
+      "target": "sci:sha256:26ab92a94422a04ddd1e1ea62e2f894b05b311901d2116544dc145d662192ce0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do oblique pressure signals reveal pore sources hidden at normal incidence in sealed Biot plates?."
+    },
+    {
+      "target": "sci:sha256:c9992db915035c656bfe70c42d23ed13e137e4804fd2aaae713a6dc68a0e2c42",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can repeated echoes recover array fields at more hidden points than channels?."
+    },
+    {
+      "target": "sci:sha256:4f435c31f20d51df739b9a86d5d9f558ecc6d4c5a5ea2da3ef0f666590fe3f5e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can functional ultrasound through intact adult skull match 3T fMRI voxel size for a 10% blood-volume change?."
+    },
+    {
+      "target": "sci:sha256:633723016dc8b35e8888a14194f7037416ee357dcf29d2ce2955b79d1cd7bfac",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How accurate is flat-plate approximation of sound transmission through spherical shells?."
+    },
+    {
+      "target": "sci:sha256:b52c9dd34674c70667a2868e700e9f3aedf171da264386d818caf14a1823a10d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can wave-physics test functions give a lower error bound on saved brain sound fields without a reference solution?."
+    },
+    {
+      "target": "sci:sha256:c8affe61270b955bfb3f1cc5a4edaf630502df893b0b1da06e6cb2fc921b3c94",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is the traveling-wave particle-velocity heat rule accurate in elastic skull plates?."
+    },
+    {
+      "target": "sci:sha256:2f6771c939e61299f5b03b378a09fb2b55fac3b4447941bdcc38f2ef863d0c56",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do passive bone plates admit stable causal exact waveform inverse?."
+    },
+    {
+      "target": "sci:sha256:bb25605331ebd0fb486c98add1ef2ceb41a6bcb477ec8be2696515fe839bba9c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does matching transmission and outer reflection determine inner reflection in passive plates?."
+    },
+    {
+      "target": "sci:sha256:28e27d58de9f5f418d10eba4cd6dfcbe6f63ee4948deb59f30799a5a86d7e225",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does receiver distance change information on evanescent modes with only plate thermal noise?."
+    },
+    {
+      "target": "sci:sha256:5dbb7468aeaae62d1287253f42dcb3d50e10e033e1a19b810d3c4edece850182",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the passive receive-match information limit for ports behind the skull?."
+    }
+  ]
+}
