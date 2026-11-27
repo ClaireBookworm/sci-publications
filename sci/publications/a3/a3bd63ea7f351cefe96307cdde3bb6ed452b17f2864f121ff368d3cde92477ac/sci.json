@@ -1,0 +1,334 @@
+{
+ "title": "A linear BOLD-only estimate of heart-rate and breathing-depth changes works in most held-out OpenNeuro studies; most failures come from physio files misaligned with the scan",
+ "abstract": "A small linear model that reads only the minimally processed BOLD fMRI signal recovers the slow changes of heart rate and breathing depth in most OpenNeuro studies that it never saw. Where it fails, the main cause is a physio file that is not time-aligned with the scan. This matters because most public fMRI has no physiological recordings, and because the recordings that exist are reused without a timing check.\n\nI used ReadyNeuro (OpenNeuro BOLD stored at 1 s) and the cardiac and respiratory recordings of OpenNeuro studies. Before I looked at any values, I split the studies into discovery and confirmation sets. The model is a ridge regression on lagged brain-region signals, with 201 weights per target. It was trained on 8 discovery studies, frozen, and tested twice with a pre-registered script: on 20 confirmation studies (97 runs), and then, as planned, on all 26 studies downloaded later (165 runs; Siemens, Philips and GE; 3 T and 7 T; TR 0.36 to 2.5 s).\n\nResults, primary run then update run. The median per-study correlation between the estimate and the recording was 0.32 and 0.41 for heart rate (HR), 0.27 and 0.29 for respiratory variation (RV, the breathing-depth signal), and 0.09 and 0.15 for pulse amplitude. In runs acquired with a repetition time (TR) below 1 s, the breathing cycle survives the 1-s storage: the BOLD spectrum gave the breathing rate within 1 breath per minute of the belt in 80 % and 74 % of runs. The HR-to-BOLD coupling peaked 1 s and dipped 8 s after an HR change, as in discovery. In the primary run, 3 of 7 pre-registered tests failed (pulse amplitude, timing windows, ventricle delay); in the update run all 7 passed.\n\nA physio-only check, added after review, flags recordings that run more than 5 s past the end of the scan. It flags exactly the 7 HR studies whose estimate does not beat a within-run circular-shift null. In the other 17 studies the HR estimate is positive in all (median r 0.45). Moving the end of a flagged recording to the end of the scan restores the estimate in 4 studies.\n\nLimits: few subjects per study (52 HR subjects in the update run); the estimates are relative and share a global component; no motion parameters are stored; the alignment analyses are exploratory.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.SP"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "physiological noise",
+  "heart rate",
+  "respiratory variation",
+  "breathing rate",
+  "pulse amplitude",
+  "cross-study validation",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "physio timing",
+  "data quality",
+  "BIDS physio",
+  "ventricles",
+  "pre-registered"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig2_accuracy_by_study.png",
+   "caption": "Per-study median correlation between the frozen BOLD-only estimate and the recorded heart rate, breathing depth (RV) and pulse amplitude in 26 held-out confirmation studies (update run), sorted by acquired TR. Blue: full model. Orange: global signal only. Gray cross: different-subject null. Asterisk: study fails the BOLD-based timing audit."
+  },
+  {
+   "path": "files/figures/fig5_physio_alignment.png",
+   "caption": "Per-study accuracy against the physio-only overrun (end of the physio recording minus end of the BOLD acquisition). Studies whose recording runs more than 5 s past the scan (gray area) are the ones where the estimate fails; moving the recording end to the scan end (aqua) restores it in 4 of them. Exploratory, added after review."
+  },
+  {
+   "path": "files/figures/fig3_breathing_rate.png",
+   "caption": "Breathing rate from the BOLD spectrum against the belt, in confirmation runs acquired with TR below 1 s (update run, 58 runs, 10 studies). Gray band: within 1 breath per minute."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bae945760f3c1560cf09a5b1c6f34f1acdaf7d7d5446adc539cdf33dbd8734cc",
+   "reason": "Campaign A1 (patterns along time within one run) of the ReadyNeuro mission; this work is the leaf physio-from-bold."
+  },
+  {
+   "target": "sci:sha256:7dd9664889c27a9456a4c0769d0743f10cd1aefdd31ec36d75668efd1983b9a4",
+   "relations": [
+    "challenges"
+   ],
+   "reason": "That work read heart rate and respiration out of ds004597 physio; our BOLD-based timing audit and the physio-only check find that ds004597 physio is misaligned with the scan by about 9 s, which can lower such read-outs."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (BOLD data)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2c",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing description."
+  },
+  {
+   "target": "doi:10.7554/eLife.71774",
+   "relations": [
+    "uses"
+   ],
+   "reason": "OpenNeuro, source of the BOLD and physiological recordings."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2008.09.029",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Definitions of RV and HR (6-s windows)."
+  },
+  {
+   "target": "doi:10.1162/IMAG.a.163",
+   "reason": "DeepPhysioRecon: deep-network estimate of RV and HR from fMRI within HCP; the closest prior work."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116150",
+   "reason": "Physiological response functions vary across people and regions."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.09.038",
+   "reason": "Whole-brain BOLD signals and respiration."
+  },
+  {
+   "target": "doi:10.1126/science.aax5440",
+   "reason": "CSF inflow coupled to global BOLD changes."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001168",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003097",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003357",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003592",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004213",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004597",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004627",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005075",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005427",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000030",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001740",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001771",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002547",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002603",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002785",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002790",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003465",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003709",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003798",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003831",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003965",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004493",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004636",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005012",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005341",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005917",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006644",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007182",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007393",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1038/s41593-025-01945-y",
+   "reason": "Global fMRI signal co-fluctuates with autonomic physiology across several datasets (prior work on the coupling itself)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6911832/",
+   "reason": "HRAN: respiratory and cardiac signals, including breathing rate, from native fast fMRI (prior work for the breathing-rate result)."
+  },
+  {
+   "target": "https://arxiv.org/abs/2408.14453",
+   "reason": "Reconstruction of physiological signals from fMRI across the adult lifespan."
+  },
+  {
+   "target": "https://arxiv.org/abs/2410.19802",
+   "reason": "Head motion parameters plus BOLD to estimate respiratory signals."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001499",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001553",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002737",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003823",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004192",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004283",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000113",
+   "relations": [
+    "uses"
+   ]
+  }
+ ]
+}
