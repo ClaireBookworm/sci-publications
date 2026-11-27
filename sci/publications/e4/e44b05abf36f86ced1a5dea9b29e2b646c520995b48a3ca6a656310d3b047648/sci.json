@@ -1,0 +1,663 @@
+{
+  "title": "Campaign: non-invasive brain measurement, fields and emissions produced by the brain itself",
+  "abstract": "Subcampaign of 'how can human brain activity be measured without surgery, better than today?'. Scope: Methods that detect signals the brain generates, with no probing energy: EEG, MEG and optically pumped magnetometers, electrode placement, conduction-model calibration, and passive emissions (ultraweak photons, microwave and thermal noise). 91 papers. Status: bounds and narrow gains. Electrode position matters more than electrode type: in layered sphere models at equal electrode noise, only dense arrays in or below the bone sharpen EEG maps much (1.02-1.20 times smaller patches under the scalp, 2.3-5.0 times in bone or on the dura at 5 mm spacing); a 0.2 mm fluid film cuts a tight sheet's 7.2x sub-scalp gain to 3.1x; in recordings of known sources in 4 patients, a per-electrode correction halves the unexplained part of the scalp map (relative rms residual 0.21 to 0.11). Hippocampal ripples give 0.7-2 fT at the best MEG sensor, so MEG replay effects are possible only at the upper estimate. Many papers are exact-solution and identifiability checks of conduction models in spheres.",
+  "keywords": [
+    "neuroimaging",
+    "non-invasive brain measurement",
+    "research campaign",
+    "signal budget",
+    "tiling tree"
+  ],
+  "categories": [
+    {
+      "scheme": "sciscape",
+      "code": "campaign"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b8346ed353aa99d00b9d7b22e9e509e59ecd2745f211e0f790cccf564215b70d"
+    },
+    {
+      "target": "sci:sha256:5019e1cd0955b54fbcea7580f87325d26982bab0c47e11baa53125e0cba51ad0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do confined salt (ion) diffusion changes produce a first-order EEG/MEG signal?."
+    },
+    {
+      "target": "sci:sha256:b104e03ef74e24a4137d1aa0398271b93b4a81c250d38f734ebdd3734298d17d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a shared initial ion pattern give quadratic source dipoles in free diffusion?."
+    },
+    {
+      "target": "sci:sha256:e69f35231d3e8daad41de5ea5ac0387556a804b66a520a167433369883fadd2b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can external voltage and its feedback on ion diffusion be computed exactly from interface operators?."
+    },
+    {
+      "target": "sci:sha256:f4e00ea05e9ceb24025562dc31725bca812d190f1cad693c4b62ac9419955986",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How large is self-induction error in resistive head models?."
+    },
+    {
+      "target": "sci:sha256:1d6631eb016a263df8a76c7cf639a82441e416d021cfabcff0cd975ba886d182",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is thermal noise correlated between ideal EEG and MEG?."
+    },
+    {
+      "target": "sci:sha256:81f8197e33de58aa542d3f16b41d58665c344d5cba806310bdcd0c3f7ac897cc",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Which source maximizes imaginary EEG coherency under a power limit?."
+    },
+    {
+      "target": "sci:sha256:f728af908975c1aee9ef267242fab25edbad851d2e3e4398393d87babf31d17b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much EEG-MEG thermal noise correlation can capacitive tissue create?."
+    },
+    {
+      "target": "sci:sha256:4974200098590c39e0a881c89020b7a0ea645d9b79fb16316b02e854d43882a9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How many real solves suffice for a capacitive EEG model?."
+    },
+    {
+      "target": "sci:sha256:b07d5452ab8dbe43f0deba82d4d951e10227aef5c46d2794930dea925c642eb0",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are numerical derivatives of fast spherical EEG models reliable for conductivity fitting?."
+    },
+    {
+      "target": "sci:sha256:779355a96aae77b4fd64d1ed69ccd4820c6ccb3cf17e6b2288dc4daf2bbd9c7e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can hippocampal ripples be detected by MEG?."
+    },
+    {
+      "target": "sci:sha256:40dc8329d8e7b0922efe676f82de725b0bf5d7d85e9f6002cdcb108a5a04b05a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can radial maps hide source shifts in EEG and MEG?."
+    },
+    {
+      "target": "sci:sha256:5a342993766130229aa27fd2c07d5f1e45b1c239f5b479c410fa1e63af1bf9c4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much more signal do contacts under insulating sheets give?."
+    },
+    {
+      "target": "sci:sha256:c22ca4e0078d5498013359753bc4b59aa43ff88652a685bb3508d6dd1105cad3",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does laminar MEG depth discrimination survive when sources are not placed exactly on the analysis mesh (no inverse crime)?."
+    },
+    {
+      "target": "sci:sha256:c1ce29149117f376548d3bada3109be3af3810adae714ff0afaca4f121249f31",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do wave (full Maxwell) effects change MEG-normal fields versus the static model in concentric spheres?."
+    },
+    {
+      "target": "sci:sha256:eb4547b891d0763cb7477003005ccc72d74d1844200fe8caae27d0aee7f68f66",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does single-dipole accuracy of a fast EEG forward solver guarantee accuracy for distributed sources?."
+    },
+    {
+      "target": "sci:sha256:83a814be5b0d133d6c75ea030bf3428b3108eeadc5574fb94f2f8c4f54b20cb6",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is a 99% noise-power spatial cutoff sufficient for MEG filter sensitivity predictions with thermal noise?."
+    },
+    {
+      "target": "sci:sha256:b7c504abac6e8c617d82e41046e08459f181a728fe9c5e8cf13b2d7d55bfa64d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does replacing fine conductivity layers with one anisotropic material preserve the voltage from point dipoles?."
+    },
+    {
+      "target": "sci:sha256:60b90d8719b1f18739bfc8417d448c75870515868af7c52efea48df648730d51",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can small electrode contact resistance raise SNR relative to thermal noise?."
+    },
+    {
+      "target": "sci:sha256:c99920e44315f7a04df4e6ea5d22350580c5927892212fe5091d960588f08e31",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the maximum apparent imaginary-coherency lag produced by zero-delay real sources through a complex forward model?."
+    },
+    {
+      "target": "sci:sha256:da046a1c350875ab4f2c1dd143493bf2792ce010ef6d7236c394394ab8e07466",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much residual signal does a uniform ambient field leave after head rotation and standard field correction?."
+    },
+    {
+      "target": "sci:sha256:24f479e36934f4e882121c855d82b823b8699c5865209a79601d4ec952bae7a1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Are certified finite-source voltage error intervals tight enough for EEG forward-model verification?."
+    },
+    {
+      "target": "sci:sha256:9f3b0eb2fe8a9c0159c9a1e912c2263b273a10ef396b5eb77ca0d3be142610d2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What are global bounds on EEG transfer in concentric heads under uncertain layer conductivities with log-linked scales?."
+    },
+    {
+      "target": "sci:sha256:f2c432adedde5f6e317f190a5c54f7f749ad445d7da4507592dbc650c0193df8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a surface average match a complete electrode model for lead fields at 5 kOhm contacts?."
+    },
+    {
+      "target": "sci:sha256:d2414241c2758fc8cd011ba271167907171f172e367f41616bd94dd4f689ab0b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What fraction of cortical photons reach the scalp, below 590 nm and at 800 nm (corrected version)?."
+    },
+    {
+      "target": "sci:sha256:a4682d006860ee826633c466358233bfcd9f64593186292f557ec828332e618c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can two extreme tissue models bound EEG source locations under skull conductivity uncertainty?."
+    },
+    {
+      "target": "sci:sha256:98d2894cc1781f98ea3eb534d91248f7637b677100c943415525036fadf1e759",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can reference fields bound local scalp voltages from superficial dipoles in flat skull models?."
+    },
+    {
+      "target": "sci:sha256:edd42cae732aef54cc51e13dff296eb35ca26627aae247e23ef5f432dba4772f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Is an optimal ideal magnetic sensor array confined to inner and outer surfaces of the allowed region?."
+    },
+    {
+      "target": "sci:sha256:71f6b9d11e0055e64d3fac99e2c463fb1479e2cc50a6c59a3756aba7d1515786",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do symmetric passive anisotropic conductivity and permittivity allow oscillatory free electric modes?."
+    },
+    {
+      "target": "sci:sha256:08585e55306094e5a1c2f1697203042de122b6ba6f13e8e9a48b74af47af0523",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a skull model fitted to scalp EIT data predict EEG voltages in heads with layered skull?."
+    },
+    {
+      "target": "sci:sha256:014daac56ea6fdcadb4f1376a10df66cff5ae00ae371e22b451090e3e780225b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does wave propagation (full Maxwell) change the external field of radial dipoles in concentric heads?."
+    },
+    {
+      "target": "sci:sha256:8072966da8817b69e93f77775f45bea3aa45947378cafe80313bed84d8b00937",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does treating tissue thermal noise as independent bias sensitivity forecasts for dense MEG arrays?."
+    },
+    {
+      "target": "sci:sha256:ed891e80a51684d9a1ee3a0280085c72cd0ff497e0c13cc0e5db2f27b5c93cb8",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can phase differences between tissue conductivity responses create spurious imaginary coherency from one source?."
+    },
+    {
+      "target": "sci:sha256:97f09289f3601a9c1438a99a3c4d7d7534c1c5a4e931ef7311fb69df063457bc",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What can passive microwave radiometry detect of cortical activation in adult heads?."
+    },
+    {
+      "target": "sci:sha256:e16fbd5e7b33b62fe0cf0b5426c21e04af0bc7603a49d44acccc158ee2693e67",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do opposite skull-conductivity tilts give identical surface impedance but different brain voltage maps?."
+    },
+    {
+      "target": "sci:sha256:81e5e9913a402bb1473a4deeb8068d0fb012a8f3c7834b451094d020e70e61c4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does one fixed scalp map explain averaged EEG responses to intracranial stimulation (Localize-MI)?."
+    },
+    {
+      "target": "sci:sha256:e998080d2b35d591a3de35e6157db026423eab861a4a9e0d2cd2d9154a81247b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What is the maximum shared thermal-noise correlation between ideal EEG and MEG?."
+    },
+    {
+      "target": "sci:sha256:8d33ffe70181dee7f0b539fd0ea04ecf0e2f1b04b630f07142baecf7f886add2",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How do three scalar functions compare local dipole position precision under complete EEG data?."
+    },
+    {
+      "target": "sci:sha256:e49e57e8083a4dae87e84021c5850b606ca6f7555fee390884df5ebd501dfd31",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can nearby coil calibration bound brain signals without a fitted sensor sensitivity?."
+    },
+    {
+      "target": "sci:sha256:9b5cebb92fa1a7e1c8b6e246960fed12ae7b44a2ff9775eba1515f0031f18ddb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do spatially independent currents maximize magnetic information?."
+    },
+    {
+      "target": "sci:sha256:07649d176175dc9f33693b38dc08788a9a8b0b8c7041cc5815fac1616a973edd",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can equal scalp electrical data permit different magnetic fields in anisotropic spheres?."
+    },
+    {
+      "target": "sci:sha256:e5b03ce57c36dbd882fd48c28cd3c45252637d0f51f19cc56e748f75722ac3ea",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a skull-conductivity interval exclude incompatible source sites?."
+    },
+    {
+      "target": "sci:sha256:8881968f52cd656f244c08d73d319614af1553e8314a9edd0fc578d83340633e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can bridge correction remove loading error in EEG contacts?."
+    },
+    {
+      "target": "sci:sha256:0a12dd3fbd87244cde1624063cdcd5a788e2978ce3acd3e68aecfe82b436286a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much information do passive electrical measurements carry on local temperature change?."
+    },
+    {
+      "target": "sci:sha256:51d445ffd7617ffbbd5d134c375b44e326afb70bf5d38afc2bd2d2187b774e75",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scalp EEG or MEG detect asynchronous neuronal firing at 0.3-2.5 kHz?."
+    },
+    {
+      "target": "sci:sha256:ae075a9ab0344d055012aa90c6c1ca7750013616314f1b6ce0b046280c858a66",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a single-dipole EEG numerical error limit cover distributed currents in layered spheres?."
+    },
+    {
+      "target": "sci:sha256:7dea180d4be046e5deedcafa512dad53b797dc3d76a5429cba9ca0e3d129244a",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can one known complex spatial moment correct dynamic sensor-volume response in forward models?."
+    },
+    {
+      "target": "sci:sha256:66b0c625bed3a9f2ec3b3d5b9ff985000a7b029ec19321f19519a276fc139e96",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can two scalp fields bound passive electrode errors in fixed resistive EEG models?."
+    },
+    {
+      "target": "sci:sha256:2b9afb87005691cd58a4963e3a1befbb32151604c095fcb62afb9f8ec5cb64de",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does head rotation leave residual tissue-susceptibility magnetic fields after room-field removal?."
+    },
+    {
+      "target": "sci:sha256:05f76af58094ff85ec0e05806ed77fe364179f5e6c266ce6dca508dffdb9a766",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a 125-sample field-sampling correction keep sensor-response error low in operating band?."
+    },
+    {
+      "target": "sci:sha256:8f3c92ba08e875472603df4c373c2fe6fc0b7f2df82143839affa3350f579b03",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a known sphere solution give exact EEG voltage references in layered anisotropic polyhedra?."
+    },
+    {
+      "target": "sci:sha256:4c0b6fa73c7dcd61ed401908ce8ce42eaa1aae93c357c7b5514fd0dd6e1eda43",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does one reciprocal scalp drive preserve a selected EEG voltage interval compared with full calibration?."
+    },
+    {
+      "target": "sci:sha256:74a134a937e2ec0ec0e00e8cc750eca4fbda15a4140623054fc906849bad793e",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do smooth coordinate maps give exact EEG voltages in four curved resistive layers?."
+    },
+    {
+      "target": "sci:sha256:0bcabf9fb1396e676773771a7f599bd8ba55bdb01b3dee2f9778ce45a8c192d5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do equal directional relaxation times give exact boundary circuits for capacitive concentric head modes?."
+    },
+    {
+      "target": "sci:sha256:d9779dafb6da6c09354ae5e3514038e45dd3f2a4af0512654fb52898e949e66d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does scalp voltage variation bound magnetic field added by a floating circular contact?."
+    },
+    {
+      "target": "sci:sha256:3050577bfd8e23f754ea00c39c64522bc2b50f8073bedd1fd5d66e85eaf897c4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do two further field calculations bound passive electrode correction in reciprocal resistive EEG models?."
+    },
+    {
+      "target": "sci:sha256:518d1dc662138799f0b86de4bb6d672d17f7a37d6de1bc4e8073b2c70175733f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much information does joint EEG and MEG have against thermal noise in a layered resistive sphere?."
+    },
+    {
+      "target": "sci:sha256:55800cd9cc71183000b2727ff7fb4874fbd697b7306abf9e9dd0de33cd61fe49",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can finite exact magnetic-noise data pin down radial tissue coordinates in spherical heads?."
+    },
+    {
+      "target": "sci:sha256:45b9b658e1de2e2e639360748ce2e16cf258938f856a5475dbc351772b978553",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can four coil modes reject a direct signal and bound a hidden radial tissue coordinate?."
+    },
+    {
+      "target": "sci:sha256:9bdcfc82cb9825724a95a65bef170204efd256c46bfa33d81c3fc7479910ca69",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do paired magnetic readings detect electrically hidden conductivity maps?."
+    },
+    {
+      "target": "sci:sha256:f4180aac94de25c4ddf08c3d661f8f561cb128a298a95399f709a58fc2571ec6",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: From which cortex do stent electrodes in the superior sagittal sinus record?."
+    },
+    {
+      "target": "sci:sha256:bc29e34f0e137adac72992cd0f3929e251fe18af71af8264f2e3e28695d04872",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can bounded brain conductivities give identical scalp data for different source depths?."
+    },
+    {
+      "target": "sci:sha256:78aad1ee0242bdf308ba3d1de395db3f02f762997f53f4f27966158670f99726",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does exact scalp calibration pin down source depth in concentric spheres with bounded brain conductivity?."
+    },
+    {
+      "target": "sci:sha256:0b147d0a861804b43728d4bb963a85b3db77f0875081bf59df44d06c93da40af",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can a compact degree-5 polynomial skull model keep scalp voltage transfer accurate at fine spatial degrees?."
+    },
+    {
+      "target": "sci:sha256:8f6b4b2a80c422d9da4fd370d6a1061ff49d0be9cf8abf68a803672a70d161fb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How many sample points suffice to integrate field over a narrow OPM sensing box?."
+    },
+    {
+      "target": "sci:sha256:75282b81089740a92858238ddee5b4aff24f3155edbf10a7e08af73fc9e34f2d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can known scalp conductivity turn surface Laplacian into scalp current with bounded error?."
+    },
+    {
+      "target": "sci:sha256:6d4a9b15b4ebca487a6c7c6c1c001ac602fd3e5d7b541f8e4aad19db3921712b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can scalp impedance calibration fix EEG prediction from brain source with unknown skull conductivities?."
+    },
+    {
+      "target": "sci:sha256:1a2f118878823d06f03cfa807d6367dc0b808a10d2866d8ed054f73f47469e75",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can local scalar skull limits give direct EEG prediction bounds from impedance calibration?."
+    },
+    {
+      "target": "sci:sha256:61807dbef842813d2ad7a8a256c0512815d1c24fa77601b579a887ef995360d5",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a radial cut in a thin conducting ring remove magnetic thermal noise in all directions?."
+    },
+    {
+      "target": "sci:sha256:87cfdbf6817f3331cbe88f4aa598632cd50d74bb6b198e36c4db437a89fb2ef6",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does geometry-based source pair selection reduce EEG map calibration error?."
+    },
+    {
+      "target": "sci:sha256:52c492126179d87ee8460b902308e02c0ed7bc0cf5466e57019bf4c1025596f9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does contact with conducting material below a cut ring raise its magnetic noise above the independent sum?."
+    },
+    {
+      "target": "sci:sha256:d0110dec2d5dc313789884a67d7b2959caf1d547d07bab4a5bf77c76b517ad28",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can eight stored responses reproduce head fields as one tissue conductivity scale varies 100-fold?."
+    },
+    {
+      "target": "sci:sha256:964ff588551620e5ba06d55ceb5142f464155b8de135a4709d9b617514146746",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do paired boundary maps bound voltage response from smooth currents in deformed resistive heads?."
+    },
+    {
+      "target": "sci:sha256:7e78153b163a5b5d6cc0bfaf668a5b0c3b31db21b31bfe7578515fc08e80d67f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can MEG detect magnetic fields from asynchronous action potentials in human cortex?."
+    },
+    {
+      "target": "sci:sha256:e9a0eb1117bbefbb6fe7a4c64f3e54dc4650bee7f1124818d7f418358f6249ad",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a correction exact for a uniform local field give accurate scalp voltage for conductive skull openings?."
+    },
+    {
+      "target": "sci:sha256:6bb40ab2e6db42d5e112c418ace90d554f044bb13e7ba0419b1a3133c8d05c6c",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do magnetic coil spectra below 1 MHz resolve source depth ambiguity in resistive heads?."
+    },
+    {
+      "target": "sci:sha256:f056777a01ab453d07915ba06a67d5f69d2a0cc7e2fec6953b8a77f5cee6de91",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can extra sensor heights replace angular coverage in finite magnetic field models?."
+    },
+    {
+      "target": "sci:sha256:e8fb03ef6ac20edec3c74dcf9f8bec3621c58dfefbfab13fc39723f88966894f",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: What limits spatial detail in dense scalp EEG of known intracranial sources?."
+    },
+    {
+      "target": "sci:sha256:d90d69ae9c7966c7e53f4e321dc70cd199078729a868ad05de2944967854b320",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do exact spherical-harmonic modes control numerical error of fast sphere dipole fits (MNE) in layered heads?."
+    },
+    {
+      "target": "sci:sha256:835764da3cf0c6f27898bf5deb7cf52948da3cfc04ae87fdb3ff134bcc8953c4",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do smooth sources keep fixed-array magnetic field error small in static spheres with radial anisotropy?."
+    },
+    {
+      "target": "sci:sha256:002d26180c138b4bfab1dddeb6f123218e779fbfaaefea614b85af79d530e426",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can calibration from distant sources validate sensor response models for nearby brain signals?."
+    },
+    {
+      "target": "sci:sha256:1f6f17f8ed7082540e7e7fc4b8479392e9202f6d605f26857490c325ca32cca9",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do small voltage errors guarantee accurate surface derivatives in sphere EEG fits?."
+    },
+    {
+      "target": "sci:sha256:603715136a08ffca60af8df6c959e94cc0314683883b6e5f80cbea91a4e4a388",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a full head-response fit beat local sensor calibration for motion-induced MEG signals?."
+    },
+    {
+      "target": "sci:sha256:720264ed77820a72196e3f9a929adeacba54c1c6cfb5841af9ee8773de88416d",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How does information per EEG mode vary with uniform skull conductivity scaling?."
+    },
+    {
+      "target": "sci:sha256:c76b0835cf373ed263c133c5c81a9e13e163621d1b5c06715c9cb01d48decaeb",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do separate static and uniform-field tests determine dynamic response of diffusion-based sensors?."
+    },
+    {
+      "target": "sci:sha256:f9baf08366ef58ca0b4d26f40921ce24c41167d5a3b07137ab505022e33883a1",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does a single scalp EEG channel have an unstable exact causal inverse in a passive spherical head?."
+    },
+    {
+      "target": "sci:sha256:f7398cf785006c09288dcdeacb562178333d150992550a353b666fe2bf5d6efe",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can finite scalp data stably recover filtered signals from known dipoles in capacitive heads?."
+    },
+    {
+      "target": "sci:sha256:9fd8b99221fe5ddd9b98dea1074c5bc3b0fa3d19843453714b5678bdc4c475fd",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can MEG/EEG detect hippocampal ripples?."
+    },
+    {
+      "target": "sci:sha256:490be313ea44cd934866741e8b0fe7839b9f3d1de30d860bf1e829d99e32af76",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Do under-scalp electrodes sharpen EEG cortical maps?."
+    },
+    {
+      "target": "sci:sha256:012557da992a00c6dece4acfdebbcb5beaa63c551cc00efd097b272d08a77d8b",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: How much error results from replacing the three skull layers by one anisotropic layer, and does resistance matching reduce it?."
+    },
+    {
+      "target": "sci:sha256:dce3d9444f1f13da36237eea5b7a115d3c8800d77dd24fff00c038dd34479fd7",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Can independent conductivity limits give sharp bounds on EEG transfer in resistive concentric heads?."
+    },
+    {
+      "target": "sci:sha256:40fc3aea263de837af017c721972cf9218721182a581c507df0f0af0f6994579",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Branch paper. Question tested: Does one exact order integral per bin reduce EEG error bounds in resistive spheres?."
+    }
+  ]
+}
