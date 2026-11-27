@@ -1,0 +1,133 @@
+{
+  "title": "In 99 fresh OpenNeuro fMRI studies, larger heads had lower temporal SNR in the brain's centre relative to its edge, and more CSF around the brain went with lower white-matter temporal SNR",
+  "abstract": "Two measures of a person's anatomy predicted the quality of that person's fMRI signal in specific places in the brain, beyond age and sex. This matters because groups that differ in head size or in the amount of CSF around the brain, such as men and women, children and adults, or patients with atrophy, can show signal differences that come from anatomy and not from brain activity. Temporal signal-to-noise ratio (tSNR) is the mean of a voxel's signal divided by its standard deviation over time. We used ReadyNeuro, minimally preprocessed fMRI from OpenNeuro, measured anatomy from each person's own T1 segmentation, and compared people only within a study before pooling studies. In 99 fresh studies (985 people) not used to find the effects, with tests written before extraction: (1) a larger intracranial volume went with lower subcortical tSNR relative to superficial-cortex tSNR (partial r = 0.18, 95% CI 0.08 to 0.28; subcortical tSNR alone r = -0.23); (2) a larger fraction of the intracranial volume filled by CSF outside the ventricles went with lower tSNR in pure white matter (r = -0.20, -0.30 to -0.10). Exploratory analyses over 217 studies showed the general form: in larger heads, grey and white matter near the centre of the head had lower tSNR (r about -0.25) and tissue near its edge higher tSNR (r about +0.1), on every vendor and coil type checked; the thalamus and putamen lost most. This is consistent with radio-frequency coil geometry. Head size explained the sex difference in the edge-to-centre contrast. The CSF effect was specific to white matter, strongest far from CSF, and independent of head size; CSF fraction also tracks atrophy and T1 image quality. An earlier hypothesis from 14 studies, that CSF fraction lowers BOLD autocorrelation, failed in 102 held-out studies (r = -0.02, -0.08 to 0.05) although the same test detected the age effect. Limitations: one run per person; head-motion data for 61 of 99 fresh studies; the contrast was built after seeing discovery data; head size and head position in the coil were not separated.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "temporal SNR",
+    "head size",
+    "intracranial volume",
+    "cerebrospinal fluid",
+    "white matter",
+    "subcortical",
+    "sex differences",
+    "receive coil",
+    "OpenNeuro",
+    "ReadyNeuro",
+    "pre-registration",
+    "negative result",
+    "BOLD autocorrelation"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig_main.png",
+      "caption": "A: within-study partial r between intracranial volume and detrended tSNR at each distance from the centre of the intracranial volume (fraction of head radius), grey and white matter; solid all 217 studies, dashed fresh 99 studies. B: the same for each subcortical structure (median depth in brackets). C: partial r between the extracerebral CSF fraction and tSNR at each distance from CSF or the mask edge. D: pooled estimates in each study set; G = superficial-cortex minus subcortical tSNR; orange = fresh confirmation of the pre-registered H7 and H8; last row = failed round-1 hypothesis (grey discovery, blue 102-study confirmation). Panels A-C are exploratory and include discovery data."
+    },
+    {
+      "path": "files/figures/R1_fig1_forest.png",
+      "caption": "Round 1 (failed): CSF fraction against the lag-1 autocorrelation of pure-cortex BOLD signal. A: each study in discovery (blue, 14) and held-out confirmation (orange, 102). B: pooled estimates for the pre-registered analyses in both sets."
+    },
+    {
+      "path": "files/figures/R1_fig2_distance.png",
+      "caption": "Round 1: the discovery effect of CSF fraction on autocorrelation was flat with distance from CSF (blue); in the 102 held-out studies it was zero at every distance (orange)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7268eacfa1d004323696e295e783504d54461de5c74311ada55490259ee7791c",
+      "reason": "ReadyNeuro campaign, branch A3 (the person); this work is leaf anatomy-function (A3b)."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026), the data source."
+    },
+    {
+      "target": "doi:10.7554/eLife.71774",
+      "relations": [
+        "uses"
+      ],
+      "reason": "OpenNeuro, the source studies."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0184661",
+      "relations": [
+        "uses"
+      ],
+      "reason": "MRIQC metrics (framewise displacement, T1 quality) from OpenNeuro derivatives."
+    },
+    {
+      "target": "doi:10.1016/j.media.2023.102789",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SynthSeg labels in the shards define all anatomical measures."
+    },
+    {
+      "target": "doi:10.1111/ejn.14627",
+      "reason": "Single-site study of brain and CSF volume fractions against fALFF; our round 1 tests a related claim across studies."
+    },
+    {
+      "target": "https://dblp1.uni-trier.de/rec/journals/neuroimage/QingG16.html",
+      "reason": "Qing & Gong 2016, brain volume correlates with ALFF."
+    },
+    {
+      "target": "doi:10.7554/eLife.42256",
+      "reason": "Grey-matter volume and BOLD intrinsic timescale."
+    },
+    {
+      "target": "doi:10.1038/s42003-025-07517-x",
+      "reason": "Age, grey-matter volume and BOLD timescales; our round 1 bounds a CSF-fraction version of this link."
+    },
+    {
+      "target": "doi:10.1002/mrm.20925",
+      "reason": "Receive-array SNR is higher at the periphery than at the centre of the head."
+    },
+    {
+      "target": "doi:10.1002/mrm.1240",
+      "reason": "Physiological noise model of tSNR."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0067652",
+      "relations": [
+        "supports"
+      ],
+      "reason": "White-matter physiological noise rises with age and small-vessel disease; consistent with our CSF-fraction effect."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2014.12.006",
+      "reason": "Head motion biases T1 morphometry."
+    },
+    {
+      "target": "doi:10.1002/hbm.23397",
+      "reason": "fMRI head motion flags motion artefacts in T1 morphometry."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2015.05.077",
+      "reason": "Brain and CSF volume change with time of day."
+    },
+    {
+      "target": "doi:10.1002/mrm.22961",
+      "reason": "Coil-to-head size fit changes SNR (size-matched pediatric arrays)."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2010.11.084",
+      "reason": "Physiological versus thermal noise in tSNR with multi-channel array coils."
+    },
+    {
+      "target": "doi:10.3389/fnins.2021.735290",
+      "reason": "Thalamic tSNR depends on the receive coil."
+    }
+  ]
+}
