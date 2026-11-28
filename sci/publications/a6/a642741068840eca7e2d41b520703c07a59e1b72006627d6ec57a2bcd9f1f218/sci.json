@@ -1,0 +1,146 @@
+{
+ "title": "In 47 held-out fMRI studies, rare whole-brain BOLD extremes are 2.4 times more frequent than in a stationary Gaussian model, 2 times after slow drift is removed, and troughs often follow head motion",
+ "abstract": "Brief brain-wide rises and drops of the fMRI signal occur in almost every study and are 2.4 times more frequent than a stationary Gaussian process with the same correlations predicts; about 2 times after slow drifts in the size of the global signal are removed. This matters because it shows, across many tasks and scanners, that the global fMRI signal has more sudden large excursions than a correlated-noise model allows, while each excursion has the shape and spatial pattern of ordinary global fluctuations.\n\nWe used minimally preprocessed fMRI from the ReadyNeuro corpus (OpenNeuro; one person per study; 1 s frames). We found the patterns in 53 discovery studies, wrote six tests down, and ran them once on 47 held-out studies (789 min). A rare whole-brain event is a run of frames in which the mean grey-matter signal is more than 3 robust standard deviations from its median, after sudden image jumps are removed. The Gaussian null is phase-randomised copies of the same data; they keep all auto- and cross-correlations but are Gaussian and stationary. DVARS is the frame-to-frame change of the whole image, a measure of head motion.\n\nIn the held-out studies, we saw 204 events against 85 expected (ratio 2.39, 95% CI 1.98-2.92; p = 4e-7). An independent reviewer asked for more checks (post hoc). When each frame is standardised by the signal in the surrounding 2 min, in data and surrogates, and the threshold gives the same expected count, the ratio is 2.17 (1.68-2.83); slow drift removes 25-55% of the excess events, depending on the window. The width, white-matter share and spatial pattern of the events are those that Gaussian extremes of the global signal also have. Head motion peaks about 10 s before troughs and near the peak of rises (22 of 28 studies, p = 0.0008); a large movement comes 4-14 s before 31% of troughs but before 5% of rises. Network-level extremes did not exceed the stationary null (ratio 1.26, CI 0.94-1.63), but our detector found only 5-38% of injected network events, so this is inconclusive. A registered grey-matter rise around small movements failed (p = 0.14).\n\nLimits: one person per study; 47 of 70 planned held-out studies; no respiration or arousal recordings; 1 s resampling smears timing by 1-2 s.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "rare events",
+  "global signal",
+  "non-stationarity",
+  "head motion",
+  "Gaussian null",
+  "phase randomisation",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "DVARS",
+  "vigilance"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_excess.png",
+   "caption": "A: per-study log2 ratio of observed to Gaussian-null counts for rare whole-brain events against the stationary null (violet) and after slow amplitude drift is removed at a matched null rate (aqua, post hoc), and for network-level extreme frames (orange), in 53 discovery and 47 held-out studies; black bars are pooled ratios. B: amplitude-matched positive control: the network-level detector is much less sensitive than the whole-brain detector."
+  },
+  {
+   "path": "files/figures/fig2_peri.png",
+   "caption": "A: study-weighted mean grey-matter (solid), white-matter (dashed) and lateral-ventricle (dotted) signals around rare whole-brain rises (red) and troughs (blue); discovery top, held-out bottom. B: head motion (DVARS robust z) around the same events: motion peaks about 10 s before troughs and near the peak of rises."
+  },
+  {
+   "path": "files/figures/fig3_spikes_motion.png",
+   "caption": "A: per-study median white-matter/grey-matter amplitude ratio for whole-brain events and for non-BOLD DVARS spikes (a group difference, not a per-event marker). B: mean grey-matter signal around isolated small head movements; the held-out rise is not significant (registered test H6 failed)."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bae945760f3c1560cf09a5b1c6f34f1acdaf7d7d5446adc539cdf33dbd8734cc",
+   "reason": "Campaign for branch A1 (time within one run); this work is on leaf rare-transients."
+  },
+  {
+   "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e",
+   "reason": "Root campaign of the ReadyNeuro mission."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026), the data source."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro repository and manifests."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies (accessions listed in files/data)."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer 2018 cortical parcellation."
+  },
+  {
+   "target": "doi:10.1038/s41467-017-02815-3",
+   "reason": "Global BOLD peaks and arousal (Liu et al. 2018)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.119720",
+   "reason": "fMRI cascade at transient arousal (Gu et al. 2022)."
+  },
+  {
+   "target": "https://academic.oup.com/cercor/article/30/10/5242/5836850",
+   "reason": "Arousal and head-motion timing in HCP (Gu et al. 2020)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5321814",
+   "reason": "Sources of whole-brain fMRI signals (Power et al. 2017)."
+  },
+  {
+   "target": "doi:10.1038/s41467-020-18974-9",
+   "reason": "Deep breaths and global signal troughs (Lynch et al. 2020)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5857478",
+   "reason": "Lagged BOLD changes after motion (Byrge and Kennedy 2018)."
+  },
+  {
+   "target": "doi:10.1073/pnas.2005531117",
+   "reason": "High-amplitude co-fluctuation events (Esfahlani et al. 2020)."
+  },
+  {
+   "target": "doi:10.1038/s41467-022-29775-7",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Static Gaussian null for edge events (Novelli and Razi 2022); our network-level result agrees at larger scale."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2022.118904",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Co-activation patterns reproduced by stationary simulations (Matsui et al. 2022)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6248456",
+   "reason": "Stability of BOLD correlations; motion and sleep (Laumann et al. 2017)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8485153",
+   "reason": "Propagation of fluctuations along the cortical hierarchy (Gu et al. 2021)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9428936",
+   "reason": "Events predicted by static functional connectivity (Ladwig et al. 2022)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3815994",
+   "reason": "Global-signal amplitude and vigilance (Wong et al. 2013)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4139498",
+   "reason": "Near-Gaussianity of BOLD (Hlinka et al. 2011)."
+  },
+  {
+   "target": "https://pubmed.ncbi.nlm.nih.gov/23994314/",
+   "reason": "Lasting signal changes after motion (Power et al. 2014)."
+  },
+  {
+   "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5834724",
+   "reason": "Motion and respiration in whole-brain signals (Power et al. 2018)."
+  }
+ ]
+}
