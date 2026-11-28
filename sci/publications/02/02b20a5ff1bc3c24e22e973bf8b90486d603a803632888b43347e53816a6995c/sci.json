@@ -1,0 +1,153 @@
+{
+  "title": "Pre-registered tests on Utah-array motor cortex data: decoding-ceiling test inconclusive; SBP lag-1 participation ratio saturated far before decoding. Post hoc: no ceiling up to 96-192 electrodes",
+  "abstract": "Question: does decoding quality from motor-cortex Utah arrays stop at a ceiling as electrode count N grows, and does neural dimensionality saturate at the same N? Data: BrainGate dSNR electrode-subsampling curves (Hahn et al. 2026; 15 curves, 7 participants, N = 6-96 per array, up to 192 for two arrays), monkey LINK finger data (DANDI 001201, 8 sessions) and human FALCON H1 data (DANDI 000954, 6 days). Pre-registered results: (1) The saturation test on 10 held-out curves from 4 participants (fit N <= 40, predict N >= 48) was inconclusive: a saturating information-limited model beat log2 growth in 7 of 10 curves but in only 2 of 4 participants, and log2 over-predicted at the largest N in 0 of 10 curves (it under-predicted in all 15). (2) The test that lag-1 participation-ratio (PR) dimensionality saturates where decoding saturates failed: for spike-band power (SBP) in held-out LINK sessions, PR reached 80% of its full value at about 7 electrodes and decoding at about 52 (ratio 0.13, 95% CI 0.11-0.26; band 0.5-2). For threshold crossings the ratio was near 1, but neither curve saturated, so that result is not diagnostic. Post-hoc results: no BrainGate curve reached a ceiling in the tested range; the dSNR gain per doubling stayed above 0 and the local log-log slope stayed >= 0.28. Growth was faster than log2, which independent sqrt(N) pooling also predicts, and slower than sqrt(N) at large N: the local slope fell from about 0.75 at 6->12 to below 0.5 at 48->96 in 14 of 15 curves (7 of 7 participants). This is a diminishing return beyond independent pooling, not a ceiling. A saturating hyperbola fits the full range best, but its fitted constants contradict the observed rising gains; if a ceiling is hyperbolic, the data put 90% of it above about 430 electrodes in 14 of 15 curves. In the spiking data, with independent electrode subsets per session and three decoders, the gain per doubling stayed above 0 up to 96 electrodes in 60 of 60 runs and was roughly constant above about 24 electrodes; whether it rose from small N depended on the decoder. The early-saturating SBP component is broad, non-directional and movement-locked. Limitations: session-averaged curves from one closed-loop OLS estimator, simple decoders with modest R2 in the spiking data, a self-attested pre-registration time, and a lag-1 PR that is not trial-averaged task dimensionality.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "Utah array",
+    "electrode count",
+    "decoding SNR",
+    "saturation",
+    "participation ratio",
+    "dimensionality",
+    "information-limiting correlations",
+    "BrainGate",
+    "motor cortex",
+    "pre-registration",
+    "negative result",
+    "neuron dropping"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_extrapolation.png",
+      "caption": "Pre-registered test (inconclusive): log2 and information-limited models fitted on N <= 40 (grey band) and extrapolated to N >= 48. Log2 under-predicted at the largest N in every curve."
+    },
+    {
+      "path": "files/figures/fig3_dimensionality_vs_decoding.png",
+      "caption": "Pre-registered Part B: decoding SNR and lag-1 / lag-0 participation-ratio dimensionality versus electrode count, normalized to the full pool. SBP lag-1 PR saturated at about 7 electrodes while decoding kept rising; for threshold crossings no curve saturated."
+    },
+    {
+      "path": "files/figures/fig2_gain_per_doubling.png",
+      "caption": "Post hoc: BrainGate dSNR gain per doubling (normalized to the 6->12 gain) and local log-log slope, with log2 and independent-pooling sqrt(N) references. Gains rose more slowly than the sqrt(N) null; the slope fell below 0.5 at 48->96 in 14 of 15 curves but stayed above 0 (T6 and T5 Combined show a small fall in gain at the top)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "relations": [
+        "uses",
+        "reviews"
+      ],
+      "reason": "Source of the BrainGate electrode-scaling dSNR curves; we test them for a ceiling and find growth between their log2 and sqrt candidate fits."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Preprint of the BrainGate 20-year array study."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Code and summary CSVs (commit 93beb76); electrode_scaling.csv is redistributed unmodified under its MIT license (notice in files/data/)."
+    },
+    {
+      "target": "doi:10.5061/dryad.x0k6djj1h",
+      "reason": "Raw BrainGate data release; not used here, needed for the proposed follow-up test."
+    },
+    {
+      "target": "https://dandiarchive.org/dandiset/001201",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK monkey Utah-array dataset (8 sessions used)."
+    },
+    {
+      "target": "https://dandiarchive.org/dandiset/000954",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON H1 human 7-DoF dataset (held-in calibration files used)."
+    },
+    {
+      "target": "doi:10.1101/2024.09.15.613126",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON benchmark paper describing the H1 data."
+    },
+    {
+      "target": "doi:10.1016/j.conb.2015.04.003",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Gao and Ganguli 2015: task-complexity bound on neural dimensionality, the theory that motivated the saturation prediction."
+    },
+    {
+      "target": "doi:10.1101/214262",
+      "relations": [
+        "reviews"
+      ],
+      "reason": "Gao et al. 2017: theory of multineuronal dimensionality, dynamics and measurement."
+    },
+    {
+      "target": "doi:10.1038/nn.3807",
+      "reason": "Moreno-Bote et al. 2014: information-limiting correlations; basis of the information-limited model."
+    },
+    {
+      "target": "doi:10.1016/j.patter.2022.100555",
+      "reason": "Recanatesi et al. 2022: scale dependence of participation-ratio dimensionality under subsampling."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2024.02.011",
+      "reason": "Manley et al. 2024: unbounded growth of dimensionality with neuron number."
+    },
+    {
+      "target": "doi:10.1038/s41586-019-1346-5",
+      "reason": "Stringer et al. 2019: power-law eigenspectra of population activity."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2019.05.003",
+      "reason": "Trautmann et al. 2019: population dynamics from threshold crossings without spike sorting."
+    },
+    {
+      "target": "doi:10.1371/journal.pcbi.1005141",
+      "reason": "Williamson et al. 2016: scaling of shared dimensionality with neuron and trial counts; in their V1 data shared dimensionality grew with neuron count."
+    },
+    {
+      "target": "doi:10.1038/35042582",
+      "reason": "Wessberg et al. 2000: early neuron-dropping curves for motor decoding."
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.0000042",
+      "reason": "Carmena et al. 2003: neuron-dropping curves for brain-machine interface decoding."
+    },
+    {
+      "target": "doi:10.1038/s41586-020-2130-2",
+      "reason": "Rumyantsev et al. 2020: empirical bounds on coding fidelity in large populations."
+    },
+    {
+      "target": "doi:10.1038/s41467-020-20722-y",
+      "reason": "Kafashan et al. 2021: information scaling with signatures of information-limiting correlations."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.2072-19.2019",
+      "reason": "Bartolo et al. 2020: information-limiting correlations in large neural populations."
+    },
+    {
+      "target": "sci:sha256:a829a5978a4f57c4b5d632f88748570061c578453aabdd9cf36cc1cbfbbed700"
+    }
+  ]
+}
