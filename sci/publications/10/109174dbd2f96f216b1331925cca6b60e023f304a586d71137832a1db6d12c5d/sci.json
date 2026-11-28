@@ -1,0 +1,121 @@
+{
+  "title": "In 66 OpenNeuro task studies, pre-event BOLD state was at most weakly related to reaction time, about one fifth as strongly as the BOLD signal after the event",
+  "abstract": "The fMRI signal in the seconds before an event was at most weakly related to how fast a person responded to that event, in 66 OpenNeuro task studies with 103 tasks, while the fMRI signal 7-9 s after the event was related to the response time about five times more strongly. This matters because many single studies report that the brain state before a stimulus predicts behaviour, and an earlier study found that the same pre-event signals do not detectably change the evoked response. Data: ReadyNeuro minimally preprocessed BOLD (blood-oxygen-level-dependent) fMRI, one person per study, 25,514 events with a reaction time (RT). Before each event we read the global signal (mean grey-matter BOLD), task-activated cortex, task-deactivated cortex, their balance (deactivated minus activated) and the 30-s global-signal amplitude, after removal of the mean event responses; RT was z-scored log RT within run and trial type. In 36 held-out studies, the positive control (activated cortex 7-9 s after the event) was +0.103 SD of RT per SD (95% CI 0.066 to 0.140). The planned equivalence test (all five pre-event effects inside +-0.035 SD per SD, about 0.8% of RT) passed as frozen; after we corrected errors in public RT columns (clock times, repeated rows, response-locked rows, time-out codes), four measures passed and balance failed (+0.020, 90% CI 0.005 to 0.036). Exploratory and uncorrected, over all studies: lower activated-cortex signal before slower responses, -0.016 SD per SD (p = 0.014; 0.07 after correction for five measures; about 0.4% of RT), same sign in discovery and confirmation; the balance effect is mostly the same signal. In sparse designs (events at least 8 s apart) the pre-event global signal estimate was -0.038 (95% CI -0.069 to -0.006). Lapses, errors and the arousal marker showed no effect. Limits: BOLD-only state, mostly fast designs, one person per study, corrections made after unblinding.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD",
+    "pre-stimulus state",
+    "reaction time",
+    "global signal",
+    "task network balance",
+    "default mode network",
+    "arousal",
+    "spontaneous activity",
+    "equivalence test",
+    "trial-by-trial variability",
+    "OpenNeuro",
+    "ReadyNeuro",
+    "pre-registered confirmation",
+    "events file quality"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig2_forest.png",
+      "caption": "Slope of z(log RT) on each BOLD measure (random effects across studies, 90% CI). Grey band: the pre-registered equivalence margin of +-0.035. Above the dashed line: BOLD before the event. Below: BOLD 7-9 s after the event (positive control). Blue: discovery (30 studies); orange: confirmation (36 held-out studies); green: all 66 studies."
+    },
+    {
+      "path": "files/figures/fig1_lags.png",
+      "caption": "Slope of z(log RT) on the BOLD signal read at single 1-s frames from 20 s before to 15 s after event onset, 95% CI. Grey: the 3-s pre-event window. Before the event the slopes are small and mostly negative; after the event the activated cortex and the global signal carry a strong link 6-11 s after onset."
+    },
+    {
+      "path": "files/figures/fig3_studies.png",
+      "caption": "Per-study slopes (95% CI): pre-event global signal (blue) and post-event activated cortex (orange), 66 studies sorted by the post-event slope."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f",
+      "reason": "Campaign branch A4 (the condition), leaf prestim-state."
+    },
+    {
+      "target": "sci:sha256:a66a05212a23d6e57018f4cf88b6988eda136acc0794ad4be596bf2b48810469",
+      "relations": [
+        "uses"
+      ],
+      "reason": "We use its events survey of the ReadyNeuro subset to find runs with reaction times. It found no detectable effect of pre-event BOLD on evoked size; we test behaviour as the outcome, with a positive control in the same runs."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests and shard access."
+    },
+    {
+      "target": "doi:10.7554/eLife.71774",
+      "relations": [
+        "uses"
+      ],
+      "reason": "OpenNeuro, source of the BOLD data and events files."
+    },
+    {
+      "target": "doi:10.1038/nn1616",
+      "reason": "Fox et al. 2006: spontaneous activity and trial-to-trial variability of evoked responses."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2007.08.023",
+      "reason": "Fox et al. 2007: intrinsic fluctuations and behavioural variability (somatomotor cortex, button force)."
+    },
+    {
+      "target": "doi:10.1038/nn1727",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Weissman et al. 2006: lower pre-stimulus activity in control regions before lapses; our small exploratory effect of task-activated cortex has the same direction."
+    },
+    {
+      "target": "doi:10.7554/eLife.62376",
+      "reason": "Goodale et al. 2021: fMRI alertness index before trials predicts behaviour."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.2922-12.2013",
+      "reason": "He 2013: negative interaction of spontaneous and evoked activity."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhv288",
+      "reason": "Huang et al. 2017: non-additive interaction of spontaneous and evoked activity."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhs261",
+      "reason": "Esterman et al. 2013: attention fluctuations, RT variability and default-mode activity."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0004257",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Yarkoni et al. 2009: post-event BOLD and trial RT in five studies; our positive control shows this link across 65 studies."
+    },
+    {
+      "target": "doi:10.1073/pnas.1520613113",
+      "reason": "Chang et al. 2016: fMRI arousal fluctuations."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2016.02.077",
+      "reason": "Mayhew et al. 2016: global modulation of single-trial fMRI responses."
+    }
+  ]
+}
