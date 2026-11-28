@@ -1,0 +1,158 @@
+{
+ "title": "In 123 held-out OpenNeuro fMRI studies, a peripheral visual component beat two smooth-noise nulls in 88-94% of studies, but smooth noise alone matched the dorsal sensorimotor template in >90% of runs",
+ "abstract": "In 123 held-out OpenNeuro fMRI studies, a peripheral visual cortex component was present in 88-94% of studies beyond two smooth-noise nulls, and distributed frontoparietal, lateral default and auditory components in 57-73%. A dorsal sensorimotor component looked common, but noise with only spatial smoothness produced the same match in more than 90% of runs. This gives a first held-out estimate of which cortical components a new fMRI dataset contains under one common analysis. It also shows that template matching without a null that keeps spatial autocorrelation overstates how universal compact components are. We used ReadyNeuro (minimally preprocessed OpenNeuro fMRI, one person per study; mostly task data, 311 task labels). For each study, we put 400 cortical regions on the person's own anatomy. We then did a spatial independent component analysis (ICA, a method that separates statistically independent maps) with 20 components after global-signal regression. We found recurring templates in 47 discovery studies and tested pre-registered predictions in 123 other studies. A template was present when a study map correlated with it at |r| >= 0.5. Held-out prevalence was 94-96% for two visual templates, 81% for precuneus-posterior cingulate, 76% for dorsal sensorimotor and orbitofrontal, and 57% for auditory (the predicted minimum of 70% failed). The order of 29 templates by prevalence repeated (Spearman rho 0.87). Recovery increased with scan duration and temporal signal-to-noise ratio, but not with the fraction of rest runs. Lowering the sampling rate of the same data from 1 s to 2 s did not change recovery (31 studies), which repeats earlier work. After independent review, we added post hoc nulls: smooth noise with each study's own spatial autocorrelation length (median 16 mm), with or without correlation across the midline, through the same pipeline. Distributed templates were never matched by noise. For orbitofrontal, central visual and posterior cingulate templates, specific presence depended on the kernel; for example, orbitofrontal was 33% or 73%. Predicted effects of acquired TR and of task versus rest in the same person were not confirmed. Limits: one person per study, non-random subsets because downloads were throttled, post hoc nulls with simple distance kernels, one fixed 20-component analysis, and cortex only.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "resting-state networks",
+  "independent component analysis",
+  "fMRI",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "reproducibility",
+  "scan duration",
+  "sampling rate",
+  "task fMRI",
+  "functional connectivity"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_templates_gsr.png",
+   "caption": "The 12 most common cortical templates from 47 discovery studies (dots: Schaefer-400 parcel centroids in axial, sagittal and coronal projections; red: high loading). Bars: naive prevalence, the fraction of studies whose own 20-component ICA has a map with |r| >= 0.5 to the template (blue: discovery, leave-one-study-out; orange: 123 held-out studies). Labels: best-matching Yeo-17 network and the correlation with it. Figure 4 in files/figures gives the prevalence after the smooth-noise null."
+  },
+  {
+   "path": "files/figures/fig2_results_gsr.png",
+   "caption": "(A) Per-study recovery score (mean best |r| over the six most common components) against usable scan minutes. (B) Predictors of the score in one OLS model, per SD of each predictor, with 90% CI (blue: discovery, orange: held-out). (C) Task minus rest in the same person with equal frames; grey band: pre-registered equivalence margin +-0.03. (D) Same data from studies with TR <= 1 s, degraded to the bandwidth and sample count of a 2-s acquisition, or cut to half duration; grey band: margin +-0.02."
+  },
+  {
+   "path": "files/figures/fig4_sa_null_gsr.png",
+   "caption": "Post hoc smooth-noise nulls, 123 held-out studies. (A) For 29 templates: naive prevalence (light blue) and specific prevalence, that is, also above the 95th percentile of matches from smooth noise with the study's own spatial autocorrelation length, for a noise kernel over the whole brain (dark blue) or within hemispheres only (orange). (B) Fraction of smooth-noise ICA runs (L = 16 mm) that match each template at |r| >= 0.5, against the spatial spread of the template."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+   "reason": "Campaign A2 (place within one brain); this work is leaf universal-components."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026) is the data source."
+  },
+  {
+   "target": "doi:10.7554/eLife.71774",
+   "relations": [
+    "uses"
+   ],
+   "reason": "OpenNeuro, source of the studies."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer-2018 400-parcel atlas."
+  },
+  {
+   "target": "doi:10.1152/jn.00338.2011",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Yeo 17-network labels used to name components."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg labels in the shards drive the registration."
+  },
+  {
+   "target": "doi:10.3389/fninf.2014.00008",
+   "relations": [
+    "uses"
+   ],
+   "reason": "dipy registration."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow template and tissue maps."
+  },
+  {
+   "target": "doi:10.3389/fnhum.2012.00301",
+   "reason": "Closest prior per-subject ICA network count across about 30 resting-state studies."
+  },
+  {
+   "target": "doi:10.1073/pnas.0911855107",
+   "reason": "1000 Functional Connectomes: universal architecture across centres."
+  },
+  {
+   "target": "doi:10.1073/pnas.0905267106",
+   "reason": "Correspondence of rest and task networks with 20-component ICA."
+  },
+  {
+   "target": "doi:10.1016/j.nicl.2020.102375",
+   "reason": "NeuroMark: replicable ICA templates across datasets."
+  },
+  {
+   "target": "doi:10.1002/hbm.26472",
+   "reason": "Replicable multi-scale networks in 100k+ resting scans."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2014.05.014",
+   "reason": "Task-general network architecture across 64 tasks."
+  },
+  {
+   "target": "doi:10.1098/rstb.2013.0526",
+   "reason": "Network organisation across task states."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.03.035",
+   "reason": "Networks dominated by stable group and individual factors."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116278",
+   "reason": "Rodent multi-dataset count of network specificity."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0015710",
+   "reason": "Reports higher resting-state sensitivity at fast TR; our equal-duration test finds no gain from 1-s over 2-s sampling."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.05.011",
+   "reason": "Autocorrelation limits effective degrees of freedom, consistent with our sampling-rate result."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.05.099",
+   "reason": "Scan duration and reliability of resting-state connectivity."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00279",
+   "reason": "Equal-duration downsampling left connectivity and ICA almost unchanged; our 31-study within-study test repeats this.",
+   "relations": [
+    "supports"
+   ]
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.09.038",
+   "reason": "Global signal in minimally preprocessed data."
+  },
+  {
+   "target": "doi:10.1038/s41593-023-01299-3",
+   "reason": "Spatial autocorrelation explains many features of functional connectivity; motivates the smooth-noise null."
+  },
+  {
+   "target": "doi:10.1038/s41593-023-01286-8",
+   "reason": "Rat multi-centre study linking tSNR to network specificity."
+  }
+ ]
+}
