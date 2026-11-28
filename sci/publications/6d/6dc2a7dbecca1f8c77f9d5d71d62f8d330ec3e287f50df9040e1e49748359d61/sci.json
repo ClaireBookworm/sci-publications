@@ -1,0 +1,157 @@
+{
+ "title": "In 45 held-out OpenNeuro fMRI studies, a larger head went with larger fast BOLD fluctuations, lower tSNR and weaker cortex coupling in the thalamus; CSF and regional-volume effects were less specific",
+ "abstract": "A larger head went with a noisier and less coupled fMRI signal in the thalamus, the most central structure of the brain, among people scanned in the same study. This matters because groups that differ in head size, such as men and women or children and adults, can show differences in thalamic BOLD amplitude and thalamo-cortical connectivity that do not come from brain activity, mainly with small voxels. We used ReadyNeuro, minimally preprocessed OpenNeuro fMRI, measured anatomy from each person's own T1 segmentation, compared people only within a study and pooled studies by random-effects meta-analysis. Effects are standardized coefficients (beta: SD change of the signal measure per SD of the anatomical measure), adjusted for age, sex and a whole-brain noise index. We found the patterns in 44 studies (1,036 people), froze the tests, and ran them once in 45 other studies (1,069 people). There, a larger intracranial volume (ICV) went with larger thalamic fluctuations at 0.08-0.15 Hz (beta +0.18, 95% CI +0.09 to +0.26; 2.5% per 10% ICV), lower thalamic temporal signal-to-noise ratio (-0.13) and weaker correlation of the thalamus with the mean cortical signal (-0.09; -0.19 after post hoc quality control). ICV explained 40% of the sex difference in thalamic fluctuation. The tSNR loss was absent near the brain surface and present 28-36 mm deep, and the amplitude effect was larger with small acquired voxels (exploratory; a parallel study found no such trend), as expected from receive-coil physics; the coupling effect was not explained by amplitude. More CSF outside the ventricles went with larger deep white-matter fluctuations (+0.14), only far from CSF, but this effect was not specific and shrank with other noise covariates. Larger relative caudate and cerebellar volumes went with smaller fluctuations there (-0.12, -0.13), but these effects could not be separated from measurement geometry and EPI intensity. Five of six primary tests passed; tests on regional volume and BOLD timescale were inconclusive because our timescale measure missed the known age effect. A parallel study of largely the same OpenNeuro data reported the head-size and CSF effects on tSNR; ours adds the coupling, voxel-size and regional-volume results. Limitations: no direct motion measure; head position in the coil, coil noise maps and physiological recordings were not available; 14 people were shared between two studies (removing them changed no outcome).",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD amplitude",
+  "temporal SNR",
+  "head size",
+  "intracranial volume",
+  "thalamus",
+  "functional connectivity",
+  "receive coil",
+  "voxel size",
+  "cerebrospinal fluid",
+  "caudate",
+  "cerebellum",
+  "intrinsic timescale",
+  "sex differences",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "pre-registration",
+  "meta-analysis"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_main.png",
+   "caption": "A: pooled within-study betas (95% CI) of anatomy on deep-brain signal measures in 44 discovery (blue) and 44 confirmation (orange) studies, after the post hoc quality-control rule. B: effect of log intracranial volume on tSNR at each depth below the brain surface. C: effect of log CSF fraction on 0.08-0.15 Hz fluctuation amplitude at each distance from the nearest CSF."
+  },
+  {
+   "path": "files/figures/fig2_timescale_equivalence.png",
+   "caption": "Anatomy and the BOLD intrinsic timescale of the same tissue: pooled betas with 90% CIs in discovery, confirmation and all 89 studies; grey band = pre-registered equivalence bounds of plus or minus 0.10 SD. The timescale measure did not detect the age effect, so these intervals are weak evidence."
+  },
+  {
+   "path": "files/figures/fig3_forest.png",
+   "caption": "Per-study betas in the confirmation studies (after quality control) for head size against thalamic fast fluctuation amplitude (left) and against thalamus-cortex coupling (right); diamond = random-effects pooled estimate."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:7268eacfa1d004323696e295e783504d54461de5c74311ada55490259ee7791c",
+   "reason": "Campaign for ReadyNeuro branch A3 (the person), leaf anatomy-function."
+  },
+  {
+   "target": "sci:sha256:018b49f02a2e7c564ea4cfc98a57ed1923023fa20b5a02ea65f0c029713b68e4",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Parallel study on the same leaf and largely the same OpenNeuro studies; our re-analysis with different subjects per study, outcome measures and code agrees with its head-size (central tSNR) and CSF (white matter) findings."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro data (Liu et al. 2026)."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg segmentation stored in the shards."
+  },
+  {
+   "target": "doi:10.7554/eLife.42256",
+   "reason": "Intrinsic timescale definition and its link to grey-matter volume."
+  },
+  {
+   "target": "doi:10.1038/s42003-025-07517-x",
+   "reason": "Timescale and grey-matter volume in ageing."
+  },
+  {
+   "target": "doi:10.1093/braincomms/fcae199",
+   "reason": "Timescale and regional volume in Alzheimer's disease."
+  },
+  {
+   "target": "doi:10.1162/netn_a_00151",
+   "reason": "Region volume as a confound of BOLD timescales."
+  },
+  {
+   "target": "doi:10.1016/j.neurobiolaging.2020.08.007",
+   "reason": "BOLD variability and hippocampal volume and cortical thickness."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0114227",
+   "reason": "Partial-volume effects in functional MRI."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2021.117956",
+   "reason": "Cardiac pulsatility and brain volumes."
+  },
+  {
+   "target": "doi:10.1002/mrm.20925",
+   "reason": "Receive-array SNR profile."
+  },
+  {
+   "target": "doi:10.1002/mrm.1240",
+   "reason": "Physiological versus thermal noise in fMRI."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2010.11.084",
+   "reason": "Physiological noise with array coils."
+  },
+  {
+   "target": "doi:10.1002/mrm.22961",
+   "reason": "Coil size and SNR."
+  },
+  {
+   "target": "doi:10.1038/s41597-021-00870-6",
+   "relations": [
+    "uses"
+   ],
+   "reason": "AOMIC ID1000 participants data (BMI) for the BMI check."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies (accessions listed in files/prereg/selection.tsv) and participants.tsv / BIDS sidecars."
+  },
+  {
+   "target": "doi:10.1111/ejn.14627",
+   "reason": "Brain and CSF volume fractions and fALFF in young adults."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0067652",
+   "reason": "White-matter physiological noise."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2014.12.006",
+   "reason": "Head motion biases T1 morphometry."
+  },
+  {
+   "target": "doi:10.3389/fnins.2021.735290",
+   "reason": "Coil dependence of thalamic tSNR."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2005.01.007",
+   "reason": "Thermal versus physiological noise and voxel size."
+  },
+  {
+   "target": "https://archive.ismrm.org/2011/3544.html",
+   "reason": "Grey-matter fraction and fALFF across subjects."
+  }
+ ]
+}
