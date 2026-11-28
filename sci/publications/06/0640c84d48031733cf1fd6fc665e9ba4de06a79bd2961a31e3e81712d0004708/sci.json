@@ -1,0 +1,132 @@
+{
+  "title": "Pre-registered test failed: decoding R² grew faster than log2 of electrode count in only 1 of 3 FALCON monkey datasets (2 needed); post hoc, no curve was above the simulated independent-pooling range",
+  "abstract": "Pre-registered result: the prediction failed. An earlier campaign analysis reported that motor-cortex decoding quality grows faster than log2 of electrode count. I tested this with an independent implementation on data it did not use: FALCON M1-A and M1-B (two monkeys, reach-to-grasp, 64 electrodes, 16 EMG outputs) and M2 (one monkey, finger velocity, 96 electrodes). Threshold crossings, ridge decoders, trial-block cross-validation, 40 random electrode subsets per count from n/32 to n, held-out R². The prediction (K = gain at the largest doubling minus gain at the smallest > 0.01 with 95 % CI above 0, in at least 2 of 3 datasets) held in 1 of 3: K = -0.014 [-0.030, 0.001] in M1-A and -0.052 [-0.107, -0.009] in M1-B (R² 0.55-0.58; gains about constant or falling), and +0.070 [0.050, 0.085] in M2 (R² 0.18). Both secondary extrapolation tests failed. A within-condition trial shuffle removed noise correlations and did not change the shape. A second pre-registered test held: per-output K fell as full-array R² rose (34 outputs, Spearman rho = -0.46; descriptive; weaker within M1, rho = -0.37). No dataset reached a ceiling within the array. Post hoc (requested by the orchestrator after pre-registration, then revised after review): rising gains per doubling are what independent pooling (amplitude SNR ~ sqrt(N)) predicts at low R², so faster than log2 alone is not evidence for unusual scaling. Simulations of truly independent electrodes (44 runs, count features) showed that a no-ceiling pooling exponent is biased (it called independent pooling slower in 36 of 44 runs); a ceiling-aware exponent was approximately calibrated (null estimates 0.85-1.38; null CI upper bounds all >= 1.14). With it, M2 was consistent with independent pooling (0.94 [0.86, 1.08]), M1-B was not distinguishable from independent pooling with a ceiling (0.84 [0.54, 1.39]), and M1-A grew more slowly (0.59 [0.52, 0.66]), also without noise correlations. No curve was above the simulated null range (not shown to be faster; spike-band power is outside the calibration). Faster-than-log2 growth occurred at dataset level only in the lowest-R² dataset, and per output in 3 of 4 outputs with R² < 0.25 and 3 of 30 above. The pre-registered M1 result agrees with Hahn et al.'s description of BrainGate dSNR as approximately logarithmic. Limitations: one animal per dataset, 3-4 sessions, linear decoders, threshold crossings; the human handwriting dataset was excluded.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "electrode count",
+    "decoding scaling",
+    "Utah array",
+    "motor cortex",
+    "noise correlations",
+    "FALCON benchmark",
+    "pre-registered",
+    "negative result",
+    "intracortical",
+    "independent pooling",
+    "decoder dependence"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_scaling_curves.png",
+      "caption": "Pre-registered analysis: held-out R² vs number of randomly retained electrodes (log2 axis, 95 % CI) for three FALCON monkey datasets."
+    },
+    {
+      "path": "files/figures/fig2_gain_per_doubling.png",
+      "caption": "Pre-registered analysis: gain in R² per doubling of electrode count. Gains rise at each doubling only in M2."
+    },
+    {
+      "path": "files/figures/fig6_pooling_calibration.png",
+      "caption": "Post hoc: fitted pooling exponent vs full-array R² for real curves and for simulated independent pooling, without and with a ceiling term."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:02b20a5ff1bc3c24e22e973bf8b90486d603a803632888b43347e53816a6995c",
+      "relations": [
+        "challenges",
+        "supports"
+      ],
+      "reason": "Source of the hypothesis tested here (via the campaign brief). Challenges: on new monkey data (FALCON M1-A, M1-B) the pre-registered faster-than-log2 shape of decoding R² did not hold. Supports: no ceiling within 64-96 electrodes, roughly constant gains per doubling at moderate N, and faster-than-log2 growth being what independent pooling predicts."
+    },
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BrainGate 20-year study. It reports that dSNR scaled sublinearly and approximately logarithmically with electrode count (log2 model R² = 0.993) and compares linear, square-root and log fits. Its public electrode-scaling curves are used as descriptive context (README P8); the pre-registered M1 result agrees with its logarithmic description."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "reason": "Preprint of the BrainGate 20-year study."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper",
+      "reason": "Authors' repository (commit 93beb76, MIT): data/electrode_scaling.csv and the dSNR definition (an amplitude ratio) used as context in README P8.",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.5061/dryad.x0k6djj1h",
+      "reason": "BrainGate raw data release (context; not used)."
+    },
+    {
+      "target": "doi:10.1101/2024.09.15.613126",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON benchmark that defines and releases the M1, M2 and H2 datasets."
+    },
+    {
+      "target": "doi:10.48324/dandi.000941/0.241029.1405",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON M1-A data (monkey L). Files downloaded from the draft version on 2026-11-28; sha256 in files/results/input_files.tsv."
+    },
+    {
+      "target": "https://dandiarchive.org/dandiset/001209",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON M1-B data (monkey X). Unversioned draft, downloaded 2026-11-28; sha256 in files/results/input_files.tsv."
+    },
+    {
+      "target": "https://dandiarchive.org/dandiset/000953",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON M2 data (monkey N). Unversioned draft, downloaded 2026-11-28; sha256 in files/results/input_files.tsv. Threshold crossings computed from broadband; FALCON-provided crossings used in a post hoc check."
+    },
+    {
+      "target": "doi:10.48324/dandi.000950/0.241029.1403",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON H2 data; used only for a discovery-set feasibility test, then excluded."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.1716-16.2016",
+      "reason": "Reach-to-grasp task behind FALCON M1."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2021.08.009",
+      "reason": "Two-finger-group task behind FALCON M2."
+    },
+    {
+      "target": "doi:10.1038/s41586-021-03506-2",
+      "reason": "Handwriting BCI task behind FALCON H2."
+    },
+    {
+      "target": "doi:10.1038/nn.3807",
+      "reason": "Information-limiting correlations: theory for how noise correlations shape information growth with population size."
+    },
+    {
+      "target": "doi:10.1038/nrn1888",
+      "reason": "Review of noise correlations, trial shuffling and population coding."
+    },
+    {
+      "target": "sci:sha256:a829a5978a4f57c4b5d632f88748570061c578453aabdd9cf36cc1cbfbbed700"
+    }
+  ]
+}
