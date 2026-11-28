@@ -1,0 +1,95 @@
+{
+  "title": "In one macaque, present threshold-crossing rate predicts a Utah-array channel falling below 2 Hz in 3-6 months; neighbour preferred directions exceed map shuffles, borderline after noise control",
+  "abstract": "Question: in one macaque (LINK, DANDI 001201; two M1 Utah arrays, 96 channels, 312 sessions over 1,242 days), do channel measures that need no task labels, taken over 4 months, predict that the channel's median threshold-crossing rate (TCFR) in months 3-6 falls below 2 Hz (the spiking-electrode criterion of Hahn et al. 2026)? Are preferred directions (PDs) of adjacent electrodes (400 um) more similar than electrode-map shuffles predict? Method: pre-registered on discovery sessions (day 620 or earlier), then tested once on later sessions of the same arrays. Pre-registered results: channel measures beat an age and array-average baseline (held-out AUC 0.88 vs 0.72; difference +0.16, 95% channel-bootstrap CI 0.07 to 0.29; task-information loss +0.13, CI 0.01 to 0.25). Trends and noise measures added no gain beyond the current TCFR level (-0.03, CI -0.09 to +0.03). PD neighbour similarity exceeded a global map shuffle on the lateral array (p = 0.018) and the medial array (p = 0.020). It stayed significant with common-average referencing, became borderline after control for residual-noise correlation (lateral 0.047, medial 0.044), and was not significant for threshold-crossing PDs (medial 0.145). Post hoc (exploratory): an untrained rule (current TCFR) reaches AUC 0.90; adding TCFR slopes changes AUC by -0.001; with a relative-drop outcome the measures do not beat the baseline; and 21 of 29 channels that fell below 2 Hz later returned above it. So the prediction is mainly threshold proximity, not early warning. Tuning strength does not explain the PD similarity (strength-map-preserving null: lateral 0.0015, medial 0.0075). On the lateral array, PD similarity falls steadily across the array and is not significant after a planar gradient is removed (0.22), so local clustering and an array-scale gradient cannot be separated there. On the medial array, the excess is limited to 400-570 um and survives gradient removal (0.017) and a within-wiring-bank null (0.023). Limitations: one animal, the same arrays in the held-out period, 14 positive channels, thresholds relative to noise, task sessions only, and an electrode map taken from the dataset table.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "Utah array",
+    "chronic recording",
+    "channel loss",
+    "threshold crossings",
+    "spike-band power",
+    "preferred direction",
+    "spatial clustering",
+    "motor cortex",
+    "brain-computer interface",
+    "pre-registration"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_channel_loss_prediction.png",
+      "caption": "Pre-registered part (a): held-out ROC curves and AUC differences with 95% channel-bootstrap CIs (the relative-drop row is post hoc)."
+    },
+    {
+      "path": "files/figures/fig2_spatial_tuning.png",
+      "caption": "Pre-registered part (b): held-out spatial tests under a global electrode-map permutation (two labelled post hoc rows), and the distance profile of PD similarity."
+    },
+    {
+      "path": "files/figures/fig4_posthoc_spatial_controls.png",
+      "caption": "Post hoc controls for PD neighbour similarity on held-out sessions: tuning strength, noise correlation, planar gradient, connector pins and wiring bank."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "reason": "BrainGate 20-year Utah-array study that motivates the campaign question. Our 2 Hz loss threshold equals its spiking-electrode definition (TCFR >= 2 Hz at -4.5 RMS). Its electrode-level data could not be retrieved here."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "reason": "Preprint of the BrainGate 20-year array study."
+    },
+    {
+      "target": "doi:10.48324/dandi.001201/0.261026.1912",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset (DANDI 001201): all data analysed here."
+    },
+    {
+      "target": "https://github.com/chesteklab/LINK_dataset",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Authors' code for the LINK dataset. Consulted for the electrode map and the feature definitions."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2021.08.009",
+      "reason": "Nason et al. 2021: the experimental setup and finger task of Monkey N."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper",
+      "reason": "Code of the BrainGate array study. We read yield_metrics.py for the 2 Hz spiking-electrode definition. No numerical data from it are used."
+    },
+    {
+      "target": "doi:10.1073/pnas.0611597104",
+      "reason": "Georgopoulos et al. 2007: earlier evidence for an orderly preferred-direction map in motor cortex."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/8/4/045005",
+      "reason": "Chestek et al. 2011: long-term stability of Utah-array signals in macaque motor cortex."
+    },
+    {
+      "target": "doi:10.5061/dryad.x0k6djj1h",
+      "reason": "Dryad record of the BrainGate yield and decoding data (Hahn et al. 2026). It is listed publicly, but scripted downloads returned HTTP 401/403 here, so it was not used."
+    },
+    {
+      "target": "doi:10.1073/pnas.2037719100",
+      "reason": "Amirikian and Georgopoulos 2003: short-range (minicolumn) order of preferred directions in motor cortex. This is the scale context for the 400 um neighbour test."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/10/6/066014",
+      "reason": "Barrese et al. 2013: failure modes and slow signal decline of silicon intracortical arrays in macaques."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/ac3eaf",
+      "reason": "Sponheim et al. 2021: longevity and reliability of chronic Utah-array unit recordings in macaques and humans."
+    },
+    {
+      "target": "sci:sha256:d08416d5195ac9f5be34f3d453bf994a650724c125fb4238834530fe55139798"
+    }
+  ]
+}
