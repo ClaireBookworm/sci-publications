@@ -1,0 +1,109 @@
+{
+  "title": "In one monkey with 20 calibration trials, more electrodes improved new-day decoding far more than more pretraining sessions; supervised refit beat renormalisation except at 1-day gap with 4-8 sessions",
+  "abstract": "Question: with 20 labelled calibration trials on a new day, which lever improves intracortical finger-velocity decoding most: more pretraining sessions, more electrodes, or a different recalibration method? Data: LINK (DANDI 001201), one rhesus monkey, 96 released Utah-array channels (64 medial, 32 lateral), 312 sessions over 1,242 days, spike-band power. Linear decoders only. Hyperparameters were tuned on 40 discovery days. Predictions were preregistered (self-attested hash and time) before any fit on the 40 latest sessions, which were held out. Preregistered results (gap 1 day, shrunk few-shot ridge, 8 sessions): the gain per doubling of electrodes (random subsets, 12 to 96) was +0.0436 R^2 [95% CI 0.0399, 0.0471], which meets the 0.04 threshold only marginally. The gain per doubling of the most recent sessions (1 to 64) was -0.0016 [-0.0027, -0.0004]. A fixed decoder failed (mean R^2 -0.58, median +0.03). Unsupervised renormalisation from the 20-trial window gave 0.163, the same as the shrunk supervised refit at this cell. The shrunk refit beat a scratch refit by 0.061. FA latent alignment was worse (0.126). One prediction failed: the pretrained prior lost only 0.043 R^2 over 365 days and still beat a scratch refit. Post hoc (not preregistered): the shrunk supervised refit beat renormalisation by 0.013 to 0.045 at every gap of 30 to 365 days, at 1 day with 1, 2, 16, 32 or 64 sessions, and with the runner-up hyperparameter; it tied only at 1 day with 4 to 8 sessions. With data age held fixed, sessions gave +0.008 (renorm) or +0.005 (prior) per doubling. The electrode slope stayed 5.5 to 26 times the session slope at gaps of 30 to 365 days. Threshold crossings gave the same ranking. At matched counts, the lateral array alone (32 channels) decoded 0.032 worse than random channels (0.74 of a doubling), and the medial array (64) 0.009 better. Electrode scaling resembles that of 15 human arrays (Hahn et al. 2026). Limitations: one animal, offline hand-control data, linear decoders, simulated electrode loss, dependent test days.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.SP"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "intracortical decoding",
+    "Utah array",
+    "recalibration",
+    "few-shot calibration",
+    "pretraining scaling",
+    "electrode count",
+    "nonstationarity",
+    "spike-band power",
+    "motor cortex",
+    "LINK dataset",
+    "preregistered"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_levers.png",
+      "caption": "Electrodes, sessions and recalibration method at a 20-trial budget on 40 held-out days (preregistered reference cell)."
+    },
+    {
+      "path": "files/figures/fig4_prior_minus_renorm.png",
+      "caption": "Post hoc: the supervised shrunk refit beats renormalisation except at a 1-day gap with 4-8 sessions."
+    },
+    {
+      "path": "files/figures/fig2_gap.png",
+      "caption": "Decay with the gap between pretraining and new day; lever gain per doubling vs gap."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.48324/dandi.001201/0.261026.1912",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset (DANDI 001201), the only data analysed."
+    },
+    {
+      "target": "https://openreview.net/forum?id=TAdeh1dLzu",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset paper (NeurIPS 2025); its ridge baseline (SBP, 8 history bins, trials 300-374) is followed."
+    },
+    {
+      "target": "https://github.com/chesteklab/LINK_dataset",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Authors' code, read to match feature, split and decoder conventions."
+    },
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "reason": "BrainGate 20-year Utah-array study; its public random-subset electrode-scaling and tuning-stability summaries (github.com/nptl-stanford/array-paper, commit 93beb76) are compared post hoc with the LINK electrode and gap results.",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0542-9",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Latent-space alignment for BCI stabilisation; basis of the FA alignment method."
+    },
+    {
+      "target": "doi:10.1038/s41593-019-0555-4",
+      "reason": "Stable latent dynamics and alignment across days."
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0591-0",
+      "reason": "Spiking-band power feature."
+    },
+    {
+      "target": "doi:10.1101/2023.09.18.558113",
+      "reason": "NDT2 (Ye et al. 2023): multi-session pretraining for BCI decoding."
+    },
+    {
+      "target": "https://arxiv.org/abs/2310.16046",
+      "reason": "POYO: multi-session pretraining for neural decoding."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper/tree/93beb76b4329f0e3d5b3fd5ffba9be1c7cfa2834",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hahn et al. 2026 code and summary data (electrode_scaling.csv, tuning_stability_curves.csv) used in the post hoc comparison."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "reason": "Preprint of Hahn et al. 2026."
+    },
+    {
+      "target": "sci:sha256:c5d6055be7b539b4c087c7d5aca6a30f9f9bdf1ff8d5f41a12a5e40a281a06a2"
+    }
+  ]
+}
