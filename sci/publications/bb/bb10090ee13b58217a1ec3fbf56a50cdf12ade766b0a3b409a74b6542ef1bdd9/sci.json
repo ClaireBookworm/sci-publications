@@ -1,0 +1,407 @@
+{
+ "title": "A BOLD spectral peak gives the breathing frequency in held-out OpenNeuro studies at repetition times below 1.6 s; at longer times a flattening artifact defeats the frozen rule",
+ "abstract": "At repetition times (TR) below 1.6 s, the highest point of the flattened BOLD spectrum is within 0.02 Hz of the breathing frequency expected from a respiration belt in 78 % of eligible runs of held-out OpenNeuro studies. This matters because most public fMRI has no respiration recording, and an earlier study showed this only for TR below 1 s.\n\nI used ReadyNeuro (OpenNeuro BOLD stored at 1 sample per second) and the belts of OpenNeuro studies. When breathing is faster than half the sampling rate, it appears folded (aliased) at a predictable frequency. A frozen rule was built in 18 discovery studies and tested with a pre-registered script in 18 other studies (142 people, 355 runs). With the study set in the pre-registration text, three of four tests passed; the mirror-image test failed (faster breathing should give a lower folded peak; Spearman -0.14, p = 0.08). With the frozen code, which also used two studies listed as cardiac-only, all four passed.\n\nAt TR below 1 s and at TR 1 to 1.6 s, the rule matched the expected frequency in 78 % of runs. A fixed guess per TR matched in 27 % and 25 %, and the median of each study's own belts in 46 % and 42 %. Read as the breathing rate itself, the peak was right in 78 % and 62 %. About 40 % of the 177,319 corpus runs have TR below 1.6 s.\n\nAt TR of 1.6 s and longer, the rule matched in 43 % of runs, below the study-median baseline (48 %). An independent review found the cause: cubic upsampling to 1 s leaves almost no power above the stored band, and the rule's straight-line flattening across this drop makes a default peak just below it (0.23 Hz at TR 2 s, also from pure noise). The good long-TR discovery result came from breathing that folded onto this default. The default exists at every TR, so errors at short TR also lean toward common breathing frequencies.\n\nExploratory, after the confirmation data were seen: subtracting the median spectrum of other studies at the same TR makes folded peaks at TR 2 s follow the belt (within-group Spearman -0.47, p = 2e-5), but 45 % of its estimates fall at the 0.1 Hz search edge. This needs a new test.\n\nBreathing-specific power is present in every brain region, 1.5 to 2.3 times a shuffled-frequency null.\n\nLimits: 12 or fewer people per study; one rate per run; few acquisitions at TR 1 to 1.6 s.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "eess.SP"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "respiration",
+  "breathing rate",
+  "aliasing",
+  "physiological noise",
+  "repetition time",
+  "spectral flattening artifact",
+  "OpenNeuro",
+  "ReadyNeuro",
+  "pre-registered",
+  "cross-study validation",
+  "spectral analysis"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_estimate_vs_belt.png",
+   "caption": "BOLD peak frequency (frozen rule) against the frequency expected from the respiration belt, in discovery and held-out confirmation studies, and the share of runs within 0.02 Hz by acquired TR (black ticks: shuffled-belt null)."
+  },
+  {
+   "path": "files/figures/fig2_default_peak.png",
+   "caption": "(a) On pure noise resampled like ReadyNeuro, the frozen rule returns a default frequency set by the TR. (b) At TR 2.0 s the frozen estimates cluster at this default. (c) An exploratory reference-corrected rule moves many estimates onto the identity line, but 45 % of the confirmation estimates fall at the 0.1 Hz search edge."
+  },
+  {
+   "path": "files/figures/fig3_where.png",
+   "caption": "(a) Breathing-specific BOLD power by region, against a shuffled-frequency null (36 studies). (b) Studies without breathing-specific power fail."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:bae945760f3c1560cf09a5b1c6f34f1acdaf7d7d5446adc539cdf33dbd8734cc",
+   "reason": "Campaign A1 (time within one run) of the ReadyNeuro mission; leaf physio-from-bold."
+  },
+  {
+   "target": "sci:sha256:a3bd63ea7f351cefe96307cdde3bb6ed452b17f2864f121ff368d3cde92477ac",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Same leaf. It showed the breathing rate from BOLD only at TR below 1 s and reported physio metadata errors (swapped channels, trigger issues) that motivated our physio-only rules. We extend the breathing-rate result to TR 1 to 2.5 s and replicate its TR below 1 s result."
+  },
+  {
+   "target": "sci:sha256:4839c7e00845a91c0e162d6347fc94c14bfe72653974f79218ebebaf3e1de7d5",
+   "reason": "Breathing-rate changes over runs from recordings; a candidate application of a BOLD-only breathing rate."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2c",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and resampling code (copied into breath.py to simulate the stored band)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116041",
+   "reason": "Breathing rate in head-motion estimates at fast TR."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116400",
+   "reason": "Folded breathing in motion estimates; paced breathing in one subject."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2020.116866",
+   "reason": "Aliased breathing in single-band motion estimates."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2013.12.013",
+   "reason": "Aliasing of physiological signals in BOLD."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00279",
+   "reason": "Physiological power in BOLD as a function of TR."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2016.09.038",
+   "reason": "Respiration and whole-brain BOLD signals."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2008.09.029",
+   "reason": "Respiratory variation and heart rate definitions."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2020.117459",
+   "reason": "BOLD-only estimate of respiratory variation (HCP)."
+  },
+  {
+   "target": "doi:10.1162/IMAG.a.163",
+   "reason": "DeepPhysioRecon: BOLD-only RV and HR with external tests."
+  },
+  {
+   "target": "doi:10.1002/mrm.30330",
+   "reason": "Respiratory fluctuations from BOLD and head motion."
+  },
+  {
+   "target": "doi:10.1038/s41597-021-00870-6",
+   "relations": [
+    "uses"
+   ],
+   "reason": "AOMIC datasets with physio (ds002785, ds002790, ds003097)."
+  },
+  {
+   "target": "doi:10.1002/mrm.1086",
+   "reason": "Respiratory fluctuations estimated from undersampled multislice fMRI."
+  },
+  {
+   "target": "doi:10.1006/nimg.1997.0315",
+   "reason": "Early description of aliased physiological fluctuations in single and multislice EPI."
+  },
+  {
+   "target": "doi:10.1002/mrm.1910350114",
+   "reason": "Aliased physiological peaks in fMRI and their filtering."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.116231",
+   "reason": "HRAN: respiratory and cardiac frequencies tracked in fast fMRI without recordings."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000030",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001168",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001740",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002547",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002603",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002785",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002790",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003097",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003965",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004192",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004327",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004493",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004597",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004604",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005075",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005418",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005427",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007182",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Discovery study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds000113",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001499",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001553",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001771",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002737",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003357",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003452",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003465",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003709",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003831",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004627",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004636",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004787",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004892",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005341",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005795",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005917",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006550",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006644",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007393",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Confirmation study: BOLD from ReadyNeuro, physio from OpenNeuro."
+  }
+ ]
+}
