@@ -1,0 +1,102 @@
+{
+  "title": "Pre-registered CCA transfer of an EMG decoder between two monkeys failed (FALCON M1). Post-hoc CCA regularisation brought transfer near the threshold, mostly with condition-independent signal",
+  "abstract": "Question: can a shared low-dimensional M1 latent structure transfer an EMG decoder between two monkeys that do the same reach-to-grasp task, with no target EMG used for training? Data: FALCON M1 (DANDI 000941, 001209), monkeys L and X, 24 location-object conditions, 64 multi-unit M1 channels and the same 16 muscles. Pre-registered test (SHA-256 recorded before any cross-animal fit): 10-D PCA latents, CCA alignment of condition-averaged trajectories (Safaie et al. 2023), and a ridge decoder. The metric was held-out 5-fold R² on the target. The prediction was that the cross/within R² ratio is at least 0.5 in both directions, over 9 held-out session pairs per direction. Result: the prediction failed. With the pre-registered, essentially unregularised CCA (ridge 1e-6), the mean ratio was -0.45 for L to X (95% trial-bootstrap CI -0.88 to -0.23; pair range -1.44 to 0.15) and 0.27 for X to L (CI 0.24 to 0.29; range 0.12 to 0.35). No pair reached 0.5. Post hoc, the size of this failure depends on the CCA regularisation. Unregularised whitening amplifies single-trial noise in the poorly aligned canonical dimensions. With a target-side ridge chosen on the discovery pair only (lambda = 3), the ratios were 0.50 (L to X; 5/9 pairs at or above 0.5) and 0.47 (X to L; 0/9). No lambda in the grid reached 0.5 in both directions. The scale-free r² ratios were 0.62 and 0.59. However, a template of the source animal's mean EMG time course around movement onset uses no neural data and gave R² 0.23 and 0.17, against 0.28 and 0.27 for regularised transfer. Wrong condition matching cost only 0.01 to 0.03 R². So the transferred signal is mostly condition-independent. At equal numbers of labelled target trials, a within-animal decoder beat transfer from 24 trials up. Limitations: one pair of animals, sessions about one week apart, and the regularisation analysis is post hoc. The result applies to EMG with linear CCA transfer.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "motor cortex",
+    "latent dynamics",
+    "cross-animal transfer",
+    "canonical correlation analysis",
+    "regularisation",
+    "EMG decoding",
+    "brain-computer interface",
+    "FALCON benchmark",
+    "pre-registered",
+    "negative result",
+    "few-shot calibration"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_transfer_vs_controls.png",
+      "caption": "Held-out R² on target EMG for 18 directed session pairs (dots; bars = direction means). Left: pre-registered pipeline (unregularised CCA) and its controls. Middle (post hoc): CCA with target-side ridge lambda = 3 chosen on the discovery pair. Right: baselines without neural data, including the condition-independent grand-mean EMG templates. Values below -1 are clipped."
+    },
+    {
+      "path": "files/figures/fig2_regularisation.png",
+      "caption": "Post hoc. Left: held-out cross/within ratio (solid: R²; dashed: scale-free r²; band: range over 9 pairs) against the target-side CCA ridge lambda. Lambda = 0 is the pre-registered pipeline. Right: single-trial SD of target canonical variables relative to the source, for lambda = 0 and lambda = 3."
+    },
+    {
+      "path": "files/figures/fig3_few_trials.png",
+      "caption": "Held-out R² against the number n of target training trials, with the same trial subsets for all curves: within-animal decoder on n labelled trials; transfer with PCA and CCA on n trials (no target EMG) for lambda = 0 and lambda = 3; transfer (lambda = 3) plus a 16x16 output map, with alignment and map both fit on the same n labelled trials."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "reason": "Campaign anchor: long-term intracortical array performance in BrainGate trials (Hahn et al. 2026). Background for the stability and transfer branch; not used as data here."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "reason": "Preprint of Hahn et al. (campaign anchor)."
+    },
+    {
+      "target": "doi:10.48324/dandi.000941/0.241029.1405",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON M1-A data, monkey L (held-in-calib sessions). Creators Rouse AG, Schieber MH; CC-BY-4.0."
+    },
+    {
+      "target": "https://dandiarchive.org/dandiset/001209/draft",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON M1-B data, monkey X (held-in-calib sessions). Data collectors Rouse AG, Schieber MH; contact Karpowicz BM; CC-BY-4.0. Draft version, pinned here by SHA-256 of the files."
+    },
+    {
+      "target": "doi:10.1101/2024.09.15.613126",
+      "relations": [
+        "uses"
+      ],
+      "reason": "FALCON benchmark (Karpowicz et al. 2024), which released and preprocessed the M1 data."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06714-0",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Safaie et al. 2023: CCA alignment of condition-averaged latent dynamics across animals; method tested here, applied to EMG instead of kinematics."
+    },
+    {
+      "target": "doi:10.1038/s41593-019-0555-4",
+      "reason": "Gallego et al. 2020: CCA alignment of M1 latent dynamics for stable decoding across days (basis of our within-animal positive control)."
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0542-9",
+      "reason": "Degenhart et al. 2020: iBCI stabilisation by alignment of low-dimensional neural spaces."
+    },
+    {
+      "target": "doi:10.1038/s41551-022-00962-7",
+      "reason": "Dabagia et al. 2022: review and comparison of methods to align latent representations of neural activity."
+    },
+    {
+      "target": "doi:10.1038/s41592-018-0109-9",
+      "reason": "Pandarinath et al. 2018 (LFADS): multi-session stitching of latent dynamics, an alternative route to transfer."
+    },
+    {
+      "target": "doi:10.1101/2023.09.18.558113",
+      "reason": "Ye et al. 2023 (NDT2): multi-context pretraining across sessions and subjects."
+    },
+    {
+      "target": "https://arxiv.org/abs/2310.16046",
+      "reason": "Azabou et al. 2023 (POYO): multi-session, multi-subject neural population decoding."
+    },
+    {
+      "target": "sci:sha256:3ea929a8be7393481b467d48c0f902a1c32d518ae8edb322b579820c292d20d1"
+    }
+  ]
+}
