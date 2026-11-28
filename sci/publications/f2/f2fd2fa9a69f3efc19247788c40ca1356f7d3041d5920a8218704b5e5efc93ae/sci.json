@@ -1,0 +1,145 @@
+{
+ "title": "In 64 held-out fast-TR fMRI studies, cortical BOLD lags behind the global signal shrink as frequency rises, between a fixed delay and a constant phase, and tasks keep their order at 0.06-0.24 Hz",
+ "abstract": "In fast fMRI, the time by which each cortical region follows the mean cortical signal gets shorter when the signal changes faster. The lag map keeps its spatial order, but its size in seconds falls about threefold from 0.03-0.06 Hz to 0.12-0.24 Hz. This matters because lag maps are read as blood arrival times or as the propagation of spontaneous activity, and the main methods assume one fixed delay per region that does not depend on the filter band.\n\nWe used ReadyNeuro (minimally preprocessed fMRI from OpenNeuro) and only runs acquired with a repetition time (TR) of 1 s or less. For 200 cortical parcels and 28 deeper regions, we computed the lag behind the global signal (GS, the mean cortical signal) from the cross-spectral phase in five bands from 0.01 to 0.35 Hz. We measured the spread of each study's lag map with a split-half method that removes measurement noise. We found the pattern in 9 discovery studies and tested it with a pre-registered plan in held-out studies (75 studies, 102 people and 436 runs, after we removed one study that shared data with discovery).\n\n- **Lags shrink with frequency.** In cortex, the ratio Q of the spread at 0.12-0.24 Hz to the spread at 0.03-0.06 Hz was 0.32 (95% CI 0.28-0.36). Q was below 1 in 62 of 64 studies (Wilcoxon p = 2e-12).\n- **The behaviour is in between two models.** A fixed delay gives Q = 1, and a constant phase gives about 0.25. The data lie between them: the phase spread of the map rises up to 0.1 Hz and then stays near 0.3 rad up to about 0.2 Hz.\n- **A fixed delay in real noise keeps its size.** We replaced the GS-coupled part of every real region signal with a fixed delay and kept the real noise. The same code then gave Q = 0.98.\n- **The order is similar across studies.** The median Spearman rho with the discovery map was 0.57, positive in 75 of 75 studies.\n- **The cerebellum keeps a nearly constant phase lag** of about 20 degrees.\n- **Tasks keep the lag order above 0.06 Hz.** In 13 studies with rest and task runs, the noise-corrected rest-task correlation of the lag maps was 0.91-1.04 at 0.06-0.24 Hz. Whether tasks change the size of the lags is not settled: it was unchanged between people, but showed slight compression within people (few studies). Below 0.06 Hz the comparison was too noisy.\n\nThis extends Raut et al. (2021), who found phase relations rather than delays below 0.1 Hz. Limits: no physiological recordings, no slice-timing correction, 1-3 people per study; the mechanism is not known.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "physics.med-ph"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "lag structure",
+  "time delay",
+  "phase lag",
+  "global signal",
+  "frequency dependence",
+  "cross-spectrum",
+  "rest versus task",
+  "cerebellum",
+  "multiband fMRI",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "pre-registration",
+  "hemodynamics"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_lag_vs_frequency.png",
+   "caption": "(A) Noise-corrected spread of cortical lags behind the global signal (GS) by frequency band; thin lines are single studies (blue: 9 discovery, orange: 64 held-out), thick lines are medians; dashed: a fixed delay, dotted: a constant phase. (B) Noise-corrected spread of cortical phase at each frequency (held-out median); the dashed line is the phase a fixed delay would give; grey: breathing range. (C) Spread relative to 0.03-0.06 Hz for real data, for fixed delays inserted into the real runs with their real noise and coherence (Q = 0.98), for simulated fixed delays, and for simulated delay + constant phase."
+  },
+  {
+   "path": "files/figures/fig2_lag_maps_by_band.png",
+   "caption": "Lag of 200 cortical parcels behind the global signal, mean over the 75 held-out studies, in three bands (top: side view; bottom: top view; same colour scale). The spatial pattern stays; its size in seconds falls with frequency."
+  },
+  {
+   "path": "files/figures/fig3_rest_vs_task.png",
+   "caption": "Rest vs task with the between-subject split (13 held-out studies). Left: noise-corrected correlation of rest and task lag maps (cortex and all 228 regions). Right: task/rest spread of the lag map. Black bars are medians; values outside the axes are drawn at the limit. At 0.06-0.24 Hz tasks keep the order of the lag map; whether they change its size depends on the split (see README); below 0.06 Hz the estimates are too noisy."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+   "reason": "Campaign of branch A2 (place within one brain), leaf fast-lag."
+  },
+  {
+   "target": "sci:sha256:baa28750b3b39d62f2dc93298b3be56c691d06b479ab76bb313ea46011a16d2a",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Same corpus: CSF lags the cortex by about a quarter cycle and white matter by about 0.5 s at 0.03-0.12 Hz; we find the same, and add that white-matter, cerebellar and whole-map lags in seconds change outside that band."
+  },
+  {
+   "target": "sci:sha256:69e7fd3692dacf01006f11573554ec3a2d0054828f7a7453a766aec993381144",
+   "reason": "Same corpus: uncorrected slice timing shifts region phases; we bound its parcel-level effect for fast-TR studies."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro manifests and preprocessing description (commit 997ce2c)."
+  },
+  {
+   "target": "https://openneuro.org",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Source studies, BIDS sidecars, events files and NIfTI headers."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer 2018 cortical parcellation (TemplateFlow)."
+  },
+  {
+   "target": "doi:10.1152/jn.00804.2013",
+   "reason": "Lag structure in resting-state fMRI (Mitra et al. 2014)."
+  },
+  {
+   "target": "doi:10.1073/pnas.1503960112",
+   "reason": "Lag threads (Mitra et al. 2015)."
+  },
+  {
+   "target": "doi:10.1126/sciadv.abf2709",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Raut et al. 2021: phase relations rather than time delays across 0.01-0.1 Hz in HCP (fast TR) and two other datasets; we confirm this in 64 held-out studies and extend it above 0.1 Hz, finding behaviour between a delay and a constant phase."
+  },
+  {
+   "target": "doi:10.3389/fnins.2019.00787",
+   "reason": "Systemic low-frequency oscillation and blood-arrival delays (Tong et al. 2019)."
+  },
+  {
+   "target": "doi:10.3389/fnins.2017.00256",
+   "reason": "Lag-map reproducibility and task robustness (Aso et al. 2017)."
+  },
+  {
+   "target": "doi:10.1371/journal.pone.0222787",
+   "reason": "Axial variation of deoxyhemoglobin as a source of lag structure (Aso et al. 2019)."
+  },
+  {
+   "target": "doi:10.3389/fnins.2020.596084",
+   "reason": "Lag maps and hemodynamic response shape (Amemiya et al. 2020)."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2023.01.014",
+   "reason": "Task changes propagation direction (Pines et al. 2023)."
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2018.10.010",
+   "reason": "Cerebellar lag behind cortex (Marek et al. 2018)."
+  },
+  {
+   "target": "doi:10.1038/s41593-022-01118-1",
+   "reason": "Lag projection as travelling global signal (Bolt et al. 2022)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2019.03.020",
+   "reason": "Data needs and sampling error of lag estimates (Raut et al. 2019)."
+  },
+  {
+   "target": "doi:10.1089/brain.2020.0910",
+   "reason": "Mash et al. 2022: task compression of lags at 0.008-0.08 Hz after multi-echo ICA; our rest-task data below 0.06 Hz are too noisy to confirm or reject this."
+  },
+  {
+   "target": "doi:10.7554/eLife.86453",
+   "reason": "Local hemodynamic response timing shapes resting-state spectra (Bailes et al. 2023); a candidate mechanism."
+  }
+ ]
+}
