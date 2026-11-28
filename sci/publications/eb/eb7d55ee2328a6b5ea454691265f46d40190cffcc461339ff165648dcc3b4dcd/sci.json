@@ -1,0 +1,96 @@
+{
+  "title": "In one monkey with 20 calibration trials, a small GRU decoder gained 0.030 R^2 per doubling of pretraining sessions (1 to 64) and a ridge decoder gained 0.007",
+  "abstract": "Question: does a small nonlinear sequence decoder gain more from extra pretraining sessions than a linear decoder, as an earlier campaign paper predicted? Data: LINK (DANDI 001201), one rhesus monkey, 96 Utah-array channels, spike-band power, 2-DoF finger velocity during offline hand control. Test days: the 20 latest sessions (2023-04 to 2023-06, all random-target); on each, only the first 20 trials are labelled. Pretraining pool: one fixed set of 64 earlier sessions. Decoders: a 1-layer GRU (80,962 shared parameters, per-session read-in offsets, fixed budget of 3000 steps, 3 seeds) fine-tuned on the 20 trials, and a pooled ridge on 8 history bins refit with shrinkage to its pretrained weights. Hyperparameters were selected on 10 separate discovery days. Predictions were preregistered (self-attested hash and time) before any confirmatory fit. Results (unit = test day, bootstrap 95% CI): with sessions spread over the pool, the GRU gained +0.030 [0.025, 0.034] R^2 per doubling of sessions (N = 1 to 64) and ridge gained +0.007 [0.006, 0.008]; the difference, +0.023 [0.019, 0.027], met the preregistered criterion (>= 0.01). The GRU electrode slope (+0.096 per doubling, 12 to 96 channels) stayed larger than its session slope. With the most recent sessions, ridge gained +0.001 and the GRU +0.012. Post hoc: the GRU curve was concave (about 80% of the 1 to 64 gain by N = 8 for this session draw, 63 to 81% across alternative draws; ridge about 92%). The gain per doubling beyond 16 sessions was about 0.005 to 0.012, depending on the seed and the training budget (a 3-times budget check), so we do not resolve it. A GRU with no pretraining, trained on the 20 trials only, reached 0.200, not distinguishable from a 300-trial same-day ridge; so the pretrained GRU's margin over that ridge comes from pretraining. In a reviewer's 2x2 breakdown (model x pretraining) at N = 8, about a third to a half of the 0.23 GRU-ridge gap was present without pretraining; the rest came from the GRU gaining far more from pretraining (+0.16) than ridge (+0.04; interaction +0.12). A ridge with 640 ms of history did not close the gap. Results agreed across seeds and alternative single-session draws. Limitations: one animal, one fixed pool shared by dependent test days, CIs over days only, fixed step budget, simulated electrode loss, SBP only, two rounds of internal review (same operator and model family).",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "cs.LG"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "intracortical decoding",
+    "Utah array",
+    "GRU",
+    "recurrent neural network",
+    "multi-session pretraining",
+    "few-shot calibration",
+    "scaling",
+    "electrode count",
+    "spike-band power",
+    "motor cortex",
+    "LINK dataset",
+    "preregistered"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_scaling.png",
+      "caption": "Held-out R^2 on 20 test days against pretraining sessions (a: spread over the pool, b: most recent) and electrodes (c), for the GRU and ridge decoders. Shading: 95% CI over test days."
+    },
+    {
+      "path": "files/figures/fig2_slopes.png",
+      "caption": "R^2 gain per doubling of sessions or electrodes, 95% CI over test days. Dotted line: the preregistered 0.01 threshold."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:616395055ff1b733e4a76cc4e2f4d938ce1bc0eaac254504cf0dd9d8fdf85eb5",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Earlier campaign paper whose untested prediction (a nonlinear sequence model gains more from extra sessions) we test; we follow its setup with new code."
+    },
+    {
+      "target": "doi:10.48324/dandi.001201/0.261026.1912",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK data (160 latest sessions)."
+    },
+    {
+      "target": "https://openreview.net/forum?id=TAdeh1dLzu",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset paper."
+    },
+    {
+      "target": "https://github.com/chesteklab/LINK_dataset",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK reference code for the evaluation trials and ridge baseline."
+    },
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "reason": "BrainGate 20-year array study; campaign context for electrode scaling."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "reason": "Preprint of the BrainGate 20-year array study."
+    },
+    {
+      "target": "https://arxiv.org/abs/1406.1078",
+      "reason": "GRU."
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0591-0",
+      "reason": "Spiking-band power."
+    },
+    {
+      "target": "doi:10.1101/2023.09.18.558113",
+      "reason": "NDT2, multi-context pretraining."
+    },
+    {
+      "target": "https://arxiv.org/abs/2310.16046",
+      "reason": "POYO, multi-session pretraining."
+    },
+    {
+      "target": "sci:sha256:c5d6055be7b539b4c087c7d5aca6a30f9f9bdf1ff8d5f41a12a5e40a281a06a2"
+    }
+  ]
+}
