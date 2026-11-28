@@ -1,0 +1,75 @@
+{
+  "title": "Yield vs same-day decoding SNR in BrainGate: pre-registered test inconclusive (3 participants); post hoc: small positive relation within all 13 arrays with ≥20 matched sessions (of 14; study had 20)",
+  "abstract": "Question: do passive array measures from one day (number of spiking electrodes, waveform amplitude, noise, SNR, impedance) predict that day's decoding SNR (dSNR) within the same Utah array? Data: public per-session summary tables of the BrainGate 20-year study (Hahn et al. 2026), joined by the authors' rule: 1,137 session-arrays, 14 arrays (of the study's 20), 9 participants. Pre-registered test (inconclusive): a shared OLS model of within-array dSNR, trained on 6 participants and tested on 3 held-out participants (T7, T8, T10). Passive measures increased within-array R2 over a days-since-implant model by 0.20 (95% session block-bootstrap CI -0.03 to 0.33), positive in 3 of 3 participants. The CI includes zero, so the verdict is inconclusive. The lower bound is near zero (-0.03 to +0.04 at the pre-registered block length in post hoc re-centring variants, lower with longer blocks), and the CI omits between-participant uncertainty, which is large with 3 participants. As predicted, the spiking-electrode count carried the gain (0.23); amplitude, noise and SNR added little beyond it, impedance nothing. Leave-one-participant-out gains were positive in 7 of 9 participants, but the days-only baseline was worse than no model; the count alone gave a pooled within-array R2 of 0.10 and failed for T6. In the pre-specified 70/30 temporal split the full model was worse than the test-period mean (R2 -0.41). Consecutive-session changes had only a weak relation (held-out rho 0.10, CI -0.03 to 0.23; prediction failed). Exploratory, post hoc, same data: after removing each array's log+linear trend over days, count and dSNR had a positive partial correlation in all 13 arrays with at least 20 matched sessions (13 of 14 joined arrays; pooled r 0.29, CI 0.19 to 0.38; 8 of 8 participants, sign test p = 0.008). Same-day yield beat nearest other-day yield in 11 of 13 arrays, and the other array's count did not predict, so the association is array-specific. Limitations: the yield recording can be a decoding block, so a recording-state artefact on one array cannot be excluded. Thresholds are relative to noise. Hardware, learning and task changes are not recorded. Only 3 held-out participants. The 13 of 13 result is post hoc. Disclosed deviation: the locked S3 bootstrap uses a non-stable sort, so its CI depends on the pandas string backend; the verdict does not.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "stat.AP"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "Utah array",
+    "BrainGate",
+    "array yield",
+    "decoding SNR",
+    "structure-to-function",
+    "motor cortex",
+    "pre-registration",
+    "negative result",
+    "chronic recording",
+    "spike-band power",
+    "held-out participants"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_partial_r_forest.png",
+      "caption": "Exploratory, post hoc: per-array partial correlation of SBP dSNR with the number of spiking electrodes after removal of each array's log+linear trend over days, for the 13 arrays with at least 20 matched sessions. Blue: same-day yield; orange: nearest other-day yield (1-30 days). Diamonds: random-effects pooled r. * = held-out participant."
+    },
+    {
+      "path": "files/figures/fig2_r2_transfer.png",
+      "caption": "Left: leave-one-participant-out within-array R2 (gain over days-only model; count alone). Right: pre-registered held-out test on T7, T8, T10 with 95% moving-block bootstrap CIs; the Delta R2 CI includes zero (inconclusive)."
+    },
+    {
+      "path": "files/figures/fig3_detrended_scatter.png",
+      "caption": "Detrended dSNR against detrended number of spiking electrodes, one panel per array with at least 20 matched sessions."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source study (Hahn et al. 2026, Nature Medicine). We reuse its per-session yield and dSNR summaries, its yield-recording selection rule (Supplementary Methods 1.5.1) and its learning/strategy-change account of dSNR increases, and extend its between-array yield-dSNR analysis (Fig. 4) to within-array variation."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Preprint of the source study; earlier version of the methods for the yield recording selection, thresholds and dSNR."
+    },
+    {
+      "target": "doi:10.5061/dryad.x0k6djj1h",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Dryad dataset from which the summary CSVs were derived (raw data not used here)."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Authors' code and summary CSVs (decoding_summary.csv, yield_summary.csv) at commit 93beb76b4329f0e3d5b3fd5ffba9be1c7cfa2834, MIT license; join rule from plot_figure4."
+    },
+    {
+      "target": "sci:sha256:d08416d5195ac9f5be34f3d453bf994a650724c125fb4238834530fe55139798"
+    }
+  ]
+}
