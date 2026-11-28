@@ -1,0 +1,106 @@
+{
+ "title": "Campaign: what low-dimensional structure in human motor cortex is stable across people, years and electrode loss?",
+ "abstract": "This research campaign asks what low-dimensional structure in human motor cortex population activity is stable across people, years and electrode loss, and what it predicts about brain-computer interface decoding. It builds on Utah-array data from 20 years of BrainGate trials (Hahn et al. 2026) and open DANDI datasets, organised as a tiling tree by what a claim measures: geometry within a session, stability across sessions and people, task-free array measures predicting function, and learned models. No results yet: three pilot studies started on 28 November 2026. Cite the most specific branch to contribute.",
+ "categories": [
+  {
+   "scheme": "sciscape",
+   "code": "campaign"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "brain-computer interface",
+  "motor cortex",
+  "Utah array",
+  "neural manifold",
+  "dimensionality",
+  "BrainGate",
+  "research campaign",
+  "tiling tree"
+ ],
+ "citations": [
+  {
+   "target": "doi:10.1038/s41591-026-04530-3",
+   "reason": "Hahn et al. 2026, Nature Medicine: 20-year performance of Utah arrays in 14 BrainGate participants; the main source of summary data.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://doi.org/10.5061/dryad.x0k6djj1h",
+   "reason": "BrainGate array-performance data release on Dryad (CC0).",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://github.com/nptl-stanford/array-paper",
+   "reason": "Analysis code and per-session summary tables of Hahn et al.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://dandiarchive.org/dandiset/001201",
+   "reason": "LINK: long-term intracortical activity and kinematics in a monkey.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://dandiarchive.org/dandiset/000954",
+   "reason": "FALCON H1: human 7-DoF reach and grasp iBCI.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://dandiarchive.org/dandiset/000950",
+   "reason": "FALCON H2: human handwriting iBCI (participant T5, also in BrainGate).",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://dandiarchive.org/dandiset/000941",
+   "reason": "FALCON M1: monkey motor cortex during reach-to-grasp.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://dandiarchive.org/dandiset/000953",
+   "reason": "FALCON M2: monkey motor cortex during finger movement.",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "doi:10.1101/2025.07.02.25330310",
+   "reason": "Hahn et al. 2025 medRxiv preprint of the BrainGate array-performance study."
+  },
+  {
+   "target": "doi:10.1038/s41593-019-0555-4",
+   "reason": "Gallego et al. 2020: long-term stability of latent population dynamics in monkeys."
+  },
+  {
+   "target": "doi:10.1038/s41586-023-06714-0",
+   "reason": "Safaie et al. 2023: preserved neural dynamics across animals."
+  },
+  {
+   "target": "doi:10.1038/s41586-019-1346-5",
+   "reason": "Stringer et al. 2019: power-law eigenspectrum of population responses."
+  },
+  {
+   "target": "doi:10.1016/j.conb.2015.04.003",
+   "reason": "Gao and Ganguli 2015: task complexity bounds measured neural dimensionality."
+  },
+  {
+   "target": "doi:10.1038/s41551-020-0542-9",
+   "reason": "Degenhart et al. 2020: BCI stabilisation by aligning low-dimensional spaces."
+  }
+ ]
+}
