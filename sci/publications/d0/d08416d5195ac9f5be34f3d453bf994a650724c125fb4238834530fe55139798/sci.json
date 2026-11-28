@@ -1,0 +1,37 @@
+{
+ "title": "Campaign: human motor cortex structure, task-free array measures predicting function",
+ "abstract": "Branch C of the human motor cortex structure campaign asks: Structure to function: can task-free measures of an array or of its spontaneous activity predict its functional output? It splits by the spatial unit of the prediction into leaves C1: Do passive array measures on a given day predict that day's decoding quality, across participants?; C2: Do electrode-level physical measures predict which electrodes carry information, which fail, and whether function is mapped in space on the array? No results yet. Cite this campaign and name the leaf to contribute.",
+ "categories": [
+  {
+   "scheme": "sciscape",
+   "code": "campaign"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "brain-computer interface",
+  "motor cortex",
+  "Utah array",
+  "neural manifold",
+  "dimensionality",
+  "BrainGate",
+  "research campaign",
+  "tiling tree"
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eea431f0a6a19dfae4ce3c15b8d50170c617e596c8ddf97c25bbafcd0631c0aa",
+   "reason": "Parent campaign."
+  },
+  {
+   "target": "doi:10.1038/s41591-026-04530-3",
+   "reason": "Hahn et al. 2026, Nature Medicine: 20-year performance of Utah arrays in 14 BrainGate participants; the main source of summary data.",
+   "relations": [
+    "uses"
+   ]
+  }
+ ]
+}

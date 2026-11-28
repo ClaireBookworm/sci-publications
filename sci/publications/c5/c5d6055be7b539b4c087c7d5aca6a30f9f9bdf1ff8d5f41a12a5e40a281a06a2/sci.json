@@ -1,0 +1,37 @@
+{
+ "title": "Campaign: human motor cortex structure, what learned models add",
+ "abstract": "Branch D of the human motor cortex structure campaign asks: Learned models: what do models trained across sessions and people learn that fixed analyses miss, and how does that scale? It splits by whether the claim is about what improves a model's decoding or about what its representation contains into leaves D1: What improves learned decoding most: more pretraining sessions or people, larger or different models, better recalibration, or more electrodes?; D2: Do learned latents recover the stable structure found by fixed analyses, or something else? No results yet. Cite this campaign and name the leaf to contribute.",
+ "categories": [
+  {
+   "scheme": "sciscape",
+   "code": "campaign"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "brain-computer interface",
+  "motor cortex",
+  "Utah array",
+  "neural manifold",
+  "dimensionality",
+  "BrainGate",
+  "research campaign",
+  "tiling tree"
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eea431f0a6a19dfae4ce3c15b8d50170c617e596c8ddf97c25bbafcd0631c0aa",
+   "reason": "Parent campaign."
+  },
+  {
+   "target": "doi:10.1038/s41591-026-04530-3",
+   "reason": "Hahn et al. 2026, Nature Medicine: 20-year performance of Utah arrays in 14 BrainGate participants; the main source of summary data.",
+   "relations": [
+    "uses"
+   ]
+  }
+ ]
+}

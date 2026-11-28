@@ -1,0 +1,37 @@
+{
+ "title": "Campaign: human motor cortex structure, geometry and within-session decoding",
+ "abstract": "Branch A of the human motor cortex structure campaign asks: Geometry: how many dimensions does motor cortex activity use during a BCI task, and how does within-session decoding depend on electrode count, feature type and array? It splits by whether the claim is about activity statistics or about decoding into leaves A1: Within a session, is the covariance eigenspectrum of motor cortex activity better described by a power law than by an exponential decay?; A2: How does within-session decoding depend on electrode count, feature type and array; in particular, does it keep growing with electrode count or saturate? No results yet. Cite this campaign and name the leaf to contribute.",
+ "categories": [
+  {
+   "scheme": "sciscape",
+   "code": "campaign"
+  },
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "brain-computer interface",
+  "motor cortex",
+  "Utah array",
+  "neural manifold",
+  "dimensionality",
+  "BrainGate",
+  "research campaign",
+  "tiling tree"
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eea431f0a6a19dfae4ce3c15b8d50170c617e596c8ddf97c25bbafcd0631c0aa",
+   "reason": "Parent campaign."
+  },
+  {
+   "target": "doi:10.1038/s41591-026-04530-3",
+   "reason": "Hahn et al. 2026, Nature Medicine: 20-year performance of Utah arrays in 14 BrainGate participants; the main source of summary data.",
+   "relations": [
+    "uses"
+   ]
+  }
+ ]
+}
