@@ -1,0 +1,139 @@
+{
+  "title": "In 86 fMRI studies, rest-to-task changes of deep white-matter BOLD correlation patterns shared at most a weak direction across studies, unlike cortex; white-matter task information fell with depth",
+  "abstract": "When people change from rest to a task, the BOLD correlation pattern among deep white-matter regions changes only a little, and the change has at most a weak common direction across studies; in the cortex of the same people the change is larger and has the same direction in different studies. This matters because recent work proposes that white-matter BOLD carries task-related neural information; our result suggests that deep white matter carries at most a weak form of the general task-state signal that the cortex carries.\n\nWe used minimally preprocessed runs (ReadyNeuro corpus) of people with rest and task runs at the same acquired TR. We fixed a study-level split before we read data: discovery (26 studies, 67 people) and confirmation (60 studies, 161 people). For each run we correlated 48 deep white-matter parcels (at least 6 mm from grey matter or CSF). A classifier told task runs from rest runs of the same person in held-out studies. Its area under the ROC curve (AUC) was 0.53 for deep white matter (95% CI 0.47 to 0.59; 0.57, CI 0.52 to 0.62, when trained on the discovery set) and 0.90 for cortex. Cortex with added noise, matched to white matter on the pattern variance that belongs to the state (0.06), still gave AUC 0.79, so low signal-to-noise does not explain the result. Within a person, deep white-matter patterns did differ between rest and task (a direction-free test gave 0.64, chance 0.5). Task information in white matter decreased with depth: AUC 0.77, 0.66, 0.58 and 0.53 at 0-2, 2-4, 4-6 and at least 6 mm from other tissue. Mirror-image parcels correlated more than other left-right pairs at the same distance in 86 of 86 studies, also during tasks. Six of seven pre-registered tests passed. A pre-registered measure of how much of the reliable pattern depends on state was 0.20 in white matter and 0.49 in cortex, but it depended on a few large stable components of the white-matter correlations: with 3 of them removed it was 0.40 vs 0.51 (confirmation) and 0.32 vs 0.42 (discovery).\n\nLimitations: brains were aligned rigidly only, parcels are coarse, task designs, head motion and physiological signals were not regressed, and changes in single tracts during specific tasks are not excluded.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "keywords": [
+    "white matter",
+    "BOLD fMRI",
+    "functional connectivity",
+    "task state",
+    "resting state",
+    "state dependence",
+    "pre-registration",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "homotopic correlation",
+    "partial volume",
+    "replication"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_reliability_vs_auc.png",
+      "caption": "Rest-versus-task information (AUC, each study left out in turn) against within-person pattern reliability. Orange: 48 white-matter parcels at four depths from other tissue. Blue: 48 cortical parcels (5 random sets). Green: the same cortical parcels with added noise (SD 0.5 to 3 times the signal). Deep white matter is reliable, but its rest-task change does not generalise across studies (AUC near 0.5); cortex keeps a generalising change even when it is made much noisier than white matter. Left: discovery (26 studies); right: confirmation (60 studies)."
+    },
+    {
+      "path": "files/figures/fig2_sdf.png",
+      "caption": "a: state-dependence fraction 1 - r(rest,task)/r(same condition) with 95% bootstrap intervals over studies (pre-registered measure; it depends on a few large stable white-matter modes, see README). b: rest-versus-task AUC (each study left out) for deep white matter and cortex under every analysis variant we tried after the review; deep white matter stays near chance (0.42-0.55), cortex stays at 0.72 or more."
+    },
+    {
+      "path": "files/figures/fig3_structure.png",
+      "caption": "Stable structure of deep white-matter correlations. Left: correlation falls with distance between parcels. Right: mirror-image (homotopic) parcel pairs correlate more than other left-right pairs at the same distance, with three levels of regression of cortical signals."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+      "reason": "Campaign A2 (place within one brain), leaf wm-bold."
+    },
+    {
+      "target": "sci:sha256:1779d0f82762c65770356aa7e18bfd5751f5ad415bc092c817e3e702bfacb215",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Same leaf, local fibre-direction anisotropy; our corpus-callosum left-right check agrees with it, and it also found no rest-task difference in its local measure."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro shards and manifests."
+    },
+    {
+      "target": "doi:10.7554/eLife.71774",
+      "relations": [
+        "uses"
+      ],
+      "reason": "OpenNeuro, source of all studies and of acquisition metadata."
+    },
+    {
+      "target": "doi:10.1016/j.media.2023.102789",
+      "relations": [
+        "uses"
+      ],
+      "reason": "SynthSeg segmentation used to define tissue depth."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.3872-16.2017",
+      "reason": "White-matter functional networks (Peer et al. 2017)."
+    },
+    {
+      "target": "https://www.pubmed.gov/27720819/",
+      "reason": "Marussich et al. 2017: white-matter components during a movie mostly resemble rest, with changes in the optic radiations; partly consistent with our result."
+    },
+    {
+      "target": "doi:10.1073/pnas.1711567115",
+      "reason": "Ding et al. 2018: white-matter correlations change in task-related tracts under functional loading; our test does not find a change that is common across tasks and studies."
+    },
+    {
+      "target": "doi:10.1038/s41467-019-09076-2",
+      "reason": "White-matter hemodynamic response (Li et al. 2019)."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9519945",
+      "reason": "White-matter HRF characteristics (Schilling et al. 2022)."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9948951/",
+      "reason": "Time-locked white-matter signal changes with tasks (Schilling et al. 2023)."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12594490/",
+      "reason": "White-matter intrinsic connectivity networks at rest and during a task (Itkyal et al. 2025)."
+    },
+    {
+      "target": "doi:10.1038/s41467-025-61251-w",
+      "reason": "Grey-white boundary functional contrast (Li et al. 2025)."
+    },
+    {
+      "target": "doi:10.1016/j.mri.2025.110596",
+      "reason": "Review of white-matter BOLD (Gore et al. 2026)."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7328303",
+      "reason": "Systemic vascular effects in white-matter fMRI (Ozbay et al. 2018)."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6861267",
+      "reason": "Sympathetic activity and periventricular signals (Ozbay et al. 2019)."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2014.05.014",
+      "reason": "Intrinsic and task-evoked network architectures in cortex (Cole et al. 2014)."
+    },
+    {
+      "target": "doi:10.1098/rstb.2013.0526",
+      "reason": "Task-dependent coupling around a core architecture (Krienen et al. 2014)."
+    },
+    {
+      "target": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6462481/",
+      "reason": "General functional connectivity shared by rest and task (Elliott et al. 2019)."
+    }
+  ]
+}
