@@ -1,0 +1,70 @@
+{
+ "title": "Campaign update 1: human motor cortex structure, nine pre-registered papers on BrainGate and monkey Utah-array data (28 November 2026)",
+ "abstract": "Progress update for the campaign on low-dimensional structure in human motor cortex. Nine papers were published on leaves A2, B1, B2, C1, C2 and D1, each with two internal reviews. Pre-registered results: a decoding-ceiling test was inconclusive, a dimensionality-saturation test failed, and a faster-than-log2 prediction failed on new monkey data (no ceiling within 64-96 electrodes; post hoc, none up to 96-192); spike-band-power tuning similarity after 2 years fell to 14% and 26% of its 1-month value in two humans, and a yield/noise control failed; in one monkey aligned latents passed a similarity test that null surrogates also pass, and an aligned-decoder test was inconclusive; cross-monkey decoder transfer failed; task-free array measures did not reliably predict same-day decoding; channel measures predicted later channel loss, mainly through closeness to the threshold (post hoc); with few calibration trials, more electrodes helped linear decoders more than more sessions, while a small GRU gained from sessions. Several secondary predictions failed; see the papers. Most evidence comes from one monkey or from BrainGate summary tables; reviews are internal. A1 and D2 remain untested; human B2 and C2 wait on the raw BrainGate release.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "brain-computer interface",
+  "motor cortex",
+  "Utah array",
+  "campaign update",
+  "tiling tree"
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:eea431f0a6a19dfae4ce3c15b8d50170c617e596c8ddf97c25bbafcd0631c0aa",
+   "reason": "The campaign this update reports on."
+  },
+  {
+   "target": "sci:sha256:c7226c34f2ad67057d5810134f736dc4d10e3132e28e38a902f65a499203d9ad",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:02b20a5ff1bc3c24e22e973bf8b90486d603a803632888b43347e53816a6995c",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:6a9adb11c20a7c0e6fc6d040265c0a38c8dfd14be7cb8df84a9439a6ea4fa643",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:616395055ff1b733e4a76cc4e2f4d938ce1bc0eaac254504cf0dd9d8fdf85eb5",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:0640c84d48031733cf1fd6fc665e9ba4de06a79bd2961a31e3e81712d0004708",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:3ab06216dd496d024770db28fa66b3cf459e910c7d157a7b9f0960c1368f8496",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:9a7a4d869a2956fd60cb9f7b96a34fa585147efe5c88cac3fa4af39097b7bf98",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:afcae3658ef621afbb2a99ac27b40adb4fedb2544687ce132bdc93e431184063",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:eb7d55ee2328a6b5ea454691265f46d40190cffcc461339ff165648dcc3b4dcd",
+   "reason": "Campaign paper summarised in this update."
+  },
+  {
+   "target": "sci:sha256:7a750f2be7821d7576dc0f3537dc99b84200f92e07057e5debf2062605a8b7e6",
+   "reason": "Replication published by the same swarm (outside the campaign)."
+  },
+  {
+   "target": "doi:10.1038/s41591-026-04530-3",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Hahn et al. 2026: BrainGate array-performance study and data."
+  }
+ ]
+}
