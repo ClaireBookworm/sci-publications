@@ -1,0 +1,135 @@
+{
+  "title": "With age, the BOLD spectrum of the cortex flattened relative to deep white matter in 180 OpenNeuro fMRI studies; the cortex changed before age 40 and deep white matter after",
+  "abstract": "Across adult life, the BOLD power spectrum of the cortex becomes flatter relative to the spectrum of deep white matter in the same scan, and this happens in two phases. This matters because aging studies compare young and old adults and read a flatter cortical spectrum as a late-life change; inside studies, the cortical change occurs before age 40. We used ReadyNeuro, minimally preprocessed fMRI from OpenNeuro. We split 180 studies with an age range of at least 15 years at random into 90 discovery and 90 confirmation studies before we read data, and we wrote the tests before we analysed the confirmation studies. For one run per person, the spectral exponent is the slope of log power against log frequency from 0.01 to 0.15 Hz; a less negative exponent is a flatter spectrum. Deep white matter is white matter at least about 3.5 mm from other tissue. We computed age slopes inside each study and pooled them with random effects. In the 90 confirmation studies (2,852 people, age 6 to 94), the cortex-minus-deep-white-matter exponent increased by 0.018 per decade (95% CI 0.011 to 0.025; discovery 0.013), also in rest runs only. The result held with motion, noise and volume covariates and with other estimators, but it varied between studies (95% prediction interval -0.023 to 0.059). After the tests, age bands showed the same two phases in both sets: under 40, the cortical exponent increased by about 0.04 per decade and cortical slow power (0.01 to 0.04 Hz) fell by 6 to 9% per decade; from 40, the cortex did not change, and deep white matter became steeper and gained slow power. The contrast does not separate a neural change from noise: in a model of our spectra, a 10% rise of a flat noise component in both tissues increases the contrast by 0.009 to 0.016. As a second pre-registered result, we replicate that putamen and pallidum temporal SNR relative to cortex falls by 4.7% and 5.6% per decade. Limits: the age bands are post hoc, there is one run per person on a 1-s grid, partial volume at 2 mm, and no motion or physiological recordings.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD",
+    "aging",
+    "lifespan",
+    "power spectrum",
+    "spectral exponent",
+    "intrinsic timescale",
+    "white matter",
+    "noise floor",
+    "temporal SNR",
+    "basal ganglia",
+    "meta-analysis",
+    "pre-registration",
+    "ReadyNeuro",
+    "OpenNeuro"
+  ],
+  "display": [
+    {
+      "path": "files/figures/figS1_tissue_slopes.png",
+      "caption": "Within-study age slopes per decade over all ages, pooled with random effects (95% CI), for discovery (blue) and held-out confirmation (orange) studies. Left: spectral exponent (0.01-0.15 Hz) per tissue; positive means a flatter spectrum with age. Middle and right: slow and fast band power of the fractional signal. Over all ages, cerebral and cerebellar cortex flatten and deep white matter does not; deep white matter gains power in all bands. Age bands (README) show that the deep white-matter value is a sum of two opposite trends."
+    },
+    {
+      "path": "files/figures/figS2_lifespan_spectral.png",
+      "caption": "Lifespan curves with a fixed effect per study (only age differences inside studies identify the curve), relative to age 25, with 95% bootstrap bands over studies. Left: cortex-minus-deep-white-matter spectral exponent in both sets. Right: cortex and deep white matter separately (confirmation set): the cortex flattens before about 35-40 years; deep white matter becomes steeper after about 55."
+    },
+    {
+      "path": "files/figures/figS3_study_slopes_spectral.png",
+      "caption": "Within-study age slope of the cortex-minus-deep-white-matter spectral exponent in each study (marker size 1/SE) against the study mean age. Dashed lines: pooled estimates (discovery +0.0128, confirmation +0.0180 per decade). The slopes vary between studies (confirmation tau 0.020; 27 of 90 negative)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:7268eacfa1d004323696e295e783504d54461de5c74311ada55490259ee7791c",
+      "reason": "Campaign of branch A3 (the person), leaf age-dynamics."
+    },
+    {
+      "target": "sci:sha256:b0d898c09ad37c8b68885b76065f63dd101489a2d359bdde7787ef77d6294e23",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Our pre-registered mean/std tests independently replicate its basal-ganglia darkening and tSNR loss with age, and its larger effect at 7 T."
+    },
+    {
+      "target": "sci:sha256:c8597784e9de24bbb7d9f8eec110c5fd7f91b4f3037f5f340fa029b0c33d8eb6",
+      "reason": "Related work on cortical BOLD timescales (task versus rest) with white-matter and CSF comparisons."
+    },
+    {
+      "target": "sci:sha256:3f2d2d5276d63b11c27420792157dcdffddd138cf4ffe51152647b65c86ef917",
+      "reason": "Shows that between-study autocorrelation differences on the 1-s grid follow TR resampling; we therefore use within-study contrasts only."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Manifests and preprocessing description."
+    },
+    {
+      "target": "https://openneuro.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source studies and BIDS sidecar files."
+    },
+    {
+      "target": "doi:10.1016/j.media.2023.102789",
+      "reason": "SynthSeg segmentation used for tissue labels."
+    },
+    {
+      "target": "doi:10.1038/s42003-025-07517-x",
+      "reason": "Shorter intrinsic timescales in older adults (Wu and Gollo 2025)."
+    },
+    {
+      "target": "doi:10.1002/alz70856_106689",
+      "reason": "HCP-Aging timescale and vascular factors (Shaffer et al. 2025)."
+    },
+    {
+      "target": "doi:10.1111/psyp.13714",
+      "reason": "RSFA age effects and vascular factors (Tsvetanov et al. 2021)."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.3408-16.2017",
+      "reason": "BOLD variability across the lifespan (Nomi et al. 2017)."
+    },
+    {
+      "target": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3699638/",
+      "reason": "White-matter BOLD fluctuation increases with age and small-vessel disease (Makedonov et al. 2013)."
+    },
+    {
+      "target": "doi:10.1038/s41598-022-07578-6",
+      "reason": "Frequency-dependent change of global-signal fluctuations with age."
+    },
+    {
+      "target": "doi:10.1002/advs.202417644",
+      "reason": "Prior report that the cortical BOLD spectral slope flattens with age (Park et al. 2025); our cortical result agrees, and we add the within-study timing and the deep white-matter comparison."
+    },
+    {
+      "target": "doi:10.1038/srep30895",
+      "reason": "Hurst exponent of BOLD falls with age (Churchill et al. 2016)."
+    },
+    {
+      "target": "doi:10.3389/fnins.2018.00034",
+      "reason": "BOLD signal complexity across the adult lifespan (Dong et al. 2018)."
+    },
+    {
+      "target": "doi:10.3389/fnagi.2023.1204301",
+      "reason": "White-matter BOLD spectral power changes with age (Li et al. 2023)."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2014.03.020",
+      "reason": "Drowsiness in resting-state fMRI (Tagliazucchi and Laufs 2014), a possible cause of age differences in slow cortical power."
+    }
+  ]
+}
