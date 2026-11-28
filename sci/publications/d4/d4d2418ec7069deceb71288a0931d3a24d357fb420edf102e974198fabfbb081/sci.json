@@ -1,0 +1,314 @@
+{
+  "title": "In the same multi-echo fMRI run, cortical region timescales were 12-18% shorter at 13 ms than at 30 ms echo time after a high-pass filter, but changed little after 0.01-0.1 Hz band-pass (21 studies)",
+  "abstract": "In the same fMRI run, the timescale of cortical regional fMRI signals was longer at longer echo time (TE) when the analysis kept frequencies above 0.1 Hz, but changed little after a 0.01-0.1 Hz band-pass filter. This is important because studies compare these timescales (\"intrinsic neural timescales\") between groups, sites and protocols, and TE and filters differ between studies. We used ReadyNeuro, a corpus of minimally preprocessed OpenNeuro fMRI on a 1-s time grid. It keeps each echo of a multi-echo scan as a separate run. Thus the echoes of one run have the same brain activity, head motion and physiology, and only TE is different. The timescale is the sum of the positive autocorrelation values of a signal at 1-s steps. After a 0.01 Hz high-pass filter, the median timescale of 200 cortical regions increased by 0.23 s for each doubling of TE in 7 discovery studies (70 people, rest; 95% CI 0.14 to 0.33). In a pre-registered test in 14 held-out studies (174 runs in 20 study or protocol units, rest and task), it increased by 0.21 s (0.17 to 0.24). The timescale at a TE of about 13 ms was 12% and 18% shorter than at about 30 ms (0.6 to 0.8 of the standard deviation between people), and it did not change above 30 ms. 7 of 8 pre-registered tests passed. An independent review then found, and we confirmed on both sets, that the effect depends on the analysis: after a 0.01-0.1 Hz band-pass filter it was small (0.07 and 0.03 s per doubling), after a 0.008-0.08 Hz band-pass it was absent, and in the mean signal of the whole cortex it became negative after band-pass filtering together with regression of white-matter and CSF signals. Thus most of the TE-dependent part is above 0.1 Hz. There, the TE-independent part of the signal (S0: inflow, head motion, breathing, scanner instability) has relatively more power than the BOLD part, as earlier work showed for its spectrum. White thermal noise explained about one third of the regional change from 13 to 30 ms. Limits: the pipeline results were not pre-registered; we did not use breathing, pulse or motion recordings; there was one run per person; between single-echo studies, TE changes too little to test the effect.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD",
+    "echo time",
+    "multi-echo",
+    "intrinsic neural timescale",
+    "autocorrelation",
+    "temporal filtering",
+    "S0",
+    "R2*",
+    "thermal noise",
+    "acquisition",
+    "natural experiment",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "pre-registered replication"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_timescale_vs_te.png",
+      "caption": "Median timescale of 200 cortical regions at each echo, relative to the echo nearest 30 ms of the same run, after (a) a 0.01 Hz high-pass filter (pre-registered) and (b) a 0.01-0.1 Hz band-pass filter. Each line is the mean over the people of one study or scan protocol. Blue: 7 discovery studies; orange: 20 confirmation units."
+    },
+    {
+      "path": "files/figures/fig2_pipelines.png",
+      "caption": "Change in timescale per doubling of echo time (random effects over studies, 95% CI) for seven analysis pipelines, for the median region (blue) and the mean cortical signal (orange). Left: discovery; right: confirmation. Linear detrend only in discovery (-1.32 and -2.00) is outside the axis."
+    },
+    {
+      "path": "files/figures/fig3_protocols.png",
+      "caption": "Change in timescale per doubling of echo time (0.01 Hz high-pass) in 8 scan protocols of the same people (ds004499: 6; ds006926: 2), for the mean cortical signal (orange) and the median region (blue). Mean and 95% CI over 10 people. MB: multiband factor; FA: flip angle in degrees."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:8fbbc9bace8b9abf9fbcf6301dd46db4578bc4a7d821dffff6cb8bd89a0c79d0",
+      "reason": "Campaign of the acquisition branch (A5) of the ReadyNeuro mission."
+    },
+    {
+      "target": "sci:sha256:3f2d2d5276d63b11c27420792157dcdffddd138cf4ffe51152647b65c86ef917",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Earlier study on the same leaf (TR and protocol effects on the 1-s grid); we use its acquisition-parameter table for the exploratory between-study test and extend it to echo time and to maps."
+    },
+    {
+      "target": "sci:sha256:3cefc9dc66362b4603e19e64bcc6b4b621613737f000c51fb7572a08bdb0b92e",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Copied runs between accessions; we used it to keep study families in one half and one accession per copy cluster."
+    },
+    {
+      "target": "sci:sha256:c8597784e9de24bbb7d9f8eec110c5fd7f91b4f3037f5f340fa029b0c33d8eb6",
+      "reason": "Task-versus-rest timescale difference that we use as a size reference."
+    },
+    {
+      "target": "sci:sha256:7ef3d5e0d8a4339e1a9dd1941c71a4d0adccfd44d20044c0f1a23e334e7b141e",
+      "reason": "Root campaign of the ReadyNeuro mission."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests, preprocessing code (resampler) and URL helper."
+    },
+    {
+      "target": "doi:10.1006/nimg.2002.1141",
+      "reason": "Peltier and Noll 2002: TE dependence of low-frequency functional connectivity."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2011.11.030",
+      "reason": "Wu et al. 2012: TE-dependent spatial and spectral specificity of FC; flat S0 spectrum."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2011.12.028",
+      "reason": "Kundu et al. 2012: BOLD vs non-BOLD separation by TE dependence."
+    },
+    {
+      "target": "doi:10.1073/pnas.1720985115",
+      "reason": "Power et al. 2018: S0 (motion) and R2* (breathing) signals in multi-echo data."
+    },
+    {
+      "target": "doi:10.3389/fnins.2021.619412",
+      "reason": "Yuan et al. 2021: echo-time dependence of fALFF and other local resting metrics; plateau near 30 ms."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2012.09.043",
+      "reason": "Bright and Murphy 2013: short-echo data as nuisance regressors for motion and physiological artefacts."
+    },
+    {
+      "target": "doi:10.1002/hbm.20593",
+      "reason": "Wink et al. 2008: Hurst exponent largest at BOLD-optimal TE."
+    },
+    {
+      "target": "doi:10.1038/nn.3862",
+      "reason": "Murray et al. 2014: hierarchy of intrinsic timescales."
+    },
+    {
+      "target": "doi:10.7554/eLife.42256",
+      "reason": "Watanabe et al. 2019: summed-ACF timescale estimator used here."
+    },
+    {
+      "target": "doi:10.1073/pnas.2003383117",
+      "reason": "Raut et al. 2020: hierarchical BOLD dynamics."
+    },
+    {
+      "target": "doi:10.7554/eLife.62116",
+      "reason": "Shafiei et al. 2020: autocorrelation gradient and tSNR check."
+    },
+    {
+      "target": "https://elifesciences.org/articles/75540/peer-reviews",
+      "reason": "Public review of Manea et al. 2022 that notes the amplitude/SNR dependence of the summed-ACF estimator."
+    },
+    {
+      "target": "doi:10.7554/eLife.75540",
+      "reason": "Manea et al. 2022: intrinsic timescales; review comment on amplitude and SNR."
+    },
+    {
+      "target": "doi:10.1002/mrm.1240",
+      "reason": "Krueger and Glover 2001: physiological and thermal noise model."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2021.117965",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Risk et al. 2021: Emory multiband dataset (ds003540), used in stage 1."
+    },
+    {
+      "target": "doi:10.1002/hbm.70125",
+      "reason": "Cassone et al. 2025: TR effects on FC fingerprinting."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhx179",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schaefer 2018 parcellation."
+    },
+    {
+      "target": "doi:10.1073/pnas.1608282113",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Margulies 2016 principal FC gradient (reference map)."
+    },
+    {
+      "target": "doi:10.1038/s42003-020-0794-7",
+      "relations": [
+        "uses"
+      ],
+      "reason": "BrainSpace (Vos de Wael 2020): gradient and parcellation files."
+    },
+    {
+      "target": "doi:10.1016/0197-2456(86)90046-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "DerSimonian and Laird random effects."
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds000258",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds003592",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds004627",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds006303",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds006110",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds006948",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds007908",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds005752",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds006131",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds006693",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds000210",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds004787",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds007396",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds003511",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds004516",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds007407",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds001491",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds005354",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds004662",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds004499",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds006926",
+      "relations": [
+        "uses"
+      ]
+    },
+    {
+      "target": "https://openneuro.org/datasets/ds003540",
+      "relations": [
+        "uses"
+      ]
+    }
+  ]
+}
