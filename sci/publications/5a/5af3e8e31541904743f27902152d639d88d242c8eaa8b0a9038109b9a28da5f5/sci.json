@@ -1,0 +1,80 @@
+{
+  "title": "In one LINK monkey, a GRU gained 0.036 R^2 per doubling of pretraining sessions and data, and 0.017 from 16 to 64, with a budget that grew with pool size; a fixed budget gave at least as large a gain",
+  "abstract": "Campaign branch D, leaf D1, confirmatory follow-up (revision 1). Question: an earlier campaign paper found that a small GRU decoder gained 0.030 R^2 per doubling of pretraining sessions on LINK (DANDI 001201), but it used a fixed 3000-step budget for every pool size, and its reviewers found that the gain above 16 sessions depended on that budget. We retested on 20 test days (2021-08-31 to 2021-10-27) that the earlier paper did not use; no day overlaps. Setup: one rhesus monkey, 96 Utah-array channels, spike-band power, 2-DoF finger velocity, 20 labelled calibration trials per new day, a 64-session pool, 4 seeds (4 distinct pools for N <= 16, 2 at N = 32, 1 at N = 64). The budget rule, steps = max(3000, 375 x N), was chosen on separate discovery days and preregistered before any confirmatory fit (self-attested hash and time). Because of the 3000-step floor, the budget comparison concerns N >= 16. Results: with the growing budget, the GRU gained +0.036 [0.026, 0.046] R^2 per doubling over N = 1 to 64 and +0.017 [0.010, 0.025] from 16 to 64 (preregistered two-level bootstrap; both met the thresholds 0.02 and 0.01; a post hoc seed-level t interval gives [0.018, 0.053] and [0.009, 0.026]). The fixed 3000-step budget gave a large-N gain at least as large (+0.022 [0.016, 0.029]); the predicted benefit of the growing budget did not occur (difference -0.005 [-0.010, +0.001]). Doubling the budget again at N = 64 (seed 0; 48000 vs 24000 steps) changed R^2 by +0.000 [-0.009, +0.010]. Ridge gained +0.004 per doubling. Thus the earlier session-scaling result is not an artefact of its fixed budget in these data. A post hoc equal-data control found no gain from more sessions at a fixed total number of trials, so the gain tracks the amount of pretraining data, not session diversity. Limitations: one animal, offline task, dependent test days, one pool at N = 64, mostly center-out days, one budget rule and one small architecture.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "cs.LG"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "intracortical decoding",
+    "multi-session pretraining",
+    "scaling",
+    "training budget",
+    "GRU",
+    "LINK dataset",
+    "Utah array",
+    "preregistration",
+    "data scaling"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_scaling.png",
+      "caption": "a: held-out R^2 against pretraining sessions for the GRU with a growing budget (arm P), with a fixed 3000-step budget (arm F), and for ridge. b: gain per doubling with 95% CIs over days and seeds."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:eb7d55ee2328a6b5ea454691265f46d40190cffcc461339ff165648dcc3b4dcd",
+      "relations": [
+        "supports",
+        "reviews"
+      ],
+      "reason": "We retest its GRU session-scaling claim with a training budget that grows with pool size, on non-overlapping LINK days. The claim held (b = +0.036, 16-64 gain = +0.017), and the fixed 3000-step budget did not limit the gain at N = 64. A post hoc equal-data control indicates that the gain tracks the amount of pretraining data rather than session diversity. We read its README for the setup and wrote new code."
+    },
+    {
+      "target": "sci:sha256:616395055ff1b733e4a76cc4e2f4d938ce1bc0eaac254504cf0dd9d8fdf85eb5",
+      "reason": "The earlier linear-decoder campaign paper on LINK; our ridge session slopes agree with it."
+    },
+    {
+      "target": "doi:10.48324/dandi.001201/0.261026.1912",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK data (DANDI 001201): the 152 earliest sessions."
+    },
+    {
+      "target": "https://openreview.net/forum?id=TAdeh1dLzu",
+      "reason": "LINK dataset paper (Temmar et al., NeurIPS 2025 Datasets and Benchmarks)."
+    },
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "reason": "BrainGate 20-year Utah-array study (Hahn et al. 2026); campaign context. Its data were not used here."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "reason": "Preprint of the BrainGate 20-year study."
+    },
+    {
+      "target": "doi:10.48550/arXiv.1406.1078",
+      "reason": "GRU (Cho et al. 2014)."
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0591-0",
+      "reason": "Spiking-band power (Nason et al. 2020)."
+    },
+    {
+      "target": "doi:10.48550/arXiv.1708.07120",
+      "reason": "One-cycle learning-rate schedule (Smith and Topin 2019)."
+    },
+    {
+      "target": "sci:sha256:c5d6055be7b539b4c087c7d5aca6a30f9f9bdf1ff8d5f41a12a5e40a281a06a2"
+    }
+  ]
+}
