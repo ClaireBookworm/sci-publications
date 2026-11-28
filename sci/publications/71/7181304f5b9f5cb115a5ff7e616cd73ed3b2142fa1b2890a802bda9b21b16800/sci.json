@@ -1,0 +1,346 @@
+{
+ "title": "In 18 OpenNeuro film, story and music studies, the BOLD signal shared by all viewers was 1.7 to 2.2 times slower than the viewer-specific signal, which did not become consistently faster than at rest",
+ "abstract": "During films, stories and music, the part of the cortical fMRI signal that is the same in all viewers changed 1.7 to 2.2 times more slowly than the part that is specific to each viewer, and, unlike in trial-based tasks, the viewer-specific part did not become consistently faster than the signal at rest. This matters because films are often used in place of rest, and the timescale of a region measured during a film mixes these two parts. We used ReadyNeuro, minimally preprocessed fMRI from OpenNeuro. For each study and stimulus, we split the regional autocovariance (how similar a signal is to itself a few seconds later) into a shared part (the covariance between different viewers, which only the stimulus can cause) and an idiosyncratic part (the remainder), and made the same split on rest runs of the same people as a control. The timescale is the sum of the autocorrelation over its first positive lobe. Tests were written down before the confirmation studies were downloaded. Pre-registered primary test (failed): the idiosyncratic cortical timescale changed by -0.37 s in 6 discovery studies and by +0.20 s in 8 confirmation studies (95% CI -0.02 to +0.43 s). Pooled over all 18 studies (104 people; post hoc, with corrected run rules) the change was -0.06 s (95% CI -0.30 to +0.19 s), which excludes the -0.48 s found for trial tasks; an end-to-end injection of noise that shortened the timescale by about 0.5 s was detected. Run order and estimation bias may hide a shortening of a few tenths of a second. After global-signal regression the pooled change was -0.18 s (95% CI -0.36 to -0.01 s; post hoc, uncorrected). The direction differed between the two random halves of the studies, and so did the change of the global signal, but no measured study property explained it in both halves. The shared part fell to half its autocorrelation after 4.7 s against 2.1 s (discovery, 6 of 6 studies) and 7.1 s against 3.5 s (confirmation, 6 of 7; post hoc); the pre-registered version of this test had p = 0.020 and missed the Holm correction (0.060). A pre-registered correlation between the shared fraction of a region and its change passed, but null simulations showed that it is mostly estimation bias. The shared-timescale map did not follow the principal cortical gradient. Limitations: 3 to 6 viewers per stimulus, rest eye state and drowsiness unknown, no physiological recordings.",
+ "categories": [
+  {
+   "scheme": "arxiv",
+   "code": "q-bio.NC"
+  }
+ ],
+ "keywords": [
+  "fMRI",
+  "BOLD",
+  "intrinsic timescale",
+  "autocorrelation",
+  "naturalistic stimuli",
+  "movie fMRI",
+  "inter-subject correlation",
+  "rest versus task",
+  "global signal",
+  "pre-registration",
+  "negative result",
+  "ReadyNeuro",
+  "OpenNeuro",
+  "cross-study replication"
+ ],
+ "display": [
+  {
+   "path": "files/figures/fig1_shared_vs_idiosyncratic_acf.png",
+   "caption": "Autocorrelation of the cortex for the shared (stimulus-locked, blue) and idiosyncratic (orange) parts of film, story and music runs, and for rest runs of the same people after the same split (gray). Bands: 95% bootstrap intervals over studies. The shared part decays 1.7 to 2.2 times more slowly, depending on the normalization."
+  },
+  {
+   "path": "files/figures/fig2_study_changes.png",
+   "caption": "Per-study change of the timescale, naturalistic minus rest: cortex idiosyncratic part (orange, primary test), global grey-matter signal (gray), cortex after global-signal regression (green). Black: mean and 95% CI. Dashed: trial-task change from prior work. The direction differs between the two random halves of the studies; within each half the studies vary widely."
+  },
+  {
+   "path": "files/figures/fig3_h3_circularity.png",
+   "caption": "Within-study correlation between shared fraction and change of the idiosyncratic timescale. Left: as pre-registered (same people); right: split-half. Gray: range of null-simulation means. The pre-registered effect is mostly estimation bias; a small residual is not resolved."
+  }
+ ],
+ "citations": [
+  {
+   "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f",
+   "reason": "Campaign of branch A4 (the condition) of the ReadyNeuro mission; this work is on leaf timescale-task."
+  },
+  {
+   "target": "sci:sha256:c8597784e9de24bbb7d9f8eec110c5fd7f91b4f3037f5f340fa029b0c33d8eb6",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Trial-task result (0.48 s shorter timescale after evoked-response removal) that we tested for films and stories; its effect size sets our positive control. Our result limits its generality to trial tasks."
+  },
+  {
+   "target": "sci:sha256:750d524e3de2923652d327d21598c0f9348b2dfaeaa7806860274f73cc1ce1e1",
+   "reason": "Raw task-rest autocorrelation decrease across 66 studies, related prior work in the same corpus."
+  },
+  {
+   "target": "sci:sha256:3f2d2d5276d63b11c27420792157dcdffddd138cf4ffe51152647b65c86ef917",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Its report of non-steady-state volumes at the start of some runs is why we drop the first 10 frames."
+  },
+  {
+   "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+   "relations": [
+    "uses"
+   ],
+   "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+  },
+  {
+   "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Manifests and preprocessing code of ReadyNeuro."
+  },
+  {
+   "target": "doi:10.1093/cercor/bhx179",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Schaefer-2018 parcellation."
+  },
+  {
+   "target": "doi:10.1038/s41592-022-01681-2",
+   "relations": [
+    "uses"
+   ],
+   "reason": "TemplateFlow atlas files."
+  },
+  {
+   "target": "doi:10.1016/j.media.2023.102789",
+   "relations": [
+    "uses"
+   ],
+   "reason": "SynthSeg segmentation shipped with ReadyNeuro."
+  },
+  {
+   "target": "doi:10.1073/pnas.1608282113",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Principal functional gradient (H4)."
+  },
+  {
+   "target": "doi:10.1038/s42003-020-0794-7",
+   "relations": [
+    "uses"
+   ],
+   "reason": "BrainSpace gradient, parcellation and sphere files."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2018.05.070",
+   "relations": [
+    "uses"
+   ],
+   "reason": "Spin test."
+  },
+  {
+   "target": "doi:10.7554/eLife.42256",
+   "reason": "Intrinsic timescale measure (summed autocorrelation)."
+  },
+  {
+   "target": "doi:10.1073/pnas.2003383117"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2020.117141"
+  },
+  {
+   "target": "doi:10.1371/journal.pcbi.1007983",
+   "reason": "Task quenching of variability; motivates H1."
+  },
+  {
+   "target": "doi:10.1523/JNEUROSCI.2111-11.2011",
+   "reason": "Tasks lower scale-free BOLD dynamics; motivates H1."
+  },
+  {
+   "target": "doi:10.3389/fphys.2012.00186"
+  },
+  {
+   "target": "doi:10.1038/s42003-021-01785-z"
+  },
+  {
+   "target": "doi:10.3389/fphys.2021.809943",
+   "reason": "Hurst exponent during films vs rest (single dataset)."
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2023.120482",
+   "reason": "Films change intrinsic timescales in HCP."
+  },
+  {
+   "target": "doi:10.1126/science.1089506",
+   "reason": "Inter-subject correlation."
+  },
+  {
+   "target": "doi:10.3389/fninf.2010.00005",
+   "relations": [
+    "supports"
+   ],
+   "reason": "Inter-subject correlation is strongest at low frequencies; agrees with H2."
+  },
+  {
+   "target": "doi:10.1523/JNEUROSCI.3684-10.2011"
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2012.08.011"
+  },
+  {
+   "target": "doi:10.1152/jn.00268.2013"
+  },
+  {
+   "target": "doi:10.1093/scan/nsz037"
+  },
+  {
+   "target": "doi:10.1016/j.neuroimage.2015.07.069"
+  },
+  {
+   "target": "doi:10.1016/j.neuron.2014.03.020"
+  },
+  {
+   "target": "doi:10.1101/2025.04.23.650300"
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004182",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004718",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004892",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006515",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006952",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007036",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007182",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007286",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds007354",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003085",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003798",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003835",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004592",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005339",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005345",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005346",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005623",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds005850",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds006948",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001454",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds001553",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002766",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002785",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002790",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds002843",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds003437",
+   "relations": [
+    "uses"
+   ]
+  },
+  {
+   "target": "https://openneuro.org/datasets/ds004169",
+   "relations": [
+    "uses"
+   ]
+  }
+ ]
+}
