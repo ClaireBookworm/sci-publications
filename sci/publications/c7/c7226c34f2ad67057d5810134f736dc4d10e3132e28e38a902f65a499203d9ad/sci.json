@@ -1,0 +1,109 @@
+{
+  "title": "In 2 held-out humans, spike-band power tuning similarity after 2 years is 14% and 26% of its 1-month value, and any later floor is small; in 1 monkey it is more stable than threshold-crossing tuning",
+  "abstract": "Question: how does the similarity of motor cortex tuning between two sessions change with the days between them, and does a stable component remain over years? Data: BrainGate Utah-array summary tables (spike-band power (sbp) tuning similarity, 54,772 session pairs, 7 participants, 11 arrays, with per-session yield and noise; no threshold-crossing (tx) tuning is released) and the LINK monkey dataset (DANDI 001201, 303 days over 1,242 days, hand control), for which I calculated sbp and tx tuning similarity with the BrainGate method. Discovery and held-out sets (held-out participants T6, T9, T11) and the predictions were fixed before the held-out run. Results: in the 2 held-out participants with 2 or more years of data, the similarity of sessions 2 or more years apart is 0.14 [0.11, 0.16] (T11) and 0.26 [0.18, 0.34] (T6) of the similarity of sessions less than 30 days apart. The pooled value 0.20 [0.16, 0.24] describes only these 2 arrays; no population interval is possible. Any stable floor is small, but the data cannot separate it from slow decay: past 3 years the tail is about 0 in T5 and flat or slightly rising at 0.055 (about 7%; slope +0.038 [+0.004, +0.069] per year) in T11 (post hoc), while T6 still decreases. A pre-registered extrapolation test (low power) favoured a plateau model in 1 of 4 arrays (T6). In the monkey, a split-half check of one series, sbp similarity at 1 year or more is higher than tx similarity by 0.13 [0.10, 0.16] and 0.18 [0.12, 0.24] in two arrays, also with 30-180-day block bootstraps. Against z-scored tx the difference (0.057 [0.031, 0.083]) is not robust to a 90-day block bootstrap. In the medial array, part of the sbp advantage is tuning common to all channels, mostly in sbp (post hoc), and part is tx channels that lose firing rate (exploratory). In the lateral array, the advantage is not robust to the loss of half of the channels (exploratory). Limitation: the pre-registered yield and noise control failed. In T6, much of the long-term loss goes together with yield and noise change, and Hahn et al. report that T6 changed from wrist to finger and thumb movements (date not given), so the neural stable component can be larger than measured. BrainGate tuning is measured in closed loop.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "brain-computer interface",
+    "Utah array",
+    "motor cortex",
+    "tuning stability",
+    "representational drift",
+    "spike-band power",
+    "threshold crossings",
+    "BrainGate",
+    "LINK dataset",
+    "pre-registration",
+    "held-out participants",
+    "electrode yield"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_braingate_curves.png",
+      "caption": "BrainGate sbp tuning similarity against days between sessions for each array, with 95% session-bootstrap bands and an exponential decay-to-zero fit."
+    },
+    {
+      "path": "files/figures/fig2_link_sbp_vs_tx.png",
+      "caption": "LINK monkey N held-out sessions: spike-band power tuning is more similar across sessions than threshold-crossing tuning in both arrays."
+    },
+    {
+      "path": "files/figures/fig3_longrange_ratio.png",
+      "caption": "Similarity at 2 years or more divided by similarity at less than 30 days, for each array, observed and adjusted for yield and noise change (exploratory)."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hahn et al. 2026, Nature Medicine: source of the BrainGate tuning-similarity and yield tables; this work extends their Figure 5 analysis to multi-year separations."
+    },
+    {
+      "target": "doi:10.1101/2025.07.02.25330310",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Preprint of the BrainGate 20-year array study."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Authors' code and summary CSVs (commit 93beb76): tuning_stability_matrices.csv, yield_summary.csv, and the similarity method reimplemented for LINK."
+    },
+    {
+      "target": "doi:10.5061/dryad.x0k6djj1h",
+      "reason": "Raw BrainGate data release (Dryad); not used directly, needed for the follow-up tx prediction."
+    },
+    {
+      "target": "doi:10.48324/dandi.001201/0.261026.1912",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset, DANDI 001201 version 0.261026.1912, CC BY 4.0."
+    },
+    {
+      "target": "doi:10.52202/085713-4642",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Temmar et al. 2025, NeurIPS Datasets and Benchmarks: the LINK dataset paper."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2021.08.009",
+      "reason": "Nason et al. 2021, Neuron: experimental setup of the LINK finger task."
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0591-0",
+      "reason": "Nason et al. 2020: spike-band power as a BMI feature."
+    },
+    {
+      "target": "doi:10.1088/1741-2560/8/4/045005",
+      "reason": "Chestek et al. 2011: long-term stability of Utah-array control signals in macaque motor cortex."
+    },
+    {
+      "target": "https://github.com/fwillett/cvVectorStats",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Cross-validated vector magnitude estimator (cvOLS) that the similarity measure follows."
+    },
+    {
+      "target": "doi:10.1038/s41593-019-0555-4",
+      "reason": "Gallego et al. 2020, Nature Neuroscience: aligned latent dynamics in monkey motor cortex stay stable for up to two years while electrode-level activity changes; used to scope the novelty of the unaligned electrode-level measure here."
+    },
+    {
+      "target": "doi:10.1088/1741-2552/aab7a0",
+      "reason": "Downey et al. 2018, Journal of Neural Engineering: stability of identified unit waveforms in two human BCI users over weeks to months; used to scope novelty."
+    },
+    {
+      "target": "sci:sha256:3ea929a8be7393481b467d48c0f902a1c32d518ae8edb322b579820c292d20d1"
+    }
+  ]
+}
