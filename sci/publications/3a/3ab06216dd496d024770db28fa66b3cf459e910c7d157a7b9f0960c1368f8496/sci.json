@@ -1,0 +1,111 @@
+{
+  "title": "In 1 monkey, CCA-aligned M1 similarity at 2 to 3.3 years keeps 78% (post hoc; CI 61-105%) of its excess over a kinematics-only floor, while unaligned latents, tuning and fixed decoders decay",
+  "abstract": "Question: do CCA-aligned latents of motor cortex stay similar beyond 2 years, while unaligned measures decay, and how much of the aligned similarity exceeds null floors? Data: LINK (DANDI 001201), one monkey, two Utah arrays in M1, 312 sessions over 1,242 days of finger movements without a decoder in the loop; spike-band power, 20-ms bins. Design: discovery (odd months) and held-out (even months) sessions; pipeline and thresholds fixed on discovery pairs of 365 days or less; predictions pre-registered with code hashes before the held-out run. Per pair, CCA on class-paired single-trial windows of 10-D PCA latents, cross-validated across trial folds; M1 = mean top-4 cross-validated canonical correlation. R730 = mean at gaps of 730 days or more / mean under 30 days; CIs from a bootstrap over 90-day blocks. Results (6,261 held-out pairs, 512 at 2.0-3.3 years): M1 is 0.914 at under 30 days and 0.888 at 2 years or more (R730 0.971 [0.955, 0.979]; pre-registered H1 supported). But H1 was a weak test: post hoc nulls give high and equally stable values: rotated movement labels 0.880, a kinematics-only surrogate with no neural data 0.834, disjoint electrode arrays 0.772, time-reversed data 0.771; all pass the H1 rule. Post hoc: above the kinematic floor the real data keep 0.78 [0.61, 1.05] of their 1-month excess (0.71-0.79 over other bin choices); above the time-reversal floor 0.84 [0.74, 0.92]. In the same pairs, unaligned latents keep 0.66 [0.56, 0.74], electrode tuning similarity 0.26 [0.13, 0.35], and an unaligned day-0 decoder falls to R^2 near 0. A day-0 decoder on aligned latents keeps 0.75 [0.54, 0.95] of its 1-month R^2 (pre-registered 70% test inconclusive). Thus class-related structure that CCA can align linearly is retained, at a level that is mostly expected from stable behaviour; this does not show stable intrinsic dynamics or the same units. Exploratory (post hoc): the part that tells true from rotated labels keeps 0.48 [0.36, 0.68] (90 deg) and 0.29 [0.13, 0.54] (180 deg); the kinematic surrogate has no such part. Exploratory: with half of the channels removed, M1 stays at 0.85-0.88. Threshold crossings: H1 holds, H1b inconclusive. Limitations: one animal; held-out pairs interleaved in time; 14 time blocks; floors are post hoc and depend on surrogate choices; recording and neural change cannot be separated.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    }
+  ],
+  "keywords": [
+    "motor cortex",
+    "latent dynamics",
+    "canonical correlation analysis",
+    "manifold alignment",
+    "long-term stability",
+    "representational drift",
+    "null model",
+    "behavioural surrogate",
+    "Utah array",
+    "spike-band power",
+    "brain-computer interface",
+    "LINK dataset",
+    "pre-registration"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_stability_curves.png",
+      "caption": "Held-out same-style pairs. A: aligned similarity M1 and its null floors (rotated labels, kinematics-only surrogate, disjoint electrodes, time reversal, shuffle), each divided by its mean at < 30 days; all pass the pre-registered H1 threshold. B: floor-corrected retention and the unaligned measures. C: decoder fixed on the earlier session, with and without alignment. Bands: 95% bootstrap over 90-day blocks."
+    },
+    {
+      "path": "files/figures/fig3_per_dimension.png",
+      "caption": "Cross-validated correlation per canonical pair (aligned) or principal component (unaligned): only about 4 dimensions align reliably."
+    },
+    {
+      "path": "files/figures/fig4_exploratory_rotation_electrode_loss.png",
+      "caption": "Exploratory. Left and middle: aligned similarity with one session's movement-class labels rotated; the label-specific part decreases at gaps of 2 years or more. Error bars are naive (too narrow). Right: simulated electrode loss on the later session."
+    }
+  ],
+  "citations": [
+    {
+      "target": "doi:10.48324/dandi.001201/0.261026.1912",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset (monkey N, Utah arrays, 312 sessions); all analyses use it."
+    },
+    {
+      "target": "doi:10.1038/s41593-019-0555-4",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Gallego et al. 2020: CCA-aligned latent dynamics stable for up to about 2 years. We use their alignment method and extend the measurement to 3.3 years in another monkey and task; null floors show that much of the aligned similarity is expected from stable behaviour."
+    },
+    {
+      "target": "sci:sha256:c7226c34f2ad67057d5810134f736dc4d10e3132e28e38a902f65a499203d9ad",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Campaign paper on unaligned tuning similarity; its LINK tuning coefficients give the electrode-level similarity T for the same held-out pairs."
+    },
+    {
+      "target": "doi:10.1038/s41591-026-04530-3",
+      "reason": "Hahn et al. 2026, Performance of intracortical microelectrode arrays in people with implanted brain-computer interfaces over a 20-year period; campaign context and the tuning-similarity formula (its data are not used for results)."
+    },
+    {
+      "target": "doi:10.1016/j.neuron.2021.08.009",
+      "reason": "Nason et al. 2021: the two-finger task and setup of the LINK recordings."
+    },
+    {
+      "target": "doi:10.1038/s41551-020-0542-9",
+      "reason": "Degenhart et al. 2020: BCI stabilisation by alignment of low-dimensional neural spaces (background)."
+    },
+    {
+      "target": "https://github.com/chesteklab/LINK_dataset",
+      "relations": [
+        "uses"
+      ],
+      "reason": "LINK dataset code; used to understand the NWB fields."
+    },
+    {
+      "target": "doi:10.1038/s41586-023-06714-0",
+      "reason": "Safaie et al. 2023: CCA-aligned latent dynamics are preserved across animals doing similar behaviour; the main reason to expect high aligned similarity from stable behaviour alone."
+    },
+    {
+      "target": "doi:10.1038/nn.4617",
+      "reason": "Elsayed and Cunningham 2017: population structure as an expected byproduct of simpler features; motivates the null floors."
+    },
+    {
+      "target": "doi:10.1038/s41551-022-00962-7",
+      "reason": "Dabagia et al. 2023: alignment of latent representations of neural activity (related work)."
+    },
+    {
+      "target": "doi:10.1101/2022.04.06.487388",
+      "reason": "Karpowicz et al. 2022: stabilizing BCIs by aligning latent dynamics (related work)."
+    },
+    {
+      "target": "https://arxiv.org/abs/1810.00045",
+      "reason": "Farshchian et al. 2019: adversarial domain adaptation for stable brain-machine interfaces (related work)."
+    },
+    {
+      "target": "https://github.com/nptl-stanford/array-paper",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Hahn et al. analysis code and summary tables (commit 93beb76): tuning-similarity formula and the range of the human tuning curves."
+    },
+    {
+      "target": "sci:sha256:3ea929a8be7393481b467d48c0f902a1c32d518ae8edb322b579820c292d20d1"
+    }
+  ]
+}
