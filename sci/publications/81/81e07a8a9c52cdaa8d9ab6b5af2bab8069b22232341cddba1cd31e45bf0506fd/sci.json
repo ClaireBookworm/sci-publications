@@ -1,0 +1,156 @@
+{
+  "title": "On slow-response trials, dorsal attention BOLD responses shift later than visual responses by about a fifth of the extra response time, mostly at the response end, in 18 held-out study families",
+  "abstract": "On trials where a person responds slowly, the BOLD fMRI response of the dorsal attention network moves later in time than the visual response in the same trials, by about a fifth to a quarter of the extra response time, and mostly at the end of the response. Such trial-to-trial timing differences between brain networks matter for fMRI models that assume the same response timing on every trial, and for reading timing differences between regions as neural order.\n\nWe used ReadyNeuro, minimally preprocessed OpenNeuro fMRI: 67 studies, 133 study-tasks, 528 people, all with trial-level response times (RT). In each run we split trials at the median RT of their trial type. A finite impulse response model, which assumes no response shape, gave the average response to the fast half and to the slow half. A joint double-gamma fit gave the timing shift (slow minus fast). The locking index is this shift divided by the RT difference: 0 means locked to the stimulus, 1 means moving with the response.\n\nThe pre-registered primary test compared the dorsal attention index with the visual index in the same trials. It passed in the held-out set (35 studies; 18 study families had both networks responsive): 0.25 (95% CI 0.06-0.44, p = 0.005) in the registered run, and 0.21 (0.03-0.39, p = 0.011) after we corrected a left-right atlas orientation error that an independent review found. It held after white-matter/CSF regression and under Hartung-Knapp and Wilcoxon tests; after global-signal regression it held only without one outlier study. Post hoc, the difference was mostly at the falling edge of the response (0.40-0.54 of the RT difference) rather than the rising edge (0.08-0.19). Descriptively, salience and somatomotor networks also shifted more than visual cortex. Two registered tests failed: the absolute index of task-positive networks (0.57) was not above 0.5, and an injection control showed that in the held-out designs even a synthetic response-locked signal reads only 0.56. The absolute index therefore depends on task design and noise. We also show that a common self-template latency estimator underestimates shifts more at low signal-to-noise ratio.\n\nLimits: 8 people per study, atlas networks after rigid alignment, no physiological or motion recordings, and a corrected re-analysis that was not blind. The effect is small (about 0.1 s for a typical 0.4 s RT difference); its direction was known from single studies.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "eess.IV"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "BOLD timing",
+    "response time",
+    "reaction time",
+    "hemodynamic response",
+    "finite impulse response",
+    "dorsal attention network",
+    "visual cortex",
+    "time on task",
+    "event-related fMRI",
+    "OpenNeuro",
+    "ReadyNeuro",
+    "pre-registration",
+    "latency estimation",
+    "atlas orientation"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_main.png",
+      "caption": "Corrected re-analysis. (a) One discovery study: group FIR responses to the fast and slow halves of trials in three networks; the dorsal attention and salience responses end later on slow trials than the visual response does. (b) Locking index (timing shift / RT difference) per network in discovery (open circles) and confirmation (filled squares), random effects with 95% CI; the absolute scale depends on design (a synthetic response-locked signal reads 0.94 in discovery designs and 0.56 in confirmation designs). (c) Within-study-task difference from the visual network; C1 is the registered primary test."
+    },
+    {
+      "path": "files/figures/fig3_estimators.png",
+      "caption": "Injection test in the real discovery designs with AR(1) noise: a self-template latency estimator (blue) underestimates response-locked and duration shifts more at lower amplitude; the joint parametric estimator (orange) used in the registered tests does not show this trend at 0.2 z or more, but it is noisy and biased at 0.1 z."
+    },
+    {
+      "path": "files/figures/fig2_maps.png",
+      "caption": "Parcel locking-index maps for positive responses in discovery and confirmation (corrected re-analysis; parcel centroids from above and from each side). Darker parcels shift more with RT. The maps are noisy; discovery and confirmation maps correlate at Spearman 0.34, and a 7-network mean map predicts new studies as well as the parcel map."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:b9c348bdcde7a7154ce74f8527918569cdfdc5085fc9ae6b82787d2496b9097f",
+      "reason": "Campaign A4 (the condition), leaf event-hrf."
+    },
+    {
+      "target": "sci:sha256:4bed64765da447dcd84182beddac8da44e8607a2303eb7e68da57e77aa12e5d2",
+      "reason": "Earlier study on the same leaf (regional latency and resting lag). We chose a child question it left open: the trial-dependent part of regional timing, measured within region so that vascular and slice-timing delays cancel."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro corpus (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests and shard access."
+    },
+    {
+      "target": "https://openneuro.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source studies and events files."
+    },
+    {
+      "target": "doi:10.1093/cercor/bhx179",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Schaefer 2018 parcellation."
+    },
+    {
+      "target": "doi:10.1038/s41592-022-01681-2",
+      "relations": [
+        "uses"
+      ],
+      "reason": "TemplateFlow atlas files."
+    },
+    {
+      "target": "doi:10.1371/journal.pone.0004257",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Yarkoni et al. 2009: later activation on long-RT trials in five datasets; we quantify the shift per network as a fraction of the RT difference and compare networks within trials."
+    },
+    {
+      "target": "doi:10.1523/JNEUROSCI.0948-08.2008",
+      "relations": [
+        "supports"
+      ],
+      "reason": "Sigman and Dehaene 2008: sensory BOLD phase follows the stimulus while a parieto-frontal network follows the response delay (single study)."
+    },
+    {
+      "target": "doi:10.7554/eLife.73018",
+      "reason": "Burlingham et al. 2022: task-related responses in early visual cortex scale with RT."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2008.07.065",
+      "reason": "Grinband et al. 2008: variable-epoch (duration = RT) model."
+    },
+    {
+      "target": "doi:10.1038/s41562-023-01760-0",
+      "reason": "Mumford et al. 2024: response time effects in fMRI analyses."
+    },
+    {
+      "target": "doi:10.1073/pnas.95.18.10902",
+      "reason": "Menon et al. 1998: latency-resolved fMRI chronometry."
+    },
+    {
+      "target": "doi:10.1162/089892900562129",
+      "reason": "Richter et al. 2000: parietal response width follows RT in mental rotation."
+    },
+    {
+      "target": "doi:10.1016/S0896-6273(02)00747-X",
+      "reason": "Formisano et al. 2002: time-resolved fMRI of parietal activation."
+    },
+    {
+      "target": "doi:10.1006/nimg.2001.0912",
+      "reason": "Maccotta et al. 2001: stimulus- versus response-locked timing."
+    },
+    {
+      "target": "doi:10.1002/hbm.25026",
+      "reason": "Viswanathan et al. 2020: response-locking protocol for fMRI chronometry."
+    },
+    {
+      "target": "doi:10.1073/pnas.0337747100",
+      "reason": "Bellgowan et al. 2003: task modulation of fMRI latency."
+    },
+    {
+      "target": "doi:10.1038/nn1727",
+      "reason": "Weissman et al. 2006: lapses of attention and default-mode activity."
+    },
+    {
+      "target": "doi:10.1002/hbm.23866",
+      "reason": "Firbank et al. 2018: delayed task-positive activity with long RTs; default-mode deactivation timing unchanged."
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2003.11.029",
+      "reason": "Handwerker et al. 2004: HRF variability across regions and people."
+    },
+    {
+      "target": "doi:10.1177/0271678X251325413",
+      "reason": "Mangini et al. 2025: HRF variation across tasks and regions in HCP."
+    }
+  ]
+}
