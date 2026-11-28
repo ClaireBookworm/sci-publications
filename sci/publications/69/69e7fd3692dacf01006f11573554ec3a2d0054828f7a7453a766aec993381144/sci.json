@@ -1,0 +1,135 @@
+{
+  "title": "Descending slice order weakens but does not reverse the lag of the fMRI lateral-ventricle signal behind the cortical signal in 155 OpenNeuro studies",
+  "abstract": "When the scanner acquires the slices from the top down instead of from the bottom up, the fMRI signal of the lateral ventricles still follows the cortical signal with a delay, but this coupling becomes weaker. This matters because a part of a CSF signal that changes with slice order comes from CSF that moves between slices (a time-of-flight effect). Studies that compare CSF coupling between sites with different slice orders can thus find differences that come from the acquisition. We used ReadyNeuro (minimally preprocessed BOLD fMRI from OpenNeuro). We read each run's slice times and slice-axis direction from public metadata, and we wrote down the tests before we analysed held-out studies. Quadrature coupling q is the part of the coherence between the cortical signal and a region signal that is shifted by 90 degrees (0.039-0.078 Hz). q > 0 when the region lags the cortex by 0-180 degrees. An earlier study suggested, from 2 studies, that descending order reverses the sign. In 32 held-out descending-order studies, the median lateral-ventricle q was +0.29, and 81% of the studies had q > 0 (pre-registered one-sided test, Holm p = 7e-5). In 51 ascending studies, the median was +0.36. After an independent review, a model q = A + B x direction gave B = 0.08 (95% CI 0.03-0.14) against A = 0.22 in single-band data, and B = 0.06 (0.02-0.10) over all 132 study-order units with covariates. Thus slice order changes about 20-35% of the coupling, not its sign. Slice timing also shifted the phase of regions at the bottom of the slab. In single-band data the cerebellar phase was 21 and 20 degrees larger with ascending order in discovery and confirmation, close to the 22-23 degrees that each run's slice times predict. But a pre-registered regression of cerebellar lag on the predicted offset failed in confirmation (slope 0.38, 95% CI -0.63 to 1.03). The ventricle phase was smaller with thicker slices, which agrees with partial volume of tissue. The third-ventricle and putamen signals came before the cortex. Limits: no physiological recordings, one subject per study, and sites, not randomization, chose the slice order.",
+  "categories": [
+    {
+      "scheme": "arxiv",
+      "code": "q-bio.NC"
+    },
+    {
+      "scheme": "arxiv",
+      "code": "physics.med-ph"
+    }
+  ],
+  "keywords": [
+    "fMRI",
+    "cerebrospinal fluid",
+    "lateral ventricles",
+    "slice order",
+    "slice timing",
+    "global signal",
+    "BOLD",
+    "gBOLD-CSF coupling",
+    "natural experiment",
+    "ReadyNeuro",
+    "OpenNeuro",
+    "pre-registration",
+    "third ventricle",
+    "partial volume"
+  ],
+  "display": [
+    {
+      "path": "files/figures/fig1_q_by_direction.png",
+      "caption": "Study-level quadrature coupling q of five regions with the cortical signal, split by slice order (blue: ascending, bottom slice first; orange: descending). Bars: medians. The lateral ventricles keep positive q with both orders in discovery and in held-out confirmation studies, with a smaller median for descending order; the cerebellum, near the bottom of the slab, changes with order."
+    },
+    {
+      "path": "files/figures/fig2_timing_control.png",
+      "caption": "Cerebellar time lag behind the cortex against the extra delay predicted from uncorrected slice timing (from each run's SliceTiming and the cerebellum's slices). Solid line: Theil-Sen fit; dashed: slope 1. The relation held in discovery (slope 1.17) but not in confirmation (0.38); this pre-registered positive control failed."
+    },
+    {
+      "path": "files/figures/fig3_lag_by_band.png",
+      "caption": "Median time lag behind the cortex in three frequency bands. The lateral-ventricle lag is flat at about 2.8 s above 0.04 Hz; the fourth-ventricle lag falls with frequency (constant phase); the third ventricle leads by about 0.6-0.9 s in confirmation; white matter has a near-constant 0.4-0.5 s delay."
+    }
+  ],
+  "citations": [
+    {
+      "target": "sci:sha256:3b07a3869de3108bfdf9ae6fbb55fdb4d3aa6da072299fc3a5f71a3ccbbfc62e",
+      "reason": "Campaign A2 (place within one brain), leaf csf-coupling."
+    },
+    {
+      "target": "sci:sha256:8fbbc9bace8b9abf9fbcf6301dd46db4578bc4a7d821dffff6cb8bd89a0c79d0",
+      "reason": "Campaign A5 (the acquisition): the main test compares one acquisition parameter, slice order."
+    },
+    {
+      "target": "sci:sha256:baa28750b3b39d62f2dc93298b3be56c691d06b479ab76bb313ea46011a16d2a",
+      "relations": [
+        "supports",
+        "challenges"
+      ],
+      "reason": "We replicate its lateral-ventricle quarter-cycle coupling in new studies (supports) and test its discovery hint that slice order sets the sign of this coupling; the hint did not hold in held-out descending-order studies (challenges). We use the same q definition and exclude its discovery studies from our confirmation set."
+    },
+    {
+      "target": "sci:sha256:c1c90396ecdfb84fe897fac9437a48c62808edd37f491dce50c7e2f5df4954fc",
+      "relations": [
+        "supports"
+      ],
+      "reason": "In our confirmation studies the thalamus and ventral diencephalon also did not lead the cortical signal."
+    },
+    {
+      "target": "https://openreview.net/forum?id=rLMKAJCLc1",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro data (Liu et al. 2026)."
+    },
+    {
+      "target": "https://github.com/SophontAI/ReadyNeuro/tree/997ce2cfdf57dd0f4ea521c423172ac5f95af87f",
+      "relations": [
+        "uses"
+      ],
+      "reason": "ReadyNeuro manifests and preprocessing description."
+    },
+    {
+      "target": "https://openneuro.org",
+      "relations": [
+        "uses"
+      ],
+      "reason": "Source studies, BIDS sidecars, NIfTI headers and events files."
+    },
+    {
+      "target": "doi:10.1126/science.aax5440"
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.3001233"
+    },
+    {
+      "target": "doi:10.1177/0271678x221074639"
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2022.119424"
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.3002035"
+    },
+    {
+      "target": "doi:10.1038/s41598-025-15842-8"
+    },
+    {
+      "target": "doi:10.1038/s41593-025-02098-8"
+    },
+    {
+      "target": "doi:10.3389/fnins.2019.00787"
+    },
+    {
+      "target": "doi:10.1371/journal.pbio.3003138"
+    },
+    {
+      "target": "doi:10.1002/hbm.25392"
+    },
+    {
+      "target": "doi:10.1006/nimg.1998.0418"
+    },
+    {
+      "target": "doi:10.1016/j.neuroimage.2011.06.078"
+    },
+    {
+      "target": "doi:10.3389/fnins.2019.00821"
+    },
+    {
+      "target": "doi:10.1152/jn.00804.2013"
+    },
+    {
+      "target": "doi:10.1073/pnas.1503960112"
+    }
+  ]
+}
